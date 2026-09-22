@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex, nofollow" />
+<title>ExamFlow Admin</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22><text y=%2220%22 font-size=%2222%22>🎓</text></svg>" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --bg: #F7F6FB; --surface: #FFFFFF; --surface-2: #FBFAFE; --ink: #1E1A2E; --ink-soft: #4B4560; --muted: #8985A6;
+    --border: #EAE7F5; --indigo: #6552F5; --indigo-dark: #5140D6; --indigo-soft: #F0EEFE;
+    --mint: #17C9A8; --mint-soft: #DCFBF4; --amber: #F59E0B; --amber-soft: #FEF3C7; --red: #DC2626; --red-soft: #FDECEC;
+    --green: #16A34A; --green-soft: #DCFCE7; --blue: #3E8BFF; --blue-soft: #E6F0FF; --pink: #FF6FBB; --pink-soft: #FCE4F1;
+    --display: 'Plus Jakarta Sans', system-ui, sans-serif;
+    --body: 'Manrope', system-ui, sans-serif;
+    --r-lg: 16px; --r-md: 11px; --r-sm: 8px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #120F1F; --surface: #1A1630; --surface-2: #1F1A38; --ink: #F3F1FB; --ink-soft: #CBC7E6; --muted: #918DB5;
+      --border: #332C56; --indigo: #8A7BFF; --indigo-dark: #7264ED; --indigo-soft: #221D40;
+      --mint: #3EE0BC; --mint-soft: #0F3A31; --amber: #FBBF24; --amber-soft: #3A2C0C; --red: #F87171; --red-soft: #3A1518;
+      --green: #22C55E; --green-soft: #123321; --blue: #6FA0FF; --blue-soft: #16264A; --pink: #FF8FCB; --pink-soft: #3A1730;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 15px; line-height: 1.5; }
+  button, input, select { font: inherit; color: inherit; }
+  a { color: var(--indigo); }
+  :focus-visible { outline: 2px solid var(--indigo); outline-offset: 2px; border-radius: 6px; }
+  [hidden] { display: none !important; }
+  .num { font-variant-numeric: tabular-nums; }
+
+  /* ---------- gates ---------- */
+  .gate { min-height: 100vh; display: grid; place-items: center; padding: 24px; }
+  .gate-box { width: 100%; max-width: 380px; }
+  .brand { font-family: var(--display); font-weight: 800; font-size: 18px; display: flex; align-items: center; gap: 8px; }
+  .brand small { font-family: var(--body); font-weight: 700; font-size: 12px; color: var(--indigo); background: var(--indigo-soft); padding: 2px 8px; border-radius: 999px; }
+  .gate h1 { font-family: var(--display); font-size: 28px; line-height: 1.2; margin: 28px 0 6px; letter-spacing: -0.01em; }
+  .gate p { color: var(--ink-soft); margin: 0 0 24px; }
+  label.field { display: block; font-weight: 600; font-size: 13px; margin: 14px 0 6px; color: var(--ink-soft); }
+  .input, .select {
+    width: 100%; padding: 10px 12px; border: 1px solid var(--border); background: var(--surface);
+    border-radius: var(--r-md); outline: none; min-height: 40px;
+  }
+  .input:focus, .select:focus { border-color: var(--indigo); }
+  .btn { border: 0; border-radius: var(--r-md); padding: 10px 16px; font-weight: 700; cursor: pointer; background: var(--indigo); color: #fff; min-height: 40px; }
+  .btn:hover { background: var(--indigo-dark); }
+  .btn:disabled { opacity: .55; cursor: default; }
+  .btn-block { width: 100%; margin-top: 20px; }
+  .btn-quiet { background: var(--surface); color: var(--ink-soft); border: 1px solid var(--border); padding: 7px 12px; font-weight: 600; font-size: 13px; min-height: 34px; }
+  .btn-quiet:hover { background: var(--indigo-soft); color: var(--ink); }
+  .msg { margin-top: 14px; font-size: 14px; color: var(--red); min-height: 21px; }
+  .msg.info { color: var(--ink-soft); }
+
+  /* ---------- shell ---------- */
+  .shell { display: grid; grid-template-columns: 236px minmax(0, 1fr); min-height: 100vh; }
+  .shell > * { min-width: 0; }
+  .rail { background: var(--surface); border-right: 1px solid var(--border); padding: 20px 14px; position: sticky; top: 0; height: 100vh; display: flex; flex-direction: column; gap: 22px; overflow-y: auto; }
+  .nav { display: flex; flex-direction: column; gap: 2px; }
+  .nav-group { font-size: 12px; font-weight: 700; color: var(--muted); padding: 12px 12px 4px; }
+  .nav button { text-align: left; border: 0; background: none; padding: 8px 12px; border-radius: 9px; font-weight: 600; color: var(--ink-soft); cursor: pointer; display: flex; align-items: center; gap: 10px; }
+  .nav button svg { width: 18px; height: 18px; flex: none; opacity: .8; }
+  .nav button:hover { background: var(--indigo-soft); color: var(--ink); }
+  .nav button[aria-current=page] { background: var(--indigo-soft); color: var(--indigo); }
+  .nav .badge { margin-left: auto; font-size: 11px; font-weight: 800; min-width: 20px; text-align: center; padding: 1px 6px; border-radius: 999px; background: var(--red-soft); color: var(--red); }
+  .rail-foot { margin-top: auto; font-size: 13px; color: var(--muted); border-top: 1px solid var(--border); padding-top: 14px; }
+  .rail-foot .who { color: var(--ink-soft); font-weight: 700; word-break: break-all; margin-bottom: 8px; }
+  .topbar { display: flex; align-items: center; gap: 14px; padding: 16px 32px; border-bottom: 1px solid var(--border); background: var(--bg); position: sticky; top: 0; z-index: 5; }
+  .topbar h1 { font-family: var(--display); font-size: 20px; margin: 0; letter-spacing: -0.01em; }
+  .topbar .grow { flex: 1; }
+  .topbar .input { max-width: 300px; min-height: 36px; padding: 7px 12px; }
+  .menu-btn { display: none; }
+  main { padding: 24px 32px 64px; max-width: 1280px; }
+
+  /* ---------- cards ---------- */
+  .intro { font-family: var(--display); font-weight: 800; font-size: clamp(24px, 3.4vw, 32px); line-height: 1.15; letter-spacing: -0.02em; margin: 0; }
+  .intro-sub { color: var(--ink-soft); margin: 6px 0 22px; max-width: 70ch; }
+  .stats { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 12px; margin-bottom: 26px; }
+  .stat { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-lg); padding: 14px 16px; display: grid; grid-template-columns: 36px 1fr; gap: 4px 12px; align-items: start; }
+  .stat .ic { grid-row: span 2; width: 36px; height: 36px; border-radius: 10px; display: grid; place-items: center; }
+  .stat .ic svg { width: 19px; height: 19px; }
+  .stat .label { font-size: 13px; color: var(--ink-soft); font-weight: 600; line-height: 1.3; }
+  .stat .value { font-family: var(--display); font-weight: 800; font-size: 24px; line-height: 1.1; }
+  .stat .value.text { font-size: 16px; color: var(--ink-soft); padding-top: 4px; }
+  .stat .sub { grid-column: 2; font-size: 12px; color: var(--muted); }
+  .tone-indigo { background: var(--indigo-soft); color: var(--indigo); }
+  .tone-mint { background: var(--mint-soft); color: var(--mint); }
+  .tone-amber { background: var(--amber-soft); color: var(--amber); }
+  .tone-red { background: var(--red-soft); color: var(--red); }
+  .tone-green { background: var(--green-soft); color: var(--green); }
+  .tone-blue { background: var(--blue-soft); color: var(--blue); }
+  .tone-pink { background: var(--pink-soft); color: var(--pink); }
+
+  .panel { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-lg); padding: 18px 18px 14px; }
+  .panel-head { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 12px; }
+  .panel-head h2, .panel-head h3 { font-family: var(--display); font-size: 16px; margin: 0; }
+  .panel-note { font-size: 12px; color: var(--muted); margin: -6px 0 10px; }
+  .grid-2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+  .grid-main { display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr); gap: 16px; align-items: start; }
+  .stack { display: grid; gap: 16px; }
+  .section-gap { margin-top: 26px; }
+  .section-title { font-family: var(--display); font-size: 17px; margin: 0 0 12px; }
+
+  .seg { display: inline-flex; border: 1px solid var(--border); border-radius: 9px; overflow: hidden; background: var(--surface); flex-wrap: wrap; }
+  .seg button { border: 0; background: none; padding: 5px 11px; font-size: 13px; font-weight: 600; color: var(--ink-soft); cursor: pointer; }
+  .seg button + button { border-left: 1px solid var(--border); }
+  .seg button[aria-pressed=true] { background: var(--indigo-soft); color: var(--indigo); }
+
+  /* ---------- charts ---------- */
+  .chart { position: relative; }
+  .chart svg { display: block; width: 100%; height: 190px; }
+  .chart svg text { font-family: var(--body); font-size: 11px; fill: var(--muted); }
+  .legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12px; color: var(--ink-soft); margin-top: 6px; }
+  .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 5px; vertical-align: -1px; }
+  .tip { position: absolute; pointer-events: none; background: var(--ink); color: var(--bg); font-size: 12px; padding: 7px 9px; border-radius: 8px; white-space: nowrap; transform: translate(-50%, -100%); top: 0; opacity: 0; }
+  .tip b { display: block; margin-bottom: 2px; }
+  .chart-empty { height: 190px; display: grid; place-items: center; color: var(--muted); font-size: 14px; text-align: center; }
+
+  /* ---------- feed ---------- */
+  .feed { list-style: none; margin: 0; padding: 0; max-height: 560px; overflow-y: auto; }
+  .feed li { display: grid; grid-template-columns: 30px 1fr; gap: 10px; padding: 9px 0; border-bottom: 1px solid var(--border); }
+  .feed li:last-child { border-bottom: 0; }
+  .feed .ic { width: 30px; height: 30px; border-radius: 9px; display: grid; place-items: center; }
+  .feed .ic svg { width: 16px; height: 16px; }
+  .feed .what { font-size: 14px; line-height: 1.35; }
+  .feed .when { font-size: 12px; color: var(--muted); }
+  .live-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--green); display: inline-block; margin-right: 6px; }
+
+  /* ---------- tables ---------- */
+  .toolbar { display: flex; gap: 10px; align-items: center; margin: 0 0 14px; flex-wrap: wrap; }
+  .toolbar .input { max-width: 280px; }
+  .toolbar .select { width: auto; min-width: 140px; }
+  .toolbar .date { width: auto; }
+  .toolbar .spacer { flex: 1; }
+  .table-wrap { overflow-x: auto; border: 1px solid var(--border); border-radius: var(--r-lg); background: var(--surface); }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th { text-align: left; font-weight: 700; color: var(--muted); font-size: 12px; padding: 11px 14px; border-bottom: 1px solid var(--border); white-space: nowrap; background: var(--surface-2); }
+  td { padding: 11px 14px; border-bottom: 1px solid var(--border); vertical-align: middle; }
+  tr:last-child td { border-bottom: 0; }
+  tr.click { cursor: pointer; }
+  tr.click:hover td { background: var(--surface-2); }
+  td.r, th.r { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .person b { display: block; font-weight: 700; }
+  .person span { color: var(--muted); font-size: 13px; word-break: break-all; }
+  .pill { display: inline-block; font-size: 12px; font-weight: 700; padding: 2px 9px; border-radius: 999px; white-space: nowrap; }
+  .dim { color: var(--muted); }
+  .bar { height: 5px; background: var(--border); border-radius: 3px; margin-top: 5px; min-width: 70px; overflow: hidden; }
+  .bar > span { display: block; height: 100%; background: var(--mint); border-radius: 3px; }
+  .pager { display: flex; gap: 8px; align-items: center; justify-content: flex-end; margin-top: 12px; font-size: 13px; color: var(--muted); flex-wrap: wrap; }
+  .link-btn { border: 0; background: none; color: var(--indigo); font-weight: 700; cursor: pointer; padding: 4px 0; }
+
+  .hbars { display: grid; gap: 10px; }
+  .hbar-row { display: grid; grid-template-columns: minmax(90px, 160px) 1fr 44px; gap: 10px; align-items: center; font-size: 14px; }
+  .hbar-row .track { height: 10px; background: var(--indigo-soft); border-radius: 5px; overflow: hidden; }
+  .hbar-row .fill { height: 100%; background: var(--indigo); border-radius: 5px; }
+  .hbar-row .n { text-align: right; font-weight: 700; font-variant-numeric: tabular-nums; }
+
+  /* ---------- feedback list ---------- */
+  .fb-list { list-style: none; margin: 0; padding: 0; border: 1px solid var(--border); border-radius: var(--r-lg); background: var(--surface); }
+  .fb-list li { padding: 15px 18px; border-bottom: 1px solid var(--border); }
+  .fb-list li:last-child { border-bottom: 0; }
+  .fb-meta { font-size: 13px; color: var(--muted); display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+  .fb-text { margin: 8px 0 0; white-space: pre-wrap; word-break: break-word; max-width: 80ch; }
+  .notice { background: var(--indigo-soft); color: var(--ink-soft); border-radius: var(--r-md); padding: 10px 14px; font-size: 14px; margin-bottom: 14px; }
+
+  /* ---------- states ---------- */
+  .empty { padding: 34px 20px; text-align: center; color: var(--ink-soft); }
+  .empty b { display: block; color: var(--ink); font-family: var(--display); margin-bottom: 4px; }
+  .error-box { background: var(--red-soft); border-radius: var(--r-md); padding: 14px 16px; display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+  .error-box span { color: var(--ink); font-weight: 600; }
+  .sk { background: linear-gradient(90deg, var(--border) 25%, var(--surface-2) 50%, var(--border) 75%); background-size: 200% 100%; animation: sk 1.3s infinite; border-radius: 8px; }
+  @keyframes sk { to { background-position: -200% 0; } }
+  .sk-stat { height: 76px; border-radius: var(--r-lg); }
+  .sk-row { height: 44px; margin-bottom: 8px; }
+  .sk-chart { height: 220px; border-radius: var(--r-lg); }
+  .banner { background: var(--amber-soft); color: var(--ink); border-radius: var(--r-md); padding: 10px 14px; font-size: 14px; margin-bottom: 16px; }
+
+  /* ---------- health ---------- */
+  .svc { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; margin-bottom: 20px; }
+  .svc .panel { padding: 16px; }
+  .svc h3 { font-family: var(--display); font-size: 15px; margin: 0 0 8px; display: flex; align-items: center; gap: 8px; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--muted); flex: none; display: inline-block; }
+  .dot.online, .dot.healthy { background: var(--green); } .dot.warning { background: var(--amber); } .dot.offline, .dot.critical { background: var(--red); }
+  .svc .meta { font-size: 13px; color: var(--ink-soft); }
+  .kv { margin: 0; }
+  .kv div { display: flex; justify-content: space-between; gap: 12px; padding: 9px 0; border-bottom: 1px solid var(--border); font-size: 14px; }
+  .kv div:last-child { border-bottom: 0; }
+  .kv dt { color: var(--ink-soft); }
+  .kv dd { margin: 0; font-weight: 700; text-align: right; }
+
+  /* ---------- drawer ---------- */
+  .drawer-back { position: fixed; inset: 0; background: rgba(18,15,31,.4); z-index: 40; display: none; }
+  .drawer { position: fixed; top: 0; right: 0; bottom: 0; width: min(640px, 100%); background: var(--bg); z-index: 41; overflow-y: auto; box-shadow: -20px 0 50px rgba(18,15,31,.2); transform: translateX(100%); transition: transform .2s ease; }
+  .drawer.open { transform: none; }
+  .drawer-head { position: sticky; top: 0; background: var(--bg); padding: 18px 22px; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: start; gap: 12px; z-index: 1; }
+  .drawer-head h2 { font-family: var(--display); font-size: 20px; margin: 0; }
+  .drawer-head p { margin: 2px 0 0; color: var(--muted); font-size: 14px; word-break: break-all; }
+  .drawer-body { padding: 18px 22px 40px; display: grid; gap: 16px; }
+  .drawer .stats { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); margin: 0; }
+  .chips { display: flex; gap: 6px; flex-wrap: wrap; }
+  .chip { font-size: 13px; padding: 3px 10px; border-radius: 999px; background: var(--indigo-soft); color: var(--indigo); font-weight: 600; }
+
+  /* ---------- toast ---------- */
+  .toasts { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); z-index: 60; display: grid; gap: 8px; }
+  .toast { background: var(--ink); color: var(--bg); padding: 10px 16px; border-radius: 10px; font-size: 14px; font-weight: 600; box-shadow: 0 10px 30px rgba(0,0,0,.2); }
+
+  @media (max-width: 1100px) { .grid-main { grid-template-columns: minmax(0, 1fr); } }
+  @media (max-width: 860px) {
+    .grid-2 { grid-template-columns: minmax(0, 1fr); }
+    .shell { grid-template-columns: minmax(0, 1fr); }
+    .rail { position: fixed; left: 0; top: 0; bottom: 0; width: 260px; z-index: 30; transform: translateX(-100%); transition: transform .2s ease; }
+    .rail.open { transform: none; box-shadow: 20px 0 50px rgba(18,15,31,.2); }
+    .menu-btn { display: inline-flex; }
+    .topbar { padding: 12px 16px; }
+    .topbar .input { display: none; }
+    main { padding: 18px 16px 56px; }
+    .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .stat { grid-template-columns: 1fr; }
+    .stat .ic { display: none; }
+    .stat .sub { grid-column: 1; }
+  }
+  @media (prefers-reduced-motion: reduce) { *, .drawer, .rail { transition: none !important; animation: none !important; } }
+</style>
+</head>
+<body>
+
+<section class="gate" id="view-login" hidden>
+  <form class="gate-box" id="login-form" novalidate>
+    <div class="brand">🎓 ExamFlow <small>Admin</small></div>
+    <h1>Sign in to the admin panel</h1>
+    <p>Use your ExamFlow account. Only administrator accounts can open this panel.</p>
+    <label class="field" for="email">Email</label>
+    <input class="input" id="email" type="email" autocomplete="username" required />
+    <label class="field" for="password">Password</label>
+    <input class="input" id="password" type="password" autocomplete="current-password" required />
+    <button class="btn btn-block" type="submit" id="login-btn">Sign in</button>
+    <div class="msg" id="login-msg" role="alert"></div>
+  </form>
+</section>
+
+<section class="gate" id="view-denied" hidden>
+  <div class="gate-box">
+    <div class="brand">🎓 ExamFlow <small>Admin</small></div>
+    <h1>This account can't open the admin panel</h1>
+    <p id="denied-who">Only ExamFlow administrator accounts have access.</p>
+    <button class="btn" id="denied-switch">Sign in with a different account</button>
+    <p style="margin-top:20px"><a href="/">Go to ExamFlow</a></p>
+  </div>
+</section>
+
+<div class="shell" id="view-app" hidden>
+  <aside class="rail" id="rail">
+    <div class="brand">🎓 ExamFlow <small>Admin</small></div>
+    <nav class="nav" aria-label="Admin sections" id="nav"></nav>
+    <div class="rail-foot">
+      <div class="who" id="who"></div>
+      <button class="btn btn-quiet" id="signout">Sign out</button>
+    </div>
+  </aside>
+  <div>
+    <header class="topbar">
+      <button class="btn btn-quiet menu-btn" id="menu-btn" aria-label="Open menu">☰</button>
+      <h1 id="page-title">Overview</h1>
+      <div class="grow"></div>
+      <input class="input" type="search" id="global-search" placeholder="Find a student by name or email" aria-label="Find a student" />
+    </header>
+    <main id="main" tabindex="-1"></main>
+  </div>
+</div>
+
+<div class="drawer-back" id="drawer-back"></div>
+<aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-title" hidden></aside>
+<div class="toasts" id="toasts" aria-live="polite"></div>
+
+<script>
+(() => {
+  const API = "https://examflow-api-n1gh.onrender.com";
+  const ADMIN_TOKEN_KEY = "examflow-admin-token";
+  const STUDENT_TOKEN_KEY = "examflow-token";
+  const TZ = "Asia/Kolkata";
+
+  /* ================= helpers ================= */
+  const $ = (id) => document.getElementById(id);
+  const esc = (v) => String(v ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const fmt = (n) => (n == null ? "—" : Number(n).toLocaleString("en-IN"));
+  const pct = (a, b) => (b ? Math.round((a / b) * 100) : 0);
+  const plural = (n, one, many) => fmt(n) + " " + (Number(n) === 1 ? one : many);
+  const storageGet = (s, k) => { try { return s.getItem(k); } catch (e) { return null; } };
+  const storageSet = (s, k, v) => { try { v == null ? s.removeItem(k) : s.setItem(k, v); } catch (e) {} };
+
+  const ICONS = {
+    overview: '<path d="M3 13h8V3H3zm10 8h8V11h-8zM3 21h8v-6H3zm10-18v6h8V3z"/>',
+    users: '<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>',
+    userPlus: '<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M19 8v6M22 11h-6"/>',
+    activity: '<path d="M22 12h-4l-3 9L9 3l-3 9H2"/>',
+    calendar: '<rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/>',
+    calendarCheck: '<rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18M9 16l2 2 4-4"/>',
+    clock: '<circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>',
+    check: '<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4 12 14.01l-3-3"/>',
+    list: '<path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/>',
+    message: '<path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>',
+    bug: '<path d="M8 2l1.88 1.88M14.12 3.88 16 2M9 7.13v-1a3 3 0 1 1 6 0v1"/><path d="M12 20c-3.3 0-6-2.7-6-6v-3a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v3c0 3.3-2.7 6-6 6zM12 20v-9M6.53 9C4.6 8.8 3 7.1 3 5M6 13H2M3 21c0-2.1 1.7-3.9 3.8-4M20.97 5c0 2.1-1.6 3.8-3.5 4M22 13h-4M17.2 17c2.1.1 3.8 1.9 3.8 4"/>',
+    alert: '<path d="m21.73 18-8-14a2 2 0 0 0-3.46 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3z"/><path d="M12 9v4M12 17h.01"/>',
+    book: '<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>',
+    chart: '<path d="M3 3v18h18"/><path d="M18 17V9M13 17V5M8 17v-3"/>',
+    heart: '<path d="M22 12h-4l-3 9L9 3l-3 9H2"/>',
+    server: '<rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><path d="M6 6h.01M6 18h.01"/>',
+    settings: '<circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>',
+    login: '<path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4M10 17l5-5-5-5M15 12H3"/>',
+    upload: '<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M17 8l-5-5-5 5M12 3v12"/>',
+    target: '<circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/>',
+  };
+  const icon = (name) => '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + (ICONS[name] || "") + "</svg>";
+
+  const dateOnly = (d) => (d ? new Date(String(d).length === 10 ? d + "T00:00:00" : d).toLocaleDateString("en-IN", { day: "numeric", month: "short", year: "numeric" }) : "—");
+  const timeOnly = (d) => new Date(d).toLocaleTimeString("en-IN", { hour: "numeric", minute: "2-digit", timeZone: TZ });
+  function ago(ts) {
+    if (!ts) return '<span class="dim">No activity yet</span>';
+    const t = new Date(ts), s = (Date.now() - t.getTime()) / 1000;
+    if (s < 60) return "Just now";
+    if (s < 3600) return plural(Math.floor(s / 60), "minute ago", "minutes ago");
+    const today = new Date().toLocaleDateString("en-CA", { timeZone: TZ });
+    const day = t.toLocaleDateString("en-CA", { timeZone: TZ });
+    const yest = new Date(Date.now() - 86400000).toLocaleDateString("en-CA", { timeZone: TZ });
+    if (s < 3 * 3600) return plural(Math.floor(s / 3600), "hour ago", "hours ago");
+    if (day === today) return "Today, " + timeOnly(ts);
+    if (day === yest) return "Yesterday, " + timeOnly(ts);
+    return t.toLocaleDateString("en-IN", { day: "numeric", month: "short", timeZone: TZ }) + ", " + timeOnly(ts);
+  }
+
+  function toast(text) {
+    const el = document.createElement("div");
+    el.className = "toast"; el.textContent = text;
+    $("toasts").appendChild(el);
+    setTimeout(() => el.remove(), 3200);
+  }
+
+  function errorBox(message, retry) {
+    const id = "retry-" + Math.random().toString(36).slice(2);
+    setTimeout(() => { const b = $(id); if (b) b.onclick = retry; });
+    return '<div class="error-box" role="alert"><span>' + esc(message) + '</span><button class="btn btn-quiet" id="' + id + '">Try again</button></div>';
+  }
+  const skStats = (n) => '<div class="stats">' + '<div class="sk sk-stat"></div>'.repeat(n) + "</div>";
+  const skRows = (n) => '<div class="sk sk-row"></div>'.repeat(n);
+  const empty = (title, text) => '<div class="empty"><b>' + esc(title) + "</b>" + esc(text) + "</div>";
+
+  function statCard(o) {
+    return '<div class="stat"><div class="ic tone-' + (o.tone || "indigo") + '">' + icon(o.icon || "chart") + '</div>' +
+      '<div class="label">' + esc(o.label) + '</div><div class="value num' + (o.raw && !/^[0-9]/.test(String(o.value)) ? " text" : "") + '">' + (o.raw ? esc(o.value) : fmt(o.value)) + "</div>" +
+      (o.sub ? '<div class="sub">' + esc(o.sub) + "</div>" : "") + "</div>";
+  }
+  const pill = (text, tone) => '<span class="pill tone-' + tone + '">' + esc(text) + "</span>";
+  const TASK_PILL = { completed: ["Completed", "green"], pending: ["Pending", "blue"], overdue: ["Overdue", "red"] };
+  const EXAM_PILL = { upcoming: ["Upcoming", "indigo"], past: ["Date passed", "amber"], no_date: ["No date", "blue"] };
+  const DIFF_TONE = { hard: "red", medium: "amber", easy: "green" };
+
+  /* ================= API ================= */
+  let token = null, me = null;
+  class ApiError extends Error { constructor(status, message) { super(message); this.status = status; } }
+  let slowTimer = null;
+  async function api(path) {
+    clearTimeout(slowTimer);
+    slowTimer = setTimeout(() => toast("The server is waking up after being idle. This can take up to a minute."), 5000);
+    let res;
+    try {
+      res = await fetch(API + path, { headers: { "Content-Type": "application/json", ...(token ? { Authorization: "Bearer " + token } : {}) } });
+    } catch (e) {
+      throw new ApiError(0, "Can't reach the ExamFlow server. Check your connection and try again.");
+    } finally {
+      clearTimeout(slowTimer);
+    }
+    let data = {};
+    try { data = await res.json(); } catch (e) {}
+    if (res.status === 401) { signOut(); throw new ApiError(401, "Your session has ended. Please sign in again."); }
+    if (res.status === 403) { showDenied(); throw new ApiError(403, data.error || "No access."); }
+    if (!res.ok) throw new ApiError(res.status, data.error || "Request failed (" + res.status + ").");
+    return data;
+  }
+  async function post(path, body) {
+    const res = await fetch(API + path, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
+    let data = {}; try { data = await res.json(); } catch (e) {}
+    if (!res.ok) throw new ApiError(res.status, data.error || "Request failed.");
+    return data;
+  }
+
+  /* ================= auth ================= */
+  function show(view) { ["login", "denied", "app"].forEach((v) => ($("view-" + v).hidden = v !== view)); }
+  function showDenied() {
+    stopTimers();
+    $("denied-who").textContent = (me ? "Signed in as " + me.email + ". " : "") + "Only ExamFlow administrator accounts have access.";
+    show("denied");
+  }
+  async function start() {
+    token = storageGet(sessionStorage, ADMIN_TOKEN_KEY) || storageGet(localStorage, STUDENT_TOKEN_KEY);
+    if (!token) return show("login");
+    try {
+      const r = await api("/api/me");
+      me = r.user;
+      if (!me.isAdmin) return showDenied();
+      enterApp();
+    } catch (e) {
+      if (e.status === 403) return;
+      token = null; storageSet(sessionStorage, ADMIN_TOKEN_KEY, null); show("login");
+      if (e.status !== 401) $("login-msg").textContent = e.message;
+    }
+  }
+  $("login-form").addEventListener("submit", async (ev) => {
+    ev.preventDefault();
+    const email = $("email").value.trim(), password = $("password").value, msg = $("login-msg");
+    if (!email || !password) { msg.className = "msg"; msg.textContent = "Enter your email and password."; return; }
+    $("login-btn").disabled = true; msg.className = "msg info"; msg.textContent = "Signing in…";
+    try {
+      const r = await post("/api/auth/login", { email, password });
+      token = r.token; storageSet(sessionStorage, ADMIN_TOKEN_KEY, token);
+      me = (await api("/api/me")).user;
+      $("password").value = ""; msg.textContent = "";
+      if (!me.isAdmin) return showDenied();
+      enterApp();
+    } catch (e) {
+      if (e.status !== 403) { msg.className = "msg"; msg.textContent = e.message; }
+    } finally { $("login-btn").disabled = false; }
+  });
+  function signOut() {
+    stopTimers();
+    storageSet(sessionStorage, ADMIN_TOKEN_KEY, null);
+    if (token && storageGet(localStorage, STUDENT_TOKEN_KEY) === token) storageSet(localStorage, STUDENT_TOKEN_KEY, null);
+    token = null; me = null; closeDrawer(); show("login");
+  }
+  $("signout").addEventListener("click", () => { signOut(); toast("Signed out"); });
+  $("denied-switch").addEventListener("click", signOut);
+
+  /* ================= navigation ================= */
+  const PAGES = [
+    { id: "overview", label: "Overview", icon: "overview" },
+    { id: "students", label: "Students", icon: "users" },
+    { id: "exams", label: "Exams", icon: "calendar" },
+    { id: "tasks", label: "Study Tasks", icon: "list" },
+    { id: "analytics", label: "Analytics", icon: "chart" },
+    { group: "Inbox" },
+    { id: "feedback", label: "Feedback", icon: "message" },
+    { id: "bugs", label: "Bug Reports", icon: "bug", badge: "bugs" },
+    { group: "System" },
+    { id: "health", label: "System Health", icon: "server" },
+    { id: "settings", label: "Settings", icon: "settings" },
+  ];
+  let current = "overview";
+  const badges = {};
+  function renderNav() {
+    $("nav").innerHTML = PAGES.map((p) => p.group
+      ? '<div class="nav-group">' + esc(p.group) + "</div>"
+      : '<button data-page="' + p.id + '"' + (p.id === current ? ' aria-current="page"' : "") + ">" + icon(p.icon) + esc(p.label) +
+        (p.badge && badges[p.badge] ? '<span class="badge">' + fmt(badges[p.badge]) + "</span>" : "") + "</button>"
+    ).join("");
+    $("nav").querySelectorAll("button").forEach((b) => b.addEventListener("click", () => go(b.dataset.page)));
+  }
+  function go(page, opts = {}) {
+    if (!PAGES.some((p) => p.id === page)) page = "overview";
+    current = page; stopTimers();
+    $("rail").classList.remove("open");
+    $("page-title").textContent = PAGES.find((p) => p.id === page).label;
+    history.replaceState(null, "", "#" + page);
+    renderNav();
+    ({ overview: pageOverview, students: pageStudents, exams: pageExams, tasks: pageTasks, analytics: pageAnalytics,
+       feedback: () => pageInbox("feedback"), bugs: () => pageInbox("bug"), health: pageHealth, settings: pageSettings })[page](opts);
+    $("main").focus({ preventScroll: true });
+    window.scrollTo(0, 0);
+  }
+  $("menu-btn").addEventListener("click", () => $("rail").classList.toggle("open"));
+  let gTimer;
+  $("global-search").addEventListener("input", (e) => {
+    clearTimeout(gTimer);
+    gTimer = setTimeout(() => go("students", { q: e.target.value.trim() }), 350);
+  });
+
+  let timers = [];
+  function stopTimers() { timers.forEach(clearInterval); timers = []; }
+  function every(ms, fn) { timers.push(setInterval(() => { if (!document.hidden) fn(); }, ms)); }
+
+  function enterApp() {
+    $("who").textContent = me.email;
+    show("app");
+    go(location.hash.replace("#", "") || "overview");
+    api("/api/admin/overview").then((o) => { badges.bugs = o.feedback.openBugs; renderNav(); }).catch(() => {});
+  }
+
+  /* ================= charts ================= */
+  const RANGES = [["7", "7 days"], ["30", "30 days"], ["90", "90 days"], ["all", "All time"]];
+  const rangeSeg = (id, value) => '<div class="seg" role="group" aria-label="Time range" id="' + id + '">' +
+    RANGES.map(([v, l]) => '<button data-v="' + v + '" aria-pressed="' + (v === value) + '">' + l + "</button>").join("") + "</div>";
+  function bindSeg(id, fn) {
+    const el = $(id); if (!el) return;
+    el.querySelectorAll("button").forEach((b) => b.addEventListener("click", () => {
+      el.querySelectorAll("button").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+      fn(b.dataset.v);
+    }));
+  }
+  function bucketLabel(date, unit, long) {
+    const d = new Date(date + "T00:00:00");
+    if (unit === "month") return d.toLocaleDateString("en-IN", { month: "short", year: long ? "numeric" : "2-digit" });
+    const s = d.toLocaleDateString("en-IN", { day: "numeric", month: "short" });
+    return unit === "week" ? (long ? "Week of " + s : s) : s;
+  }
+  // series: [{key, label, color, type: 'bar'|'line'}]
+  function drawChart(el, points, unit, series) {
+    if (!el) return;
+    const total = points.reduce((a, p) => a + series.reduce((b, s) => b + (p[s.key] || 0), 0), 0);
+    const legend = '<div class="legend">' + series.map((s) => '<span><i style="background:' + s.color + '"></i>' + esc(s.label) + "</span>").join("") + "</div>";
+    if (!points.length || total === 0) { el.innerHTML = '<div class="chart-empty">Nothing recorded in this period yet.</div>' + legend; return; }
+    el.innerHTML = '<svg role="img"></svg><div class="tip"></div>' + legend;
+    const svg = el.querySelector("svg"), tip = el.querySelector(".tip");
+    const W = Math.max(el.clientWidth || 600, 300), H = 190, padL = 30, padR = 6, padT = 12, padB = 24;
+    const plotW = W - padL - padR, plotH = H - padT - padB;
+    const maxV = Math.max(1, ...points.map((p) => Math.max(...series.map((s) => p[s.key] || 0))));
+    const step = plotW / points.length;
+    const bars = series.filter((s) => s.type !== "line");
+    const groupW = Math.max(2, Math.min(28, step * 0.7));
+    const bw = groupW / Math.max(1, bars.length);
+    const y = (v) => padT + plotH - (v / maxV) * plotH;
+    const ns = "http://www.w3.org/2000/svg";
+    svg.setAttribute("viewBox", "0 0 " + W + " " + H);
+    svg.setAttribute("aria-label", series.map((s) => s.label).join(", ") + " chart");
+    const add = (tag, a, text) => { const n = document.createElementNS(ns, tag); for (const k in a) n.setAttribute(k, a[k]); if (text != null) n.textContent = text; svg.appendChild(n); return n; };
+    const ticks = [...new Set([0, Math.round(maxV / 2), maxV])];
+    ticks.forEach((v) => { add("line", { x1: padL, x2: W - padR, y1: y(v), y2: y(v), stroke: "var(--border)" }); add("text", { x: padL - 6, y: y(v) + 4, "text-anchor": "end" }, String(v)); });
+    points.forEach((p, i) => {
+      const x0 = padL + step * i + (step - groupW) / 2;
+      bars.forEach((s, j) => { const v = p[s.key] || 0; if (v > 0) add("rect", { x: x0 + j * bw, y: y(v), width: Math.max(1, bw - (bars.length > 1 ? 1 : 0)), height: Math.max(1, padT + plotH - y(v)), rx: Math.min(3, bw / 2), fill: s.color }); });
+    });
+    series.filter((s) => s.type === "line").forEach((s) => {
+      const d = points.map((p, i) => (i ? "L" : "M") + (padL + step * i + step / 2).toFixed(1) + " " + y(p[s.key] || 0).toFixed(1)).join(" ");
+      add("path", { d, fill: "none", stroke: s.color, "stroke-width": 2.2, "stroke-linejoin": "round", "stroke-linecap": "round" });
+      if (points.length <= 45) points.forEach((p, i) => add("circle", { cx: padL + step * i + step / 2, cy: y(p[s.key] || 0), r: 2.6, fill: s.color }));
+    });
+    const labelEvery = Math.max(1, Math.ceil(points.length / Math.max(2, Math.floor(plotW / 70))));
+    points.forEach((p, i) => {
+      if (i % labelEvery === 0 && (points.length - 1 - i >= labelEvery / 2 || i === 0) || i === points.length - 1)
+        add("text", { x: i === points.length - 1 ? W - padR : i === 0 ? padL : padL + step * i + step / 2, y: H - 6, "text-anchor": i === points.length - 1 ? "end" : i === 0 ? "start" : "middle" }, bucketLabel(p.date, unit));
+    });
+    const hover = add("rect", { x: padL, y: padT, width: plotW, height: plotH, fill: "transparent" });
+    const move = (clientX) => {
+      const r = svg.getBoundingClientRect();
+      const i = Math.min(points.length - 1, Math.max(0, Math.floor(((clientX - r.left) * (W / r.width) - padL) / step)));
+      const p = points[i];
+      tip.innerHTML = "<b>" + esc(bucketLabel(p.date, unit, true)) + "</b>" + series.map((s) => esc(s.label) + ": " + fmt(p[s.key] || 0)).join("<br>");
+      tip.style.left = ((padL + step * i + step / 2) * (r.width / W)) + "px";
+      tip.style.opacity = 1;
+    };
+    hover.addEventListener("mousemove", (e) => move(e.clientX));
+    hover.addEventListener("click", (e) => move(e.clientX));
+    hover.addEventListener("mouseleave", () => (tip.style.opacity = 0));
+  }
+  function hbars(rows, labelKey, valueKey) {
+    if (!rows.length) return '<div class="dim">Data unavailable</div>';
+    const max = Math.max(1, ...rows.map((r) => r[valueKey]));
+    return '<div class="hbars">' + rows.map((r) =>
+      '<div class="hbar-row"><span>' + esc(r[labelKey]) + '</span><div class="track"><div class="fill" style="width:' + pct(r[valueKey], max) + '%"></div></div><span class="n">' + fmt(r[valueKey]) + "</span></div>"
+    ).join("") + "</div>";
+  }
+
+  /* ================= activity feed ================= */
+  const FEED = {
+    student_registered: ["userPlus", "mint", (n) => "<b>" + n + "</b> signed up"],
+    user_login: ["login", "blue", (n) => "<b>" + n + "</b> logged in"],
+    exam_created: ["calendar", "indigo", (n, m) => "<b>" + n + "</b> created an exam" + (m.priority ? " (" + esc(m.priority) + " priority)" : "")],
+    study_plan_created: ["list", "indigo", (n) => "<b>" + n + "</b> generated a study plan"],
+    focus_session_completed: ["target", "green", (n, m) => "<b>" + n + "</b> finished a focus session" + (m.studiedMinutes ? " (" + esc(m.studiedMinutes) + " min)" : "")],
+    syllabus_uploaded: ["upload", "pink", (n, m) => "<b>" + n + "</b> imported a syllabus" + (m.subjects ? " with " + plural(m.subjects, "subject", "subjects") : "")],
+    date_sheet_uploaded: ["upload", "pink", (n) => "<b>" + n + "</b> imported a date sheet"],
+    feedback_submitted: ["message", "green", (n) => "<b>" + n + "</b> sent feedback"],
+    bug_reported: ["bug", "red", (n) => "<b>" + n + "</b> reported a bug"],
+  };
+  function feedList(items) {
+    if (!items.length) return empty("No activity yet", "Sign-ups, exams, study plans and messages will appear here as they happen.");
+    return '<ul class="feed">' + items.map((it) => {
+      const f = FEED[it.type] || ["activity", "indigo", (n) => "<b>" + n + "</b> " + esc(it.type)];
+      const name = it.userName ? esc(it.userName) : "A guest";
+      return '<li><div class="ic tone-' + f[1] + '">' + icon(f[0]) + '</div><div><div class="what">' + f[2](name, it.meta || {}) + '</div><div class="when">' + ago(it.at) + "</div></div></li>";
+    }).join("") + "</ul>";
+  }
+
+  /* ================= OVERVIEW ================= */
+  let ovRange = "30";
+  async function pageOverview() {
+    const main = $("main");
+    main.innerHTML = '<div id="ov-top">' + '<div class="sk" style="height:34px;width:60%;margin-bottom:10px"></div>' + skStats(8) + "</div>" +
+      '<div class="grid-main"><div class="stack">' +
+        '<div class="panel"><div class="panel-head"><h2>Trends</h2>' + rangeSeg("ov-range", ovRange) + '</div><div id="ov-charts"><div class="sk sk-chart"></div></div></div>' +
+      "</div>" +
+      '<div class="panel"><div class="panel-head"><h2><span class="live-dot"></span>Live activity</h2><button class="btn btn-quiet" id="feed-refresh">Refresh</button></div>' +
+        '<p class="panel-note" id="feed-note">Updates every 30 seconds</p><div id="ov-feed">' + skRows(6) + "</div></div>" +
+      "</div>";
+    bindSeg("ov-range", (v) => { ovRange = v; loadOvCharts(); });
+    $("feed-refresh").onclick = () => loadFeed(true);
+    loadOvStats(); loadOvCharts(); loadFeed();
+    every(30000, () => loadFeed());
+    every(60000, () => loadOvStats(true));
+  }
+  async function loadOvStats(quiet) {
+    const box = $("ov-top"); if (!box) return;
+    try {
+      const o = await api("/api/admin/overview");
+      badges.bugs = o.feedback.openBugs; renderNav();
+      const u = o.users, t = o.tasks, x = o.exams, f = o.feedback;
+      const head = plural(u.active7d, "student", "students") + " active this week";
+      const sub = (u.newToday ? plural(u.newToday, "new sign-up", "new sign-ups") + " today. " : "No new sign-ups today. ") +
+        fmt(u.total) + " registered, " + fmt(o.devices.active7d) + " devices used ExamFlow in the last 7 days (guests included).";
+      box.innerHTML = '<h2 class="intro">' + esc(head) + '</h2><p class="intro-sub">' + esc(sub) + "</p>" +
+        '<div class="section-title">Students</div><div class="stats">' +
+          statCard({ label: "Registered students", value: u.total, icon: "users" }) +
+          statCard({ label: "New today", value: u.newToday, icon: "userPlus", tone: "mint" }) +
+          statCard({ label: "New this week", value: u.new7d, icon: "userPlus", tone: "mint" }) +
+          statCard({ label: "New this month", value: u.new30d, icon: "userPlus", tone: "mint" }) +
+          statCard({ label: "Active students", value: u.active30d, icon: "activity", tone: "blue", sub: fmt(u.active1d) + " today, " + fmt(u.active7d) + " this week" }) +
+        '</div><div class="section-title">Exams and study</div><div class="stats">' +
+          statCard({ label: "Exams created", value: x.total, icon: "calendar" }) +
+          statCard({ label: "Upcoming exams", value: x.upcoming, icon: "calendarCheck", tone: "blue" }) +
+          statCard({ label: "Exam date passed", value: x.past, icon: "clock", tone: "amber", sub: fmt(x.syllabusComplete) + " with syllabus complete" }) +
+          statCard({ label: "Study tasks", value: t.total, icon: "list" }) +
+          statCard({ label: "Completed tasks", value: t.completed, icon: "check", tone: "green", sub: pct(t.completed, t.total) + "% of all tasks" }) +
+          statCard({ label: "Pending tasks", value: t.pending + t.overdue, icon: "clock", tone: "amber", sub: fmt(t.overdue) + " overdue" }) +
+        '</div><div class="section-title">Inbox</div><div class="stats">' +
+          statCard({ label: "Feedback", value: f.feedback, icon: "message", tone: "green" }) +
+          statCard({ label: "Bug reports", value: f.bugs, icon: "bug", tone: "red" }) +
+          statCard({ label: "Open bug reports", value: f.openBugs, icon: "alert", tone: "red", sub: f.statusTracked ? "" : "All open until statuses arrive in the next update" }) +
+        "</div>";
+    } catch (e) {
+      if (e.status === 401 || e.status === 403) return;
+      if (!quiet) box.innerHTML = errorBox("Unable to load the overview. " + e.message, loadOvStats);
+    }
+  }
+  async function loadOvCharts() {
+    const box = $("ov-charts"); if (!box) return;
+    box.innerHTML = '<div class="sk sk-chart"></div>';
+    try {
+      const c = await api("/api/admin/charts?range=" + ovRange);
+      const P = c.points, U = c.unit;
+      const per = U === "day" ? "per day" : U === "week" ? "per week" : "per month";
+      box.innerHTML =
+        '<div class="grid-2">' +
+          '<div><h3 class="section-title" style="font-size:14px">Student registrations</h3><div class="chart" id="ch-reg"></div></div>' +
+          '<div><h3 class="section-title" style="font-size:14px">Active users</h3><div class="chart" id="ch-act"></div></div>' +
+          '<div><h3 class="section-title" style="font-size:14px">Exams created</h3><div class="chart" id="ch-exams"></div></div>' +
+          '<div><h3 class="section-title" style="font-size:14px">Study-task completion</h3><div class="chart" id="ch-tasks"></div></div>' +
+          '<div><h3 class="section-title" style="font-size:14px">Feedback and bug reports</h3><div class="chart" id="ch-fb"></div></div>' +
+        '</div><p class="panel-note" style="margin:10px 0 0">Counts ' + per + ", India Standard Time. Study tasks are shown on the day they were planned for. Logged-in activity is tracked from 22 Sep 2026; device activity from late Aug 2026.</p>";
+      drawChart($("ch-reg"), P, U, [{ key: "signups", label: "New students", color: "var(--mint)" }]);
+      drawChart($("ch-act"), P, U, [{ key: "activeDevices", label: "Devices (incl. guests)", color: "var(--indigo)", type: "line" }, { key: "activeUsers", label: "Logged-in students", color: "var(--mint)", type: "line" }]);
+      drawChart($("ch-exams"), P, U, [{ key: "examsCreated", label: "Exams created", color: "var(--indigo)" }]);
+      drawChart($("ch-tasks"), P, U, [{ key: "tasksPlanned", label: "Planned", color: "var(--blue)" }, { key: "tasksCompleted", label: "Completed", color: "var(--green)" }]);
+      drawChart($("ch-fb"), P, U, [{ key: "feedback", label: "Feedback", color: "var(--green)" }, { key: "bugs", label: "Bug reports", color: "var(--red)" }]);
+    } catch (e) {
+      if (e.status === 401 || e.status === 403) return;
+      box.innerHTML = errorBox("Unable to load charts. " + e.message, loadOvCharts);
+    }
+  }
+  async function loadFeed(manual) {
+    const box = $("ov-feed"); if (!box) return;
+    try {
+      const r = await api("/api/admin/feed?limit=30");
+      box.innerHTML = feedList(r.items);
+      $("feed-note").textContent = "Updates every 30 seconds. Last checked " + timeOnly(new Date());
+      if (manual) toast("Activity refreshed");
+    } catch (e) {
+      if (e.status === 401 || e.status === 403) return;
+      box.innerHTML = errorBox("Unable to load recent activity.", () => loadFeed(true));
+    }
+  }
+
+  /* ================= STUDENTS ================= */
+  const st = { q: "", sort: "newest", status: "all", from: "", to: "", page: 1 };
+  function pageStudents(opts) {
+    if (opts && opts.q != null) { st.q = opts.q; st.page = 1; }
+    $("main").innerHTML =
+      '<div class="toolbar">' +
+        '<input class="input" type="search" id="s-q" placeholder="Search name or email" value="' + esc(st.q) + '" aria-label="Search students" />' +
+        '<select class="select" id="s-status" aria-label="Activity filter"><option value="all">All students</option><option value="active">Active (last 30 days)</option><option value="inactive">Inactive (30+ days)</option></select>' +
+        '<select class="select" id="s-sort" aria-label="Sort"><option value="newest">Newest first</option><option value="oldest">Oldest first</option><option value="last_active">Recently active</option></select>' +
+        '<label class="dim" style="font-size:13px">Joined from <input class="input date" type="date" id="s-from" value="' + esc(st.from) + '"></label>' +
+        '<label class="dim" style="font-size:13px">to <input class="input date" type="date" id="s-to" value="' + esc(st.to) + '"></label>' +
+      '</div><div id="s-body">' + skRows(6) + "</div>";
+    $("s-status").value = st.status; $("s-sort").value = st.sort;
+    let t;
+    $("s-q").addEventListener("input", (e) => { clearTimeout(t); t = setTimeout(() => { st.q = e.target.value.trim(); st.page = 1; loadStudents(); }, 300); });
+    [["s-status", "status"], ["s-sort", "sort"], ["s-from", "from"], ["s-to", "to"]].forEach(([id, k]) =>
+      $(id).addEventListener("change", (e) => { st[k] = e.target.value; st.page = 1; loadStudents(); }));
+    loadStudents();
+  }
+  async function loadStudents() {
+    const box = $("s-body"); if (!box) return;
+    box.innerHTML = skRows(6);
+    const qs = new URLSearchParams({ page: st.page, limit: 25, sort: st.sort, status: st.status });
+    if (st.q) qs.set("q", st.q); if (st.from) qs.set("joinedFrom", st.from); if (st.to) qs.set("joinedTo", st.to);
+    try {
+      const r = await api("/api/admin/users?" + qs);
+      if (!r.users.length) { box.innerHTML = '<div class="table-wrap">' + empty(st.q || st.from || st.to || st.status !== "all" ? "No students match these filters" : "No students yet", st.q ? "Try part of a name or email address." : "New accounts appear here as soon as students sign up.") + "</div>"; return; }
+      box.innerHTML = '<div class="table-wrap"><table><thead><tr><th>Student</th><th>Registered</th><th>Last active</th><th class="r">Exams</th><th class="r">Tasks</th><th class="r">Completed</th><th>Account</th><th></th></tr></thead><tbody>' +
+        r.users.map((u) => '<tr class="click" data-id="' + u.id + '">' +
+          '<td class="person"><b>' + esc(u.name) + (u.isAdmin ? " " + pill("Admin", "indigo") : "") + "</b><span>" + esc(u.email) + "</span></td>" +
+          "<td>" + dateOnly(u.createdAt) + "</td><td>" + ago(u.lastActiveAt) + "</td>" +
+          '<td class="r">' + fmt(u.exams) + '</td><td class="r">' + fmt(u.tasks) + '</td><td class="r">' + fmt(u.tasksCompleted) +
+            (u.tasks ? '<div class="bar"><span style="width:' + pct(u.tasksCompleted, u.tasks) + '%"></span></div>' : "") + "</td>" +
+          "<td>" + pill("Active", "green") + '</td><td><button class="link-btn" data-view="' + u.id + '">View</button></td></tr>').join("") +
+        "</tbody></table></div>" + pager(r, (p) => { st.page = p; loadStudents(); });
+      box.querySelectorAll("tr.click").forEach((tr) => tr.addEventListener("click", () => openStudent(Number(tr.dataset.id))));
+      bindPager(box);
+    } catch (e) {
+      if (e.status === 401 || e.status === 403) return;
+      box.innerHTML = errorBox("Unable to load student data. Please try again.", loadStudents);
+    }
+  }
+  let pagerFn = null;
+  function pager(r, fn) {
+    pagerFn = fn;
+    const pages = Math.max(1, Math.ceil(r.total / r.limit));
+    return '<div class="pager"><span>' + fmt(r.total) + " total, page " + r.page + " of " + pages + "</span>" +
+      '<button class="btn btn-quiet" data-page="' + (r.page - 1) + '"' + (r.page <= 1 ? " disabled" : "") + ">Previous</button>" +
+      '<button class="btn btn-quiet" data-page="' + (r.page + 1) + '"' + (r.page >= pages ? " disabled" : "") + ">Next</button></div>";
+  }
+  function bindPager(box) { box.querySelectorAll(".pager button").forEach((b) => b.addEventListener("click", () => pagerFn(Number(b.dataset.page)))); }
+
+  /* ---- drawer ---- */
+  let lastFocus = null;
+  function openDrawer(html) {
+    lastFocus = document.activeElement;
+    const d = $("drawer"); d.hidden = false; d.innerHTML = html;
+    $("drawer-back").style.display = "block";
+    requestAnimationFrame(() => d.classList.add("open"));
+    const c = d.querySelector("[data-close]"); if (c) { c.onclick = closeDrawer; c.focus(); }
+  }
+  function closeDrawer() {
+    const d = $("drawer"); d.classList.remove("open"); $("drawer-back").style.display = "none";
+    setTimeout(() => { d.hidden = true; d.innerHTML = ""; }, 200);
+    if (lastFocus) lastFocus.focus();
+  }
+  $("drawer-back").addEventListener("click", closeDrawer);
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !$("drawer").hidden) closeDrawer(); });
+  const drawerHead = (title, sub) => '<div class="drawer-head"><div><h2 id="drawer-title">' + esc(title) + "</h2>" + (sub ? "<p>" + sub + "</p>" : "") + '</div><button class="btn btn-quiet" data-close aria-label="Close">Close</button></div>';
+
+  async function openStudent(id) {
+    openDrawer(drawerHead("Loading student…") + '<div class="drawer-body">' + skStats(4) + skRows(4) + "</div>");
+    try {
+      const r = await api("/api/admin/users/" + id);
+      const s = r.student, t = r.tasks, x = r.examSummary;
+      openDrawer(drawerHead(s.name, esc(s.email)) + '<div class="drawer-body">' +
+        '<div class="panel"><dl class="kv">' +
+          "<div><dt>Account created</dt><dd>" + dateOnly(s.createdAt) + "</dd></div>" +
+          "<div><dt>Last activity</dt><dd>" + ago(s.lastActiveAt) + "</dd></div>" +
+          "<div><dt>Account status</dt><dd>" + pill("Active", "green") + (s.isAdmin ? " " + pill("Admin", "indigo") : "") + "</dd></div>" +
+        "</dl></div>" +
+        '<div class="stats">' +
+          statCard({ label: "Exams created", value: x.total, icon: "calendar" }) +
+          statCard({ label: "Upcoming exams", value: x.upcoming, icon: "calendarCheck", tone: "blue" }) +
+          statCard({ label: "Exam date passed", value: x.past, icon: "clock", tone: "amber" }) +
+          statCard({ label: "Study tasks", value: t.total, icon: "list" }) +
+          statCard({ label: "Completed tasks", value: t.completed, icon: "check", tone: "green" }) +
+          statCard({ label: "Pending tasks", value: t.pending + t.overdue, icon: "clock", tone: "amber", sub: fmt(t.overdue) + " overdue" }) +
+        "</div>" +
+        '<div class="panel"><div class="panel-head"><h3>Subjects</h3></div>' + (r.subjects.length ? '<div class="chips">' + r.subjects.map((x) => '<span class="chip">' + esc(x) + "</span>").join("") + "</div>" : '<div class="dim">No subjects yet</div>') + "</div>" +
+        '<div class="panel"><div class="panel-head"><h3>Exams</h3></div>' + (r.exams.length
+          ? '<div class="table-wrap"><table><thead><tr><th>Subject</th><th>Exam date</th><th>Status</th><th class="r">Syllabus</th></tr></thead><tbody>' +
+            r.exams.map((e) => '<tr class="click" data-exam="' + esc(e.id) + '"><td>' + esc(e.subject || "Untitled") + "</td><td>" + dateOnly(e.examDate) + "</td><td>" + pill(...(EXAM_PILL[e.status] || ["—", "blue"])) +
+              '</td><td class="r">' + fmt(e.topicsCompleted) + " / " + fmt(e.topics) + "</td></tr>").join("") + "</tbody></table></div>"
+          : '<div class="dim">No exams yet</div>') + "</div>" +
+        '<div class="panel"><div class="panel-head"><h3>Recent activity</h3></div>' + feedList(r.activity) + "</div>" +
+        '<p class="dim" style="font-size:13px;margin:0">Passwords and the text of personal notes are never shown in the admin panel. Account actions such as disabling arrive in the next update.</p>' +
+      "</div>");
+      $("drawer").querySelectorAll("tr[data-exam]").forEach((tr) => tr.addEventListener("click", () => openExam(s.id, tr.dataset.exam)));
+    } catch (e) {
+      if (e.status === 401 || e.status === 403) return;
+      openDrawer(drawerHead("Student") + '<div class="drawer-body">' + errorBox("Unable to load this student. " + e.message, () => openStudent(id)) + "</div>");
+    }
+  }
+
+  async function openExam(userId, examId) {
+    openDrawer(drawerHead("Loading exam…") + '<div class="drawer-body">' + skRows(6) + "</div>");
+    try {
+      const r = await api("/api/admin/exams/" + userId + "/" + encodeURIComponent(examId));
+      const e = r.exam, done = r.topics.filter((t) => t.completed).length;
+      openDrawer(drawerHead(e.subject || "Untitled exam", esc(r.student.name) + " (" + esc(r.student.email) + ")") + '<div class="drawer-body">' +
+        '<div class="panel"><dl class="kv">' +
+          "<div><dt>Exam date</dt><dd>" + dateOnly(e.examDate) + "</dd></div>" +
+          "<div><dt>Status</dt><dd>" + pill(...(EXAM_PILL[e.status] || ["—", "blue"])) + "</dd></div>" +
+          "<div><dt>Priority</dt><dd>" + esc(e.priority || "Not set") + "</dd></div>" +
+          "<div><dt>Syllabus progress</dt><dd>" + fmt(done) + " of " + fmt(r.topics.length) + " topics</dd></div>" +
+          '<div><dt>Created</dt><dd class="dim">Data unavailable</dd></div>' +
+        "</dl></div>" +
+        '<div class="panel"><div class="panel-head"><h3>Syllabus topics</h3></div>' + (r.topics.length
+          ? '<div class="table-wrap"><table><thead><tr><th>Topic</th><th>Difficulty</th><th>Status</th><th>Notes</th></tr></thead><tbody>' +
+            r.topics.map((t) => "<tr><td>" + esc(t.name || "Untitled topic") + "</td><td>" + (t.difficulty ? pill(t.difficulty, DIFF_TONE[String(t.difficulty).toLowerCase()] || "blue") : '<span class="dim">—</span>') +
+              "</td><td>" + (t.completed ? pill("Done", "green") : pill("Not done", "blue")) + "</td><td>" + (t.hasNotes ? "Has notes" : '<span class="dim">—</span>') + "</td></tr>").join("") + "</tbody></table></div>"
+          : '<div class="dim">No syllabus topics added</div>') + "</div>" +
+        '<div class="panel"><div class="panel-head"><h3>Planned study sessions</h3></div>' + (r.sessions.length
+          ? '<div class="table-wrap"><table><thead><tr><th>Topic</th><th>Date</th><th>Time</th><th>Status</th></tr></thead><tbody>' +
+            r.sessions.map((s) => "<tr><td>" + esc(s.chapter || "Study session") + "</td><td>" + dateOnly(s.date) + "</td><td>" + esc(s.start ? s.start + (s.end ? "–" + s.end : "") : "—") + "</td><td>" + pill(...(TASK_PILL[s.status] || ["—", "blue"])) + "</td></tr>").join("") + "</tbody></table></div>"
+          : '<div class="dim">No sessions planned for this exam</div>') + "</div>" +
+      "</div>");
+    } catch (err) {
+      if (err.status === 401 || err.status === 403) return;
+      openDrawer(drawerHead("Exam") + '<div class="drawer-body">' + errorBox("Unable to load this exam. " + err.message, () => openExam(userId, examId)) + "</div>");
+    }
+  }
+
+  /* ================= EXAMS ================= */
+  const ex = { status: "all", subject: "", q: "", from: "", to: "", page: 1 };
+  function pageExams() {
+    $("main").innerHTML = '<div id="x-stats">' + skStats(5) + "</div>" +
+      '<div class="toolbar">' +
+        '<div class="seg" id="x-status" role="group" aria-label="Exam status">' +
+          [["all", "All"], ["upcoming", "Upcoming"], ["past", "Date passed"], ["syllabus_complete", "Syllabus complete"], ["no_date", "No date"]]
+            .map(([v, l]) => '<button data-v="' + v + '" aria-pressed="' + (ex.status === v) + '">' + l + "</button>").join("") +
+        "</div>" +
+        '<select class="select" id="x-subject" aria-label="Subject"><option value="">All subjects</option></select>' +
+        '<input class="input" type="search" id="x-q" placeholder="Search subject or student" value="' + esc(ex.q) + '" aria-label="Search exams" />' +
+        '<label class="dim" style="font-size:13px">Exam date from <input class="input date" type="date" id="x-from" value="' + esc(ex.from) + '"></label>' +
+        '<label class="dim" style="font-size:13px">to <input class="input date" type="date" id="x-to" value="' + esc(ex.to) + '"></label>' +
+      '</div><div id="x-body">' + skRows(6) + "</div>";
+    bindSeg("x-status", (v) => { ex.status = v; ex.page = 1; loadExams(); });
+    let t;
+    $("x-q").addEventListener("input", (e) => { clearTimeout(t); t = setTimeout(() => { ex.q = e.target.value.trim(); ex.page = 1; loadExams(); }, 300); });
+    [["x-subject", "subject"], ["x-from", "from"], ["x-to", "to"]].forEach(([id, k]) => $(id).addEventListener("change", (e) => { ex[k] = e.target.value; ex.page = 1; loadExams(); }));
+    loadExams();
+  }
+  async function loadExams() {
+    const box = $("x-body"); if (!box) return;
+    box.innerHTML = skRows(6);
+    const qs = new URLSearchParams({ page: ex.page, limit: 25, status: ex.status });
+    ["subject", "q", "from", "to"].forEach((k) => ex[k] && qs.set(k, ex[k]));
+    try {
+      const r = await api("/api/admin/exams?" + qs);
+      const s = r.stats;
+      $("x-stats").innerHTML = '<div class="stats">' +
+        statCard({ label: "Total exams", value: s.total, icon: "calendar" }) +
+        statCard({ label: "Exams this week", value: s.thisWeek, icon: "calendarCheck", tone: "pink" }) +
+        statCard({ label: "Upcoming exams", value: s.upcoming, icon: "calendarCheck", tone: "blue" }) +
+        statCard({ label: "Exam date passed", value: s.past, icon: "clock", tone: "amber" }) +
+        statCard({ label: "Syllabus complete", value: s.syllabusComplete, icon: "check", tone: "green" }) + "</div>" +
+        '<p class="panel-note" style="margin-top:-14px">ExamFlow doesn\'t record when an exam is finished, so exams are shown as upcoming or as date passed. "Syllabus complete" means every topic is marked done.</p>';
+      const sel = $("x-subject");
+      if (sel && sel.options.length <= 1) { r.subjects.forEach((x) => { const o = document.createElement("option"); o.value = x; o.textContent = x; sel.appendChild(o); }); sel.value = ex.subject; }
+      if (!r.exams.length) { box.innerHTML = '<div class="table-wrap">' + empty("No exams match these filters", "Try a different status, subject or date range.") + "</div>"; return; }
+      box.innerHTML = '<div class="table-wrap"><table><thead><tr><th>Exam</th><th>Student</th><th>Exam date</th><th>Status</th><th>Priority</th><th class="r">Syllabus</th><th>Created</th></tr></thead><tbody>' +
+        r.exams.map((e) => '<tr class="click" data-u="' + e.userId + '" data-e="' + esc(e.examId) + '">' +
+          "<td><b>" + esc(e.subject || "Untitled") + '</b></td><td class="person"><b>' + esc(e.studentName) + "</b><span>" + esc(e.studentEmail) + "</span></td>" +
+          "<td>" + dateOnly(e.examDate) + "</td><td>" + pill(...(EXAM_PILL[e.status] || ["—", "blue"])) + "</td><td>" + esc(e.priority || "—") + "</td>" +
+          '<td class="r">' + fmt(e.topicsCompleted) + " / " + fmt(e.topics) + (e.topics ? '<div class="bar"><span style="width:' + pct(e.topicsCompleted, e.topics) + '%"></span></div>' : "") + "</td>" +
+          '<td class="dim" title="ExamFlow doesn\'t record when exams are created">Unavailable</td></tr>').join("") +
+        "</tbody></table></div>" + pager(r, (p) => { ex.page = p; loadExams(); });
+      box.querySelectorAll("tr.click").forEach((tr) => tr.addEventListener("click", () => openExam(Number(tr.dataset.u), tr.dataset.e)));
+      bindPager(box);
+    } catch (e) {
+      if (e.status === 401 || e.status === 403) return;
+      box.innerHTML = errorBox("Unable to load exams. Please try again.", loadExams);
+    }
+  }
+
+  /* ================= STUDY TASKS ================= */
+  const tk = { status: "all", subject: "", difficulty: "", q: "", from: "", to: "", sort: "due_asc", page: 1 };
+  function pageTasks() {
+    $("main").innerHTML = '<div id="t-stats">' + skStats(5) + "</div>" +
+      '<div class="toolbar">' +
+        '<div class="seg" id="t-status" role="group" aria-label="Task status">' +
+          [["all", "All"], ["pending", "Pending"], ["overdue", "Overdue"], ["completed", "Completed"]]
+            .map(([v, l]) => '<button data-v="' + v + '" aria-pressed="' + (tk.status === v) + '">' + l + "</button>").join("") +
+        "</div>" +
+        '<select class="select" id="t-subject" aria-label="Subject"><option value="">All subjects</option></select>' +
+        '<select class="select" id="t-diff" aria-label="Difficulty" hidden><option value="">Any difficulty</option></select>' +
+        '<input class="input" type="search" id="t-q" placeholder="Search task, subject or student" value="' + esc(tk.q) + '" aria-label="Search tasks" />' +
+        '<select class="select" id="t-sort" aria-label="Sort"><option value="due_asc">Due date, earliest first</option><option value="due_desc">Due date, latest first</option></select>' +
+        '<label class="dim" style="font-size:13px">Due from <input class="input date" type="date" id="t-from" value="' + esc(tk.from) + '"></label>' +
+        '<label class="dim" style="font-size:13px">to <input class="input date" type="date" id="t-to" value="' + esc(tk.to) + '"></label>' +
+      '</div><div id="t-body">' + skRows(6) + "</div>";
+    $("t-sort").value = tk.sort;
+    bindSeg("t-status", (v) => { tk.status = v; tk.page = 1; loadTasks(); });
+    let t;
+    $("t-q").addEventListener("input", (e) => { clearTimeout(t); t = setTimeout(() => { tk.q = e.target.value.trim(); tk.page = 1; loadTasks(); }, 300); });
+    [["t-subject", "subject"], ["t-diff", "difficulty"], ["t-sort", "sort"], ["t-from", "from"], ["t-to", "to"]].forEach(([id, k]) => $(id).addEventListener("change", (e) => { tk[k] = e.target.value; tk.page = 1; loadTasks(); }));
+    loadTasks();
+  }
+  async function loadTasks() {
+    const box = $("t-body"); if (!box) return;
+    box.innerHTML = skRows(6);
+    const qs = new URLSearchParams({ page: tk.page, limit: 25, status: tk.status, sort: tk.sort });
+    ["subject", "difficulty", "q", "from", "to"].forEach((k) => tk[k] && qs.set(k, tk[k]));
+    try {
+      const r = await api("/api/admin/tasks?" + qs);
+      const s = r.stats;
+      $("t-stats").innerHTML = '<div class="stats">' +
+        statCard({ label: "Total tasks", value: s.total, icon: "list" }) +
+        statCard({ label: "Completed", value: s.completed, icon: "check", tone: "green" }) +
+        statCard({ label: "Pending", value: s.pending, icon: "clock", tone: "blue" }) +
+        statCard({ label: "Overdue", value: s.overdue, icon: "alert", tone: "red" }) +
+        statCard({ label: "Completion", value: s.completionRate == null ? "Data unavailable" : s.completionRate + "%", raw: true, icon: "target", tone: "mint" }) + "</div>" +
+        '<p class="panel-note" style="margin-top:-14px">Study tasks are the sessions in each student\'s planner. "Overdue" means the planned date has passed without being marked done.</p>';
+      const sub = $("t-subject");
+      if (sub && sub.options.length <= 1) { r.subjects.forEach((x) => { const o = document.createElement("option"); o.value = x; o.textContent = x; sub.appendChild(o); }); sub.value = tk.subject; }
+      const diff = $("t-diff");
+      if (diff && r.difficulties.length && diff.options.length <= 1) {
+        ["Easy", "Medium", "Hard"].filter((d) => r.difficulties.some((x) => x.toLowerCase() === d.toLowerCase()))
+          .concat(r.difficulties.filter((x) => !["easy", "medium", "hard"].includes(x.toLowerCase())))
+          .forEach((x) => { const o = document.createElement("option"); o.value = x; o.textContent = x; diff.appendChild(o); });
+        diff.hidden = false; diff.value = tk.difficulty;
+      }
+      if (!r.tasks.length) { box.innerHTML = '<div class="table-wrap">' + empty("No study tasks match these filters", "Try a different status, subject or date range.") + "</div>"; return; }
+      const showDiff = r.difficulties.length > 0;
+      box.innerHTML = '<div class="table-wrap"><table><thead><tr><th>Student</th><th>Task</th><th>Subject</th><th>Chapter</th>' + (showDiff ? "<th>Difficulty</th>" : "") + "<th>Due date</th><th>Status</th><th>Created</th></tr></thead><tbody>" +
+        r.tasks.map((t) => '<tr class="click" data-u="' + t.userId + '">' +
+          '<td class="person"><b>' + esc(t.studentName) + "</b><span>" + esc(t.studentEmail) + "</span></td>" +
+          "<td>" + esc(t.task) + "</td><td>" + esc(t.subject || "—") + "</td><td>" + esc(t.chapter || "—") + "</td>" +
+          (showDiff ? "<td>" + (t.difficulty ? pill(t.difficulty, DIFF_TONE[String(t.difficulty).toLowerCase()] || "blue") : '<span class="dim">—</span>') + "</td>" : "") +
+          "<td>" + dateOnly(t.dueDate) + (t.start ? '<div class="dim" style="font-size:12px">' + esc(t.start) + (t.end ? "–" + esc(t.end) : "") + "</div>" : "") + "</td>" +
+          "<td>" + pill(...(TASK_PILL[t.status] || ["—", "blue"])) + '</td><td class="dim" title="ExamFlow doesn\'t record when tasks are created">Unavailable</td></tr>').join("") +
+        "</tbody></table></div>" + pager(r, (p) => { tk.page = p; loadTasks(); });
+      box.querySelectorAll("tr.click").forEach((tr) => tr.addEventListener("click", () => openStudent(Number(tr.dataset.u))));
+      bindPager(box);
+    } catch (e) {
+      if (e.status === 401 || e.status === 403) return;
+      box.innerHTML = errorBox("Unable to load study tasks. Please try again.", loadTasks);
+    }
+  }
+
+  /* ================= ANALYTICS ================= */
+  let anRange = "30", engUnit = "day";
+  function pageAnalytics() {
+    $("main").innerHTML = '<div class="toolbar"><span class="dim">Period</span>' + rangeSeg("an-range", anRange) + '</div><div id="an-body">' + skStats(8) + '<div class="sk sk-chart"></div></div>';
+    bindSeg("an-range", (v) => { anRange = v; loadAnalytics(); });
+    loadAnalytics();
+  }
+  async function loadAnalytics() {
+    const box = $("an-body"); if (!box) return;
+    box.innerHTML = skStats(8) + '<div class="sk sk-chart"></div>';
+    const period = anRange === "all" ? "all time" : "the last " + anRange + " days";
+    try {
+      const a = await api("/api/admin/analytics?range=" + anRange);
+      const u = a.users, x = a.exams, s = a.study;
+      box.innerHTML =
+        '<h2 class="section-title">Users</h2><div class="stats">' +
+          statCard({ label: "Total users", value: u.total, icon: "users" }) +
+          statCard({ label: "New users", value: u.newUsers, icon: "userPlus", tone: "mint", sub: "In " + period }) +
+          statCard({ label: "Active students", value: u.active, icon: "activity", tone: "blue", sub: "Used ExamFlow in " + period }) +
+          statCard({ label: "Devices using ExamFlow", value: u.devices, icon: "activity", tone: "indigo", sub: "Includes guests" }) +
+          statCard({ label: "Returning devices", value: u.returningDevices, icon: "activity", tone: "pink", sub: "Used ExamFlow on 2 or more days" }) +
+        '</div><h2 class="section-title">Exams</h2><div class="grid-2"><div class="stats" style="margin:0">' +
+          statCard({ label: "Exams created", value: x.createdInRange, icon: "calendar", sub: "In " + period }) +
+          statCard({ label: "Exams on record", value: x.total, icon: "calendar", tone: "blue" }) +
+          statCard({ label: "Upcoming", value: x.upcoming, icon: "calendarCheck", tone: "blue" }) +
+          statCard({ label: "Exam date passed", value: x.past, icon: "clock", tone: "amber" }) +
+          statCard({ label: "Exams completed", value: "Data unavailable", raw: true, icon: "check", tone: "green", sub: fmt(x.syllabusComplete) + " have a complete syllabus" }) +
+        '</div><div class="panel"><div class="panel-head"><h3>Most-used subjects</h3></div>' + hbars(x.topSubjects, "subject", "count") + "</div></div>" +
+        '<h2 class="section-title section-gap">Study</h2><div class="grid-2"><div class="stats" style="margin:0">' +
+          statCard({ label: "Tasks created", value: s.tasks, icon: "list", sub: "All planner tasks on record" }) +
+          statCard({ label: "Tasks completed", value: s.completed, icon: "check", tone: "green" }) +
+          statCard({ label: "Completion", value: s.completionRate == null ? "Data unavailable" : s.completionRate + "%", raw: true, icon: "target", tone: "mint" }) +
+          statCard({ label: "Overdue tasks", value: s.overdue, icon: "alert", tone: "red" }) +
+          statCard({ label: "Study plans generated", value: s.studyPlansInRange, icon: "list", tone: "indigo", sub: "In " + period }) +
+          statCard({ label: "Focus sessions", value: s.focusSessionsInRange, icon: "target", tone: "green", sub: "In " + period }) +
+        '</div><div class="panel"><div class="panel-head"><h3>Topic difficulty</h3></div>' +
+          hbars(s.difficulty.map((d) => ({ label: d.difficulty + " (" + fmt(d.completed) + " done)", n: d.topics })), "label", "n") + "</div></div>" +
+        '<div class="panel section-gap"><div class="panel-head"><h2>Engagement</h2><div class="seg" id="eng-unit" role="group" aria-label="Grouping">' +
+          [["day", "Daily"], ["week", "Weekly"], ["month", "Monthly"]].map(([v, l]) => '<button data-v="' + v + '" aria-pressed="' + (engUnit === v) + '">' + l + "</button>").join("") +
+        '</div></div><div class="chart" id="ch-eng"></div><p class="panel-note" style="margin:8px 0 0">Unique devices (including guests) and logged-in students active in each period.</p></div>' +
+        '<p class="panel-note section-gap">"Exams created" and "Study plans generated" use the activity log, which started in late August 2026. Creation dates of individual exams and tasks aren\'t recorded by ExamFlow, so those figures show as unavailable.</p>';
+      bindSeg("eng-unit", (v) => { engUnit = v; loadEngagement(); });
+      loadEngagement();
+    } catch (e) {
+      if (e.status === 401 || e.status === 403) return;
+      box.innerHTML = errorBox("Unable to load analytics. " + e.message, loadAnalytics);
+    }
+  }
+  async function loadEngagement() {
+    const el = $("ch-eng"); if (!el) return;
+    el.innerHTML = '<div class="sk sk-chart"></div>';
+    try {
+      const c = await api("/api/admin/charts?range=" + anRange + "&unit=" + engUnit);
+      drawChart(el, c.points, c.unit, [{ key: "activeDevices", label: "Devices", color: "var(--indigo)" }, { key: "activeUsers", label: "Logged-in students", color: "var(--mint)" }]);
+    } catch (e) {
+      if (e.status === 401 || e.status === 403) return;
+      el.innerHTML = errorBox("Unable to load engagement.", loadEngagement);
+    }
+  }
+
+  /* ================= FEEDBACK / BUGS ================= */
+  const inbox = { q: "", sort: "newest" };
+  function pageInbox(kind) {
+    const isBug = kind === "bug";
+    $("main").innerHTML =
+      '<div class="notice">Categories, status, priority and internal notes for ' + (isBug ? "bug reports" : "feedback") + " arrive in the next update. For now this shows every message exactly as students sent it.</div>" +
+      '<div class="toolbar"><input class="input" type="search" id="i-q" placeholder="Search message or student" value="' + esc(inbox.q) + '" aria-label="Search" />' +
+      '<select class="select" id="i-sort" aria-label="Sort"><option value="newest">Newest first</option><option value="oldest">Oldest first</option></select></div>' +
+      '<div id="i-body">' + skRows(4) + "</div>";
+    $("i-sort").value = inbox.sort;
+    let t;
+    $("i-q").addEventListener("input", (e) => { clearTimeout(t); t = setTimeout(() => { inbox.q = e.target.value.trim(); loadInbox(kind); }, 300); });
+    $("i-sort").addEventListener("change", (e) => { inbox.sort = e.target.value; loadInbox(kind); });
+    loadInbox(kind);
+  }
+  async function loadInbox(kind) {
+    const box = $("i-body"); if (!box) return;
+    const isBug = kind === "bug";
+    try {
+      const qs = new URLSearchParams({ kind, limit: 100, sort: inbox.sort }); if (inbox.q) qs.set("q", inbox.q);
+      const r = await api("/api/admin/feedback?" + qs);
+      if (!r.items.length) { box.innerHTML = '<div class="fb-list">' + empty(inbox.q ? "Nothing matches that search" : isBug ? "No bug reports yet" : "No feedback yet", "Messages students send from the Feedback button on ExamFlow appear here.") + "</div>"; return; }
+      box.innerHTML = '<ul class="fb-list">' + r.items.map((f) =>
+        '<li><div class="fb-meta">' + (isBug ? pill("Bug report", "red") + " " + pill("Open", "amber") : pill("Feedback", "green")) +
+          "<span>" + (f.user_email ? '<button class="link-btn" data-u="' + f.user_id + '">' + esc(f.user_name) + "</button> (" + esc(f.user_email) + ")" : "Guest") + "</span>" +
+          "<span>" + ago(f.created_at) + "</span>" + (f.page ? "<span>on " + esc(f.page) + "</span>" : "") +
+        '</div><p class="fb-text">' + esc(f.message) + "</p></li>").join("") + "</ul>";
+      box.querySelectorAll("[data-u]").forEach((b) => b.addEventListener("click", () => openStudent(Number(b.dataset.u))));
+    } catch (e) {
+      if (e.status === 401 || e.status === 403) return;
+      box.innerHTML = errorBox("Unable to load " + (isBug ? "bug reports" : "feedback") + ". Please try again.", () => loadInbox(kind));
+    }
+  }
+
+  /* ================= SYSTEM HEALTH ================= */
+  function pageHealth() {
+    $("main").innerHTML = '<div class="toolbar"><span id="h-checked" class="dim"></span><span class="spacer"></span><button class="btn" id="h-refresh">Refresh status</button></div><div id="h-body">' + skStats(4) + skRows(4) + "</div>";
+    $("h-refresh").onclick = () => loadHealth(true);
+    loadHealth();
+  }
+  async function loadHealth(manual) {
+    const box = $("h-body"); if (!box) return;
+    const btn = $("h-refresh"); if (btn) btn.disabled = true;
+    const started = Date.now();
+    try {
+      const h = await api("/api/admin/health");
+      const roundTrip = Date.now() - started;
+      const words = { healthy: "All systems running normally", warning: "Running, with some problems", critical: "Something important is down" };
+      const svc = [["frontend", "Student website"], ["api", "Backend API"], ["database", "Database"], ["auth", "Authentication"]];
+      h.services.api.responseMs = roundTrip;
+      box.innerHTML =
+        '<div class="panel" style="margin-bottom:16px;display:flex;align-items:center;gap:12px"><span class="dot ' + esc(h.status) + '"></span><b style="font-family:var(--display);font-size:18px">' + esc(words[h.status] || h.status) + "</b></div>" +
+        '<div class="svc">' + svc.map(([k, label]) => {
+          const s = h.services[k] || {};
+          return '<div class="panel"><h3><span class="dot ' + esc(s.status) + '"></span>' + label + '</h3><div class="meta">' +
+            (s.status === "online" ? "Online" : "Offline") + (s.responseMs != null ? ", " + fmt(s.responseMs) + " ms" : "") +
+            (s.detail ? '<div class="dim" style="margin-top:4px">' + esc(s.detail) + "</div>" : "") + "</div></div>";
+        }).join("") + "</div>" +
+        '<div class="grid-2"><div class="panel"><div class="panel-head"><h3>Details</h3></div><dl class="kv">' +
+          "<div><dt>Database size</dt><dd>" + (h.databaseSizeBytes != null ? (h.databaseSizeBytes / 1048576).toFixed(1) + " MB of 500 MB" : "Data unavailable") + "</dd></div>" +
+          "<div><dt>Smart Import (Gemini)</dt><dd>" + (h.smartImportConfigured ? "Set up" : "Not set up") + "</dd></div>" +
+          "<div><dt>Server errors, last 24 hours</dt><dd>" + fmt(h.errorCount24h) + "</dd></div>" +
+          "<div><dt>API round trip from your browser</dt><dd>" + fmt(roundTrip) + " ms</dd></div>" +
+        '</dl></div><div class="panel"><div class="panel-head"><h3>Recent server errors</h3></div>' +
+          (h.recentErrors.length
+            ? '<ul class="feed">' + h.recentErrors.map((e) => '<li><div class="ic tone-red">' + icon("alert") + '</div><div><div class="what">' + esc(e.message || "Error") + (e.route ? ' <span class="dim">on ' + esc(e.route) + "</span>" : "") + '</div><div class="when">' + ago(e.at) + "</div></div></li>").join("") + "</ul>"
+            : empty("No server errors recorded", "Errors from Smart Import and other server features will be listed here.")) +
+        "</div></div>" +
+        '<p class="panel-note section-gap">The API and website run on Render and the database on Supabase, all on free plans. After an idle spell the first request can take up to a minute while the server wakes up. No keys, passwords or environment settings are ever shown here.</p>';
+      $("h-checked").textContent = "Last checked " + ago(h.checkedAt).replace(/<[^>]+>/g, "") + " (" + timeOnly(h.checkedAt) + ")";
+      if (manual) toast("Status refreshed");
+    } catch (e) {
+      if (e.status === 401 || e.status === 403) return;
+      box.innerHTML = '<div class="panel" style="margin-bottom:16px;display:flex;align-items:center;gap:12px"><span class="dot critical"></span><b>The backend API isn\'t responding</b></div>' + errorBox(e.message, () => loadHealth(true));
+      $("h-checked").textContent = "Last checked " + timeOnly(new Date());
+    } finally { if (btn) btn.disabled = false; }
+  }
+
+  /* ================= SETTINGS ================= */
+  async function pageSettings() {
+    $("main").innerHTML = '<div id="set-body">' + skRows(5) + "</div>";
+    const box = $("set-body");
+    try {
+      const m = await api("/api/admin/me");
+      box.innerHTML = '<div class="grid-2">' +
+        '<div class="panel"><div class="panel-head"><h3>Current admin</h3></div><dl class="kv">' +
+          "<div><dt>Name</dt><dd>" + esc(m.name) + "</dd></div><div><dt>Email</dt><dd>" + esc(m.email) + "</dd></div>" +
+          "<div><dt>Account created</dt><dd>" + dateOnly(m.accountCreatedAt) + "</dd></div>" +
+        '</dl><button class="btn btn-quiet" id="set-signout" style="margin-top:14px">Sign out</button></div>' +
+        '<div class="panel"><div class="panel-head"><h3>This session</h3></div><dl class="kv">' +
+          "<div><dt>Signed in</dt><dd>" + (m.session.signedInAt ? ago(m.session.signedInAt) : "—") + "</dd></div>" +
+          "<div><dt>Session expires</dt><dd>" + (m.session.expiresAt ? dateOnly(m.session.expiresAt) : "—") + "</dd></div>" +
+          "<div><dt>Stored in</dt><dd>This browser tab only</dd></div>" +
+        "</dl></div>" +
+        '<div class="panel"><div class="panel-head"><h3>Recent sign-ins</h3></div>' +
+          (m.recentLogins.length ? '<dl class="kv">' + m.recentLogins.map((t, i) => "<div><dt>" + (i === 0 ? "Latest" : "Earlier") + "</dt><dd>" + ago(t) + "</dd></div>").join("") + "</dl>" : '<div class="dim">No sign-ins recorded yet</div>') +
+        "</div>" +
+        '<div class="panel"><div class="panel-head"><h3>Dashboard</h3></div><dl class="kv">' +
+          "<div><dt>Time zone</dt><dd>India Standard Time</dd></div>" +
+          "<div><dt>Data source</dt><dd>Live ExamFlow database</dd></div>" +
+          "<div><dt>Access</dt><dd>Admin accounts only, checked by the server</dd></div>" +
+        "</dl></div></div>";
+      $("set-signout").onclick = () => { signOut(); toast("Signed out"); };
+    } catch (e) {
+      if (e.status === 401 || e.status === 403) return;
+      box.innerHTML = errorBox("Unable to load settings. " + e.message, pageSettings);
+    }
+  }
+
+  window.addEventListener("resize", () => { clearTimeout(window.__rz); window.__rz = setTimeout(() => { if (current === "overview") loadOvCharts(); if (current === "analytics") loadEngagement(); }, 300); });
+  start();
+})();
+</script>
+</body>
+</html>
