@@ -1,0 +1,65 @@
+{
+  "id": "gen-eng-tenses",
+  "class": null,
+  "subject": "english",
+  "name": "Tenses",
+  "summary": "Tense shows when an action happens: past, present or future. Each has four forms — simple, continuous, perfect and perfect continuous — built from the right helping verb and verb form.",
+  "topics": [
+    {
+      "id": "present",
+      "title": "Present tenses",
+      "summary": "Simple present (habits, facts), present continuous (happening now), present perfect (just finished / result now), present perfect continuous (started in the past, still going).",
+      "simple": "- **I play** — something you do regularly (simple present)\n- **I am playing** — happening right now (present continuous)\n- **I have played** — done, and it matters now (present perfect)\n- **I have been playing** — started earlier and still going (present perfect continuous)",
+      "explain": "**1. Simple present:** V1 (+ s/es with he, she, it)\n- Use it for habits, facts and timetables: *She walks to school. Water boils at 100 °C. The train leaves at 6.*\n\n**2. Present continuous:** am/is/are + V-ing\n- Use it for actions happening now, or planned soon: *They are studying. I am meeting Riya tomorrow.*\n\n**3. Present perfect:** has/have + V3 (past participle)\n- Use it for actions completed recently, or whose result matters now: *I have finished my homework. She has lost her pen.*\n- Don't use it with a finished past time like 'yesterday'.\n\n**4. Present perfect continuous:** has/have been + V-ing\n- Use it for an action that started in the past and is still continuing, often with **since** or **for**: *He has been reading since 5 o'clock. We have been waiting for an hour.*",
+      "example": "Wrong: *I have seen him yesterday.* Right: *I saw him yesterday.* 'Yesterday' is a finished time, so use the simple past, not the present perfect.",
+      "keyPoints": ["Simple present: V1/V1+s — habits, facts", "Present continuous: am/is/are + V-ing — now", "Present perfect: has/have + V3 — completed, result now", "Present perfect continuous: has/have been + V-ing — since/for", "Since + point of time (since Monday); for + length of time (for 2 hours)"],
+      "keywords": ["present tense", "simple present", "present continuous", "present perfect", "present perfect continuous", "since for", "has have", "is are am"]
+    },
+    {
+      "id": "past",
+      "title": "Past tenses",
+      "summary": "Simple past (finished action), past continuous (in progress in the past), past perfect (the earlier of two past actions), past perfect continuous (continuing up to a point in the past).",
+      "simple": "- **I played** — finished in the past\n- **I was playing** — in progress at a past moment\n- **I had played** — happened before another past action\n- **I had been playing** — going on for a while before a past moment",
+      "explain": "**1. Simple past:** V2\n- A completed action at a definite past time: *We visited Jaipur last year.*\n\n**2. Past continuous:** was/were + V-ing\n- An action in progress at a past time, often interrupted: *I was reading when the lights went out.*\n\n**3. Past perfect:** had + V3\n- The **earlier** of two past actions: *The train had left before we reached the station.*\n\n**4. Past perfect continuous:** had been + V-ing\n- An action continuing for some time before another past point: *She had been practising for months before the competition.*",
+      "example": "*When I reached the hall, the show had started.* The show started first (past perfect: had started), then I reached (simple past: reached).",
+      "keyPoints": ["Simple past: V2 — finished action", "Past continuous: was/were + V-ing — in progress", "Past perfect: had + V3 — earlier of two past actions", "Past perfect continuous: had been + V-ing"],
+      "keywords": ["past tense", "simple past", "past continuous", "past perfect", "past perfect continuous", "had", "was were", "v2 v3"]
+    },
+    {
+      "id": "future",
+      "title": "Future tenses",
+      "summary": "Simple future (will + V1), future continuous (will be + V-ing), future perfect (will have + V3), future perfect continuous (will have been + V-ing).",
+      "simple": "- **I will play** — later\n- **I will be playing** — in progress at a future moment\n- **I will have played** — finished before a future time\n- **I will have been playing** — going on for a while until a future time",
+      "explain": "**1. Simple future:** will + V1\n- *I will call you tonight.* ('Going to' + V1 is also used for plans: *I am going to study.*)\n\n**2. Future continuous:** will be + V-ing\n- *At 8 pm tomorrow, I will be travelling.*\n\n**3. Future perfect:** will have + V3\n- *By next week, she will have finished the project.*\n\n**4. Future perfect continuous:** will have been + V-ing\n- *By June, he will have been working here for two years.*",
+      "example": "*By the time you arrive, I will have cooked dinner.* The cooking will be complete before your arrival — future perfect.",
+      "keyPoints": ["Simple future: will + V1", "Future continuous: will be + V-ing", "Future perfect: will have + V3 (by + time)", "Future perfect continuous: will have been + V-ing"],
+      "keywords": ["future tense", "simple future", "future continuous", "future perfect", "future perfect continuous", "will", "going to"]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "V1, V2, V3", "meaning": "Base form, past form and past participle of a verb, e.g. go–went–gone, write–wrote–written." },
+    { "term": "Since vs for", "meaning": "'Since' takes a point of time (since 2020); 'for' takes a length of time (for three years)." },
+    { "term": "Past perfect", "meaning": "had + V3; used for the earlier of two actions in the past." }
+  ],
+  "formulas": ["Present: V1 · am/is/are + V-ing · has/have + V3 · has/have been + V-ing", "Past: V2 · was/were + V-ing · had + V3 · had been + V-ing", "Future: will + V1 · will be + V-ing · will have + V3 · will have been + V-ing"],
+  "commonMistakes": ["Using the present perfect with past time words: 'I have seen him yesterday' ✗ → 'I saw him yesterday' ✓.", "Mixing up since and for: 'since two hours' ✗ → 'for two hours' ✓.", "Forgetting -s with he/she/it in the simple present: 'She play' ✗ → 'She plays' ✓.", "Using V2 after 'did': 'Did you went?' ✗ → 'Did you go?' ✓."],
+  "revision": ["Every tense = time (past/present/future) + aspect (simple/continuous/perfect/perfect continuous).", "Simple present for habits and facts; add -s/-es with he/she/it.", "Continuous = be + V-ing; perfect = have/has/had/will have + V3.", "Present perfect: not with 'yesterday', 'last year' or 'ago'.", "Past perfect = the earlier of two past actions.", "Since + point of time; for + length of time.", "After do/does/did, use V1."],
+  "faqs": [
+    { "q": "What is the difference between since and for?", "a": "Use **since** with a point in time (since Monday, since 2019, since morning). Use **for** with a length of time (for two days, for an hour, for years). Example: *I have lived here since 2020* / *for five years*.", "keywords": ["since vs for", "since and for"] },
+    { "q": "When do we use the past perfect tense?", "a": "Use the **past perfect (had + V3)** for the action that happened first when you talk about two past actions. *The film had started when we reached.* — the film started first.", "keywords": ["past perfect use", "when past perfect"] },
+    { "q": "Why is 'I have seen him yesterday' wrong?", "a": "The present perfect (have seen) can't be used with a finished past time like 'yesterday'. Use the simple past: *I saw him yesterday.*", "keywords": ["have seen yesterday", "present perfect mistake"] },
+    { "q": "What is the difference between simple past and present perfect?", "a": "The **simple past** (I finished) is for an action at a definite, finished time in the past. The **present perfect** (I have finished) connects the past to now — the time isn't stated, or the result matters now.", "keywords": ["simple past vs present perfect"] }
+  ],
+  "quiz": [
+    { "q": "She ___ to school every day.", "options": ["go", "goes", "going", "gone"], "answer": 1, "explain": "Simple present with 'she' takes -es: goes.", "topic": "present", "level": "easy" },
+    { "q": "Look! The children ___ in the rain.", "options": ["play", "played", "are playing", "have played"], "answer": 2, "explain": "'Look!' shows it's happening now — present continuous.", "topic": "present", "level": "easy" },
+    { "q": "I ___ him yesterday.", "options": ["have seen", "saw", "see", "had see"], "answer": 1, "explain": "'Yesterday' is a finished past time — simple past.", "topic": "past", "level": "easy" },
+    { "q": "The train ___ before we reached the station.", "options": ["left", "has left", "had left", "was leaving"], "answer": 2, "explain": "The earlier of two past actions takes the past perfect.", "topic": "past", "level": "medium" },
+    { "q": "He has been living here ___ 2019.", "options": ["for", "since", "from", "by"], "answer": 1, "explain": "2019 is a point in time → since.", "topic": "present", "level": "easy" },
+    { "q": "By next Monday, I ___ the book.", "options": ["will finish", "will have finished", "finished", "am finishing"], "answer": 1, "explain": "'By + future time' → future perfect.", "topic": "future", "level": "medium" },
+    { "q": "I ___ TV when my mother called.", "options": ["watched", "was watching", "have watched", "watch"], "answer": 1, "explain": "An action in progress that was interrupted → past continuous.", "topic": "past", "level": "medium" },
+    { "q": "Choose the correct sentence.", "options": ["Did you went there?", "Did you go there?", "Did you gone there?", "Did you going there?"], "answer": 1, "explain": "After 'did', use the base form (V1).", "topic": "past", "level": "medium" },
+    { "q": "At 9 pm tonight, I ___ my exam notes.", "options": ["will revise", "will be revising", "revised", "have revised"], "answer": 1, "explain": "In progress at a future moment → future continuous.", "topic": "future", "level": "hard" },
+    { "q": "They ___ for two hours when the rain stopped.", "options": ["had been waiting", "have been waiting", "were wait", "waited since"], "answer": 0, "explain": "Continuing for a time before a past moment → past perfect continuous.", "topic": "past", "level": "hard" }
+  ]
+}
