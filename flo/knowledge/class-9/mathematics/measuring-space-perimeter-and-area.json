@@ -1,0 +1,144 @@
+{
+  "id": "c9-math-perimeter-area",
+  "class": 9,
+  "subject": "mathematics",
+  "name": "Measuring Space: Perimeter and Area",
+  "summary": "This chapter measures the boundary (perimeter) and the space inside (area) of plane figures. It explains why race tracks use staggered starts, traces the history of π, and gives the formulas for circumference, arc length, and the areas of rectangles, parallelograms, triangles (including Heron's formula), cyclic quadrilaterals (Brahmagupta's formula), trapeziums, circles, sectors and segments.",
+  "topics": [
+    {
+      "id": "perimeter-and-race-tracks",
+      "title": "Perimeter and staggered starts on a race track",
+      "summary": "Perimeter is the length of a figure's boundary; on a track, each outer lane is longer by 2π × lane width per full lap, so runners start staggered.",
+      "simple": "**Perimeter** is the distance all the way around a shape. On a running track, the outer lanes go around bigger curves, so they are longer. To make the race fair, runners in outer lanes start a little ahead — this is a **staggered start**.",
+      "explain": "The **perimeter** of a closed figure is the total length of its boundary.\n- Rectangle: P = 2(l + b)\n- Square: P = 4a\n- Any polygon: add up all the sides\n- Circle: the perimeter is called the **circumference**, C = 2πr\n\n**Why staggered starts?** A standard 400 m track has two straight parts and two semicircular bends. The straight parts are the same length for every lane, but the bends are not.\n- The two semicircular bends of one lane together make one full circle.\n- If lane 1 has bend radius r, the next lane has radius r + w, where w is the lane width.\n- Extra distance per lap = 2π(r + w) − 2πr = **2πw**.\n\nSo each outer lane is longer by **2π × lane width** for every full lap, **no matter how big the track is**. That is why, in a one-lap 400 m race, a runner in each lane starts about 2πw ahead of the runner just inside.\n\nIn races where runners stay in their lanes for only part of a lap (like 200 m, which has one bend), the stagger is correspondingly smaller — πw per lane for one semicircular bend.",
+      "example": "Lane width w = 1.22 m. Extra distance per lane in a full lap:\n1. Extra = 2πw = 2 × 3.1416 × 1.22\n2. = 6.2832 × 1.22 ≈ **7.67 m**\n\nSo a runner in lane 2 starts about 7.67 m ahead of the runner in lane 1, and the runner in lane 3 about 2 × 7.67 = 15.33 m ahead.",
+      "keyPoints": ["Perimeter = length of the boundary", "Rectangle 2(l + b); square 4a; circle 2πr", "The two bends of a track lane make one full circle", "Each outer lane is longer by 2πw per lap", "Staggered starts make every runner cover the same distance"],
+      "keywords": ["perimeter", "boundary", "race track", "running track", "staggered start", "lanes", "lane width", "400 m track", "why outer lane longer", "perimeter of rectangle", "perimeter of square"]
+    },
+    {
+      "id": "history-of-pi",
+      "title": "The story of π",
+      "summary": "π is the ratio of any circle's circumference to its diameter; many civilisations approximated it, and in 1761 Lambert proved it is irrational.",
+      "simple": "For every circle, circumference ÷ diameter gives the same number, called **π** (pi), about 3.14159…. People in many countries worked hard to find it more accurately. It turns out π can never be written exactly as a fraction, so 22/7 and 3.14 are only close guesses.",
+      "explain": "For every circle, **circumference ÷ diameter** is the same constant, named **π**. So C = πd = 2πr.\n\n**How people approximated π:**\n- **Babylonians** (about 4000 years ago): used **3.125** (= 25/8).\n- **Archimedes** (Greece, about 250 BCE): trapped the circle between polygons with 96 sides drawn inside and outside it, and proved π lies **between 223/71 and 22/7** (about 3.1408 and 3.1429).\n- **Zu Chongzhi** (China, 5th century CE): found the remarkable fraction **355/113** ≈ 3.1415929, correct to 6 decimal places.\n- **Aryabhata** (India, 499 CE): described a rule — add 4 to 100, multiply by 8, and add 62000; this is roughly the circumference of a circle of diameter 20000. That gives 62832 ÷ 20000 = **3.1416**.\n- **Madhava of Sangamagrama** (Kerala, 14th century): found an infinite series, π/4 = 1 − 1/3 + 1/5 − 1/7 + …, which lets π be calculated as accurately as you want. (It was rediscovered in Europe much later and is often called the Madhava–Leibniz series.)\n\n**π is irrational.** In **1761, Johann Lambert** proved that π cannot be written as p/q for integers p and q. Its decimal expansion never ends and never repeats.\n\nSo **22/7 and 3.14 are approximations**, not the exact value. 22/7 ≈ 3.142857 is slightly bigger than π; 3.14 is slightly smaller.",
+      "example": "Check Aryabhata's rule: (100 + 4) × 8 + 62000 = 832 + 62000 = 62832. Dividing by the diameter 20000: 62832 ÷ 20000 = 3.1416, while π = 3.14159…, so the error is less than 0.00001.",
+      "keyPoints": ["π = circumference ÷ diameter, same for every circle", "Babylonians 3.125; Archimedes between 223/71 and 22/7", "Zu Chongzhi 355/113; Aryabhata 3.1416", "Madhava: infinite series for π", "Lambert (1761): π is irrational", "22/7 and 3.14 are only approximations"],
+      "keywords": ["pi", "π", "value of pi", "history of pi", "archimedes", "zu chongzhi", "aryabhata", "madhava", "madhava series", "lambert", "pi irrational", "is pi 22/7", "22/7", "3.14", "355/113"]
+    },
+    {
+      "id": "circumference-and-arc-length",
+      "title": "Circumference and arc length",
+      "summary": "Circumference C = 2πr; an arc that makes angle θ at the centre has length 2πr × θ/360.",
+      "simple": "The distance around a circle is **2πr**. An arc is just a fraction of that distance. If the arc's angle at the centre is θ, it is θ/360 of the full circle, so its length is 2πr × θ/360.",
+      "explain": "**Circumference:** C = 2πr = πd.\n\n**Arc length:** a full circle is 360° at the centre. An arc that subtends angle θ at the centre is the fraction θ/360 of the whole circle, so\n**arc length l = 2πr × θ/360**.\n\nUseful special cases:\n- Semicircle (θ = 180°): arc = πr\n- Quarter circle (θ = 90°): arc = πr/2\n\n**Perimeter of a sector** = arc length + 2r (the two radii).\n**Perimeter of a semicircular region** = πr + 2r.\n\n**Finding r from C:** r = C ÷ 2π.\n\nUse π = 22/7 when the radius is a multiple of 7, and 3.14 otherwise, unless told which value to use.",
+      "example": "**1.** Circumference of a circle = 44 cm. Find r.\n- 2 × (22/7) × r = 44\n- (44/7) × r = 44\n- r = 44 × 7/44 = **7 cm**\n\n**2.** Arc of a circle of radius 7 cm with central angle 90°:\n- l = 2 × (22/7) × 7 × 90/360 = 44 × ¼ = **11 cm**\n- Perimeter of that sector = 11 + 7 + 7 = **25 cm**",
+      "keyPoints": ["C = 2πr = πd", "Arc length = 2πr × θ/360", "Semicircle arc = πr; quarter arc = πr/2", "Sector perimeter = arc + 2r", "r = C ÷ 2π"],
+      "keywords": ["circumference", "circumference of circle", "perimeter of circle", "2πr", "arc length", "length of arc", "perimeter of sector", "perimeter of semicircle", "find radius from circumference"]
+    },
+    {
+      "id": "areas-of-polygons",
+      "title": "Areas of rectangles, parallelograms, triangles and trapeziums",
+      "summary": "Rectangle l × b; for a fixed perimeter the square has the largest area; parallelogram base × height; triangle ½ × base × height; a median halves a triangle's area; equilateral (√3/4)a²; trapezium ½(a + b)h.",
+      "simple": "Area is how much flat space a shape covers, measured in square units. A rectangle's area is length × breadth. A parallelogram is a 'pushed-over' rectangle, so its area is base × height. A triangle is half a parallelogram, so its area is ½ × base × height.",
+      "explain": "**Area** is measured in square units (cm², m²).\n\n**Rectangle:** A = l × b. **Square:** A = a².\n- Among all rectangles with the **same perimeter**, the **square has the largest area**.\n\n**Parallelogram:** A = **base × height**, where the height is the perpendicular distance between the base and the opposite side (not the slanted side). Cutting a triangle off one end and moving it to the other turns the parallelogram into a rectangle with the same base and height.\n- Parallelograms on the same base and between the same parallels have equal area.\n\n**Triangle:** A = **½ × base × height**. A diagonal splits a parallelogram into two congruent triangles.\n- Triangles on the same base and between the same parallels have equal area.\n- A **median** joins a vertex to the midpoint of the opposite side. It splits the triangle into two triangles with equal bases and the same height, so it **divides the area into two equal halves**.\n\n**Equilateral triangle** of side a: height = (√3/2)a, so A = **(√3/4)a²**.\n\n**Trapezium** with parallel sides a and b and height h: A = **½(a + b)h**. (Split it by a diagonal into two triangles with the same height.)",
+      "example": "**Fixed perimeter 20 cm** — rectangles with whole-number sides:\n- 1 × 9 = 9, 2 × 8 = 16, 3 × 7 = 21, 4 × 6 = 24, **5 × 5 = 25 cm²** (the square is largest)\n\n**Triangle** base 10 cm, height 6 cm: A = ½ × 10 × 6 = 30 cm². A median to that base makes two triangles each ½ × 5 × 6 = 15 cm².\n\n**Equilateral triangle** side 6 cm: A = (√3/4) × 36 = 9√3 ≈ 9 × 1.732 ≈ **15.59 cm²**.\n\n**Trapezium** with parallel sides 10 cm and 6 cm, height 4 cm: A = ½ × (10 + 6) × 4 = ½ × 16 × 4 = **32 cm²**.",
+      "keyPoints": ["Rectangle l × b; square a²", "Same perimeter → the square has the largest area", "Parallelogram = base × perpendicular height", "Triangle = ½ × base × height", "A median divides a triangle into two equal areas", "Equilateral triangle = (√3/4)a²", "Trapezium = ½(a + b)h"],
+      "keywords": ["area", "area of rectangle", "area of square", "area of parallelogram", "area of triangle", "base height", "median", "median divides area", "equilateral triangle area", "√3/4", "area of trapezium", "same base same parallels", "maximum area rectangle", "square largest area"]
+    },
+    {
+      "id": "herons-and-brahmaguptas-formulas",
+      "title": "Heron's formula and Brahmagupta's formula",
+      "summary": "Heron's formula finds a triangle's area from its three sides: √(s(s − a)(s − b)(s − c)); Brahmagupta's formula does the same for a cyclic quadrilateral: √((s − a)(s − b)(s − c)(s − d)).",
+      "simple": "Sometimes you know all the sides of a triangle but not its height. **Heron's formula** gives the area using just the sides. First find half the perimeter, s. Then multiply s by (s − each side) and take the square root.",
+      "explain": "**Heron's formula** (Heron of Alexandria) for a triangle with sides a, b, c:\n1. Semi-perimeter **s = (a + b + c)/2**\n2. **Area = √(s(s − a)(s − b)(s − c))**\n\nIt is handy for scalene triangles, plots of land and any triangle where the height is hard to measure.\n\n**Brahmagupta's formula** (Brahmagupta, India, 7th century CE) for a **cyclic quadrilateral** with sides a, b, c, d:\n1. s = (a + b + c + d)/2\n2. **Area = √((s − a)(s − b)(s − c)(s − d))**\n\nIt works **only for cyclic quadrilaterals** (vertices on one circle). If you let one side d shrink to 0, the quadrilateral becomes a triangle and the formula turns into Heron's formula (s − d becomes s).\n\n**Tip:** before taking the square root, factorise the product to spot perfect squares.",
+      "example": "**1. Triangle 3, 4, 5:** s = (3 + 4 + 5)/2 = 6. Area = √(6 × 3 × 2 × 1) = √36 = **6 square units** (check: right triangle, ½ × 3 × 4 = 6 ✓).\n\n**2. Triangle 8 cm, 11 cm, 13 cm:**\n- s = (8 + 11 + 13)/2 = 32/2 = 16\n- s − a = 8, s − b = 5, s − c = 3\n- Area = √(16 × 8 × 5 × 3) = √1920 ≈ **43.82 cm²**\n\n**3. Brahmagupta check — rectangle 3 × 4** (a rectangle is cyclic): s = (3 + 4 + 3 + 4)/2 = 7. Area = √(4 × 3 × 4 × 3) = √144 = **12** = 3 × 4 ✓.",
+      "keyPoints": ["s = half the perimeter", "Heron: Area = √(s(s − a)(s − b)(s − c))", "Use Heron when only the three sides are known", "Brahmagupta: Area = √((s − a)(s − b)(s − c)(s − d))", "Brahmagupta's formula is only for cyclic quadrilaterals", "3-4-5 triangle → area 6"],
+      "keywords": ["heron's formula", "herons formula", "heron", "semi-perimeter", "semiperimeter", "area of triangle with three sides", "area of scalene triangle", "brahmagupta", "brahmagupta's formula", "area of cyclic quadrilateral", "area of quadrilateral"]
+    },
+    {
+      "id": "area-of-circle-sector-segment",
+      "title": "Area of a circle, sector and segment",
+      "summary": "Area of a circle = πr²; a sector of angle θ has area πr² × θ/360; a segment = sector − triangle.",
+      "simple": "Cut a circle into many thin slices like a pizza and arrange them top-and-bottom alternately. They form a shape very close to a rectangle whose length is half the circumference (πr) and whose height is r. So the circle's area is πr × r = **πr²**.",
+      "explain": "**Area of a circle = πr².**\n\n**Why?** Cut the circle into a large number of equal thin sectors. Arrange them alternately point-up and point-down. The shape becomes almost a rectangle:\n- its length is half the circumference = ½ × 2πr = **πr**\n- its height is the radius **r**\nThe more sectors you use, the closer it gets to a true rectangle, so the area = πr × r = πr². Mathematicians in several traditions, including in India, used this kind of rearranging argument.\n\n**Sector:** a sector of central angle θ is θ/360 of the circle, so\n**Area of sector = πr² × θ/360**.\n\n**Segment:** the minor segment made by a chord is the sector minus the triangle formed by the two radii and the chord:\n**Area of segment = area of sector − area of triangle**.\nMajor segment = area of circle − minor segment.\n\n**Ring (annulus)** between circles of radii R and r: π(R² − r²).",
+      "example": "**1.** Circumference 44 cm → r = 7 cm (44 ÷ (2 × 22/7) = 7). Area = (22/7) × 7 × 7 = 22 × 7 = **154 cm²**.\n\n**2.** Quarter sector of that circle (θ = 90°): 154 × 90/360 = 154 ÷ 4 = **38.5 cm²**.\n\n**3.** Minor segment for θ = 90°: the triangle has two 7 cm radii at a right angle, area = ½ × 7 × 7 = 24.5 cm². Segment = 38.5 − 24.5 = **14 cm²**.",
+      "keyPoints": ["Area of circle = πr²", "Idea: sectors rearranged → near-rectangle of length πr and height r", "Sector area = πr² × θ/360", "Minor segment = sector − triangle", "Major segment = circle − minor segment", "Circumference 44 cm ↔ r = 7 cm ↔ area 154 cm²"],
+      "keywords": ["area of circle", "πr²", "pi r squared", "area of sector", "sector", "area of segment", "segment", "minor segment", "major segment", "quadrant", "ring", "annulus", "why area of circle is pi r squared"]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "Perimeter", "meaning": "The total length of the boundary of a closed figure." },
+    { "term": "Area", "meaning": "The amount of flat surface enclosed by a figure, measured in square units." },
+    { "term": "Circumference", "meaning": "The perimeter of a circle, 2πr." },
+    { "term": "π (pi)", "meaning": "The ratio of a circle's circumference to its diameter, ≈ 3.14159…; an irrational number." },
+    { "term": "Irrational number", "meaning": "A number that cannot be written as p/q; its decimal never ends and never repeats." },
+    { "term": "Staggered start", "meaning": "Starting runners in outer lanes further ahead so that everyone runs the same distance." },
+    { "term": "Semi-perimeter (s)", "meaning": "Half the perimeter, used in Heron's and Brahmagupta's formulas." },
+    { "term": "Median", "meaning": "A line from a vertex of a triangle to the midpoint of the opposite side; it halves the area." },
+    { "term": "Sector", "meaning": "Region between two radii and an arc; area πr² × θ/360." },
+    { "term": "Segment", "meaning": "Region between a chord and an arc; area = sector − triangle." },
+    { "term": "Cyclic quadrilateral", "meaning": "A quadrilateral with all four vertices on a circle; Brahmagupta's formula gives its area." }
+  ],
+  "formulas": [
+    "Perimeter of rectangle = 2(l + b); perimeter of square = 4a",
+    "Circumference C = 2πr = πd",
+    "Arc length = 2πr × θ/360 (θ = angle at centre in degrees)",
+    "Extra distance per outer lane per lap = 2πw (w = lane width)",
+    "Area of rectangle = l × b; area of square = a²",
+    "Area of parallelogram = base × height",
+    "Area of triangle = ½ × base × height",
+    "Area of equilateral triangle = (√3/4)a²",
+    "Heron's formula: s = (a + b + c)/2, Area = √(s(s − a)(s − b)(s − c))",
+    "Brahmagupta's formula (cyclic quadrilateral): s = (a + b + c + d)/2, Area = √((s − a)(s − b)(s − c)(s − d))",
+    "Area of trapezium = ½(a + b)h (a, b parallel sides, h distance between them)",
+    "Area of circle = πr²",
+    "Area of sector = πr² × θ/360",
+    "Area of segment = area of sector − area of triangle"
+  ],
+  "commonMistakes": [
+    "Using the slanted side instead of the perpendicular height for a parallelogram or triangle.",
+    "Using the full perimeter instead of the semi-perimeter s in Heron's formula.",
+    "Treating 22/7 or 3.14 as the exact value of π — they are only approximations.",
+    "Using Brahmagupta's formula for a quadrilateral that is not cyclic.",
+    "Mixing up circumference (2πr, in cm) and area (πr², in cm²), or writing the wrong units.",
+    "Using the diameter in place of the radius in πr².",
+    "Forgetting to subtract the triangle when finding the area of a segment.",
+    "Thinking outer lanes are longer only on big tracks — the extra 2πw per lap does not depend on the track size."
+  ],
+  "revision": [
+    "Each outer lane is 2π × lane width longer per full lap — hence staggered starts.",
+    "π = C/d; Babylonians 3.125, Archimedes 223/71 to 22/7, Zu Chongzhi 355/113, Aryabhata 3.1416.",
+    "Madhava gave an infinite series for π; Lambert (1761) proved π irrational.",
+    "C = 2πr; arc = 2πr × θ/360.",
+    "Same perimeter → the square encloses the largest area among rectangles.",
+    "Parallelogram = base × height; triangle = ½ × base × height.",
+    "A median divides a triangle into two equal areas.",
+    "Equilateral triangle area = (√3/4)a².",
+    "Heron: s = (a + b + c)/2, Area = √(s(s − a)(s − b)(s − c)); 3-4-5 gives 6.",
+    "Brahmagupta: √((s − a)(s − b)(s − c)(s − d)) for cyclic quadrilaterals.",
+    "Trapezium = ½(a + b)h.",
+    "Circle πr²; sector πr² × θ/360; segment = sector − triangle.",
+    "C = 44 cm → r = 7 cm → area 154 cm²."
+  ],
+  "faqs": [
+    { "q": "Is π equal to 22/7?", "a": "No. π is **irrational** (proved by Lambert in 1761), so no fraction equals it exactly. 22/7 ≈ 3.142857 is a convenient approximation, slightly larger than π = 3.14159…. Use it when the radius is a multiple of 7.", "keywords": ["is pi 22/7", "pi exact value", "pi irrational"] },
+    { "q": "When should I use Heron's formula?", "a": "When you know all **three sides** of a triangle but not its height. Find s = (a + b + c)/2, then Area = √(s(s − a)(s − b)(s − c)). For sides 8, 11, 13: s = 16 and Area = √(16 × 8 × 5 × 3) = √1920 ≈ 43.82.", "keywords": ["when to use heron's formula", "heron's formula example"] },
+    { "q": "Why do runners in outer lanes start ahead?", "a": "The bends of an outer lane have a bigger radius, so the lane is longer. Each lane outward adds 2π × lane width per full lap (about 7.67 m for a 1.22 m lane). Staggering the start makes every runner cover the same distance.", "keywords": ["staggered start", "why outer lane start ahead", "race track lanes"] },
+    { "q": "What is the difference between a sector and a segment when finding area?", "a": "A **sector** is bounded by two radii and an arc: area = πr² × θ/360. A **segment** is bounded by a chord and an arc: area = sector − triangle formed by the two radii and the chord.", "keywords": ["sector vs segment area", "area of segment"] },
+    { "q": "Why is the area of a circle πr²?", "a": "Cut the circle into many thin sectors and arrange them alternately up and down. They form an almost-rectangle with length half the circumference (πr) and height r. So the area is πr × r = πr².", "keywords": ["why area of circle pi r squared", "proof area of circle"] }
+  ],
+  "quiz": [
+    { "q": "The ratio of the circumference of any circle to its diameter is:", "options": ["2π", "π", "π/2", "It depends on the circle"], "answer": 1, "explain": "C/d = π for every circle.", "topic": "history-of-pi", "level": "easy" },
+    { "q": "Who proved in 1761 that π is irrational?", "options": ["Archimedes", "Aryabhata", "Johann Lambert", "Zu Chongzhi"], "answer": 2, "explain": "Johann Lambert proved π irrational in 1761.", "topic": "history-of-pi", "level": "medium" },
+    { "q": "A track's lanes are 1.22 m wide. Roughly how much longer is one lane than the lane just inside it, over one full lap?", "options": ["7.67 m", "1.22 m", "3.83 m", "2.44 m"], "answer": 0, "explain": "Extra = 2πw = 2 × 3.1416 × 1.22 ≈ 7.67 m.", "topic": "perimeter-and-race-tracks", "level": "medium" },
+    { "q": "The circumference of a circle is 44 cm. Its radius is (π = 22/7):", "options": ["14 cm", "22 cm", "3.5 cm", "7 cm"], "answer": 3, "explain": "2 × (22/7) × r = 44 → r = 7 cm.", "topic": "circumference-and-arc-length", "level": "easy" },
+    { "q": "The length of an arc of a circle of radius 7 cm that subtends 90° at the centre is (π = 22/7):", "options": ["44 cm", "22 cm", "11 cm", "38.5 cm"], "answer": 2, "explain": "2 × (22/7) × 7 × 90/360 = 44 ÷ 4 = 11 cm.", "topic": "circumference-and-arc-length", "level": "medium" },
+    { "q": "Among rectangles with perimeter 20 cm, which has the largest area?", "options": ["5 cm × 5 cm", "4 cm × 6 cm", "2 cm × 8 cm", "1 cm × 9 cm"], "answer": 0, "explain": "Areas are 25, 24, 16 and 9 cm² — the square is largest.", "topic": "areas-of-polygons", "level": "easy" },
+    { "q": "A trapezium has parallel sides 10 cm and 6 cm, and height 4 cm. Its area is:", "options": ["64 cm²", "240 cm²", "40 cm²", "32 cm²"], "answer": 3, "explain": "½ × (10 + 6) × 4 = 32 cm².", "topic": "areas-of-polygons", "level": "medium" },
+    { "q": "A median of a triangle divides it into two triangles that are:", "options": ["Always congruent", "Equal in area", "Both right-angled", "In the ratio 1 : 2 by area"], "answer": 1, "explain": "They have equal bases (half the side) and the same height, so equal areas — though not necessarily congruent.", "topic": "areas-of-polygons", "level": "medium" },
+    { "q": "Using Heron's formula, the area of a triangle with sides 3, 4 and 5 units is:", "options": ["6 square units", "12 square units", "7.5 square units", "10 square units"], "answer": 0, "explain": "s = 6; Area = √(6 × 3 × 2 × 1) = √36 = 6.", "topic": "herons-and-brahmaguptas-formulas", "level": "easy" },
+    { "q": "For a triangle with sides 8 cm, 11 cm and 13 cm, the area is closest to:", "options": ["52 cm²", "32 cm²", "88 cm²", "43.82 cm²"], "answer": 3, "explain": "s = 16; Area = √(16 × 8 × 5 × 3) = √1920 ≈ 43.82 cm².", "topic": "herons-and-brahmaguptas-formulas", "level": "hard" },
+    { "q": "Brahmagupta's formula gives the area of:", "options": ["Any quadrilateral", "A cyclic quadrilateral", "Any triangle using its height", "A circle"], "answer": 1, "explain": "√((s − a)(s − b)(s − c)(s − d)) works only when all four vertices lie on a circle.", "topic": "herons-and-brahmaguptas-formulas", "level": "medium" },
+    { "q": "In a circle of radius 7 cm, a chord subtends 90° at the centre. The area of the minor segment is (π = 22/7):", "options": ["38.5 cm²", "24.5 cm²", "14 cm²", "154 cm²"], "answer": 2, "explain": "Sector = 154 × ¼ = 38.5; triangle = ½ × 7 × 7 = 24.5; segment = 38.5 − 24.5 = 14 cm².", "topic": "area-of-circle-sector-segment", "level": "hard" }
+  ]
+}

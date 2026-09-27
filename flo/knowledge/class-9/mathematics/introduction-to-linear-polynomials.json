@@ -1,0 +1,127 @@
+{
+  "id": "c9-math-linear-polynomials",
+  "class": 9,
+  "subject": "mathematics",
+  "name": "Introduction to Linear Polynomials",
+  "summary": "A polynomial is an algebraic expression whose variables have only whole-number powers. A linear polynomial has degree 1 and looks like ax + b (a ≠ 0). Linear polynomials describe patterns that grow or shrink by the same amount each step, such as savings, a burning candle or a taxi fare. We can find the rule y = ax + b from two data points, and its graph is always a straight line with slope a and y-intercept b.",
+  "topics": [
+    {
+      "id": "expressions-and-polynomials",
+      "title": "Algebraic expressions, polynomials and degree",
+      "summary": "Expressions are built from variables, constants, terms and coefficients; a polynomial has only whole-number powers of the variable, and its degree is the highest power.",
+      "simple": "An **algebraic expression** mixes numbers and letters, like 3x + 5. The letter is a **variable** because it can take different values. A **polynomial** is an expression where the powers of the variable are whole numbers (0, 1, 2, …). The biggest power is called the **degree**.",
+      "explain": "**Parts of an expression** — take 4x² − 7x + 2:\n- **Variable:** x (a letter that can stand for any number)\n- **Terms:** 4x², −7x and 2 (parts joined by + or −)\n- **Coefficients:** 4 is the coefficient of x², −7 is the coefficient of x\n- **Constant term:** 2 (it has no variable)\n\n**Polynomial:** an expression in which every power of the variable is a **whole number** (0, 1, 2, 3, …).\n- Polynomials: 5x + 1, x² − 3x, 7, 2y³ − y + 4\n- **Not** polynomials: 1/x (= x⁻¹, negative power), √x (= x^½, fractional power), x + 3/x\n\n**Degree:** the highest power of the variable in the polynomial.\n- 4x³ − 2x + 7 → degree 3\n- 6x + 1 → degree 1 (**linear**)\n- x² − 9 → degree 2 (quadratic)\n- 7 → degree 0 (a non-zero **constant polynomial**)\n\n**Naming by number of terms:** monomial (1 term, e.g. 5x), binomial (2 terms, e.g. 3x − 4), trinomial (3 terms, e.g. x² + x + 1).\n\nTo find the degree correctly, first simplify: in (x² + 3x) − x², the x² terms cancel, leaving 3x, which has degree 1.",
+      "example": "For 5 − 3y + 8y²:\n- Terms: 5, −3y, 8y²\n- Coefficient of y is −3; coefficient of y² is 8\n- Constant term is 5\n- Highest power is 2, so the degree is 2.",
+      "keyPoints": ["Terms are separated by + or − signs", "Coefficient = number multiplying the variable part (sign included)", "Polynomial: only whole-number powers of the variable", "1/x and √x are not polynomial terms", "Degree = highest power (simplify first)", "Degree 1 = linear, 2 = quadratic, 0 = constant"],
+      "keywords": ["algebraic expression", "expression", "variable", "constant", "term", "terms", "coefficient", "polynomial", "polynomials", "degree", "degree of polynomial", "monomial", "binomial", "trinomial", "constant polynomial", "quadratic", "not a polynomial"]
+    },
+    {
+      "id": "linear-polynomial-value-zero",
+      "title": "Linear polynomials, value and zero",
+      "summary": "A linear polynomial is ax + b with a ≠ 0; its value at x = k is found by substituting k, and its zero (where the value is 0) is x = −b/a.",
+      "simple": "A **linear polynomial** looks like ax + b, where a is not zero — for example 2x − 6. To find its **value** at a number, replace x with that number. The **zero** of the polynomial is the x that makes the answer 0. For 2x − 6, that's x = 3.",
+      "explain": "**Linear polynomial:** p(x) = **ax + b**, where a and b are numbers and **a ≠ 0** (if a = 0 it would just be a constant, not linear). Examples: 3x + 5, −x + 4, x/2 − 1.\n\n**Value of a polynomial:** p(k) means 'put x = k'.\n- If p(x) = 5x − 3, then p(2) = 5(2) − 3 = 10 − 3 = **7**\n- p(0) = 5(0) − 3 = **−3** (the value at 0 is always the constant term b)\n- p(−1) = 5(−1) − 3 = −5 − 3 = **−8**\n\n**Zero of a polynomial:** a number k for which p(k) = 0.\nFor ax + b:\n1. Set ax + b = 0\n2. ax = −b\n3. **x = −b/a**\n\nA linear polynomial has **exactly one zero**.\n\n**Worked examples:**\n- 2x − 6 = 0 → 2x = 6 → x = **3**. Check: 2(3) − 6 = 0 ✓\n- 3x + 5 = 0 → 3x = −5 → x = **−5/3**. Check: 3(−5/3) + 5 = −5 + 5 = 0 ✓\n- 4x = 0 → x = **0** (here b = 0)\n\nOn a graph, the zero is where the line y = ax + b crosses the **x-axis**.",
+      "example": "A shopkeeper's profit on selling x pens is p(x) = 4x − 60 rupees (₹4 profit per pen minus ₹60 rent for the day).\n- Profit after 25 pens: p(25) = 100 − 60 = ₹40\n- Break-even: 4x − 60 = 0 → x = 15 pens. Selling fewer than 15 pens means a loss.",
+      "keyPoints": ["Linear polynomial: ax + b with a ≠ 0", "p(k) = value when x = k", "p(0) = b, the constant term", "Zero of ax + b is x = −b/a", "A linear polynomial has exactly one zero", "The zero is where the graph meets the x-axis"],
+      "keywords": ["linear polynomial", "ax + b", "value of polynomial", "p(x)", "p(2)", "zero of polynomial", "zero of linear polynomial", "root", "-b/a", "substitute", "break even", "degree one"]
+    },
+    {
+      "id": "linear-patterns",
+      "title": "Linear patterns and the nth term",
+      "summary": "A pattern that changes by the same amount d each step is linear; its nth term is a + (n − 1)d, e.g. 3, 7, 11, … has nth term 4n − 1.",
+      "simple": "In the pattern 3, 7, 11, 15, … you add 4 every time. When the jump is always the same, the pattern is **linear**. You can write a rule for any term: start at 3 and add 4 for every step after the first. That gives 4n − 1.",
+      "explain": "A sequence where each term is obtained by adding the **same number d** (the **common difference**) to the previous one is a **linear pattern** (also called an arithmetic progression).\n\nIf the first term is **a** and the common difference is **d**:\n- 1st term = a\n- 2nd term = a + d\n- 3rd term = a + 2d\n- **nth term = a + (n − 1)d**\n\nExpanding gives dn + (a − d), which is a **linear polynomial in n** — this is why such patterns are called linear.\n\n**Worked example:** 3, 7, 11, 15, …\n1. a = 3, d = 7 − 3 = 4\n2. nth term = 3 + (n − 1) × 4 = 3 + 4n − 4 = **4n − 1**\n3. Check: n = 1 → 3 ✓; n = 2 → 7 ✓; n = 4 → 15 ✓\n4. 10th term = 4(10) − 1 = **39**\n\n**Which term is 99?** 4n − 1 = 99 → 4n = 100 → n = 25. So 99 is the 25th term.\n\n**Decreasing patterns** have negative d: 50, 45, 40, … has a = 50, d = −5, nth term = 50 + (n − 1)(−5) = **55 − 5n**.\n\n**Matchstick patterns:** squares in a row need 4, 7, 10, … sticks (each new square adds 3), so n squares need 4 + (n − 1)3 = **3n + 1** sticks.",
+      "example": "Rows of seats in an auditorium: row 1 has 20 seats and each row has 2 more than the one in front.\nSeats in row n = 20 + (n − 1) × 2 = 2n + 18.\nRow 15 has 2(15) + 18 = 48 seats.",
+      "keyPoints": ["Linear pattern: same common difference d each step", "nth term = a + (n − 1)d", "3, 7, 11, … → 4n − 1", "The nth-term rule is a linear polynomial in n", "Negative d gives a decreasing pattern", "To check if a number is a term, solve for n (must be a positive whole number)"],
+      "keywords": ["linear pattern", "patterns", "sequence", "nth term", "general term", "common difference", "arithmetic progression", "ap", "a + (n-1)d", "4n - 1", "matchstick pattern", "number pattern", "rule for pattern"]
+    },
+    {
+      "id": "linear-growth-decay",
+      "title": "Linear growth, decay and finding y = ax + b from data",
+      "summary": "Quantities that rise or fall by a fixed amount per unit (savings, a burning candle, a taxi fare) follow y = ax + b; two data points are enough to find a and b.",
+      "simple": "If something goes up by the same amount every day, week or kilometre, it grows **linearly**. If it goes down by the same amount each time, it **decays** linearly. We can write it as y = ax + b: b is the starting amount and a is the change per step.",
+      "explain": "**Linear model:** y = ax + b\n- **b** = starting value (when x = 0)\n- **a** = fixed change for each 1 unit of x (the **rate**)\n- a > 0 → **growth**; a < 0 → **decay**\n\n**Growth — savings:** Riya has ₹500 and saves ₹200 every week. After t weeks: **W = 500 + 200t**.\n- After 8 weeks: W = 500 + 1600 = ₹2100\n- When will she have ₹3100? 500 + 200t = 3100 → 200t = 2600 → t = **13 weeks**\n\n**Decay — a candle:** a 24 cm candle burns 3 cm every hour. Height after t hours: **h = 24 − 3t**.\n- After 5 hours: h = 24 − 15 = 9 cm\n- Burns out when 24 − 3t = 0 → t = **8 hours**\n\n**Finding the rule from two data points:** a taxi charges ₹150 for 4 km and ₹300 for 10 km. Assume fare y = ax + b for x km.\n1. Rate a = change in fare ÷ change in distance = (300 − 150) ÷ (10 − 4) = 150 ÷ 6 = **25** (₹25 per km)\n2. Put (4, 150) into y = 25x + b: 150 = 100 + b → b = **50** (base fare ₹50)\n3. Rule: **y = 25x + 50**\n4. Check with (10, 300): 25(10) + 50 = 300 ✓\n\nNow we can predict: a 7 km ride costs 25(7) + 50 = ₹225.",
+      "deep": "**How to spot linear data in a table:** if x goes up in equal steps and y also changes by equal steps, the relationship is linear. For x = 0, 1, 2, 3 and y = 5, 8, 11, 14, y rises by 3 each time, so y = 3x + 5. If the y-changes are not equal (e.g. 1, 4, 9, 16), the relationship is not linear.",
+      "example": "A water tank has 1200 litres and a pipe drains 40 litres per minute.\n- Water left after m minutes: L = 1200 − 40m\n- After 10 minutes: 1200 − 400 = 800 litres\n- Empty when 1200 − 40m = 0 → m = 30 minutes.",
+      "keyPoints": ["y = ax + b: b = starting value, a = change per unit", "a > 0 growth, a < 0 decay", "Savings W = 500 + 200t; candle h = 24 − 3t (out at t = 8)", "a = (change in y) ÷ (change in x) from two data points", "Then substitute one point to find b", "Taxi: ₹50 base + ₹25/km → y = 25x + 50", "Always check the rule with the second point"],
+      "keywords": ["linear growth", "linear decay", "rate of change", "starting value", "initial value", "savings", "candle", "taxi fare", "find equation from two points", "y = ax + b", "linear model", "modelling", "word problems", "base fare", "per km", "table of values"]
+    },
+    {
+      "id": "graphs-of-linear",
+      "title": "Graph of y = ax + b: slope and intercept",
+      "summary": "The graph of y = ax + b is a straight line; a is the slope (rise ÷ run) and b is the y-intercept; y = ax passes through the origin; parallel lines share the same slope.",
+      "simple": "If you plot y = ax + b, the points always fall on a **straight line**. The number **a** tells you how steep it is (the **slope**), and **b** tells you where it crosses the y-axis (the **y-intercept**). If a is positive the line goes up to the right; if negative it goes down.",
+      "explain": "**Drawing y = ax + b:** make a table with a few x-values, find y, plot the points and join them. They always lie on a **straight line**, which is why these are called *linear* polynomials. Two points are enough to draw it; a third is a good check.\n\n**Slope (a):**\n- Slope = **rise ÷ run** = (change in y) ÷ (change in x) between any two points on the line\n- For y = 2x + 1, going from (0, 1) to (3, 7): rise = 6, run = 3, slope = 6 ÷ 3 = 2 = a ✓\n- **a > 0:** line rises from left to right (y increases as x increases)\n- **a < 0:** line falls from left to right\n- Larger size of a → steeper line\n\n**y-intercept (b):** the line crosses the y-axis at **(0, b)**, since x = 0 gives y = b.\n\n**x-intercept:** the line crosses the x-axis where y = 0, i.e. at x = −b/a — the **zero** of ax + b.\n\n**Lines through the origin:** y = ax (b = 0) always passes through (0, 0). Here y is **directly proportional** to x: doubling x doubles y. Example: cost of pens at ₹10 each, y = 10x.\n\n**Parallel lines** have the **same slope** but different intercepts, e.g. y = 2x + 1 and y = 2x − 3 never meet.\n\n**Finding the line through two points** (1, 3) and (4, 9): slope = (9 − 3) ÷ (4 − 1) = 6 ÷ 3 = 2; then 3 = 2(1) + b gives b = 1, so **y = 2x + 1**.",
+      "example": "Plot y = −x + 4:\n- x = 0 → y = 4, point (0, 4) — the y-intercept\n- x = 2 → y = 2, point (2, 2)\n- x = 4 → y = 0, point (4, 0) — the x-intercept (zero of −x + 4)\nThe line falls from left to right because the slope is −1.",
+      "keyPoints": ["Graph of y = ax + b is always a straight line", "Slope a = rise ÷ run", "y-intercept b: crosses y-axis at (0, b)", "x-intercept is the zero −b/a", "Positive slope rises, negative slope falls", "y = ax passes through the origin (direct proportion)", "Parallel lines have equal slopes"],
+      "keywords": ["graph of linear polynomial", "straight line graph", "slope", "gradient", "steepness", "rise over run", "y-intercept", "x-intercept", "intercept", "y = mx + c", "y = ax + b", "direct proportion", "proportional", "through origin", "parallel lines", "positive slope", "negative slope", "plotting a line"]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "Variable", "meaning": "A letter such as x or y that can take different numerical values." },
+    { "term": "Coefficient", "meaning": "The number multiplying the variable part of a term, e.g. −7 in −7x." },
+    { "term": "Polynomial", "meaning": "An algebraic expression in which every power of the variable is a whole number." },
+    { "term": "Degree", "meaning": "The highest power of the variable in a polynomial (after simplifying)." },
+    { "term": "Linear polynomial", "meaning": "A polynomial of degree 1, of the form ax + b with a ≠ 0." },
+    { "term": "Value of a polynomial", "meaning": "The number obtained by substituting a given value for the variable, e.g. p(2)." },
+    { "term": "Zero of a polynomial", "meaning": "A value of x that makes the polynomial equal to 0; for ax + b it is −b/a." },
+    { "term": "Common difference", "meaning": "The fixed amount added each step in a linear pattern." },
+    { "term": "Linear growth / decay", "meaning": "Increase or decrease by the same amount for each equal step of time or quantity." },
+    { "term": "Slope", "meaning": "Steepness of a line, rise ÷ run; equals a in y = ax + b." },
+    { "term": "y-intercept", "meaning": "The point (0, b) where the line y = ax + b crosses the y-axis." },
+    { "term": "Direct proportion", "meaning": "A relationship y = ax whose graph is a straight line through the origin." }
+  ],
+  "formulas": [
+    "Linear polynomial: p(x) = ax + b, a ≠ 0",
+    "Zero of ax + b: x = −b/a",
+    "nth term of a linear pattern = a + (n − 1)d (a first term, d common difference)",
+    "Slope a = (y₂ − y₁) ÷ (x₂ − x₁) = rise ÷ run",
+    "Intercept b = y₁ − a·x₁ (after finding the slope)",
+    "Line through origin (direct proportion): y = ax"
+  ],
+  "commonMistakes": [
+    "Forgetting the condition a ≠ 0 — if a = 0, ax + b is a constant, not linear.",
+    "Calling 1/x or √x + 2 a polynomial — negative and fractional powers are not allowed.",
+    "Finding the degree before simplifying: (x² + 3x) − x² has degree 1, not 2.",
+    "Giving the zero of ax + b as b/a instead of −b/a (for 2x − 6 the zero is 3, not −3).",
+    "Using n instead of (n − 1) in the nth-term formula, which makes every term too big by d.",
+    "Dividing run by rise when finding slope — slope is change in y ÷ change in x.",
+    "Assuming every line passes through the origin — only y = ax (b = 0) does."
+  ],
+  "revision": [
+    "Polynomial: only whole-number powers of the variable.",
+    "Degree = highest power; linear means degree 1.",
+    "Linear polynomial: ax + b, a ≠ 0.",
+    "p(k) means substitute x = k; p(0) = b.",
+    "Zero of ax + b is −b/a; a linear polynomial has exactly one zero.",
+    "Linear pattern nth term = a + (n − 1)d; 3, 7, 11, … → 4n − 1.",
+    "y = ax + b: b is the starting value, a is the change per unit.",
+    "Savings W = 500 + 200t (growth); candle h = 24 − 3t burns out at t = 8 (decay).",
+    "From two points: a = change in y ÷ change in x, then find b.",
+    "Taxi ₹50 base + ₹25/km → y = 25x + 50.",
+    "Graph of y = ax + b is a straight line: slope a, y-intercept b.",
+    "y = ax passes through the origin (proportional).",
+    "Parallel lines have the same slope."
+  ],
+  "faqs": [
+    { "q": "What is the difference between the value and the zero of a polynomial?", "a": "The **value** p(k) is what you get when you put x = k — it can be any number. A **zero** is a special x that makes the value **0**. For p(x) = 2x − 6, p(5) = 4 is a value, and x = 3 is the zero because p(3) = 0.", "keywords": ["value vs zero", "difference value and zero of polynomial", "zero of polynomial meaning"] },
+    { "q": "Why is it called a 'linear' polynomial?", "a": "Because its graph y = ax + b is always a straight **line**. Every time x increases by 1, y changes by the same amount a, so the points line up.", "keywords": ["why linear", "why called linear polynomial", "linear meaning"] },
+    { "q": "How do I find y = ax + b from two data points?", "a": "1. Find a = (change in y) ÷ (change in x).\n2. Substitute one point into y = ax + b to find b.\n3. Check with the other point.\nExample: (4, 150) and (10, 300) → a = 150 ÷ 6 = 25; 150 = 100 + b → b = 50; y = 25x + 50.", "keywords": ["find equation from two points", "find a and b", "linear rule from data", "taxi fare problem"] },
+    { "q": "What do a and b mean in y = ax + b?", "a": "**a** is the slope — how much y changes when x goes up by 1 (the rate). **b** is the y-intercept — the value of y when x = 0 (the starting amount). In W = 500 + 200t, you start with ₹500 and add ₹200 per week.", "keywords": ["meaning of a and b", "slope and intercept meaning", "what is slope", "what is intercept"] },
+    { "q": "Is 5 a polynomial? What is its degree?", "a": "Yes. A non-zero number like 5 is a **constant polynomial** (5 = 5x⁰), so its degree is **0**. It is not linear, because a linear polynomial must have degree 1.", "keywords": ["constant polynomial", "degree of constant", "is 5 a polynomial"] }
+  ],
+  "quiz": [
+    { "q": "What is the degree of 4x³ − 2x + 7?", "options": ["3", "1", "7", "4"], "answer": 0, "explain": "The highest power of x is 3.", "topic": "expressions-and-polynomials", "level": "easy" },
+    { "q": "Which of these is NOT a polynomial?", "options": ["3x + 2", "x² − 5", "7", "x + 1/x"], "answer": 3, "explain": "1/x = x⁻¹ has a negative power, so x + 1/x is not a polynomial.", "topic": "expressions-and-polynomials", "level": "medium" },
+    { "q": "If p(x) = 5x − 3, what is p(2)?", "options": ["13", "7", "10", "−1"], "answer": 1, "explain": "p(2) = 5 × 2 − 3 = 10 − 3 = 7.", "topic": "linear-polynomial-value-zero", "level": "easy" },
+    { "q": "The zero of the polynomial 3x + 5 is:", "options": ["5/3", "−3/5", "−5/3", "3/5"], "answer": 2, "explain": "3x + 5 = 0 → x = −5/3. Check: 3(−5/3) + 5 = 0.", "topic": "linear-polynomial-value-zero", "level": "medium" },
+    { "q": "Which expression is a linear polynomial?", "options": ["2x − 9", "x² + 1", "4", "√x + 3"], "answer": 0, "explain": "2x − 9 has degree 1. x² + 1 has degree 2, 4 has degree 0, and √x + 3 is not a polynomial.", "topic": "linear-polynomial-value-zero", "level": "easy" },
+    { "q": "The nth term of the pattern 3, 7, 11, 15, … is:", "options": ["3n + 4", "4n + 3", "n + 4", "4n − 1"], "answer": 3, "explain": "a = 3, d = 4: 3 + (n − 1) × 4 = 4n − 1.", "topic": "linear-patterns", "level": "medium" },
+    { "q": "In the pattern 3, 7, 11, …, which term is 99?", "options": ["24th", "25th", "26th", "33rd"], "answer": 1, "explain": "4n − 1 = 99 → 4n = 100 → n = 25.", "topic": "linear-patterns", "level": "hard" },
+    { "q": "A 24 cm candle burns 3 cm per hour (h = 24 − 3t). After how many hours does it burn out?", "options": ["6", "21", "8", "72"], "answer": 2, "explain": "24 − 3t = 0 → 3t = 24 → t = 8 hours.", "topic": "linear-growth-decay", "level": "easy" },
+    { "q": "A taxi charges ₹150 for 4 km and ₹300 for 10 km (fare linear in distance). What is the fare rule?", "options": ["y = 25x + 50", "y = 30x + 30", "y = 37.5x", "y = 15x + 90"], "answer": 0, "explain": "a = (300 − 150) ÷ (10 − 4) = 25; 150 = 25(4) + b → b = 50. So y = 25x + 50.", "topic": "linear-growth-decay", "level": "hard" },
+    { "q": "Riya's savings are W = 500 + 200t (t in weeks). After how many weeks will she have ₹3100?", "options": ["15.5", "10", "18", "13"], "answer": 3, "explain": "500 + 200t = 3100 → 200t = 2600 → t = 13.", "topic": "linear-growth-decay", "level": "medium" },
+    { "q": "What are the slope and y-intercept of y = −3x + 7?", "options": ["Slope 7, intercept −3", "Slope 3, intercept 7", "Slope −3, intercept 7", "Slope −3, intercept −7"], "answer": 2, "explain": "In y = ax + b, slope a = −3 and y-intercept b = 7.", "topic": "graphs-of-linear", "level": "medium" },
+    { "q": "Which line is parallel to y = 2x + 1?", "options": ["y = x + 2", "y = 2x − 3", "y = −2x + 1", "y = ½x + 1"], "answer": 1, "explain": "Parallel lines have the same slope; y = 2x − 3 also has slope 2.", "topic": "graphs-of-linear", "level": "easy" }
+  ]
+}

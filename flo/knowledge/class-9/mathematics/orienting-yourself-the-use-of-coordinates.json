@@ -1,0 +1,129 @@
+{
+  "id": "c9-math-coordinates",
+  "class": 9,
+  "subject": "mathematics",
+  "name": "Orienting Yourself: The Use of Coordinates",
+  "summary": "To describe where something is, we need a fixed reference point and directions. The Cartesian plane uses two perpendicular number lines (x-axis and y-axis) meeting at the origin, so every point gets a unique pair (x, y). With coordinates we can find distances, midpoints and trisection points, check whether points lie on a line, test shapes like squares and right triangles, and reflect points in the axes.",
+  "topics": [
+    {
+      "id": "reference-and-axes",
+      "title": "Reference point, axes and the four quadrants",
+      "summary": "Two perpendicular number lines (x-axis and y-axis) meet at the origin (0, 0) and split the plane into four quadrants with sign patterns (+,+), (−,+), (−,−), (+,−).",
+      "simple": "To tell someone where a thing is, you need a starting point and directions, like '3 steps right and 4 steps up from the gate'. In maths, the starting point is the **origin**, and the two directions are the **x-axis** (left–right) and the **y-axis** (up–down). Every point is then written as a pair (x, y).",
+      "explain": "**Why a reference is needed:** 'The shop is 2 km away' is not enough — 2 km from where, and in which direction? A position only makes sense when it is measured from a fixed **reference point** along agreed **directions**.\n\n**The Cartesian plane:**\n- The **x-axis** is a horizontal number line; the **y-axis** is a vertical number line.\n- They are perpendicular and meet at the **origin O(0, 0)**.\n- To the right of O, x is positive; to the left, negative. Above O, y is positive; below, negative.\n\n**Coordinates:** a point P is written as **(x, y)**.\n- **x** is the **abscissa** (x-coordinate): the signed distance of P from the **y-axis**.\n- **y** is the **ordinate** (y-coordinate): the signed distance of P from the **x-axis**.\n- Order matters: (2, 5) and (5, 2) are different points, so (x, y) is an **ordered pair**.\n\n**The four quadrants** (numbered anticlockwise, starting top-right):\n- Quadrant I: (+, +)\n- Quadrant II: (−, +)\n- Quadrant III: (−, −)\n- Quadrant IV: (+, −)\n\n**Points on the axes** belong to no quadrant:\n- On the x-axis, **y = 0**, e.g. (5, 0), (−3, 0)\n- On the y-axis, **x = 0**, e.g. (0, −4)\n\n**Plotting (a, b):** start at O, move a units along the x-axis (right if positive, left if negative), then b units parallel to the y-axis (up if positive, down if negative), and mark the point.",
+      "deep": "The idea of measuring in opposite directions with signs has an Indian root: **Brahmagupta** (7th century CE) gave rules for working with positive and negative quantities, treating them like fortunes and debts, or opposite directions. In the 17th century **René Descartes** (and, independently, Pierre de Fermat) linked algebra and geometry by describing points with numbers. The plane is called **Cartesian** after Descartes (Latin name *Cartesius*).",
+      "example": "Plot and name the quadrant:\n- A(3, 2): 3 right, 2 up → Quadrant I\n- B(−4, 1): 4 left, 1 up → Quadrant II\n- C(−2, −5): 2 left, 5 down → Quadrant III\n- D(6, −3): 6 right, 3 down → Quadrant IV\n- E(0, −4): on the y-axis (x = 0), no quadrant",
+      "keyPoints": ["Position needs a reference point (origin) and directions (axes)", "Origin O = (0, 0), where the axes cross at right angles", "x = abscissa (distance from y-axis); y = ordinate (distance from x-axis)", "Quadrants I (+,+), II (−,+), III (−,−), IV (+,−)", "On x-axis: y = 0; on y-axis: x = 0", "(a, b) ≠ (b, a) unless a = b — it is an ordered pair"],
+      "keywords": ["coordinate geometry", "coordinates", "cartesian plane", "cartesian system", "x-axis", "y-axis", "origin", "abscissa", "ordinate", "quadrant", "quadrants", "ordered pair", "plotting points", "plot a point", "signs in quadrants", "point on axis", "descartes", "brahmagupta"]
+    },
+    {
+      "id": "distance-formula",
+      "title": "The distance formula",
+      "summary": "The distance between (x₁, y₁) and (x₂, y₂) is √((x₂ − x₁)² + (y₂ − y₁)²), which comes from Pythagoras' theorem; distance from the origin is √(x² + y²).",
+      "simple": "To find how far apart two points are, draw a right triangle: go across (difference in x) and go up (difference in y). The straight-line distance is the hypotenuse, so you use Pythagoras: square the two differences, add, and take the square root.",
+      "explain": "Take points A(x₁, y₁) and B(x₂, y₂). Draw a horizontal line through A and a vertical line through B; they meet at C(x₂, y₁), making a right angle at C.\n- Horizontal side AC = x₂ − x₁ (in size)\n- Vertical side BC = y₂ − y₁ (in size)\n- By **Pythagoras' theorem**, AB² = AC² + BC²\n\nSo the **distance formula** is:\n\n**AB = √((x₂ − x₁)² + (y₂ − y₁)²)**\n\nPoints to note:\n- Because the differences are squared, it doesn't matter which point you call 'first' — (x₁ − x₂)² = (x₂ − x₁)².\n- Signs matter while subtracting: 4 − (−2) = 6, not 2.\n- **Distance from the origin** O(0, 0) to P(x, y) is **√(x² + y²)**.\n- If two points have the same y, distance = difference in x; if they have the same x, distance = difference in y.\n\n**Worked example 1:** A(3, 4) and D(7, 1)\n1. x₂ − x₁ = 7 − 3 = 4\n2. y₂ − y₁ = 1 − 4 = −3\n3. AD = √(4² + (−3)²) = √(16 + 9) = √25 = **5 units**\n\n**Worked example 2:** P(−2, 3) and Q(4, −5)\n1. x₂ − x₁ = 4 − (−2) = 6\n2. y₂ − y₁ = −5 − 3 = −8\n3. PQ = √(36 + 64) = √100 = **10 units**",
+      "example": "Distance of P(6, 8) from the origin:\nOP = √(6² + 8²) = √(36 + 64) = √100 = 10 units.\n\nDistance of R(−5, 12) from the origin:\nOR = √(25 + 144) = √169 = 13 units.",
+      "keyPoints": ["AB = √((x₂ − x₁)² + (y₂ − y₁)²)", "It is Pythagoras' theorem on the plane", "Order of the points doesn't matter (differences are squared)", "Distance from origin = √(x² + y²)", "Be careful with negative signs: 4 − (−2) = 6", "Distance is never negative"],
+      "keywords": ["distance formula", "distance between two points", "distance from origin", "pythagoras", "pythagoras theorem", "length of line segment", "how far apart", "hypotenuse", "coordinate distance", "√(x² + y²)"]
+    },
+    {
+      "id": "midpoint-and-section",
+      "title": "Midpoint and points of trisection",
+      "summary": "The midpoint of (x₁, y₁) and (x₂, y₂) is ((x₁ + x₂)/2, (y₁ + y₂)/2); the points dividing a segment into three equal parts are found by going one-third and two-thirds of the way.",
+      "simple": "The midpoint is exactly halfway between two points. Its x is the average of the two x's and its y is the average of the two y's. To cut a segment into three equal parts, move one-third of the way, then two-thirds of the way.",
+      "explain": "**Midpoint formula:** the midpoint M of A(x₁, y₁) and B(x₂, y₂) is\n\n**M = ((x₁ + x₂)/2, (y₁ + y₂)/2)**\n\nIt is simply the **average** of the x-coordinates and the average of the y-coordinates.\n\n**Worked example:** S(2, 6) and T(8, 4)\n1. x = (2 + 8)/2 = 10/2 = 5\n2. y = (6 + 4)/2 = 10/2 = 5\n3. Midpoint = **(5, 5)**\n\n**Points of trisection:** two points P and Q that cut AB into three equal parts (AP = PQ = QB).\n- P divides AB in the ratio **1 : 2**, so P = ((2x₁ + x₂)/3, (2y₁ + y₂)/3)\n- Q divides AB in the ratio **2 : 1**, so Q = ((x₁ + 2x₂)/3, (y₁ + 2y₂)/3)\n\nAn easy way to think of it: find the total change in x and y, then add one-third of it (for P) and two-thirds of it (for Q) to the starting point.\n\n**Worked example:** A(1, 2) and B(7, 8)\n- Change in x = 7 − 1 = 6; change in y = 8 − 2 = 6\n- P = (1 + 6/3, 2 + 6/3) = (1 + 2, 2 + 2) = **(3, 4)**\n- Q = (1 + 2×6/3, 2 + 2×6/3) = (1 + 4, 2 + 4) = **(5, 6)**\n- Check with the formula for P: ((2×1 + 7)/3, (2×2 + 8)/3) = (9/3, 12/3) = (3, 4) ✓",
+      "deep": "**Finding an unknown end:** if M is the midpoint of AB and you know A and M, then B = (2×M's x − A's x, 2×M's y − A's y). For example, if A(1, 3) and midpoint M(4, 5), then B = (8 − 1, 10 − 3) = (7, 7). Check: ((1 + 7)/2, (3 + 7)/2) = (4, 5) ✓",
+      "example": "Two friends live at A(−4, 3) and B(6, −1) on a town grid (units in km). They want to meet exactly halfway.\nMidpoint = ((−4 + 6)/2, (3 + (−1))/2) = (2/2, 2/2) = (1, 1).",
+      "keyPoints": ["Midpoint = ((x₁ + x₂)/2, (y₁ + y₂)/2) — average the coordinates", "Midpoint of S(2, 6) and T(8, 4) is (5, 5)", "Trisection points divide a segment in ratios 1 : 2 and 2 : 1", "1 : 2 point = ((2x₁ + x₂)/3, (2y₁ + y₂)/3)", "2 : 1 point = ((x₁ + 2x₂)/3, (y₁ + 2y₂)/3)", "Unknown end: B = 2M − A (for each coordinate)"],
+      "keywords": ["midpoint", "midpoint formula", "mid point", "halfway point", "trisection", "points of trisection", "section formula", "ratio 1:2", "divide a line segment", "average of coordinates", "find the other end"]
+    },
+    {
+      "id": "collinearity-and-shapes",
+      "title": "Collinearity and checking shapes",
+      "summary": "Three points are collinear if the two shorter distances add up to the longest (AB + BC = AC); distances also let us test squares, rectangles and right triangles.",
+      "simple": "Points are **collinear** if they lie on one straight line. With distances you can check this: if going A → B → C is exactly as long as going straight from A to C, then B is on the line AC. You can also check shapes: a square has 4 equal sides and 2 equal diagonals; a right triangle obeys Pythagoras.",
+      "explain": "**Collinearity test:** find AB, BC and AC. If the **sum of the two smaller distances equals the largest** (e.g. AB + BC = AC), the points are collinear. If the sum is bigger, they form a triangle.\n\n**Worked example:** A(1, 1), B(2, 3), C(3, 5)\n- AB = √(1² + 2²) = √5\n- BC = √(1² + 2²) = √5\n- AC = √(2² + 4²) = √20 = 2√5\n- AB + BC = √5 + √5 = 2√5 = AC, so **A, B, C are collinear** ✓\n\n**Checking shapes with distances:**\n- **Square:** all four sides equal **and** both diagonals equal\n- **Rhombus:** all four sides equal but diagonals not equal\n- **Rectangle:** opposite sides equal and diagonals equal\n- **Right triangle:** the squares of the two shorter sides add up to the square of the longest side (Pythagoras)\n- **Isosceles triangle:** two sides equal\n\n**Worked example (a tilted square):** A(0, 0), B(3, 1), C(2, 4), D(−1, 3)\n- AB = √(3² + 1²) = √10\n- BC = √((−1)² + 3²) = √10\n- CD = √((−3)² + (−1)²) = √10\n- DA = √(1² + (−3)²) = √10\n- Diagonal AC = √(2² + 4²) = √20; diagonal BD = √((−4)² + 2²) = √20\n- Four equal sides and equal diagonals → **ABCD is a square**.",
+      "example": "Is triangle with P(1, 2), Q(4, 6), R(8, 3) right-angled?\n- PQ² = 3² + 4² = 9 + 16 = 25\n- QR² = 4² + (−3)² = 16 + 9 = 25\n- PR² = 7² + 1² = 49 + 1 = 50\n- PQ² + QR² = 25 + 25 = 50 = PR², so yes — it is right-angled at Q (and isosceles, since PQ = QR = 5).",
+      "keyPoints": ["Collinear = lying on one straight line", "Test: sum of two smaller distances = largest distance", "Square: 4 equal sides + equal diagonals", "Equal sides alone may give only a rhombus", "Right triangle: (shorter side)² + (other shorter side)² = (longest side)²", "Compare squared distances to avoid square roots"],
+      "keywords": ["collinear", "collinearity", "collinear points", "same line", "check if points form a triangle", "square", "rhombus", "rectangle", "right triangle", "right angled triangle", "isosceles triangle", "equal diagonals", "pythagoras converse", "shape from coordinates"]
+    },
+    {
+      "id": "reflections",
+      "title": "Reflections in the axes",
+      "summary": "Reflecting (x, y) in the x-axis gives (x, −y); reflecting in the y-axis gives (−x, y); reflecting in both (through the origin) gives (−x, −y).",
+      "simple": "Imagine the x-axis is a mirror lying flat. A point above it appears the same distance below it, so only the sign of y changes. With the y-axis as the mirror, only the sign of x changes.",
+      "explain": "A **reflection** flips a point over a mirror line. The image is the same distance from the mirror as the original, on the other side, and the segment joining them is perpendicular to the mirror.\n\n**Reflection in the x-axis:** (x, y) → **(x, −y)**\n- The x-coordinate stays; the y-coordinate changes sign.\n- The point moves between Quadrants I ↔ IV or II ↔ III.\n\n**Reflection in the y-axis:** (x, y) → **(−x, y)**\n- The y-coordinate stays; the x-coordinate changes sign.\n- The point moves between Quadrants I ↔ II or III ↔ IV.\n\n**Reflecting in both axes** one after the other: (x, y) → **(−x, −y)**. This is the same as a half-turn about the origin.\n\n**Special cases:**\n- A point on the x-axis (y = 0) stays where it is when reflected in the x-axis.\n- A point on the y-axis (x = 0) stays where it is when reflected in the y-axis.\n\nReflections do not change distances: a shape and its mirror image are congruent.",
+      "example": "Take P(3, −5):\n- Reflection in the x-axis → (3, 5)\n- Reflection in the y-axis → (−3, −5)\n- Reflection in both axes → (−3, 5)\n\nCheck: P and its x-axis image (3, 5) are both 3 units from the y-axis, and 5 units below and above the x-axis respectively.",
+      "keyPoints": ["In x-axis: (x, y) → (x, −y)", "In y-axis: (x, y) → (−x, y)", "In both axes: (x, y) → (−x, −y)", "The coordinate for the mirror's own axis stays the same", "Points on the mirror line don't move", "Reflections keep lengths the same"],
+      "keywords": ["reflection", "reflections", "mirror image", "reflect in x-axis", "reflect in y-axis", "image of a point", "(x, -y)", "(-x, y)", "symmetry", "reflection through origin"]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "Origin", "meaning": "The point (0, 0) where the x-axis and y-axis intersect; the reference point for all coordinates." },
+    { "term": "x-axis and y-axis", "meaning": "The horizontal and vertical number lines, perpendicular to each other, that form the Cartesian plane." },
+    { "term": "Abscissa", "meaning": "The x-coordinate of a point: its signed distance from the y-axis." },
+    { "term": "Ordinate", "meaning": "The y-coordinate of a point: its signed distance from the x-axis." },
+    { "term": "Ordered pair", "meaning": "A pair (x, y) written in a fixed order; (2, 5) and (5, 2) are different points." },
+    { "term": "Quadrant", "meaning": "One of the four regions the axes divide the plane into: I (+,+), II (−,+), III (−,−), IV (+,−)." },
+    { "term": "Distance formula", "meaning": "√((x₂ − x₁)² + (y₂ − y₁)²), the straight-line distance between two points, derived from Pythagoras' theorem." },
+    { "term": "Midpoint", "meaning": "The point exactly halfway between two points; its coordinates are the averages of their coordinates." },
+    { "term": "Points of trisection", "meaning": "The two points that divide a line segment into three equal parts (ratios 1 : 2 and 2 : 1)." },
+    { "term": "Collinear points", "meaning": "Points lying on the same straight line; for three points, the two smaller distances add up to the largest." },
+    { "term": "Reflection", "meaning": "A mirror image of a point in a line; in the x-axis (x, y) → (x, −y), in the y-axis (x, y) → (−x, y)." },
+    { "term": "Cartesian plane", "meaning": "The coordinate plane named after René Descartes, who connected algebra and geometry using coordinates." }
+  ],
+  "formulas": [
+    "Distance AB = √((x₂ − x₁)² + (y₂ − y₁)²) for A(x₁, y₁), B(x₂, y₂)",
+    "Distance of P(x, y) from origin = √(x² + y²)",
+    "Midpoint of AB = ((x₁ + x₂)/2, (y₁ + y₂)/2)",
+    "Point dividing AB in ratio 1 : 2 = ((2x₁ + x₂)/3, (2y₁ + y₂)/3)",
+    "Point dividing AB in ratio 2 : 1 = ((x₁ + 2x₂)/3, (y₁ + 2y₂)/3)",
+    "Collinear A, B, C (B between A and C) ⇔ AB + BC = AC",
+    "Reflection in x-axis: (x, y) → (x, −y); in y-axis: (x, y) → (−x, y)"
+  ],
+  "commonMistakes": [
+    "Writing (y, x) instead of (x, y) — the x-coordinate (abscissa) always comes first.",
+    "Thinking the abscissa is the distance from the x-axis; it is the distance from the y-axis (and the ordinate is the distance from the x-axis).",
+    "Putting points like (0, 4) or (−3, 0) in a quadrant — points on the axes belong to no quadrant.",
+    "Sign errors while subtracting negatives in the distance formula: 4 − (−2) = 6, not 2.",
+    "Forgetting to take the square root at the end of the distance formula (giving 25 instead of 5).",
+    "Calling a figure a square just because all four sides are equal — the diagonals must also be equal, otherwise it may be a rhombus.",
+    "Mixing up the reflections: in the x-axis the y-coordinate changes sign, not the x-coordinate."
+  ],
+  "revision": [
+    "Position needs a reference point (origin) and directions (axes).",
+    "Origin = (0, 0); x-axis horizontal, y-axis vertical, perpendicular.",
+    "x = abscissa, y = ordinate; (x, y) is an ordered pair.",
+    "Quadrant signs: I (+,+), II (−,+), III (−,−), IV (+,−).",
+    "On the x-axis y = 0; on the y-axis x = 0.",
+    "Distance = √((x₂ − x₁)² + (y₂ − y₁)²); from origin √(x² + y²).",
+    "A(3, 4) to D(7, 1) = 5; P(−2, 3) to Q(4, −5) = 10.",
+    "Midpoint = average of coordinates; S(2, 6), T(8, 4) → (5, 5).",
+    "Trisection points divide a segment in 1 : 2 and 2 : 1.",
+    "Collinear if AB + BC = AC.",
+    "Square: equal sides and equal diagonals; right triangle: Pythagoras holds.",
+    "Reflect in x-axis → (x, −y); in y-axis → (−x, y).",
+    "Brahmagupta worked with positive and negative quantities; Descartes gave us the Cartesian plane."
+  ],
+  "faqs": [
+    { "q": "What is the difference between abscissa and ordinate?", "a": "The **abscissa** is the x-coordinate — the distance of the point from the **y-axis**. The **ordinate** is the y-coordinate — the distance from the **x-axis**. For (−3, 7), the abscissa is −3 and the ordinate is 7.", "keywords": ["abscissa vs ordinate", "difference abscissa ordinate", "what is abscissa", "what is ordinate"] },
+    { "q": "In which quadrant does a point on an axis lie?", "a": "In **none**. The axes are the boundaries between quadrants. A point like (0, 5) lies on the y-axis and (−2, 0) lies on the x-axis.", "keywords": ["point on axis quadrant", "which quadrant is (0,5)", "origin quadrant"] },
+    { "q": "Why does the distance formula have squares and a square root?", "a": "It is Pythagoras' theorem. The horizontal and vertical gaps are the two shorter sides of a right triangle, and the distance is the hypotenuse, so distance² = (gap in x)² + (gap in y)². Taking the square root gives the distance.", "keywords": ["distance formula derivation", "why distance formula", "distance formula pythagoras"] },
+    { "q": "How do I check whether three points are collinear?", "a": "Find all three distances. If the two smaller ones add up exactly to the largest (e.g. AB + BC = AC), the points are on one line. For A(1, 1), B(2, 3), C(3, 5): √5 + √5 = 2√5 = AC, so they are collinear.", "keywords": ["collinear points check", "how to check collinearity", "three points on a line"] },
+    { "q": "How is a square different from a rhombus when checking with coordinates?", "a": "Both have **four equal sides**. A square also has **equal diagonals**; a rhombus (that is not a square) has unequal diagonals. So always check the diagonals too.", "keywords": ["square vs rhombus", "prove square coordinates", "check square"] }
+  ],
+  "quiz": [
+    { "q": "In which quadrant does the point (−4, 6) lie?", "options": ["Quadrant II", "Quadrant I", "Quadrant III", "Quadrant IV"], "answer": 0, "explain": "x is negative and y is positive: (−, +) is Quadrant II.", "topic": "reference-and-axes", "level": "easy" },
+    { "q": "The abscissa of the point (7, −2) is:", "options": ["−2", "7", "5", "9"], "answer": 1, "explain": "The abscissa is the x-coordinate, which is 7.", "topic": "reference-and-axes", "level": "easy" },
+    { "q": "A point lies on the x-axis. Which must be true?", "options": ["x = 0", "x = y", "y = 0", "It is in Quadrant I"], "answer": 2, "explain": "Every point on the x-axis has y-coordinate 0.", "topic": "reference-and-axes", "level": "easy" },
+    { "q": "What is the distance between A(3, 4) and D(7, 1)?", "options": ["7", "25", "√7", "5"], "answer": 3, "explain": "√((7 − 3)² + (1 − 4)²) = √(16 + 9) = √25 = 5.", "topic": "distance-formula", "level": "easy" },
+    { "q": "What is the distance between P(−2, 3) and Q(4, −5)?", "options": ["10", "√20", "2", "14"], "answer": 0, "explain": "x-gap = 4 − (−2) = 6, y-gap = −5 − 3 = −8; √(36 + 64) = √100 = 10.", "topic": "distance-formula", "level": "medium" },
+    { "q": "How far is the point (−5, 12) from the origin?", "options": ["7", "17", "13", "√119"], "answer": 2, "explain": "√((−5)² + 12²) = √(25 + 144) = √169 = 13.", "topic": "distance-formula", "level": "medium" },
+    { "q": "The midpoint of S(2, 6) and T(8, 4) is:", "options": ["(6, 2)", "(5, 5)", "(10, 10)", "(3, −1)"], "answer": 1, "explain": "((2 + 8)/2, (6 + 4)/2) = (5, 5).", "topic": "midpoint-and-section", "level": "easy" },
+    { "q": "Which point divides the segment from A(1, 2) to B(7, 8) in the ratio 1 : 2?", "options": ["(5, 6)", "(4, 5)", "(2, 3)", "(3, 4)"], "answer": 3, "explain": "Move one-third of the way: 1 + 6/3 = 3 and 2 + 6/3 = 4, giving (3, 4).", "topic": "midpoint-and-section", "level": "hard" },
+    { "q": "M(4, 5) is the midpoint of AB, and A = (1, 3). What is B?", "options": ["(2.5, 4)", "(7, 7)", "(5, 8)", "(3, 2)"], "answer": 1, "explain": "B = (2×4 − 1, 2×5 − 3) = (7, 7). Check: ((1 + 7)/2, (3 + 7)/2) = (4, 5).", "topic": "midpoint-and-section", "level": "medium" },
+    { "q": "A(1, 1), B(2, 3), C(3, 5) have AB = √5, BC = √5, AC = 2√5. What can you conclude?", "options": ["They form a right triangle", "They form an equilateral triangle", "They are collinear", "They form a square"], "answer": 2, "explain": "AB + BC = √5 + √5 = 2√5 = AC, so B lies on AC: the points are collinear.", "topic": "collinearity-and-shapes", "level": "medium" },
+    { "q": "A quadrilateral has four equal sides but unequal diagonals. It is a:", "options": ["Square", "Rectangle", "Trapezium", "Rhombus"], "answer": 3, "explain": "Equal sides with unequal diagonals is a rhombus; a square would need equal diagonals too.", "topic": "collinearity-and-shapes", "level": "hard" },
+    { "q": "The reflection of (3, −5) in the y-axis is:", "options": ["(−3, −5)", "(3, 5)", "(−3, 5)", "(−5, 3)"], "answer": 0, "explain": "Reflecting in the y-axis changes the sign of x only: (−3, −5).", "topic": "reflections", "level": "medium" }
+  ]
+}

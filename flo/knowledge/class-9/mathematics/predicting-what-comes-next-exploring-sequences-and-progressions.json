@@ -1,0 +1,137 @@
+{
+  "id": "c9-math-sequences",
+  "class": 9,
+  "subject": "mathematics",
+  "name": "Predicting What Comes Next: Exploring Sequences and Progressions",
+  "summary": "A sequence is an ordered list of numbers that follows a rule. This chapter looks at number patterns (odd, square and triangular numbers), explicit and recursive rules, the Virahanka–Fibonacci numbers, arithmetic progressions (common difference), geometric progressions (common ratio), the sum of the first n natural numbers, and fractals like the Sierpinski triangle and carpet.",
+  "topics": [
+    {
+      "id": "sequences-and-patterns",
+      "title": "Sequences and number patterns",
+      "summary": "A sequence is an ordered list of terms t₁, t₂, t₃, …; famous patterns include odd numbers (2n − 1), square numbers (n²) and triangular numbers (n(n + 1)/2).",
+      "simple": "A **sequence** is a list of numbers in a fixed order, like 2, 4, 6, 8, …. Each number is a **term**. If you can spot the rule, you can predict what comes next — and even the 100th term without writing all the ones before it.",
+      "explain": "A **sequence** is an ordered list of numbers. Each number is a **term**; we write the first term as t₁, the second as t₂, and the n-th term as **tₙ** (the **general term**). The subscript n tells the position.\n\n**Famous patterns:**\n- **Odd numbers:** 1, 3, 5, 7, 9, … → **tₙ = 2n − 1**\n- **Even numbers:** 2, 4, 6, 8, … → tₙ = 2n\n- **Square numbers:** 1, 4, 9, 16, 25, … → **tₙ = n²**. They can be drawn as square arrays of dots. The gaps between them are 3, 5, 7, 9 — the odd numbers! So 1 + 3 + 5 + … (first n odd numbers) = n².\n- **Triangular numbers:** 1, 3, 6, 10, 15, … → **tₙ = n(n + 1)/2**. They can be drawn as triangles of dots (rows of 1, 2, 3, … dots). Each one adds the next counting number: 1, 1 + 2, 1 + 2 + 3, ….\n\nTwo neighbouring triangular numbers add to a square number: 1 + 3 = 4, 3 + 6 = 9, 6 + 10 = 16.\n\n**Finite and infinite:** a sequence may stop (the days of a week) or go on forever (the odd numbers).",
+      "example": "**10th odd number:** t₁₀ = 2 × 10 − 1 = **19**.\n**10th square number:** 10² = **100**.\n**10th triangular number:** 10 × 11/2 = 110/2 = **55** (check: 1 + 2 + … + 10 = 55 ✓).\n**Sum of first 4 odd numbers:** 1 + 3 + 5 + 7 = 16 = 4² ✓.",
+      "keyPoints": ["Sequence = ordered list; tₙ is the n-th (general) term", "Odd numbers: 2n − 1", "Square numbers: n² (gaps are odd numbers)", "Triangular numbers: n(n + 1)/2 — 1, 3, 6, 10, 15", "Sum of first n odd numbers = n²", "Two neighbouring triangular numbers add to a square"],
+      "keywords": ["sequence", "sequences", "term", "nth term", "general term", "pattern", "number pattern", "odd numbers", "even numbers", "square numbers", "triangular numbers", "n(n+1)/2", "dot patterns", "finite sequence", "infinite sequence"]
+    },
+    {
+      "id": "explicit-and-recursive-rules",
+      "title": "Explicit and recursive rules",
+      "summary": "An explicit rule gives tₙ directly from n (e.g. tₙ = 3n − 7); a recursive rule gives each term from the previous one (e.g. tₙ = tₙ₋₁ + 3) plus a starting term.",
+      "simple": "There are two ways to describe a sequence. An **explicit rule** is a formula that jumps straight to any term: put in n, get tₙ. A **recursive rule** tells you how to get the next term from the one before, like 'add 3 each time' — but you must be told where to start.",
+      "explain": "**Explicit (closed-form) rule:** a formula for tₙ in terms of n.\n- Example: **tₙ = 3n − 7**\n- t₁ = 3 × 1 − 7 = −4, t₂ = −1, t₃ = 2, t₄ = 5, …\n- You can find any term directly, e.g. t₁₀₀ = 300 − 7 = 293.\n- You can also check whether a number belongs to the sequence by solving for n.\n\n**Recursive rule:** tells how each term comes from the one(s) before it, together with the starting term(s).\n- Example: **t₁ = 2, tₙ = tₙ₋₁ + 3** for n ≥ 2 → 2, 5, 8, 11, 14, …\n- Here tₙ₋₁ means 'the term just before tₙ'.\n- Without the starting term, the rule is incomplete: 'add 3' could start anywhere.\n\n**Comparing:**\n- Recursive rules are natural for describing how a pattern grows step by step.\n- Explicit rules are faster for far-away terms.\n- The same sequence can often be written both ways: t₁ = 2, tₙ = tₙ₋₁ + 3 is the same as tₙ = 3n − 1.\n\nTriangular numbers recursively: t₁ = 1, tₙ = tₙ₋₁ + n.",
+      "example": "For tₙ = 3n − 7:\n- t₁ = 3 − 7 = **−4**\n- t₁₀ = 30 − 7 = **23**\n- Which term is 50? 3n − 7 = 50 → 3n = 57 → n = **19**, so t₁₉ = 50.\n- Is 60 a term? 3n − 7 = 60 → 3n = 67 → n = 22.33…, not a whole number, so **no**.",
+      "keyPoints": ["Explicit rule: tₙ as a formula in n", "tₙ = 3n − 7 → t₁ = −4, t₁₀ = 23", "Recursive rule: next term from previous term(s)", "A recursive rule needs a starting term", "t₁ = 2, tₙ = tₙ₋₁ + 3 is the same as tₙ = 3n − 1", "A number is a term only if n comes out a positive whole number"],
+      "keywords": ["explicit rule", "explicit formula", "closed form", "recursive rule", "recursive formula", "recurrence", "previous term", "t n-1", "find nth term", "is it a term of the sequence", "rule of sequence"]
+    },
+    {
+      "id": "virahanka-fibonacci-numbers",
+      "title": "Virahanka–Fibonacci numbers",
+      "summary": "In the sequence 1, 2, 3, 5, 8, 13, … each term is the sum of the previous two; Virahanka found it by counting rhythms in Sanskrit poetry, centuries before Fibonacci.",
+      "simple": "Start with 1 and 2. Each new number is the sum of the two before it: 1, 2, 3, 5, 8, 13, 21, …. The Indian scholar **Virahanka** discovered this by counting the rhythm patterns possible in Sanskrit poetry, long before the Italian Fibonacci wrote about it.",
+      "explain": "The **Virahanka–Fibonacci numbers** are\n**1, 2, 3, 5, 8, 13, 21, 34, 55, …**\nRecursive rule: **each term = sum of the two previous terms**, tₙ = tₙ₋₁ + tₙ₋₂. It needs **two** starting terms.\n\n**Where it comes from — rhythm in poetry:** Sanskrit (and Prakrit) poetry uses short syllables (1 beat, laghu) and long syllables (2 beats, guru). How many rhythms fill exactly n beats?\n- 1 beat: S → **1** way\n- 2 beats: SS, L → **2** ways\n- 3 beats: SSS, SL, LS → **3** ways\n- 4 beats: SSSS, SSL, SLS, LSS, LL → **5** ways\n\nWhy the sum rule? Any rhythm of n beats **ends** either in a short syllable (the rest fills n − 1 beats) or a long one (the rest fills n − 2 beats). So the count for n = count for (n − 1) + count for (n − 2).\n\n**History:** Indian scholars working on prosody (the study of rhythm) — **Virahanka** (around the 7th century CE), and later Gopala and Hemachandra — described these numbers. **Fibonacci** (Leonardo of Pisa) wrote about them in Europe in **1202**, using a puzzle about rabbits. That's why they are now called Virahanka–Fibonacci numbers.\n\nThese numbers also appear in nature, such as in the number of spirals in sunflower heads and pine cones.",
+      "example": "Find the rhythms of 5 beats: 5 = count(4) + count(3) = 5 + 3 = **8**.\nContinue the sequence: 1, 2, 3, 5, 8, 13, then 8 + 13 = **21**, 13 + 21 = **34**, 21 + 34 = **55**.",
+      "keyPoints": ["1, 2, 3, 5, 8, 13, 21, … — each term = sum of previous two", "tₙ = tₙ₋₁ + tₙ₋₂ needs two starting terms", "Virahanka counted rhythms of short (1) and long (2) syllables", "n-beat rhythms = (n − 1)-beat + (n − 2)-beat rhythms", "Found in India centuries before Fibonacci (1202)", "Also seen in sunflower and pine-cone spirals"],
+      "keywords": ["virahanka", "fibonacci", "fibonacci sequence", "virahanka fibonacci", "fibonacci numbers", "hemachandra", "gopala", "sanskrit poetry", "prosody", "rhythm", "laghu guru", "short long syllables", "sum of previous two", "golden ratio"]
+    },
+    {
+      "id": "arithmetic-progressions",
+      "title": "Arithmetic progressions",
+      "summary": "An AP adds the same common difference d each time; tₙ = a + (n − 1)d; the sum of the first n natural numbers is n(n + 1)/2.",
+      "simple": "In an **arithmetic progression (AP)** you add the same number every time, like 3, 8, 13, 18 (add 5). That fixed number is the **common difference** d. To reach the n-th term, you start at a and add d, (n − 1) times.",
+      "explain": "An **arithmetic progression (AP)** is a sequence in which each term is obtained by **adding a fixed number d** to the previous term.\n- **a** = first term, **d** = common difference = any term − the term before it\n- d can be positive (increasing), negative (decreasing) or zero (constant).\n\n**General term:** to get from t₁ to tₙ you add d a total of (n − 1) times, so\n**tₙ = a + (n − 1)d**\n\nEquivalently, recursively: tₙ = tₙ₋₁ + d.\n\n**Checking for an AP:** find the differences between consecutive terms; if they are all equal, it's an AP. Odd numbers (d = 2) are an AP; square numbers are not (differences 3, 5, 7, …).\n\n**Sum of the first n natural numbers:**\n**1 + 2 + 3 + … + n = n(n + 1)/2**\n\n**The Gauss story:** young Carl Friedrich Gauss was asked to add 1 to 100. He paired the numbers from both ends: 1 + 100, 2 + 99, 3 + 98, … — each pair makes 101, and there are 50 pairs. So the sum is 50 × 101 = **5050**. Writing the sum forwards and backwards and adding gives n pairs of (n + 1), which is twice the sum — hence n(n + 1)/2. (This is also the n-th triangular number.)",
+      "example": "**1.** AP 3, 8, 13, …: a = 3, d = 8 − 3 = 5.\n- t₂₀ = 3 + (20 − 1) × 5 = 3 + 19 × 5 = 3 + 95 = **98**\n- Is 100 a term? 3 + 5(n − 1) = 100 → 5(n − 1) = 97 → n − 1 = 19.4, not whole → **no**.\n\n**2.** AP 20, 17, 14, …: d = −3. t₈ = 20 + 7 × (−3) = 20 − 21 = **−1**.\n\n**3.** 1 + 2 + … + 100 = 100 × 101/2 = **5050**.",
+      "keyPoints": ["AP: add the same common difference d each time", "d = any term − previous term; can be negative or zero", "tₙ = a + (n − 1)d", "3, 8, 13, … → t₂₀ = 98", "1 + 2 + … + n = n(n + 1)/2", "Gauss: 1 + 2 + … + 100 = 50 × 101 = 5050"],
+      "keywords": ["arithmetic progression", "ap", "a.p.", "common difference", "nth term of ap", "tn = a + (n-1)d", "general term ap", "sum of natural numbers", "n(n+1)/2", "gauss", "5050", "sum of first 100 numbers", "increasing decreasing ap"]
+    },
+    {
+      "id": "geometric-progressions",
+      "title": "Geometric progressions",
+      "summary": "A GP multiplies by the same common ratio r each time; tₙ = a·rⁿ⁻¹; examples include doubling bacteria and a bouncing ball losing height.",
+      "simple": "In a **geometric progression (GP)** you **multiply** by the same number every time, like 2, 6, 18, 54 (× 3). That number is the **common ratio** r. If r is bigger than 1 the terms grow very fast; if r is between 0 and 1 they shrink.",
+      "explain": "A **geometric progression (GP)** is a sequence in which each term is obtained by **multiplying the previous term by a fixed non-zero number r**, the **common ratio**.\n- r = any term ÷ the term before it\n- Recursive rule: tₙ = r × tₙ₋₁\n\n**General term:** from t₁ to tₙ you multiply by r a total of (n − 1) times, so\n**tₙ = a · rⁿ⁻¹**\n\n**Growth and decay:**\n- r > 1: rapid growth (doubling, compound interest, spreading of a message)\n- 0 < r < 1: decay, terms shrink towards 0 but never reach it\n- r negative: signs alternate (3, −6, 12, −24, …)\n\n**AP vs GP:** an AP adds d (steady, straight-line growth); a GP multiplies by r (growth that speeds up). Eventually a GP with r > 1 overtakes any increasing AP.\n\n**Real-life GPs:**\n- **Bacteria doubling:** the population multiplies by 2 every fixed time period.\n- **Bouncing ball:** each bounce reaches a fixed fraction of the previous height, so heights form a GP with 0 < r < 1.\n- **Paper folding:** each fold doubles the number of layers (1, 2, 4, 8, …).",
+      "example": "**1.** GP 2, 6, 18, 54, …: a = 2, r = 3. t₆ = 2 × 3⁵ = 2 × 243 = **486**.\n\n**2. Bouncing ball:** dropped from 16 m, it rises to ¾ of the previous height each time.\n- 1st bounce: 16 × ¾ = 12 m\n- 2nd: 12 × ¾ = 9 m\n- 3rd: 9 × ¾ = **6.75 m**\n- after n bounces: 16 × (3/4)ⁿ m\n\n**3. Bacteria:** 100 bacteria double every 20 minutes. In 2 hours there are 120 ÷ 20 = 6 doublings, so 100 × 2⁶ = 100 × 64 = **6400** bacteria.",
+      "keyPoints": ["GP: multiply by the same common ratio r each time", "r = any term ÷ previous term", "tₙ = a · rⁿ⁻¹", "r > 1 grows fast; 0 < r < 1 shrinks towards 0", "Bouncing ball and bacteria doubling are GPs", "AP adds, GP multiplies"],
+      "keywords": ["geometric progression", "gp", "g.p.", "common ratio", "nth term of gp", "tn = ar^(n-1)", "doubling", "bacteria growth", "bouncing ball", "exponential growth", "decay", "ap vs gp", "difference between ap and gp"]
+    },
+    {
+      "id": "fractals",
+      "title": "Fractals: Sierpinski triangle and carpet",
+      "summary": "Fractals repeat the same step forever; after n steps the Sierpinski triangle has 3ⁿ small triangles with (3/4)ⁿ of the area left, and the Sierpinski carpet has 8ⁿ squares with (8/9)ⁿ of the area left.",
+      "simple": "A **fractal** is a shape made by repeating the same step again and again, so small parts look like the whole. In the **Sierpinski triangle**, you keep cutting out the middle triangle from every triangle. The number of triangles and the area left both follow geometric progressions.",
+      "explain": "A **fractal** is built by repeating a simple rule over and over; zoom in on any part and you see a copy of the whole (**self-similarity**). Fractal-like shapes appear in nature: ferns, cauliflower and broccoli, coastlines, lightning and river networks.\n\n**Sierpinski triangle:**\n1. Start with a filled equilateral triangle (area 1).\n2. Join the midpoints of its sides: this makes 4 smaller triangles, each ¼ of the area. Remove the middle one.\n3. Repeat the step on every remaining triangle.\n\nEach step turns every triangle into 3 triangles, each of ¼ the area. So after n steps:\n- number of triangles = **3ⁿ** (GP with r = 3)\n- remaining area = **(3/4)ⁿ** of the original (GP with r = ¾)\n\n**Sierpinski carpet:**\n1. Start with a filled square.\n2. Divide it into a 3 × 3 grid of 9 equal squares and remove the middle one.\n3. Repeat on every remaining square.\n\nAfter n steps:\n- number of squares = **8ⁿ**\n- remaining area = **(8/9)ⁿ** of the original\n\n**Surprising fact:** the number of pieces keeps growing, but the remaining area keeps shrinking towards 0, because the ratio (¾ or 8/9) is less than 1.",
+      "example": "**Sierpinski triangle:**\n- Step 1: 3 triangles, area ¾ = 0.75\n- Step 2: 9 triangles, area 9/16 = 0.5625\n- Step 3: 27 triangles, area 27/64 ≈ **0.42** of the original\n\n**Sierpinski carpet:**\n- Step 1: 8 squares, area 8/9 ≈ 0.889\n- Step 2: 64 squares, area 64/81 ≈ **0.79**\n- Step 3: 512 squares, area 512/729 ≈ 0.70",
+      "keyPoints": ["Fractal: a rule repeated forever; parts look like the whole", "Sierpinski triangle: remove the middle of 4 triangles each step", "Triangle after n steps: 3ⁿ triangles, area (3/4)ⁿ", "Sierpinski carpet: remove the middle of 9 squares each step", "Carpet after n steps: 8ⁿ squares, area (8/9)ⁿ", "Pieces grow in number while area shrinks towards 0"],
+      "keywords": ["fractal", "fractals", "sierpinski", "sierpinski triangle", "sierpinski gasket", "sierpinski carpet", "self-similarity", "self similar", "3^n", "(3/4)^n", "8^n", "(8/9)^n", "fractals in nature"]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "Sequence", "meaning": "An ordered list of numbers following a rule." },
+    { "term": "Term (tₙ)", "meaning": "A number in a sequence; tₙ is the term in position n (the general term)." },
+    { "term": "Explicit rule", "meaning": "A formula that gives tₙ directly from n, e.g. tₙ = 3n − 7." },
+    { "term": "Recursive rule", "meaning": "A rule giving each term from earlier term(s), plus starting term(s), e.g. tₙ = tₙ₋₁ + 3." },
+    { "term": "Triangular numbers", "meaning": "1, 3, 6, 10, 15, …; tₙ = n(n + 1)/2." },
+    { "term": "Virahanka–Fibonacci numbers", "meaning": "1, 2, 3, 5, 8, 13, …; each term is the sum of the previous two." },
+    { "term": "Arithmetic progression (AP)", "meaning": "A sequence where the same number d is added each time." },
+    { "term": "Common difference (d)", "meaning": "The fixed amount added in an AP: any term minus the previous term." },
+    { "term": "Geometric progression (GP)", "meaning": "A sequence where each term is multiplied by the same number r." },
+    { "term": "Common ratio (r)", "meaning": "The fixed multiplier in a GP: any term divided by the previous term." },
+    { "term": "Fractal", "meaning": "A shape built by repeating a rule, in which small parts resemble the whole." }
+  ],
+  "formulas": [
+    "Odd numbers: tₙ = 2n − 1; square numbers: tₙ = n²",
+    "Triangular numbers: tₙ = n(n + 1)/2",
+    "Sum of first n odd numbers: 1 + 3 + 5 + … + (2n − 1) = n²",
+    "Virahanka–Fibonacci: tₙ = tₙ₋₁ + tₙ₋₂",
+    "AP: tₙ = a + (n − 1)d (a first term, d common difference)",
+    "Sum of first n natural numbers: 1 + 2 + … + n = n(n + 1)/2",
+    "GP: tₙ = a · rⁿ⁻¹ (a first term, r common ratio)",
+    "Sierpinski triangle after n steps: 3ⁿ triangles, remaining area = (3/4)ⁿ of original",
+    "Sierpinski carpet after n steps: 8ⁿ squares, remaining area = (8/9)ⁿ of original"
+  ],
+  "commonMistakes": [
+    "Using tₙ = a + nd instead of a + (n − 1)d — the first term already counts as one term.",
+    "Finding d the wrong way round (earlier term − later term); d = later term − earlier term, and it can be negative.",
+    "Using rⁿ instead of rⁿ⁻¹ in the GP formula.",
+    "Mixing up AP (add d) and GP (multiply by r).",
+    "Giving a recursive rule without the starting term(s).",
+    "Accepting a fractional or negative n when checking whether a number is a term — n must be a positive whole number.",
+    "Thinking the Sierpinski triangle's area stays the same as the number of triangles grows — it shrinks by ¾ each step."
+  ],
+  "revision": [
+    "tₙ is the n-th term; the sequence follows a rule.",
+    "Odd numbers 2n − 1; squares n²; triangular numbers n(n + 1)/2.",
+    "tₙ = 3n − 7 gives t₁ = −4 and t₁₀ = 23.",
+    "Recursive rules need starting terms: t₁ = 2, tₙ = tₙ₋₁ + 3.",
+    "Virahanka–Fibonacci: 1, 2, 3, 5, 8, 13, 21 — each term is the sum of the previous two.",
+    "Virahanka found them by counting poetic rhythms, centuries before Fibonacci (1202).",
+    "AP: tₙ = a + (n − 1)d; 3, 8, 13, … → t₂₀ = 98.",
+    "1 + 2 + … + n = n(n + 1)/2; Gauss: 1 to 100 = 5050.",
+    "GP: tₙ = a · rⁿ⁻¹; 2, 6, 18, … → t₆ = 486.",
+    "Bouncing ball and doubling bacteria are GPs.",
+    "Sierpinski triangle: 3ⁿ triangles, area (3/4)ⁿ.",
+    "Sierpinski carpet: 8ⁿ squares, area (8/9)ⁿ."
+  ],
+  "faqs": [
+    { "q": "What is the difference between an AP and a GP?", "a": "In an **AP** you **add** the same number d each time (3, 8, 13, 18 — add 5): tₙ = a + (n − 1)d. In a **GP** you **multiply** by the same number r each time (2, 6, 18, 54 — multiply by 3): tₙ = a · rⁿ⁻¹. Check differences for an AP and ratios for a GP.", "keywords": ["ap vs gp", "difference between ap and gp", "arithmetic vs geometric"] },
+    { "q": "Why is it (n − 1)d and not nd in the AP formula?", "a": "The first term a is already t₁, before any d is added. To get t₂ you add d once, to get t₃ you add d twice, so to get tₙ you add d exactly (n − 1) times.", "keywords": ["why n-1 in ap formula", "n-1 d", "ap formula explanation"] },
+    { "q": "What is the difference between an explicit and a recursive rule?", "a": "An **explicit** rule gives any term straight from its position, e.g. tₙ = 3n − 7. A **recursive** rule gives each term from the previous one(s), e.g. tₙ = tₙ₋₁ + 3, and needs a starting term. Explicit rules are quicker for far-off terms like t₁₀₀.", "keywords": ["explicit vs recursive", "recursive rule", "explicit formula"] },
+    { "q": "Why are they called Virahanka–Fibonacci numbers and not just Fibonacci numbers?", "a": "The Indian scholar Virahanka described them centuries before Fibonacci, while counting rhythm patterns made of short and long syllables in Sanskrit poetry. Fibonacci wrote about them in Europe in 1202. The double name recognises both.", "keywords": ["virahanka", "why virahanka fibonacci", "fibonacci india"] },
+    { "q": "How did Gauss add 1 to 100 so quickly?", "a": "He paired the first and last numbers: 1 + 100 = 101, 2 + 99 = 101, and so on. There are 50 such pairs, so the total is 50 × 101 = 5050. In general, 1 + 2 + … + n = n(n + 1)/2.", "keywords": ["gauss sum", "sum 1 to 100", "5050"] }
+  ],
+  "quiz": [
+    { "q": "What is the 10th triangular number?", "options": ["45", "55", "100", "66"], "answer": 1, "explain": "tₙ = n(n + 1)/2 = 10 × 11/2 = 55.", "topic": "sequences-and-patterns", "level": "easy" },
+    { "q": "The sum of the first 6 odd numbers (1 + 3 + 5 + 7 + 9 + 11) is:", "options": ["30", "42", "36", "49"], "answer": 2, "explain": "Sum of the first n odd numbers = n² = 6² = 36.", "topic": "sequences-and-patterns", "level": "medium" },
+    { "q": "For the sequence tₙ = 3n − 7, what is t₁₀?", "options": ["23", "30", "37", "−4"], "answer": 0, "explain": "t₁₀ = 3 × 10 − 7 = 30 − 7 = 23.", "topic": "explicit-and-recursive-rules", "level": "easy" },
+    { "q": "t₁ = 2 and tₙ = tₙ₋₁ + 3. What is t₅?", "options": ["17", "11", "15", "14"], "answer": 3, "explain": "2, 5, 8, 11, 14 — so t₅ = 14 (explicitly, 3 × 5 − 1 = 14).", "topic": "explicit-and-recursive-rules", "level": "medium" },
+    { "q": "In the Virahanka–Fibonacci sequence 1, 2, 3, 5, 8, 13, …, the next term is:", "options": ["18", "26", "21", "20"], "answer": 2, "explain": "Each term is the sum of the previous two: 8 + 13 = 21.", "topic": "virahanka-fibonacci-numbers", "level": "easy" },
+    { "q": "Virahanka discovered the sequence 1, 2, 3, 5, 8, … while studying:", "options": ["Rhythm patterns in Sanskrit poetry", "The growth of rabbit populations", "The positions of planets", "Temple architecture"], "answer": 0, "explain": "He counted the ways to fill n beats with short (1-beat) and long (2-beat) syllables. The rabbit puzzle is Fibonacci's, much later.", "topic": "virahanka-fibonacci-numbers", "level": "medium" },
+    { "q": "For the AP 3, 8, 13, …, the 20th term is:", "options": ["100", "103", "95", "98"], "answer": 3, "explain": "t₂₀ = 3 + 19 × 5 = 3 + 95 = 98.", "topic": "arithmetic-progressions", "level": "medium" },
+    { "q": "What is 1 + 2 + 3 + … + 100?", "options": ["10,000", "5050", "5000", "10,100"], "answer": 1, "explain": "n(n + 1)/2 = 100 × 101/2 = 5050 (Gauss's pairing: 50 pairs of 101).", "topic": "arithmetic-progressions", "level": "easy" },
+    { "q": "The 8th term of the AP 20, 17, 14, … is:", "options": ["−1", "−4", "2", "−3"], "answer": 0, "explain": "d = −3; t₈ = 20 + 7 × (−3) = 20 − 21 = −1.", "topic": "arithmetic-progressions", "level": "hard" },
+    { "q": "For the GP 2, 6, 18, 54, …, the 6th term is:", "options": ["162", "324", "1458", "486"], "answer": 3, "explain": "tₙ = a · rⁿ⁻¹ = 2 × 3⁵ = 2 × 243 = 486.", "topic": "geometric-progressions", "level": "medium" },
+    { "q": "A ball dropped from 16 m rises to ¾ of its previous height after each bounce. How high does it rise after the 3rd bounce?", "options": ["9 m", "6.75 m", "12 m", "4 m"], "answer": 1, "explain": "16 × ¾ = 12, 12 × ¾ = 9, 9 × ¾ = 6.75 m — a GP with r = ¾.", "topic": "geometric-progressions", "level": "hard" },
+    { "q": "After 3 steps of making a Sierpinski triangle, what fraction of the original area remains?", "options": ["3/4", "9/16", "27/64", "1/27"], "answer": 2, "explain": "Each step keeps ¾ of the area: (3/4)³ = 27/64 ≈ 0.42. There are 3³ = 27 small triangles.", "topic": "fractals", "level": "hard" }
+  ]
+}

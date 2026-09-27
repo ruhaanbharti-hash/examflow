@@ -1,0 +1,134 @@
+{
+  "id": "c9-math-numbers",
+  "class": 9,
+  "subject": "mathematics",
+  "name": "The World of Numbers",
+  "summary": "Numbers grew from tally marks on ancient bones to India's place-value system with zero and Brahmagupta's rules for positive and negative numbers. We move from natural numbers to whole numbers, integers and rationals (p/q), which are dense on the number line. Some numbers, like √2 and π, cannot be written as p/q — they are irrational. Rationals and irrationals together form the real numbers. Rationals have terminating or recurring decimals; irrationals have non-terminating, non-recurring decimals.",
+  "topics": [
+    {
+      "id": "counting-to-integers",
+      "title": "From counting to integers: N, W, Z and the story of zero",
+      "summary": "Natural numbers N = {1, 2, 3, …}, whole numbers W = {0, 1, 2, …}, integers Z = {…, −2, −1, 0, 1, 2, …}; India gave the world place value with zero, and Brahmagupta gave rules for zero and negative numbers.",
+      "simple": "People first counted by scratching marks on bones. Over time we got **natural numbers** (1, 2, 3, …), then added **zero** to get **whole numbers**, and then negative numbers to get **integers**. Indian mathematicians invented the place-value system with zero, which is the system the whole world uses today.",
+      "explain": "**Early counting:** some of the oldest known counting records are notched bones. The **Lebombo bone** from southern Africa and the **Ishango bone** from central Africa are tens of thousands of years old and carry groups of **tally marks**, showing that people kept count long before writing.\n\n**Number systems (each one contains the previous one):**\n- **Natural numbers N** = {1, 2, 3, 4, …} — for counting\n- **Whole numbers W** = {0, 1, 2, 3, …} — natural numbers plus 0\n- **Integers Z** = {…, −3, −2, −1, 0, 1, 2, 3, …} — whole numbers plus negatives (Z comes from German *Zahlen*, 'numbers')\n\n**India's gift — place value and zero:** in the Indian system, the value of a digit depends on its **position** (ones, tens, hundreds…), and a symbol for nothing — **zero (shunya)** — holds empty places. So 405 and 45 are different numbers. This decimal place-value system spread through the Arab world to Europe and became today's international numerals.\n\n**Brahmagupta** (7th century CE, in the *Brahmasphutasiddhanta*) treated zero as a number and gave rules for it and for **positive (dhana, 'fortune')** and **negative (rna, 'debt')** quantities, such as:\n- a number + 0 = the number; a number − 0 = the number\n- a number × 0 = 0\n- positive × positive = positive; negative × negative = positive\n- positive × negative = negative\n- 0 − (a debt) = a fortune, i.e. 0 − (−a) = a",
+      "deep": "Brahmagupta also tried to define division by zero, but his rule (0 ÷ 0 = 0) is not accepted today. Modern mathematics says division by zero is **undefined**: there is no number that works as the answer to a ÷ 0.",
+      "example": "Using the fortune–debt idea: a debt of ₹300 and a fortune of ₹500 together make a fortune of ₹200, i.e. (−300) + 500 = 200. Removing a debt of ₹100 is like gaining ₹100: 0 − (−100) = 100.",
+      "keyPoints": ["Tally marks on the Lebombo and Ishango bones are early counting records", "N = {1, 2, 3, …}; W = {0, 1, 2, …}; Z = {…, −1, 0, 1, …}", "N ⊂ W ⊂ Z", "India gave the place-value system with zero (shunya)", "Brahmagupta: rules for zero, dhana (positive) and rna (negative)", "negative × negative = positive; a × 0 = 0", "Division by zero is undefined"],
+      "keywords": ["natural numbers", "whole numbers", "integers", "number system", "N W Z", "tally marks", "lebombo bone", "ishango bone", "place value", "zero", "shunya", "history of zero", "brahmagupta", "dhana", "rna", "negative numbers", "positive and negative", "division by zero"]
+    },
+    {
+      "id": "rational-numbers",
+      "title": "Rational numbers, density and absolute value",
+      "summary": "A rational number can be written as p/q with p, q integers and q ≠ 0; between any two rationals there are infinitely many more (density); absolute value |x| is distance from 0.",
+      "simple": "A **rational number** is any number you can write as a fraction p/q, where p and q are integers and q is not 0. Fractions, integers and many decimals are rational. Between any two rational numbers you can always find another one — just take their average.",
+      "explain": "**Definition:** a number is **rational** if it can be written as **p/q**, where p and q are integers and **q ≠ 0**. The set is called **Q** (from 'quotient').\n- 3/4, −7/2, 5 (= 5/1), 0 (= 0/1), 0.25 (= 1/4) are all rational\n- Every integer is rational, so **N ⊂ W ⊂ Z ⊂ Q**\n- The same rational has many forms: 1/2 = 2/4 = 50/100. We usually write it in **lowest terms** (p and q with no common factor other than 1).\n\n**Density:** between any two rational numbers there is **another rational number** — and so infinitely many.\n**Average method:** the average of a and b, (a + b)/2, always lies between them.\n\n**Worked example:** a rational between 1/3 and 1/2\n1. (1/3 + 1/2) ÷ 2 = (2/6 + 3/6) ÷ 2 = (5/6) ÷ 2 = **5/12**\n2. Check: 1/3 = 4/12 and 1/2 = 6/12, and 4/12 < 5/12 < 6/12 ✓\n\n**Many at once:** write both with a bigger common denominator. 1/3 = 20/60 and 1/2 = 30/60, so 21/60, 22/60, …, 29/60 are nine rationals between them.\n\n**Absolute value:** the absolute value of x, written **|x|**, is its **distance from 0** on the number line, so it is never negative.\n- |7| = 7, |−7| = 7, |0| = 0\n- If x ≥ 0, |x| = x; if x < 0, |x| = −x\n- The distance between two numbers a and b on the line is |a − b|, e.g. between −3 and 5 it is |−3 − 5| = |−8| = 8.",
+      "example": "Temperatures in Leh on a winter day were −12 °C at dawn and 3 °C at noon. The rise is the distance between them: |3 − (−12)| = |15| = 15 °C.",
+      "keyPoints": ["Rational: p/q with p, q integers and q ≠ 0", "Every integer is rational (n = n/1)", "N ⊂ W ⊂ Z ⊂ Q", "Density: between any two rationals there are infinitely many rationals", "Average (a + b)/2 lies between a and b", "Absolute value |x| = distance from 0, never negative", "Distance between a and b = |a − b|"],
+      "keywords": ["rational numbers", "rational number", "p/q", "q not zero", "fraction", "lowest terms", "density", "dense", "rational between two numbers", "find rational numbers between", "average method", "absolute value", "modulus", "mod x", "distance from zero"]
+    },
+    {
+      "id": "irrational-numbers",
+      "title": "Irrational numbers: √2, the square-root spiral and π",
+      "summary": "Irrational numbers cannot be written as p/q; √2 is proved irrational by contradiction, √2 and √3 can be located on the number line with the square-root spiral, and π is irrational (Aryabhata gave 3.1416, Madhava gave an infinite series).",
+      "simple": "Some numbers can never be written as a fraction. These are **irrational numbers**. √2 is one: no fraction, however clever, squares to exactly 2. π is another. Even so, we can draw √2 exactly on a number line using a right triangle.",
+      "explain": "**Irrational number:** a number that **cannot** be written as p/q (p, q integers, q ≠ 0). Examples: √2, √3, √5, π, and 2 + √3.\nNote: √4 = 2 and √9 = 3 are rational — only square roots of numbers that are not perfect squares are irrational.\n\n**Proof that √2 is irrational (by contradiction):**\n1. Suppose √2 = p/q in lowest terms (p and q have no common factor).\n2. Squaring: 2 = p²/q², so **p² = 2q²**. Hence p² is even, so **p is even** (the square of an odd number is odd).\n3. Write p = 2k. Then 4k² = 2q², so **q² = 2k²**, which means q² is even and **q is even**.\n4. Now p and q are both even — they share the factor 2. This **contradicts** 'lowest terms'.\n5. So the assumption is false: **√2 is irrational**.\n\n**Locating √2 and √3 on the number line (square-root spiral):**\n- Draw a right triangle with legs 1 and 1 at the origin. By Pythagoras, hypotenuse = √(1² + 1²) = **√2**. With a compass centred at 0, swing this length onto the number line to mark √2.\n- At the end of the √2 side, draw a new side of length 1 at right angles. The new hypotenuse = √((√2)² + 1²) = √(2 + 1) = **√3**.\n- Repeating gives √4 = 2, √5, √6, … — a beautiful **square-root spiral**.\n\n**π (pi)** = circumference ÷ diameter of any circle. It is irrational, so 22/7 and 3.14 are only **approximations**.\n- **Aryabhata** (499 CE): add 4 to 100, multiply by 8, add 62,000 — this is (roughly) the circumference of a circle of diameter 20,000. So π ≈ 62,832 ÷ 20,000 = **3.1416**.\n- **Madhava of Sangamagrama** (Kerala, 14th century) found an infinite series: **π/4 = 1 − 1/3 + 1/5 − 1/7 + …**",
+      "deep": "Aryabhata's check: (100 + 4) × 8 = 832, and 832 + 62,000 = 62,832; 62,832 ÷ 20,000 = 3.1416. The true value begins 3.14159…, so his answer is correct to four decimal places. The irrationality of π was proved much later, by Johann Lambert in 1761.",
+      "example": "Is 3 + √2 rational? Suppose 3 + √2 = r, a rational. Then √2 = r − 3, and a rational minus a rational is rational — so √2 would be rational, which is false. Hence 3 + √2 is irrational. (In general, rational + irrational = irrational.)",
+      "keyPoints": ["Irrational: cannot be written as p/q", "√2, √3, √5, π are irrational; √4, √9 are not", "√2 proof: assume p/q in lowest terms → both p and q even → contradiction", "Square-root spiral: hypotenuse of legs √n and 1 is √(n + 1)", "22/7 and 3.14 are approximations of π", "Aryabhata: π ≈ 62,832 ÷ 20,000 = 3.1416", "Madhava: π/4 = 1 − 1/3 + 1/5 − 1/7 + …"],
+      "keywords": ["irrational numbers", "irrational number", "root 2 irrational", "√2 irrational proof", "proof by contradiction", "square root spiral", "root spiral", "represent √2 on number line", "√3 on number line", "pi", "π", "is pi rational", "22/7", "aryabhata", "3.1416", "madhava", "madhava series", "pythagoras"]
+    },
+    {
+      "id": "real-numbers",
+      "title": "Real numbers and the number line",
+      "summary": "Rational and irrational numbers together make up the real numbers R; every real number is a point on the number line and every point is a real number.",
+      "simple": "Put all the rational numbers and all the irrational numbers together and you get the **real numbers**. Every point on the number line stands for exactly one real number, and every real number has its own point. There are no gaps left.",
+      "explain": "**Real numbers R** = rational numbers **∪** irrational numbers.\n- Every real number is **either** rational **or** irrational — never both.\n- The full chain: **N ⊂ W ⊂ Z ⊂ Q ⊂ R**, and the irrationals are the real numbers outside Q.\n\n**The number line:** every real number corresponds to a **unique point** on the number line, and every point on the line corresponds to a **unique real number**. The rationals are dense, but they still leave 'holes' (like the point √2); the irrationals fill those holes, so the real line has no gaps.\n\n**Comparing and placing numbers:** use decimal approximations.\n- √2 ≈ 1.414, √3 ≈ 1.732, π ≈ 3.1416\n- So 1.4 < √2 < 1.5, and √3 lies between 1.7 and 1.8\n\n**Operations:**\n- rational ± rational = rational; rational × rational = rational\n- rational (non-zero) × irrational = irrational, e.g. 3√2\n- rational + irrational = irrational, e.g. 5 + √3\n- irrational ± / × irrational **can be either**: √2 × √2 = 2 (rational), but √2 × √3 = √6 (irrational); √2 + (−√2) = 0 (rational)\n\n**Is there an irrational between two rationals?** Yes. For example, between 1 and 2 lie √2 (≈ 1.414) and √3 (≈ 1.732).",
+      "example": "Arrange in increasing order: 1.5, √2, 7/5, √3.\n- 7/5 = 1.4, √2 ≈ 1.414, 1.5, √3 ≈ 1.732\n- Order: 7/5 < √2 < 1.5 < √3.",
+      "keyPoints": ["R = rationals ∪ irrationals", "N ⊂ W ⊂ Z ⊂ Q ⊂ R", "Every real number is a unique point on the number line, and vice versa", "√2 ≈ 1.414, √3 ≈ 1.732, π ≈ 3.1416", "Rational + irrational = irrational", "Irrational × irrational may be rational (√2 × √2 = 2)"],
+      "keywords": ["real numbers", "real number", "real number line", "number line", "rational and irrational", "set of real numbers", "R", "operations on real numbers", "irrational between two numbers", "compare surds", "arrange in order", "sum of rational and irrational"]
+    },
+    {
+      "id": "decimal-expansions",
+      "title": "Decimal expansions: terminating, recurring and non-recurring",
+      "summary": "p/q (in lowest terms) terminates exactly when q has no prime factors other than 2 and 5; otherwise it recurs; recurring decimals can be converted back to p/q; irrationals are non-terminating and non-recurring.",
+      "simple": "When you divide to turn a fraction into a decimal, either the division **stops** (like 3/8 = 0.375) or a block of digits **repeats forever** (like 1/3 = 0.333…). Both kinds are rational. Irrational numbers go on forever **without** any repeating block.",
+      "explain": "**Types of decimal expansion:**\n1. **Terminating** — ends: 7/8 = 0.875, 3/20 = 0.15 → rational\n2. **Non-terminating recurring** — a block repeats forever: 1/3 = 0.3̄, 2/11 = 0.1̄8̄ (0.181818…) → rational\n3. **Non-terminating non-recurring** — never ends, never repeats: √2 = 1.41421356…, π = 3.14159… → **irrational**\n\n**Which fractions terminate?** Write p/q in **lowest terms**. It terminates **if and only if q = 2ᵐ × 5ⁿ** (only prime factors 2 and 5). Otherwise it recurs.\n- 7/8: 8 = 2³ → terminates (0.875)\n- 13/125: 125 = 5³ → terminates (0.104)\n- 7/12: 12 = 2² × 3 → recurs (0.58333…)\n- 21/28 = 3/4 in lowest terms → terminates (0.75), even though 28 has a factor 7\n\n**Why recurring?** When dividing by q, the remainder is always one of 0, 1, …, q − 1. If it never becomes 0, a remainder must eventually repeat, and then the digits repeat. So the repeating block has at most q − 1 digits.\n**1/7 = 0.142857142857…** uses all six possible non-zero remainders, and 2/7 = 0.285714…, 3/7 = 0.428571… are the **same six digits cycled** — a cyclic pattern.\n\n**Recurring decimal → p/q:**\n- x = 0.333… → 10x = 3.333… → 10x − x = 3 → 9x = 3 → **x = 1/3**\n- x = 0.181818… → 100x = 18.1818… → 99x = 18 → x = 18/99 = **2/11**\n- x = 0.1666… → 10x = 1.666… and 100x = 16.666… → 90x = 15 → x = 15/90 = **1/6**\n\n**0.999… = 1:** let x = 0.999…; 10x = 9.999…; 10x − x = 9 → 9x = 9 → **x = 1**. Also, 1/3 = 0.333…, and 3 × 1/3 = 1 while 3 × 0.333… = 0.999…",
+      "deep": "**Rule of thumb for the multiplier:** if one digit repeats, multiply by 10; if two digits repeat, by 100; if three, by 1000. If some digits come before the repeat starts (like 0.1666…), multiply twice so the repeating parts line up, then subtract.",
+      "example": "Convert 1.272727… to p/q.\n- x = 1.2727…\n- 100x = 127.2727…\n- 100x − x = 127 − 1 → 99x = 126 → x = 126/99 = 14/11\n- Check: 14 ÷ 11 = 1.2727… ✓",
+      "keyPoints": ["Terminating or recurring decimal ⇔ rational", "Non-terminating non-recurring ⇔ irrational", "p/q (lowest terms) terminates iff q = 2ᵐ × 5ⁿ", "Repeating block of 1/q has at most q − 1 digits", "1/7 = 0.142857 repeating, a cyclic pattern", "0.181818… = 18/99 = 2/11; 0.333… = 1/3", "0.999… = 1 exactly"],
+      "keywords": ["decimal expansion", "decimal expansions", "terminating decimal", "non terminating", "recurring decimal", "repeating decimal", "non terminating non recurring", "bar notation", "convert recurring decimal to fraction", "p/q form", "0.999 = 1", "1/7 decimal", "cyclic number", "142857", "2 and 5 prime factors", "will it terminate"]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "Natural numbers (N)", "meaning": "The counting numbers 1, 2, 3, …" },
+    { "term": "Whole numbers (W)", "meaning": "Natural numbers together with 0." },
+    { "term": "Integers (Z)", "meaning": "Whole numbers together with their negatives: …, −2, −1, 0, 1, 2, …" },
+    { "term": "Place value", "meaning": "A system in which a digit's value depends on its position; the Indian system uses zero (shunya) to hold empty places." },
+    { "term": "Dhana and rna", "meaning": "Brahmagupta's words for positive ('fortune') and negative ('debt') quantities." },
+    { "term": "Rational number (Q)", "meaning": "A number that can be written as p/q with p, q integers and q ≠ 0." },
+    { "term": "Density of rationals", "meaning": "Between any two rational numbers there are infinitely many rational numbers." },
+    { "term": "Absolute value", "meaning": "Written |x|: the distance of x from 0 on the number line; never negative." },
+    { "term": "Irrational number", "meaning": "A number that cannot be written as p/q; its decimal is non-terminating and non-recurring, e.g. √2, π." },
+    { "term": "Real numbers (R)", "meaning": "All rational and irrational numbers together; they fill the whole number line." },
+    { "term": "Terminating decimal", "meaning": "A decimal that ends; p/q in lowest terms terminates only when q has no prime factors other than 2 and 5." },
+    { "term": "Recurring decimal", "meaning": "A non-terminating decimal in which a block of digits repeats forever, e.g. 0.181818…" },
+    { "term": "Proof by contradiction", "meaning": "Assuming the opposite of what you want to prove and showing this leads to something impossible." }
+  ],
+  "formulas": [
+    "Rational number: p/q, where p, q are integers and q ≠ 0",
+    "A rational between a and b: (a + b)/2",
+    "Absolute value: |x| = x if x ≥ 0, and |x| = −x if x < 0; distance between a and b = |a − b|",
+    "p/q (lowest terms) terminates ⇔ q = 2ᵐ × 5ⁿ (m, n whole numbers)",
+    "Square-root spiral: √((√n)² + 1²) = √(n + 1)",
+    "Aryabhata: π ≈ [(100 + 4) × 8 + 62,000] ÷ 20,000 = 62,832 ÷ 20,000 = 3.1416",
+    "Madhava series: π/4 = 1 − 1/3 + 1/5 − 1/7 + …",
+    "Recurring to fraction: one repeating digit → multiply by 10; two → by 100; then subtract (e.g. 0.1̄8̄ = 18/99 = 2/11)"
+  ],
+  "commonMistakes": [
+    "Thinking 22/7 or 3.14 is exactly π — they are only rational approximations; π is irrational.",
+    "Calling every square root irrational — √4 = 2, √9 = 3 and √(25/16) = 5/4 are rational.",
+    "Deciding termination without reducing to lowest terms first: 21/28 = 3/4 terminates even though 28 has the factor 7.",
+    "Believing 0.999… is slightly less than 1 — it is exactly equal to 1.",
+    "Forgetting the condition q ≠ 0 in the definition of a rational number.",
+    "Assuming irrational × irrational is always irrational — √2 × √2 = 2.",
+    "Writing absolute value as negative, e.g. |−5| = −5; absolute value is never negative."
+  ],
+  "revision": [
+    "N = {1, 2, 3, …}, W = {0, 1, 2, …}, Z = {…, −1, 0, 1, …}.",
+    "Tally marks on the Lebombo and Ishango bones are among the earliest counting records.",
+    "India gave place value with zero (shunya); Brahmagupta gave rules for zero and for dhana (positive) and rna (negative).",
+    "Rational = p/q, q ≠ 0; N ⊂ W ⊂ Z ⊂ Q ⊂ R.",
+    "Rationals are dense: (a + b)/2 lies between a and b.",
+    "Absolute value |x| = distance from 0; |−7| = 7.",
+    "√2 is irrational — proved by contradiction (p and q would both be even).",
+    "Square-root spiral locates √2, √3, √5… on the number line.",
+    "π is irrational; Aryabhata's 3.1416; Madhava's series π/4 = 1 − 1/3 + 1/5 − …",
+    "Real numbers = rationals ∪ irrationals; each is a unique point on the number line.",
+    "Terminates iff denominator (lowest terms) = 2ᵐ × 5ⁿ.",
+    "1/7 = 0.142857 142857… (cyclic); 0.181818… = 2/11; 0.333… = 1/3.",
+    "0.999… = 1.",
+    "Irrational ⇔ non-terminating, non-recurring decimal."
+  ],
+  "faqs": [
+    { "q": "What is the difference between rational and irrational numbers?", "a": "A **rational** number can be written as p/q (q ≠ 0) and its decimal either terminates or repeats, e.g. 3/4 = 0.75, 1/3 = 0.333… An **irrational** number cannot be written as p/q and its decimal goes on forever without repeating, e.g. √2 = 1.41421356…, π = 3.14159…", "keywords": ["rational vs irrational", "difference rational irrational", "rational and irrational numbers"] },
+    { "q": "Is 22/7 equal to π?", "a": "No. 22/7 = 3.142857… is a **rational** number that happens to be close to π = 3.14159… It is just a convenient approximation. π itself is irrational and cannot be written exactly as any fraction.", "keywords": ["is 22/7 pi", "pi rational or irrational", "22/7 rational"] },
+    { "q": "How can 0.999… be equal to 1?", "a": "Let x = 0.999…. Then 10x = 9.999…. Subtracting, 9x = 9, so x = 1. Another way: 1/3 = 0.333…, and multiplying both sides by 3 gives 1 = 0.999… There is no number between them, so they are the same number.", "keywords": ["0.999 equals 1", "point nine recurring", "0.9 bar = 1"] },
+    { "q": "How do I know if a fraction will have a terminating decimal without dividing?", "a": "Reduce it to lowest terms, then factorise the denominator. If its only prime factors are **2 and/or 5**, the decimal terminates; otherwise it recurs. 7/8 (8 = 2³) terminates; 7/12 (12 = 2² × 3) recurs.", "keywords": ["terminating decimal test", "will fraction terminate", "denominator 2 and 5"] },
+    { "q": "How do I convert 0.181818… into p/q form?", "a": "Let x = 0.181818…. Two digits repeat, so multiply by 100: 100x = 18.1818…. Subtract: 99x = 18, so x = 18/99 = **2/11**.", "keywords": ["convert recurring decimal to fraction", "0.18 bar", "p/q form of recurring decimal"] },
+    { "q": "Why is √2 irrational but √4 rational?", "a": "√4 = 2 = 2/1, so it is rational. 2 is not a perfect square, and the proof by contradiction shows no fraction p/q can square to exactly 2. In general, √n for a whole number n is irrational unless n is a perfect square.", "keywords": ["why root 2 irrational", "root 4 rational", "square roots rational or irrational"] }
+  ],
+  "quiz": [
+    { "q": "Which number is a whole number but NOT a natural number?", "options": ["0", "1", "−1", "½"], "answer": 0, "explain": "Whole numbers are 0, 1, 2, …; natural numbers start from 1. So 0 is whole but not natural.", "topic": "counting-to-integers", "level": "easy" },
+    { "q": "Brahmagupta used the word 'rna' (debt) for:", "options": ["Zero", "Positive numbers", "Negative numbers", "Fractions"], "answer": 2, "explain": "Dhana (fortune) meant positive and rna (debt) meant negative quantities.", "topic": "counting-to-integers", "level": "medium" },
+    { "q": "Which is a rational number between 1/3 and 1/2?", "options": ["1/4", "5/12", "2/3", "7/12"], "answer": 1, "explain": "The average (1/3 + 1/2)/2 = (5/6)/2 = 5/12, and 4/12 < 5/12 < 6/12.", "topic": "rational-numbers", "level": "medium" },
+    { "q": "What is the value of |−9| + |4|?", "options": ["−5", "5", "−13", "13"], "answer": 3, "explain": "Absolute values: |−9| = 9 and |4| = 4, so the sum is 13.", "topic": "rational-numbers", "level": "easy" },
+    { "q": "Which of these is irrational?", "options": ["√16", "22/7", "√5", "0.121212…"], "answer": 2, "explain": "5 is not a perfect square, so √5 is irrational. √16 = 4, 22/7 is a fraction, and a recurring decimal is rational.", "topic": "irrational-numbers", "level": "easy" },
+    { "q": "In the proof that √2 is irrational, what contradiction is reached?", "options": ["p is odd", "q = 0", "√2 is negative", "p and q are both even, though p/q was in lowest terms"], "answer": 3, "explain": "From p² = 2q² we get p even, then q even — contradicting that p/q had no common factor.", "topic": "irrational-numbers", "level": "hard" },
+    { "q": "Aryabhata's value of π was:", "options": ["3.1416", "22/7", "3", "3.14159265"], "answer": 0, "explain": "62,832 ÷ 20,000 = 3.1416.", "topic": "irrational-numbers", "level": "medium" },
+    { "q": "In the square-root spiral, a right triangle has legs √3 and 1. Its hypotenuse is:", "options": ["√3 + 1", "2", "√2", "4"], "answer": 1, "explain": "√((√3)² + 1²) = √(3 + 1) = √4 = 2.", "topic": "real-numbers", "level": "medium" },
+    { "q": "Which statement is always true?", "options": ["Irrational × irrational is irrational", "Every real number is rational", "Rational + irrational is irrational", "√2 + (−√2) is irrational"], "answer": 2, "explain": "If rational + irrational were rational, the irrational number would equal a difference of rationals — a contradiction. √2 × √2 = 2 and √2 + (−√2) = 0 show the other claims fail.", "topic": "real-numbers", "level": "hard" },
+    { "q": "Which fraction has a terminating decimal expansion?", "options": ["7/12", "13/125", "2/11", "1/6"], "answer": 1, "explain": "125 = 5³ has only the prime factor 5, so 13/125 = 0.104 terminates. 12, 11 and 6 have other prime factors.", "topic": "decimal-expansions", "level": "medium" },
+    { "q": "0.181818… written as p/q in lowest terms is:", "options": ["18/100", "9/50", "1/18", "2/11"], "answer": 3, "explain": "100x − x = 18.18… − 0.18… = 18, so x = 18/99 = 2/11.", "topic": "decimal-expansions", "level": "medium" },
+    { "q": "The decimal expansion of an irrational number is:", "options": ["Non-terminating and non-recurring", "Terminating", "Non-terminating and recurring", "Either terminating or recurring"], "answer": 0, "explain": "Terminating and recurring decimals are rational, so irrationals must be non-terminating and non-recurring.", "topic": "decimal-expansions", "level": "easy" }
+  ]
+}

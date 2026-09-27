@@ -1,0 +1,463 @@
+{
+  "id": "c9-math-identities",
+  "class": 9,
+  "subject": "mathematics",
+  "name": "Exploring Algebraic Identities",
+  "summary": "An algebraic identity is an equality that is true for every value of its variables, unlike an equation, which is true only for particular values. This chapter builds the key identities for squares, products and cubes, shows why they are true using area and volume diagrams, and uses them for fast mental arithmetic, factorisation, simplifying rational expressions and spotting number patterns.",
+  "topics": [
+    {
+      "id": "identity-vs-equation",
+      "title": "Identity vs equation, and seeing identities with area",
+      "summary": "An identity holds for all values of the variables; an equation holds only for some. Area diagrams (algebra tiles) show why identities like (a + b)² = a² + 2ab + b² are true.",
+      "simple": "x + 1 = 5 is true only when x = 4 — that's an **equation**. But (x + 1)² = x² + 2x + 1 is true for **every** x — that's an **identity**. You can see many identities by cutting a square or rectangle into smaller pieces and adding up their areas.",
+      "explain": "**Equation:** true only for certain values of the variable.\n- 2x + 3 = 11 is true only for x = 4.\n\n**Identity:** true for **all** values of the variables. We sometimes write ≡ instead of =.\n- (x + 1)² = x² + 2x + 1. Try x = 2: left = 3² = 9; right = 4 + 4 + 1 = 9 ✓. Try x = −5: left = (−4)² = 16; right = 25 − 10 + 1 = 16 ✓.\n- Checking a few values can **disprove** a claimed identity (one failure is enough), but to **prove** it you must use algebra or a general argument.\n\n**Proving by multiplying out:**\n(a + b)² = (a + b)(a + b) = a² + ab + ba + b² = a² + 2ab + b²\n\n**Proving with area (algebra tiles):**\n- Draw a square of side **(a + b)**. Split each side into a and b.\n- The big square breaks into four pieces: one **a × a** square, one **b × b** square and **two a × b** rectangles.\n- Total area: (a + b)² = a² + ab + ab + b² = **a² + 2ab + b²**.\n\n**(a − b)² with area:** start with the a × a square and cut off two strips of size a × b from adjacent sides. The small b × b corner gets cut off twice, so add it back once: (a − b)² = a² − 2ab + b².\n\n**(a + b)(a − b) with area:** from an a × a square, remove a b × b corner. The L-shaped piece left has area a² − b². Cut it and rearrange into a rectangle of length (a + b) and width (a − b).\n\n**(a + b)³ with volume:** a cube of edge (a + b) splits into 8 blocks: one a³ cube, one b³ cube, three a²b blocks and three ab² blocks.",
+      "example": "Is (x + 3)² = x² + 9 an identity? Test x = 1: left = 4² = 16, right = 1 + 9 = 10. They differ, so it is **not** an identity. The correct identity is (x + 3)² = x² + 6x + 9 — the missing piece is the two 3x rectangles in the area diagram.",
+      "keyPoints": [
+        "Equation: true for some values; identity: true for all values",
+        "One counter-example disproves an identity",
+        "Substituting values checks, but algebra proves",
+        "(a + b)² square = a² + b² + two ab rectangles",
+        "(a + b)(a − b): L-shape rearranged into a rectangle",
+        "(a + b)³ cube = 8 blocks: a³, b³, 3a²b, 3ab²"
+      ],
+      "keywords": [
+        "identity",
+        "algebraic identity",
+        "identities",
+        "identity vs equation",
+        "difference between identity and equation",
+        "equation",
+        "algebra tiles",
+        "area model",
+        "geometric proof",
+        "proof of identity",
+        "verify identity",
+        "counter example",
+        "≡"
+      ]
+    },
+    {
+      "id": "square-identities",
+      "title": "Identities for squares and products",
+      "summary": "(a + b)² = a² + 2ab + b², (a − b)² = a² − 2ab + b², (a + b)(a − b) = a² − b², (x + a)(x + b) = x² + (a + b)x + ab, and (a + b + c)² = a² + b² + c² + 2ab + 2bc + 2ca.",
+      "simple": "These five identities let you expand brackets in one step instead of multiplying every term. The biggest thing to remember: (a + b)² is **not** a² + b² — there is always a middle term 2ab.",
+      "explain": "**Identity 1:** (a + b)² = a² + 2ab + b²\n**Identity 2:** (a − b)² = a² − 2ab + b²\n**Identity 3:** (a + b)(a − b) = a² − b²\n**Identity 4:** (x + a)(x + b) = x² + (a + b)x + ab\n**Identity 5:** (a + b + c)² = a² + b² + c² + 2ab + 2bc + 2ca\n\n**Worked examples:**\n- (3x + 2)² = (3x)² + 2(3x)(2) + 2² = **9x² + 12x + 4**\n- (2y − 5)² = 4y² − 2(2y)(5) + 25 = **4y² − 20y + 25**\n- (4p + 3q)(4p − 3q) = (4p)² − (3q)² = **16p² − 9q²**\n- (x + 3)(x − 7) = x² + (3 − 7)x + (3)(−7) = **x² − 4x − 21**\n- (x + 2y + 3)² = x² + 4y² + 9 + 2(x)(2y) + 2(2y)(3) + 2(3)(x) = **x² + 4y² + 9 + 4xy + 12y + 6x**\n\n**Tips:**\n- Square the **whole** term: (3x)² = 9x², not 3x².\n- Watch signs in (a + b + c)²: for (a − b + c)², replace b by −b, giving a² + b² + c² − 2ab − 2bc + 2ca.\n\n**Using known values:** if a + b = 7 and ab = 12, then\na² + b² = (a + b)² − 2ab = 49 − 24 = **25**, and\n(a − b)² = (a + b)² − 4ab = 49 − 48 = **1**.\n(Check: a = 3, b = 4 gives 9 + 16 = 25 and (3 − 4)² = 1 ✓.)",
+      "deep": "**A handy result:** if x + 1/x = 5, then squaring gives x² + 2 + 1/x² = 25, so x² + 1/x² = 23. Here the middle term is 2 × x × (1/x) = 2.",
+      "example": "A square garden of side (a + 2) m is surrounded by… just expand its area: (a + 2)² = a² + 4a + 4 square metres. If a = 10, area = 100 + 40 + 4 = 144 m², and indeed 12² = 144 ✓.",
+      "keyPoints": [
+        "(a + b)² = a² + 2ab + b²",
+        "(a − b)² = a² − 2ab + b²",
+        "(a + b)(a − b) = a² − b²",
+        "(x + a)(x + b) = x² + (a + b)x + ab",
+        "(a + b + c)² = a² + b² + c² + 2ab + 2bc + 2ca",
+        "a² + b² = (a + b)² − 2ab",
+        "Never drop the middle term 2ab"
+      ],
+      "keywords": [
+        "(a+b)^2",
+        "(a+b)²",
+        "a plus b whole square",
+        "(a-b)^2",
+        "(a−b)²",
+        "a minus b whole square",
+        "a² - b²",
+        "difference of squares",
+        "(a+b)(a-b)",
+        "(x+a)(x+b)",
+        "(a+b+c)^2",
+        "a plus b plus c whole square",
+        "expand",
+        "expansion",
+        "square identities",
+        "standard identities"
+      ]
+    },
+    {
+      "id": "cube-identities",
+      "title": "Identities for cubes",
+      "summary": "(a + b)³ = a³ + b³ + 3ab(a + b), (a − b)³ = a³ − b³ − 3ab(a − b), x³ + y³ = (x + y)(x² − xy + y²), x³ − y³ = (x − y)(x² + xy + y²), and x³ + y³ + z³ − 3xyz = (x + y + z)(x² + y² + z² − xy − yz − zx).",
+      "simple": "Cubes have their own identities. (a + b)³ is not just a³ + b³ — there are extra pieces 3ab(a + b). There are also neat factor forms for a sum of two cubes and a difference of two cubes. And a special one: if three numbers add to zero, the sum of their cubes is 3 times their product.",
+      "explain": "**Identity 6:** (a + b)³ = a³ + b³ + 3ab(a + b) = a³ + 3a²b + 3ab² + b³\n**Identity 7:** (a − b)³ = a³ − b³ − 3ab(a − b) = a³ − 3a²b + 3ab² − b³\n**Identity 8:** x³ + y³ = (x + y)(x² − xy + y²)\n**Identity 9:** x³ − y³ = (x − y)(x² + xy + y²)\n**Identity 10:** x³ + y³ + z³ − 3xyz = (x + y + z)(x² + y² + z² − xy − yz − zx)\n\n**Special case:** if **x + y + z = 0**, the right side of Identity 10 is 0, so **x³ + y³ + z³ = 3xyz**.\n\n**Worked examples:**\n- (2x − 3)³ = 8x³ − 27 − 3(2x)(3)(2x − 3) = 8x³ − 27 − 18x(2x − 3) = **8x³ − 36x² + 54x − 27**\n- 11³ = (10 + 1)³ = 1000 + 1 + 3(10)(1)(11) = 1001 + 330 = **1331**\n- 99³ = (100 − 1)³ = 1,000,000 − 1 − 3(100)(1)(99) = 999,999 − 29,700 = **970,299**\n- Find 12³ + (−7)³ + (−5)³ without cubing: 12 + (−7) + (−5) = 0, so the answer is 3 × 12 × (−7) × (−5) = **1260**. Check: 1728 − 343 − 125 = 1260 ✓\n\n**Checking Identity 10 with numbers** (x = 1, y = 2, z = 3):\n- Left: 1 + 8 + 27 − 3(1)(2)(3) = 36 − 18 = 18\n- Right: (6)(1 + 4 + 9 − 2 − 6 − 3) = 6 × 3 = 18 ✓\n\n**Using known values:** if a + b = 7 and ab = 12, then a³ + b³ = (a + b)³ − 3ab(a + b) = 343 − 252 = **91** (check: 27 + 64 = 91 ✓).",
+      "example": "A cube-shaped water tank has edge (a + 1) m. Its volume is (a + 1)³ = a³ + 3a² + 3a + 1 m³. For a = 2: 8 + 12 + 6 + 1 = 27 m³, and 3³ = 27 ✓.",
+      "keyPoints": [
+        "(a + b)³ = a³ + b³ + 3ab(a + b)",
+        "(a − b)³ = a³ − b³ − 3ab(a − b)",
+        "x³ + y³ = (x + y)(x² − xy + y²)",
+        "x³ − y³ = (x − y)(x² + xy + y²)",
+        "x³ + y³ + z³ − 3xyz = (x + y + z)(x² + y² + z² − xy − yz − zx)",
+        "If x + y + z = 0, then x³ + y³ + z³ = 3xyz"
+      ],
+      "keywords": [
+        "(a+b)^3",
+        "(a+b)³",
+        "a plus b whole cube",
+        "(a-b)^3",
+        "(a−b)³",
+        "a minus b whole cube",
+        "cube identities",
+        "sum of cubes",
+        "difference of cubes",
+        "x³ + y³",
+        "x³ - y³",
+        "a³ + b³ + c³ - 3abc",
+        "x+y+z=0",
+        "3xyz",
+        "cube of binomial"
+      ]
+    },
+    {
+      "id": "mental-maths",
+      "title": "Mental maths and number patterns with identities",
+      "summary": "Identities turn hard multiplications into easy ones: 103² = 10609, 98² = 9604, 102 × 98 = 9996, 997 × 1003 = 999991; they also prove patterns such as (n − 1)² + (n + 1)² − 2n² = 2.",
+      "simple": "Numbers close to 100 or 1000 are easy to square or multiply if you split them, like 103 = 100 + 3. Then an identity does the work. Identities also explain number patterns — they show a pattern works for every number, not just the ones you tried.",
+      "explain": "**Squares near a round number:**\n- 103² = (100 + 3)² = 10,000 + 2(100)(3) + 9 = 10,000 + 600 + 9 = **10,609**\n- 98² = (100 − 2)² = 10,000 − 400 + 4 = **9,604**\n- 49² = (50 − 1)² = 2,500 − 100 + 1 = **2,401**\n\n**Products using (a + b)(a − b) = a² − b²** (numbers equally spaced around a round number):\n- 102 × 98 = (100 + 2)(100 − 2) = 10,000 − 4 = **9,996**\n- 997 × 1003 = (1000 − 3)(1000 + 3) = 1,000,000 − 9 = **999,991**\n\n**Products using (x + a)(x + b):**\n- 104 × 107 = 100² + (4 + 7)(100) + 4 × 7 = 10,000 + 1,100 + 28 = **11,128**\n\n**Difference of squares directly:** 53² − 47² = (53 + 47)(53 − 47) = 100 × 6 = **600**\n\n**Proving a number pattern:**\nTry 4² + 6² − 2 × 5² = 16 + 36 − 50 = 2, and 9² + 11² − 2 × 10² = 81 + 121 − 200 = 2. Always 2? Prove it for any n:\n(n − 1)² + (n + 1)² − 2n²\n= (n² − 2n + 1) + (n² + 2n + 1) − 2n²\n= 2n² + 2 − 2n²\n= **2** for every n ✓\n\nThis is the power of algebra: a few examples suggest a pattern, and an identity proves it for all numbers.",
+      "example": "A shopkeeper sells 98 boxes at ₹102 each. Total = 98 × 102 = (100 − 2)(100 + 2) = 10,000 − 4 = ₹9,996 — worked out in a few seconds without a calculator.",
+      "keyPoints": [
+        "Split numbers near 100 or 1000: 103 = 100 + 3, 98 = 100 − 2",
+        "103² = 10,609; 98² = 9,604",
+        "102 × 98 = 9,996 via a² − b²",
+        "997 × 1003 = 999,991",
+        "a² − b² = (a + b)(a − b) makes 53² − 47² = 600 easy",
+        "(n − 1)² + (n + 1)² − 2n² = 2 for every n"
+      ],
+      "keywords": [
+        "mental maths",
+        "mental math",
+        "quick multiplication",
+        "square of 103",
+        "103 squared",
+        "98 squared",
+        "102 × 98",
+        "997 × 1003",
+        "multiply using identities",
+        "evaluate using identity",
+        "number pattern",
+        "prove pattern",
+        "(n-1)^2 + (n+1)^2",
+        "vedic maths"
+      ]
+    },
+    {
+      "id": "factorisation",
+      "title": "Factorisation and simplifying rational expressions",
+      "summary": "Reading identities from right to left lets us factorise expressions like 4x² − 12x + 9, 9a² − 16b², x² + 7x + 12 and 8x³ + 27, and then cancel common factors in simple rational expressions.",
+      "simple": "**Factorising** means writing an expression as a product — the reverse of expanding. If you recognise the pattern of an identity, you can factorise straight away. Once the top and bottom of a fraction are factorised, you can cancel common factors, just like with number fractions.",
+      "explain": "**Spot the pattern, then factorise:**\n- **Perfect square:** 4x² − 12x + 9 = (2x)² − 2(2x)(3) + 3² = **(2x − 3)²**\n- **Difference of squares:** 9a² − 16b² = (3a)² − (4b)² = **(3a − 4b)(3a + 4b)**\n- **x² + px + q:** find two numbers with sum p and product q. For x² + 7x + 12: 3 + 4 = 7 and 3 × 4 = 12, so **(x + 3)(x + 4)**\n- **Sum of cubes:** 8x³ + 27 = (2x)³ + 3³ = **(2x + 3)(4x² − 6x + 9)**\n- **Difference of cubes:** 27a³ − 64 = (3a)³ − 4³ = **(3a − 4)(9a² + 12a + 16)**\n- **Take out a common factor first:** 2x² − 50 = 2(x² − 25) = **2(x − 5)(x + 5)**\n\n**Always check** by expanding your answer back.\n\n**Simplifying rational expressions** (one polynomial divided by another):\n1. Factorise the numerator and the denominator.\n2. Cancel common factors (never cancel single terms that are being added).\n3. State the values that make the original denominator zero, which are not allowed.\n\n**Worked examples:**\n- (x² − 9)/(x² + 6x + 9) = (x − 3)(x + 3)/(x + 3)² = **(x − 3)/(x + 3)**, x ≠ −3\n- (x³ − 8)/(x − 2) = (x − 2)(x² + 2x + 4)/(x − 2) = **x² + 2x + 4**, x ≠ 2\n- (a² − b²)/(a − b) = **a + b**, a ≠ b",
+      "example": "The area of a rectangular plot is (x² + 7x + 12) m² and its width is (x + 3) m. Length = (x² + 7x + 12) ÷ (x + 3) = (x + 3)(x + 4) ÷ (x + 3) = (x + 4) m. For x = 6: area = 36 + 42 + 12 = 90 m², width 9 m, length 10 m, and 9 × 10 = 90 ✓.",
+      "keyPoints": [
+        "Factorising = reverse of expanding",
+        "a² ± 2ab + b² = (a ± b)²",
+        "a² − b² = (a − b)(a + b)",
+        "x² + px + q: two numbers with sum p, product q",
+        "Sum/difference of cubes have a 3-term second factor",
+        "Take out common factors first",
+        "Cancel factors, never terms; note excluded values"
+      ],
+      "keywords": [
+        "factorisation",
+        "factorization",
+        "factorise",
+        "factorize",
+        "factors",
+        "factorise using identities",
+        "perfect square trinomial",
+        "difference of squares factor",
+        "splitting middle term",
+        "sum of cubes factor",
+        "difference of cubes factor",
+        "rational expression",
+        "simplify rational expression",
+        "algebraic fraction",
+        "cancel common factors"
+      ]
+    }
+  ],
+  "keyConcepts": [
+    {
+      "term": "Identity",
+      "meaning": "An equality that is true for every value of the variables, e.g. (a + b)² = a² + 2ab + b²."
+    },
+    {
+      "term": "Equation",
+      "meaning": "An equality that is true only for particular values of the variable, e.g. 2x + 3 = 11 only when x = 4."
+    },
+    {
+      "term": "Expansion",
+      "meaning": "Multiplying out brackets to write an expression as a sum of terms."
+    },
+    {
+      "term": "Factorisation",
+      "meaning": "Writing an expression as a product of factors; the reverse of expansion."
+    },
+    {
+      "term": "Perfect square",
+      "meaning": "An expression of the form a² ± 2ab + b², which equals (a ± b)²."
+    },
+    {
+      "term": "Difference of squares",
+      "meaning": "a² − b², which factorises as (a + b)(a − b)."
+    },
+    {
+      "term": "Sum of cubes",
+      "meaning": "x³ + y³, which factorises as (x + y)(x² − xy + y²)."
+    },
+    {
+      "term": "Difference of cubes",
+      "meaning": "x³ − y³, which factorises as (x − y)(x² + xy + y²)."
+    },
+    {
+      "term": "Algebra tiles / area model",
+      "meaning": "Using areas of squares and rectangles to show why an identity is true."
+    },
+    {
+      "term": "Counter-example",
+      "meaning": "A single value that makes a claimed identity false, proving it is not an identity."
+    },
+    {
+      "term": "Rational expression",
+      "meaning": "A fraction whose numerator and denominator are polynomials, e.g. (x² − 9)/(x + 3)."
+    }
+  ],
+  "formulas": [
+    "(a + b)² = a² + 2ab + b²",
+    "(a − b)² = a² − 2ab + b²",
+    "(a + b)(a − b) = a² − b²",
+    "(x + a)(x + b) = x² + (a + b)x + ab",
+    "(a + b + c)² = a² + b² + c² + 2ab + 2bc + 2ca",
+    "(a + b)³ = a³ + b³ + 3ab(a + b)",
+    "(a − b)³ = a³ − b³ − 3ab(a − b)",
+    "x³ + y³ = (x + y)(x² − xy + y²)",
+    "x³ − y³ = (x − y)(x² + xy + y²)",
+    "x³ + y³ + z³ − 3xyz = (x + y + z)(x² + y² + z² − xy − yz − zx)",
+    "If x + y + z = 0, then x³ + y³ + z³ = 3xyz",
+    "a² + b² = (a + b)² − 2ab; (a − b)² = (a + b)² − 4ab"
+  ],
+  "commonMistakes": [
+    "Writing (a + b)² = a² + b² — the middle term 2ab is always there.",
+    "Writing (a − b)² = a² − b² — that is (a + b)(a − b), a different expression.",
+    "Squaring only the number or only the letter: (3x)² = 9x², not 3x² or 9x.",
+    "Getting the middle sign wrong in the cube factors: x³ + y³ has −xy, and x³ − y³ has +xy.",
+    "Thinking that checking a few values proves an identity — substitution can only disprove it or support it.",
+    "Cancelling terms instead of factors: (x + 3)/(x + 5) cannot be simplified to 3/5.",
+    "Forgetting to take out a common factor first, e.g. factorising 2x² − 50 as (√2x − √50)(…) instead of 2(x − 5)(x + 5)."
+  ],
+  "revision": [
+    "Identity: true for all values; equation: true for some values.",
+    "(a + b)² = a² + 2ab + b²; (a − b)² = a² − 2ab + b².",
+    "(a + b)(a − b) = a² − b²; (x + a)(x + b) = x² + (a + b)x + ab.",
+    "(a + b + c)² = a² + b² + c² + 2ab + 2bc + 2ca.",
+    "(a + b)³ = a³ + b³ + 3ab(a + b); (a − b)³ = a³ − b³ − 3ab(a − b).",
+    "x³ + y³ = (x + y)(x² − xy + y²); x³ − y³ = (x − y)(x² + xy + y²).",
+    "x³ + y³ + z³ − 3xyz = (x + y + z)(x² + y² + z² − xy − yz − zx).",
+    "If x + y + z = 0 then x³ + y³ + z³ = 3xyz.",
+    "Area model: (a + b)² square = a² + b² + two ab rectangles.",
+    "103² = 10,609; 98² = 9,604; 102 × 98 = 9,996; 997 × 1003 = 999,991.",
+    "(n − 1)² + (n + 1)² − 2n² = 2 for every n.",
+    "Factorise by spotting identity patterns; cancel only common factors."
+  ],
+  "faqs": [
+    {
+      "q": "What is the difference between an identity and an equation?",
+      "a": "An **equation** is true only for certain values (2x + 3 = 11 only when x = 4). An **identity** is true for **every** value of the variables ((x + 1)² = x² + 2x + 1 for all x). You solve an equation; you prove an identity.",
+      "keywords": [
+        "identity vs equation",
+        "difference identity equation",
+        "what is an identity"
+      ]
+    },
+    {
+      "q": "Why isn't (a + b)² equal to a² + b²?",
+      "a": "Draw a square of side a + b. It contains an a² square, a b² square **and two a × b rectangles**. So (a + b)² = a² + 2ab + b². With numbers: (2 + 3)² = 25, but 2² + 3² = 13 — the missing 12 is 2 × 2 × 3.",
+      "keywords": [
+        "why (a+b)^2 not a^2+b^2",
+        "middle term 2ab",
+        "a plus b whole square mistake"
+      ]
+    },
+    {
+      "q": "How do I find 12³ + (−7)³ + (−5)³ quickly?",
+      "a": "Notice 12 + (−7) + (−5) = 0. When x + y + z = 0, x³ + y³ + z³ = 3xyz. So the answer is 3 × 12 × (−7) × (−5) = **1260**.",
+      "keywords": [
+        "x+y+z=0 cube",
+        "sum of cubes 3xyz",
+        "evaluate without cubing"
+      ]
+    },
+    {
+      "q": "How do I choose which identity to use when factorising?",
+      "a": "Look at the shape:\n- Two squared terms with a minus → difference of squares\n- Three terms with first and last perfect squares and middle = 2 × (product of roots) → perfect square\n- x² + px + q → find two numbers with sum p and product q\n- Two cubes → sum or difference of cubes\nAlways take out any common factor first.",
+      "keywords": [
+        "which identity to use",
+        "how to factorise",
+        "factorisation tips"
+      ]
+    },
+    {
+      "q": "How do I remember the signs in x³ + y³ and x³ − y³?",
+      "a": "The first bracket has the **same** sign as the original; the middle term of the second bracket has the **opposite** sign; the last term is always **+**. So x³ + y³ = (x + y)(x² − xy + y²) and x³ − y³ = (x − y)(x² + xy + y²).",
+      "keywords": [
+        "sum of cubes sign",
+        "difference of cubes sign",
+        "remember cube identities"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Which of these is an identity (true for all x)?",
+      "options": [
+        "2x + 3 = 11",
+        "(x + 1)² = x² + 2x + 1",
+        "x² = 4",
+        "(x + 3)² = x² + 9"
+      ],
+      "answer": 1,
+      "explain": "(x + 1)² = x² + 2x + 1 holds for every x. The others are true only for some x (or, for the last, false in general — try x = 1).",
+      "topic": "identity-vs-equation",
+      "level": "easy"
+    },
+    {
+      "q": "In the area model of (a + b)², how many rectangles of area ab are there?",
+      "options": [
+        "1",
+        "3",
+        "4",
+        "2"
+      ],
+      "answer": 3,
+      "explain": "The (a + b) square splits into a², b² and two ab rectangles, giving 2ab.",
+      "topic": "identity-vs-equation",
+      "level": "easy"
+    },
+    {
+      "q": "Expand (3x + 2)².",
+      "options": [
+        "9x² + 12x + 4",
+        "9x² + 4",
+        "3x² + 12x + 4",
+        "9x² + 6x + 4"
+      ],
+      "answer": 0,
+      "explain": "(3x)² + 2(3x)(2) + 2² = 9x² + 12x + 4.",
+      "topic": "square-identities",
+      "level": "easy"
+    },
+    {
+      "q": "(x + 3)(x − 7) equals:",
+      "options": [
+        "x² + 4x − 21",
+        "x² − 4x + 21",
+        "x² − 4x − 21",
+        "x² − 10x − 21"
+      ],
+      "answer": 2,
+      "explain": "x² + (3 + (−7))x + (3)(−7) = x² − 4x − 21.",
+      "topic": "square-identities",
+      "level": "medium"
+    },
+    {
+      "q": "If a + b = 7 and ab = 12, what is a² + b²?",
+      "options": [
+        "49",
+        "37",
+        "61",
+        "25"
+      ],
+      "answer": 3,
+      "explain": "a² + b² = (a + b)² − 2ab = 49 − 24 = 25.",
+      "topic": "square-identities",
+      "level": "medium"
+    },
+    {
+      "q": "Using an identity, 99³ equals:",
+      "options": [
+        "970,299",
+        "969,299",
+        "999,999",
+        "980,099"
+      ],
+      "answer": 0,
+      "explain": "(100 − 1)³ = 1,000,000 − 1 − 3(100)(1)(99) = 999,999 − 29,700 = 970,299.",
+      "topic": "cube-identities",
+      "level": "hard"
+    },
+    {
+      "q": "What is the value of 12³ + (−7)³ + (−5)³?",
+      "options": [
+        "−420",
+        "1260",
+        "0",
+        "2196"
+      ],
+      "answer": 1,
+      "explain": "12 − 7 − 5 = 0, so the sum of cubes = 3 × 12 × (−7) × (−5) = 1260.",
+      "topic": "cube-identities",
+      "level": "hard"
+    },
+    {
+      "q": "x³ − y³ factorises as:",
+      "options": [
+        "(x − y)(x² − xy + y²)",
+        "(x − y)³",
+        "(x − y)(x² + xy + y²)",
+        "(x + y)(x² + xy + y²)"
+      ],
+      "answer": 2,
+      "explain": "Difference of cubes: (x − y)(x² + xy + y²).",
+      "topic": "cube-identities",
+      "level": "medium"
+    },
+    {
+      "q": "Using an identity, 102 × 98 equals:",
+      "options": [
+        "10,004",
+        "9,996",
+        "9,604",
+        "10,404"
+      ],
+      "answer": 1,
+      "explain": "(100 + 2)(100 − 2) = 10,000 − 4 = 9,996.",
+      "topic": "mental-maths",
+      "level": "easy"
+    },
+    {
+      "q": "(n − 1)² + (n + 1)² − 2n² is equal to:",
+      "options": [
+        "2 for every n",
+        "0",
+        "2n",
+        "4n"
+      ],
+      "answer": 0,
+      "explain": "n² − 2n + 1 + n² + 2n + 1 − 2n² = 2.",
+      "topic": "mental-maths",
+      "level": "medium"
+    },
+    {
+      "q": "Factorise 9a² − 16b².",
+      "options": [
+        "(3a − 4b)²",
+        "(9a − 16b)(9a + 16b)",
+        "(3a − 4b)(3a + 4b)",
+        "(3a + 4b)²"
+      ],
+      "answer": 2,
+      "explain": "Difference of squares: (3a)² − (4b)² = (3a − 4b)(3a + 4b).",
+      "topic": "factorisation",
+      "level": "medium"
+    },
+    {
+      "q": "Simplify (x² − 9)/(x² + 6x + 9), for x ≠ −3.",
+      "options": [
+        "−1",
+        "(x + 3)/(x − 3)",
+        "x − 3",
+        "(x − 3)/(x + 3)"
+      ],
+      "answer": 3,
+      "explain": "(x − 3)(x + 3)/(x + 3)² = (x − 3)/(x + 3).",
+      "topic": "factorisation",
+      "level": "hard"
+    }
+  ]
+}

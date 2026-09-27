@@ -1,0 +1,125 @@
+{
+  "id": "c9-math-circles",
+  "class": 9,
+  "subject": "mathematics",
+  "name": "I'm Up and Down, and Round and Round",
+  "summary": "This is the chapter on circles. It covers the parts of a circle (centre, radius, diameter, chord, arc, segment, sector), how many circles pass through given points, the circumcentre of a triangle, the properties of chords, the angles that arcs subtend at the centre and on the circle, and cyclic quadrilaterals.",
+  "topics": [
+    {
+      "id": "parts-of-a-circle",
+      "title": "Circles and their parts",
+      "summary": "A circle is the set of all points at a fixed distance (the radius) from a fixed point (the centre); chords, arcs, segments and sectors are its parts.",
+      "simple": "A **circle** is all the points that are the same distance from one middle point, the **centre**. That distance is the **radius**. A line joining two points on the circle is a **chord**, and the longest chord, through the centre, is the **diameter** (twice the radius).",
+      "explain": "A **circle** is the set of all points in a plane that are at a fixed distance from a fixed point.\n- The fixed point is the **centre** (usually called O).\n- The fixed distance is the **radius** (r). All radii of a circle are equal.\n- The **circumference** is the length of the boundary of the circle.\n\n**Chord:** a line segment joining any two points on the circle.\n**Diameter:** a chord passing through the centre. Diameter = 2 × radius, and it is the **longest chord** of a circle.\n\n**Arc:** a part of the circle between two points on it. Two points divide the circle into two arcs:\n- the **minor arc** (the shorter one)\n- the **major arc** (the longer one)\n- if the two points are ends of a diameter, both arcs are **semicircles**.\n\n**Segment:** the region between a chord and an arc. The smaller one is the **minor segment**, the larger one is the **major segment**.\n\n**Sector:** the region between two radii and an arc, shaped like a slice of pizza (minor sector and major sector).\n\n**Symmetry:** a circle looks the same after any rotation about its centre, and **every line through the centre (every diameter) is a line of symmetry**. So a circle has infinitely many lines of symmetry.\n\nThe interior of the circle is the set of points closer to the centre than r; the exterior is the set of points farther than r.",
+      "example": "A bangle has a diameter of 6 cm. Its radius is 6 ÷ 2 = 3 cm. The segment made by a cut across a round roti (not through the centre) is a minor segment on one side and a major segment on the other.",
+      "keyPoints": ["Circle: all points at distance r from the centre", "Diameter = 2r; it is the longest chord", "Minor arc is shorter, major arc is longer; a diameter gives two semicircles", "Segment = region between chord and arc", "Sector = region between two radii and an arc", "Every diameter is a line of symmetry — infinitely many"],
+      "keywords": ["circle", "circles", "centre", "center", "radius", "diameter", "chord", "arc", "minor arc", "major arc", "semicircle", "segment", "sector", "circumference", "symmetry of circle", "parts of a circle"]
+    },
+    {
+      "id": "circles-through-points",
+      "title": "Circles through given points and the circumcentre",
+      "summary": "Infinitely many circles pass through one point or two points, but exactly one circle passes through three non-collinear points; its centre is the circumcentre of the triangle they form.",
+      "simple": "Through one point you can draw endless circles. Through two points you can still draw endless circles, but their centres all lie on one line — the perpendicular bisector of the two points. Through three points that are not on one line, there is **exactly one** circle.",
+      "explain": "**One point P:** take any centre and use its distance to P as the radius. So **infinitely many** circles pass through one point.\n\n**Two points A and B:** the centre must be equally far from A and B, so it must lie on the **perpendicular bisector of AB**. Every point on that line works, so **infinitely many** circles pass through A and B. The smallest one has AB as its diameter.\n\n**Three non-collinear points A, B, C:** the centre must lie on the perpendicular bisector of AB **and** on the perpendicular bisector of BC. Two non-parallel lines meet in exactly one point, so there is **exactly one** circle.\n\n**Three collinear points:** the perpendicular bisectors are parallel and never meet, so **no** circle passes through them.\n\n**Circumcentre and circumcircle:** the circle through the three vertices of a triangle is its **circumcircle**. Its centre, the **circumcentre**, is where the perpendicular bisectors of the sides meet. Its position depends on the type of triangle:\n- **Acute triangle:** circumcentre lies **inside** the triangle\n- **Right triangle:** circumcentre is the **midpoint of the hypotenuse**\n- **Obtuse triangle:** circumcentre lies **outside** the triangle",
+      "example": "A right triangle has sides 6 cm, 8 cm and 10 cm (6² + 8² = 36 + 64 = 100 = 10²). Its circumcentre is the midpoint of the 10 cm hypotenuse, so the circumradius is 10 ÷ 2 = 5 cm.",
+      "keyPoints": ["1 point → infinitely many circles", "2 points → infinitely many circles, centres on the perpendicular bisector", "3 non-collinear points → exactly one circle", "3 collinear points → no circle", "Circumcentre = meeting point of perpendicular bisectors of the sides", "Acute: inside; right: midpoint of hypotenuse; obtuse: outside"],
+      "keywords": ["circle through three points", "circle through two points", "non-collinear points", "collinear", "perpendicular bisector", "circumcentre", "circumcenter", "circumcircle", "circumradius", "unique circle", "how many circles"]
+    },
+    {
+      "id": "chord-properties",
+      "title": "Properties of chords",
+      "summary": "Equal chords subtend equal angles at the centre and are equidistant from it; the perpendicular from the centre bisects a chord; chord length = 2√(r² − d²).",
+      "simple": "Chords of the same length behave the same way: they make the same angle at the centre and are the same distance from the centre. A line from the centre that hits a chord at 90° cuts it exactly in half. These facts let you find chord lengths using Pythagoras.",
+      "explain": "Each of these results has a **converse** that is also true (in the same circle or in equal circles).\n\n**1. Chords and angles at the centre**\n- Equal chords subtend **equal angles at the centre**.\n- Converse: if two chords subtend equal angles at the centre, the chords are equal.\n- Proof idea: joining the ends of each chord to O gives two triangles that are congruent by SSS (two radii and the equal chord).\n\n**2. Perpendicular from the centre**\n- The perpendicular from the centre to a chord **bisects** the chord.\n- Converse: the line from the centre to the **midpoint** of a chord is perpendicular to the chord.\n- Proof idea: if OM ⊥ AB, triangles OMA and OMB are congruent by RHS (OA = OB, OM common), so AM = MB.\n\n**3. Distance from the centre**\n- Equal chords are **equidistant** from the centre.\n- Converse: chords equidistant from the centre are equal.\n- The closer a chord is to the centre, the longer it is; the diameter (distance 0) is the longest.\n\n**Chord length formula:** if a chord is at distance d from the centre of a circle of radius r, the perpendicular from O makes a right triangle with hypotenuse r and legs d and half the chord. By Pythagoras, half-chord = √(r² − d²), so\n**chord length = 2√(r² − d²)**.",
+      "example": "Radius r = 5 cm, chord at distance d = 3 cm from the centre.\n1. Half-chord = √(5² − 3²) = √(25 − 9) = √16 = 4 cm\n2. Chord = 2 × 4 = **8 cm**\n\nReverse problem: a chord of length 24 cm in a circle of radius 13 cm. Half-chord = 12, so d = √(13² − 12²) = √(169 − 144) = √25 = **5 cm**.",
+      "keyPoints": ["Equal chords ⇔ equal angles at the centre", "Perpendicular from centre bisects the chord (and converse)", "Equal chords ⇔ equidistant from the centre", "Nearer the centre means longer chord; diameter is longest", "Chord length = 2√(r² − d²)"],
+      "keywords": ["chord", "chords", "equal chords", "angle subtended by chord", "perpendicular from centre", "bisects chord", "equidistant chords", "distance of chord from centre", "chord length", "chord length formula", "converse", "rhs congruence", "pythagoras chord"]
+    },
+    {
+      "id": "angles-in-a-circle",
+      "title": "Angles subtended by arcs",
+      "summary": "The angle an arc subtends at the centre is double the angle it subtends at any point on the remaining part of the circle; angles in the same segment are equal; the angle in a semicircle is 90°.",
+      "simple": "Take an arc and join its ends to the centre, and also to a point on the rest of the circle. The angle at the centre is always **twice** the angle at the circle. That's why all angles standing on the same arc are equal, and why any angle drawn in a semicircle is exactly 90°.",
+      "explain": "An arc PQ **subtends** an angle ∠POQ at the centre O, and an angle ∠PRQ at any point R on the remaining part of the circle.\n\n**Theorem (double angle):** ∠POQ = 2 × ∠PRQ.\n\nProof idea: join R to O and extend it. Triangles OPR and OQR are isosceles (OP = OR = OQ), so the base angles are equal. The exterior angle of each triangle at O equals twice the base angle. Adding (or subtracting) the two parts gives ∠POQ = 2∠PRQ.\n\n**Consequences:**\n- **Angles in the same segment are equal.** Every point R on the same arc gives ∠PRQ = ½∠POQ, the same value.\n- **Angle in a semicircle is 90°.** If PQ is a diameter, ∠POQ = 180°, so ∠PRQ = 180° ÷ 2 = 90°.\n- Conversely, if a segment PQ subtends 90° at R, then R lies on the circle with PQ as diameter.\n\n**Concyclic points:** points that lie on the same circle. If a segment AB subtends equal angles at two points C and D on the same side of AB, then A, B, C and D are concyclic.",
+      "example": "An arc subtends 110° at the centre. At any point on the remaining part of the circle it subtends 110° ÷ 2 = **55°**.\n\nIn a circle, AB is a diameter and C is on the circle with ∠CAB = 35°. Since ∠ACB = 90° (angle in a semicircle), ∠CBA = 180° − 90° − 35° = **55°**.",
+      "keyPoints": ["Angle at centre = 2 × angle at the circle (same arc)", "Angles in the same segment are equal", "Angle in a semicircle = 90°", "Equal angles on the same side of a segment ⇒ the four points are concyclic", "Concyclic = lying on one circle"],
+      "keywords": ["angle subtended by arc", "angle at centre", "angle at circumference", "double angle theorem", "angle at centre is twice", "angles in the same segment", "angle in a semicircle", "semicircle 90", "inscribed angle", "concyclic", "concyclic points"]
+    },
+    {
+      "id": "cyclic-quadrilaterals",
+      "title": "Cyclic quadrilaterals",
+      "summary": "A quadrilateral whose four vertices lie on a circle is cyclic; its opposite angles add up to 180°, and any exterior angle equals the interior opposite angle.",
+      "simple": "If all four corners of a quadrilateral sit on one circle, it is **cyclic**. In such a quadrilateral, opposite angles always add up to 180°. If the opposite angles of a quadrilateral add to 180°, you can draw a circle through its corners.",
+      "explain": "A **cyclic quadrilateral** is one whose four vertices are concyclic (lie on one circle).\n\n**Theorem:** the sum of either pair of **opposite angles** of a cyclic quadrilateral is **180°**.\n- ∠A + ∠C = 180° and ∠B + ∠D = 180°\n- Proof idea: ∠A and ∠C stand on the two arcs that make up the whole circle. Their central angles add up to 360°, and each inscribed angle is half its central angle, so ∠A + ∠C = 360° ÷ 2 = 180°.\n\n**Converse:** if a pair of opposite angles of a quadrilateral add up to 180°, the quadrilateral is cyclic.\n\n**Exterior angle:** if one side of a cyclic quadrilateral is extended, the **exterior angle equals the interior opposite angle**. (Exterior angle at C = 180° − ∠C = ∠A.)\n\n**Which parallelograms are cyclic?** In a parallelogram, opposite angles are equal. For it to be cyclic they must also add to 180°, so each must be 90°. Hence **the only cyclic parallelograms are rectangles** (including squares). A rhombus that is not a square is not cyclic.\n\nAn **isosceles trapezium** is also always cyclic, because its base angles make opposite angles supplementary.",
+      "example": "ABCD is cyclic with ∠A = 110° and ∠B = 75°.\n- ∠C = 180° − 110° = **70°**\n- ∠D = 180° − 75° = **105°**\n- Check: 110° + 75° + 70° + 105° = 360° ✓\n- If side DC is extended beyond C, the exterior angle at C = ∠A = 110°.",
+      "keyPoints": ["Cyclic quadrilateral: all four vertices on one circle", "Opposite angles add up to 180°", "Converse: opposite angles supplementary ⇒ cyclic", "Exterior angle = interior opposite angle", "Only rectangles (and squares) are cyclic parallelograms", "Isosceles trapezium is cyclic"],
+      "keywords": ["cyclic quadrilateral", "cyclic quadrilaterals", "opposite angles 180", "supplementary", "exterior angle of cyclic quadrilateral", "interior opposite angle", "concyclic", "cyclic parallelogram", "rectangle cyclic", "isosceles trapezium cyclic"]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "Circle", "meaning": "The set of all points in a plane at a fixed distance (radius) from a fixed point (centre)." },
+    { "term": "Chord", "meaning": "A line segment joining two points on a circle." },
+    { "term": "Diameter", "meaning": "A chord through the centre; equal to 2r and the longest chord." },
+    { "term": "Arc", "meaning": "A part of the circle between two points; minor arc is shorter, major arc is longer." },
+    { "term": "Segment", "meaning": "The region between a chord and its arc." },
+    { "term": "Sector", "meaning": "The region between two radii and the arc between them." },
+    { "term": "Perpendicular bisector", "meaning": "The line at 90° through the midpoint of a segment; every point on it is equidistant from the ends." },
+    { "term": "Circumcentre", "meaning": "The point where the perpendicular bisectors of a triangle's sides meet; centre of the circle through its vertices." },
+    { "term": "Subtended angle", "meaning": "The angle formed at a point by lines drawn to the two ends of a chord or arc." },
+    { "term": "Concyclic points", "meaning": "Points that all lie on one circle." },
+    { "term": "Cyclic quadrilateral", "meaning": "A quadrilateral whose four vertices lie on a circle; its opposite angles add to 180°." }
+  ],
+  "formulas": [
+    "Diameter = 2 × radius (d = 2r)",
+    "Chord length = 2√(r² − d²) (r radius, d distance of the chord from the centre)",
+    "Distance of chord from centre = √(r² − (chord/2)²)",
+    "Angle at centre = 2 × angle at any point on the remaining part of the circle (same arc)",
+    "Angle in a semicircle = 90°",
+    "Cyclic quadrilateral ABCD: ∠A + ∠C = 180°, ∠B + ∠D = 180°",
+    "Exterior angle of a cyclic quadrilateral = interior opposite angle"
+  ],
+  "commonMistakes": [
+    "Saying only one circle passes through two points — infinitely many do; you need three non-collinear points for exactly one.",
+    "Forgetting that three collinear points have no circle through them.",
+    "Halving the wrong way: the angle at the centre is twice the angle at the circle, not half.",
+    "Using the chord length directly in Pythagoras — use half the chord: (chord/2)² + d² = r².",
+    "Saying opposite angles of a cyclic quadrilateral are equal — they are supplementary (add to 180°).",
+    "Thinking every parallelogram is cyclic — only rectangles (and squares) are.",
+    "Placing the circumcentre of a right triangle at the right-angle vertex — it is at the midpoint of the hypotenuse."
+  ],
+  "revision": [
+    "Diameter = 2r; the diameter is the longest chord.",
+    "Every diameter is a line of symmetry: a circle has infinitely many.",
+    "1 point or 2 points → infinitely many circles; 3 non-collinear points → exactly one.",
+    "Centres of circles through A and B lie on the perpendicular bisector of AB.",
+    "Circumcentre: acute → inside, right → midpoint of hypotenuse, obtuse → outside.",
+    "Equal chords ⇔ equal angles at the centre ⇔ equidistant from the centre.",
+    "Perpendicular from the centre bisects a chord.",
+    "Chord = 2√(r² − d²); r = 5, d = 3 gives 8.",
+    "Angle at centre = 2 × angle at the circle on the same arc.",
+    "Angles in the same segment are equal; angle in a semicircle = 90°.",
+    "Cyclic quadrilateral: opposite angles add to 180°; exterior angle = interior opposite angle.",
+    "The only cyclic parallelograms are rectangles."
+  ],
+  "faqs": [
+    { "q": "What is the difference between a segment and a sector?", "a": "A **segment** is bounded by a **chord** and an arc. A **sector** is bounded by **two radii** and an arc. A sector always has the centre as a corner; a segment usually does not.", "keywords": ["segment vs sector", "difference segment sector"] },
+    { "q": "Why is the angle in a semicircle always 90°?", "a": "The diameter subtends a straight angle of **180°** at the centre. The angle at any point on the circle is half the angle at the centre, so it is 180° ÷ 2 = **90°**.", "keywords": ["angle in semicircle", "why 90 degrees semicircle"] },
+    { "q": "How many circles can pass through two points? Through three points?", "a": "Through two points, **infinitely many** — their centres lie on the perpendicular bisector of the segment joining them. Through three **non-collinear** points, **exactly one**. Through three collinear points, **none**.", "keywords": ["how many circles through points", "circles through two points", "circles through three points"] },
+    { "q": "How do I find the length of a chord if I know the radius and its distance from the centre?", "a": "Draw the perpendicular from the centre; it bisects the chord. Then half-chord = √(r² − d²), so chord = 2√(r² − d²). For r = 5 and d = 3: 2√(25 − 9) = 2 × 4 = **8**.", "keywords": ["chord length", "find chord length", "chord distance from centre"] },
+    { "q": "Is every parallelogram cyclic?", "a": "No. A parallelogram has equal opposite angles; to be cyclic they must also add to 180°, so each must be 90°. So only **rectangles** (including squares) are cyclic parallelograms.", "keywords": ["parallelogram cyclic", "cyclic parallelogram rectangle"] }
+  ],
+  "quiz": [
+    { "q": "The longest chord of a circle is its:", "options": ["Radius", "Diameter", "Arc", "Tangent"], "answer": 1, "explain": "A diameter passes through the centre and is the longest chord (2r).", "topic": "parts-of-a-circle", "level": "easy" },
+    { "q": "The region between a chord and its arc is called a:", "options": ["Sector", "Radius", "Segment", "Semicircle"], "answer": 2, "explain": "A segment is bounded by a chord and an arc; a sector by two radii and an arc.", "topic": "parts-of-a-circle", "level": "easy" },
+    { "q": "How many circles pass through three non-collinear points?", "options": ["Exactly one", "None", "Two", "Infinitely many"], "answer": 0, "explain": "The perpendicular bisectors of two sides meet at exactly one point — the only possible centre.", "topic": "circles-through-points", "level": "easy" },
+    { "q": "Where is the circumcentre of a right-angled triangle?", "options": ["At the right-angle vertex", "Inside the triangle", "Outside the triangle", "At the midpoint of the hypotenuse"], "answer": 3, "explain": "The hypotenuse is a diameter of the circumcircle (angle in a semicircle is 90°), so the centre is its midpoint.", "topic": "circles-through-points", "level": "medium" },
+    { "q": "A chord is 3 cm from the centre of a circle of radius 5 cm. Its length is:", "options": ["4 cm", "6 cm", "8 cm", "10 cm"], "answer": 2, "explain": "Half-chord = √(25 − 9) = 4 cm, so chord = 8 cm.", "topic": "chord-properties", "level": "medium" },
+    { "q": "A chord of length 24 cm is in a circle of radius 13 cm. How far is it from the centre?", "options": ["5 cm", "11 cm", "12 cm", "7 cm"], "answer": 0, "explain": "Half-chord = 12, so d = √(169 − 144) = √25 = 5 cm.", "topic": "chord-properties", "level": "hard" },
+    { "q": "The perpendicular from the centre of a circle to a chord:", "options": ["Is always equal to the radius", "Doubles the chord", "Is parallel to the chord", "Bisects the chord"], "answer": 3, "explain": "By RHS congruence the two halves of the chord are equal.", "topic": "chord-properties", "level": "easy" },
+    { "q": "An arc subtends 80° at the centre. What angle does it subtend at a point on the remaining part of the circle?", "options": ["160°", "40°", "80°", "100°"], "answer": 1, "explain": "The angle at the circle is half the angle at the centre: 80° ÷ 2 = 40°.", "topic": "angles-in-a-circle", "level": "medium" },
+    { "q": "AB is a diameter and C is a point on the circle with ∠CAB = 35°. Find ∠CBA.", "options": ["55°", "35°", "90°", "145°"], "answer": 0, "explain": "∠ACB = 90° (angle in a semicircle), so ∠CBA = 180° − 90° − 35° = 55°.", "topic": "angles-in-a-circle", "level": "hard" },
+    { "q": "In cyclic quadrilateral ABCD, ∠A = 110°. What is ∠C?", "options": ["110°", "90°", "250°", "70°"], "answer": 3, "explain": "Opposite angles of a cyclic quadrilateral add to 180°: 180° − 110° = 70°.", "topic": "cyclic-quadrilaterals", "level": "easy" },
+    { "q": "Which of these parallelograms is always cyclic?", "options": ["Every rhombus", "Every rectangle", "Every parallelogram", "No parallelogram"], "answer": 1, "explain": "Equal opposite angles that also add to 180° must each be 90°, so only rectangles are cyclic.", "topic": "cyclic-quadrilaterals", "level": "medium" },
+    { "q": "In cyclic quadrilateral PQRS, ∠P = 95°. Side SR is extended beyond R. The exterior angle at R is:", "options": ["85°", "180°", "95°", "190°"], "answer": 2, "explain": "The exterior angle of a cyclic quadrilateral equals the interior opposite angle, ∠P = 95°. (∠R = 85°, and 180° − 85° = 95°.)", "topic": "cyclic-quadrilaterals", "level": "hard" }
+  ]
+}

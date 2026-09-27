@@ -1,0 +1,134 @@
+{
+  "id": "c9-math-probability",
+  "class": 9,
+  "subject": "mathematics",
+  "name": "The Mathematics of Maybe: Introduction to Probability",
+  "summary": "Probability measures how likely something is, on a scale from 0 (impossible) to 1 (certain). This chapter covers uncertainty and randomness, experimental probability from trials, theoretical probability from equally likely outcomes, sample spaces for coins and dice (including tree diagrams), events and their complements, and common errors like the gambler's fallacy.",
+  "topics": [
+    {
+      "id": "uncertainty-and-probability-scale",
+      "title": "Uncertainty, randomness and the probability scale",
+      "summary": "Probability is a number from 0 (impossible) to 1 (certain) that tells how likely an event is; words like unlikely, even chance and likely sit along this scale.",
+      "simple": "Many things in life are uncertain: Will it rain today? Will India win the toss? **Probability** puts a number on 'how likely'. 0 means it can never happen, 1 means it is sure to happen, and ½ means it is an even chance.",
+      "explain": "We use words like *maybe*, *probably* and *hardly ever* every day. Probability turns these ideas into numbers so that we can compare and calculate with them.\n\n**The probability scale** runs from **0 to 1**:\n- **0 — impossible:** getting a 7 on an ordinary die\n- **close to 0 — unlikely:** snowfall in Chennai in May\n- **½ — even chance:** a fair coin landing heads\n- **close to 1 — likely:** rain in Mumbai on a July day\n- **1 — certain:** the sun rising tomorrow; getting a number less than 7 on a die\n\nProbabilities can also be written as fractions, decimals or percentages: ½ = 0.5 = 50%.\n\n**Randomness:** an experiment is **random** if we know all the possible outcomes but cannot predict which one will happen in a single try — tossing a coin, rolling a die, drawing a card from a shuffled pack. Each single result is unpredictable, but over many trials clear patterns appear. Probability describes these long-run patterns.\n\nKey words:\n- **Experiment / trial:** one act like tossing a coin once\n- **Outcome:** one possible result (heads)\n- **Event:** an outcome or a group of outcomes we are interested in (getting an even number)",
+      "example": "Place these on the 0 to 1 scale: (a) a Monday following a Sunday → 1 (certain); (b) a fair coin shows tails → ½; (c) rolling a 0 on a die → 0 (impossible); (d) drawing a red ball from a bag with 9 red and 1 green → close to 1 (likely; exactly 9/10).",
+      "keyPoints": ["Probability is a number from 0 to 1", "0 = impossible, 1 = certain, ½ = even chance", "Can be written as fraction, decimal or percentage", "Random experiment: outcomes known, single result unpredictable", "Outcome = one result; event = a set of outcomes"],
+      "keywords": ["probability", "chance", "likelihood", "uncertainty", "probability scale", "impossible", "certain", "unlikely", "likely", "even chance", "randomness", "random experiment", "trial", "outcome", "event"]
+    },
+    {
+      "id": "experimental-probability",
+      "title": "Experimental (empirical) probability",
+      "summary": "Experimental probability = number of times the event happened ÷ total number of trials; it gets closer to the theoretical value as the number of trials grows.",
+      "simple": "Toss a coin many times and count the heads. Heads ÷ total tosses is the **experimental probability** of heads. With only a few tosses the answer may be far from ½, but with hundreds or thousands of tosses it gets very close to ½.",
+      "explain": "**Experimental (or empirical) probability** is found by actually doing an experiment many times:\n\n**P(E) = number of trials in which E happened ÷ total number of trials**\n\nIt is based on what really happened, so different groups doing the same experiment usually get slightly different answers.\n\n**Law of large numbers (the idea):** as the number of trials increases, the experimental probability tends to settle down closer and closer to the theoretical probability. A coin tossed 10 times might give 7 heads (0.7), but tossed 10,000 times it will usually give a value very close to 0.5.\n\n**Why it is useful:** for many real situations we cannot count equally likely outcomes, so data is the only way to estimate probability, for example:\n- the chance that a batter hits a boundary off a ball\n- the chance that a bulb from a factory is defective\n- the chance of rain, estimated from past weather records",
+      "example": "**1.** A coin is tossed 50 times and shows heads 28 times.\n- P(heads) = 28/50 = 0.56\n- P(tails) = (50 − 28)/50 = 22/50 = 0.44\n- Check: 0.56 + 0.44 = 1 ✓\n\n**2.** A die is rolled 60 times and 6 comes up 12 times. Experimental P(6) = 12/60 = 0.2, while the theoretical value is 1/6 ≈ 0.167. More rolls would usually bring the result closer to 0.167.",
+      "keyPoints": ["Experimental P(E) = times E happened ÷ total trials", "Based on real data, so results vary between experiments", "More trials → closer to the theoretical probability", "50 tosses, 28 heads → P(heads) = 0.56", "Used when outcomes can't be counted as equally likely"],
+      "keywords": ["experimental probability", "empirical probability", "relative frequency", "trials", "frequency", "law of large numbers", "coin toss experiment", "number of trials", "observed probability"]
+    },
+    {
+      "id": "theoretical-probability",
+      "title": "Theoretical probability",
+      "summary": "When all outcomes are equally likely, P(E) = number of favourable outcomes ÷ total number of outcomes.",
+      "simple": "If every outcome has the same chance, you don't need to experiment. Just count: how many outcomes give what you want, divided by how many outcomes there are in total. For a die, P(getting a 4) = 1/6.",
+      "explain": "**Theoretical (classical) probability** is found by reasoning, not by experiment. It works only when all outcomes are **equally likely** (a fair coin, a fair die, a well-shuffled pack, balls of the same size in a bag).\n\n**P(E) = number of outcomes favourable to E ÷ total number of equally likely outcomes**\n\n**Steps:**\n1. List all possible outcomes (the sample space) and count them.\n2. Count the outcomes that make the event happen.\n3. Divide, and simplify the fraction.\n\n**Examples with a die** (6 outcomes):\n- P(4) = 1/6\n- P(even number) = 3/6 = ½ (2, 4, 6)\n- P(number greater than 4) = 2/6 = ⅓ (5, 6)\n- P(number less than 7) = 6/6 = 1 (certain)\n\n**Cards:** a standard pack has 52 cards: 4 suits (♠ ♣ black, ♥ ♦ red) of 13 cards each; there are 4 kings, 4 aces, 26 red cards and 12 face cards (J, Q, K).\n\n**Theoretical vs experimental:** theoretical probability tells us what we expect in the long run; experimental probability tells us what actually happened in our trials.",
+      "example": "A bag has 3 red and 5 blue marbles of the same size. One is picked without looking.\n- Total outcomes = 3 + 5 = 8\n- P(red) = **3/8**\n- P(blue) = **5/8**\n- Check: 3/8 + 5/8 = 8/8 = 1 ✓\n\nA card is drawn from a well-shuffled pack of 52: P(king) = 4/52 = **1/13**; P(red card) = 26/52 = **½**.",
+      "keyPoints": ["P(E) = favourable ÷ total equally likely outcomes", "Only valid when outcomes are equally likely", "Die: P(even) = ½, P(>4) = ⅓", "Bag of 3 red + 5 blue → P(red) = 3/8", "Pack of 52: P(king) = 1/13, P(red) = ½"],
+      "keywords": ["theoretical probability", "classical probability", "favourable outcomes", "equally likely", "probability formula", "probability of die", "probability of cards", "pack of cards", "marbles", "balls in a bag", "probability of king"]
+    },
+    {
+      "id": "sample-space-and-tree-diagrams",
+      "title": "Sample space and tree diagrams",
+      "summary": "The sample space is the list of all possible outcomes: one coin {H, T}, one die {1, …, 6}, two coins {HH, HT, TH, TT}, three coins 8 outcomes; tree diagrams help list them.",
+      "simple": "Before finding a probability, write down every possible outcome — this list is the **sample space**. For two coins, don't forget that HT and TH are different, so there are 4 outcomes, not 3. A **tree diagram** helps you list everything without missing any.",
+      "explain": "The **sample space** (S) is the set of **all possible outcomes** of an experiment.\n\n- **One coin:** S = {H, T} → 2 outcomes\n- **One die:** S = {1, 2, 3, 4, 5, 6} → 6 outcomes\n- **Two coins:** S = {HH, HT, TH, TT} → **4 outcomes**. HT (first heads, second tails) and TH are different outcomes.\n- **Three coins:** 2 × 2 × 2 = **8 outcomes**: HHH, HHT, HTH, HTT, THH, THT, TTH, TTT\n- **Two dice:** 6 × 6 = **36 outcomes**, from (1, 1) to (6, 6)\n\n**Tree diagram:** start with a point, draw one branch for each outcome of the first stage, then from the end of each branch draw branches for the next stage. Each complete path from start to end is one outcome.\n- For three coins: 2 branches → each splits into 2 (4 paths) → each splits into 2 (8 paths).\n\n**Counting rule:** if one stage has m outcomes and the next has n, together they have m × n outcomes.",
+      "example": "**Two coins:** P(exactly one head) = outcomes HT, TH = 2/4 = **½**. P(two heads) = 1/4.\n\n**Three coins:**\n- Exactly two heads: HHT, HTH, THH → P = **3/8**\n- At least one head: every outcome except TTT → 7 outcomes → P = **7/8**\n- All three the same: HHH, TTT → P = 2/8 = **¼**",
+      "keyPoints": ["Sample space = list of all possible outcomes", "One coin 2, one die 6, two coins 4, three coins 8, two dice 36", "HT and TH are different outcomes", "Tree diagram: each path is one outcome", "Counting rule: m × n outcomes for two stages"],
+      "keywords": ["sample space", "outcomes", "list of outcomes", "tree diagram", "two coins", "three coins", "tossing two coins", "tossing three coins", "two dice", "36 outcomes", "counting outcomes"]
+    },
+    {
+      "id": "events-and-complements",
+      "title": "Events and complementary events",
+      "summary": "An event is a set of outcomes; the complement 'not E' contains every other outcome, and P(not E) = 1 − P(E).",
+      "simple": "Either something happens or it doesn't — there's no third option. So the chance it happens plus the chance it doesn't always equals 1. If the chance of rain is 0.3, the chance of no rain is 0.7.",
+      "explain": "An **event** is any collection of outcomes from the sample space. With a die, 'getting an even number' is the event {2, 4, 6}.\n\n- **Elementary event:** just one outcome, like {5}. The probabilities of all the elementary events of an experiment add up to 1.\n- **Impossible event:** has no outcomes, P = 0.\n- **Sure (certain) event:** is the whole sample space, P = 1.\n\n**Complementary event:** the complement of E, written **'not E'** (or Ē), contains all the outcomes that are **not** in E. E and not E never happen together, and one of them must happen. So\n\n**P(E) + P(not E) = 1**, which means **P(not E) = 1 − P(E)**.\n\nThis is very handy when counting the 'not' case is easier, especially for 'at least one' questions: P(at least one head) = 1 − P(no heads).\n\n**Range:** since 0 ≤ P(E) ≤ 1, the complement is also between 0 and 1.",
+      "example": "**1.** A die is rolled. E = 'getting a 6'. P(E) = 1/6, so P(not a 6) = 1 − 1/6 = **5/6**.\n\n**2.** A card is drawn from 52. P(king) = 4/52 = 1/13, so P(not a king) = 1 − 1/13 = **12/13** (check: 48 non-kings, 48/52 = 12/13 ✓).\n\n**3.** Three coins: P(no head) = P(TTT) = 1/8, so P(at least one head) = 1 − 1/8 = **7/8**.",
+      "keyPoints": ["Event = set of outcomes", "Impossible event P = 0; sure event P = 1", "Elementary event probabilities add to 1", "P(E) + P(not E) = 1", "P(not E) = 1 − P(E)", "Use complements for 'at least one' questions"],
+      "keywords": ["event", "events", "complementary event", "complement", "not e", "p(not e)", "1 - p(e)", "sure event", "impossible event", "elementary event", "at least one", "sum of probabilities"]
+    },
+    {
+      "id": "common-probability-errors",
+      "title": "Common errors in thinking about chance",
+      "summary": "Past results of a fair coin don't change the next toss (gambler's fallacy); not all outcomes are equally likely (sums of two dice); a probability can never be negative or more than 1.",
+      "simple": "A coin has no memory. Even after 5 heads in a row, the next toss is still 50-50. Also, be careful: when you add two dice, a total of 7 is much more likely than a total of 2, because more combinations make 7.",
+      "explain": "**1. Gambler's fallacy.** After a run like H, H, H, H, H, many people think tails is 'due'. But each toss of a fair coin is **independent** — the coin has no memory. P(heads) on the next toss is still **½**. The law of large numbers works by swamping early runs with many more trials, not by 'correcting' them.\n\n**2. Assuming outcomes are equally likely when they aren't.**\n- Sum of two dice: the possible sums are 2 to 12 (11 values), but they are **not** equally likely. Out of 36 equally likely pairs, sum 2 comes only from (1, 1) → 1/36; sum 7 comes from (1, 6), (2, 5), (3, 4), (4, 3), (5, 2), (6, 1) → 6/36 = 1/6; sum 12 comes only from (6, 6) → 1/36. So P(sum 7) is **not** 1/11.\n- Two coins: 'two heads, two tails, or one of each' are 3 results, but 'one of each' happens in 2 of the 4 outcomes, so its probability is ½, not ⅓.\n\n**3. Impossible values.** A probability can **never be negative and never greater than 1**. If your answer is 1.2 or −0.3, there is a mistake. Also, all the elementary probabilities of an experiment must add up to exactly 1.\n\n**4. Small samples.** A few trials can give results far from the theoretical value; don't draw strong conclusions from them.",
+      "example": "Riya tosses a fair coin and gets heads 4 times in a row. She says, 'The next one must be tails.' She is wrong: P(tails on the 5th toss) = ½, exactly as before.\n\nTwo dice are rolled. P(sum = 7) = 6/36 = 1/6 ≈ 0.167, but P(sum = 2) = 1/36 ≈ 0.028 — six times less likely.",
+      "keyPoints": ["Coins and dice have no memory — tosses are independent", "Gambler's fallacy: thinking an outcome is 'due'", "Sums of two dice are not equally likely: P(7) = 6/36, P(2) = 1/36", "Two coins: 'one head and one tail' has P = ½, not ⅓", "0 ≤ P(E) ≤ 1 always", "Small samples can mislead"],
+      "keywords": ["gambler's fallacy", "gamblers fallacy", "independent events", "coin has no memory", "sum of two dice", "probability of sum 7", "equally likely mistake", "probability greater than 1", "negative probability", "misconceptions probability", "hot hand"]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "Probability", "meaning": "A number from 0 to 1 measuring how likely an event is." },
+    { "term": "Random experiment", "meaning": "An action whose possible outcomes are known but whose single result cannot be predicted." },
+    { "term": "Outcome", "meaning": "One possible result of an experiment." },
+    { "term": "Sample space", "meaning": "The set of all possible outcomes of an experiment." },
+    { "term": "Event", "meaning": "A set of one or more outcomes." },
+    { "term": "Experimental probability", "meaning": "Number of trials in which the event happened ÷ total number of trials." },
+    { "term": "Theoretical probability", "meaning": "Favourable outcomes ÷ total equally likely outcomes." },
+    { "term": "Equally likely outcomes", "meaning": "Outcomes that each have the same chance of occurring." },
+    { "term": "Complementary event", "meaning": "'Not E': all outcomes not in E; P(not E) = 1 − P(E)." },
+    { "term": "Tree diagram", "meaning": "A branching diagram that lists all outcomes of a multi-stage experiment." },
+    { "term": "Gambler's fallacy", "meaning": "The mistaken belief that past independent results change the chance of the next one." }
+  ],
+  "formulas": [
+    "Experimental probability P(E) = number of trials in which E happened ÷ total number of trials",
+    "Theoretical probability P(E) = number of favourable outcomes ÷ total number of equally likely outcomes",
+    "0 ≤ P(E) ≤ 1 (impossible event 0, sure event 1)",
+    "P(not E) = 1 − P(E), i.e. P(E) + P(not E) = 1",
+    "Number of outcomes: n coins → 2ⁿ; two dice → 6 × 6 = 36",
+    "Counting rule: stages with m and n outcomes give m × n outcomes together"
+  ],
+  "commonMistakes": [
+    "Believing in the gambler's fallacy — after several heads, the next toss is still ½ for heads.",
+    "Treating sums of two dice as equally likely (P(sum 7) is 6/36, not 1/11).",
+    "Counting HT and TH as the same outcome when tossing two coins (there are 4 outcomes, not 3).",
+    "Giving a probability greater than 1 or less than 0.",
+    "Using the theoretical formula when outcomes are not equally likely.",
+    "Expecting experimental probability from a few trials to match the theoretical value exactly.",
+    "Forgetting that P(E) + P(not E) = 1 and calculating the complement the long way."
+  ],
+  "revision": [
+    "Probability scale: 0 impossible, ½ even chance, 1 certain.",
+    "Experimental P = times event happened ÷ total trials; 28 heads in 50 tosses → 0.56.",
+    "More trials → experimental probability approaches theoretical probability.",
+    "Theoretical P = favourable ÷ total equally likely outcomes.",
+    "One coin {H, T}; one die {1, …, 6}; two coins {HH, HT, TH, TT}; three coins 8 outcomes.",
+    "Tree diagram: each full path is one outcome.",
+    "Bag of 3 red + 5 blue → P(red) = 3/8.",
+    "Pack of 52 cards: 4 kings, 26 red, 12 face cards.",
+    "P(not E) = 1 − P(E).",
+    "Probabilities of all elementary events add up to 1.",
+    "Coins have no memory — the gambler's fallacy is wrong.",
+    "Two dice: 36 outcomes; P(sum 7) = 1/6, P(sum 2) = 1/36."
+  ],
+  "faqs": [
+    { "q": "What is the difference between experimental and theoretical probability?", "a": "**Experimental** probability comes from actually doing trials: times the event happened ÷ total trials (e.g. 28 heads in 50 tosses → 0.56). **Theoretical** probability comes from reasoning about equally likely outcomes: favourable ÷ total (e.g. P(heads) = ½). With more trials, the experimental value usually gets closer to the theoretical one.", "keywords": ["experimental vs theoretical", "difference experimental theoretical probability", "empirical vs classical"] },
+    { "q": "Why are there 4 outcomes, not 3, when two coins are tossed?", "a": "The coins are different (first and second), so 'head on the first, tail on the second' (HT) is a different outcome from TH. The sample space is {HH, HT, TH, TT}. That is why P(one head and one tail) = 2/4 = ½.", "keywords": ["two coins outcomes", "why 4 outcomes two coins", "ht th"] },
+    { "q": "If a coin shows heads 5 times in a row, isn't tails more likely next?", "a": "No. Each toss is independent — the coin has no memory. P(tails) on the next toss is still ½. Thinking otherwise is called the **gambler's fallacy**.", "keywords": ["gambler's fallacy", "coin heads in a row", "is tails due"] },
+    { "q": "Can a probability be more than 1?", "a": "Never. A probability always lies between 0 (impossible) and 1 (certain). If you get more than 1 or a negative number, recheck your counting.", "keywords": ["probability more than 1", "probability greater than one", "negative probability"] },
+    { "q": "How do I use P(not E) = 1 − P(E)?", "a": "Use it when the opposite case is easier to count. For example, P(at least one head in three tosses) = 1 − P(no heads) = 1 − 1/8 = 7/8.", "keywords": ["complementary event", "p not e", "at least one"] }
+  ],
+  "quiz": [
+    { "q": "The probability of an impossible event is:", "options": ["1", "0", "½", "−1"], "answer": 1, "explain": "Impossible events have probability 0; certain events have probability 1.", "topic": "uncertainty-and-probability-scale", "level": "easy" },
+    { "q": "Which event is certain when an ordinary die is rolled?", "options": ["Getting a 6", "Getting an even number", "Getting a number less than 7", "Getting a 7"], "answer": 2, "explain": "Every face (1 to 6) is less than 7, so P = 6/6 = 1.", "topic": "uncertainty-and-probability-scale", "level": "easy" },
+    { "q": "A coin is tossed 50 times and shows heads 28 times. The experimental probability of heads is:", "options": ["0.56", "0.5", "0.28", "0.44"], "answer": 0, "explain": "28 ÷ 50 = 0.56.", "topic": "experimental-probability", "level": "easy" },
+    { "q": "As the number of trials of a fair-coin experiment increases, the experimental probability of heads usually:", "options": ["Becomes exactly 0.5 after 100 tosses", "Moves further from 0.5", "Becomes 1", "Gets closer to 0.5"], "answer": 3, "explain": "With more trials, experimental probability tends to approach the theoretical value — though it need not equal it exactly.", "topic": "experimental-probability", "level": "medium" },
+    { "q": "A bag has 3 red and 5 blue marbles. One is picked at random. P(red) is:", "options": ["3/5", "5/8", "3/8", "1/3"], "answer": 2, "explain": "3 favourable out of 3 + 5 = 8 outcomes.", "topic": "theoretical-probability", "level": "easy" },
+    { "q": "A card is drawn from a well-shuffled pack of 52. What is P(king)?", "options": ["1/13", "1/52", "1/4", "4/13"], "answer": 0, "explain": "4 kings out of 52 cards: 4/52 = 1/13.", "topic": "theoretical-probability", "level": "medium" },
+    { "q": "How many outcomes are in the sample space when three coins are tossed?", "options": ["3", "6", "9", "8"], "answer": 3, "explain": "2 × 2 × 2 = 8 (HHH, HHT, HTH, HTT, THH, THT, TTH, TTT).", "topic": "sample-space-and-tree-diagrams", "level": "easy" },
+    { "q": "Two coins are tossed. The probability of getting exactly one head is:", "options": ["⅓", "½", "¼", "¾"], "answer": 1, "explain": "HT and TH are 2 of the 4 outcomes: 2/4 = ½.", "topic": "sample-space-and-tree-diagrams", "level": "medium" },
+    { "q": "Three coins are tossed. The probability of getting exactly two heads is:", "options": ["3/8", "1/4", "1/2", "2/3"], "answer": 0, "explain": "HHT, HTH, THH: 3 out of 8.", "topic": "sample-space-and-tree-diagrams", "level": "hard" },
+    { "q": "If the probability that it rains tomorrow is 0.35, the probability that it does not rain is:", "options": ["0.35", "1.35", "0.25", "0.65"], "answer": 3, "explain": "P(not E) = 1 − 0.35 = 0.65.", "topic": "events-and-complements", "level": "easy" },
+    { "q": "A fair coin has shown heads on the last 5 tosses. The probability of tails on the next toss is:", "options": ["More than ½", "½", "Less than ½", "1"], "answer": 1, "explain": "Tosses are independent; thinking tails is 'due' is the gambler's fallacy.", "topic": "common-probability-errors", "level": "medium" },
+    { "q": "Two dice are rolled. What is the probability that the sum is 7?", "options": ["1/11", "7/36", "1/6", "1/12"], "answer": 2, "explain": "6 of the 36 equally likely pairs give 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1). 6/36 = 1/6. The 11 sums are not equally likely.", "topic": "common-probability-errors", "level": "hard" }
+  ]
+}
