@@ -1,0 +1,14 @@
+Flo includes these open-source libraries, unmodified:
+
+- WebLLM (@mlc-ai/web-llm) v0.2.85 — runs AI models in the browser with WebGPU.
+  Licence: Apache License 2.0 — https://github.com/mlc-ai/web-llm
+  File: web-llm.js
+
+- PDF.js (pdfjs-dist, legacy build) v4.10.38 — reads text from PDF files in the browser.
+  Licence: Apache License 2.0 — https://github.com/mozilla/pdf.js
+  Files: pdf.min.js, pdf.worker.min.js
+
+AI models (downloaded by the learner's browser only if they turn on Smart mode) come from
+the MLC-AI project on Hugging Face and keep their own licences:
+- Llama 3.2 1B and 3B Instruct ("Light" and "Best") — Llama 3.2 Community License (Meta)
+- Qwen2.5 1.5B Instruct ("Standard") — Apache License 2.0 (Alibaba Cloud)
