@@ -1,0 +1,152 @@
+{
+  "id": "c9-sci-force",
+  "class": 9,
+  "subject": "science",
+  "name": "How Forces Affect Motion",
+  "summary": "A force is a push or pull that can change an object's state of motion. This chapter covers balanced and unbalanced forces, friction, Newton's three laws of motion, momentum (p = mv), F = ma, weight (W = mg), impulse (F × t = change in momentum) and how forces act within a system of objects.",
+  "topics": [
+    {
+      "id": "force-basics",
+      "title": "What is a force? Units and measurement",
+      "summary": "A force is a push or a pull; it has both size and direction (a vector), is measured in newtons (1 N = 1 kg·m/s²) and can be measured with a spring balance.",
+      "simple": "A **force** is simply a push or a pull. Kicking a football, pulling a drawer and lifting a bag all use force. A force can start something moving, stop it, speed it up, slow it down, turn it or change its shape. We measure force in **newtons (N)**.",
+      "explain": "A **force** is a push or a pull on an object. We can't see a force, but we can see what it does.\n\nA force can:\n- Make a resting object move\n- Stop a moving object\n- Change the speed of an object\n- Change the direction of motion\n- Change the shape of an object (squeezing a ball of dough)\n\n**Force is a vector.** To describe a force completely you must give its **size (magnitude)** and its **direction**. A 10 N push to the right and a 10 N push to the left have very different effects. Forces are drawn as arrows: the length shows the size and the arrowhead shows the direction.\n\n**SI unit: the newton (N)**, named after Isaac Newton.\n\n**1 N = 1 kg·m/s²** — one newton is the force that gives a 1 kg mass an acceleration of 1 m/s².\n\n**Measuring force:** a **spring balance** (newton meter) has a spring that stretches more when a bigger force pulls on it. A pointer moves along a scale marked in newtons.",
+      "deep": "Forces can be **contact forces** (friction, a push from your hand, the tension in a rope) or **non-contact forces** that act from a distance (the pull of gravity, magnetic force, electrostatic force). A small apple weighs roughly 1 N, which gives a feel for how big one newton is.",
+      "example": "When you hang a school bag from a spring balance, the spring stretches and the pointer shows, say, 40 N. That reading is the force with which the Earth pulls the bag down.",
+      "keyPoints": ["Force = push or pull", "Force can change speed, direction or shape", "Force is a vector: needs size and direction", "SI unit: newton (N)", "1 N = 1 kg·m/s²", "Spring balance measures force"],
+      "keywords": ["force", "what is force", "push", "pull", "newton", "unit of force", "si unit of force", "1 newton", "vector", "spring balance", "newton meter", "contact force", "non-contact force", "effects of force"]
+    },
+    {
+      "id": "balanced-unbalanced",
+      "title": "Balanced and unbalanced forces",
+      "summary": "When forces on an object cancel out (resultant zero) they are balanced and the motion does not change; when they don't cancel, the unbalanced (resultant) force changes the motion.",
+      "simple": "If two teams in a tug of war pull equally hard, the rope doesn't move — the forces are **balanced**. If one team pulls harder, the rope moves towards them — the forces are **unbalanced**. Only an unbalanced force can change how something is moving.",
+      "explain": "Usually many forces act on an object at once. Their combined effect is called the **resultant (net) force**.\n\n**Finding the resultant (forces along one line):**\n- Forces in the **same direction** → **add** them\n- Forces in **opposite directions** → **subtract** the smaller from the bigger; the resultant acts in the direction of the bigger force\n\n**Balanced forces:** the resultant is **zero**. The object's state of motion does not change — a resting object stays at rest, and a moving object keeps moving at the same speed in the same direction. Balanced forces can still change the shape of an object (squeezing a sponge from both sides).\n\n**Unbalanced forces:** the resultant is **not zero**. The object speeds up, slows down or changes direction — in other words, it **accelerates** in the direction of the resultant force.\n\n**Worked example:** Two students push a box to the right with 30 N and 20 N, while a third pushes it to the left with 15 N.\n- Right: 30 + 20 = 50 N\n- Resultant = 50 − 15 = **35 N to the right**\n- The forces are unbalanced, so the box accelerates to the right.",
+      "example": "A book resting on a table: the Earth pulls it down and the table pushes it up with an equal force. The forces are balanced, so the book stays at rest. A car cruising at a steady 60 km/h on a straight road also has balanced forces — the engine's push exactly equals friction and air resistance.",
+      "keyPoints": ["Resultant (net) force = combined effect of all forces", "Same direction → add; opposite direction → subtract", "Balanced: resultant = 0, motion unchanged", "Unbalanced: resultant ≠ 0, object accelerates", "Constant velocity means balanced forces, not 'no forces'"],
+      "keywords": ["balanced forces", "unbalanced forces", "balanced and unbalanced", "resultant force", "net force", "resultant", "tug of war", "adding forces", "combined force", "zero net force"]
+    },
+    {
+      "id": "friction",
+      "title": "Friction",
+      "summary": "Friction is a force that opposes motion between surfaces in contact; it can be reduced (lubricants, ball bearings, smooth surfaces) or increased (treads, grooves, rough surfaces) as needed.",
+      "simple": "**Friction** is the force that tries to stop surfaces from sliding over each other. It is why a ball rolling on grass slows down and stops. Friction is both useful (it lets us walk and brake) and a nuisance (it wears out parts and wastes energy).",
+      "explain": "**Friction** is a force that acts between two surfaces in contact and always **opposes motion** (or the attempt to move). It arises because even surfaces that look smooth have tiny bumps that catch on each other.\n\nFriction depends on:\n- How rough the surfaces are (rougher → more friction)\n- How hard the surfaces are pressed together (heavier object → more friction)\n\n**Friction is useful:** we can walk without slipping, write with a pen, strike a matchstick, hold a glass and stop a bicycle using brakes.\n\n**Friction is a nuisance:** it wears out shoes, tyres and machine parts, and wastes energy as heat.\n\n**Ways to reduce friction:**\n- **Lubricants** such as oil and grease on machine parts and hinges\n- **Ball bearings** in cycle wheels and fans — rolling causes much less friction than sliding\n- Polishing surfaces; streamlined shapes to cut air resistance\n\n**Ways to increase friction:**\n- **Treads** on tyres and grooves on shoe soles for better grip\n- Sprinkling sand on a slippery path\n- Chalk powder on a gymnast's or weightlifter's hands",
+      "example": "A new cycle chain squeaks and is hard to pedal; a few drops of oil (a lubricant) make it smooth. On the other hand, a scooter with worn-out, smooth tyres skids on a wet road because the treads that give grip are gone.",
+      "keyPoints": ["Friction opposes motion between surfaces in contact", "Rougher and more tightly pressed surfaces → more friction", "Reduce: lubricants, ball bearings, polishing", "Increase: treads on tyres, grooved soles, sand", "Rolling friction < sliding friction", "Friction is both useful and harmful"],
+      "keywords": ["friction", "frictional force", "opposes motion", "lubricant", "lubricants", "ball bearings", "treads", "tyre treads", "reduce friction", "increase friction", "rolling friction", "sliding friction", "advantages of friction", "disadvantages of friction"]
+    },
+    {
+      "id": "first-law-inertia",
+      "title": "Newton's first law and inertia",
+      "summary": "An object stays at rest or keeps moving uniformly in a straight line unless an unbalanced force acts on it. This tendency to resist change is inertia, and mass is its measure.",
+      "simple": "Things are 'lazy' about changing their motion. A ball at rest stays at rest until something pushes it, and a moving ball would keep rolling forever if nothing (like friction) stopped it. This laziness is called **inertia**. Heavier things have more inertia.",
+      "explain": "**Newton's first law of motion:** an object remains in its state of rest, or of uniform motion in a straight line, unless an **unbalanced force** acts on it.\n\nThis property of objects — resisting any change in their state of motion — is called **inertia**. That is why the first law is also called the **law of inertia**.\n\n**Three kinds of inertia:**\n1. **Inertia of rest** — an object at rest tends to stay at rest. When a bus starts suddenly, standing passengers fall backwards: their feet move with the bus but their upper body tends to stay at rest.\n2. **Inertia of motion** — a moving object tends to keep moving. When a moving bus brakes suddenly, passengers lurch forward. This is why seat belts are needed.\n3. **Inertia of direction** — a moving object tends to keep moving in the same direction. When a car takes a sharp turn, passengers are pushed towards the outside of the turn. Mud flies off a spinning cycle wheel along a straight line (tangent).\n\n**Mass is a measure of inertia.** The greater the mass, the harder it is to start, stop or turn the object. It is much harder to push a loaded truck than a bicycle, and much harder to stop it once it's moving.",
+      "example": "Place a coin on a card resting on top of a glass. Flick the card away quickly: the card flies off, but the coin drops straight into the glass. The coin's inertia of rest keeps it in place while the card is pulled away.",
+      "keyPoints": ["First law: no unbalanced force → no change in motion", "Inertia = tendency to resist change in state of motion", "Inertia of rest, of motion, of direction", "Mass is the measure of inertia", "Seat belts protect against inertia of motion", "First law is also called the law of inertia"],
+      "keywords": ["newton's first law", "first law of motion", "law of inertia", "inertia", "inertia of rest", "inertia of motion", "inertia of direction", "mass and inertia", "seat belt", "coin and card", "bus brakes", "passengers fall forward"]
+    },
+    {
+      "id": "second-law",
+      "title": "Momentum and Newton's second law (F = ma)",
+      "summary": "Momentum p = mv. The rate of change of momentum is proportional to the applied force, which for constant mass gives F = ma. Weight is the force of gravity, W = mg.",
+      "simple": "**Momentum** tells you how hard it is to stop a moving thing: it equals mass × velocity. A slow truck and a fast bullet both have lots of momentum. Newton's second law says a bigger force changes momentum faster, which leads to the famous formula **F = ma**.",
+      "explain": "**Momentum (p)** is the product of mass and velocity:\n\n**p = m × v**, SI unit **kg·m/s**. Momentum is a vector — it has the same direction as the velocity.\n\n**Newton's second law of motion:** the rate of change of momentum of an object is directly proportional to the unbalanced force applied, and takes place in the direction of the force.\n\nFor an object of constant mass whose velocity changes from u to v in time t:\n- Change in momentum = mv − mu = m(v − u)\n- Rate of change = m(v − u)/t = m × a (since a = (v − u)/t)\n- So **F = m × a** (with SI units the constant of proportionality is 1)\n\nThis tells us: for the same mass, a bigger force gives a bigger acceleration; for the same force, a bigger mass gives a smaller acceleration.\n\n**Weight** is the force with which the Earth pulls an object. It is found using F = ma with a = g:\n\n**W = m × g**, where g ≈ **9.8 m/s²** near the Earth's surface. Weight is a force, measured in **newtons**; mass is measured in kilograms.\n\n**Worked example 1:** a 1,500 kg car accelerates at 2 m/s². F = ma = 1500 × 2 = **3,000 N**.\n\n**Worked example 2:** a 50 kg student has weight W = mg = 50 × 9.8 = **490 N**.",
+      "deep": "**Finding acceleration from a change in velocity:** a 1,000 kg car speeds up from 5 m/s to 25 m/s in 4 s.\n1. a = (v − u)/t = (25 − 5)/4 = 20/4 = 5 m/s²\n2. F = ma = 1000 × 5 = **5,000 N**\n\n**Momentum example:** a 0.15 kg cricket ball moving at 20 m/s has momentum p = 0.15 × 20 = 3 kg·m/s. A 3,000 kg truck crawling at 1 m/s has p = 3,000 kg·m/s — a thousand times more.",
+      "example": "An empty shopping trolley is easy to speed up, but a full one needs a much bigger push for the same acceleration. That's F = ma: more mass needs more force for the same acceleration.",
+      "keyPoints": ["Momentum p = mv, unit kg·m/s, vector", "Force ∝ rate of change of momentum", "F = ma for constant mass", "a = (v − u)/t", "Weight W = mg, g ≈ 9.8 m/s²", "Weight in newtons; mass in kilograms"],
+      "keywords": ["newton's second law", "second law of motion", "f = ma", "f=ma", "force mass acceleration", "momentum", "p = mv", "rate of change of momentum", "weight", "w = mg", "mass and weight", "g = 9.8", "acceleration due to gravity", "kg m/s"]
+    },
+    {
+      "id": "third-law",
+      "title": "Newton's third law: action and reaction",
+      "summary": "To every action there is an equal and opposite reaction. The two forces act on different bodies, so they never cancel each other.",
+      "simple": "Forces always come in pairs. When you push on something, it pushes back on you just as hard, in the opposite direction. When you push the ground backwards with your foot, the ground pushes you forwards — that's how you walk.",
+      "explain": "**Newton's third law of motion:** whenever one object exerts a force on a second object, the second object exerts a force of **equal size** in the **opposite direction** on the first. In short: *to every action there is an equal and opposite reaction.*\n\nImportant features:\n- Action and reaction are **equal in size** and **opposite in direction**\n- They act on **two different bodies**, so they **never cancel** each other\n- They act at the same instant — neither comes first\n\n**Why don't they cancel?** Forces cancel only when they act on the *same* object. Action acts on one body and reaction on the other, so each body can still accelerate.\n\n**Examples:**\n- **Walking:** your foot pushes the ground backwards; the ground pushes you forwards.\n- **Rocket:** the rocket pushes hot gases out downwards; the gases push the rocket upwards (ISRO's launch vehicles work this way).\n- **Gun recoil:** the gun pushes the bullet forwards; the bullet pushes the gun backwards, so the gun 'kicks' back.\n- **Swimming:** a swimmer pushes water backwards; the water pushes the swimmer forwards.\n- **Boat:** when you jump from a boat onto the shore, the boat moves away from the shore.",
+      "example": "When a gun is fired, the forces on the bullet and the gun are equal. But the gun has a much bigger mass, so (by F = ma) its acceleration is much smaller. That's why the bullet shoots off at high speed while the gun only recoils a little.",
+      "keyPoints": ["Every action has an equal and opposite reaction", "Action and reaction act on different bodies", "They never cancel each other", "Walking, swimming, rockets, gun recoil", "Equal forces can give different accelerations (different masses)"],
+      "keywords": ["newton's third law", "third law of motion", "action and reaction", "action reaction", "equal and opposite", "recoil", "gun recoil", "rocket", "walking", "swimming", "why action reaction don't cancel", "boat"]
+    },
+    {
+      "id": "impulse-systems",
+      "title": "Impulse, and forces in a system of objects",
+      "summary": "Impulse = force × time = change in momentum (N·s); spreading a change in momentum over a longer time reduces the force. In a system, internal forces cancel and only external forces accelerate the whole system.",
+      "simple": "To stop a moving ball you must remove its momentum. If you do it slowly (pull your hands back while catching), the force on your hands is small. If you do it suddenly, the force is big and it hurts. And when you push two blocks together, you can treat them as one big block of combined mass.",
+      "explain": "**Impulse** is the product of a force and the time for which it acts:\n\n**Impulse = F × t = change in momentum = m(v − u)**\n\nIts SI unit is the **newton second (N·s)**, which is the same as kg·m/s.\n\nFor a fixed change in momentum, **F = change in momentum ÷ t**. So:\n- **Longer time → smaller force**\n- **Shorter time → larger force**\n\n**Uses:**\n- A fielder **pulls his hands back** while catching a fast cricket ball, increasing the stopping time and reducing the force on his hands.\n- **Airbags** and seat belts make a passenger stop over a longer time in a crash, reducing the force on the body.\n- High jumpers land on thick foam mats; sand pits are used for long jump.\n- A karate expert strikes very quickly so a large force acts for a short time.\n\n**System of objects:** when several objects move together, we can treat them as one **system**. The forces the objects exert on each other are **internal forces**; they come in action–reaction pairs and **cancel out** for the system as a whole. Only **external forces** change the motion of the whole system.\n\nFor two blocks of masses m₁ and m₂ pushed together along a smooth floor by a force F:\n\n**a = F ÷ (m₁ + m₂)**",
+      "deep": "**Worked example (impulse):** a 0.15 kg cricket ball moving at 20 m/s is stopped.\n- Change in momentum = 0.15 × (0 − 20) = −3 kg·m/s (size 3 N·s)\n- If stopped in 0.02 s: F = 3 ÷ 0.02 = **150 N**\n- If the fielder pulls back and stops it in 0.1 s: F = 3 ÷ 0.1 = **30 N** — five times smaller!\n\n**Worked example (system):** a 20 N force pushes a 3 kg block, which pushes a 2 kg block in front of it, on a smooth floor.\n- a = 20 ÷ (3 + 2) = **4 m/s²**\n- The force the 3 kg block exerts on the 2 kg block = 2 × 4 = **8 N** (this is an internal force; the 2 kg block pushes back on the 3 kg block with 8 N).",
+      "example": "Jumping from a height onto a concrete floor hurts, but jumping onto a mattress or sand doesn't. The soft surface takes longer to stop you, so the same change in momentum happens with a much smaller force.",
+      "keyPoints": ["Impulse = F × t = change in momentum", "Unit of impulse: N·s (= kg·m/s)", "Longer stopping time → smaller force", "Catching by pulling hands back, airbags, sand pits", "Internal forces in a system cancel out", "Blocks pushed together: a = F ÷ (m₁ + m₂)"],
+      "keywords": ["impulse", "impulse formula", "f × t", "change in momentum", "newton second", "catching a ball", "fielder pulls hands back", "airbag", "airbags", "seat belt", "system of objects", "internal forces", "external force", "two blocks", "connected bodies"]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "Force", "meaning": "A push or pull that can change an object's state of motion or shape; a vector measured in newtons." },
+    { "term": "Newton (N)", "meaning": "SI unit of force; 1 N is the force that gives 1 kg an acceleration of 1 m/s² (1 N = 1 kg·m/s²)." },
+    { "term": "Resultant force", "meaning": "The single force that has the same effect as all the forces acting on an object together." },
+    { "term": "Balanced forces", "meaning": "Forces whose resultant is zero; they do not change the object's state of motion." },
+    { "term": "Unbalanced force", "meaning": "A non-zero resultant force; it makes the object accelerate." },
+    { "term": "Friction", "meaning": "A force between surfaces in contact that opposes motion." },
+    { "term": "Inertia", "meaning": "The tendency of an object to resist any change in its state of rest or motion; measured by mass." },
+    { "term": "Momentum", "meaning": "Mass × velocity (p = mv); SI unit kg·m/s." },
+    { "term": "Weight", "meaning": "The force with which the Earth pulls an object, W = mg, measured in newtons." },
+    { "term": "Action–reaction pair", "meaning": "Two equal and opposite forces that two bodies exert on each other; they act on different bodies." },
+    { "term": "Impulse", "meaning": "Force × time for which it acts; equal to the change in momentum; unit N·s." },
+    { "term": "Internal force", "meaning": "A force between parts of a system; internal forces cancel in pairs and cannot accelerate the whole system." }
+  ],
+  "formulas": [
+    "1 N = 1 kg·m/s²",
+    "p = m × v (p momentum in kg·m/s, m mass in kg, v velocity in m/s)",
+    "F = m × a (F force in N, m mass in kg, a acceleration in m/s²)",
+    "a = (v − u) ÷ t (v final velocity, u initial velocity, t time)",
+    "F = m(v − u) ÷ t (force = rate of change of momentum)",
+    "W = m × g (W weight in N, g ≈ 9.8 m/s²)",
+    "Impulse = F × t = m(v − u) (unit N·s)",
+    "Two blocks pushed together: a = F ÷ (m₁ + m₂)"
+  ],
+  "commonMistakes": [
+    "Thinking a moving object needs a force to keep moving — it only needs a force to change its motion.",
+    "Thinking constant velocity means no forces act — it means the forces are balanced.",
+    "Saying action and reaction cancel each other — they act on different bodies, so they can't cancel.",
+    "Mixing up mass (kg) and weight (N) — weight is a force, W = mg.",
+    "Forgetting to convert grams to kilograms (e.g. 150 g = 0.15 kg) before using F = ma or p = mv.",
+    "Adding forces that act in opposite directions instead of subtracting them.",
+    "Thinking pulling hands back reduces the change in momentum — it increases the time, which reduces the force."
+  ],
+  "revision": [
+    "Force = push or pull; a vector; SI unit newton (N); 1 N = 1 kg·m/s².",
+    "A spring balance measures force.",
+    "Same direction → add forces; opposite directions → subtract.",
+    "Balanced forces (resultant 0) don't change motion; unbalanced forces cause acceleration.",
+    "Friction opposes motion; lubricants and ball bearings reduce it, treads increase it.",
+    "First law: an object keeps its state of rest or uniform motion unless an unbalanced force acts.",
+    "Inertia of rest, of motion and of direction; mass is the measure of inertia.",
+    "Momentum p = mv, unit kg·m/s.",
+    "Second law: force ∝ rate of change of momentum → F = ma.",
+    "Weight W = mg, g ≈ 9.8 m/s²; weight is measured in newtons.",
+    "Third law: equal and opposite forces acting on different bodies.",
+    "Impulse = F × t = change in momentum; longer time means smaller force (airbags, catching).",
+    "In a system, internal forces cancel; a = F ÷ (m₁ + m₂) for two blocks pushed together."
+  ],
+  "faqs": [
+    { "q": "If action and reaction are equal and opposite, why don't they cancel?", "a": "Forces cancel only when they act on the **same** object. Action and reaction always act on **two different** objects. When a horse pulls a cart, the cart pulls back on the horse, but the cart moves because of the force on *the cart*, and the horse moves because the ground pushes it forward.", "keywords": ["action reaction cancel", "why don't action reaction cancel", "third law doubt"] },
+    { "q": "What is the difference between mass and weight?", "a": "**Mass** is the amount of matter in an object and a measure of its inertia; it is measured in kilograms and is the same everywhere. **Weight** is the force of gravity on the object, W = mg; it is measured in newtons and depends on g. A 50 kg student has a weight of about 50 × 9.8 = 490 N on Earth.", "keywords": ["mass vs weight", "difference between mass and weight", "mass and weight"] },
+    { "q": "Why do passengers fall forward when a bus stops suddenly?", "a": "Because of **inertia of motion**. The bus (and the passengers' feet) stop, but the upper body tends to keep moving forward at the old speed. Seat belts supply the force needed to stop the body safely.", "keywords": ["bus stops suddenly", "passengers fall forward", "inertia example"] },
+    { "q": "Why does a fielder pull his hands back while catching a ball?", "a": "The ball's momentum must be reduced to zero whatever he does. Pulling the hands back **increases the time** taken to stop it. Since F = change in momentum ÷ time, a longer time means a **smaller force** on the hands, so it hurts less.", "keywords": ["catching a ball", "cricket catch", "pull hands back", "impulse example"] },
+    { "q": "What is the difference between balanced and unbalanced forces?", "a": "With **balanced** forces the resultant is zero, so the object's motion doesn't change (it stays at rest or keeps moving at constant velocity). With **unbalanced** forces there is a non-zero resultant, so the object accelerates — it speeds up, slows down or changes direction.", "keywords": ["balanced vs unbalanced", "difference balanced unbalanced"] },
+    { "q": "What is the difference between momentum and impulse?", "a": "**Momentum** (p = mv) is a property of a moving object. **Impulse** (F × t) is what a force does to an object over a time — and it equals the **change** in momentum. Both have units kg·m/s, which is the same as N·s.", "keywords": ["momentum vs impulse", "difference momentum impulse"] }
+  ],
+  "quiz": [
+    { "q": "What is the SI unit of force?", "options": ["Newton", "Joule", "Watt", "Pascal"], "answer": 0, "explain": "Force is measured in newtons (N).", "topic": "force-basics", "level": "easy" },
+    { "q": "1 newton is equal to:", "options": ["1 kg·m/s", "1 kg·m/s²", "1 g·cm/s²", "1 kg/s²"], "answer": 1, "explain": "From F = ma: 1 N = 1 kg × 1 m/s² = 1 kg·m/s².", "topic": "force-basics", "level": "easy" },
+    { "q": "A box is pushed with 12 N towards the east and 5 N towards the west. The resultant force is:", "options": ["17 N east", "7 N west", "5 N east", "7 N east"], "answer": 3, "explain": "Opposite directions, so subtract: 12 − 5 = 7 N, in the direction of the bigger force (east).", "topic": "balanced-unbalanced", "level": "easy" },
+    { "q": "Which of these REDUCES friction?", "options": ["Treads on tyres", "Making surfaces rougher", "Ball bearings and lubricants", "Sprinkling sand on a slippery path"], "answer": 2, "explain": "Ball bearings replace sliding with rolling, and lubricants like oil smooth the contact. The others increase friction.", "topic": "friction", "level": "easy" },
+    { "q": "Passengers in a bus lurch forward when it brakes suddenly. This is due to:", "options": ["Inertia of motion", "Inertia of rest", "Inertia of direction", "Friction"], "answer": 0, "explain": "The body tends to keep moving forward even though the bus has stopped — inertia of motion.", "topic": "first-law-inertia", "level": "easy" },
+    { "q": "Which of these has the greatest inertia?", "options": ["A bicycle", "A bullet", "A football", "A loaded truck"], "answer": 3, "explain": "Mass is the measure of inertia, and the loaded truck has by far the largest mass.", "topic": "first-law-inertia", "level": "easy" },
+    { "q": "What force is needed to give a 1,500 kg car an acceleration of 2 m/s²?", "options": ["750 N", "3,000 N", "1,502 N", "3 N"], "answer": 1, "explain": "F = ma = 1500 × 2 = 3,000 N.", "topic": "second-law", "level": "medium" },
+    { "q": "What is the weight of a 60 kg person on Earth (g = 9.8 m/s²)?", "options": ["60 N", "6.12 N", "588 N", "600 kg"], "answer": 2, "explain": "W = mg = 60 × 9.8 = 588 N. Weight is a force, so it is in newtons.", "topic": "second-law", "level": "medium" },
+    { "q": "Action and reaction forces do not cancel each other because they:", "options": ["Act on different bodies", "Are unequal in size", "Act in the same direction", "Act at different times"], "answer": 0, "explain": "They are equal, opposite and simultaneous, but act on two different bodies, so they can't cancel.", "topic": "third-law", "level": "medium" },
+    { "q": "A fielder pulls his hands back while catching a fast ball in order to:", "options": ["Reduce the change in momentum", "Increase the time of catch and so reduce the force", "Increase the force on the ball", "Increase the ball's momentum"], "answer": 1, "explain": "The change in momentum is fixed; a longer time means a smaller force, since F = change in momentum ÷ t.", "topic": "impulse-systems", "level": "medium" },
+    { "q": "A 0.2 kg ball moving at 15 m/s is stopped in 0.05 s. What average force stops it?", "options": ["3 N", "0.75 N", "150 N", "60 N"], "answer": 3, "explain": "Change in momentum = 0.2 × 15 = 3 kg·m/s. F = 3 ÷ 0.05 = 60 N.", "topic": "impulse-systems", "level": "hard" },
+    { "q": "A 30 N force pushes a 4 kg block and a 2 kg block together along a smooth floor. What is their acceleration?", "options": ["7.5 m/s²", "15 m/s²", "5 m/s²", "180 m/s²"], "answer": 2, "explain": "Treat them as one system: a = F ÷ (m₁ + m₂) = 30 ÷ (4 + 2) = 5 m/s².", "topic": "impulse-systems", "level": "hard" }
+  ]
+}

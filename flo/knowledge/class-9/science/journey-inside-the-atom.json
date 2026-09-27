@@ -1,0 +1,150 @@
+{
+  "id": "c9-sci-atom-structure",
+  "class": 9,
+  "subject": "science",
+  "name": "Journey Inside the Atom",
+  "summary": "Ideas about the atom grew step by step: from Kanada and Democritus, to Dalton's indivisible atoms, Thomson's electron and plum-pudding model, Rutherford's nucleus, Bohr's shells and Chadwick's neutron. An atom has protons and neutrons in a tiny nucleus with electrons in shells. This chapter covers atomic number and mass number, electronic configuration (Bohr–Bury rules), valency, isotopes and their uses, average atomic mass, and isobars.",
+  "topics": [
+    {
+      "id": "early-ideas-thomson",
+      "title": "Early ideas, Dalton, and Thomson's electron",
+      "summary": "Kanada (parmanu) and Democritus (atomos) imagined indivisible particles; Dalton (1808) made atoms scientific but indivisible; Thomson (1897) discovered the electron using cathode rays and proposed the plum-pudding model.",
+      "simple": "Long ago, thinkers in India and Greece guessed that everything is made of tiny particles that can't be cut further. Dalton turned this into a scientific theory. Then Thomson found the **electron**, a tiny negative particle inside the atom — so atoms are not unbreakable after all! He pictured the atom as a positive ball with electrons stuck in it, like seeds in a watermelon.",
+      "explain": "**Ancient ideas:**\n- **Maharishi Kanada** in ancient India proposed that matter is made of extremely small, indivisible particles he called **parmanu**.\n- **Democritus** in ancient Greece called such particles **atomos**, meaning 'uncuttable'.\nThese were ideas based on thinking, not experiments.\n\n**Dalton's atomic theory (1808):** John Dalton proposed that all matter is made of atoms, which are **indivisible** and cannot be created or destroyed; atoms of the same element are identical; and atoms combine in fixed ratios to form compounds.\n\n**Thomson discovers the electron (1897):** J.J. Thomson studied **cathode rays** — rays produced in a glass tube containing gas at very low pressure when a high voltage is applied. He showed these rays are streams of tiny **negatively charged particles**, much lighter than any atom. These were named **electrons**. Because the same particles came from every gas and electrode metal used, electrons must be present in **all atoms** — so atoms are divisible.\n\n**Thomson's plum-pudding model:** since an atom is electrically neutral overall, Thomson suggested:\n- The atom is a sphere of **positive charge** spread evenly throughout\n- Negative electrons are **embedded** in it, like plums in a pudding (or seeds in a watermelon)\n- The total positive and negative charges are equal, so the atom is neutral\n\nThis model was later replaced because it couldn't explain Rutherford's experiment.",
+      "example": "Think of a watermelon: the red flesh is the spread-out positive charge and the black seeds are the electrons scattered through it. That's Thomson's picture of an atom.",
+      "keyPoints": ["Kanada: parmanu; Democritus: atomos (uncuttable)", "Dalton (1808): atoms are indivisible", "Thomson (1897) discovered the electron using cathode rays", "Electrons are negative and present in all atoms", "Plum-pudding model: electrons embedded in a positive sphere", "Atom is neutral overall"],
+      "keywords": ["kanada", "parmanu", "democritus", "atomos", "dalton", "dalton's atomic theory", "thomson", "jj thomson", "electron discovery", "cathode rays", "plum pudding model", "watermelon model", "thomson model", "history of atom"]
+    },
+    {
+      "id": "rutherford",
+      "title": "Rutherford's gold-foil experiment and the nucleus",
+      "summary": "Rutherford (1911) fired alpha particles at thin gold foil: most passed through, a few were deflected and very few bounced back. He concluded that an atom is mostly empty space with a tiny, dense, positive nucleus.",
+      "simple": "Rutherford shot tiny positive particles at a very thin sheet of gold. Almost all went straight through, but a very few bounced right back! This showed that an atom is mostly **empty space**, with nearly all its mass packed into a tiny positive centre called the **nucleus**.",
+      "explain": "**The experiment:** Ernest Rutherford directed a beam of fast-moving **alpha (α) particles** — positively charged, fairly heavy particles — at an extremely thin **gold foil**. A fluorescent screen around the foil showed where the particles went.\n\n**Observations and conclusions:**\n1. **Most α-particles passed straight through** → most of the atom is **empty space**.\n2. **A few were deflected** through small angles → there is a region of **positive charge** in the atom that repels the positive α-particles.\n3. **Very few (about 1 in 20,000) bounced back** → this positive region is **very small and very dense**, containing almost all the mass of the atom.\n\n**Rutherford's nuclear model (1911):**\n- A tiny, dense, positively charged **nucleus** at the centre holds nearly all the mass\n- **Electrons revolve around the nucleus** in circular paths\n- The nucleus is extremely small: about **10⁻¹⁵ m** across, compared with about **10⁻¹⁰ m** for the whole atom — the atom is roughly 1,00,000 times wider than its nucleus\n\n**Limitation:** a charged particle moving in a circle is accelerating, and should continuously **lose energy** by radiation. The revolving electron would then spiral inwards and **fall into the nucleus**, so atoms would be unstable. But atoms are stable, so the model was incomplete.\n\nRutherford later also identified the **proton** as the positively charged particle in the nucleus.",
+      "example": "If an atom were blown up to the size of a cricket stadium, its nucleus would be about the size of a small marble at the centre spot — yet that marble would hold almost all the mass.",
+      "keyPoints": ["Alpha particles fired at thin gold foil", "Most passed through → atom mostly empty space", "Few deflected → positive charge concentrated", "Very few bounced back → tiny, dense nucleus", "Nucleus ~10⁻¹⁵ m; atom ~10⁻¹⁰ m", "Limitation: orbiting electron should lose energy and fall in", "Rutherford identified the proton"],
+      "keywords": ["rutherford", "gold foil experiment", "alpha particle scattering", "alpha particles", "rutherford model", "nuclear model", "nucleus", "discovery of nucleus", "empty space", "limitations of rutherford model", "drawbacks of rutherford model", "proton discovery", "size of nucleus"]
+    },
+    {
+      "id": "bohr-particles",
+      "title": "Bohr's model, the neutron, and the three subatomic particles",
+      "summary": "Bohr (1913) said electrons move only in fixed shells (K, L, M, N) without losing energy. Chadwick (1932) discovered the neutral neutron. Electron: −1, ≈1/1840 u; proton: +1, 1 u; neutron: 0, ≈1 u.",
+      "simple": "Bohr fixed Rutherford's problem by saying electrons can only move in certain fixed paths called **shells**, and they don't lose energy while in them. Later, Chadwick found a particle with no charge in the nucleus, the **neutron**. So an atom has three particles: electrons, protons and neutrons.",
+      "explain": "**Bohr's model (1913):** Niels Bohr kept Rutherford's nucleus but added new rules for electrons:\n- Electrons revolve only in certain **fixed orbits** called **shells** or **energy levels**\n- These shells are named **K, L, M, N…** (or numbered n = 1, 2, 3, 4…) going outwards from the nucleus\n- While an electron stays in a shell, it **does not lose energy**, so it doesn't fall into the nucleus\n- An electron can jump to another shell by absorbing or giving out a definite amount of energy\n\n**Chadwick discovers the neutron (1932):** James Chadwick found a particle in the nucleus with **no charge** and a mass almost equal to that of a proton — the **neutron**. This explained why atoms are heavier than their protons alone would make them.\n\n**The three subatomic particles:**\n- **Electron (e⁻):** charge **−1**, mass about **1/1840** of a proton (almost negligible); found in shells outside the nucleus\n- **Proton (p⁺):** charge **+1**, mass **1 u**; found in the nucleus\n- **Neutron (n):** charge **0**, mass about **1 u**; found in the nucleus (ordinary hydrogen has no neutron)\n\n(u = atomic mass unit.) Protons and neutrons together are called **nucleons**. In a neutral atom, **number of electrons = number of protons**.",
+      "example": "Think of shells like the tiers of seats in a circular stadium around the pitch (the nucleus). A spectator (electron) can sit in row K or row L, but never floats between rows.",
+      "keyPoints": ["Bohr (1913): electrons in fixed shells K, L, M, N", "No energy lost while an electron stays in a shell", "Chadwick (1932) discovered the neutron", "Electron: −1, mass ≈ 1/1840 of a proton", "Proton: +1, 1 u; neutron: 0, ≈1 u", "Protons and neutrons (nucleons) are in the nucleus", "Neutral atom: electrons = protons"],
+      "keywords": ["bohr", "bohr model", "bohr's model", "shells", "energy levels", "orbits", "k l m n shells", "chadwick", "neutron", "discovery of neutron", "subatomic particles", "electron proton neutron", "charge and mass", "nucleons", "atomic mass unit"]
+    },
+    {
+      "id": "atomic-mass-number",
+      "title": "Atomic number and mass number",
+      "summary": "Atomic number Z = number of protons (defines the element). Mass number A = protons + neutrons. Neutrons = A − Z. Notation: A written top-left and Z bottom-left of the symbol.",
+      "simple": "Every element has its own number of protons, called its **atomic number (Z)**. Carbon always has 6, sodium always has 11. Add the neutrons to the protons and you get the **mass number (A)**. To find neutrons, just subtract: A − Z.",
+      "explain": "**Atomic number (Z)** = number of **protons** in the nucleus.\n- Every atom of an element has the same Z; Z identifies the element\n- In a neutral atom, Z also equals the number of electrons\n\n**Mass number (A)** = number of **protons + neutrons** (the nucleons).\n- Electrons are so light that they are ignored\n\nSo, **number of neutrons = A − Z**.\n\n**Notation:** the mass number is written at the **top left** and the atomic number at the **bottom left** of the element's symbol, for example:\n- ²³₁₁Na (sodium: A = 23, Z = 11)\n- ¹²₆C (carbon: A = 12, Z = 6)\n- ³⁵₁₇Cl (chlorine: A = 35, Z = 17)\n\nWe can also write these as Na-23, C-12 and Cl-35.\n\n**Worked example:** find the particles in ²³₁₁Na.\n- Protons = Z = **11**\n- Electrons (neutral atom) = **11**\n- Neutrons = A − Z = 23 − 11 = **12**\n\n**Worked example 2:** an atom has 8 protons and 8 neutrons. Z = 8 (oxygen) and A = 8 + 8 = **16**, written ¹⁶₈O.",
+      "example": "Chlorine-35 (³⁵₁₇Cl) has 17 protons, 17 electrons and 35 − 17 = 18 neutrons.",
+      "keyPoints": ["Atomic number Z = protons", "Z identifies the element", "Mass number A = protons + neutrons", "Neutrons = A − Z", "Neutral atom: electrons = protons = Z", "Notation: A top-left, Z bottom-left, e.g. ²³₁₁Na"],
+      "keywords": ["atomic number", "mass number", "z", "a", "number of neutrons", "find neutrons", "a minus z", "protons neutrons electrons", "nucleons", "atomic notation", "symbol notation", "how to find protons"]
+    },
+    {
+      "id": "electronic-configuration",
+      "title": "Electronic configuration: Bohr–Bury rules",
+      "summary": "A shell n can hold at most 2n² electrons (K 2, L 8, M 18); the outermost shell holds at most 8; shells fill step by step from the inside. Examples: Na 2,8,1; Cl 2,8,7; Ca 2,8,8,2.",
+      "simple": "Electrons fill shells in order, like filling seats row by row starting nearest the stage. The first shell (K) holds 2, the second (L) holds 8. Sodium has 11 electrons, so it's 2 in K, 8 in L and 1 in M: written **2, 8, 1**.",
+      "explain": "The arrangement of electrons in the shells of an atom is its **electronic configuration**. It follows the **Bohr–Bury rules**:\n\n1. The maximum number of electrons in a shell is **2n²**, where n is the shell number:\n- K (n = 1): 2 × 1² = **2**\n- L (n = 2): 2 × 2² = **8**\n- M (n = 3): 2 × 3² = **18**\n- N (n = 4): 2 × 4² = **32**\n2. The **outermost shell** can hold at most **8 electrons**.\n3. Shells fill **step by step** — an inner shell is filled before electrons go into the next one.\n\n**Configurations of the first 20 elements:**\n- H (1): 1; He (2): 2\n- Li (3): 2,1; Be (4): 2,2; B (5): 2,3; C (6): 2,4\n- N (7): 2,5; O (8): 2,6; F (9): 2,7; Ne (10): 2,8\n- Na (11): 2,8,1; Mg (12): 2,8,2; Al (13): 2,8,3; Si (14): 2,8,4\n- P (15): 2,8,5; S (16): 2,8,6; Cl (17): 2,8,7; Ar (18): 2,8,8\n- K (19): 2,8,8,1; Ca (20): 2,8,8,2\n\n**Why is potassium 2,8,8,1 and not 2,8,9?** The M shell could hold 18, but rule 2 says the outermost shell can't have more than 8. So after argon (2,8,8), the 19th electron goes into the N shell.",
+      "example": "Chlorine has 17 electrons: fill K with 2 (15 left), fill L with 8 (7 left), put the remaining 7 in M. Configuration: **2, 8, 7**.",
+      "keyPoints": ["Maximum electrons in shell n = 2n²", "K = 2, L = 8, M = 18, N = 32", "Outermost shell: maximum 8 electrons", "Fill shells step by step from the inside", "Na 2,8,1; Cl 2,8,7; Ar 2,8,8", "K 2,8,8,1; Ca 2,8,8,2"],
+      "keywords": ["electronic configuration", "electron configuration", "electron distribution", "bohr bury rules", "bohr-bury", "2n2", "2n square", "shells capacity", "k l m n", "configuration of first 20 elements", "sodium configuration", "chlorine configuration", "calcium configuration", "potassium 2 8 8 1"]
+    },
+    {
+      "id": "valency",
+      "title": "Valency",
+      "summary": "Valency is the combining capacity of an atom, decided by its outermost (valence) electrons. Atoms tend to reach 8 outer electrons (octet), or 2 for H and He (duplet). Valency = outer electrons if 1–4; otherwise 8 − outer electrons.",
+      "simple": "Atoms are most stable with a full outer shell — usually **8 electrons** (an octet). Atoms gain, lose or share electrons to get there. The number of electrons an atom needs to gain, lose or share to reach this stable state is its **valency**.",
+      "explain": "The electrons in the outermost shell are called **valence electrons**. They decide how an atom combines with others.\n\nNoble gases like neon (2,8) and argon (2,8,8) have a full outer shell of 8 — an **octet** — and hardly react. Helium is stable with just **2** in its only shell — a **duplet**.\n\nOther atoms **lose, gain or share** electrons to reach an octet (or duplet). The number of electrons involved is the atom's **valency** (combining capacity).\n\n**Rule to find valency:**\n- If outer electrons are **1 to 4**: valency = number of outer electrons\n- If outer electrons are **5 to 8**: valency = **8 − outer electrons**\n- Full outer shell (noble gases): valency = **0**\n\n**Examples:**\n- Sodium 2,8,1 → 1 outer electron → valency **1** (loses 1)\n- Magnesium 2,8,2 → valency **2**\n- Carbon 2,4 → valency **4** (shares 4)\n- Nitrogen 2,5 → 8 − 5 = **3**\n- Oxygen 2,6 → 8 − 6 = **2** (gains 2)\n- Chlorine 2,8,7 → 8 − 7 = **1** (gains 1)\n- Hydrogen 1 → valency **1** (needs 1 more for a duplet, or can lose 1)\n- Neon 2,8 → valency **0**",
+      "example": "In common salt (NaCl), sodium (2,8,1) gives its one outer electron to chlorine (2,8,7). Both get a stable octet — sodium becomes 2,8 and chlorine becomes 2,8,8. Each has valency 1, so they combine one to one.",
+      "keyPoints": ["Valence electrons = electrons in outermost shell", "Octet (8) is stable; duplet (2) for H and He", "Valency = outer electrons if 1–4", "Valency = 8 − outer electrons if 5–8", "Noble gases: valency 0", "Na 1, Mg 2, C 4, N 3, O 2, Cl 1"],
+      "keywords": ["valency", "valence electrons", "valence", "combining capacity", "octet", "octet rule", "duplet", "how to find valency", "valency of oxygen", "valency of chlorine", "valency of sodium", "valency of carbon", "noble gases", "stable configuration"]
+    },
+    {
+      "id": "isotopes-isobars",
+      "title": "Isotopes, average atomic mass and isobars",
+      "summary": "Isotopes: same Z, different A (e.g. protium, deuterium, tritium; C-12, C-13, C-14), with uses in energy, medicine and dating. Average atomic mass accounts for isotope abundance (Cl = 35.5 u). Isobars: same A, different Z (Ar-40, K-40, Ca-40).",
+      "simple": "Atoms of the same element always have the same number of protons, but some have a few extra neutrons. These 'siblings' are called **isotopes** — they behave the same chemically but have different masses. Atoms of **different** elements that happen to have the same mass number are called **isobars**.",
+      "explain": "**Isotopes** are atoms of the **same element** with the **same atomic number (Z)** but **different mass numbers (A)** — they differ only in the number of neutrons.\n\n**Hydrogen:**\n- Protium ¹₁H: 1 proton, **0** neutrons\n- Deuterium ²₁H: 1 proton, **1** neutron\n- Tritium ³₁H: 1 proton, **2** neutrons\n\n**Carbon:** ¹²₆C (6 neutrons), ¹³₆C (7 neutrons), ¹⁴₆C (8 neutrons).\n\nIsotopes have the **same electronic configuration**, so the **same chemical properties**, but slightly different **physical properties** (mass, density).\n\n**Uses of isotopes:**\n- **Uranium-235:** fuel in nuclear power reactors\n- **Cobalt-60:** treatment of cancer\n- **Iodine-131:** diagnosis and treatment of thyroid problems\n- **Carbon-14:** finding the age of ancient remains (carbon dating)\n\n**Average atomic mass:** most elements are a mixture of isotopes, so the atomic mass is an average weighted by how common each isotope is. Chlorine is about **75% Cl-35** and **25% Cl-37**:\n- Average = (35 × 75/100) + (37 × 25/100)\n- = 26.25 + 9.25 = **35.5 u**\nThat's why chlorine's atomic mass is a fraction, not a whole number.\n\n**Isobars** are atoms of **different elements** with the **same mass number (A)** but **different atomic numbers (Z)**:\n- ⁴⁰₁₈Ar (18 p, 22 n), ⁴⁰₁₉K (19 p, 21 n), ⁴⁰₂₀Ca (20 p, 20 n)\nThey have different chemical properties because they are different elements.",
+      "example": "Archaeologists use carbon-14 dating to estimate the age of old wood, bones or cloth. Hospitals use cobalt-60 in radiation therapy for cancer, and iodine-131 to treat an overactive thyroid.",
+      "keyPoints": ["Isotopes: same Z, different A (different neutrons)", "Protium (0 n), deuterium (1 n), tritium (2 n)", "Isotopes have the same chemical properties", "Uses: U-235 fuel, Co-60 cancer, I-131 thyroid, C-14 dating", "Average atomic mass of Cl = 35.5 u (75% Cl-35, 25% Cl-37)", "Isobars: same A, different Z (Ar-40, K-40, Ca-40)"],
+      "keywords": ["isotopes", "isotope", "isobars", "isobar", "isotopes vs isobars", "protium", "deuterium", "tritium", "carbon 14", "carbon dating", "uses of isotopes", "cobalt 60", "iodine 131", "uranium 235", "average atomic mass", "chlorine 35.5", "fractional atomic mass"]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "Atom", "meaning": "The smallest particle of an element, made of a nucleus (protons and neutrons) with electrons in shells around it." },
+    { "term": "Electron", "meaning": "Negatively charged particle (−1) with about 1/1840 the mass of a proton; discovered by J.J. Thomson in 1897." },
+    { "term": "Proton", "meaning": "Positively charged particle (+1) of mass 1 u found in the nucleus." },
+    { "term": "Neutron", "meaning": "Uncharged particle of mass about 1 u found in the nucleus; discovered by Chadwick in 1932." },
+    { "term": "Nucleus", "meaning": "The tiny, dense, positively charged centre of an atom that holds almost all its mass (about 10⁻¹⁵ m across)." },
+    { "term": "Shell (energy level)", "meaning": "A fixed orbit around the nucleus (K, L, M, N) in which electrons move without losing energy, according to Bohr." },
+    { "term": "Atomic number (Z)", "meaning": "The number of protons in the nucleus of an atom." },
+    { "term": "Mass number (A)", "meaning": "The total number of protons and neutrons in the nucleus." },
+    { "term": "Electronic configuration", "meaning": "The distribution of an atom's electrons in its shells, e.g. Na 2,8,1." },
+    { "term": "Valence electrons", "meaning": "Electrons in the outermost shell of an atom." },
+    { "term": "Valency", "meaning": "The combining capacity of an atom: the number of electrons it loses, gains or shares to get a stable octet or duplet." },
+    { "term": "Isotopes", "meaning": "Atoms of the same element with the same atomic number but different mass numbers." },
+    { "term": "Isobars", "meaning": "Atoms of different elements with the same mass number but different atomic numbers." },
+    { "term": "Average atomic mass", "meaning": "The mean mass of an element's atoms, weighted by the natural abundance of its isotopes." }
+  ],
+  "formulas": [
+    "Atomic number Z = number of protons (= number of electrons in a neutral atom)",
+    "Mass number A = number of protons + number of neutrons",
+    "Number of neutrons = A − Z",
+    "Maximum electrons in shell n = 2n² (K 2, L 8, M 18, N 32)",
+    "Valency = outer electrons (if 1–4) or 8 − outer electrons (if 5–8)",
+    "Average atomic mass = Σ (mass of isotope × % abundance ÷ 100), e.g. Cl = 35 × 0.75 + 37 × 0.25 = 35.5 u"
+  ],
+  "commonMistakes": [
+    "Adding electrons to the mass number — A counts only protons and neutrons.",
+    "Mixing up isotopes and isobars: isoTOPEs share the same place (same element, same Z); isobars share the same mass (same A).",
+    "Writing potassium as 2,8,9 — the outermost shell can't hold more than 8, so it's 2,8,8,1.",
+    "Taking valency as the number of outer electrons even when it's more than 4 — oxygen (2,6) has valency 2, not 6.",
+    "Thinking Rutherford's model was complete — it couldn't explain why atoms are stable; Bohr's shells fixed this.",
+    "Saying all atoms have neutrons — ordinary hydrogen (protium) has none.",
+    "Thinking isotopes have different chemical properties — they have the same electrons, so they react the same way."
+  ],
+  "revision": [
+    "Kanada called the smallest particles parmanu; Democritus called them atomos.",
+    "Dalton (1808): atoms are indivisible.",
+    "Thomson (1897) discovered the electron with cathode rays; plum-pudding model.",
+    "Rutherford (1911): gold-foil experiment → atom is mostly empty space with a tiny dense positive nucleus.",
+    "Nucleus ≈ 10⁻¹⁵ m; atom ≈ 10⁻¹⁰ m.",
+    "Bohr (1913): electrons in fixed shells K, L, M, N; no energy lost while in a shell.",
+    "Chadwick (1932) discovered the neutron.",
+    "Electron −1 (≈1/1840 u), proton +1 (1 u), neutron 0 (≈1 u).",
+    "Z = protons; A = protons + neutrons; neutrons = A − Z.",
+    "Max 2n² electrons in shell n; outermost shell max 8.",
+    "Na 2,8,1; Cl 2,8,7; Ar 2,8,8; K 2,8,8,1; Ca 2,8,8,2.",
+    "Valency = outer electrons (1–4) or 8 − outer electrons (5–8).",
+    "Isotopes: same Z, different A; isobars: same A, different Z.",
+    "Chlorine's average atomic mass = 35.5 u (75% Cl-35, 25% Cl-37)."
+  ],
+  "faqs": [
+    { "q": "What is the difference between isotopes and isobars?", "a": "**Isotopes** are atoms of the **same element** — same atomic number, different mass numbers (e.g. C-12 and C-14). **Isobars** are atoms of **different elements** — same mass number, different atomic numbers (e.g. Ar-40, K-40, Ca-40). Isotopes have the same chemical properties; isobars don't.", "keywords": ["isotopes vs isobars", "difference isotopes isobars"] },
+    { "q": "What is the difference between atomic number and mass number?", "a": "**Atomic number (Z)** is the number of protons — it tells you which element it is. **Mass number (A)** is protons + neutrons. For ²³₁₁Na, Z = 11 and A = 23, so there are 23 − 11 = 12 neutrons.", "keywords": ["atomic number vs mass number", "difference atomic mass number"] },
+    { "q": "Why did most alpha particles pass straight through the gold foil?", "a": "Because an atom is **mostly empty space**. The nucleus is so tiny (about 10⁻¹⁵ m compared with 10⁻¹⁰ m for the atom) that most α-particles never come near it. Only those heading almost straight at a nucleus were deflected strongly or bounced back.", "keywords": ["alpha particles pass through", "gold foil observation", "rutherford conclusion"] },
+    { "q": "Why is the atomic mass of chlorine 35.5 and not a whole number?", "a": "Natural chlorine is a mixture of two isotopes: about 75% Cl-35 and 25% Cl-37. The average atomic mass is (35 × 0.75) + (37 × 0.25) = 26.25 + 9.25 = **35.5 u**.", "keywords": ["chlorine 35.5", "fractional atomic mass", "average atomic mass"] },
+    { "q": "What was wrong with Rutherford's model, and how did Bohr fix it?", "a": "In Rutherford's model, an electron moving in a circle should keep losing energy and spiral into the nucleus, making atoms unstable. **Bohr** proposed that electrons move only in certain fixed shells (K, L, M, N) where they **do not lose energy**, which explains why atoms are stable.", "keywords": ["limitation of rutherford model", "drawback rutherford", "bohr fixed", "rutherford vs bohr"] },
+    { "q": "How do I find the valency of an element?", "a": "Write its electronic configuration and count the outer electrons. If there are 1–4, that number is the valency; if there are 5–8, valency = 8 − outer electrons. Example: nitrogen (2,5) → 8 − 5 = 3; magnesium (2,8,2) → 2.", "keywords": ["how to find valency", "valency trick", "valency calculation"] }
+  ],
+  "quiz": [
+    { "q": "Who proposed the plum-pudding model of the atom?", "options": ["John Dalton", "J.J. Thomson", "Ernest Rutherford", "Niels Bohr"], "answer": 1, "explain": "Thomson, after discovering the electron, pictured electrons embedded in a sphere of positive charge.", "topic": "early-ideas-thomson", "level": "easy" },
+    { "q": "In Rutherford's experiment, most alpha particles passed straight through the gold foil. This showed that:", "options": ["Most of the atom is empty space", "Atoms are indivisible", "Electrons are positive", "The nucleus is very large"], "answer": 0, "explain": "Since most α-particles met nothing, most of the atom must be empty space.", "topic": "rutherford", "level": "medium" },
+    { "q": "The neutron was discovered by:", "options": ["J.J. Thomson", "Ernest Rutherford", "Niels Bohr", "James Chadwick"], "answer": 3, "explain": "James Chadwick discovered the neutron in 1932.", "topic": "bohr-particles", "level": "easy" },
+    { "q": "An atom has 11 protons and 12 neutrons. What is its mass number?", "options": ["11", "12", "23", "1"], "answer": 2, "explain": "A = protons + neutrons = 11 + 12 = 23 (this is sodium, ²³₁₁Na).", "topic": "atomic-mass-number", "level": "easy" },
+    { "q": "What is the maximum number of electrons the M shell (n = 3) can hold?", "options": ["8", "2", "32", "18"], "answer": 3, "explain": "Maximum = 2n² = 2 × 3² = 18.", "topic": "electronic-configuration", "level": "medium" },
+    { "q": "The electronic configuration of chlorine (Z = 17) is:", "options": ["2, 8, 7", "2, 7, 8", "2, 8, 8", "2, 8, 6, 1"], "answer": 0, "explain": "Fill K with 2, L with 8, and the remaining 7 go into M: 2, 8, 7.", "topic": "electronic-configuration", "level": "medium" },
+    { "q": "Oxygen has the configuration 2, 6. What is its valency?", "options": ["6", "2", "8", "4"], "answer": 1, "explain": "With 6 outer electrons (more than 4), valency = 8 − 6 = 2.", "topic": "valency", "level": "medium" },
+    { "q": "An atom of deuterium contains:", "options": ["1 proton and 0 neutrons", "1 proton and 2 neutrons", "1 proton and 1 neutron", "2 protons and 1 neutron"], "answer": 2, "explain": "Deuterium (²₁H) has Z = 1 and A = 2, so 1 proton and 2 − 1 = 1 neutron.", "topic": "isotopes-isobars", "level": "medium" },
+    { "q": "⁴⁰₁₈Ar, ⁴⁰₁₉K and ⁴⁰₂₀Ca are examples of:", "options": ["Isotopes", "Isobars", "Atoms of the same element", "Noble gases"], "answer": 1, "explain": "They have the same mass number (40) but different atomic numbers, so they are isobars.", "topic": "isotopes-isobars", "level": "medium" },
+    { "q": "Which isotope is used in the treatment of cancer?", "options": ["Carbon-14", "Uranium-235", "Cobalt-60", "Deuterium"], "answer": 2, "explain": "Cobalt-60 is used in radiation therapy for cancer. C-14 is for dating and U-235 is nuclear fuel.", "topic": "isotopes-isobars", "level": "easy" },
+    { "q": "Chlorine is 75% Cl-35 and 25% Cl-37. Its average atomic mass is:", "options": ["35.5 u", "36 u", "35 u", "37 u"], "answer": 0, "explain": "(35 × 0.75) + (37 × 0.25) = 26.25 + 9.25 = 35.5 u.", "topic": "isotopes-isobars", "level": "hard" },
+    { "q": "An element has the electronic configuration 2, 8, 8, 2. Its atomic number and valency are:", "options": ["18 and 2", "20 and 8", "2 and 20", "20 and 2"], "answer": 3, "explain": "Total electrons = 2 + 8 + 8 + 2 = 20, so Z = 20 (calcium). It has 2 outer electrons, so valency = 2.", "topic": "valency", "level": "hard" }
+  ]
+}

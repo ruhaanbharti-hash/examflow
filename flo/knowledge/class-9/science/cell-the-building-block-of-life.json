@@ -1,0 +1,433 @@
+{
+  "id": "c9-sci-cell",
+  "class": 9,
+  "subject": "science",
+  "name": "Cell: The Building Block of Life",
+  "summary": "Cells are the basic structural and functional units of life. We study them with microscopes; every cell has a membrane, cytoplasm and genetic material; eukaryotic cells have a nucleus and organelles with specific jobs; and cells grow and divide by mitosis and meiosis.",
+  "topics": [
+    {
+      "id": "microscopy",
+      "title": "Studying cells: microscopes and cell size",
+      "summary": "Most cells are 10–20 µm across, far below what the eye can resolve (about 0.1 mm), so we use light microscopes (total magnification = objective × eyepiece) and electron microscopes.",
+      "simple": "Your eyes can't see anything smaller than about 0.1 mm clearly, and most cells are 10 times smaller than that. So we use microscopes. In a light microscope, the total magnification is the objective lens power times the eyepiece power — a 40× objective with a 10× eyepiece makes things look 400 times bigger.",
+      "explain": "**Limit of the human eye:** we can't tell apart two points closer than about **0.1 mm (100 µm)**. A typical human cell is only **10–20 µm** across, where 1 mm = 1,000 µm.\n\n**Light microscope:**\n- Objective lenses are usually 10×, 40× or 100×, and the eyepiece is usually 10×\n- **Total magnification = objective × eyepiece** (e.g. 40× × 10× = 400×)\n- Magnification, resolution (seeing detail) and contrast all matter\n\n**Estimating cell size:** cell size ≈ diameter of the field of view (in µm) ÷ number of cells that fit across it.\n\n**Electron microscopes** (TEM and SEM) use beams of electrons instead of light, and can show detail down to nanometres.\n\n**History:** in **1665, Robert Hooke** looked at thin cork slices and saw tiny box-like compartments. He named them **cells**, from the Latin *cella*, meaning a small room.",
+      "example": "If 5 cells fit across a field of view that is 400 µm wide, each cell is about 400 ÷ 5 = 80 µm across.",
+      "keyPoints": [
+        "Eye's limit ≈ 0.1 mm; cells are ~10–20 µm",
+        "Total magnification = objective × eyepiece",
+        "1 mm = 1,000 µm",
+        "Electron microscopes show nanometre detail (TEM, SEM)",
+        "Robert Hooke, 1665, cork — 'cells' from Latin cella"
+      ],
+      "keywords": [
+        "microscope",
+        "microscopes",
+        "light microscope",
+        "electron microscope",
+        "magnification",
+        "total magnification",
+        "resolution",
+        "micrometre",
+        "µm",
+        "cell size",
+        "robert hooke",
+        "hooke",
+        "cork",
+        "tem",
+        "sem"
+      ]
+    },
+    {
+      "id": "membrane",
+      "title": "Cell membrane, cell wall and osmosis",
+      "summary": "The cell membrane is a selectively permeable lipid bilayer with proteins (fluid-mosaic model). Water crosses it by osmosis. Plant cells also have a fully permeable, rigid cellulose cell wall.",
+      "simple": "Every cell has a thin skin called the **cell membrane**. It works like a security guard, letting some things in and keeping others out. Water moves across it from where there is more water to where there is less — that's **osmosis**. Plant cells also have a tough outer **cell wall** made of cellulose.",
+      "explain": "**Cell (plasma) membrane:** found in every cell, about 7–10 nm thick, and **selectively permeable**.\n- **Fluid-mosaic model:** a double layer of lipids (phospholipids with water-loving heads and water-fearing tails), with proteins floating in it. The proteins act as channels, gatekeepers and recognition tags. The molecules can move around, which is why it's called 'fluid'.\n\n**Diffusion** is the movement of any particles from high to low concentration, with or without a membrane.\n**Osmosis** is the movement of **water** across a selectively permeable membrane, from higher water concentration to lower water concentration.\n\nWhat happens to a cell in different solutions:\n- **Hypotonic** (more dilute outside): the cell gains water and swells. Plant cells become firm, or turgid.\n- **Isotonic** (same concentration): no overall change.\n- **Hypertonic** (more concentrated outside): the cell loses water and shrinks. In plant cells the membrane pulls away from the wall — this is **plasmolysis**.\n\n**Cell wall** (plants, fungi, bacteria): a rigid layer outside the membrane. In plants it's made of **cellulose**. It gives shape and protection, and unlike the membrane it is **fully permeable**.",
+      "example": "Raisins placed in water swell up, because water enters them by osmosis. A salted cucumber goes limp, because water leaves its cells.",
+      "keyPoints": [
+        "Membrane: selectively permeable, 7–10 nm, lipid bilayer + proteins (fluid-mosaic)",
+        "Osmosis = water through a selectively permeable membrane, high → low water concentration",
+        "Hypotonic → swells (turgid); isotonic → no change; hypertonic → shrinks (plasmolysis)",
+        "Plant cell wall: cellulose, rigid, fully permeable",
+        "Animal cells have no cell wall"
+      ],
+      "keywords": [
+        "cell membrane",
+        "plasma membrane",
+        "selectively permeable",
+        "fluid mosaic",
+        "lipid bilayer",
+        "osmosis",
+        "diffusion",
+        "hypotonic",
+        "hypertonic",
+        "isotonic",
+        "plasmolysis",
+        "turgid",
+        "turgor",
+        "cell wall",
+        "cellulose"
+      ]
+    },
+    {
+      "id": "organelles",
+      "title": "Nucleus and cell organelles",
+      "summary": "Prokaryotes lack a nucleus (DNA in a nucleoid); eukaryotes have a nucleus and membrane-bound organelles: ER, Golgi, lysosomes, mitochondria, plastids and vacuoles, plus ribosomes and a cytoskeleton.",
+      "simple": "Think of a cell as a factory:\n- **Nucleus** = the office with the instruction book (DNA)\n- **Ribosomes** = protein makers\n- **ER** = workshops and roads\n- **Golgi** = packing and dispatch\n- **Lysosomes** = the cleaning crew ('suicide bags')\n- **Mitochondria** = the power station (makes ATP)\n- **Chloroplasts** = solar kitchens in plant cells\n- **Vacuole** = the storage room",
+      "explain": "**Prokaryotic cells** (bacteria): no membrane-bound nucleus, with their DNA in a **nucleoid** region. They have no membrane-bound organelles, are about 1–10 µm, and are always unicellular.\n**Eukaryotic cells** (plants, animals, fungi): a true nucleus and membrane-bound organelles, about 10–100 µm.\n\n- **Nucleus:** the control centre. It has a double nuclear membrane with pores, a **nucleolus** (makes ribosome parts) and **chromatin**, which condenses into **chromosomes** (DNA + proteins, carrying genes) when the cell divides. Mature human **red blood cells have no nucleus**, leaving more room for haemoglobin. They live about 120 days.\n- **Ribosomes:** make proteins. They float free or sit on the ER.\n- **Endoplasmic reticulum:** **rough ER** (with ribosomes) makes proteins, and **smooth ER** makes lipids and steroid hormones and detoxifies drugs in liver cells.\n- **Golgi apparatus** (Camillo Golgi, 1898): receives, modifies, sorts, packages and ships materials from the ER.\n- **Lysosomes:** sacs of digestive enzymes that digest worn-out parts and germs. They are called **'suicide bags'** because they can digest the cell itself.\n- **Mitochondria:** the **powerhouse of the cell**. They have a double membrane with a folded inner membrane (cristae), carry out cellular respiration to make **ATP** (the energy currency), and have their own DNA and ribosomes.\n- **Plastids** (plants only): **chloroplasts** carry out photosynthesis, **chromoplasts** hold colourful pigments, and **leucoplasts** store starch, oil or protein.\n- **Vacuoles:** plant cells have one large central vacuole (up to about 90% of the cell), full of cell sap, which keeps the cell firm (turgor). Animal cells have small, temporary vacuoles.\n- **Cytoskeleton:** a network of protein fibres that gives support, movement and internal transport.",
+      "deep": "Plant cells have a cell wall, plastids and a large central vacuole; lysosomes are rare and centrioles mostly absent. Animal cells have no cell wall or plastids, only small vacuoles, and they have lysosomes and centrioles. Mitochondria and plastids have their own DNA and ribosomes, which supports the idea (endosymbiotic theory) that they were once free-living organisms.",
+      "example": "Muscle cells, which need lots of energy, contain many mitochondria. Carrots are orange because their cells contain chromoplasts.",
+      "keyPoints": [
+        "Prokaryote: nucleoid, no membrane-bound organelles, 1–10 µm",
+        "Nucleus: double membrane with pores, nucleolus, chromatin → chromosomes",
+        "Mature RBCs have no nucleus (live ~120 days)",
+        "Rough ER → proteins; smooth ER → lipids, detox",
+        "Golgi packages and ships; lysosomes = suicide bags",
+        "Mitochondria make ATP; mitochondria and plastids have own DNA",
+        "Plastids: chloroplasts, chromoplasts, leucoplasts"
+      ],
+      "keywords": [
+        "nucleus",
+        "organelles",
+        "cell organelles",
+        "prokaryotic",
+        "prokaryote",
+        "eukaryotic",
+        "eukaryote",
+        "nucleoid",
+        "nucleolus",
+        "chromatin",
+        "chromosomes",
+        "ribosomes",
+        "endoplasmic reticulum",
+        "rough er",
+        "smooth er",
+        "golgi",
+        "golgi apparatus",
+        "lysosome",
+        "lysosomes",
+        "suicide bags",
+        "mitochondria",
+        "powerhouse",
+        "atp",
+        "plastids",
+        "chloroplast",
+        "chromoplast",
+        "leucoplast",
+        "vacuole",
+        "cytoskeleton",
+        "red blood cell",
+        "plant and animal cell"
+      ]
+    },
+    {
+      "id": "division",
+      "title": "Cell division: mitosis and meiosis",
+      "summary": "Mitosis makes 2 identical cells for growth and repair (chromosome number stays the same); meiosis makes 4 varied cells with half the chromosomes, forming gametes.",
+      "simple": "Cells divide for growth, repair and reproduction. **Mitosis** makes 2 identical copies of a cell — how you grow and heal. **Meiosis** makes 4 cells with half the usual chromosomes — these become sperm, eggs or pollen, and each is a little different.",
+      "explain": "Cells divide for **growth, repair and reproduction**, following a controlled **cell cycle**.\n\n**Mitosis** (growth and repair):\n- 1 parent cell → **2 identical daughter cells**\n- The chromosome number stays the same. In humans, a cell with 46 chromosomes makes two cells with 46 each.\n- Stages: **prophase** (chromatin condenses, nuclear membrane breaks down) → **metaphase** (chromosomes line up at the middle) → **anaphase** (chromosomes pulled to opposite ends) → **telophase** (nuclear membranes re-form) → **cytokinesis** (the cytoplasm splits).\n\n**Meiosis** (making gametes):\n- 1 cell → **4 genetically different cells**, through two divisions\n- The chromosome number **halves** (46 → 23 in humans)\n- **Crossing over** swaps pieces of DNA, creating variation\n- Happens only in reproductive organs: testes and ovaries in animals, anthers and ovaries in plants\n- Mistakes can cause the wrong chromosome number. For example, Down syndrome is caused by an extra chromosome 21.\n\nWhen gametes join at fertilisation, the full chromosome number (46) is restored.",
+      "example": "When you scrape your knee, skin cells near the wound divide by mitosis to make identical new cells and close the gap.",
+      "keyPoints": [
+        "Mitosis: 1 division → 2 identical cells, same chromosome number (46 → 46)",
+        "Mitosis stages: prophase, metaphase, anaphase, telophase, then cytokinesis",
+        "Meiosis: 2 divisions → 4 varied cells, half chromosomes (46 → 23)",
+        "Meiosis makes gametes; crossing over creates variation",
+        "Fertilisation restores the full number"
+      ],
+      "keywords": [
+        "cell division",
+        "mitosis",
+        "meiosis",
+        "cell cycle",
+        "prophase",
+        "metaphase",
+        "anaphase",
+        "telophase",
+        "cytokinesis",
+        "crossing over",
+        "haploid",
+        "diploid",
+        "gametes",
+        "chromosome number",
+        "down syndrome",
+        "mitosis vs meiosis"
+      ]
+    },
+    {
+      "id": "cell-theory",
+      "title": "Cell theory, cancer and totipotency",
+      "summary": "Cell theory: all living things are made of cells, the cell is the basic unit of life, and all cells come from existing cells. Normal cells show contact inhibition and apoptosis; cancer cells divide uncontrollably. Plant cells can be totipotent.",
+      "simple": "**Cell theory** has three ideas: everything alive is made of cells, the cell is the basic unit of life, and new cells only come from old cells. Normal cells stop dividing when they touch their neighbours. **Cancer** happens when cells lose this control and keep dividing.",
+      "explain": "**Cell theory** — built by **Schleiden** (1838, plants), **Schwann** (1839, animals) and **Virchow** (1855, *omnis cellula e cellula*, 'all cells from cells'):\n1. All living organisms are made of one or more cells\n2. The cell is the basic unit of structure and function\n3. All cells come from pre-existing cells\n\n**Controlling cell growth:**\n- **Contact inhibition:** normal animal cells stop dividing when they touch their neighbours.\n- **Apoptosis** (programmed cell death): an orderly self-destruction. For example, it removes the webbing between a baby's fingers during development.\n- **Cancer:** gene mutations make cells divide uncontrollably. **Benign** tumours stay in one place; **malignant** tumours invade, and can spread through blood or lymph — this is **metastasis**.\n\n**Totipotency** (Gottlieb **Haberlandt**, 1902): a single mature plant cell can grow into a whole new plant. This is the basis of **plant tissue culture**, which is used to make disease-free plants and multiply rare species.\n\n**Synthetic biology:** in 2010, **J. Craig Venter's** team put fully lab-made DNA into a bacterial cell, and the cell grew following that DNA's instructions — showing that DNA controls the cell.",
+      "example": "Banana plants are often grown by tissue culture: a few cells from a healthy plant grow into thousands of identical, disease-free plantlets.",
+      "keyPoints": [
+        "Cell theory: Schleiden (1838), Schwann (1839), Virchow (1855)",
+        "All cells come from existing cells (omnis cellula e cellula)",
+        "Contact inhibition stops normal cells dividing",
+        "Apoptosis = programmed cell death",
+        "Cancer = uncontrolled division; metastasis = spread",
+        "Totipotency (Haberlandt 1902) → plant tissue culture"
+      ],
+      "keywords": [
+        "cell theory",
+        "schleiden",
+        "schwann",
+        "virchow",
+        "omnis cellula e cellula",
+        "cancer",
+        "tumour",
+        "tumor",
+        "benign",
+        "malignant",
+        "metastasis",
+        "contact inhibition",
+        "apoptosis",
+        "programmed cell death",
+        "totipotency",
+        "haberlandt",
+        "tissue culture",
+        "synthetic biology",
+        "craig venter"
+      ]
+    }
+  ],
+  "keyConcepts": [
+    {
+      "term": "Osmosis",
+      "meaning": "Movement of water through a selectively permeable membrane from a region of higher water concentration to lower water concentration."
+    },
+    {
+      "term": "Plasmolysis",
+      "meaning": "Shrinking of a plant cell's contents away from its cell wall when it loses water in a hypertonic solution."
+    },
+    {
+      "term": "Mitochondria",
+      "meaning": "The powerhouse of the cell; they carry out cellular respiration and make ATP."
+    },
+    {
+      "term": "Lysosome",
+      "meaning": "A sac of digestive enzymes that cleans up the cell; called the 'suicide bag'."
+    },
+    {
+      "term": "Mitosis",
+      "meaning": "Cell division producing two identical daughter cells with the same chromosome number."
+    },
+    {
+      "term": "Meiosis",
+      "meaning": "Cell division producing four genetically different cells with half the chromosome number (gametes)."
+    },
+    {
+      "term": "Totipotency",
+      "meaning": "The ability of a single plant cell to develop into a complete plant."
+    }
+  ],
+  "formulas": [
+    "Total magnification = objective magnification × eyepiece magnification",
+    "Cell size ≈ field-of-view diameter ÷ number of cells across it",
+    "1 mm = 1,000 µm; 1 µm = 1,000 nm"
+  ],
+  "commonMistakes": [
+    "Saying osmosis is the movement of any substance — it is only water, through a selectively permeable membrane.",
+    "Mixing up mitosis (2 identical cells) and meiosis (4 varied cells with half the chromosomes).",
+    "Thinking the cell wall is selectively permeable — it is fully permeable; the membrane is selective.",
+    "Forgetting that mature red blood cells have no nucleus."
+  ],
+  "revision": [
+    "Eye's limit ≈ 0.1 mm; cells ≈ 10–20 µm; magnification = objective × eyepiece.",
+    "Hooke (1665) named cells after seeing cork.",
+    "Membrane: selectively permeable, fluid-mosaic model.",
+    "Hypotonic → swells; hypertonic → shrinks (plasmolysis in plants).",
+    "Prokaryotes: nucleoid, no membrane-bound organelles.",
+    "Mitochondria = powerhouse (ATP); lysosomes = suicide bags; Golgi = packaging.",
+    "Mitosis: 2 identical cells (46 → 46). Meiosis: 4 varied gametes (46 → 23).",
+    "Cell theory: Schleiden, Schwann, Virchow — all cells come from cells.",
+    "Cancer = uncontrolled division; totipotency → plant tissue culture."
+  ],
+  "faqs": [
+    {
+      "q": "What is the difference between mitosis and meiosis?",
+      "a": "**Mitosis** has one division and makes **2 identical cells** with the same chromosome number — for growth and repair. **Meiosis** has two divisions and makes **4 genetically different cells** with **half** the chromosomes — these are gametes for sexual reproduction.",
+      "keywords": [
+        "mitosis vs meiosis",
+        "difference mitosis meiosis"
+      ]
+    },
+    {
+      "q": "Why are lysosomes called suicide bags?",
+      "a": "They contain powerful digestive enzymes. If the cell is badly damaged, lysosomes can burst and digest the cell itself.",
+      "keywords": [
+        "lysosomes suicide bags"
+      ]
+    },
+    {
+      "q": "Why do mature red blood cells have no nucleus?",
+      "a": "Without a nucleus there is more room for **haemoglobin**, so each red blood cell can carry more oxygen. The trade-off is that they can't repair or divide, so they live only about 120 days.",
+      "keywords": [
+        "red blood cell nucleus",
+        "rbc no nucleus",
+        "enucleate"
+      ]
+    },
+    {
+      "q": "What is the difference between osmosis and diffusion?",
+      "a": "**Diffusion** is the movement of any particles from higher to lower concentration, with or without a membrane. **Osmosis** is only the movement of **water** across a **selectively permeable membrane**.",
+      "keywords": [
+        "osmosis vs diffusion",
+        "difference osmosis diffusion"
+      ]
+    },
+    {
+      "q": "How do you calculate total magnification of a microscope?",
+      "a": "Multiply the objective lens magnification by the eyepiece magnification. A 40× objective with a 10× eyepiece gives **400×**.",
+      "keywords": [
+        "total magnification",
+        "calculate magnification"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "A microscope has a 40× objective and a 10× eyepiece. What is the total magnification?",
+      "options": [
+        "400×",
+        "50×",
+        "4×",
+        "4000×"
+      ],
+      "answer": 0,
+      "explain": "40 × 10 = 400×.",
+      "topic": "microscopy",
+      "level": "easy"
+    },
+    {
+      "q": "Who first used the word 'cell', after observing cork?",
+      "options": [
+        "Robert Brown",
+        "Robert Hooke",
+        "Rudolf Virchow",
+        "Camillo Golgi"
+      ],
+      "answer": 1,
+      "explain": "Robert Hooke, in 1665.",
+      "topic": "microscopy",
+      "level": "easy"
+    },
+    {
+      "q": "A plant cell placed in a hypertonic solution will:",
+      "options": [
+        "Swell and burst",
+        "Stay the same",
+        "Lose water and show plasmolysis",
+        "Gain a second wall"
+      ],
+      "answer": 2,
+      "explain": "Water leaves the cell and the membrane pulls away from the wall.",
+      "topic": "membrane",
+      "level": "medium"
+    },
+    {
+      "q": "Which organelle makes ATP?",
+      "options": [
+        "Golgi apparatus",
+        "Lysosome",
+        "Vacuole",
+        "Mitochondria"
+      ],
+      "answer": 3,
+      "explain": "Mitochondria carry out cellular respiration and make ATP.",
+      "topic": "organelles",
+      "level": "easy"
+    },
+    {
+      "q": "In prokaryotic cells, the DNA is found in the:",
+      "options": [
+        "Nucleoid",
+        "Nucleus",
+        "Nucleolus",
+        "Golgi"
+      ],
+      "answer": 0,
+      "explain": "Prokaryotes have no membrane-bound nucleus; the DNA is in the nucleoid region.",
+      "topic": "organelles",
+      "level": "medium"
+    },
+    {
+      "q": "Which organelles contain their own DNA and ribosomes?",
+      "options": [
+        "Golgi and ER",
+        "Mitochondria and plastids",
+        "Lysosomes and vacuoles",
+        "Ribosomes and nucleolus"
+      ],
+      "answer": 1,
+      "explain": "Mitochondria and plastids have their own DNA and ribosomes.",
+      "topic": "organelles",
+      "level": "hard"
+    },
+    {
+      "q": "A human cell with 46 chromosomes divides by meiosis. Each daughter cell has:",
+      "options": [
+        "46 chromosomes",
+        "92 chromosomes",
+        "23 chromosomes",
+        "12 chromosomes"
+      ],
+      "answer": 2,
+      "explain": "Meiosis halves the chromosome number.",
+      "topic": "division",
+      "level": "medium"
+    },
+    {
+      "q": "How many daughter cells does mitosis produce?",
+      "options": [
+        "1",
+        "4",
+        "8",
+        "2"
+      ],
+      "answer": 3,
+      "explain": "Mitosis gives two identical daughter cells.",
+      "topic": "division",
+      "level": "easy"
+    },
+    {
+      "q": "'All cells arise from pre-existing cells' was stated by:",
+      "options": [
+        "Virchow",
+        "Schleiden",
+        "Schwann",
+        "Hooke"
+      ],
+      "answer": 0,
+      "explain": "Rudolf Virchow, 1855 — omnis cellula e cellula.",
+      "topic": "cell-theory",
+      "level": "medium"
+    },
+    {
+      "q": "The ability of a single plant cell to grow into a whole plant is called:",
+      "options": [
+        "Apoptosis",
+        "Totipotency",
+        "Metastasis",
+        "Plasmolysis"
+      ],
+      "answer": 1,
+      "explain": "Totipotency is the basis of plant tissue culture.",
+      "topic": "cell-theory",
+      "level": "medium"
+    },
+    {
+      "q": "Cancer cells differ from normal cells because they:",
+      "options": [
+        "Show contact inhibition",
+        "Have no DNA",
+        "Divide uncontrollably",
+        "Cannot divide"
+      ],
+      "answer": 2,
+      "explain": "They lose contact inhibition and keep dividing.",
+      "topic": "cell-theory",
+      "level": "easy"
+    }
+  ]
+}

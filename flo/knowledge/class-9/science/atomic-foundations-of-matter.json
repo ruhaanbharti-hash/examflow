@@ -1,0 +1,149 @@
+{
+  "id": "c9-sci-atoms",
+  "class": 9,
+  "subject": "science",
+  "name": "Atomic Foundations of Matter",
+  "summary": "Matter follows two laws of chemical combination — conservation of mass and constant proportions — which Dalton explained with his atomic theory. Atoms bond to reach a stable outer shell: covalent bonds form by sharing electrons, ionic bonds by transferring them. We write formulas by criss-crossing valencies, compare ionic and covalent substances, and calculate molecular and formula unit masses.",
+  "topics": [
+    {
+      "id": "laws-of-combination",
+      "title": "Laws of chemical combination",
+      "summary": "Law of conservation of mass: mass is neither created nor destroyed in a chemical change (Lavoisier). Law of constant proportions: a pure compound always has its elements in the same ratio by mass (Proust).",
+      "simple": "When substances mix or react in a closed container, the total mass never changes — nothing is lost or gained, it is only rearranged. Also, a pure compound always has the same recipe: pure water always has hydrogen and oxygen in the mass ratio 1 : 8, whether it comes from a river in Kerala or a lab in Delhi.",
+      "explain": "**1. Law of conservation of mass** (Antoine **Lavoisier**, 1789)\nIn a chemical reaction, mass can neither be created nor destroyed. The total mass of the products equals the total mass of the reactants.\n- This holds only in a **closed system**, where nothing (like a gas) can escape or enter.\n- Physical changes follow it too: dissolve **5 g of salt in 50 g of water** and you get **55 g of solution**.\n- If a reaction gives off a gas in an open container, the mass seems to drop — but only because the gas escaped. Seal the container and the mass stays the same.\n\n**2. Law of constant proportions** (Joseph **Proust**)\nA pure chemical compound always contains the same elements combined in the **same fixed proportion by mass**, no matter where it comes from or how it was made.\n- **Water:** hydrogen : oxygen = **1 : 8** by mass. So 9 g of water always has 1 g hydrogen and 8 g oxygen.\n- **Sodium chloride (common salt):** sodium : chlorine = **23 : 35.5** by mass.\n\nThese two laws were discovered by careful weighing. They were the clues that led John Dalton to suggest that matter is made of atoms.",
+      "example": "Heating 100 g of calcium carbonate (limestone) in a closed system gives 56 g of calcium oxide (quicklime) and 44 g of carbon dioxide gas.\n\nMass of reactants = 100 g\nMass of products = 56 g + 44 g = 100 g\n\nThe mass is conserved. In an open container the CO₂ would escape and only 56 g of solid would be left — which looks like a loss, but isn't.",
+      "keyPoints": ["Conservation of mass: total mass before = total mass after (Lavoisier, 1789)", "Works only in a closed system — escaping gas makes mass look lost", "5 g salt + 50 g water → 55 g solution", "Constant proportions: fixed ratio by mass in a pure compound (Proust)", "Water H : O = 1 : 8 by mass", "NaCl Na : Cl = 23 : 35.5 by mass"],
+      "keywords": ["law of conservation of mass", "conservation of mass", "lavoisier", "law of constant proportions", "law of definite proportions", "constant proportion", "proust", "laws of chemical combination", "closed system", "mass ratio", "water 1:8", "ratio by mass"]
+    },
+    {
+      "id": "dalton-atomic-theory",
+      "title": "Dalton's atomic theory and its modern changes",
+      "summary": "Dalton said matter is made of tiny indivisible atoms that combine in fixed whole-number ratios; today we know atoms contain smaller particles and that isotopes and isobars exist.",
+      "simple": "John Dalton said everything is made of tiny balls called **atoms** that can't be broken, and atoms join in simple fixed numbers to make compounds. His idea explained both laws of chemical combination. Later scientists found that atoms *can* be broken into smaller particles, and that atoms of the same element can have different masses.",
+      "explain": "**Postulates of Dalton's atomic theory** (early 1800s):\n1. All matter is made of very tiny particles called **atoms**.\n2. Atoms are **indivisible** — they cannot be created or destroyed in a chemical reaction. *(This explains conservation of mass.)*\n3. All atoms of a given element are **identical** in mass and properties.\n4. Atoms of different elements have different masses and properties.\n5. Atoms combine in **small whole-number ratios** to form compounds.\n6. In a given compound, the relative number and kinds of atoms are always the same. *(This explains constant proportions.)*\n\n**Modern modifications:**\n- **Atoms are divisible.** They are made of even smaller particles — **electrons, protons and neutrons**. But in a chemical reaction, atoms are still not created or destroyed; they are only rearranged.\n- **Isotopes:** atoms of the **same element** can have **different masses**. Isotopes have the same atomic number but different mass numbers — e.g. carbon-12 and carbon-14, or chlorine-35 and chlorine-37. So not all atoms of an element are identical in mass.\n- **Isobars:** atoms of **different elements** can have the **same mass number** — e.g. calcium-40 and argon-40. So different elements don't always have different masses.\n\nDespite these changes, Dalton's theory was a huge step: it gave chemistry a particle picture that explained the laws of chemical combination.",
+      "example": "Chlorine gas contains two kinds of chlorine atoms: chlorine-35 and chlorine-37. Both behave the same chemically (same atomic number, 17), but one is heavier. This breaks Dalton's idea that all atoms of an element are identical in mass.",
+      "keyPoints": ["Dalton: matter is made of tiny indivisible atoms", "Atoms are not created or destroyed in reactions → conservation of mass", "Atoms combine in small whole-number ratios → constant proportions", "Modern view: atoms contain electrons, protons, neutrons", "Isotopes: same element, same atomic number, different mass number", "Isobars: different elements, same mass number (Ca-40, Ar-40)"],
+      "keywords": ["dalton", "dalton's atomic theory", "atomic theory", "postulates", "atom", "indivisible", "isotopes", "isobars", "mass number", "atomic number", "modern atomic theory", "drawbacks of dalton", "limitations of dalton theory"]
+    },
+    {
+      "id": "covalent-bonds",
+      "title": "Why atoms bond: covalent bonds by sharing",
+      "summary": "Atoms bond to get a stable outer shell of 8 electrons (octet) or 2 for hydrogen (duplet). Non-metal atoms reach this by sharing electron pairs — single, double or triple covalent bonds.",
+      "simple": "Noble gases like neon and argon hardly ever react because their outer shell is full — 8 electrons (helium has 2). Other atoms 'want' the same stable arrangement. Two non-metal atoms can get there by **sharing** electrons: each shared pair is one **covalent bond**. Share one pair → single bond, two pairs → double bond, three pairs → triple bond.",
+      "explain": "**Why atoms bond — the octet and duplet rule**\nNoble gases (He, Ne, Ar) are stable because their outermost shell is full: **8 electrons** (an **octet**), or **2** for helium (a **duplet**). Other atoms combine so that each atom ends up with a similar stable arrangement. Hydrogen needs a duplet (2 electrons); most others need an octet.\n\n**Covalent bond:** a bond formed by **sharing a pair of electrons** between two atoms. It usually forms between **non-metals**. Each atom gives one electron to each shared pair.\n\n- **Single bond** (1 shared pair, drawn as —): **H₂** (H—H), **Cl₂** (Cl—Cl), **HCl** (H—Cl)\n- **Double bond** (2 shared pairs, =): **O₂** (O=O). Oxygen (2,6) needs 2 more electrons, so two O atoms share two pairs.\n- **Triple bond** (3 shared pairs, ≡): **N₂** (N≡N). Nitrogen (2,5) needs 3 more.\n\nMore molecules:\n- **H₂O:** oxygen forms 2 single bonds, one with each H\n- **NH₃ (ammonia):** nitrogen forms 3 single bonds with 3 H atoms\n- **CH₄ (methane):** carbon (2,4) forms 4 single bonds with 4 H atoms\n- **CO₂:** carbon forms a double bond with each oxygen — **O=C=O**\n\n**Naming covalent compounds with prefixes:** mono = 1, di = 2, tri = 3, tetra = 4. The prefix tells how many atoms there are.\n- CO₂ → **carbon dioxide** (2 oxygens)\n- CO → carbon monoxide (1 oxygen)\n- CCl₄ → **carbon tetrachloride** (4 chlorines)\nThe second element's name ends in **-ide**.",
+      "example": "Methane (CH₄), the main gas in CNG and biogas: carbon has 4 outer electrons and needs 4 more. It shares one electron pair with each of 4 hydrogen atoms. Now carbon has 8 outer electrons (octet) and each hydrogen has 2 (duplet) — everyone is stable.",
+      "keyPoints": ["Atoms bond to get a stable octet (8) or duplet (2 for H)", "Covalent bond = shared electron pair, usually between non-metals", "Single: H₂, Cl₂, HCl; double: O₂; triple: N₂", "CO₂ is O=C=O (two double bonds)", "H₂O: 2 bonds; NH₃: 3 bonds; CH₄: 4 bonds", "Prefixes: mono 1, di 2, tri 3, tetra 4 (carbon dioxide, carbon tetrachloride)"],
+      "keywords": ["covalent bond", "covalent bonding", "sharing electrons", "octet rule", "duplet", "octet", "single bond", "double bond", "triple bond", "electron dot structure", "lewis structure", "why atoms bond", "chemical bond", "naming covalent compounds", "prefixes", "carbon tetrachloride"]
+    },
+    {
+      "id": "ionic-bonds",
+      "title": "Ionic bonds by transfer; ions",
+      "summary": "A metal atom gives electrons to a non-metal atom, forming a positive cation and a negative anion that attract each other. NaCl forms a crystal lattice where each ion has 6 oppositely charged neighbours.",
+      "simple": "Sodium has 1 extra electron in its outer shell and chlorine is 1 short. So sodium simply **gives** its electron to chlorine. Sodium becomes Na⁺ and chlorine becomes Cl⁻. Opposite charges attract strongly, and that pull is the **ionic bond**. Billions of these ions stack in a neat 3-D pattern to make a salt crystal.",
+      "explain": "**Ionic bond:** formed by the **transfer** of electrons from one atom (usually a **metal**) to another (usually a **non-metal**), followed by the attraction between the oppositely charged ions.\n\n**Example — sodium chloride:**\n- **Na** (2, 8, 1) loses its 1 outer electron → **Na⁺** (2, 8) — a stable octet\n- **Cl** (2, 8, 7) gains that electron → **Cl⁻** (2, 8, 8) — a stable octet\n- Na⁺ and Cl⁻ attract each other strongly → ionic bond\n\n**Ions:**\n- **Cation:** positively charged ion (lost electrons), e.g. Na⁺, K⁺, Mg²⁺, Ca²⁺, Al³⁺, H⁺\n- **Anion:** negatively charged ion (gained electrons), e.g. Cl⁻, O²⁻, S²⁻\n\n**Crystal lattice:** solid NaCl doesn't exist as separate 'molecules'. Ions are arranged in a repeating 3-D pattern in which **each Na⁺ is surrounded by 6 Cl⁻ ions, and each Cl⁻ by 6 Na⁺ ions**. So we talk of a **formula unit** of NaCl (the simplest ratio, 1 : 1), not a molecule.\n\n**Polyatomic ions** — a group of atoms that carries a charge as one unit:\n- **Ammonium** NH₄⁺\n- **Hydroxide** OH⁻\n- **Nitrate** NO₃⁻\n- **Carbonate** CO₃²⁻\n- **Sulphate** SO₄²⁻\n- **Phosphate** PO₄³⁻",
+      "deep": "The charge on an ion equals the number of electrons lost (+) or gained (−). Magnesium (2, 8, 2) loses 2 electrons → Mg²⁺; oxygen (2, 6) gains 2 → O²⁻. So in MgO, two electrons move from Mg to O. Ammonium (NH₄⁺) is the common positive polyatomic ion; most others are negative.",
+      "example": "The table salt in your kitchen is a crystal lattice of Na⁺ and Cl⁻ ions. The tiny cube shape of salt grains comes from this cube-like arrangement, where every ion has 6 neighbours of opposite charge.",
+      "keyPoints": ["Ionic bond = electron transfer (metal → non-metal) + attraction of opposite ions", "Na (2,8,1) → Na⁺ (2,8); Cl (2,8,7) → Cl⁻ (2,8,8)", "Cation = positive ion; anion = negative ion", "NaCl lattice: each ion has 6 oppositely charged neighbours", "Ionic solids have formula units, not molecules", "Polyatomic ions: NH₄⁺, OH⁻, NO₃⁻, CO₃²⁻, SO₄²⁻, PO₄³⁻"],
+      "keywords": ["ionic bond", "ionic bonding", "electrovalent bond", "electron transfer", "ions", "cation", "anion", "crystal lattice", "sodium chloride", "nacl", "polyatomic ions", "ammonium", "hydroxide", "nitrate", "carbonate", "sulphate", "sulfate", "phosphate"]
+    },
+    {
+      "id": "writing-formulas",
+      "title": "Writing chemical formulas (criss-cross method)",
+      "summary": "Valency is an atom's combining capacity. To write a formula, write the symbols, put valencies below, criss-cross them as subscripts and simplify; brackets go around polyatomic ions when more than one is needed.",
+      "simple": "**Valency** is how many bonds an atom (or ion) can make — hydrogen 1, oxygen 2, aluminium 3, carbon 4. To write a formula, swap the valencies: each element's valency becomes the small number under the other element. Aluminium (3) and oxygen (2) give Al₂O₃.",
+      "explain": "**Valency** = the combining capacity of an element. For ions, it equals the size of the charge (Na⁺ → 1, Ca²⁺ → 2, Al³⁺ → 3, SO₄²⁻ → 2).\n\nCommon valencies: H 1, Cl 1, Na 1, O 2, S 2, Mg 2, Ca 2, N 3, Al 3, C 4.\n\n**Criss-cross method — steps:**\n1. Write the symbols (positive part first).\n2. Write each valency below its symbol.\n3. Criss-cross: each valency becomes the subscript of the **other** symbol.\n4. Simplify to the lowest ratio and leave out any subscript of 1.\n5. If a polyatomic ion needs a subscript bigger than 1, put it in **brackets**.\n\n**Examples:**\n- H (1) + Cl (1) → **HCl**\n- H (1) + S (2) → **H₂S**\n- C (4) + Cl (1) → **CCl₄**\n- Ca (2) + Cl (1) → **CaCl₂**\n- Mg (2) + O (2) → Mg₂O₂ → simplify → **MgO**\n- Al (3) + O (2) → **Al₂O₃**\n- Ca (2) + CO₃ (2) → Ca₂(CO₃)₂ → simplify → **CaCO₃**\n- Ca (2) + NO₃ (1) → **Ca(NO₃)₂** (brackets, because there are two nitrate ions)\n\n**Check:** total positive charge = total negative charge. In Al₂O₃: 2 × (+3) = +6 and 3 × (−2) = −6. ✔",
+      "example": "Formula of aluminium sulphate: Al³⁺ (valency 3) and SO₄²⁻ (valency 2). Criss-cross → Al₂(SO₄)₃. Check: 2 × (+3) = +6; 3 × (−2) = −6. Balanced.",
+      "keyPoints": ["Valency = combining capacity (= charge size for ions)", "Criss-cross valencies to get subscripts", "Simplify the ratio: Mg₂O₂ → MgO; Ca₂(CO₃)₂ → CaCO₃", "Brackets around a polyatomic ion used more than once: Ca(NO₃)₂", "Total positive charge must equal total negative charge"],
+      "keywords": ["chemical formula", "writing formulas", "criss cross method", "criss-cross", "valency", "valencies", "combining capacity", "formula of compounds", "al2o3", "cacl2", "caco3", "ca(no3)2", "subscript"]
+    },
+    {
+      "id": "ionic-vs-covalent",
+      "title": "Properties of ionic and covalent compounds",
+      "summary": "Ionic compounds have high melting points, usually dissolve in water and conduct electricity when molten or dissolved; covalent compounds usually have low melting points and often don't conduct.",
+      "simple": "Ionic compounds like salt are made of charged ions held very tightly, so they are hard solids that melt only at very high temperatures. When melted or dissolved in water, the ions can move, so they conduct electricity. Covalent compounds like sugar, wax or water are made of separate molecules that are only weakly attracted to each other, so they melt or boil easily and usually don't conduct.",
+      "explain": "**Ionic compounds** (e.g. NaCl, MgO, CaCl₂):\n- Usually **hard, crystalline solids**\n- **High melting and boiling points** — lots of energy is needed to break the strong attraction between ions (NaCl melts at about 801 °C)\n- Generally **soluble in water**, usually not in kerosene or petrol\n- **Do not conduct as solids** (ions are locked in the lattice)\n- **Conduct electricity when molten or dissolved in water**, because the ions are then free to move\n\n**Covalent compounds** (e.g. H₂O, CH₄, CO₂, sugar, wax):\n- Made of separate molecules; the forces **between** molecules are weak\n- Often gases, liquids or soft solids\n- **Usually low melting and boiling points**\n- Many don't dissolve in water (but some, like sugar, do)\n- **Often do not conduct electricity** — there are no free ions\n\nThe difference comes from what has to be pulled apart. Melting salt means breaking strong ionic attractions throughout the lattice. Melting wax only means separating molecules from each other; the covalent bonds *inside* each molecule stay intact.",
+      "example": "Dissolve salt in water and connect it into a circuit with a bulb — the bulb glows because Na⁺ and Cl⁻ ions carry the current. Try the same with sugar solution and the bulb stays off, since sugar is covalent and gives no ions.",
+      "keyPoints": ["Ionic: high melting points, hard crystals", "Ionic: usually soluble in water", "Ionic: conduct when molten or dissolved, not as solids", "Covalent: usually low melting and boiling points", "Covalent: often don't conduct (no free ions)", "Salt solution conducts; sugar solution doesn't"],
+      "keywords": ["properties of ionic compounds", "properties of covalent compounds", "ionic vs covalent", "difference between ionic and covalent", "melting point", "boiling point", "conductivity", "conduct electricity", "solubility", "molten", "aqueous solution"]
+    },
+    {
+      "id": "molecular-mass",
+      "title": "Molecular mass and formula unit mass",
+      "summary": "Molecular mass = sum of the atomic masses of all atoms in a molecule (H₂O = 18 u). For ionic compounds we use formula unit mass (NaCl = 58.5 u). Units: u (atomic mass unit).",
+      "simple": "To find how heavy a molecule is, add up the masses of all its atoms. Water (H₂O) has 2 hydrogens (1 u each) and 1 oxygen (16 u), so 2 + 16 = 18 u. For ionic compounds like salt, which have no real molecules, we do the same sum for one formula unit and call it the **formula unit mass**.",
+      "explain": "**Atomic masses to use:** H = 1 u, C = 12 u, N = 14 u, O = 16 u, Na = 23 u, Mg = 24 u, Al = 27 u, Cl = 35.5 u, Ca = 40 u. (u = atomic mass unit.)\n\n**Molecular mass** (covalent substances) = sum of the atomic masses of all the atoms in one molecule.\n- **H₂O** = 2 × 1 + 16 = **18 u**\n- **CO₂** = 12 + 2 × 16 = 12 + 32 = **44 u**\n- **CH₄** = 12 + 4 × 1 = **16 u**\n- **HNO₃** = 1 + 14 + 3 × 16 = 1 + 14 + 48 = **63 u**\n\n**Formula unit mass** (ionic compounds) = sum of the atomic masses of all the atoms in one formula unit. It is calculated exactly the same way.\n- **NaCl** = 23 + 35.5 = **58.5 u**\n- **Na₂O** = 2 × 23 + 16 = 46 + 16 = **62 u**\n- **Mg(OH)₂** = 24 + 2 × (16 + 1) = 24 + 34 = **58 u**\n- **Al₂O₃** = 2 × 27 + 3 × 16 = 54 + 48 = **102 u**\n- **Ca(NO₃)₂** = 40 + 2 × (14 + 3 × 16) = 40 + 2 × 62 = 40 + 124 = **164 u**\n\n**Steps:**\n1. Count the atoms of each element (a subscript outside brackets multiplies everything inside).\n2. Multiply each count by that element's atomic mass.\n3. Add them up and write the unit **u**.",
+      "example": "Formula unit mass of calcium carbonate, CaCO₃:\n\nCa: 1 × 40 = 40\nC: 1 × 12 = 12\nO: 3 × 16 = 48\n\nTotal = 40 + 12 + 48 = **100 u**",
+      "keyPoints": ["Molecular mass = sum of atomic masses in a molecule", "Formula unit mass = same sum, used for ionic compounds", "H₂O 18 u, CO₂ 44 u, CH₄ 16 u, HNO₃ 63 u", "NaCl 58.5 u, Na₂O 62 u, Mg(OH)₂ 58 u, Al₂O₃ 102 u, Ca(NO₃)₂ 164 u", "A subscript outside brackets multiplies everything inside", "Unit: u (atomic mass unit)"],
+      "keywords": ["molecular mass", "formula unit mass", "atomic mass", "atomic mass unit", "u", "amu", "calculate molecular mass","mass of h2o", "mass of co2", "relative molecular mass", "formula mass"]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "Law of conservation of mass", "meaning": "In a chemical reaction mass is neither created nor destroyed; total mass of products equals total mass of reactants (in a closed system)." },
+    { "term": "Law of constant proportions", "meaning": "A pure compound always contains the same elements in the same fixed ratio by mass (e.g. water H : O = 1 : 8)." },
+    { "term": "Isotopes", "meaning": "Atoms of the same element with the same atomic number but different mass numbers (e.g. Cl-35 and Cl-37)." },
+    { "term": "Isobars", "meaning": "Atoms of different elements with the same mass number (e.g. Ca-40 and Ar-40)." },
+    { "term": "Octet rule", "meaning": "Atoms tend to combine so that they have 8 electrons in their outermost shell (2 for hydrogen — the duplet)." },
+    { "term": "Covalent bond", "meaning": "A bond formed by sharing one or more pairs of electrons between two atoms, usually non-metals." },
+    { "term": "Ionic bond", "meaning": "A bond formed by transfer of electrons from a metal to a non-metal, followed by attraction between the oppositely charged ions." },
+    { "term": "Cation", "meaning": "A positively charged ion formed when an atom loses electrons (e.g. Na⁺, Ca²⁺)." },
+    { "term": "Anion", "meaning": "A negatively charged ion formed when an atom gains electrons (e.g. Cl⁻, O²⁻)." },
+    { "term": "Polyatomic ion", "meaning": "A group of atoms carrying a charge as a single unit (e.g. NH₄⁺, SO₄²⁻, NO₃⁻)." },
+    { "term": "Valency", "meaning": "The combining capacity of an element or ion." },
+    { "term": "Molecular mass", "meaning": "The sum of the atomic masses of all the atoms in a molecule, in u." },
+    { "term": "Formula unit mass", "meaning": "The sum of the atomic masses of all the atoms in one formula unit of an ionic compound, in u." }
+  ],
+  "formulas": [
+    "Mass of reactants = mass of products (closed system)",
+    "Molecular mass = Σ (number of atoms × atomic mass) for all atoms in the molecule",
+    "Formula unit mass = Σ (number of atoms × atomic mass) for one formula unit of an ionic compound",
+    "Atomic masses: H 1, C 12, N 14, O 16, Na 23, Mg 24, Al 27, Cl 35.5, Ca 40 (u)"
+  ],
+  "commonMistakes": [
+    "Saying mass is lost when a gas escapes from an open container — mass is conserved; the gas simply left the system.",
+    "Writing CO₂ with single bonds — it is O=C=O, with two double bonds.",
+    "Forgetting brackets around polyatomic ions: write Ca(NO₃)₂, not CaNO₃₂.",
+    "Not simplifying after criss-cross: Mg₂O₂ should be MgO.",
+    "Multiplying only the last atom by a subscript outside brackets — in Ca(NO₃)₂ the 2 multiplies both N and O₃.",
+    "Calling NaCl a molecule — ionic compounds form lattices, so we use formula unit mass.",
+    "Thinking solid ionic compounds conduct electricity — they conduct only when molten or dissolved.",
+    "Mixing up isotopes (same element, different mass number) and isobars (different elements, same mass number)."
+  ],
+  "revision": [
+    "Conservation of mass (Lavoisier, 1789): mass before = mass after, in a closed system.",
+    "5 g salt + 50 g water → 55 g solution.",
+    "Constant proportions (Proust): water H : O = 1 : 8; NaCl Na : Cl = 23 : 35.5 by mass.",
+    "Dalton: atoms are indivisible and combine in small whole-number ratios.",
+    "Modern view: atoms are divisible; isotopes (same Z, different A) and isobars (same A, different Z) exist.",
+    "Atoms bond to get an octet (8) or duplet (2 for H).",
+    "Covalent = sharing: single H₂, Cl₂, HCl; double O₂; triple N₂; CO₂ is O=C=O.",
+    "Prefixes: mono 1, di 2, tri 3, tetra 4 — carbon dioxide, carbon tetrachloride.",
+    "Ionic = transfer: Na (2,8,1) → Na⁺; Cl (2,8,7) → Cl⁻.",
+    "NaCl lattice: each ion has 6 oppositely charged neighbours.",
+    "Criss-cross valencies: Al₂O₃, CaCl₂, Ca(NO₃)₂; simplify Mg₂O₂ → MgO.",
+    "Ionic: high melting points, soluble in water, conduct when molten or dissolved.",
+    "Covalent: usually low melting points, often non-conducting.",
+    "H₂O 18 u, CO₂ 44 u, HNO₃ 63 u; NaCl 58.5 u, Al₂O₃ 102 u, Ca(NO₃)₂ 164 u."
+  ],
+  "faqs": [
+    { "q": "What is the difference between an ionic bond and a covalent bond?", "a": "An **ionic bond** forms when electrons are **transferred** from one atom (usually a metal) to another (usually a non-metal), making ions that attract each other — e.g. NaCl. A **covalent bond** forms when two atoms (usually non-metals) **share** pairs of electrons — e.g. H₂, H₂O, CH₄.", "keywords": ["ionic vs covalent bond", "difference ionic covalent", "ionic and covalent bond"] },
+    { "q": "What is the difference between molecular mass and formula unit mass?", "a": "Both are found by adding up atomic masses. **Molecular mass** is used for substances made of molecules (covalent), like H₂O = 18 u. **Formula unit mass** is used for ionic compounds, which form lattices instead of molecules, like NaCl = 58.5 u.", "keywords": ["molecular mass vs formula unit mass", "formula unit mass", "difference molecular mass"] },
+    { "q": "Why do ionic compounds conduct electricity only when molten or dissolved?", "a": "Electricity needs moving charged particles. In solid NaCl the ions are fixed in the lattice and can't move. When it melts or dissolves in water, the ions become free to move and carry the current.", "keywords": ["ionic compounds conduct", "why salt solution conducts", "conductivity ionic"] },
+    { "q": "What is the difference between isotopes and isobars?", "a": "**Isotopes** are atoms of the **same element** with the same atomic number but different mass numbers (Cl-35 and Cl-37). **Isobars** are atoms of **different elements** with the same mass number (Ca-40 and Ar-40).", "keywords": ["isotopes vs isobars", "difference isotopes isobars"] },
+    { "q": "Why does mass seem to decrease when some reactions happen in an open beaker?", "a": "Because a gas is produced and escapes into the air. The mass hasn't been destroyed — it has just left the container. In a closed (sealed) system, the total mass stays exactly the same.", "keywords": ["mass decrease open container", "conservation of mass gas escapes", "closed system"] },
+    { "q": "How do I write the formula of calcium nitrate?", "a": "Ca²⁺ has valency 2 and NO₃⁻ has valency 1. Criss-cross: Ca gets 1, NO₃ gets 2. Because nitrate is a polyatomic ion used twice, put it in brackets: **Ca(NO₃)₂**.", "keywords": ["formula calcium nitrate", "criss cross", "writing formula polyatomic"] }
+  ],
+  "quiz": [
+    { "q": "5 g of salt is dissolved in 50 g of water. The mass of the solution is:", "options": ["55 g", "50 g", "45 g", "Less than 50 g"], "answer": 0, "explain": "Mass is conserved: 5 g + 50 g = 55 g.", "topic": "laws-of-combination", "level": "easy" },
+    { "q": "In pure water, the ratio of hydrogen to oxygen by mass is:", "options": ["2 : 1", "1 : 8", "1 : 16", "8 : 1"], "answer": 1, "explain": "2 H atoms (2 × 1 = 2) and 1 O atom (16) give 2 : 16 = 1 : 8 — the law of constant proportions.", "topic": "laws-of-combination", "level": "medium" },
+    { "q": "Which postulate of Dalton's theory was changed by the discovery of isotopes?", "options": ["Atoms combine in whole-number ratios", "Matter is made of atoms", "All atoms of an element have identical mass", "Atoms of different elements differ"], "answer": 2, "explain": "Isotopes are atoms of the same element with different masses, so not all atoms of an element are identical in mass.", "topic": "dalton-atomic-theory", "level": "medium" },
+    { "q": "Calcium-40 and argon-40 are examples of:", "options": ["Isotopes", "Allotropes", "Ions", "Isobars"], "answer": 3, "explain": "They are different elements with the same mass number (40), so they are isobars.", "topic": "dalton-atomic-theory", "level": "medium" },
+    { "q": "Which molecule contains a triple bond?", "options": ["O₂", "N₂", "Cl₂", "CH₄"], "answer": 1, "explain": "Nitrogen (2,5) needs 3 electrons, so two N atoms share three pairs: N≡N.", "topic": "covalent-bonds", "level": "easy" },
+    { "q": "How many double bonds are there in a molecule of CO₂?", "options": ["0", "1", "3", "2"], "answer": 3, "explain": "CO₂ is O=C=O — carbon forms a double bond with each oxygen.", "topic": "covalent-bonds", "level": "medium" },
+    { "q": "When a sodium atom (2, 8, 1) forms an ion, it:", "options": ["Loses 1 electron to form Na⁺", "Gains 1 electron to form Na⁻", "Gains 7 electrons", "Shares 1 electron"], "answer": 0, "explain": "Sodium loses its single outer electron to get the stable 2, 8 arrangement, becoming Na⁺.", "topic": "ionic-bonds", "level": "easy" },
+    { "q": "In a sodium chloride crystal, each Na⁺ ion is surrounded by how many Cl⁻ ions?", "options": ["2", "4", "6", "8"], "answer": 2, "explain": "In the NaCl lattice each ion has 6 oppositely charged neighbours.", "topic": "ionic-bonds", "level": "medium" },
+    { "q": "The correct formula of aluminium oxide is:", "options": ["AlO", "Al₃O₂", "AlO₃", "Al₂O₃"], "answer": 3, "explain": "Al has valency 3 and O has valency 2. Criss-cross gives Al₂O₃ (2 × +3 = +6; 3 × −2 = −6).", "topic": "writing-formulas", "level": "easy" },
+    { "q": "Which property is typical of ionic compounds?", "options": ["Low melting point", "Conduct electricity when dissolved in water", "Conduct electricity as solids", "Mostly gases at room temperature"], "answer": 1, "explain": "Dissolved (or molten) ionic compounds have free-moving ions, so they conduct. Solids don't, and they have high melting points.", "topic": "ionic-vs-covalent", "level": "medium" },
+    { "q": "What is the molecular mass of HNO₃? (H = 1, N = 14, O = 16)", "options": ["31 u", "47 u", "63 u", "62 u"], "answer": 2, "explain": "1 + 14 + 3 × 16 = 1 + 14 + 48 = 63 u.", "topic": "molecular-mass", "level": "medium" },
+    { "q": "What is the formula unit mass of Ca(NO₃)₂? (Ca = 40, N = 14, O = 16)", "options": ["164 u", "102 u", "116 u", "132 u"], "answer": 0, "explain": "40 + 2 × (14 + 48) = 40 + 2 × 62 = 40 + 124 = 164 u. The 2 multiplies everything in the brackets.", "topic": "molecular-mass", "level": "hard" }
+  ]
+}

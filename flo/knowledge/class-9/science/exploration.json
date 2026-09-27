@@ -1,0 +1,367 @@
+{
+  "id": "c9-sci-exploration",
+  "class": 9,
+  "subject": "science",
+  "name": "Exploration: Entering the World of Secondary Science",
+  "summary": "This chapter is about how science works: scientists build simplified models, use a precise shared language (SI units, symbols, mathematics), organise knowledge into laws, theories and principles, make testable predictions, estimate before calculating, and connect ideas across subjects.",
+  "topics": [
+    {
+      "id": "models",
+      "title": "Scientific models",
+      "summary": "A scientific model is a simplified picture of a real system that keeps only the features that matter for the question being asked.",
+      "simple": "The real world is too complicated to study all at once, so scientists make simpler versions of it called **models**. A map is a good example: it leaves out every tree and pothole but still gets you where you want to go. A model is useful because of what it leaves out.",
+      "explain": "A **scientific model** is a simplified representation of a real system. It focuses only on the features that matter for the question being asked.\n\nBuilding a model means making two decisions:\n- **What to include:** the features that affect the answer\n- **What to ignore:** details that don't change the answer much\n\nExamples from different branches:\n- **Physics:** treating a moving car as a single point (a 'point mass')\n- **Chemistry:** showing atoms as coloured balls joined by sticks\n- **Biology:** a labelled cell diagram\n- **Earth science:** the Earth as a smooth, layered sphere\n\nModels can have **levels of complexity**. A cricket ball's flight can be modelled simply (ignore air), or in more detail (include air resistance and spin). You start simple and add detail only when you need it. The Indian astrophysicist **Meghnad Saha** made progress on starlight by treating the matter in stars as a simple hot gas.",
+      "example": "A road map is a model of a city. It shows roads and landmarks but leaves out every tree, pothole and parked car. That's exactly why it's useful for finding your way.",
+      "keyPoints": [
+        "Model = simplified representation of a real system",
+        "Two decisions: what to include, what to ignore",
+        "Simplifying is a strength, not a weakness",
+        "Add complexity only when needed (levels of complexity)",
+        "Examples: car as a point, ball-and-stick atoms, cell diagrams"
+      ],
+      "keywords": [
+        "model",
+        "models",
+        "scientific model",
+        "simplification",
+        "simplify",
+        "point mass",
+        "meghnad saha",
+        "map analogy",
+        "assumption",
+        "levels of complexity"
+      ]
+    },
+    {
+      "id": "language",
+      "title": "The language of science: SI units, symbols and mathematics",
+      "summary": "Science uses agreed words, symbols and SI units so everyone understands each other exactly, and uses mathematics as a precise language for relationships.",
+      "simple": "Scientists all over the world need to understand each other exactly, so they use the same units (the **SI units**, like metre and kilogram) and the same symbols. Maths is also part of this language: an equation is a short, exact way to say how two quantities are related.",
+      "explain": "Everyday words can be vague, so science uses precise, agreed terms.\n\n**SI units** (International System of Units) are used worldwide:\n- Length: metre (m)\n- Mass: kilogram (kg)\n- Time: second (s)\n- Force: newton (N)\n- Electric current: ampere (A)\n- Temperature: kelvin (K)\n\nMixing units can be dangerous. In a real aviation incident, a mix-up between pounds and kilograms while calculating fuel left a plane with far less fuel than needed mid-flight.\n\n**Symbols** are standard too. For example, *c* stands for the speed of light (from the Latin *celeritas*, meaning swiftness), which is defined as exactly 299,792,458 m/s.\n\n**Mathematics** is a language for thinking in science. A good way to use it:\n1. Understand the situation\n2. Identify the quantities you can measure\n3. Find how they are related\n4. Use the relationship to reason\n5. Check the answer makes sense (sensible size, correct units)",
+      "example": "If one engineer measures in centimetres and another in inches without saying so, their parts won't fit together. Agreeing on SI units avoids that kind of costly mistake.",
+      "keyPoints": [
+        "SI units are the international standard",
+        "Mass kg, length m, time s, force N, current A, temperature K",
+        "Never mix unit systems",
+        "Symbols are standard (c = speed of light)",
+        "Equations are compact, precise statements of relationships",
+        "Always check the size and units of an answer"
+      ],
+      "keywords": [
+        "si units",
+        "si unit",
+        "units",
+        "international system of units",
+        "symbols",
+        "language of science",
+        "mathematics in science",
+        "kilogram",
+        "metre",
+        "kelvin",
+        "ampere",
+        "newton",
+        "speed of light",
+        "celeritas"
+      ]
+    },
+    {
+      "id": "laws-theories",
+      "title": "Laws, theories and principles",
+      "summary": "A law describes WHAT happens (a regular pattern); a theory explains WHY it happens, based on evidence; a principle is a broad idea that applies in many situations. No scientific idea is ever final.",
+      "simple": "A **law** tells you *what* happens, again and again. A **theory** explains *why* it happens, and is backed by lots of evidence — it is not a guess. A **principle** is a big idea that works in many situations. Science keeps improving these when new evidence appears.",
+      "explain": "- **Scientific law:** describes a regular pattern observed in nature, often as a mathematical relationship. It tells us *what* happens, based on repeated observation, but doesn't explain *why*. Example: Newton's laws of motion.\n- **Scientific theory:** a well-tested explanation of *why* patterns occur, built from observations, experiments and tested hypotheses. Example: atomic theory. In everyday language 'theory' means a guess, but in science it means one of the strongest kinds of explanation.\n- **Scientific principle:** a broad, fundamental idea that applies across many situations. Example: the principle of conservation of energy — energy cannot be created or destroyed, only changed from one form to another.\n\n**Are scientific ideas ever final?** No. Every idea stays open to revision if new evidence appears. This ability to correct itself is science's greatest strength.",
+      "example": "Newton's laws describe how a ball moves when kicked (a law). Atomic theory explains why substances react the way they do (a theory). Conservation of energy applies to a swinging pendulum, a power station and your body (a principle).",
+      "keyPoints": [
+        "Law = WHAT happens (pattern)",
+        "Theory = WHY it happens (tested explanation, not a guess)",
+        "Principle = broad idea used in many situations",
+        "Example law: Newton's laws; theory: atomic theory; principle: conservation of energy",
+        "Scientific ideas can always be revised with new evidence"
+      ],
+      "keywords": [
+        "law",
+        "laws",
+        "theory",
+        "theories",
+        "principle",
+        "principles",
+        "scientific law",
+        "scientific theory",
+        "law vs theory",
+        "difference law theory",
+        "conservation of energy",
+        "revision of ideas",
+        "self correcting"
+      ]
+    },
+    {
+      "id": "predictions",
+      "title": "Predictions and evaluating claims",
+      "summary": "A scientific prediction is a reasoned, testable expectation based on laws, models and evidence — unlike a guess. When predictions fail, scientists check their assumptions and improve their understanding. The same habits help us test everyday claims.",
+      "simple": "A **prediction** is an expectation based on evidence and reasoning, and you can test it. A **guess** is based on a feeling. If a prediction turns out wrong, that's useful — it tells scientists something in their model needs fixing.",
+      "explain": "A **scientific prediction** is a reasoned expectation about what will happen, based on laws, theories, models and evidence.\n\nPrediction vs guess:\n- **Based on:** a prediction uses evidence, data, models and laws; a guess uses feeling or chance\n- **Testable:** a prediction can be tested; a guess often can't\n- **Revisable:** a prediction is updated with new evidence; a guess isn't\n\n**When predictions go wrong**, scientists check their assumptions, check whether the model is good enough, look for missed evidence, and revise their understanding.\n\nWeather forecasts are good for a few days but less certain further ahead, because tiny differences in starting conditions grow over time.\n\n**Evaluating claims:** turn casual statements into testable questions. For example, to test the claim that food cooked during an eclipse becomes harmful, ask what physical change would happen, whether temperature changes, and whether any mechanism could cause harm. There is no scientific basis for the claim. This habit protects you from misinformation.",
+      "example": "Saying 'dark clouds mean rain' is casual. A scientific version asks: Is humidity above about 80%? Has the temperature dropped? Which way is the wind blowing? Those questions can be measured and tested.",
+      "keyPoints": [
+        "Prediction = reasoned, evidence-based, testable expectation",
+        "Guess = based on feeling; not reliable",
+        "Wrong predictions lead to better understanding",
+        "Weather forecasts get less certain further ahead",
+        "Turn everyday claims into testable questions"
+      ],
+      "keywords": [
+        "prediction",
+        "predictions",
+        "guess",
+        "prediction vs guess",
+        "evaluate claims",
+        "claims",
+        "misinformation",
+        "weather forecast",
+        "eclipse food",
+        "testable",
+        "hypothesis"
+      ]
+    },
+    {
+      "id": "estimation",
+      "title": "Estimation and science as a connected web",
+      "summary": "Estimation is making a reasonable approximate calculation to understand scale and check answers. Real problems like climate change need physics, chemistry, biology, earth science and maths together.",
+      "simple": "**Estimation** means working out a rough answer by breaking a problem into simple steps. It helps you spot silly mistakes. And real-world problems don't stay inside one subject — understanding climate change needs physics, chemistry, biology and maths together.",
+      "explain": "**Estimation** is a reasonable approximate calculation. It builds a sense of scale, catches errors, and helps when exact data isn't available.\n\nHow to estimate:\n1. Decide what you need to find\n2. Break it into manageable parts\n3. Make sensible assumptions\n4. Calculate step by step\n5. Check the answer is reasonable\n\n**Worked example — air breathed in a day:** about 15 breaths a minute × 1,440 minutes ≈ 21,600 breaths ≈ 20,000. At about 0.5 litre per breath, that's roughly **10,000 litres of air a day**.\n\nAn approximate answer is good enough for sense-checks and quick decisions. Exact answers are needed for medicine doses, engineering and spacecraft navigation.\n\n**Science is an interconnected web.** Dividing science into branches is a human convenience; nature doesn't respect those boundaries. Climate change, how a face mask works, and how a pressure cooker cooks food all need several branches at once.",
+      "example": "A pressure cooker involves physics (pressure raises the boiling point of water), chemistry (heat speeds up cooking reactions), biology (heat kills microbes) and maths (time and temperature calculations).",
+      "keyPoints": [
+        "Estimation = reasonable approximate calculation",
+        "Steps: define, break down, assume, calculate, check",
+        "We breathe roughly 10,000 litres of air a day",
+        "Exact values needed for medicine, engineering, navigation",
+        "Branches of science are human-made divisions; real problems need them together"
+      ],
+      "keywords": [
+        "estimation",
+        "estimate",
+        "approximate",
+        "approximation",
+        "air breathed",
+        "interdisciplinary",
+        "interconnected",
+        "branches of science",
+        "pressure cooker",
+        "climate change",
+        "mask",
+        "scientific thinking",
+        "habits"
+      ]
+    }
+  ],
+  "keyConcepts": [
+    {
+      "term": "Scientific model",
+      "meaning": "A simplified representation of a real system that keeps only the features relevant to the question being asked."
+    },
+    {
+      "term": "SI units",
+      "meaning": "The International System of Units used by scientists worldwide, e.g. kilogram, metre, second."
+    },
+    {
+      "term": "Scientific law",
+      "meaning": "A statement describing a regular, observed pattern in nature — what happens."
+    },
+    {
+      "term": "Scientific theory",
+      "meaning": "A well-tested, evidence-based explanation of why a pattern occurs."
+    },
+    {
+      "term": "Scientific prediction",
+      "meaning": "A reasoned, testable expectation based on laws, theories, models and evidence."
+    },
+    {
+      "term": "Estimation",
+      "meaning": "Making a reasonable approximate calculation to understand scale or check an answer."
+    }
+  ],
+  "formulas": [
+    "SI units: mass kg, length m, time s, force N, current A, temperature K",
+    "Speed of light c = 299,792,458 m/s"
+  ],
+  "commonMistakes": [
+    "Thinking a 'theory' is just a guess — in science it's a well-tested explanation.",
+    "Thinking a law explains why — a law describes what happens; a theory explains why.",
+    "Mixing units (e.g. pounds and kilograms) in one calculation.",
+    "Believing scientific ideas are final — they can be revised with new evidence."
+  ],
+  "revision": [
+    "A model simplifies reality by choosing what to include and what to ignore.",
+    "SI units: kg, m, s, N, A, K — never mix unit systems.",
+    "Law = what happens; theory = why it happens; principle = broad idea.",
+    "Conservation of energy: energy can't be created or destroyed, only transformed.",
+    "A prediction is evidence-based and testable; a guess is not.",
+    "Estimate by breaking a problem into simple parts; check the answer makes sense.",
+    "Real problems (climate change, masks, pressure cookers) need many branches of science together."
+  ],
+  "faqs": [
+    {
+      "q": "What is the difference between a scientific law and a theory?",
+      "a": "A **law** describes *what* happens — a regular pattern seen again and again, like Newton's laws of motion. A **theory** explains *why* it happens, using lots of tested evidence, like atomic theory. A theory is not a guess; in science it's one of the strongest kinds of explanation.",
+      "keywords": [
+        "law vs theory",
+        "difference law theory"
+      ]
+    },
+    {
+      "q": "Why do scientists use models?",
+      "a": "Because the real world is too complex to study in full. A model keeps only the features that matter for the question and ignores the rest, which makes hard problems solvable. More detail can be added later if needed.",
+      "keywords": [
+        "why models",
+        "use of models"
+      ]
+    },
+    {
+      "q": "Why are SI units important?",
+      "a": "They let scientists and engineers everywhere understand measurements the same way. Mixing units causes errors — in one real incident, confusing pounds with kilograms left a plane short of fuel mid-flight.",
+      "keywords": [
+        "why si units",
+        "importance of units"
+      ]
+    },
+    {
+      "q": "What is the difference between a prediction and a guess?",
+      "a": "A **prediction** is based on evidence, laws and models, and it can be tested and revised. A **guess** is based on intuition or chance and isn't reliable.",
+      "keywords": [
+        "prediction vs guess",
+        "difference prediction guess"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "A scientific model is best described as:",
+      "options": [
+        "A simplified representation that keeps the important features",
+        "An exact copy of reality",
+        "A wild guess",
+        "A law of nature"
+      ],
+      "answer": 0,
+      "explain": "Models deliberately simplify, keeping only what matters for the question.",
+      "topic": "models",
+      "level": "easy"
+    },
+    {
+      "q": "What is the SI unit of temperature?",
+      "options": [
+        "Degree Celsius",
+        "Kelvin",
+        "Fahrenheit",
+        "Joule"
+      ],
+      "answer": 1,
+      "explain": "The kelvin (K) is the SI unit of temperature.",
+      "topic": "language",
+      "level": "easy"
+    },
+    {
+      "q": "Which statement is TRUE?",
+      "options": [
+        "A theory is just a guess",
+        "A law explains why something happens",
+        "A theory explains why a pattern occurs, based on evidence",
+        "Laws and theories never change"
+      ],
+      "answer": 2,
+      "explain": "A theory is a well-tested explanation of why; a law describes what happens.",
+      "topic": "laws-theories",
+      "level": "medium"
+    },
+    {
+      "q": "'Energy cannot be created or destroyed, only transformed' is an example of a:",
+      "options": [
+        "Guess",
+        "Model",
+        "Unit",
+        "Principle"
+      ],
+      "answer": 3,
+      "explain": "The conservation of energy is a broad scientific principle.",
+      "topic": "laws-theories",
+      "level": "easy"
+    },
+    {
+      "q": "How is a scientific prediction different from a guess?",
+      "options": [
+        "It is based on evidence and can be tested",
+        "It is always correct",
+        "It is based on feelings",
+        "It can never be changed"
+      ],
+      "answer": 0,
+      "explain": "Predictions are reasoned from evidence and are testable and revisable.",
+      "topic": "predictions",
+      "level": "easy"
+    },
+    {
+      "q": "Roughly how much air does a person breathe in a day?",
+      "options": [
+        "About 100 litres",
+        "About 10,000 litres",
+        "About 1,000 litres",
+        "About 1,000,000 litres"
+      ],
+      "answer": 1,
+      "explain": "About 15 breaths/min × 1,440 min × 0.5 L ≈ 10,000 L.",
+      "topic": "estimation",
+      "level": "medium"
+    },
+    {
+      "q": "Treating a moving car as a single point is an example of:",
+      "options": [
+        "A scientific law",
+        "An SI unit",
+        "A scientific model",
+        "An estimate"
+      ],
+      "answer": 2,
+      "explain": "It's a simplification — a point-mass model.",
+      "topic": "models",
+      "level": "easy"
+    },
+    {
+      "q": "What should you do when a scientific prediction turns out wrong?",
+      "options": [
+        "Ignore the result",
+        "Give up on science",
+        "Change the data",
+        "Check assumptions and revise the model"
+      ],
+      "answer": 3,
+      "explain": "Failed predictions are opportunities to improve understanding.",
+      "topic": "predictions",
+      "level": "medium"
+    },
+    {
+      "q": "The symbol c for the speed of light comes from the Latin word for:",
+      "options": [
+        "Swiftness",
+        "Light",
+        "Circle",
+        "Constant"
+      ],
+      "answer": 0,
+      "explain": "*Celeritas* means swiftness.",
+      "topic": "language",
+      "level": "hard"
+    },
+    {
+      "q": "Understanding climate change requires:",
+      "options": [
+        "Only physics",
+        "Several branches of science and maths together",
+        "Only biology",
+        "Only mathematics"
+      ],
+      "answer": 1,
+      "explain": "Real problems cross the boundaries between branches.",
+      "topic": "estimation",
+      "level": "easy"
+    }
+  ]
+}

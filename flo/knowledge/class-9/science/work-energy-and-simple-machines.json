@@ -1,0 +1,544 @@
+{
+  "id": "c9-sci-work-energy",
+  "class": 9,
+  "subject": "science",
+  "name": "Work, Energy and Simple Machines",
+  "summary": "Work is done when a force moves an object (W = F × s). Energy is the ability to do work: kinetic energy (½mv²), potential energy (mgh) and elastic potential energy. Mechanical energy is conserved when friction is negligible, and net work equals the change in kinetic energy. Power is the rate of doing work. Simple machines — pulleys, inclined planes and levers — make work easier, described by mechanical advantage and efficiency.",
+  "topics": [
+    {
+      "id": "work",
+      "title": "Work: when is work done?",
+      "summary": "Work is done when a force moves an object: W = F × s (or F s cosθ when the force is at an angle θ to the motion). Unit: joule. Work can be positive, negative or zero.",
+      "simple": "In science, **work** is done only when a force makes something move. Pushing a cart across the floor is work. Pushing hard against a wall that doesn't move is **no work** at all, even if you get tired! Work = force × distance moved in the direction of the force.",
+      "explain": "**Work** is done when a force acts on an object and the object moves (is displaced) in the direction of the force.\n\n**W = F × s**, where F is the force and s the displacement in the direction of the force.\n\n**SI unit: joule (J).** 1 J is the work done when a force of 1 N moves an object through 1 m (1 J = 1 N·m).\n\nIf the force acts at an angle θ to the displacement, only the part of the force along the motion does work:\n\n**W = F s cosθ**\n\n**Three kinds of work:**\n- **Positive work:** force and displacement in the same direction (θ = 0°). Example: pulling a trolley forward; gravity acting on a falling mango.\n- **Negative work:** force opposite to displacement (θ = 180°). Example: **friction** on a sliding box; the brakes on a moving bicycle.\n- **Zero work:** either there is **no displacement** (pushing a wall, holding a heavy bag still) or the force is **perpendicular** to the displacement (θ = 90°). Example: a porter carrying a load on his head while walking on a level platform — the force he applies is upward, the motion is horizontal.\n\n**Worked example:** a 20 N force pushes a box 5 m along the floor in the direction of the force. W = F × s = 20 × 5 = **100 J**.",
+      "deep": "**Force at an angle:** a child pulls a toy cart with a 50 N force along a string at 60° to the ground, and the cart moves 4 m. W = F s cosθ = 50 × 4 × cos 60° = 50 × 4 × ½ = **100 J**. Pulling at an angle wastes part of the force, which acts upward instead of along the motion.",
+      "example": "When you lift your school bag from the floor onto a desk, you do positive work against gravity. When you then stand holding it still, you feel tired but do zero work on the bag, because it isn't moving.",
+      "keyPoints": [
+        "Work needs a force AND a displacement",
+        "W = F × s; W = F s cosθ at an angle",
+        "SI unit: joule (1 J = 1 N·m)",
+        "Positive work: force along motion",
+        "Negative work: force opposite to motion (friction)",
+        "Zero work: no displacement, or force ⟂ displacement"
+      ],
+      "keywords": [
+        "work",
+        "work done",
+        "w = fs",
+        "work formula",
+        "joule",
+        "unit of work",
+        "positive work",
+        "negative work",
+        "zero work",
+        "work at an angle",
+        "fs cos theta",
+        "pushing a wall",
+        "porter carrying load",
+        "work against friction"
+      ]
+    },
+    {
+      "id": "energy-forms",
+      "title": "Energy: kinetic and potential energy",
+      "summary": "Energy is the capacity to do work (unit joule). Moving objects have kinetic energy KE = ½mv²; raised objects have gravitational potential energy PE = mgh; stretched or compressed objects have elastic potential energy.",
+      "simple": "**Energy** is the ability to do work. A moving cricket ball has energy because it can knock the stumps over — this is **kinetic energy**. A stone held high has energy stored because of its height — this is **potential energy**. A stretched rubber band or bow also stores energy.",
+      "explain": "**Energy** is the capacity to do work. It is measured in **joules (J)**, the same unit as work. When an object does work, it loses energy; when work is done on it, it gains energy.\n\nEnergy has many **forms**: mechanical (kinetic and potential), heat, light, sound, chemical, electrical and nuclear.\n\n**Kinetic energy (KE)** — energy due to motion:\n\n**KE = ½ m v²**\n\nKE depends on mass and on the **square** of speed. Doubling the mass doubles the KE; doubling the speed makes KE **four times** as big.\n\n**Gravitational potential energy (PE)** — energy stored because of height above the ground:\n\n**PE = m g h**\n\nThis equals the work done in lifting the object: force needed = weight mg, distance = h.\n\n**Elastic potential energy** — energy stored when an object is stretched, compressed or bent, such as a stretched spring, a wound-up toy, a stretched catapult (gulel) or the drawn string of a bow. When released, this energy turns into kinetic energy.\n\n**Worked example 1 (KE):** a 2 kg ball moves at 3 m/s. KE = ½ × 2 × 3² = ½ × 2 × 9 = **9 J**.\n\n**Worked example 2 (PE):** a 10 kg box is lifted 5 m. PE = mgh = 10 × 9.8 × 5 = **490 J**.",
+      "example": "An archer pulls back a bowstring, storing elastic potential energy. On release, it becomes the kinetic energy of the arrow. Water stored high up behind a dam has gravitational potential energy, which is used to turn turbines in hydroelectric power stations.",
+      "keyPoints": [
+        "Energy = capacity to do work; unit joule",
+        "KE = ½mv² (energy of motion)",
+        "Doubling speed → KE becomes 4 times",
+        "PE = mgh (energy due to height)",
+        "Elastic PE: stretched spring, bow, catapult",
+        "Many forms: heat, light, sound, chemical, electrical, nuclear"
+      ],
+      "keywords": [
+        "energy",
+        "kinetic energy",
+        "ke",
+        "1/2 mv2",
+        "half mv square",
+        "potential energy",
+        "pe",
+        "mgh",
+        "potential energy of height",
+        "elastic potential energy",
+        "spring",
+        "bow and arrow",
+        "forms of energy",
+        "kinetic energy formula",
+        "potential energy formula"
+      ]
+    },
+    {
+      "id": "conservation-energy",
+      "title": "Mechanical energy, its conservation and the work-energy theorem",
+      "summary": "Mechanical energy = KE + PE. When friction and air resistance are negligible, it stays constant as energy changes between KE and PE. The net work done on an object equals its change in kinetic energy.",
+      "simple": "As a ball falls, it loses height (potential energy) but speeds up (gains kinetic energy). The total stays the same — energy just changes form. Also, when you do work on something to speed it up, that work turns into its extra kinetic energy.",
+      "explain": "**Mechanical energy = KE + PE**\n\n**Conservation of mechanical energy:** if friction and air resistance are negligible (only gravity does work), the total mechanical energy of an object stays **constant**. Energy only changes from one form to the other. This is a special case of the law of conservation of energy — energy cannot be created or destroyed, only transformed.\n\n**Falling ball:**\n- At the top: PE maximum, KE zero\n- On the way down: PE decreases, KE increases, but PE + KE stays the same\n- Just before hitting the ground: PE zero, KE maximum\n\n**Simple pendulum:**\n- At the extreme ends: bob is momentarily at rest, so KE = 0 and PE is maximum\n- At the lowest (mean) point: speed is greatest, so KE is maximum and PE is minimum\n- Energy keeps changing between PE and KE. In reality the swings slowly die out because air resistance and friction at the support turn some energy into heat.\n\n**Work-energy theorem:** the **net work** done on an object equals the **change in its kinetic energy**:\n\n**W(net) = ½ m v² − ½ m u²**\n\n**Worked example:** a 1,000 kg car speeds up from 10 m/s to 20 m/s. Net work = ½ × 1000 × (20² − 10²) = 500 × (400 − 100) = **1,50,000 J (1.5 × 10⁵ J)**.",
+      "deep": "**Worked example (falling ball):** a 1 kg ball is dropped from 10 m (g = 9.8 m/s²).\n- At the top: PE = 1 × 9.8 × 10 = 98 J, KE = 0; total 98 J\n- At 5 m: PE = 1 × 9.8 × 5 = 49 J, so KE = 98 − 49 = 49 J\n- Just before the ground: PE = 0, KE = 98 J\nThe total stays 98 J throughout.",
+      "example": "On a playground swing, you are slowest at the highest point (mostly PE) and fastest at the bottom (mostly KE). A roller coaster works the same way: the first big hill gives the PE that powers the rest of the ride.",
+      "keyPoints": [
+        "Mechanical energy = KE + PE",
+        "Without friction, KE + PE stays constant",
+        "Falling ball: PE → KE",
+        "Pendulum: max PE at extremes, max KE at mean position",
+        "Energy is never destroyed, only changed in form",
+        "Work-energy theorem: net work = change in KE"
+      ],
+      "keywords": [
+        "mechanical energy",
+        "conservation of energy",
+        "conservation of mechanical energy",
+        "law of conservation of energy",
+        "energy transformation",
+        "energy conversion",
+        "falling ball",
+        "pendulum",
+        "pendulum energy",
+        "work energy theorem",
+        "work-energy theorem",
+        "change in kinetic energy",
+        "free fall energy"
+      ]
+    },
+    {
+      "id": "power",
+      "title": "Power",
+      "summary": "Power is the rate of doing work: P = W/t = F × v. Unit: watt (1 W = 1 J/s); 1 kW = 1000 W; 1 horsepower ≈ 746 W. The commercial unit of energy is the kilowatt-hour (1 kWh = 3.6 × 10⁶ J).",
+      "simple": "Two students can climb the same stairs and do the same work, but the one who runs up does it faster — they have more **power**. Power tells you how quickly work is done or energy is used. It is measured in **watts**.",
+      "explain": "**Power** is the rate of doing work (or the rate at which energy is transferred):\n\n**P = W ÷ t**\n\n**SI unit: watt (W).** 1 W = 1 joule per second (1 J/s).\n- 1 kilowatt (kW) = 1,000 W\n- 1 horsepower (hp) ≈ 746 W (used for engines and motors)\n\nSince W = F × s, P = F × s ÷ t, and s ÷ t is the speed, so:\n\n**P = F × v** (force × velocity)\n\n**Commercial unit of energy:** electricity bills use the **kilowatt-hour (kWh)**, often called a 'unit'. 1 kWh is the energy used by a 1 kW appliance running for 1 hour.\n\n1 kWh = 1,000 W × 3,600 s = **3.6 × 10⁶ J**\n\n**Worked example 1:** a 50 kg student climbs stairs 4 m high in 5 s.\n- Work = mgh = 50 × 9.8 × 4 = 1,960 J\n- Power = 1960 ÷ 5 = **392 W**\n\n**Worked example 2:** a motor pulls a load with 500 N at a steady 2 m/s. P = F × v = 500 × 2 = **1,000 W = 1 kW**.\n\n**Worked example 3:** a 100 W bulb runs for 10 hours. Energy = 0.1 kW × 10 h = **1 kWh** (one unit).",
+      "example": "A 1,500 W electric kettle boils water much faster than a 750 W one, because it supplies energy twice as quickly. Car and bike engines are often rated in horsepower.",
+      "keyPoints": [
+        "Power = rate of doing work, P = W/t",
+        "P = F × v",
+        "Unit: watt; 1 W = 1 J/s",
+        "1 kW = 1000 W; 1 hp ≈ 746 W",
+        "1 kWh (1 unit) = 3.6 × 10⁶ J",
+        "kWh is a unit of energy, not power"
+      ],
+      "keywords": [
+        "power",
+        "watt",
+        "unit of power",
+        "p = w/t",
+        "power formula",
+        "p = fv",
+        "kilowatt",
+        "horsepower",
+        "hp",
+        "746 w",
+        "kilowatt hour",
+        "kwh",
+        "commercial unit of energy",
+        "unit of electricity",
+        "rate of doing work"
+      ]
+    },
+    {
+      "id": "machines-pulleys-inclines",
+      "title": "Simple machines: mechanical advantage, pulleys and inclined planes",
+      "summary": "A simple machine lets a smaller effort move a load or changes the direction of force. MA = load ÷ effort. A single fixed pulley has MA = 1 (only changes direction); a single movable pulley has MA = 2; an ideal inclined plane has MA = length ÷ height.",
+      "simple": "Simple machines like pulleys, ramps and levers make jobs easier. They either let you use a **smaller force** or let you push in a **more convenient direction**. How much a machine helps is called its **mechanical advantage**: load divided by effort.",
+      "explain": "A **simple machine** is a device that makes work easier by letting us lift a heavy **load** with a smaller **effort**, or by changing the direction or point of application of the force.\n\n- **Load:** the force the machine overcomes (often the weight being lifted)\n- **Effort:** the force we apply to the machine\n\n**Mechanical advantage (MA) = load ÷ effort** (no unit — it's a ratio)\n\nMA > 1 means the machine multiplies force. A machine cannot give you free work: if you use less force, you must move it through a larger distance.\n\n**Pulleys:**\n- **Single fixed pulley** (fixed to a support, e.g. a well or flagpole): MA = 1. It doesn't reduce the effort but **changes the direction** — pulling down to lift a bucket up is easier, as you can use your body weight.\n- **Single movable pulley** (moves with the load, supported by two parts of the rope): ideal MA = 2 — you need only half the effort, but must pull the rope twice as far.\n\n**Inclined plane (ramp):** a sloping surface used to raise loads. For an ideal (frictionless) inclined plane:\n\n**MA = length of slope ÷ height**\n\nA longer, gentler ramp needs less effort.\n\n**Worked example:** a ramp is 5 m long and 1 m high. Ideal MA = 5 ÷ 1 = 5. To push a 500 N box up it, the ideal effort = 500 ÷ 5 = **100 N**. Check: effort work = 100 × 5 = 500 J = load work = 500 × 1 J.",
+      "example": "Ramps at railway stations let people push heavy trolleys or wheelchairs up to a platform with much less force than lifting them. A pulley at the top of a building site lets workers pull downwards to raise buckets of cement.",
+      "keyPoints": [
+        "Load = force overcome; effort = force applied",
+        "MA = load ÷ effort (no unit)",
+        "Single fixed pulley: MA = 1, changes direction",
+        "Single movable pulley: ideal MA = 2",
+        "Inclined plane: ideal MA = length ÷ height",
+        "Less effort always means more distance moved"
+      ],
+      "keywords": [
+        "simple machine",
+        "simple machines",
+        "mechanical advantage",
+        "ma",
+        "load",
+        "effort",
+        "pulley",
+        "fixed pulley",
+        "movable pulley",
+        "single pulley",
+        "inclined plane",
+        "ramp",
+        "ma of inclined plane",
+        "ma of pulley"
+      ]
+    },
+    {
+      "id": "levers",
+      "title": "Levers and their three classes",
+      "summary": "A lever is a rigid bar turning about a fulcrum. Principle: effort × effort arm = load × load arm, so MA = effort arm ÷ load arm. Class I has the fulcrum in the middle, Class II the load, Class III the effort.",
+      "simple": "A **lever** is a stiff bar that turns around a fixed point called the **fulcrum**, like a seesaw. If you push far from the fulcrum and the load is close to it, a small push can lift a big load. Where the fulcrum, load and effort are placed decides the class of lever.",
+      "explain": "A **lever** is a rigid bar that can turn about a fixed point called the **fulcrum**.\n- **Effort arm:** distance from fulcrum to the point where effort is applied\n- **Load arm:** distance from fulcrum to the load\n\n**Principle of the lever** (for a balanced lever):\n\n**effort × effort arm = load × load arm**\n\nSo **MA = load ÷ effort = effort arm ÷ load arm**.\n\n**Class I — fulcrum in the middle** (between load and effort)\n- Examples: seesaw, scissors, pliers, a crowbar, a handpump handle\n- MA can be **greater than, equal to or less than 1**, depending on where the fulcrum is\n\n**Class II — load in the middle** (between fulcrum and effort)\n- Examples: wheelbarrow, bottle opener, nutcracker\n- Effort arm is always longer than load arm, so **MA > 1** (always multiplies force)\n\n**Class III — effort in the middle** (between fulcrum and load)\n- Examples: tweezers (chimta), fire tongs, the **human forearm** (elbow = fulcrum, biceps muscle = effort, object in hand = load)\n- Effort arm is always shorter than load arm, so **MA < 1**. These levers don't reduce effort, but give greater speed, range of movement or precise control.\n\n**Worked example:** a 300 N load is 0.5 m from the fulcrum, and the effort is applied 1.5 m from the fulcrum.\n- Effort × 1.5 = 300 × 0.5 = 150\n- Effort = 150 ÷ 1.5 = **100 N**\n- MA = 1.5 ÷ 0.5 = **3**",
+      "deep": "An easy memory trick: name what is in the **middle**. **F**ulcrum in the middle → Class I; **L**oad in the middle → Class II; **E**ffort in the middle → Class III. Think 'F-L-E' for 1-2-3.",
+      "example": "On a seesaw, a heavier parent can balance a light child by sitting closer to the middle. If the child (200 N) sits 2 m from the fulcrum, a 400 N parent must sit at 200 × 2 ÷ 400 = 1 m from the fulcrum.",
+      "keyPoints": [
+        "Lever = rigid bar turning about a fulcrum",
+        "Effort × effort arm = load × load arm",
+        "MA = effort arm ÷ load arm",
+        "Class I: fulcrum in middle (seesaw, scissors, pliers); MA >, = or < 1",
+        "Class II: load in middle (wheelbarrow, bottle opener, nutcracker); MA > 1",
+        "Class III: effort in middle (tweezers, tongs, forearm); MA < 1"
+      ],
+      "keywords": [
+        "lever",
+        "levers",
+        "fulcrum",
+        "effort arm",
+        "load arm",
+        "principle of lever",
+        "law of lever",
+        "class 1 lever",
+        "class 2 lever",
+        "class 3 lever",
+        "first class lever",
+        "second class lever",
+        "third class lever",
+        "types of levers",
+        "seesaw",
+        "wheelbarrow",
+        "tweezers",
+        "human arm lever"
+      ]
+    },
+    {
+      "id": "efficiency",
+      "title": "Efficiency of machines",
+      "summary": "Efficiency = (output work ÷ input work) × 100%. Real machines always have efficiency less than 100% because some input work is lost, mainly to friction as heat.",
+      "simple": "No machine gives out all the work you put in. Some is always wasted — mostly as heat due to friction. **Efficiency** tells you what percentage of your input work becomes useful output work.",
+      "explain": "When you use a machine:\n- **Input work** = effort × distance moved by the effort\n- **Output work** (useful work) = load × distance moved by the load\n\n**Efficiency = (output work ÷ input work) × 100%**\n\nIn an **ideal machine** (no friction, weightless parts), output work = input work, so efficiency would be 100%.\n\nIn **real machines**, part of the input work is wasted:\n- overcoming **friction** between moving parts (turns into heat and sound)\n- lifting the moving parts of the machine itself (e.g. the movable pulley or rope)\n\nSo real machines always have **efficiency less than 100%**, and their actual MA is less than the ideal MA. Oiling and maintaining machines improves efficiency by reducing friction.\n\n**Worked example:** a worker applies 250 N of effort and pulls the rope 4 m to lift an 800 N load up 1 m.\n- Input work = 250 × 4 = 1,000 J\n- Output work = 800 × 1 = 800 J\n- Efficiency = (800 ÷ 1000) × 100% = **80%**\n- The other 200 J was lost, mostly as heat from friction.",
+      "example": "A rusty, squeaky cycle is tiring to ride because much of your pedalling work is wasted against friction in the chain and bearings. Cleaning and oiling it raises its efficiency, so more of your effort goes into moving forward.",
+      "keyPoints": [
+        "Input work = effort × effort distance",
+        "Output work = load × load distance",
+        "Efficiency = output ÷ input × 100%",
+        "Real machines: efficiency < 100%",
+        "Energy lost mainly to friction (as heat)",
+        "Lubrication improves efficiency"
+      ],
+      "keywords": [
+        "efficiency",
+        "efficiency of machine",
+        "efficiency formula",
+        "output work",
+        "input work",
+        "useful work",
+        "ideal machine",
+        "real machine",
+        "why efficiency less than 100",
+        "energy loss",
+        "friction in machines"
+      ]
+    }
+  ],
+  "keyConcepts": [
+    {
+      "term": "Work",
+      "meaning": "Done when a force moves an object in the direction of the force; W = F × s; unit joule."
+    },
+    {
+      "term": "Joule (J)",
+      "meaning": "SI unit of work and energy; 1 J = work done when 1 N moves an object 1 m."
+    },
+    {
+      "term": "Energy",
+      "meaning": "The capacity to do work; measured in joules."
+    },
+    {
+      "term": "Kinetic energy",
+      "meaning": "Energy an object has because of its motion; KE = ½mv²."
+    },
+    {
+      "term": "Gravitational potential energy",
+      "meaning": "Energy stored because of height above the ground; PE = mgh."
+    },
+    {
+      "term": "Elastic potential energy",
+      "meaning": "Energy stored in a stretched, compressed or bent object such as a spring or bow."
+    },
+    {
+      "term": "Mechanical energy",
+      "meaning": "The sum of kinetic and potential energy of an object."
+    },
+    {
+      "term": "Work-energy theorem",
+      "meaning": "The net work done on an object equals its change in kinetic energy."
+    },
+    {
+      "term": "Power",
+      "meaning": "The rate of doing work, P = W/t; unit watt (1 W = 1 J/s)."
+    },
+    {
+      "term": "Mechanical advantage",
+      "meaning": "Load ÷ effort; tells how many times a machine multiplies the effort."
+    },
+    {
+      "term": "Fulcrum",
+      "meaning": "The fixed point about which a lever turns."
+    },
+    {
+      "term": "Efficiency",
+      "meaning": "Output work ÷ input work × 100%; always less than 100% for real machines."
+    }
+  ],
+  "formulas": [
+    "W = F × s (W work in J, F force in N, s displacement in m)",
+    "W = F s cosθ (θ = angle between force and displacement)",
+    "KE = ½ m v² (m mass in kg, v speed in m/s)",
+    "PE = m g h (h height in m, g ≈ 9.8 m/s²)",
+    "Mechanical energy = KE + PE (constant if friction is negligible)",
+    "Net work = ½ m v² − ½ m u² (work-energy theorem)",
+    "P = W ÷ t = F × v (P power in W, t time in s)",
+    "1 kW = 1000 W; 1 hp ≈ 746 W; 1 kWh = 3.6 × 10⁶ J",
+    "MA = load ÷ effort",
+    "Lever: effort × effort arm = load × load arm; MA = effort arm ÷ load arm",
+    "Inclined plane (ideal): MA = length ÷ height",
+    "Efficiency = (output work ÷ input work) × 100%"
+  ],
+  "commonMistakes": [
+    "Thinking any effort means work — no displacement (pushing a wall) means zero work.",
+    "Saying a porter walking on level ground does work on his load — the force is ⟂ to the motion, so the work is zero.",
+    "Forgetting to square the speed in KE = ½mv², or forgetting the ½.",
+    "Thinking doubling speed doubles KE — it makes KE four times as large.",
+    "Confusing kW (power) with kWh (energy).",
+    "Thinking a single fixed pulley reduces effort — its MA is 1; it only changes direction.",
+    "Mixing up lever classes — look at what is in the middle: fulcrum (I), load (II), effort (III).",
+    "Expecting a real machine to be 100% efficient — friction always wastes some work."
+  ],
+  "revision": [
+    "Work W = F × s; W = F s cosθ at an angle; unit joule.",
+    "Friction does negative work; force ⟂ displacement or no displacement means zero work.",
+    "Energy is the capacity to do work; unit joule.",
+    "KE = ½mv²; PE = mgh; stretched springs and bows store elastic PE.",
+    "Mechanical energy = KE + PE, conserved when friction is negligible.",
+    "Pendulum: max PE at the extremes, max KE at the lowest point.",
+    "Work-energy theorem: net work = change in KE.",
+    "Power P = W/t = F × v; 1 W = 1 J/s; 1 hp ≈ 746 W.",
+    "1 kWh = 3.6 × 10⁶ J (commercial unit of energy).",
+    "MA = load ÷ effort; fixed pulley MA = 1, movable pulley MA = 2.",
+    "Inclined plane (ideal) MA = length ÷ height.",
+    "Lever: effort × effort arm = load × load arm.",
+    "Class I (F middle) MA any; Class II (L middle) MA > 1; Class III (E middle) MA < 1.",
+    "Efficiency = output work ÷ input work × 100%, always < 100% in real machines."
+  ],
+  "faqs": [
+    {
+      "q": "Why is no work done when I push a wall, even though I get tired?",
+      "a": "In science, work needs a **displacement**. The wall doesn't move, so s = 0 and W = F × 0 = 0 on the wall. You feel tired because your muscles use up chemical energy internally, but no work is done on the wall.",
+      "keywords": [
+        "pushing wall",
+        "zero work",
+        "no work done",
+        "why no work"
+      ]
+    },
+    {
+      "q": "What is the difference between kinetic and potential energy?",
+      "a": "**Kinetic energy** is energy of motion, KE = ½mv² — it depends on speed. **Potential energy** is stored energy due to position or shape, like PE = mgh for height, or elastic PE in a stretched spring. A falling ball converts PE into KE.",
+      "keywords": [
+        "kinetic vs potential",
+        "difference kinetic potential energy",
+        "ke vs pe"
+      ]
+    },
+    {
+      "q": "What is the difference between work, energy and power?",
+      "a": "**Work** is done when a force moves something (W = F × s). **Energy** is the capacity to do work — both are measured in joules. **Power** is how *fast* work is done (P = W/t), measured in watts.",
+      "keywords": [
+        "work energy power difference",
+        "work vs power",
+        "energy vs power"
+      ]
+    },
+    {
+      "q": "If a fixed pulley doesn't reduce effort, why use it?",
+      "a": "It **changes the direction** of the force. Pulling down on a rope to raise a bucket from a well is much easier than lifting it straight up, because you can use your own body weight and stand in a comfortable position.",
+      "keywords": [
+        "fixed pulley use",
+        "why fixed pulley",
+        "ma of fixed pulley"
+      ]
+    },
+    {
+      "q": "Why use a Class III lever like tweezers if its MA is less than 1?",
+      "a": "Class III levers don't multiply force, but a small movement of the effort produces a larger movement of the load, giving **speed, range and precise control**. That's why tweezers can pick up tiny things, and your forearm can move your hand quickly through a big arc.",
+      "keywords": [
+        "class 3 lever use",
+        "tweezers",
+        "ma less than 1",
+        "third class lever advantage"
+      ]
+    },
+    {
+      "q": "Why can't any machine be 100% efficient?",
+      "a": "Some of the input work is always used to overcome **friction** between moving parts (lost as heat and sound) and to move the parts of the machine itself. So the useful output work is always less than the input work.",
+      "keywords": [
+        "efficiency less than 100",
+        "why not 100 efficient",
+        "machine efficiency"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "What is the SI unit of work?",
+      "options": [
+        "Watt",
+        "Newton",
+        "Joule",
+        "Pascal"
+      ],
+      "answer": 2,
+      "explain": "Work (and energy) is measured in joules; 1 J = 1 N·m.",
+      "topic": "work",
+      "level": "easy"
+    },
+    {
+      "q": "In which case is the work done ZERO?",
+      "options": [
+        "A porter carrying a load on his head walking on a level platform",
+        "Lifting a bag onto a shelf",
+        "Pushing a cart forward along a road",
+        "Kicking a football forward"
+      ],
+      "answer": 0,
+      "explain": "The porter's force on the load is upward while the motion is horizontal (perpendicular), so W = 0.",
+      "topic": "work",
+      "level": "medium"
+    },
+    {
+      "q": "A 20 N force moves a box 5 m in the direction of the force. The work done is:",
+      "options": [
+        "4 J",
+        "100 J",
+        "25 J",
+        "0.25 J"
+      ],
+      "answer": 1,
+      "explain": "W = F × s = 20 × 5 = 100 J.",
+      "topic": "work",
+      "level": "easy"
+    },
+    {
+      "q": "What is the kinetic energy of a 2 kg ball moving at 3 m/s?",
+      "options": [
+        "6 J",
+        "3 J",
+        "18 J",
+        "9 J"
+      ],
+      "answer": 3,
+      "explain": "KE = ½mv² = ½ × 2 × 3² = ½ × 2 × 9 = 9 J.",
+      "topic": "energy-forms",
+      "level": "medium"
+    },
+    {
+      "q": "If the speed of an object is doubled, its kinetic energy becomes:",
+      "options": [
+        "Double",
+        "Half",
+        "Four times",
+        "Unchanged"
+      ],
+      "answer": 2,
+      "explain": "KE ∝ v², so doubling v multiplies KE by 2² = 4.",
+      "topic": "energy-forms",
+      "level": "medium"
+    },
+    {
+      "q": "At the extreme position of a swinging pendulum, the bob has:",
+      "options": [
+        "Maximum KE and zero PE",
+        "Maximum PE and zero KE",
+        "Zero total energy",
+        "Equal KE and PE always"
+      ],
+      "answer": 1,
+      "explain": "The bob is momentarily at rest at the extremes (KE = 0) and at its highest point (PE maximum).",
+      "topic": "conservation-energy",
+      "level": "medium"
+    },
+    {
+      "q": "A student does 1,960 J of work climbing stairs in 5 s. Her power is:",
+      "options": [
+        "392 W",
+        "9,800 W",
+        "1,965 W",
+        "0.0026 W"
+      ],
+      "answer": 0,
+      "explain": "P = W ÷ t = 1960 ÷ 5 = 392 W.",
+      "topic": "power",
+      "level": "medium"
+    },
+    {
+      "q": "1 horsepower is approximately equal to:",
+      "options": [
+        "100 W",
+        "1,000 W",
+        "746 W",
+        "3.6 × 10⁶ W"
+      ],
+      "answer": 2,
+      "explain": "1 hp ≈ 746 W.",
+      "topic": "power",
+      "level": "easy"
+    },
+    {
+      "q": "The mechanical advantage of a single fixed pulley is:",
+      "options": [
+        "2",
+        "0",
+        "0.5",
+        "1"
+      ],
+      "answer": 3,
+      "explain": "A single fixed pulley has MA = 1; it only changes the direction of the effort.",
+      "topic": "machines-pulleys-inclines",
+      "level": "easy"
+    },
+    {
+      "q": "Tweezers are an example of which class of lever?",
+      "options": [
+        "Class I",
+        "Class III",
+        "Class II",
+        "Not a lever"
+      ],
+      "answer": 1,
+      "explain": "In tweezers the effort (your fingers) is between the fulcrum (the joined end) and the load (the tips), so it is Class III.",
+      "topic": "levers",
+      "level": "easy"
+    },
+    {
+      "q": "A 300 N load is 0.5 m from a lever's fulcrum. The effort is applied 1.5 m from the fulcrum. What effort balances the load?",
+      "options": [
+        "100 N",
+        "900 N",
+        "450 N",
+        "150 N"
+      ],
+      "answer": 0,
+      "explain": "Effort × 1.5 = 300 × 0.5 = 150, so effort = 150 ÷ 1.5 = 100 N (MA = 3).",
+      "topic": "levers",
+      "level": "hard"
+    },
+    {
+      "q": "A machine needs 1,000 J of input work to do 800 J of useful work. Its efficiency is:",
+      "options": [
+        "125%",
+        "20%",
+        "800%",
+        "80%"
+      ],
+      "answer": 3,
+      "explain": "Efficiency = 800 ÷ 1000 × 100% = 80%. The remaining 200 J is lost mainly to friction.",
+      "topic": "efficiency",
+      "level": "hard"
+    }
+  ]
+}
