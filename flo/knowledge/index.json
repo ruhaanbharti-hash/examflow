@@ -1,0 +1,4291 @@
+{
+ "version": 1,
+ "general": "general.json",
+ "subjects": {
+  "science": {
+   "name": "Science",
+   "aliases": [
+    "science",
+    "sci",
+    "general science",
+    "physics",
+    "chemistry",
+    "biology",
+    "bio",
+    "phy",
+    "chem",
+    "evs"
+   ]
+  },
+  "mathematics": {
+   "name": "Mathematics",
+   "aliases": [
+    "mathematics",
+    "maths",
+    "math",
+    "mathematic"
+   ]
+  },
+  "english": {
+   "name": "English",
+   "aliases": [
+    "english",
+    "english grammar",
+    "grammar",
+    "english language",
+    "eng"
+   ]
+  }
+ },
+ "chapters": [
+  {
+   "id": "c10-sci-reactions",
+   "class": 10,
+   "subject": "science",
+   "name": "Chemical Reactions and Equations",
+   "aliases": [
+    "chemical reactions",
+    "chemical reaction",
+    "chemical equations",
+    "reactions and equations"
+   ],
+   "file": "class-10/science/chemical-reactions-and-equations.json",
+   "topics": [
+    {
+     "id": "equations",
+     "title": "Chemical equations and balancing",
+     "keywords": [
+      "chemical equation",
+      "chemical equations",
+      "balancing",
+      "balanced equation",
+      "balance",
+      "skeletal equation",
+      "reactants",
+      "products",
+      "state symbols",
+      "magnesium ribbon",
+      "hit and trial"
+     ]
+    },
+    {
+     "id": "types",
+     "title": "Types of chemical reactions",
+     "keywords": [
+      "types of reactions",
+      "types of chemical reactions",
+      "combination reaction",
+      "decomposition reaction",
+      "displacement reaction",
+      "double displacement",
+      "precipitation",
+      "precipitate",
+      "exothermic",
+      "endothermic",
+      "thermal decomposition",
+      "electrolysis",
+      "photolysis",
+      "iron nail copper sulphate",
+      "quicklime"
+     ]
+    },
+    {
+     "id": "redox",
+     "title": "Oxidation, reduction and their effects",
+     "keywords": [
+      "oxidation",
+      "reduction",
+      "redox",
+      "oxidised",
+      "reduced",
+      "corrosion",
+      "rusting",
+      "rust",
+      "rancidity",
+      "rancid",
+      "galvanisation",
+      "galvanising",
+      "antioxidants",
+      "nitrogen chips"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "Why should a chemical equation be balanced?",
+     "keywords": [
+      "why balance",
+      "balanced equation why"
+     ]
+    },
+    {
+     "q": "Why does the colour of copper sulphate solution change when an iron nail is dipped in it?",
+     "keywords": [
+      "iron nail copper sulphate",
+      "colour change"
+     ]
+    },
+    {
+     "q": "Why are chips packets filled with nitrogen?",
+     "keywords": [
+      "chips nitrogen",
+      "rancidity prevent"
+     ]
+    },
+    {
+     "q": "What is the difference between displacement and double displacement reactions?",
+     "keywords": [
+      "displacement vs double displacement"
+     ]
+    }
+   ],
+   "quizCount": 8
+  },
+  {
+   "id": "c9-math-circles",
+   "class": 9,
+   "subject": "mathematics",
+   "name": "I'm Up and Down, and Round and Round",
+   "aliases": [
+    "circles",
+    "circle",
+    "im up and down and round and round",
+    "up and down and round and round"
+   ],
+   "file": "class-9/mathematics/circles.json",
+   "topics": [
+    {
+     "id": "parts-of-a-circle",
+     "title": "Circles and their parts",
+     "keywords": [
+      "circle",
+      "circles",
+      "centre",
+      "center",
+      "radius",
+      "diameter",
+      "chord",
+      "arc",
+      "minor arc",
+      "major arc",
+      "semicircle",
+      "segment",
+      "sector",
+      "circumference",
+      "symmetry of circle",
+      "parts of a circle"
+     ]
+    },
+    {
+     "id": "circles-through-points",
+     "title": "Circles through given points and the circumcentre",
+     "keywords": [
+      "circle through three points",
+      "circle through two points",
+      "non-collinear points",
+      "collinear",
+      "perpendicular bisector",
+      "circumcentre",
+      "circumcenter",
+      "circumcircle",
+      "circumradius",
+      "unique circle",
+      "how many circles"
+     ]
+    },
+    {
+     "id": "chord-properties",
+     "title": "Properties of chords",
+     "keywords": [
+      "chord",
+      "chords",
+      "equal chords",
+      "angle subtended by chord",
+      "perpendicular from centre",
+      "bisects chord",
+      "equidistant chords",
+      "distance of chord from centre",
+      "chord length",
+      "chord length formula",
+      "converse",
+      "rhs congruence",
+      "pythagoras chord"
+     ]
+    },
+    {
+     "id": "angles-in-a-circle",
+     "title": "Angles subtended by arcs",
+     "keywords": [
+      "angle subtended by arc",
+      "angle at centre",
+      "angle at circumference",
+      "double angle theorem",
+      "angle at centre is twice",
+      "angles in the same segment",
+      "angle in a semicircle",
+      "semicircle 90",
+      "inscribed angle",
+      "concyclic",
+      "concyclic points"
+     ]
+    },
+    {
+     "id": "cyclic-quadrilaterals",
+     "title": "Cyclic quadrilaterals",
+     "keywords": [
+      "cyclic quadrilateral",
+      "cyclic quadrilaterals",
+      "opposite angles 180",
+      "supplementary",
+      "exterior angle of cyclic quadrilateral",
+      "interior opposite angle",
+      "concyclic",
+      "cyclic parallelogram",
+      "rectangle cyclic",
+      "isosceles trapezium cyclic"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "What is the difference between a segment and a sector?",
+     "keywords": [
+      "segment vs sector",
+      "difference segment sector"
+     ]
+    },
+    {
+     "q": "Why is the angle in a semicircle always 90°?",
+     "keywords": [
+      "angle in semicircle",
+      "why 90 degrees semicircle"
+     ]
+    },
+    {
+     "q": "How many circles can pass through two points? Through three points?",
+     "keywords": [
+      "how many circles through points",
+      "circles through two points",
+      "circles through three points"
+     ]
+    },
+    {
+     "q": "How do I find the length of a chord if I know the radius and its distance from the centre?",
+     "keywords": [
+      "chord length",
+      "find chord length",
+      "chord distance from centre"
+     ]
+    },
+    {
+     "q": "Is every parallelogram cyclic?",
+     "keywords": [
+      "parallelogram cyclic",
+      "cyclic parallelogram rectangle"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c9-math-identities",
+   "class": 9,
+   "subject": "mathematics",
+   "name": "Exploring Algebraic Identities",
+   "aliases": [
+    "algebraic identities",
+    "identities",
+    "exploring algebraic identities",
+    "algebra identities"
+   ],
+   "file": "class-9/mathematics/exploring-algebraic-identities.json",
+   "topics": [
+    {
+     "id": "identity-vs-equation",
+     "title": "Identity vs equation, and seeing identities with area",
+     "keywords": [
+      "identity",
+      "algebraic identity",
+      "identities",
+      "identity vs equation",
+      "difference between identity and equation",
+      "equation",
+      "algebra tiles",
+      "area model",
+      "geometric proof",
+      "proof of identity",
+      "verify identity",
+      "counter example",
+      "≡"
+     ]
+    },
+    {
+     "id": "square-identities",
+     "title": "Identities for squares and products",
+     "keywords": [
+      "(a+b)^2",
+      "(a+b)²",
+      "a plus b whole square",
+      "(a-b)^2",
+      "(a−b)²",
+      "a minus b whole square",
+      "a² - b²",
+      "difference of squares",
+      "(a+b)(a-b)",
+      "(x+a)(x+b)",
+      "(a+b+c)^2",
+      "a plus b plus c whole square",
+      "expand",
+      "expansion",
+      "square identities",
+      "standard identities"
+     ]
+    },
+    {
+     "id": "cube-identities",
+     "title": "Identities for cubes",
+     "keywords": [
+      "(a+b)^3",
+      "(a+b)³",
+      "a plus b whole cube",
+      "(a-b)^3",
+      "(a−b)³",
+      "a minus b whole cube",
+      "cube identities",
+      "sum of cubes",
+      "difference of cubes",
+      "x³ + y³",
+      "x³ - y³",
+      "a³ + b³ + c³ - 3abc",
+      "x+y+z=0",
+      "3xyz",
+      "cube of binomial"
+     ]
+    },
+    {
+     "id": "mental-maths",
+     "title": "Mental maths and number patterns with identities",
+     "keywords": [
+      "mental maths",
+      "mental math",
+      "quick multiplication",
+      "square of 103",
+      "103 squared",
+      "98 squared",
+      "102 × 98",
+      "997 × 1003",
+      "multiply using identities",
+      "evaluate using identity",
+      "number pattern",
+      "prove pattern",
+      "(n-1)^2 + (n+1)^2",
+      "vedic maths"
+     ]
+    },
+    {
+     "id": "factorisation",
+     "title": "Factorisation and simplifying rational expressions",
+     "keywords": [
+      "factorisation",
+      "factorization",
+      "factorise",
+      "factorize",
+      "factors",
+      "factorise using identities",
+      "perfect square trinomial",
+      "difference of squares factor",
+      "splitting middle term",
+      "sum of cubes factor",
+      "difference of cubes factor",
+      "rational expression",
+      "simplify rational expression",
+      "algebraic fraction",
+      "cancel common factors"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "What is the difference between an identity and an equation?",
+     "keywords": [
+      "identity vs equation",
+      "difference identity equation",
+      "what is an identity"
+     ]
+    },
+    {
+     "q": "Why isn't (a + b)² equal to a² + b²?",
+     "keywords": [
+      "why (a+b)^2 not a^2+b^2",
+      "middle term 2ab",
+      "a plus b whole square mistake"
+     ]
+    },
+    {
+     "q": "How do I find 12³ + (−7)³ + (−5)³ quickly?",
+     "keywords": [
+      "x+y+z=0 cube",
+      "sum of cubes 3xyz",
+      "evaluate without cubing"
+     ]
+    },
+    {
+     "q": "How do I choose which identity to use when factorising?",
+     "keywords": [
+      "which identity to use",
+      "how to factorise",
+      "factorisation tips"
+     ]
+    },
+    {
+     "q": "How do I remember the signs in x³ + y³ and x³ − y³?",
+     "keywords": [
+      "sum of cubes sign",
+      "difference of cubes sign",
+      "remember cube identities"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c9-math-linear-polynomials",
+   "class": 9,
+   "subject": "mathematics",
+   "name": "Introduction to Linear Polynomials",
+   "aliases": [
+    "linear polynomials",
+    "linear polynomial",
+    "introduction to linear polynomials",
+    "polynomials",
+    "polynomial",
+    "linear equations in two variables"
+   ],
+   "file": "class-9/mathematics/introduction-to-linear-polynomials.json",
+   "topics": [
+    {
+     "id": "expressions-and-polynomials",
+     "title": "Algebraic expressions, polynomials and degree",
+     "keywords": [
+      "algebraic expression",
+      "expression",
+      "variable",
+      "constant",
+      "term",
+      "terms",
+      "coefficient",
+      "polynomial",
+      "polynomials",
+      "degree",
+      "degree of polynomial",
+      "monomial",
+      "binomial",
+      "trinomial",
+      "constant polynomial",
+      "quadratic",
+      "not a polynomial"
+     ]
+    },
+    {
+     "id": "linear-polynomial-value-zero",
+     "title": "Linear polynomials, value and zero",
+     "keywords": [
+      "linear polynomial",
+      "ax + b",
+      "value of polynomial",
+      "p(x)",
+      "p(2)",
+      "zero of polynomial",
+      "zero of linear polynomial",
+      "root",
+      "-b/a",
+      "substitute",
+      "break even",
+      "degree one"
+     ]
+    },
+    {
+     "id": "linear-patterns",
+     "title": "Linear patterns and the nth term",
+     "keywords": [
+      "linear pattern",
+      "patterns",
+      "sequence",
+      "nth term",
+      "general term",
+      "common difference",
+      "arithmetic progression",
+      "ap",
+      "a + (n-1)d",
+      "4n - 1",
+      "matchstick pattern",
+      "number pattern",
+      "rule for pattern"
+     ]
+    },
+    {
+     "id": "linear-growth-decay",
+     "title": "Linear growth, decay and finding y = ax + b from data",
+     "keywords": [
+      "linear growth",
+      "linear decay",
+      "rate of change",
+      "starting value",
+      "initial value",
+      "savings",
+      "candle",
+      "taxi fare",
+      "find equation from two points",
+      "y = ax + b",
+      "linear model",
+      "modelling",
+      "word problems",
+      "base fare",
+      "per km",
+      "table of values"
+     ]
+    },
+    {
+     "id": "graphs-of-linear",
+     "title": "Graph of y = ax + b: slope and intercept",
+     "keywords": [
+      "graph of linear polynomial",
+      "straight line graph",
+      "slope",
+      "gradient",
+      "steepness",
+      "rise over run",
+      "y-intercept",
+      "x-intercept",
+      "intercept",
+      "y = mx + c",
+      "y = ax + b",
+      "direct proportion",
+      "proportional",
+      "through origin",
+      "parallel lines",
+      "positive slope",
+      "negative slope",
+      "plotting a line"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "What is the difference between the value and the zero of a polynomial?",
+     "keywords": [
+      "value vs zero",
+      "difference value and zero of polynomial",
+      "zero of polynomial meaning"
+     ]
+    },
+    {
+     "q": "Why is it called a 'linear' polynomial?",
+     "keywords": [
+      "why linear",
+      "why called linear polynomial",
+      "linear meaning"
+     ]
+    },
+    {
+     "q": "How do I find y = ax + b from two data points?",
+     "keywords": [
+      "find equation from two points",
+      "find a and b",
+      "linear rule from data",
+      "taxi fare problem"
+     ]
+    },
+    {
+     "q": "What do a and b mean in y = ax + b?",
+     "keywords": [
+      "meaning of a and b",
+      "slope and intercept meaning",
+      "what is slope",
+      "what is intercept"
+     ]
+    },
+    {
+     "q": "Is 5 a polynomial? What is its degree?",
+     "keywords": [
+      "constant polynomial",
+      "degree of constant",
+      "is 5 a polynomial"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c9-math-perimeter-area",
+   "class": 9,
+   "subject": "mathematics",
+   "name": "Measuring Space: Perimeter and Area",
+   "aliases": [
+    "perimeter and area",
+    "measuring space",
+    "herons formula",
+    "heron formula",
+    "areas",
+    "mensuration"
+   ],
+   "file": "class-9/mathematics/measuring-space-perimeter-and-area.json",
+   "topics": [
+    {
+     "id": "perimeter-and-race-tracks",
+     "title": "Perimeter and staggered starts on a race track",
+     "keywords": [
+      "perimeter",
+      "boundary",
+      "race track",
+      "running track",
+      "staggered start",
+      "lanes",
+      "lane width",
+      "400 m track",
+      "why outer lane longer",
+      "perimeter of rectangle",
+      "perimeter of square"
+     ]
+    },
+    {
+     "id": "history-of-pi",
+     "title": "The story of π",
+     "keywords": [
+      "pi",
+      "π",
+      "value of pi",
+      "history of pi",
+      "archimedes",
+      "zu chongzhi",
+      "aryabhata",
+      "madhava",
+      "madhava series",
+      "lambert",
+      "pi irrational",
+      "is pi 22/7",
+      "22/7",
+      "3.14",
+      "355/113"
+     ]
+    },
+    {
+     "id": "circumference-and-arc-length",
+     "title": "Circumference and arc length",
+     "keywords": [
+      "circumference",
+      "circumference of circle",
+      "perimeter of circle",
+      "2πr",
+      "arc length",
+      "length of arc",
+      "perimeter of sector",
+      "perimeter of semicircle",
+      "find radius from circumference"
+     ]
+    },
+    {
+     "id": "areas-of-polygons",
+     "title": "Areas of rectangles, parallelograms, triangles and trapeziums",
+     "keywords": [
+      "area",
+      "area of rectangle",
+      "area of square",
+      "area of parallelogram",
+      "area of triangle",
+      "base height",
+      "median",
+      "median divides area",
+      "equilateral triangle area",
+      "√3/4",
+      "area of trapezium",
+      "same base same parallels",
+      "maximum area rectangle",
+      "square largest area"
+     ]
+    },
+    {
+     "id": "herons-and-brahmaguptas-formulas",
+     "title": "Heron's formula and Brahmagupta's formula",
+     "keywords": [
+      "heron's formula",
+      "herons formula",
+      "heron",
+      "semi-perimeter",
+      "semiperimeter",
+      "area of triangle with three sides",
+      "area of scalene triangle",
+      "brahmagupta",
+      "brahmagupta's formula",
+      "area of cyclic quadrilateral",
+      "area of quadrilateral"
+     ]
+    },
+    {
+     "id": "area-of-circle-sector-segment",
+     "title": "Area of a circle, sector and segment",
+     "keywords": [
+      "area of circle",
+      "πr²",
+      "pi r squared",
+      "area of sector",
+      "sector",
+      "area of segment",
+      "segment",
+      "minor segment",
+      "major segment",
+      "quadrant",
+      "ring",
+      "annulus",
+      "why area of circle is pi r squared"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "Is π equal to 22/7?",
+     "keywords": [
+      "is pi 22/7",
+      "pi exact value",
+      "pi irrational"
+     ]
+    },
+    {
+     "q": "When should I use Heron's formula?",
+     "keywords": [
+      "when to use heron's formula",
+      "heron's formula example"
+     ]
+    },
+    {
+     "q": "Why do runners in outer lanes start ahead?",
+     "keywords": [
+      "staggered start",
+      "why outer lane start ahead",
+      "race track lanes"
+     ]
+    },
+    {
+     "q": "What is the difference between a sector and a segment when finding area?",
+     "keywords": [
+      "sector vs segment area",
+      "area of segment"
+     ]
+    },
+    {
+     "q": "Why is the area of a circle πr²?",
+     "keywords": [
+      "why area of circle pi r squared",
+      "proof area of circle"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c9-math-coordinates",
+   "class": 9,
+   "subject": "mathematics",
+   "name": "Orienting Yourself: The Use of Coordinates",
+   "aliases": [
+    "coordinates",
+    "coordinate geometry",
+    "orienting yourself",
+    "use of coordinates",
+    "cartesian"
+   ],
+   "file": "class-9/mathematics/orienting-yourself-the-use-of-coordinates.json",
+   "topics": [
+    {
+     "id": "reference-and-axes",
+     "title": "Reference point, axes and the four quadrants",
+     "keywords": [
+      "coordinate geometry",
+      "coordinates",
+      "cartesian plane",
+      "cartesian system",
+      "x-axis",
+      "y-axis",
+      "origin",
+      "abscissa",
+      "ordinate",
+      "quadrant",
+      "quadrants",
+      "ordered pair",
+      "plotting points",
+      "plot a point",
+      "signs in quadrants",
+      "point on axis",
+      "descartes",
+      "brahmagupta"
+     ]
+    },
+    {
+     "id": "distance-formula",
+     "title": "The distance formula",
+     "keywords": [
+      "distance formula",
+      "distance between two points",
+      "distance from origin",
+      "pythagoras",
+      "pythagoras theorem",
+      "length of line segment",
+      "how far apart",
+      "hypotenuse",
+      "coordinate distance",
+      "√(x² + y²)"
+     ]
+    },
+    {
+     "id": "midpoint-and-section",
+     "title": "Midpoint and points of trisection",
+     "keywords": [
+      "midpoint",
+      "midpoint formula",
+      "mid point",
+      "halfway point",
+      "trisection",
+      "points of trisection",
+      "section formula",
+      "ratio 1:2",
+      "divide a line segment",
+      "average of coordinates",
+      "find the other end"
+     ]
+    },
+    {
+     "id": "collinearity-and-shapes",
+     "title": "Collinearity and checking shapes",
+     "keywords": [
+      "collinear",
+      "collinearity",
+      "collinear points",
+      "same line",
+      "check if points form a triangle",
+      "square",
+      "rhombus",
+      "rectangle",
+      "right triangle",
+      "right angled triangle",
+      "isosceles triangle",
+      "equal diagonals",
+      "pythagoras converse",
+      "shape from coordinates"
+     ]
+    },
+    {
+     "id": "reflections",
+     "title": "Reflections in the axes",
+     "keywords": [
+      "reflection",
+      "reflections",
+      "mirror image",
+      "reflect in x-axis",
+      "reflect in y-axis",
+      "image of a point",
+      "(x, -y)",
+      "(-x, y)",
+      "symmetry",
+      "reflection through origin"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "What is the difference between abscissa and ordinate?",
+     "keywords": [
+      "abscissa vs ordinate",
+      "difference abscissa ordinate",
+      "what is abscissa",
+      "what is ordinate"
+     ]
+    },
+    {
+     "q": "In which quadrant does a point on an axis lie?",
+     "keywords": [
+      "point on axis quadrant",
+      "which quadrant is (0,5)",
+      "origin quadrant"
+     ]
+    },
+    {
+     "q": "Why does the distance formula have squares and a square root?",
+     "keywords": [
+      "distance formula derivation",
+      "why distance formula",
+      "distance formula pythagoras"
+     ]
+    },
+    {
+     "q": "How do I check whether three points are collinear?",
+     "keywords": [
+      "collinear points check",
+      "how to check collinearity",
+      "three points on a line"
+     ]
+    },
+    {
+     "q": "How is a square different from a rhombus when checking with coordinates?",
+     "keywords": [
+      "square vs rhombus",
+      "prove square coordinates",
+      "check square"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c9-math-sequences",
+   "class": 9,
+   "subject": "mathematics",
+   "name": "Predicting What Comes Next: Exploring Sequences and Progressions",
+   "aliases": [
+    "sequences",
+    "sequence",
+    "progressions",
+    "predicting what comes next",
+    "sequences and progressions"
+   ],
+   "file": "class-9/mathematics/predicting-what-comes-next-exploring-sequences-and-progressions.json",
+   "topics": [
+    {
+     "id": "sequences-and-patterns",
+     "title": "Sequences and number patterns",
+     "keywords": [
+      "sequence",
+      "sequences",
+      "term",
+      "nth term",
+      "general term",
+      "pattern",
+      "number pattern",
+      "odd numbers",
+      "even numbers",
+      "square numbers",
+      "triangular numbers",
+      "n(n+1)/2",
+      "dot patterns",
+      "finite sequence",
+      "infinite sequence"
+     ]
+    },
+    {
+     "id": "explicit-and-recursive-rules",
+     "title": "Explicit and recursive rules",
+     "keywords": [
+      "explicit rule",
+      "explicit formula",
+      "closed form",
+      "recursive rule",
+      "recursive formula",
+      "recurrence",
+      "previous term",
+      "t n-1",
+      "find nth term",
+      "is it a term of the sequence",
+      "rule of sequence"
+     ]
+    },
+    {
+     "id": "virahanka-fibonacci-numbers",
+     "title": "Virahanka–Fibonacci numbers",
+     "keywords": [
+      "virahanka",
+      "fibonacci",
+      "fibonacci sequence",
+      "virahanka fibonacci",
+      "fibonacci numbers",
+      "hemachandra",
+      "gopala",
+      "sanskrit poetry",
+      "prosody",
+      "rhythm",
+      "laghu guru",
+      "short long syllables",
+      "sum of previous two",
+      "golden ratio"
+     ]
+    },
+    {
+     "id": "arithmetic-progressions",
+     "title": "Arithmetic progressions",
+     "keywords": [
+      "arithmetic progression",
+      "ap",
+      "a.p.",
+      "common difference",
+      "nth term of ap",
+      "tn = a + (n-1)d",
+      "general term ap",
+      "sum of natural numbers",
+      "n(n+1)/2",
+      "gauss",
+      "5050",
+      "sum of first 100 numbers",
+      "increasing decreasing ap"
+     ]
+    },
+    {
+     "id": "geometric-progressions",
+     "title": "Geometric progressions",
+     "keywords": [
+      "geometric progression",
+      "gp",
+      "g.p.",
+      "common ratio",
+      "nth term of gp",
+      "tn = ar^(n-1)",
+      "doubling",
+      "bacteria growth",
+      "bouncing ball",
+      "exponential growth",
+      "decay",
+      "ap vs gp",
+      "difference between ap and gp"
+     ]
+    },
+    {
+     "id": "fractals",
+     "title": "Fractals: Sierpinski triangle and carpet",
+     "keywords": [
+      "fractal",
+      "fractals",
+      "sierpinski",
+      "sierpinski triangle",
+      "sierpinski gasket",
+      "sierpinski carpet",
+      "self-similarity",
+      "self similar",
+      "3^n",
+      "(3/4)^n",
+      "8^n",
+      "(8/9)^n",
+      "fractals in nature"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "What is the difference between an AP and a GP?",
+     "keywords": [
+      "ap vs gp",
+      "difference between ap and gp",
+      "arithmetic vs geometric"
+     ]
+    },
+    {
+     "q": "Why is it (n − 1)d and not nd in the AP formula?",
+     "keywords": [
+      "why n-1 in ap formula",
+      "n-1 d",
+      "ap formula explanation"
+     ]
+    },
+    {
+     "q": "What is the difference between an explicit and a recursive rule?",
+     "keywords": [
+      "explicit vs recursive",
+      "recursive rule",
+      "explicit formula"
+     ]
+    },
+    {
+     "q": "Why are they called Virahanka–Fibonacci numbers and not just Fibonacci numbers?",
+     "keywords": [
+      "virahanka",
+      "why virahanka fibonacci",
+      "fibonacci india"
+     ]
+    },
+    {
+     "q": "How did Gauss add 1 to 100 so quickly?",
+     "keywords": [
+      "gauss sum",
+      "sum 1 to 100",
+      "5050"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c9-math-probability",
+   "class": 9,
+   "subject": "mathematics",
+   "name": "The Mathematics of Maybe: Introduction to Probability",
+   "aliases": [
+    "probability",
+    "mathematics of maybe",
+    "the mathematics of maybe",
+    "maths of maybe"
+   ],
+   "file": "class-9/mathematics/the-mathematics-of-maybe-introduction-to-probability.json",
+   "topics": [
+    {
+     "id": "uncertainty-and-probability-scale",
+     "title": "Uncertainty, randomness and the probability scale",
+     "keywords": [
+      "probability",
+      "chance",
+      "likelihood",
+      "uncertainty",
+      "probability scale",
+      "impossible",
+      "certain",
+      "unlikely",
+      "likely",
+      "even chance",
+      "randomness",
+      "random experiment",
+      "trial",
+      "outcome",
+      "event"
+     ]
+    },
+    {
+     "id": "experimental-probability",
+     "title": "Experimental (empirical) probability",
+     "keywords": [
+      "experimental probability",
+      "empirical probability",
+      "relative frequency",
+      "trials",
+      "frequency",
+      "law of large numbers",
+      "coin toss experiment",
+      "number of trials",
+      "observed probability"
+     ]
+    },
+    {
+     "id": "theoretical-probability",
+     "title": "Theoretical probability",
+     "keywords": [
+      "theoretical probability",
+      "classical probability",
+      "favourable outcomes",
+      "equally likely",
+      "probability formula",
+      "probability of die",
+      "probability of cards",
+      "pack of cards",
+      "marbles",
+      "balls in a bag",
+      "probability of king"
+     ]
+    },
+    {
+     "id": "sample-space-and-tree-diagrams",
+     "title": "Sample space and tree diagrams",
+     "keywords": [
+      "sample space",
+      "outcomes",
+      "list of outcomes",
+      "tree diagram",
+      "two coins",
+      "three coins",
+      "tossing two coins",
+      "tossing three coins",
+      "two dice",
+      "36 outcomes",
+      "counting outcomes"
+     ]
+    },
+    {
+     "id": "events-and-complements",
+     "title": "Events and complementary events",
+     "keywords": [
+      "event",
+      "events",
+      "complementary event",
+      "complement",
+      "not e",
+      "p(not e)",
+      "1 - p(e)",
+      "sure event",
+      "impossible event",
+      "elementary event",
+      "at least one",
+      "sum of probabilities"
+     ]
+    },
+    {
+     "id": "common-probability-errors",
+     "title": "Common errors in thinking about chance",
+     "keywords": [
+      "gambler's fallacy",
+      "gamblers fallacy",
+      "independent events",
+      "coin has no memory",
+      "sum of two dice",
+      "probability of sum 7",
+      "equally likely mistake",
+      "probability greater than 1",
+      "negative probability",
+      "misconceptions probability",
+      "hot hand"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "What is the difference between experimental and theoretical probability?",
+     "keywords": [
+      "experimental vs theoretical",
+      "difference experimental theoretical probability",
+      "empirical vs classical"
+     ]
+    },
+    {
+     "q": "Why are there 4 outcomes, not 3, when two coins are tossed?",
+     "keywords": [
+      "two coins outcomes",
+      "why 4 outcomes two coins",
+      "ht th"
+     ]
+    },
+    {
+     "q": "If a coin shows heads 5 times in a row, isn't tails more likely next?",
+     "keywords": [
+      "gambler's fallacy",
+      "coin heads in a row",
+      "is tails due"
+     ]
+    },
+    {
+     "q": "Can a probability be more than 1?",
+     "keywords": [
+      "probability more than 1",
+      "probability greater than one",
+      "negative probability"
+     ]
+    },
+    {
+     "q": "How do I use P(not E) = 1 − P(E)?",
+     "keywords": [
+      "complementary event",
+      "p not e",
+      "at least one"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c9-math-numbers",
+   "class": 9,
+   "subject": "mathematics",
+   "name": "The World of Numbers",
+   "aliases": [
+    "number systems",
+    "number system",
+    "the world of numbers",
+    "world of numbers",
+    "real numbers"
+   ],
+   "file": "class-9/mathematics/the-world-of-numbers.json",
+   "topics": [
+    {
+     "id": "counting-to-integers",
+     "title": "From counting to integers: N, W, Z and the story of zero",
+     "keywords": [
+      "natural numbers",
+      "whole numbers",
+      "integers",
+      "number system",
+      "N W Z",
+      "tally marks",
+      "lebombo bone",
+      "ishango bone",
+      "place value",
+      "zero",
+      "shunya",
+      "history of zero",
+      "brahmagupta",
+      "dhana",
+      "rna",
+      "negative numbers",
+      "positive and negative",
+      "division by zero"
+     ]
+    },
+    {
+     "id": "rational-numbers",
+     "title": "Rational numbers, density and absolute value",
+     "keywords": [
+      "rational numbers",
+      "rational number",
+      "p/q",
+      "q not zero",
+      "fraction",
+      "lowest terms",
+      "density",
+      "dense",
+      "rational between two numbers",
+      "find rational numbers between",
+      "average method",
+      "absolute value",
+      "modulus",
+      "mod x",
+      "distance from zero"
+     ]
+    },
+    {
+     "id": "irrational-numbers",
+     "title": "Irrational numbers: √2, the square-root spiral and π",
+     "keywords": [
+      "irrational numbers",
+      "irrational number",
+      "root 2 irrational",
+      "√2 irrational proof",
+      "proof by contradiction",
+      "square root spiral",
+      "root spiral",
+      "represent √2 on number line",
+      "√3 on number line",
+      "pi",
+      "π",
+      "is pi rational",
+      "22/7",
+      "aryabhata",
+      "3.1416",
+      "madhava",
+      "madhava series",
+      "pythagoras"
+     ]
+    },
+    {
+     "id": "real-numbers",
+     "title": "Real numbers and the number line",
+     "keywords": [
+      "real numbers",
+      "real number",
+      "real number line",
+      "number line",
+      "rational and irrational",
+      "set of real numbers",
+      "R",
+      "operations on real numbers",
+      "irrational between two numbers",
+      "compare surds",
+      "arrange in order",
+      "sum of rational and irrational"
+     ]
+    },
+    {
+     "id": "decimal-expansions",
+     "title": "Decimal expansions: terminating, recurring and non-recurring",
+     "keywords": [
+      "decimal expansion",
+      "decimal expansions",
+      "terminating decimal",
+      "non terminating",
+      "recurring decimal",
+      "repeating decimal",
+      "non terminating non recurring",
+      "bar notation",
+      "convert recurring decimal to fraction",
+      "p/q form",
+      "0.999 = 1",
+      "1/7 decimal",
+      "cyclic number",
+      "142857",
+      "2 and 5 prime factors",
+      "will it terminate"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "What is the difference between rational and irrational numbers?",
+     "keywords": [
+      "rational vs irrational",
+      "difference rational irrational",
+      "rational and irrational numbers"
+     ]
+    },
+    {
+     "q": "Is 22/7 equal to π?",
+     "keywords": [
+      "is 22/7 pi",
+      "pi rational or irrational",
+      "22/7 rational"
+     ]
+    },
+    {
+     "q": "How can 0.999… be equal to 1?",
+     "keywords": [
+      "0.999 equals 1",
+      "point nine recurring",
+      "0.9 bar = 1"
+     ]
+    },
+    {
+     "q": "How do I know if a fraction will have a terminating decimal without dividing?",
+     "keywords": [
+      "terminating decimal test",
+      "will fraction terminate",
+      "denominator 2 and 5"
+     ]
+    },
+    {
+     "q": "How do I convert 0.181818… into p/q form?",
+     "keywords": [
+      "convert recurring decimal to fraction",
+      "0.18 bar",
+      "p/q form of recurring decimal"
+     ]
+    },
+    {
+     "q": "Why is √2 irrational but √4 rational?",
+     "keywords": [
+      "why root 2 irrational",
+      "root 4 rational",
+      "square roots rational or irrational"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c9-sci-atoms",
+   "class": 9,
+   "subject": "science",
+   "name": "Atomic Foundations of Matter",
+   "aliases": [
+    "atoms and molecules",
+    "atoms molecules",
+    "atom and molecule",
+    "atomic foundations",
+    "atomic foundations of matter"
+   ],
+   "file": "class-9/science/atomic-foundations-of-matter.json",
+   "topics": [
+    {
+     "id": "laws-of-combination",
+     "title": "Laws of chemical combination",
+     "keywords": [
+      "law of conservation of mass",
+      "conservation of mass",
+      "lavoisier",
+      "law of constant proportions",
+      "law of definite proportions",
+      "constant proportion",
+      "proust",
+      "laws of chemical combination",
+      "closed system",
+      "mass ratio",
+      "water 1:8",
+      "ratio by mass"
+     ]
+    },
+    {
+     "id": "dalton-atomic-theory",
+     "title": "Dalton's atomic theory and its modern changes",
+     "keywords": [
+      "dalton",
+      "dalton's atomic theory",
+      "atomic theory",
+      "postulates",
+      "atom",
+      "indivisible",
+      "isotopes",
+      "isobars",
+      "mass number",
+      "atomic number",
+      "modern atomic theory",
+      "drawbacks of dalton",
+      "limitations of dalton theory"
+     ]
+    },
+    {
+     "id": "covalent-bonds",
+     "title": "Why atoms bond: covalent bonds by sharing",
+     "keywords": [
+      "covalent bond",
+      "covalent bonding",
+      "sharing electrons",
+      "octet rule",
+      "duplet",
+      "octet",
+      "single bond",
+      "double bond",
+      "triple bond",
+      "electron dot structure",
+      "lewis structure",
+      "why atoms bond",
+      "chemical bond",
+      "naming covalent compounds",
+      "prefixes",
+      "carbon tetrachloride"
+     ]
+    },
+    {
+     "id": "ionic-bonds",
+     "title": "Ionic bonds by transfer; ions",
+     "keywords": [
+      "ionic bond",
+      "ionic bonding",
+      "electrovalent bond",
+      "electron transfer",
+      "ions",
+      "cation",
+      "anion",
+      "crystal lattice",
+      "sodium chloride",
+      "nacl",
+      "polyatomic ions",
+      "ammonium",
+      "hydroxide",
+      "nitrate",
+      "carbonate",
+      "sulphate",
+      "sulfate",
+      "phosphate"
+     ]
+    },
+    {
+     "id": "writing-formulas",
+     "title": "Writing chemical formulas (criss-cross method)",
+     "keywords": [
+      "chemical formula",
+      "writing formulas",
+      "criss cross method",
+      "criss-cross",
+      "valency",
+      "valencies",
+      "combining capacity",
+      "formula of compounds",
+      "al2o3",
+      "cacl2",
+      "caco3",
+      "ca(no3)2",
+      "subscript"
+     ]
+    },
+    {
+     "id": "ionic-vs-covalent",
+     "title": "Properties of ionic and covalent compounds",
+     "keywords": [
+      "properties of ionic compounds",
+      "properties of covalent compounds",
+      "ionic vs covalent",
+      "difference between ionic and covalent",
+      "melting point",
+      "boiling point",
+      "conductivity",
+      "conduct electricity",
+      "solubility",
+      "molten",
+      "aqueous solution"
+     ]
+    },
+    {
+     "id": "molecular-mass",
+     "title": "Molecular mass and formula unit mass",
+     "keywords": [
+      "molecular mass",
+      "formula unit mass",
+      "atomic mass",
+      "atomic mass unit",
+      "u",
+      "amu",
+      "calculate molecular mass",
+      "mass of h2o",
+      "mass of co2",
+      "relative molecular mass",
+      "formula mass"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "What is the difference between an ionic bond and a covalent bond?",
+     "keywords": [
+      "ionic vs covalent bond",
+      "difference ionic covalent",
+      "ionic and covalent bond"
+     ]
+    },
+    {
+     "q": "What is the difference between molecular mass and formula unit mass?",
+     "keywords": [
+      "molecular mass vs formula unit mass",
+      "formula unit mass",
+      "difference molecular mass"
+     ]
+    },
+    {
+     "q": "Why do ionic compounds conduct electricity only when molten or dissolved?",
+     "keywords": [
+      "ionic compounds conduct",
+      "why salt solution conducts",
+      "conductivity ionic"
+     ]
+    },
+    {
+     "q": "What is the difference between isotopes and isobars?",
+     "keywords": [
+      "isotopes vs isobars",
+      "difference isotopes isobars"
+     ]
+    },
+    {
+     "q": "Why does mass seem to decrease when some reactions happen in an open beaker?",
+     "keywords": [
+      "mass decrease open container",
+      "conservation of mass gas escapes",
+      "closed system"
+     ]
+    },
+    {
+     "q": "How do I write the formula of calcium nitrate?",
+     "keywords": [
+      "formula calcium nitrate",
+      "criss cross",
+      "writing formula polyatomic"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c9-sci-cell",
+   "class": 9,
+   "subject": "science",
+   "name": "Cell: The Building Block of Life",
+   "aliases": [
+    "cell",
+    "cells",
+    "the cell",
+    "cell the building block of life",
+    "building block of life",
+    "fundamental unit of life",
+    "the fundamental unit of life",
+    "cell structure",
+    "cell biology"
+   ],
+   "file": "class-9/science/cell-the-building-block-of-life.json",
+   "topics": [
+    {
+     "id": "microscopy",
+     "title": "Studying cells: microscopes and cell size",
+     "keywords": [
+      "microscope",
+      "microscopes",
+      "light microscope",
+      "electron microscope",
+      "magnification",
+      "total magnification",
+      "resolution",
+      "micrometre",
+      "µm",
+      "cell size",
+      "robert hooke",
+      "hooke",
+      "cork",
+      "tem",
+      "sem"
+     ]
+    },
+    {
+     "id": "membrane",
+     "title": "Cell membrane, cell wall and osmosis",
+     "keywords": [
+      "cell membrane",
+      "plasma membrane",
+      "selectively permeable",
+      "fluid mosaic",
+      "lipid bilayer",
+      "osmosis",
+      "diffusion",
+      "hypotonic",
+      "hypertonic",
+      "isotonic",
+      "plasmolysis",
+      "turgid",
+      "turgor",
+      "cell wall",
+      "cellulose"
+     ]
+    },
+    {
+     "id": "organelles",
+     "title": "Nucleus and cell organelles",
+     "keywords": [
+      "nucleus",
+      "organelles",
+      "cell organelles",
+      "prokaryotic",
+      "prokaryote",
+      "eukaryotic",
+      "eukaryote",
+      "nucleoid",
+      "nucleolus",
+      "chromatin",
+      "chromosomes",
+      "ribosomes",
+      "endoplasmic reticulum",
+      "rough er",
+      "smooth er",
+      "golgi",
+      "golgi apparatus",
+      "lysosome",
+      "lysosomes",
+      "suicide bags",
+      "mitochondria",
+      "powerhouse",
+      "atp",
+      "plastids",
+      "chloroplast",
+      "chromoplast",
+      "leucoplast",
+      "vacuole",
+      "cytoskeleton",
+      "red blood cell",
+      "plant and animal cell"
+     ]
+    },
+    {
+     "id": "division",
+     "title": "Cell division: mitosis and meiosis",
+     "keywords": [
+      "cell division",
+      "mitosis",
+      "meiosis",
+      "cell cycle",
+      "prophase",
+      "metaphase",
+      "anaphase",
+      "telophase",
+      "cytokinesis",
+      "crossing over",
+      "haploid",
+      "diploid",
+      "gametes",
+      "chromosome number",
+      "down syndrome",
+      "mitosis vs meiosis"
+     ]
+    },
+    {
+     "id": "cell-theory",
+     "title": "Cell theory, cancer and totipotency",
+     "keywords": [
+      "cell theory",
+      "schleiden",
+      "schwann",
+      "virchow",
+      "omnis cellula e cellula",
+      "cancer",
+      "tumour",
+      "tumor",
+      "benign",
+      "malignant",
+      "metastasis",
+      "contact inhibition",
+      "apoptosis",
+      "programmed cell death",
+      "totipotency",
+      "haberlandt",
+      "tissue culture",
+      "synthetic biology",
+      "craig venter"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "What is the difference between mitosis and meiosis?",
+     "keywords": [
+      "mitosis vs meiosis",
+      "difference mitosis meiosis"
+     ]
+    },
+    {
+     "q": "Why are lysosomes called suicide bags?",
+     "keywords": [
+      "lysosomes suicide bags"
+     ]
+    },
+    {
+     "q": "Why do mature red blood cells have no nucleus?",
+     "keywords": [
+      "red blood cell nucleus",
+      "rbc no nucleus",
+      "enucleate"
+     ]
+    },
+    {
+     "q": "What is the difference between osmosis and diffusion?",
+     "keywords": [
+      "osmosis vs diffusion",
+      "difference osmosis diffusion"
+     ]
+    },
+    {
+     "q": "How do you calculate total magnification of a microscope?",
+     "keywords": [
+      "total magnification",
+      "calculate magnification"
+     ]
+    }
+   ],
+   "quizCount": 11
+  },
+  {
+   "id": "c9-sci-motion",
+   "class": 9,
+   "subject": "science",
+   "name": "Describing Motion Around Us",
+   "aliases": [
+    "motion",
+    "describing motion",
+    "describing motion around us"
+   ],
+   "file": "class-9/science/describing-motion-around-us.json",
+   "topics": [
+    {
+     "id": "reference-position",
+     "title": "Reference point, position and types of motion",
+     "keywords": [
+      "motion",
+      "rest and motion",
+      "reference point",
+      "origin",
+      "position",
+      "relative motion",
+      "uniform motion",
+      "non-uniform motion",
+      "one dimensional motion",
+      "two dimensional motion",
+      "three dimensional motion",
+      "2d motion",
+      "3d motion"
+     ]
+    },
+    {
+     "id": "distance-displacement",
+     "title": "Distance and displacement",
+     "keywords": [
+      "distance",
+      "displacement",
+      "distance vs displacement",
+      "difference between distance and displacement",
+      "scalar",
+      "vector",
+      "scalar and vector",
+      "path length",
+      "clock hand problem",
+      "minute hand displacement",
+      "zero displacement"
+     ]
+    },
+    {
+     "id": "speed-velocity",
+     "title": "Speed and velocity",
+     "keywords": [
+      "speed",
+      "velocity",
+      "speed vs velocity",
+      "difference between speed and velocity",
+      "average speed",
+      "instantaneous speed",
+      "average velocity",
+      "speedometer",
+      "m/s",
+      "km/h to m/s",
+      "unit conversion",
+      "u+v/2"
+     ]
+    },
+    {
+     "id": "acceleration",
+     "title": "Acceleration",
+     "keywords": [
+      "acceleration",
+      "retardation",
+      "deceleration",
+      "negative acceleration",
+      "uniform acceleration",
+      "non-uniform acceleration",
+      "a = (v-u)/t",
+      "m/s2",
+      "rate of change of velocity",
+      "free fall"
+     ]
+    },
+    {
+     "id": "motion-graphs",
+     "title": "Position-time and velocity-time graphs",
+     "keywords": [
+      "graphs",
+      "motion graphs",
+      "position time graph",
+      "distance time graph",
+      "velocity time graph",
+      "speed time graph",
+      "slope",
+      "gradient",
+      "area under graph",
+      "x-t graph",
+      "v-t graph",
+      "graphical representation of motion"
+     ]
+    },
+    {
+     "id": "equations-of-motion",
+     "title": "Equations of uniformly accelerated motion",
+     "keywords": [
+      "equations of motion",
+      "three equations of motion",
+      "v = u + at",
+      "s = ut + 1/2at2",
+      "v2 - u2 = 2as",
+      "uniformly accelerated motion",
+      "kinematic equations",
+      "numericals motion",
+      "stopping distance",
+      "braking distance",
+      "derivation equations of motion"
+     ]
+    },
+    {
+     "id": "circular-motion",
+     "title": "Uniform circular motion",
+     "keywords": [
+      "uniform circular motion",
+      "circular motion",
+      "2 pi r by t",
+      "v = 2πr/T",
+      "tangent",
+      "accelerated motion",
+      "why circular motion is accelerated",
+      "time period",
+      "stone on string",
+      "circular track"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "What is the difference between distance and displacement?",
+     "keywords": [
+      "distance vs displacement",
+      "difference distance displacement"
+     ]
+    },
+    {
+     "q": "Can an object have constant speed but still be accelerating?",
+     "keywords": [
+      "constant speed acceleration",
+      "circular motion accelerated",
+      "why circular motion is accelerated"
+     ]
+    },
+    {
+     "q": "What does the area under a velocity-time graph tell us?",
+     "keywords": [
+      "area under velocity time graph",
+      "v-t graph area",
+      "slope of velocity time graph"
+     ]
+    },
+    {
+     "q": "What is the difference between speed and velocity?",
+     "keywords": [
+      "speed vs velocity",
+      "difference speed velocity"
+     ]
+    },
+    {
+     "q": "How do I choose which equation of motion to use?",
+     "keywords": [
+      "which equation of motion",
+      "how to solve numericals motion",
+      "equations of motion tips"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c9-sci-earth-system",
+   "class": 9,
+   "subject": "science",
+   "name": "Earth as a System",
+   "aliases": [
+    "earth as a system",
+    "earth system",
+    "natural resources"
+   ],
+   "file": "class-9/science/earth-as-a-system.json",
+   "topics": [
+    {
+     "id": "earth-spheres",
+     "title": "Earth's spheres and how they interact",
+     "keywords": [
+      "earth system",
+      "earth as a system",
+      "spheres",
+      "four spheres",
+      "five spheres",
+      "geosphere",
+      "lithosphere",
+      "hydrosphere",
+      "cryosphere",
+      "atmosphere",
+      "biosphere",
+      "interaction of spheres",
+      "system"
+     ]
+    },
+    {
+     "id": "solar-radiation",
+     "title": "Energy from the Sun: insolation, albedo and latitude",
+     "keywords": [
+      "solar radiation",
+      "sunlight",
+      "speed of light",
+      "3 x 10^8",
+      "solar constant",
+      "1.36 kw/m2",
+      "insolation",
+      "albedo",
+      "reflection",
+      "snow albedo",
+      "ice albedo feedback",
+      "latitude",
+      "equator",
+      "poles",
+      "uneven heating",
+      "angle of sun rays",
+      "solar energy"
+     ]
+    },
+    {
+     "id": "atmosphere",
+     "title": "The atmosphere: composition and layers",
+     "keywords": [
+      "atmosphere",
+      "composition of air",
+      "nitrogen",
+      "oxygen",
+      "argon",
+      "carbon dioxide",
+      "78%",
+      "21%",
+      "layers of atmosphere",
+      "troposphere",
+      "stratosphere",
+      "ozone layer",
+      "mesosphere",
+      "thermosphere",
+      "ionosphere",
+      "exosphere",
+      "uv",
+      "ultraviolet",
+      "meteors",
+      "aurora",
+      "air pressure"
+     ]
+    },
+    {
+     "id": "winds-and-currents",
+     "title": "Winds, pressure belts and ocean currents",
+     "keywords": [
+      "wind",
+      "winds",
+      "air pressure",
+      "high pressure",
+      "low pressure",
+      "sea breeze",
+      "land breeze",
+      "valley breeze",
+      "mountain breeze",
+      "pressure belts",
+      "subtropical high",
+      "subpolar low",
+      "trade winds",
+      "westerlies",
+      "monsoon",
+      "coriolis",
+      "coriolis effect",
+      "ocean currents",
+      "gyre",
+      "gyres",
+      "gulf stream",
+      "north atlantic drift",
+      "warm current",
+      "cold current"
+     ]
+    },
+    {
+     "id": "water-and-carbon-cycles",
+     "title": "The water cycle and the carbon cycle",
+     "keywords": [
+      "water cycle",
+      "hydrological cycle",
+      "evaporation",
+      "transpiration",
+      "condensation",
+      "precipitation",
+      "runoff",
+      "infiltration",
+      "groundwater",
+      "carbon cycle",
+      "fast carbon cycle",
+      "slow carbon cycle",
+      "photosynthesis",
+      "respiration",
+      "decomposition",
+      "fossil fuels",
+      "limestone",
+      "co2 levels",
+      "ppm",
+      "315 ppm",
+      "420 ppm",
+      "keeling curve"
+     ]
+    },
+    {
+     "id": "nitrogen-and-oxygen-cycles",
+     "title": "The nitrogen cycle and the oxygen cycle",
+     "keywords": [
+      "nitrogen cycle",
+      "nitrogen fixation",
+      "lightning",
+      "rhizobium",
+      "root nodules",
+      "legumes",
+      "azotobacter",
+      "haber bosch",
+      "haber process",
+      "ammonia",
+      "fertiliser",
+      "nitrification",
+      "nitrates",
+      "nitrites",
+      "assimilation",
+      "ammonification",
+      "denitrification",
+      "oxygen cycle",
+      "photosynthesis equation",
+      "chlorophyll",
+      "crop rotation",
+      "ozone"
+     ]
+    },
+    {
+     "id": "human-impact",
+     "title": "Human impact and solutions",
+     "keywords": [
+      "human impact",
+      "global warming",
+      "climate change",
+      "greenhouse effect",
+      "greenhouse gases",
+      "eutrophication",
+      "algal bloom",
+      "fertiliser runoff",
+      "deforestation",
+      "ozone depletion",
+      "ozone hole",
+      "cfc",
+      "cfcs",
+      "chlorofluorocarbons",
+      "ground level ozone",
+      "smog",
+      "montreal protocol",
+      "paris agreement",
+      "mission life",
+      "lifestyle for environment",
+      "sustainable living"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "What is the difference between the ozone hole and global warming?",
+     "keywords": [
+      "ozone hole vs global warming",
+      "ozone depletion global warming difference"
+     ]
+    },
+    {
+     "q": "Why does a sea breeze blow during the day?",
+     "keywords": [
+      "sea breeze",
+      "land breeze",
+      "why sea breeze day"
+     ]
+    },
+    {
+     "q": "Why is the equator hotter than the poles?",
+     "keywords": [
+      "equator hotter",
+      "latitude temperature",
+      "why poles cold"
+     ]
+    },
+    {
+     "q": "If air is 78% nitrogen, why do plants need nitrogen fertiliser?",
+     "keywords": [
+      "why plants need fertiliser",
+      "nitrogen fixation why",
+      "plants cannot use nitrogen gas"
+     ]
+    },
+    {
+     "q": "Is ozone good or bad?",
+     "keywords": [
+      "ozone good or bad",
+      "ground level ozone",
+      "stratospheric ozone"
+     ]
+    },
+    {
+     "q": "What is albedo and why does melting ice make warming worse?",
+     "keywords": [
+      "albedo",
+      "ice albedo feedback",
+      "melting ice warming"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c9-sci-exploration",
+   "class": 9,
+   "subject": "science",
+   "name": "Exploration: Entering the World of Secondary Science",
+   "aliases": [
+    "exploration",
+    "exploration science",
+    "science and scientists"
+   ],
+   "file": "class-9/science/exploration.json",
+   "topics": [
+    {
+     "id": "models",
+     "title": "Scientific models",
+     "keywords": [
+      "model",
+      "models",
+      "scientific model",
+      "simplification",
+      "simplify",
+      "point mass",
+      "meghnad saha",
+      "map analogy",
+      "assumption",
+      "levels of complexity"
+     ]
+    },
+    {
+     "id": "language",
+     "title": "The language of science: SI units, symbols and mathematics",
+     "keywords": [
+      "si units",
+      "si unit",
+      "units",
+      "international system of units",
+      "symbols",
+      "language of science",
+      "mathematics in science",
+      "kilogram",
+      "metre",
+      "kelvin",
+      "ampere",
+      "newton",
+      "speed of light",
+      "celeritas"
+     ]
+    },
+    {
+     "id": "laws-theories",
+     "title": "Laws, theories and principles",
+     "keywords": [
+      "law",
+      "laws",
+      "theory",
+      "theories",
+      "principle",
+      "principles",
+      "scientific law",
+      "scientific theory",
+      "law vs theory",
+      "difference law theory",
+      "conservation of energy",
+      "revision of ideas",
+      "self correcting"
+     ]
+    },
+    {
+     "id": "predictions",
+     "title": "Predictions and evaluating claims",
+     "keywords": [
+      "prediction",
+      "predictions",
+      "guess",
+      "prediction vs guess",
+      "evaluate claims",
+      "claims",
+      "misinformation",
+      "weather forecast",
+      "eclipse food",
+      "testable",
+      "hypothesis"
+     ]
+    },
+    {
+     "id": "estimation",
+     "title": "Estimation and science as a connected web",
+     "keywords": [
+      "estimation",
+      "estimate",
+      "approximate",
+      "approximation",
+      "air breathed",
+      "interdisciplinary",
+      "interconnected",
+      "branches of science",
+      "pressure cooker",
+      "climate change",
+      "mask",
+      "scientific thinking",
+      "habits"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "What is the difference between a scientific law and a theory?",
+     "keywords": [
+      "law vs theory",
+      "difference law theory"
+     ]
+    },
+    {
+     "q": "Why do scientists use models?",
+     "keywords": [
+      "why models",
+      "use of models"
+     ]
+    },
+    {
+     "q": "Why are SI units important?",
+     "keywords": [
+      "why si units",
+      "importance of units"
+     ]
+    },
+    {
+     "q": "What is the difference between a prediction and a guess?",
+     "keywords": [
+      "prediction vs guess",
+      "difference prediction guess"
+     ]
+    }
+   ],
+   "quizCount": 10
+  },
+  {
+   "id": "c9-sci-mixtures",
+   "class": 9,
+   "subject": "science",
+   "name": "Exploring Mixtures and their Separation",
+   "aliases": [
+    "mixtures",
+    "mixture",
+    "exploring mixtures",
+    "separation of mixtures",
+    "is matter around us pure",
+    "is matter pure",
+    "pure substances"
+   ],
+   "file": "class-9/science/exploring-mixtures-and-their-separation.json",
+   "topics": [
+    {
+     "id": "pure-substances-mixtures",
+     "title": "Pure substances, mixtures and particle size",
+     "keywords": [
+      "pure substance",
+      "mixture",
+      "mixtures",
+      "homogeneous mixture",
+      "heterogeneous mixture",
+      "types of mixtures",
+      "particle size",
+      "solution colloid suspension",
+      "difference solution colloid suspension",
+      "is matter around us pure",
+      "nanometre",
+      "nm"
+     ]
+    },
+    {
+     "id": "solutions-concentration",
+     "title": "Solutions and concentration",
+     "keywords": [
+      "solution",
+      "solute",
+      "solvent",
+      "universal solvent",
+      "concentration",
+      "concentration of solution",
+      "mass by mass percentage",
+      "mass by volume percentage",
+      "volume by volume percentage",
+      "% m/m",
+      "% m/v",
+      "% v/v",
+      "percentage concentration",
+      "numericals concentration"
+     ]
+    },
+    {
+     "id": "solubility-crystallisation",
+     "title": "Solubility, saturated solutions and crystallisation",
+     "keywords": [
+      "solubility",
+      "saturated solution",
+      "unsaturated solution",
+      "supersaturated",
+      "effect of temperature on solubility",
+      "solubility of gases",
+      "solubility curve",
+      "crystallisation",
+      "crystallization",
+      "crystals",
+      "crystallisation vs evaporation",
+      "evaporation",
+      "pure crystals"
+     ]
+    },
+    {
+     "id": "distillation-chromatography",
+     "title": "Distillation, fractional distillation and chromatography",
+     "keywords": [
+      "distillation",
+      "simple distillation",
+      "fractional distillation",
+      "fractionating column",
+      "condenser",
+      "distillate",
+      "boiling point",
+      "acetone and water",
+      "miscible liquids",
+      "deg bhapka",
+      "kannauj",
+      "attar",
+      "perfume",
+      "chromatography",
+      "paper chromatography",
+      "ink separation",
+      "dyes",
+      "separation of air"
+     ]
+    },
+    {
+     "id": "suspensions-other-methods",
+     "title": "Separating suspensions and other mixtures",
+     "keywords": [
+      "separating funnel",
+      "immiscible liquids",
+      "oil and water",
+      "mustard oil",
+      "sublimation",
+      "camphor",
+      "naphthalene",
+      "iodine",
+      "ammonium chloride",
+      "salt and ammonium chloride",
+      "filtration",
+      "residue",
+      "filtrate",
+      "sedimentation",
+      "decantation",
+      "centrifugation",
+      "centrifuge",
+      "cream from milk",
+      "paperfuge",
+      "alum",
+      "phitkari",
+      "loading",
+      "coagulation",
+      "paneer"
+     ]
+    },
+    {
+     "id": "colloids-tyndall",
+     "title": "Colloids, emulsions and the Tyndall effect",
+     "keywords": [
+      "colloid",
+      "colloids",
+      "colloidal solution",
+      "dispersed phase",
+      "dispersion medium",
+      "emulsion",
+      "oil in water",
+      "water in oil",
+      "milk",
+      "butter",
+      "cold cream",
+      "vanishing cream",
+      "fog",
+      "smoke",
+      "gel",
+      "foam",
+      "aerosol",
+      "tyndall effect",
+      "john tyndall",
+      "scattering of light"
+     ]
+    },
+    {
+     "id": "alloys-choosing-methods",
+     "title": "Alloys and choosing a separation technique",
+     "keywords": [
+      "alloy",
+      "alloys",
+      "solid solution",
+      "brass",
+      "bronze",
+      "stainless steel",
+      "solder",
+      "alloy is a mixture",
+      "choosing separation technique",
+      "separation methods",
+      "methods of separation",
+      "salt sand ammonium chloride",
+      "separate salt and sand",
+      "magnetic separation"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "What is the difference between a solution, a colloid and a suspension?",
+     "keywords": [
+      "solution colloid suspension",
+      "difference solution colloid suspension",
+      "true solution vs colloid"
+     ]
+    },
+    {
+     "q": "When should I use distillation and when fractional distillation?",
+     "keywords": [
+      "distillation vs fractional distillation",
+      "when to use fractional distillation"
+     ]
+    },
+    {
+     "q": "Why is crystallisation better than evaporation for getting a pure solid?",
+     "keywords": [
+      "crystallisation vs evaporation",
+      "why crystallisation better"
+     ]
+    },
+    {
+     "q": "Is an alloy a mixture or a compound?",
+     "keywords": [
+      "alloy mixture or compound",
+      "why alloy is mixture"
+     ]
+    },
+    {
+     "q": "Why can we see a torch beam in fog but not in salt water?",
+     "keywords": [
+      "tyndall effect",
+      "why beam visible in fog",
+      "tyndall effect solution"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c9-sci-force",
+   "class": 9,
+   "subject": "science",
+   "name": "How Forces Affect Motion",
+   "aliases": [
+    "force",
+    "forces",
+    "how forces affect motion",
+    "force and laws of motion",
+    "laws of motion",
+    "newtons laws",
+    "newton laws",
+    "force and laws"
+   ],
+   "file": "class-9/science/how-forces-affect-motion.json",
+   "topics": [
+    {
+     "id": "force-basics",
+     "title": "What is a force? Units and measurement",
+     "keywords": [
+      "force",
+      "what is force",
+      "push",
+      "pull",
+      "newton",
+      "unit of force",
+      "si unit of force",
+      "1 newton",
+      "vector",
+      "spring balance",
+      "newton meter",
+      "contact force",
+      "non-contact force",
+      "effects of force"
+     ]
+    },
+    {
+     "id": "balanced-unbalanced",
+     "title": "Balanced and unbalanced forces",
+     "keywords": [
+      "balanced forces",
+      "unbalanced forces",
+      "balanced and unbalanced",
+      "resultant force",
+      "net force",
+      "resultant",
+      "tug of war",
+      "adding forces",
+      "combined force",
+      "zero net force"
+     ]
+    },
+    {
+     "id": "friction",
+     "title": "Friction",
+     "keywords": [
+      "friction",
+      "frictional force",
+      "opposes motion",
+      "lubricant",
+      "lubricants",
+      "ball bearings",
+      "treads",
+      "tyre treads",
+      "reduce friction",
+      "increase friction",
+      "rolling friction",
+      "sliding friction",
+      "advantages of friction",
+      "disadvantages of friction"
+     ]
+    },
+    {
+     "id": "first-law-inertia",
+     "title": "Newton's first law and inertia",
+     "keywords": [
+      "newton's first law",
+      "first law of motion",
+      "law of inertia",
+      "inertia",
+      "inertia of rest",
+      "inertia of motion",
+      "inertia of direction",
+      "mass and inertia",
+      "seat belt",
+      "coin and card",
+      "bus brakes",
+      "passengers fall forward"
+     ]
+    },
+    {
+     "id": "second-law",
+     "title": "Momentum and Newton's second law (F = ma)",
+     "keywords": [
+      "newton's second law",
+      "second law of motion",
+      "f = ma",
+      "f=ma",
+      "force mass acceleration",
+      "momentum",
+      "p = mv",
+      "rate of change of momentum",
+      "weight",
+      "w = mg",
+      "mass and weight",
+      "g = 9.8",
+      "acceleration due to gravity",
+      "kg m/s"
+     ]
+    },
+    {
+     "id": "third-law",
+     "title": "Newton's third law: action and reaction",
+     "keywords": [
+      "newton's third law",
+      "third law of motion",
+      "action and reaction",
+      "action reaction",
+      "equal and opposite",
+      "recoil",
+      "gun recoil",
+      "rocket",
+      "walking",
+      "swimming",
+      "why action reaction don't cancel",
+      "boat"
+     ]
+    },
+    {
+     "id": "impulse-systems",
+     "title": "Impulse, and forces in a system of objects",
+     "keywords": [
+      "impulse",
+      "impulse formula",
+      "f × t",
+      "change in momentum",
+      "newton second",
+      "catching a ball",
+      "fielder pulls hands back",
+      "airbag",
+      "airbags",
+      "seat belt",
+      "system of objects",
+      "internal forces",
+      "external force",
+      "two blocks",
+      "connected bodies"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "If action and reaction are equal and opposite, why don't they cancel?",
+     "keywords": [
+      "action reaction cancel",
+      "why don't action reaction cancel",
+      "third law doubt"
+     ]
+    },
+    {
+     "q": "What is the difference between mass and weight?",
+     "keywords": [
+      "mass vs weight",
+      "difference between mass and weight",
+      "mass and weight"
+     ]
+    },
+    {
+     "q": "Why do passengers fall forward when a bus stops suddenly?",
+     "keywords": [
+      "bus stops suddenly",
+      "passengers fall forward",
+      "inertia example"
+     ]
+    },
+    {
+     "q": "Why does a fielder pull his hands back while catching a ball?",
+     "keywords": [
+      "catching a ball",
+      "cricket catch",
+      "pull hands back",
+      "impulse example"
+     ]
+    },
+    {
+     "q": "What is the difference between balanced and unbalanced forces?",
+     "keywords": [
+      "balanced vs unbalanced",
+      "difference balanced unbalanced"
+     ]
+    },
+    {
+     "q": "What is the difference between momentum and impulse?",
+     "keywords": [
+      "momentum vs impulse",
+      "difference momentum impulse"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c9-sci-atom-structure",
+   "class": 9,
+   "subject": "science",
+   "name": "Journey Inside the Atom",
+   "aliases": [
+    "structure of the atom",
+    "structure of atom",
+    "journey inside the atom",
+    "atomic structure",
+    "inside the atom"
+   ],
+   "file": "class-9/science/journey-inside-the-atom.json",
+   "topics": [
+    {
+     "id": "early-ideas-thomson",
+     "title": "Early ideas, Dalton, and Thomson's electron",
+     "keywords": [
+      "kanada",
+      "parmanu",
+      "democritus",
+      "atomos",
+      "dalton",
+      "dalton's atomic theory",
+      "thomson",
+      "jj thomson",
+      "electron discovery",
+      "cathode rays",
+      "plum pudding model",
+      "watermelon model",
+      "thomson model",
+      "history of atom"
+     ]
+    },
+    {
+     "id": "rutherford",
+     "title": "Rutherford's gold-foil experiment and the nucleus",
+     "keywords": [
+      "rutherford",
+      "gold foil experiment",
+      "alpha particle scattering",
+      "alpha particles",
+      "rutherford model",
+      "nuclear model",
+      "nucleus",
+      "discovery of nucleus",
+      "empty space",
+      "limitations of rutherford model",
+      "drawbacks of rutherford model",
+      "proton discovery",
+      "size of nucleus"
+     ]
+    },
+    {
+     "id": "bohr-particles",
+     "title": "Bohr's model, the neutron, and the three subatomic particles",
+     "keywords": [
+      "bohr",
+      "bohr model",
+      "bohr's model",
+      "shells",
+      "energy levels",
+      "orbits",
+      "k l m n shells",
+      "chadwick",
+      "neutron",
+      "discovery of neutron",
+      "subatomic particles",
+      "electron proton neutron",
+      "charge and mass",
+      "nucleons",
+      "atomic mass unit"
+     ]
+    },
+    {
+     "id": "atomic-mass-number",
+     "title": "Atomic number and mass number",
+     "keywords": [
+      "atomic number",
+      "mass number",
+      "z",
+      "a",
+      "number of neutrons",
+      "find neutrons",
+      "a minus z",
+      "protons neutrons electrons",
+      "nucleons",
+      "atomic notation",
+      "symbol notation",
+      "how to find protons"
+     ]
+    },
+    {
+     "id": "electronic-configuration",
+     "title": "Electronic configuration: Bohr–Bury rules",
+     "keywords": [
+      "electronic configuration",
+      "electron configuration",
+      "electron distribution",
+      "bohr bury rules",
+      "bohr-bury",
+      "2n2",
+      "2n square",
+      "shells capacity",
+      "k l m n",
+      "configuration of first 20 elements",
+      "sodium configuration",
+      "chlorine configuration",
+      "calcium configuration",
+      "potassium 2 8 8 1"
+     ]
+    },
+    {
+     "id": "valency",
+     "title": "Valency",
+     "keywords": [
+      "valency",
+      "valence electrons",
+      "valence",
+      "combining capacity",
+      "octet",
+      "octet rule",
+      "duplet",
+      "how to find valency",
+      "valency of oxygen",
+      "valency of chlorine",
+      "valency of sodium",
+      "valency of carbon",
+      "noble gases",
+      "stable configuration"
+     ]
+    },
+    {
+     "id": "isotopes-isobars",
+     "title": "Isotopes, average atomic mass and isobars",
+     "keywords": [
+      "isotopes",
+      "isotope",
+      "isobars",
+      "isobar",
+      "isotopes vs isobars",
+      "protium",
+      "deuterium",
+      "tritium",
+      "carbon 14",
+      "carbon dating",
+      "uses of isotopes",
+      "cobalt 60",
+      "iodine 131",
+      "uranium 235",
+      "average atomic mass",
+      "chlorine 35.5",
+      "fractional atomic mass"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "What is the difference between isotopes and isobars?",
+     "keywords": [
+      "isotopes vs isobars",
+      "difference isotopes isobars"
+     ]
+    },
+    {
+     "q": "What is the difference between atomic number and mass number?",
+     "keywords": [
+      "atomic number vs mass number",
+      "difference atomic mass number"
+     ]
+    },
+    {
+     "q": "Why did most alpha particles pass straight through the gold foil?",
+     "keywords": [
+      "alpha particles pass through",
+      "gold foil observation",
+      "rutherford conclusion"
+     ]
+    },
+    {
+     "q": "Why is the atomic mass of chlorine 35.5 and not a whole number?",
+     "keywords": [
+      "chlorine 35.5",
+      "fractional atomic mass",
+      "average atomic mass"
+     ]
+    },
+    {
+     "q": "What was wrong with Rutherford's model, and how did Bohr fix it?",
+     "keywords": [
+      "limitation of rutherford model",
+      "drawback rutherford",
+      "bohr fixed",
+      "rutherford vs bohr"
+     ]
+    },
+    {
+     "q": "How do I find the valency of an element?",
+     "keywords": [
+      "how to find valency",
+      "valency trick",
+      "valency calculation"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c9-sci-diversity",
+   "class": 9,
+   "subject": "science",
+   "name": "Patterns in Life: Diversity and Classification",
+   "aliases": [
+    "diversity",
+    "classification",
+    "patterns in life",
+    "diversity in living organisms",
+    "diversity and classification"
+   ],
+   "file": "class-9/science/patterns-in-life-diversity-and-classification.json",
+   "topics": [
+    {
+     "id": "biodiversity",
+     "title": "Biodiversity, India and hotspots",
+     "keywords": [
+      "biodiversity",
+      "diversity",
+      "megadiverse",
+      "megadiversity",
+      "endemic",
+      "endemic species",
+      "nilgiri tahr",
+      "lion-tailed macaque",
+      "biodiversity hotspot",
+      "hotspots",
+      "western ghats",
+      "himalaya",
+      "indo-burma",
+      "sundaland",
+      "nicobar",
+      "threats to biodiversity",
+      "habitat loss",
+      "invasive species",
+      "conservation",
+      "project tiger"
+     ]
+    },
+    {
+     "id": "history-of-classification",
+     "title": "Why classify? From Aristotle to three domains",
+     "keywords": [
+      "classification",
+      "why classify",
+      "aristotle",
+      "linnaeus",
+      "two kingdom",
+      "three kingdom",
+      "four kingdom",
+      "five kingdom",
+      "five kingdom classification",
+      "whittaker",
+      "1969",
+      "three domains",
+      "carl woese",
+      "archaea",
+      "bacteria",
+      "eukarya",
+      "criteria of classification",
+      "virus",
+      "viruses",
+      "autotrophic",
+      "heterotrophic",
+      "prokaryotic",
+      "eukaryotic"
+     ]
+    },
+    {
+     "id": "monera-protista-fungi",
+     "title": "Monera, Protista, Fungi and lichens",
+     "keywords": [
+      "monera",
+      "bacteria",
+      "cyanobacteria",
+      "blue green algae",
+      "prokaryote",
+      "protista",
+      "protists",
+      "amoeba",
+      "paramecium",
+      "euglena",
+      "pseudopodia",
+      "cilia",
+      "flagella",
+      "fungi",
+      "fungus",
+      "chitin",
+      "saprophyte",
+      "saprophytic",
+      "decomposer",
+      "yeast",
+      "penicillium",
+      "mushroom",
+      "hyphae",
+      "lichen",
+      "lichens",
+      "symbiosis",
+      "pollution indicator"
+     ]
+    },
+    {
+     "id": "plantae",
+     "title": "Kingdom Plantae",
+     "keywords": [
+      "plantae",
+      "plant kingdom",
+      "thallophyta",
+      "algae",
+      "spirogyra",
+      "thallus",
+      "bryophyta",
+      "bryophytes",
+      "amphibians of the plant kingdom",
+      "moss",
+      "marchantia",
+      "funaria",
+      "pteridophyta",
+      "pteridophytes",
+      "fern",
+      "ferns",
+      "vascular tissue",
+      "gymnosperms",
+      "naked seeds",
+      "pine",
+      "cycas",
+      "angiosperms",
+      "flowering plants",
+      "monocot",
+      "dicot",
+      "monocotyledon",
+      "dicotyledon",
+      "cotyledon",
+      "cryptogams",
+      "phanerogams"
+     ]
+    },
+    {
+     "id": "non-chordates",
+     "title": "Kingdom Animalia: non-chordates",
+     "keywords": [
+      "animalia",
+      "animal kingdom",
+      "non-chordates",
+      "non chordata",
+      "invertebrates",
+      "notochord",
+      "porifera",
+      "sponges",
+      "cnidaria",
+      "coelenterata",
+      "hydra",
+      "jellyfish",
+      "platyhelminthes",
+      "flatworm",
+      "tapeworm",
+      "nematoda",
+      "roundworm",
+      "ascaris",
+      "annelida",
+      "earthworm",
+      "leech",
+      "arthropoda",
+      "arthropods",
+      "largest phylum",
+      "jointed legs",
+      "insects",
+      "mollusca",
+      "snail",
+      "octopus",
+      "echinodermata",
+      "starfish",
+      "phylum"
+     ]
+    },
+    {
+     "id": "chordates",
+     "title": "Chordates: Protochordata and Vertebrata",
+     "keywords": [
+      "chordata",
+      "chordates",
+      "protochordata",
+      "balanoglossus",
+      "amphioxus",
+      "vertebrata",
+      "vertebrates",
+      "backbone",
+      "vertebral column",
+      "pisces",
+      "fish",
+      "gills",
+      "amphibia",
+      "amphibians",
+      "frog",
+      "reptilia",
+      "reptiles",
+      "aves",
+      "birds",
+      "feathers",
+      "mammalia",
+      "mammals",
+      "mammary glands",
+      "warm blooded",
+      "cold blooded",
+      "platypus",
+      "whale",
+      "bat"
+     ]
+    },
+    {
+     "id": "naming-and-adaptation",
+     "title": "Hierarchy, binomial names, adaptations and fossils",
+     "keywords": [
+      "hierarchy",
+      "hierarchy of classification",
+      "taxonomic hierarchy",
+      "kingdom phylum class order family genus species",
+      "genus",
+      "species",
+      "binomial nomenclature",
+      "scientific name",
+      "linnaeus",
+      "panthera tigris",
+      "homo sapiens",
+      "mangifera indica",
+      "adaptation",
+      "adaptations",
+      "fossils",
+      "fossil",
+      "birbal sahni",
+      "palaeobotany",
+      "paleobotany",
+      "taxonomy"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "Why are fungi not plants?",
+     "keywords": [
+      "fungi not plants",
+      "why fungi separate kingdom"
+     ]
+    },
+    {
+     "q": "What is the difference between gymnosperms and angiosperms?",
+     "keywords": [
+      "gymnosperms vs angiosperms",
+      "difference gymnosperm angiosperm"
+     ]
+    },
+    {
+     "q": "Why are bryophytes called amphibians of the plant kingdom?",
+     "keywords": [
+      "amphibians of plant kingdom",
+      "bryophytes amphibians"
+     ]
+    },
+    {
+     "q": "Why are viruses not included in the five kingdoms?",
+     "keywords": [
+      "viruses classification",
+      "why virus not in five kingdom"
+     ]
+    },
+    {
+     "q": "How do I write a scientific name correctly?",
+     "keywords": [
+      "scientific name rules",
+      "binomial nomenclature rules",
+      "how to write scientific name"
+     ]
+    },
+    {
+     "q": "What is the difference between monocots and dicots?",
+     "keywords": [
+      "monocot vs dicot",
+      "difference monocot dicot"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c9-sci-reproduction",
+   "class": 9,
+   "subject": "science",
+   "name": "Reproduction: How Life Continues",
+   "aliases": [
+    "reproduction",
+    "how life continues",
+    "reproduction how life continues",
+    "how do organisms reproduce"
+   ],
+   "file": "class-9/science/reproduction-how-life-continues.json",
+   "topics": [
+    {
+     "id": "asexual-reproduction",
+     "title": "Why reproduce? Asexual reproduction",
+     "keywords": [
+      "reproduction",
+      "why reproduce",
+      "asexual reproduction",
+      "asexual",
+      "budding",
+      "yeast",
+      "hydra",
+      "spore formation",
+      "spores",
+      "sporangium",
+      "rhizopus",
+      "bread mould",
+      "binary fission",
+      "fission",
+      "amoeba",
+      "fragmentation",
+      "spirogyra",
+      "clone"
+     ]
+    },
+    {
+     "id": "vegetative-propagation",
+     "title": "Vegetative propagation: natural and artificial",
+     "keywords": [
+      "vegetative propagation",
+      "vegetative reproduction",
+      "potato",
+      "tuber",
+      "stem tuber",
+      "eyes of potato",
+      "ginger",
+      "rhizome",
+      "bryophyllum",
+      "leaf buds",
+      "cutting",
+      "layering",
+      "grafting",
+      "scion",
+      "stock",
+      "tissue culture",
+      "micropropagation",
+      "banana"
+     ]
+    },
+    {
+     "id": "flowers-and-pollination",
+     "title": "Sexual reproduction, flowers and pollination",
+     "keywords": [
+      "sexual reproduction",
+      "variation",
+      "gametes",
+      "chromosomes",
+      "23 pairs",
+      "meiosis",
+      "flower",
+      "parts of a flower",
+      "sepals",
+      "petals",
+      "stamen",
+      "anther",
+      "filament",
+      "pollen",
+      "pistil",
+      "carpel",
+      "stigma",
+      "style",
+      "ovary",
+      "ovule",
+      "bisexual flower",
+      "unisexual flower",
+      "pollination",
+      "self pollination",
+      "cross pollination",
+      "agents of pollination",
+      "wind pollination",
+      "vallisneria"
+     ]
+    },
+    {
+     "id": "fertilisation",
+     "title": "Fertilisation in plants and animals",
+     "keywords": [
+      "fertilisation",
+      "fertilization",
+      "pollen tube",
+      "zygote",
+      "embryo",
+      "seed",
+      "fruit",
+      "ovule becomes seed",
+      "ovary becomes fruit",
+      "germination",
+      "external fertilisation",
+      "internal fertilisation",
+      "fish",
+      "frog",
+      "viviparous",
+      "oviparous"
+     ]
+    },
+    {
+     "id": "human-reproductive-system",
+     "title": "Puberty and the human reproductive systems",
+     "keywords": [
+      "puberty",
+      "adolescence",
+      "changes at puberty",
+      "hormones",
+      "testosterone",
+      "oestrogen",
+      "estrogen",
+      "progesterone",
+      "male reproductive system",
+      "testes",
+      "testis",
+      "scrotum",
+      "sperm",
+      "vas deferens",
+      "seminal vesicle",
+      "prostate gland",
+      "urethra",
+      "semen",
+      "female reproductive system",
+      "ovary",
+      "ovaries",
+      "egg",
+      "ovum",
+      "fallopian tube",
+      "oviduct",
+      "uterus",
+      "womb",
+      "cervix",
+      "vagina",
+      "sperm vs egg"
+     ]
+    },
+    {
+     "id": "pregnancy-and-menstrual-cycle",
+     "title": "Pregnancy, IVF and the menstrual cycle",
+     "keywords": [
+      "pregnancy",
+      "zygote",
+      "embryo",
+      "foetus",
+      "fetus",
+      "implantation",
+      "placenta",
+      "umbilical cord",
+      "gestation",
+      "trimester",
+      "9 months",
+      "maternal health",
+      "asha worker",
+      "asha",
+      "ivf",
+      "in vitro fertilisation",
+      "test tube baby",
+      "subhash mukhopadhyay",
+      "menstrual cycle",
+      "menstruation",
+      "periods",
+      "ovulation",
+      "menarche",
+      "menopause",
+      "menstrual hygiene",
+      "sanitary pad",
+      "menstrual cup",
+      "period stigma"
+     ]
+    },
+    {
+     "id": "sex-determination-and-reproductive-health",
+     "title": "Sex determination and reproductive health",
+     "keywords": [
+      "sex determination",
+      "sex chromosomes",
+      "xx",
+      "xy",
+      "x chromosome",
+      "y chromosome",
+      "autosomes",
+      "boy or girl",
+      "pcpndt act",
+      "pndt act",
+      "sex selective abortion",
+      "female foeticide",
+      "sex ratio",
+      "reproductive health",
+      "sti",
+      "std",
+      "sexually transmitted infection",
+      "hiv",
+      "aids",
+      "gonorrhoea",
+      "syphilis",
+      "contraception",
+      "contraceptive",
+      "family planning",
+      "condom",
+      "oral pills",
+      "copper t",
+      "iud",
+      "vasectomy",
+      "tubectomy"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "What is the difference between pollination and fertilisation?",
+     "keywords": [
+      "pollination vs fertilisation",
+      "difference pollination fertilization"
+     ]
+    },
+    {
+     "q": "What is the difference between asexual and sexual reproduction?",
+     "keywords": [
+      "asexual vs sexual",
+      "difference asexual sexual reproduction"
+     ]
+    },
+    {
+     "q": "Who decides whether a baby is a boy or a girl?",
+     "keywords": [
+      "sex determination",
+      "who decides boy or girl",
+      "xx xy"
+     ]
+    },
+    {
+     "q": "Why do fish and frogs lay so many eggs?",
+     "keywords": [
+      "external fertilisation",
+      "why frogs lay many eggs"
+     ]
+    },
+    {
+     "q": "Is it normal if my periods are not exactly 28 days apart?",
+     "keywords": [
+      "irregular periods",
+      "menstrual cycle length",
+      "28 days"
+     ]
+    },
+    {
+     "q": "What does the placenta do?",
+     "keywords": [
+      "placenta function",
+      "umbilical cord"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c9-sci-sound",
+   "class": 9,
+   "subject": "science",
+   "name": "Sound Waves",
+   "aliases": [
+    "sound",
+    "sound waves"
+   ],
+   "file": "class-9/science/sound-waves.json",
+   "topics": [
+    {
+     "id": "production-and-medium",
+     "title": "How sound is produced and why it needs a medium",
+     "keywords": [
+      "production of sound",
+      "how sound is produced",
+      "vibration",
+      "vibrating",
+      "tuning fork",
+      "vocal cords",
+      "larynx",
+      "medium",
+      "bell jar",
+      "bell jar experiment",
+      "vacuum",
+      "sound in vacuum",
+      "sound needs medium"
+     ]
+    },
+    {
+     "id": "propagation",
+     "title": "Propagation of sound: compressions and rarefactions",
+     "keywords": [
+      "propagation of sound",
+      "compression",
+      "compressions",
+      "rarefaction",
+      "rarefactions",
+      "longitudinal wave",
+      "transverse wave",
+      "slinky",
+      "mechanical wave",
+      "wave motion",
+      "pressure variation",
+      "density",
+      "energy transfer"
+     ]
+    },
+    {
+     "id": "wave-characteristics",
+     "title": "Characteristics of a sound wave: λ, ν, T, amplitude and v = λν",
+     "keywords": [
+      "wavelength",
+      "frequency",
+      "time period",
+      "amplitude",
+      "intensity",
+      "hertz",
+      "hz",
+      "v = λν",
+      "wave equation",
+      "speed of sound formula",
+      "crest",
+      "trough",
+      "lambda",
+      "nu",
+      "characteristics of sound wave",
+      "wave velocity"
+     ]
+    },
+    {
+     "id": "speed-in-media",
+     "title": "Speed of sound in different media",
+     "keywords": [
+      "speed of sound",
+      "velocity of sound",
+      "speed of sound in air",
+      "speed of sound in water",
+      "speed of sound in solids",
+      "speed of sound in steel",
+      "medium",
+      "temperature",
+      "346 m/s",
+      "sound in different media",
+      "thunder and lightning",
+      "fastest medium"
+     ]
+    },
+    {
+     "id": "loudness-pitch-quality",
+     "title": "Loudness, pitch, quality and the audible range",
+     "keywords": [
+      "loudness",
+      "pitch",
+      "quality",
+      "timbre",
+      "decibel",
+      "db",
+      "amplitude",
+      "frequency",
+      "audible range",
+      "range of hearing",
+      "20 hz to 20 khz",
+      "shrill",
+      "high pitch",
+      "low pitch",
+      "loudness vs pitch",
+      "noise"
+     ]
+    },
+    {
+     "id": "reflection-echo",
+     "title": "Reflection of sound, echo and reverberation",
+     "keywords": [
+      "reflection of sound",
+      "laws of reflection",
+      "echo",
+      "minimum distance for echo",
+      "17 m",
+      "0.1 s",
+      "persistence of hearing",
+      "reverberation",
+      "multiple reflection",
+      "megaphone",
+      "stethoscope",
+      "sound board",
+      "soundboard",
+      "curved ceiling",
+      "auditorium",
+      "acoustics"
+     ]
+    },
+    {
+     "id": "infrasound-ultrasound",
+     "title": "Infrasound, ultrasound and SONAR",
+     "keywords": [
+      "infrasound",
+      "infrasonic",
+      "ultrasound",
+      "ultrasonic",
+      "sonar",
+      "echolocation",
+      "bats",
+      "dolphins",
+      "dog whistle",
+      "elephants",
+      "whales",
+      "earthquake",
+      "ultrasonography",
+      "ultrasound scan",
+      "sonography",
+      "flaws in metal",
+      "ultrasonic cleaning",
+      "depth of sea",
+      "applications of ultrasound"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "What is the difference between an echo and reverberation?",
+     "keywords": [
+      "echo vs reverberation",
+      "difference echo reverberation"
+     ]
+    },
+    {
+     "q": "What is the difference between loudness and pitch?",
+     "keywords": [
+      "loudness vs pitch",
+      "difference loudness pitch"
+     ]
+    },
+    {
+     "q": "Why do we see lightning before we hear thunder?",
+     "keywords": [
+      "lightning before thunder",
+      "light faster than sound"
+     ]
+    },
+    {
+     "q": "Why do we divide by 2 in echo and SONAR calculations?",
+     "keywords": [
+      "divide by 2 echo",
+      "sonar formula",
+      "depth formula"
+     ]
+    },
+    {
+     "q": "Why is sound faster in solids than in gases?",
+     "keywords": [
+      "sound faster in solids",
+      "speed of sound solids gases"
+     ]
+    },
+    {
+     "q": "What is the difference between longitudinal and transverse waves?",
+     "keywords": [
+      "longitudinal vs transverse",
+      "difference longitudinal transverse wave"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c9-sci-tissues",
+   "class": 9,
+   "subject": "science",
+   "name": "Tissues in Action",
+   "aliases": [
+    "tissues",
+    "tissue",
+    "tissues in action"
+   ],
+   "file": "class-9/science/tissues-in-action.json",
+   "topics": [
+    {
+     "id": "what-are-tissues",
+     "title": "What is a tissue? Levels of organisation",
+     "keywords": [
+      "tissue",
+      "tissues",
+      "what is tissue",
+      "definition of tissue",
+      "levels of organisation",
+      "cell tissue organ",
+      "organ system",
+      "division of labour",
+      "plant vs animal tissue",
+      "why plant and animal tissues differ",
+      "multicellular"
+     ]
+    },
+    {
+     "id": "meristematic-tissue",
+     "title": "Meristematic tissue: where plants grow",
+     "keywords": [
+      "meristematic tissue",
+      "meristem",
+      "apical meristem",
+      "lateral meristem",
+      "cambium",
+      "intercalary meristem",
+      "growing tissue",
+      "plant growth",
+      "girth",
+      "differentiation",
+      "internode"
+     ]
+    },
+    {
+     "id": "permanent-plant-tissues",
+     "title": "Permanent plant tissues: simple and complex",
+     "keywords": [
+      "permanent tissue",
+      "simple permanent tissue",
+      "complex permanent tissue",
+      "epidermis",
+      "cuticle",
+      "stomata",
+      "guard cells",
+      "parenchyma",
+      "chlorenchyma",
+      "aerenchyma",
+      "collenchyma",
+      "pectin",
+      "sclerenchyma",
+      "lignin",
+      "coconut husk",
+      "xylem",
+      "phloem",
+      "tracheids",
+      "vessels",
+      "sieve tubes",
+      "companion cells",
+      "vascular tissue",
+      "tissue systems",
+      "dermal",
+      "ground tissue"
+     ]
+    },
+    {
+     "id": "epithelial-connective",
+     "title": "Animal tissues: epithelial and connective",
+     "keywords": [
+      "animal tissue",
+      "epithelial tissue",
+      "epithelium",
+      "squamous epithelium",
+      "stratified squamous",
+      "columnar epithelium",
+      "ciliated epithelium",
+      "glandular epithelium",
+      "sensory epithelium",
+      "connective tissue",
+      "matrix",
+      "blood",
+      "plasma",
+      "bone",
+      "cartilage",
+      "tendon",
+      "ligament",
+      "tendon vs ligament",
+      "areolar tissue",
+      "adipose tissue",
+      "fat"
+     ]
+    },
+    {
+     "id": "muscle-nervous",
+     "title": "Animal tissues: muscle and nervous",
+     "keywords": [
+      "muscle tissue",
+      "muscular tissue",
+      "skeletal muscle",
+      "striated muscle",
+      "voluntary muscle",
+      "smooth muscle",
+      "unstriated",
+      "involuntary muscle",
+      "cardiac muscle",
+      "heart muscle",
+      "multinucleate",
+      "spindle shaped",
+      "nervous tissue",
+      "neuron",
+      "nerve cell",
+      "dendrites",
+      "axon",
+      "cell body",
+      "types of muscles"
+     ]
+    },
+    {
+     "id": "musculoskeletal-system",
+     "title": "Tissues in action: the musculoskeletal system",
+     "keywords": [
+      "musculoskeletal system",
+      "skeleton",
+      "antagonistic muscles",
+      "muscle pairs",
+      "biceps",
+      "triceps",
+      "joints",
+      "types of joints",
+      "ball and socket joint",
+      "hinge joint",
+      "pivot joint",
+      "fixed joint",
+      "immovable joint",
+      "skull",
+      "vertebral column",
+      "backbone",
+      "ribs",
+      "rib cage",
+      "12 pairs of ribs"
+     ]
+    },
+    {
+     "id": "tissue-culture",
+     "title": "Totipotency and plant tissue culture",
+     "keywords": [
+      "totipotency",
+      "tissue culture",
+      "plant tissue culture",
+      "callus",
+      "dedifferentiation",
+      "redifferentiation",
+      "explant",
+      "nutrient medium",
+      "plantlets",
+      "haberlandt",
+      "micropropagation",
+      "cloning plants"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "What is the difference between xylem and phloem?",
+     "keywords": [
+      "xylem vs phloem",
+      "difference xylem phloem",
+      "xylem and phloem"
+     ]
+    },
+    {
+     "q": "What is the difference between a tendon and a ligament?",
+     "keywords": [
+      "tendon vs ligament",
+      "difference tendon ligament"
+     ]
+    },
+    {
+     "q": "Why are plant and animal tissues different?",
+     "keywords": [
+      "plant vs animal tissue",
+      "why plant and animal tissues differ"
+     ]
+    },
+    {
+     "q": "How is cardiac muscle different from skeletal and smooth muscle?",
+     "keywords": [
+      "cardiac muscle",
+      "types of muscle difference",
+      "skeletal vs smooth vs cardiac"
+     ]
+    },
+    {
+     "q": "What is callus in tissue culture?",
+     "keywords": [
+      "callus",
+      "tissue culture steps",
+      "dedifferentiation"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c9-sci-work-energy",
+   "class": 9,
+   "subject": "science",
+   "name": "Work, Energy and Simple Machines",
+   "aliases": [
+    "work and energy",
+    "work energy",
+    "work energy and simple machines",
+    "simple machines"
+   ],
+   "file": "class-9/science/work-energy-and-simple-machines.json",
+   "topics": [
+    {
+     "id": "work",
+     "title": "Work: when is work done?",
+     "keywords": [
+      "work",
+      "work done",
+      "w = fs",
+      "work formula",
+      "joule",
+      "unit of work",
+      "positive work",
+      "negative work",
+      "zero work",
+      "work at an angle",
+      "fs cos theta",
+      "pushing a wall",
+      "porter carrying load",
+      "work against friction"
+     ]
+    },
+    {
+     "id": "energy-forms",
+     "title": "Energy: kinetic and potential energy",
+     "keywords": [
+      "energy",
+      "kinetic energy",
+      "ke",
+      "1/2 mv2",
+      "half mv square",
+      "potential energy",
+      "pe",
+      "mgh",
+      "potential energy of height",
+      "elastic potential energy",
+      "spring",
+      "bow and arrow",
+      "forms of energy",
+      "kinetic energy formula",
+      "potential energy formula"
+     ]
+    },
+    {
+     "id": "conservation-energy",
+     "title": "Mechanical energy, its conservation and the work-energy theorem",
+     "keywords": [
+      "mechanical energy",
+      "conservation of energy",
+      "conservation of mechanical energy",
+      "law of conservation of energy",
+      "energy transformation",
+      "energy conversion",
+      "falling ball",
+      "pendulum",
+      "pendulum energy",
+      "work energy theorem",
+      "work-energy theorem",
+      "change in kinetic energy",
+      "free fall energy"
+     ]
+    },
+    {
+     "id": "power",
+     "title": "Power",
+     "keywords": [
+      "power",
+      "watt",
+      "unit of power",
+      "p = w/t",
+      "power formula",
+      "p = fv",
+      "kilowatt",
+      "horsepower",
+      "hp",
+      "746 w",
+      "kilowatt hour",
+      "kwh",
+      "commercial unit of energy",
+      "unit of electricity",
+      "rate of doing work"
+     ]
+    },
+    {
+     "id": "machines-pulleys-inclines",
+     "title": "Simple machines: mechanical advantage, pulleys and inclined planes",
+     "keywords": [
+      "simple machine",
+      "simple machines",
+      "mechanical advantage",
+      "ma",
+      "load",
+      "effort",
+      "pulley",
+      "fixed pulley",
+      "movable pulley",
+      "single pulley",
+      "inclined plane",
+      "ramp",
+      "ma of inclined plane",
+      "ma of pulley"
+     ]
+    },
+    {
+     "id": "levers",
+     "title": "Levers and their three classes",
+     "keywords": [
+      "lever",
+      "levers",
+      "fulcrum",
+      "effort arm",
+      "load arm",
+      "principle of lever",
+      "law of lever",
+      "class 1 lever",
+      "class 2 lever",
+      "class 3 lever",
+      "first class lever",
+      "second class lever",
+      "third class lever",
+      "types of levers",
+      "seesaw",
+      "wheelbarrow",
+      "tweezers",
+      "human arm lever"
+     ]
+    },
+    {
+     "id": "efficiency",
+     "title": "Efficiency of machines",
+     "keywords": [
+      "efficiency",
+      "efficiency of machine",
+      "efficiency formula",
+      "output work",
+      "input work",
+      "useful work",
+      "ideal machine",
+      "real machine",
+      "why efficiency less than 100",
+      "energy loss",
+      "friction in machines"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "Why is no work done when I push a wall, even though I get tired?",
+     "keywords": [
+      "pushing wall",
+      "zero work",
+      "no work done",
+      "why no work"
+     ]
+    },
+    {
+     "q": "What is the difference between kinetic and potential energy?",
+     "keywords": [
+      "kinetic vs potential",
+      "difference kinetic potential energy",
+      "ke vs pe"
+     ]
+    },
+    {
+     "q": "What is the difference between work, energy and power?",
+     "keywords": [
+      "work energy power difference",
+      "work vs power",
+      "energy vs power"
+     ]
+    },
+    {
+     "q": "If a fixed pulley doesn't reduce effort, why use it?",
+     "keywords": [
+      "fixed pulley use",
+      "why fixed pulley",
+      "ma of fixed pulley"
+     ]
+    },
+    {
+     "q": "Why use a Class III lever like tweezers if its MA is less than 1?",
+     "keywords": [
+      "class 3 lever use",
+      "tweezers",
+      "ma less than 1",
+      "third class lever advantage"
+     ]
+    },
+    {
+     "q": "Why can't any machine be 100% efficient?",
+     "keywords": [
+      "efficiency less than 100",
+      "why not 100 efficient",
+      "machine efficiency"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "gen-eng-tenses",
+   "class": null,
+   "subject": "english",
+   "name": "Tenses",
+   "aliases": [
+    "tense",
+    "tenses"
+   ],
+   "file": "general/english/tenses.json",
+   "topics": [
+    {
+     "id": "present",
+     "title": "Present tenses",
+     "keywords": [
+      "present tense",
+      "simple present",
+      "present continuous",
+      "present perfect",
+      "present perfect continuous",
+      "since for",
+      "has have",
+      "is are am"
+     ]
+    },
+    {
+     "id": "past",
+     "title": "Past tenses",
+     "keywords": [
+      "past tense",
+      "simple past",
+      "past continuous",
+      "past perfect",
+      "past perfect continuous",
+      "had",
+      "was were",
+      "v2 v3"
+     ]
+    },
+    {
+     "id": "future",
+     "title": "Future tenses",
+     "keywords": [
+      "future tense",
+      "simple future",
+      "future continuous",
+      "future perfect",
+      "future perfect continuous",
+      "will",
+      "going to"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "What is the difference between since and for?",
+     "keywords": [
+      "since vs for",
+      "since and for"
+     ]
+    },
+    {
+     "q": "When do we use the past perfect tense?",
+     "keywords": [
+      "past perfect use",
+      "when past perfect"
+     ]
+    },
+    {
+     "q": "Why is 'I have seen him yesterday' wrong?",
+     "keywords": [
+      "have seen yesterday",
+      "present perfect mistake"
+     ]
+    },
+    {
+     "q": "What is the difference between simple past and present perfect?",
+     "keywords": [
+      "simple past vs present perfect"
+     ]
+    }
+   ],
+   "quizCount": 10
+  }
+ ]
+}
