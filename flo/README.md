@@ -28,8 +28,9 @@ flo/
 ├── core/smart.js       ← Smart mode: level-aware prompts, labels, AI quiz/flashcard parsing
 ├── core/material.js    ← learner's notes/PDFs: search, summaries, self-tests, syllabus parsing
 ├── core/tools.js       ← practice questions, answer checking, material tools (work without AI)
-├── core/files.js       ← reads PDFs and text files in the browser
-├── vendor/             ← web-llm.js and pdf.js (open-source, Apache 2.0) — see THIRD-PARTY-NOTICES.txt
+├── core/files.js       ← reads PDFs, photos and text files in the browser (Word/PowerPoint: switched off for now)
+├── core/ocr.js         ← text recognition for photos and scanned pages (on the device)
+├── vendor/             ← web-llm.js, pdf.js and ocr/ (Tesseract) — open source, see THIRD-PARTY-NOTICES.txt
 ├── knowledge/
 │   ├── index.json      ← list of subjects and chapters
 │   ├── general.json    ← study tips, exam stress, how to use ExamFlow
