@@ -123,8 +123,8 @@ export function createFlo({ bridge, knowledge, provider = LocalProvider, ai = nu
     if (mat) return mat;
 
     // ---------- syllabus without material ----------
-    if (frame.intent === "syllabus") return { blocks: [T("Sure — attach your syllabus (PDF or text) with the 📎 button, or paste it here, and I'll turn it into subjects and chapters in ExamFlow. You'll review everything before it's saved.")], openAttach: true };
-    if (frame.intent === "summarize" && !frame.content.length) return { blocks: [T("What should I summarize? Attach a PDF or notes with the 📎 button, or paste the text here.")], openAttach: true };
+    if (frame.intent === "syllabus") return { blocks: [T("Sure — attach your syllabus (PDF, photo or text) with the 📎 button, or paste it here, and I'll turn it into subjects and chapters in ExamFlow. You'll review everything before it's saved.")], openAttach: true };
+    if (frame.intent === "summarize" && !frame.content.length) return { blocks: [T("What should I summarize? Attach a PDF, a photo or notes with the 📎 button, or paste the text here.")], openAttach: true };
 
     // ---------- ✍️ improve / check an answer ----------
     if (frame.intent === "improve") {
@@ -267,7 +267,7 @@ export function createFlo({ bridge, knowledge, provider = LocalProvider, ai = nu
       if (list) list.items.push(
         { title: "🎯 Practice questions", meta: "Exam-style questions with answers to check" },
         { title: "✍️ Improve my answer", meta: "Paste your answer for feedback" },
-        { title: "📚 Your material", meta: "Attach notes or a PDF to summarize, quiz or add a syllabus" },
+        { title: "📚 Your material", meta: "Attach notes, a PDF or a photo to summarize, quiz or add a syllabus" },
         { title: "✨ Smart mode", meta: AI ? "On — any subject, any level" : "Optional AI for any subject (in settings)" });
     }
     return r;
