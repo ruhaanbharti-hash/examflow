@@ -1,0 +1,180 @@
+{
+  "id": "c10-sci-eye",
+  "class": 10,
+  "subject": "science",
+  "name": "The Human Eye and the Colourful World",
+  "summary": "The human eye works like a camera: the cornea and eye lens form a real, inverted image on the retina, and the ciliary muscles change the lens's focal length so we can see both near and far objects (accommodation). Common defects are myopia, hypermetropia and presbyopia, corrected with concave, convex or bifocal lenses. The chapter also explains refraction and dispersion of white light through a prism, rainbows, atmospheric refraction (twinkling stars, early sunrise) and scattering of light (Tyndall effect, blue sky).",
+  "topics": [
+    {
+      "id": "eye-structure",
+      "title": "Structure of the human eye",
+      "summary": "Light enters through the cornea, passes through the pupil (whose size is controlled by the iris) and is focused by the eye lens onto the retina. The retina's light-sensitive cells send signals through the optic nerve to the brain.",
+      "simple": "Your eye is like a tiny camera. Light enters through the clear front window (**cornea**), passes through a hole (**pupil**), and is focused by the **eye lens** onto the screen at the back (**retina**). The retina turns light into electrical signals, and the **optic nerve** carries them to your brain, which makes sense of what you see.",
+      "explain": "The eyeball is roughly spherical, about **2.3 cm** in diameter.\n\n**Parts and their jobs:**\n- **Cornea:** thin, transparent membrane bulging out at the front. **Most of the refraction** of light entering the eye happens here.\n- **Iris:** dark muscular diaphragm behind the cornea. It **controls the size of the pupil**.\n- **Pupil:** the opening in the iris. It **controls how much light enters**. In bright light it becomes small; in dim light it opens wide.\n- **Crystalline (eye) lens:** a transparent, flexible, jelly-like lens. It **fine-tunes the focus** so the image falls exactly on the retina.\n- **Ciliary muscles:** hold the lens and change its curvature, and so its focal length.\n- **Retina:** delicate membrane at the back with a huge number of **light-sensitive cells**. When light falls on them, they produce **electrical signals**.\n- **Optic nerve:** carries these signals to the **brain**, which interprets them as images.\n\n**Image on the retina:** the eye lens is a convex lens, so it forms a **real and inverted** image on the retina. The brain processes the signals so that we see objects the right way up.",
+      "example": "When you walk from bright sunshine into a dark cinema hall, you can hardly see for a few seconds. Your pupils are small (because of the bright light) and take time to widen and let in more light. After a while, you can see the seats clearly.",
+      "keyPoints": [
+        "Cornea: most refraction happens here",
+        "Iris controls pupil size; pupil controls light entering",
+        "Eye lens: convex, flexible; fine-tunes focus",
+        "Ciliary muscles change the lens's focal length",
+        "Retina: light-sensitive cells → electrical signals",
+        "Optic nerve carries signals to the brain; image is real and inverted"
+      ],
+      "keywords": ["human eye", "structure of eye", "parts of eye", "cornea", "iris", "pupil", "eye lens", "crystalline lens", "ciliary muscles", "retina", "optic nerve", "real inverted image", "chapter 10", "human eye chapter"]
+    },
+    {
+      "id": "accommodation",
+      "title": "Power of accommodation, near point and far point",
+      "summary": "The eye can change the focal length of its lens to see near and far objects; this is accommodation. A normal young eye sees clearly from about 25 cm (near point) to infinity (far point). Cataract makes the lens cloudy.",
+      "simple": "Your eye lens can get thinner or fatter to focus on far or near things. This ability is called **accommodation**. For a normal eye, the closest point you can see clearly without strain is about **25 cm** away (near point), and the farthest is **infinity** (far point).",
+      "explain": "**Power of accommodation** is the ability of the eye lens to adjust its focal length so that both near and distant objects form sharp images on the retina.\n\n**How it works:**\n- **Looking at a distant object:** the ciliary muscles **relax**, the lens becomes **thinner**, and its **focal length increases**.\n- **Looking at a near object:** the ciliary muscles **contract**, the lens becomes **thicker**, and its **focal length decreases**.\n\nThe focal length cannot go below a certain minimum, so there is a limit to how close we can see clearly.\n\n**Near point (least distance of distinct vision):** the closest point at which an object can be seen clearly without strain. For a normal young adult, it is about **25 cm**.\n\n**Far point:** the farthest point up to which the eye can see clearly. For a normal eye, it is at **infinity**.\n\nSo a normal eye sees clearly anything between **25 cm and infinity**.\n\n**Cataract:** in some older people, the crystalline lens becomes **milky and cloudy**. This causes partial or complete loss of vision. It can be treated by **cataract surgery**, in which the cloudy lens is replaced.",
+      "example": "Try reading this text held 5 cm from your eyes. It is blurry and tiring, because it is inside your near point. Move it back to about 25 cm and the letters become sharp without strain.",
+      "keyPoints": [
+        "Accommodation = adjusting focal length of the eye lens",
+        "Far objects: ciliary muscles relax, lens thin, focal length long",
+        "Near objects: ciliary muscles contract, lens thick, focal length short",
+        "Near point of normal eye ≈ 25 cm",
+        "Far point of normal eye = infinity",
+        "Cataract: eye lens becomes cloudy; treated by surgery"
+      ],
+      "keywords": ["power of accommodation", "accommodation", "near point", "far point", "least distance of distinct vision", "25 cm", "ciliary muscles relax contract", "focal length of eye lens", "cataract", "range of vision"]
+    },
+    {
+      "id": "defects",
+      "title": "Defects of vision and their correction",
+      "summary": "Myopia (can't see far) is corrected with a concave lens; hypermetropia (can't see near) with a convex lens; presbyopia (age-related loss of accommodation) often needs bifocal lenses.",
+      "simple": "Some eyes can't focus properly. If you can see near things but not far ones, it's **myopia** (short-sightedness), fixed with a **concave lens**. If you can see far things but not near ones, it's **hypermetropia** (long-sightedness), fixed with a **convex lens**. Older people often find it hard to see near things because their eye muscles weaken; that's **presbyopia**, and they may need **bifocals**.",
+      "explain": "**1. Myopia (near-sightedness)**\n- Can see **nearby** objects clearly but **not distant** ones.\n- **Far point is nearer** than infinity.\n- The image of a distant object forms **in front of the retina**.\n- **Causes:** excessive curvature of the eye lens, or **elongation** of the eyeball.\n- **Correction:** a **concave lens** of suitable power, which spreads the rays a little so the image moves back onto the retina.\n\n**2. Hypermetropia (far-sightedness)**\n- Can see **distant** objects clearly but **not nearby** ones.\n- **Near point is farther** than 25 cm.\n- Light from a close object focuses **behind the retina**.\n- **Causes:** focal length of the eye lens is **too long**, or the eyeball has become **too small**.\n- **Correction:** a **convex lens** of suitable power, which adds converging power.\n\n**3. Presbyopia**\n- Power of accommodation **decreases with age**; the near point gradually moves farther away.\n- **Cause:** gradual weakening of the ciliary muscles and reduced flexibility of the eye lens.\n- Some people have both myopia and hypermetropia. They need **bifocal lenses**: the **upper part is concave** (for distant vision) and the **lower part is convex** (for reading).\n\nToday, these defects can also be corrected with contact lenses or surgery.",
+      "deep": "**Remember with the spelling:** myopia → 'my eyes need a minus (concave, negative power) lens'. Hypermetropia → plus (convex, positive power) lens.",
+      "example": "**Myopia numerical:** a person's far point is 80 cm. What lens is needed?\nThe lens must make an object at infinity appear at the far point: u = ∞, v = −80 cm.\n1/f = 1/v − 1/u = 1/(−80) − 0 → f = −80 cm = −0.8 m\nP = 1/f = 1/(−0.8) = **−1.25 D** (concave lens)\n\n**Hypermetropia numerical:** a person's near point is 1 m. What lens lets them read at 25 cm?\nObject at u = −25 cm must form a virtual image at the near point, v = −100 cm.\n1/f = 1/v − 1/u = −1/100 + 1/25 = (−1 + 4)/100 = 3/100\nf = +33.3 cm ≈ 0.333 m → P = **+3 D** (convex lens)",
+      "keyPoints": [
+        "Myopia: can't see far; image in front of retina; concave lens",
+        "Myopia causes: lens too curved or eyeball elongated",
+        "Hypermetropia: can't see near; image behind retina; convex lens",
+        "Hypermetropia causes: focal length too long or eyeball too small",
+        "Presbyopia: age-related; weak ciliary muscles, less flexible lens",
+        "Bifocal lens: upper concave (far), lower convex (near)"
+      ],
+      "keywords": ["defects of vision", "myopia", "near sightedness", "short sightedness", "hypermetropia", "far sightedness", "long sightedness", "presbyopia", "bifocal lens", "concave lens correction", "convex lens correction", "spectacles", "eye defects numerical", "far point", "near point"]
+    },
+    {
+      "id": "prism-dispersion",
+      "title": "Refraction through a prism, dispersion and the rainbow",
+      "summary": "A glass prism bends light twice, so the emergent ray is deviated. White light splits into seven colours (VIBGYOR) because each colour bends by a different amount: violet most, red least. A rainbow is natural dispersion by raindrops.",
+      "simple": "A glass prism bends light as it enters and again as it leaves. White sunlight is actually a mix of colours, and each colour bends a slightly different amount. So the prism spreads white light into a band of seven colours called a **spectrum** (VIBGYOR). Raindrops do the same thing to make a **rainbow**.",
+      "explain": "**Refraction through a triangular glass prism:**\nA prism has two triangular bases and three rectangular side faces. The angle between the two faces where light enters and leaves is the **angle of the prism (A)**.\n\nLight bends **towards the normal** when it enters the prism and **away from the normal** when it leaves. Because the faces are not parallel, the emergent ray is bent away from the original direction. The angle between the incident ray (extended) and the emergent ray is the **angle of deviation (D)**.\n\n**Dispersion of white light:**\n- When white light passes through a prism, it splits into its component colours. This is **dispersion**.\n- The band of colours is the **spectrum**: **V**iolet, **I**ndigo, **B**lue, **G**reen, **Y**ellow, **O**range, **R**ed (**VIBGYOR**).\n- It happens because **different colours bend through different angles**. **Red bends the least; violet bends the most.**\n\n**Newton's experiment:** Isaac Newton was the first to get the spectrum of sunlight using a glass prism. He found that a second prism could not split the colours further. When he placed a second, **identical prism upside down** next to the first, the colours **recombined into white light**. This proved sunlight is made of seven colours. Any light that gives a similar spectrum is called white light.\n\n**Rainbow:** a natural spectrum seen in the sky after a rain shower. Tiny **water droplets** act like small prisms. Sunlight is:\n1. **refracted and dispersed** as it enters a droplet,\n2. **internally reflected** at the back of the droplet,\n3. **refracted again** as it comes out.\n\nA rainbow is always formed in the direction **opposite to the Sun**, so the Sun must be behind you.",
+      "example": "On a sunny morning, stand with your back to the Sun and spray a fine mist of water from a garden hose. You will see a small rainbow in the spray, because the droplets disperse sunlight just like raindrops do.",
+      "keyPoints": [
+        "Prism bends light twice; emergent ray deviates by angle D",
+        "Dispersion = splitting of white light into colours",
+        "Spectrum: VIBGYOR",
+        "Red deviates least, violet most",
+        "Inverted second prism recombines colours into white (Newton)",
+        "Rainbow: refraction + dispersion, internal reflection, refraction in droplets; opposite to Sun"
+      ],
+      "keywords": ["prism", "glass prism", "refraction through prism", "angle of prism", "angle of deviation", "dispersion", "dispersion of white light", "spectrum", "vibgyor", "seven colours", "newton prism", "recombination", "rainbow", "rainbow formation", "water droplets"]
+    },
+    {
+      "id": "atmospheric-refraction",
+      "title": "Atmospheric refraction",
+      "summary": "The atmosphere's refractive index changes with height and temperature, so light passing through it bends. This makes stars twinkle, shifts their apparent positions, and lets us see the Sun about 2 minutes before actual sunrise and after actual sunset.",
+      "simple": "Air at different heights and temperatures bends light by different amounts. Starlight bends as it comes through the moving layers of air, so stars seem to flicker (**twinkle**). The same bending lets us see the Sun a couple of minutes before it actually rises and after it actually sets.",
+      "explain": "**Atmospheric refraction** is the refraction of light by the Earth's atmosphere. Layers of air have different densities and temperatures, so their refractive indices differ. The atmosphere is also not steady.\n\n**Flickering above a fire:** objects seen through the hot air above a fire or a hot road appear to waver. Hot air is lighter (rarer) than the cooler air above it, and its refractive index keeps changing slightly, so the apparent position of the object keeps shifting.\n\n**Twinkling of stars:**\n- Starlight bends continuously as it enters the atmosphere, moving from rarer to denser air.\n- Because of this, a star's **apparent position** is slightly **higher** than its actual position when seen near the horizon.\n- The atmosphere keeps changing, so the apparent position and the **amount of starlight entering the eye** keep changing. The star looks brighter one moment and fainter the next: it **twinkles**.\n- Stars are very far away, so they act as **point sources** of light.\n\n**Why planets don't twinkle:** planets are much closer, so they appear as **extended sources** (a collection of many point sources). The changes in light from each point average out, so the total light reaching the eye stays steady.\n\n**Advance sunrise and delayed sunset:** because of atmospheric refraction, we see the Sun about **2 minutes before** it actually crosses the horizon, and about **2 minutes after** it actually sets. So daylight lasts about **4 minutes longer**. The same effect makes the Sun's disc look slightly flattened at sunrise and sunset.",
+      "example": "On a clear night away from city lights, compare a bright star with Jupiter or Venus. The star flickers, while the planet shines with a steady light. That's the difference between a point source and an extended source.",
+      "keyPoints": [
+        "Refractive index of air varies with height and temperature",
+        "Hot air above a fire makes objects waver",
+        "Stars twinkle: changing refraction varies apparent position and brightness",
+        "Stars appear slightly higher than their real position near the horizon",
+        "Planets don't twinkle: extended sources, fluctuations average out",
+        "Sun seen ~2 min before sunrise and ~2 min after sunset"
+      ],
+      "keywords": ["atmospheric refraction", "twinkling of stars", "why stars twinkle", "planets do not twinkle", "apparent position of star", "advance sunrise", "delayed sunset", "early sunrise", "2 minutes", "flickering hot air", "point source", "extended source"]
+    },
+    {
+      "id": "scattering",
+      "title": "Scattering of light: Tyndall effect and the blue sky",
+      "summary": "Small particles scatter light. The Tyndall effect is the visible path of light through a colloid. The colour scattered depends on particle size; air molecules scatter blue light much more than red, so the sky looks blue.",
+      "simple": "When light hits tiny particles, it gets thrown off in different directions. That's **scattering**. It's why you can see a beam of sunlight in a dusty room. Air molecules scatter blue light much more than red, so blue light reaches your eyes from all over the sky, making it look blue.",
+      "explain": "**Scattering** is the throwing of light in different directions by particles in its path.\n\n**Tyndall effect:**\n- The Earth's atmosphere is a mixture of fine particles: smoke, tiny water droplets, dust and air molecules.\n- When a beam of light hits such particles, its path becomes **visible** because light is scattered towards our eyes.\n- Examples: a beam of sunlight entering a smoke-filled room through a small hole; sunlight passing through the canopy of a **dense forest**, where mist droplets scatter it.\n\n**Colour depends on particle size:**\n- **Very fine particles** scatter mainly **blue** light (shorter wavelength).\n- **Larger particles** scatter light of **longer wavelengths**.\n- If the particles are **large enough**, the scattered light looks **white** (this is why clouds look white).\n\n**Why the sky is blue:**\n- Air molecules and other fine particles in the atmosphere are **smaller than the wavelength of visible light**.\n- They scatter light of shorter wavelengths (the blue end) much more strongly than longer wavelengths (the red end). Red light has a wavelength about **1.8 times** that of blue light.\n- So when sunlight passes through the atmosphere, the scattered blue light enters our eyes from all directions, and the sky looks **blue**.\n\n**No atmosphere, no blue sky:** if the Earth had no atmosphere, there would be no scattering and the sky would look **dark**. That's why passengers at very high altitudes, and astronauts in space, see a dark sky.",
+      "example": "In the early morning, sunlight streaming through the trees of a misty forest shows clear, bright beams. The tiny water droplets in the mist scatter light towards your eyes, so the path of each beam becomes visible: the Tyndall effect.",
+      "keyPoints": [
+        "Scattering = light thrown in different directions by particles",
+        "Tyndall effect: path of a light beam becomes visible in a colloid",
+        "Very fine particles scatter blue; larger particles scatter longer wavelengths",
+        "Large enough particles → scattered light looks white",
+        "Sky is blue: air molecules scatter blue more than red",
+        "No atmosphere → dark sky (seen by astronauts)"
+      ],
+      "keywords": ["scattering of light", "scattering", "tyndall effect", "why sky is blue", "blue sky", "colour of sky", "sky dark for astronauts", "dense forest sunlight", "smoke room beam", "wavelength", "clouds white", "colloid"]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "Cornea", "meaning": "Transparent front membrane of the eye where most refraction of entering light occurs." },
+    { "term": "Iris and pupil", "meaning": "The iris is a muscular diaphragm that controls the size of the pupil, the opening that lets light into the eye." },
+    { "term": "Retina", "meaning": "Light-sensitive layer at the back of the eye where the image forms; its cells send electrical signals to the brain." },
+    { "term": "Power of accommodation", "meaning": "Ability of the eye lens to change its focal length to see near and far objects clearly." },
+    { "term": "Near point", "meaning": "Closest point at which the eye sees clearly without strain; about 25 cm for a normal young adult." },
+    { "term": "Far point", "meaning": "Farthest point the eye can see clearly; infinity for a normal eye." },
+    { "term": "Myopia", "meaning": "Near-sightedness: distant objects look blurry; corrected with a concave lens." },
+    { "term": "Hypermetropia", "meaning": "Far-sightedness: nearby objects look blurry; corrected with a convex lens." },
+    { "term": "Presbyopia", "meaning": "Age-related loss of accommodation; often corrected with bifocal lenses." },
+    { "term": "Angle of deviation", "meaning": "Angle between the incident ray (extended) and the emergent ray after passing through a prism." },
+    { "term": "Dispersion", "meaning": "Splitting of white light into its seven component colours." },
+    { "term": "Atmospheric refraction", "meaning": "Bending of light by layers of the atmosphere with different refractive indices." },
+    { "term": "Tyndall effect", "meaning": "Scattering of light by colloidal particles, making the path of the beam visible." }
+  ],
+  "formulas": [
+    "Normal eye: near point ≈ 25 cm, far point = infinity",
+    "Power of correcting lens: P = 1/f (f in metres), unit dioptre (D)",
+    "Myopia correction: f = −(far point distance), concave lens",
+    "Hypermetropia correction: 1/f = 1/v − 1/u with u = −25 cm and v = −(near point distance), convex lens",
+    "Spectrum order: VIBGYOR (violet deviates most, red least)"
+  ],
+  "commonMistakes": [
+    "Mixing up the corrections: myopia needs a concave lens; hypermetropia needs a convex lens.",
+    "Thinking the eye lens does most of the refraction. The cornea does most; the lens fine-tunes focus.",
+    "Saying ciliary muscles contract for distant objects. They relax for distant objects and contract for near ones.",
+    "Writing that red light deviates the most in a prism. Violet deviates most, red least.",
+    "Thinking a rainbow forms on the same side as the Sun. It always forms opposite the Sun.",
+    "Saying planets twinkle like stars. Planets are extended sources, so they shine steadily.",
+    "Thinking the sky is blue because of the oceans. It's because air molecules scatter blue light more."
+  ],
+  "revision": [
+    "Cornea does most refraction; lens fine-tunes; image on retina is real and inverted.",
+    "Iris controls pupil size; pupil controls light entering.",
+    "Accommodation: ciliary muscles relax for far, contract for near.",
+    "Normal eye: near point 25 cm, far point infinity.",
+    "Cataract: cloudy eye lens; treated by surgery.",
+    "Myopia: image in front of retina → concave lens.",
+    "Hypermetropia: image behind retina → convex lens.",
+    "Presbyopia: ageing → bifocals (upper concave, lower convex).",
+    "Prism: dispersion into VIBGYOR; violet bends most.",
+    "Newton: inverted second prism recombines colours into white light.",
+    "Rainbow: refraction, dispersion, internal reflection in droplets; opposite to Sun.",
+    "Stars twinkle due to atmospheric refraction; planets don't.",
+    "Sun visible ~2 min before sunrise and after sunset.",
+    "Sky is blue: fine air molecules scatter blue light more; astronauts see a dark sky."
+  ],
+  "faqs": [
+    { "q": "What is the difference between myopia and hypermetropia?", "a": "In **myopia**, you can see near objects but not distant ones; the image forms in front of the retina; it's corrected with a **concave** lens. In **hypermetropia**, you can see distant objects but not near ones; the image forms behind the retina; it's corrected with a **convex** lens.", "keywords": ["myopia vs hypermetropia", "difference myopia hypermetropia", "short sighted long sighted"] },
+    { "q": "Why do stars twinkle but planets don't?", "a": "Starlight is refracted by atmospheric layers that keep changing, so a star's apparent position and brightness flicker. Stars are so far away that they act as point sources. Planets are closer and act as extended sources; the flickering from their many points averages out, so they shine steadily.", "keywords": ["stars twinkle", "planets twinkle", "twinkling"] },
+    { "q": "Why does the sky look dark to astronauts?", "a": "The sky looks blue because air molecules scatter blue sunlight. In space, or at very high altitudes, there is little or no atmosphere to scatter light, so the sky looks dark.", "keywords": ["sky dark astronaut", "sky dark space", "no atmosphere"] },
+    { "q": "Why does white light split into colours in a prism?", "a": "Each colour travels at a slightly different speed in glass, so each bends through a different angle. Violet bends the most and red the least, so the colours spread out into a spectrum.", "keywords": ["why dispersion", "prism colours", "white light splits"] },
+    { "q": "Why can we see the Sun before it actually rises?", "a": "Sunlight passing through the atmosphere is bent by atmospheric refraction. When the Sun is just below the horizon, its light bends over the horizon and reaches us, so we see it about 2 minutes early. The same happens at sunset, so daylight is about 4 minutes longer.", "keywords": ["advance sunrise", "delayed sunset", "sun before sunrise"] }
+  ],
+  "quiz": [
+    { "q": "Most of the refraction of light entering the eye takes place at the:", "options": ["Eye lens", "Retina", "Cornea", "Pupil"], "answer": 2, "explain": "The curved cornea does most of the bending; the lens fine-tunes the focus.", "topic": "eye-structure", "level": "easy" },
+    { "q": "Which part of the eye controls the size of the pupil?", "options": ["Iris", "Cornea", "Ciliary muscles", "Optic nerve"], "answer": 0, "explain": "The iris is a muscular diaphragm that adjusts the pupil.", "topic": "eye-structure", "level": "easy" },
+    { "q": "When the eye looks at a distant object, the ciliary muscles:", "options": ["Contract and the lens becomes thicker", "Contract and the lens becomes thinner", "Relax and the lens becomes thicker", "Relax and the lens becomes thinner"], "answer": 3, "explain": "Relaxed ciliary muscles let the lens become thin, increasing its focal length for distant vision.", "topic": "accommodation", "level": "medium" },
+    { "q": "The near point of a normal young eye is about:", "options": ["25 cm", "2.5 cm", "1 m", "Infinity"], "answer": 0, "explain": "The least distance of distinct vision is about 25 cm.", "topic": "accommodation", "level": "easy" },
+    { "q": "A myopic eye forms the image of a distant object:", "options": ["On the retina", "Behind the retina", "On the optic nerve", "In front of the retina"], "answer": 3, "explain": "In myopia, rays from far objects converge before reaching the retina.", "topic": "defects", "level": "medium" },
+    { "q": "Hypermetropia is corrected using a:", "options": ["Concave lens", "Convex lens", "Plane glass", "Prism"], "answer": 1, "explain": "A convex lens adds converging power so near objects focus on the retina.", "topic": "defects", "level": "easy" },
+    { "q": "A myopic person's far point is 80 cm. The power of the lens needed is:", "options": ["+1.25 D", "−0.8 D", "−1.25 D", "+0.8 D"], "answer": 2, "explain": "f = −80 cm = −0.8 m, so P = 1/(−0.8) = −1.25 D (concave).", "topic": "defects", "level": "hard" },
+    { "q": "In the spectrum formed by a prism, the colour that bends the most is:", "options": ["Red", "Violet", "Yellow", "Green"], "answer": 1, "explain": "Violet deviates most; red deviates least.", "topic": "prism-dispersion", "level": "easy" },
+    { "q": "Which of these is NOT involved in forming a rainbow?", "options": ["Refraction", "Dispersion", "Internal reflection", "Scattering by dust"], "answer": 3, "explain": "A rainbow forms by refraction, dispersion and internal reflection in raindrops.", "topic": "prism-dispersion", "level": "hard" },
+    { "q": "Stars twinkle because of:", "options": ["Dispersion of starlight", "Atmospheric refraction", "Scattering by clouds", "Reflection from the Moon"], "answer": 1, "explain": "Changing refraction in the atmosphere makes the apparent position and brightness of stars fluctuate.", "topic": "atmospheric-refraction", "level": "medium" },
+    { "q": "Because of atmospheric refraction, the Sun is visible about how long before actual sunrise?", "options": ["2 hours", "20 minutes", "2 minutes", "20 seconds"], "answer": 2, "explain": "Advance sunrise and delayed sunset are each about 2 minutes.", "topic": "atmospheric-refraction", "level": "medium" },
+    { "q": "The sky appears blue because:", "options": ["Fine particles scatter blue light more than red", "The sky reflects the colour of the sea", "Large particles scatter all colours equally", "Blue light is absorbed by air"], "answer": 0, "explain": "Molecules smaller than the wavelength of light scatter shorter (blue) wavelengths much more strongly.", "topic": "scattering", "level": "medium" }
+  ]
+}

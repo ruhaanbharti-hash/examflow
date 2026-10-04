@@ -1,0 +1,147 @@
+{
+  "id": "c10-sci-metals",
+  "class": 10,
+  "subject": "science",
+  "name": "Metals and Non-metals",
+  "summary": "Metals are usually shiny, hard, malleable, ductile and good conductors; non-metals are mostly the opposite. Metals react with oxygen, water and acids, and a more reactive metal displaces a less reactive one (reactivity series). Metals lose electrons and non-metals gain electrons to form ionic compounds. Metals are extracted from ores by methods that depend on their reactivity, and are protected from corrosion by painting, galvanising and making alloys.",
+  "topics": [
+    {
+      "id": "physical-properties",
+      "title": "Physical properties of metals and non-metals",
+      "summary": "Metals are lustrous, hard, malleable, ductile, sonorous and good conductors; non-metals are generally dull, brittle and poor conductors — with some exceptions.",
+      "simple": "Metals like iron, copper and gold are usually shiny, strong, can be beaten into sheets and drawn into wires, conduct heat and electricity, and ring when struck. Non-metals like sulphur, carbon and oxygen are usually dull, break easily and don't conduct. But there are exceptions to remember.",
+      "explain": "**Properties of metals:**\n- **Lustre:** shiny surface when freshly cut or cleaned.\n- **Hardness:** generally hard (but sodium and potassium are soft enough to cut with a knife).\n- **Malleability:** can be beaten into thin sheets. Gold and silver are the most malleable metals.\n- **Ductility:** can be drawn into wires. Gold is the most ductile — 1 g of gold can be drawn into a wire about 2 km long.\n- **Conductors:** good conductors of heat (silver and copper are the best; lead and mercury are comparatively poor) and of electricity.\n- **Sonorous:** they make a ringing sound when struck — that is why school bells are made of metal.\n- **High melting points** in general (but gallium and caesium melt even on your palm).\n\n**Properties of non-metals:** they can be solids (carbon, sulphur, iodine) or gases (oxygen, hydrogen, nitrogen); **bromine** is the only liquid non-metal. They are usually dull, brittle, and poor conductors of heat and electricity.\n\n**Exceptions to remember:**\n- **Mercury** is the only metal that is liquid at room temperature.\n- **Iodine** is a non-metal but it is lustrous.\n- **Diamond** (a form of carbon) is the hardest natural substance and has a very high melting point.\n- **Graphite** (another form of carbon) conducts electricity.\n- Alkali metals (Li, Na, K) are soft with low density and low melting points.",
+      "deep": "Since physical properties have so many exceptions, elements are classified more reliably as metals or non-metals by their chemical properties (for example, metal oxides are basic and non-metal oxides are acidic).",
+      "example": "Aluminium foil wrapping your roti shows malleability, copper wires in your home show ductility and conductivity, and a steel tumbler ringing when dropped shows sonority.",
+      "keyPoints": ["Metals: lustrous, hard, malleable, ductile, sonorous, good conductors", "Gold and silver: most malleable; gold: most ductile", "Silver and copper: best conductors of heat", "Mercury: liquid metal; bromine: liquid non-metal", "Iodine is lustrous; graphite conducts; diamond is hardest", "Na and K are soft; Ga and Cs melt on the palm"],
+      "keywords": ["physical properties of metals", "physical properties of non-metals", "malleable", "malleability", "ductile", "ductility", "lustre", "sonorous", "conductor", "mercury liquid metal", "bromine liquid non-metal", "iodine lustrous", "graphite conducts", "diamond hardest", "gallium", "chapter 3", "metals and non metals"]
+    },
+    {
+      "id": "chemical-properties",
+      "title": "Chemical properties of metals",
+      "summary": "Metals react with oxygen to give basic oxides, with water to give hydroxides or oxides plus hydrogen, and with dilute acids to give salt and hydrogen.",
+      "simple": "Metals burn in air to form metal oxides. Very reactive metals like sodium react violently with cold water; others react only with steam or not at all. Many metals react with dilute acids to give hydrogen gas.",
+      "explain": "**1. With oxygen: metal + oxygen → metal oxide**\n2Cu + O₂ → 2CuO (black); 4Al + 3O₂ → 2Al₂O₃\nMetal oxides are generally **basic**. Some, like **Al₂O₃ and ZnO**, react with both acids and bases — they are **amphoteric oxides**:\nAl₂O₃ + 6HCl → 2AlCl₃ + 3H₂O; Al₂O₃ + 2NaOH → 2NaAlO₂ + H₂O\nMost metal oxides are insoluble in water; those that dissolve form **alkalis**: Na₂O + H₂O → 2NaOH.\nSodium and potassium are so reactive that they catch fire in air, so they are **stored under kerosene oil**. Mg, Al, Zn and Pb form a protective **oxide layer**. Silver and gold do not react with oxygen even at high temperatures.\n\n**2. With water: metal + water → metal oxide/hydroxide + hydrogen**\n- Na and K react violently with cold water; the heat is so great that the hydrogen catches fire: 2Na + 2H₂O → 2NaOH + H₂ + heat\n- Calcium reacts less violently; it **floats** because hydrogen bubbles stick to it.\n- Magnesium reacts with **hot** water (and also floats).\n- Al, Fe and Zn react only with **steam**: 3Fe + 4H₂O → Fe₃O₄ + 4H₂\n- Lead, copper, silver and gold do not react with water at all.\n\n**3. With dilute acids: metal + acid → salt + hydrogen**\nFe + 2HCl → FeCl₂ + H₂. The order of reactivity is Mg > Al > Zn > Fe; copper does not react with dilute HCl. **Hydrogen is not evolved with nitric acid** (except with Mg and Mn and very dilute HNO₃), because HNO₃ is a strong oxidising agent and oxidises the hydrogen to water.\n\n**Aqua regia** ('royal water') — a freshly prepared mixture of concentrated HCl and concentrated HNO₃ in the ratio **3 : 1** — can dissolve gold and platinum.",
+      "example": "A small piece of sodium dropped into a trough of water darts around, fizzes and may burst into a yellow flame. That's why sodium in the school lab is kept in a bottle of kerosene.",
+      "keyPoints": ["Metal + O₂ → basic oxide", "Al₂O₃ and ZnO are amphoteric", "Na and K kept under kerosene", "Na/K react with cold water; Mg with hot water; Al, Fe, Zn with steam", "Metal + dilute acid → salt + H₂", "Aqua regia = conc. HCl : conc. HNO₃ = 3 : 1, dissolves gold"],
+      "keywords": ["chemical properties of metals", "metal and oxygen", "metal oxide", "amphoteric oxide", "aluminium oxide", "sodium kerosene", "metal and water", "reaction with steam", "calcium floats", "metal and acid", "nitric acid hydrogen", "aqua regia", "anodising"]
+    },
+    {
+      "id": "reactivity-series",
+      "title": "Reactivity series and displacement",
+      "summary": "Metals arranged in decreasing order of reactivity form the reactivity series; a more reactive metal displaces a less reactive metal from its salt solution.",
+      "simple": "Some metals are more 'eager' to react than others. If we list them from most reactive to least, we get the **reactivity series**. A metal higher in the list can push a lower metal out of its compound — this is **displacement**.",
+      "explain": "**Reactivity series** (most reactive at the top):\nK > Na > Ca > Mg > Al > Zn > Fe > Pb > [H] > Cu > Hg > Ag > Au\n\nA simple way to remember it: *Please Send Cats, Monkeys And Zebras In Large Hired Cages, Make Sure Guarded* (Potassium, Sodium, Calcium, Magnesium, Aluminium, Zinc, Iron, Lead, Hydrogen, Copper, Mercury, Silver, Gold).\n\n- Metals **above hydrogen** can displace hydrogen from dilute acids.\n- Metals **below hydrogen** (Cu, Hg, Ag, Au) cannot.\n\n**Displacement reaction:** metal A + salt solution of B → salt solution of A + metal B, **if A is more reactive than B**.\nFe + CuSO₄ → FeSO₄ + Cu (blue solution → light green, and copper is deposited on the iron)\nCu + 2AgNO₃ → Cu(NO₃)₂ + 2Ag (solution turns blue and silver is deposited)\nBut Cu + FeSO₄ → no reaction, because copper is less reactive than iron.\n\nThe reactivity series also helps decide how a metal is extracted from its ore.",
+      "example": "If you dip a copper wire in silver nitrate solution, the solution slowly turns blue and shiny silver crystals form on the wire. Copper is more reactive than silver, so it displaces it.",
+      "keyPoints": ["K > Na > Ca > Mg > Al > Zn > Fe > Pb > H > Cu > Hg > Ag > Au", "More reactive metal displaces less reactive metal", "Metals above H displace hydrogen from dilute acids", "Fe + CuSO₄ → FeSO₄ + Cu", "Cu + FeSO₄ → no reaction", "Gold and silver are least reactive"],
+      "keywords": ["reactivity series", "activity series", "displacement reaction", "more reactive", "less reactive", "copper silver nitrate", "iron copper sulphate", "metals above hydrogen", "noble metals"]
+    },
+    {
+      "id": "ionic-compounds",
+      "title": "How metals and non-metals react: ionic compounds",
+      "summary": "Metals lose electrons to form positive ions; non-metals gain electrons to form negative ions. These ions attract each other and form ionic (electrovalent) compounds.",
+      "simple": "Atoms want a stable arrangement of electrons like the noble gases. Sodium gives away 1 electron and chlorine takes it. Now sodium is a positive ion and chlorine is a negative ion, and the two stick together strongly. This makes an **ionic compound**, sodium chloride.",
+      "explain": "Noble gases (He, Ne, Ar) have a **completely filled outer shell** (octet, or duplet for He), so they are very unreactive. Other atoms react to reach this stable arrangement.\n\n**Formation of NaCl:**\n- Na (2, 8, 1) loses 1 electron → Na⁺ (2, 8), a **cation**\n- Cl (2, 8, 7) gains 1 electron → Cl⁻ (2, 8, 8), an **anion**\n- The oppositely charged ions are held by strong electrostatic forces.\n\n**Formation of MgCl₂:** Mg (2, 8, 2) loses 2 electrons → Mg²⁺. Two Cl atoms each gain one electron → 2Cl⁻. So the formula is MgCl₂.\n\nCompounds formed by the **transfer of electrons** from a metal to a non-metal are called **ionic** or **electrovalent compounds**.\n\n**Properties of ionic compounds:**\n- **Physical nature:** hard solids (strong attraction) but brittle — they break into pieces when pressure is applied.\n- **High melting and boiling points**, because a lot of energy is needed to overcome the strong attraction between ions.\n- **Soluble in water**, but generally insoluble in kerosene and petrol.\n- **Conduct electricity in molten state or in solution** (ions can move), but **not as solids** (ions are fixed in place).",
+      "example": "Common salt doesn't conduct electricity as dry crystals. Dissolve it in water and a bulb in the circuit lights up, because Na⁺ and Cl⁻ ions are now free to move.",
+      "keyPoints": ["Noble gases have a full outer shell: stable", "Metals lose electrons → cations; non-metals gain → anions", "Na (2,8,1) → Na⁺; Cl (2,8,7) → Cl⁻", "Ionic = electrovalent compounds, formed by electron transfer", "High melting and boiling points; hard but brittle", "Conduct when molten or dissolved, not as solids"],
+      "keywords": ["ionic compound", "ionic bond", "electrovalent", "electron transfer", "cation", "anion", "noble gas configuration", "octet", "sodium chloride formation", "magnesium chloride", "electron dot structure", "properties of ionic compounds", "melting point ionic"]
+    },
+    {
+      "id": "extraction",
+      "title": "Occurrence and extraction of metals",
+      "summary": "Metals occur free or as ores. After enrichment, low-reactivity metals are got by heating, middle ones by roasting/calcination then reduction, and highly reactive ones by electrolysis. Metals are then refined.",
+      "simple": "Very unreactive metals like gold are found as metals. Most others are found as compounds called **ores**. We first remove the earth and sand (gangue), then get the metal out using heat, carbon, or electricity depending on how reactive the metal is, and finally purify it.",
+      "explain": "The earth's crust is the main source of metals; sea water also has salts. **Minerals** are naturally occurring compounds; a mineral from which a metal can be extracted profitably is an **ore**. The unwanted sand and soil in an ore is **gangue**.\n\n**Steps:** enrichment of ore → getting the metal → refining.\n\n**1. Metals low in the series (Hg, Cu):** heating the ore alone is enough.\n2HgS + 3O₂ → 2HgO + 2SO₂ (heat); 2HgO → 2Hg + O₂ (heat)\n2Cu₂S + 3O₂ → 2Cu₂O + 2SO₂; 2Cu₂O + Cu₂S → 6Cu + SO₂\n\n**2. Metals in the middle (Fe, Zn, Pb, Cu):** usually found as sulphides or carbonates. First convert them to oxides, because oxides are easier to reduce:\n- **Roasting** (sulphide ores, heated strongly in excess air): 2ZnS + 3O₂ → 2ZnO + 2SO₂\n- **Calcination** (carbonate ores, heated strongly in limited air): ZnCO₃ → ZnO + CO₂\nThen **reduce** the oxide with carbon (coke): ZnO + C → Zn + CO\nMore reactive metals can also be used as reducing agents. In the **thermit reaction**, aluminium reduces iron oxide; so much heat is released that iron forms in the molten state — used to join railway tracks and cracked machine parts: Fe₂O₃ + 2Al → 2Fe + Al₂O₃ + heat.\n\n**3. Metals high in the series (Na, Mg, Ca, Al):** carbon cannot reduce them, because they have more affinity for oxygen than carbon. They are obtained by **electrolytic reduction** of their molten chlorides or oxides. Metal is deposited at the cathode. Na⁺ + e⁻ → Na (at cathode); 2Cl⁻ → Cl₂ + 2e⁻ (at anode). Aluminium is obtained by electrolysis of aluminium oxide.\n\n**Refining — electrolytic refining** (Cu, Zn, Sn, Ni, Ag, Au): impure metal is the **anode**, a thin strip of pure metal is the **cathode**, and a solution of a salt of the metal is the electrolyte. Pure metal deposits on the cathode; insoluble impurities settle below the anode as **anode mud**.",
+      "example": "Indian Railways welds rail tracks using the thermit reaction: a mixture of aluminium powder and iron oxide is ignited, and the molten iron produced flows into the gap between two rails.",
+      "keyPoints": ["Ore = mineral from which metal is extracted profitably; gangue = impurities", "Low reactivity (Hg, Cu): heat alone", "Middle (Zn, Fe, Pb): roasting/calcination → oxide → reduce with carbon", "Roasting: sulphide + excess air; calcination: carbonate + limited air", "High reactivity (Na, Mg, Ca, Al): electrolysis of molten compounds", "Electrolytic refining: impure anode, pure cathode, anode mud"],
+      "keywords": ["extraction of metals", "occurrence of metals", "ore", "mineral", "gangue", "enrichment of ores", "roasting", "calcination", "reduction", "thermit reaction", "electrolytic reduction", "electrolytic refining", "anode mud", "metallurgy", "cinnabar"]
+    },
+    {
+      "id": "corrosion",
+      "title": "Corrosion and its prevention; alloys",
+      "summary": "Metals corrode when attacked by air and moisture. Rusting of iron is prevented by painting, oiling, greasing, galvanising, chrome plating, anodising and making alloys.",
+      "simple": "Silver turns black, copper turns green, and iron gets reddish-brown rust when exposed to moist air. We protect metals by covering them with paint, oil, or a layer of zinc. Mixing metals to make **alloys** also makes them stronger and less likely to corrode.",
+      "explain": "**Corrosion** is the slow eating away of metals by air, moisture or chemicals.\n- Silver turns **black** — it reacts with sulphur in the air to form silver sulphide.\n- Copper gets a **green** coat — basic copper carbonate — from moist CO₂ in the air.\n- Iron gets a **reddish-brown** coat — **rust** (hydrated iron oxide).\n\nThe classic test-tube experiment shows that **both air and water** are needed for iron to rust: nails in dry air (with anhydrous calcium chloride) or in boiled water covered with oil don't rust, while nails in ordinary water with air do.\n\n**Prevention of rusting:** painting, oiling, greasing, **galvanising** (coating iron or steel with a thin layer of **zinc**), chrome plating, anodising, and making alloys. Galvanised iron stays protected even if the zinc layer is broken, because zinc is more reactive and gets oxidised first.\n\n**Alloys** are homogeneous mixtures of two or more metals, or a metal and a non-metal. They are made by melting the main metal and dissolving the others in it, then cooling.\n- **Steel:** iron + a small amount of carbon (about 0.05%) — hard and strong\n- **Stainless steel:** iron + nickel + chromium — doesn't rust\n- **Brass:** copper + zinc\n- **Bronze:** copper + tin\n- **Solder:** lead + tin — low melting point, used for welding electrical wires\n- **Amalgam:** any alloy in which one metal is mercury\n\nPure gold is **24 carat** and very soft. Jewellery in India is usually **22 carat** gold — 22 parts gold alloyed with 2 parts silver or copper to make it harder. The electrical conductivity and melting point of an alloy are lower than those of the pure metals (brass and bronze conduct less than copper).",
+      "example": "Iron water tanks and roofing sheets are galvanised so they don't rust in the monsoon. Pressure-cooker bodies are made of aluminium, but the cutlery in your kitchen is stainless steel because iron mixed with nickel and chromium doesn't rust.",
+      "keyPoints": ["Corrosion: silver → black, copper → green, iron → rust", "Rusting needs both air and water", "Galvanising = coating iron with zinc", "Alloy = homogeneous mixture of metals (or metal + non-metal)", "Steel: Fe + C; stainless steel: Fe + Ni + Cr", "Brass: Cu + Zn; bronze: Cu + Sn; solder: Pb + Sn", "24 carat = pure gold; jewellery is usually 22 carat"],
+      "keywords": ["corrosion", "rusting", "rust", "prevention of corrosion", "galvanisation", "galvanising", "chrome plating", "alloy", "alloys", "steel", "stainless steel", "brass", "bronze", "solder", "amalgam", "22 carat gold", "silver tarnish", "copper green"]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "Malleability", "meaning": "The property of being beaten into thin sheets." },
+    { "term": "Ductility", "meaning": "The property of being drawn into thin wires." },
+    { "term": "Sonorous", "meaning": "Producing a ringing sound when struck." },
+    { "term": "Amphoteric oxide", "meaning": "A metal oxide that reacts with both acids and bases, e.g. Al₂O₃, ZnO." },
+    { "term": "Reactivity series", "meaning": "A list of metals in decreasing order of their reactivity." },
+    { "term": "Ionic (electrovalent) compound", "meaning": "A compound formed by transfer of electrons from a metal to a non-metal." },
+    { "term": "Ore", "meaning": "A mineral from which a metal can be extracted profitably." },
+    { "term": "Gangue", "meaning": "Unwanted impurities such as soil and sand in an ore." },
+    { "term": "Roasting", "meaning": "Strongly heating a sulphide ore in excess air to convert it to an oxide." },
+    { "term": "Calcination", "meaning": "Strongly heating a carbonate ore in limited air to convert it to an oxide." },
+    { "term": "Thermit reaction", "meaning": "Reduction of iron oxide by aluminium, giving molten iron; used to join railway tracks." },
+    { "term": "Electrolytic refining", "meaning": "Purifying a metal by electrolysis with impure metal as anode and pure metal as cathode." },
+    { "term": "Galvanisation", "meaning": "Coating iron or steel with a thin layer of zinc to prevent rusting." },
+    { "term": "Alloy", "meaning": "A homogeneous mixture of two or more metals, or a metal and a non-metal." }
+  ],
+  "formulas": [
+    "2Cu + O₂ → 2CuO",
+    "Al₂O₃ + 6HCl → 2AlCl₃ + 3H₂O; Al₂O₃ + 2NaOH → 2NaAlO₂ + H₂O (amphoteric)",
+    "2Na + 2H₂O → 2NaOH + H₂ + heat",
+    "3Fe + 4H₂O(steam) → Fe₃O₄ + 4H₂",
+    "Fe + CuSO₄ → FeSO₄ + Cu",
+    "Cu + 2AgNO₃ → Cu(NO₃)₂ + 2Ag",
+    "2HgS + 3O₂ → 2HgO + 2SO₂; 2HgO → 2Hg + O₂",
+    "2ZnS + 3O₂ → 2ZnO + 2SO₂ (roasting)",
+    "ZnCO₃ → ZnO + CO₂ (calcination)",
+    "ZnO + C → Zn + CO (reduction)",
+    "Fe₂O₃ + 2Al → 2Fe + Al₂O₃ + heat (thermit reaction)",
+    "Aqua regia: conc. HCl and conc. HNO₃ in ratio 3 : 1"
+  ],
+  "commonMistakes": [
+    "Saying all metals are solid — mercury is a liquid at room temperature.",
+    "Thinking all non-metals are non-conductors — graphite conducts electricity.",
+    "Mixing up roasting (sulphide ores, excess air) and calcination (carbonate ores, limited air).",
+    "Writing Cu + FeSO₄ → CuSO₄ + Fe — copper is less reactive than iron, so no reaction happens.",
+    "Saying ionic compounds conduct in the solid state — they conduct only when molten or dissolved.",
+    "Thinking carbon can reduce oxides of sodium or aluminium — these metals are extracted by electrolysis.",
+    "Forgetting that rusting needs BOTH air (oxygen) and water."
+  ],
+  "revision": [
+    "Metals: lustrous, malleable, ductile, sonorous, good conductors.",
+    "Mercury is a liquid metal; bromine is a liquid non-metal.",
+    "Exceptions: Na/K soft, Ga/Cs low melting, iodine lustrous, graphite conducts, diamond hardest.",
+    "Metal oxides are basic; Al₂O₃ and ZnO are amphoteric.",
+    "Na and K are stored under kerosene.",
+    "Reactivity: K > Na > Ca > Mg > Al > Zn > Fe > Pb > H > Cu > Hg > Ag > Au.",
+    "A more reactive metal displaces a less reactive one from its salt solution.",
+    "Nitric acid usually doesn't give H₂ with metals (it is an oxidising agent).",
+    "Aqua regia (3 HCl : 1 HNO₃) dissolves gold and platinum.",
+    "Ionic compounds: high melting points, soluble in water, conduct when molten or in solution.",
+    "Roasting (sulphides) and calcination (carbonates) give oxides, which are reduced with carbon.",
+    "Highly reactive metals are extracted by electrolysis of their molten compounds.",
+    "Thermit reaction (Fe₂O₃ + Al) is used to join railway tracks.",
+    "Galvanising = zinc coating; brass = Cu + Zn; bronze = Cu + Sn; solder = Pb + Sn."
+  ],
+  "faqs": [
+    { "q": "Why is sodium kept under kerosene oil?", "a": "Sodium is so reactive that it reacts vigorously with oxygen and moisture in the air and can catch fire. Kerosene doesn't react with sodium and keeps air and water away from it.", "keywords": ["sodium kerosene", "why sodium stored in kerosene"] },
+    { "q": "What is the difference between roasting and calcination?", "a": "Both convert an ore into its oxide. **Roasting** is strongly heating a **sulphide** ore in **excess air** (2ZnS + 3O₂ → 2ZnO + 2SO₂). **Calcination** is strongly heating a **carbonate** ore in **limited air** (ZnCO₃ → ZnO + CO₂).", "keywords": ["roasting vs calcination", "difference roasting calcination"] },
+    { "q": "Why don't ionic compounds conduct electricity in the solid state?", "a": "Electricity is carried by moving charged particles. In a solid ionic compound, the ions are held tightly in fixed positions and cannot move. When melted or dissolved in water, the ions become free to move, so the compound conducts.", "keywords": ["ionic compound conduct", "solid state conduction"] },
+    { "q": "Why is hydrogen gas not evolved when metals react with nitric acid?", "a": "Nitric acid is a strong oxidising agent. It oxidises the hydrogen produced to water and is itself reduced to oxides of nitrogen. Only magnesium and manganese give hydrogen with very dilute nitric acid.", "keywords": ["nitric acid hydrogen", "HNO3 metals"] },
+    { "q": "Why is pure gold not used to make jewellery?", "a": "Pure (24 carat) gold is very soft and bends easily. It is alloyed with silver or copper to make it harder. In India, jewellery is usually made of 22 carat gold (22 parts gold and 2 parts silver or copper).", "keywords": ["24 carat", "22 carat", "gold jewellery alloy"] },
+    { "q": "Why can't carbon be used to extract sodium or aluminium?", "a": "These metals are very high in the reactivity series and hold oxygen more strongly than carbon does, so carbon cannot remove oxygen from their oxides. They are obtained by electrolytic reduction of their molten compounds.", "keywords": ["electrolytic reduction", "why not carbon reduction", "sodium extraction"] }
+  ],
+  "quiz": [
+    { "q": "Which metal is a liquid at room temperature?", "options": ["Mercury", "Sodium", "Gallium", "Bromine"], "answer": 0, "explain": "Mercury is the only liquid metal. Bromine is a liquid but it is a non-metal.", "topic": "physical-properties", "level": "easy" },
+    { "q": "Which non-metal is a good conductor of electricity?", "options": ["Sulphur", "Graphite", "Iodine", "Diamond"], "answer": 1, "explain": "Graphite, a form of carbon, conducts electricity.", "topic": "physical-properties", "level": "easy" },
+    { "q": "Which of these is an amphoteric oxide?", "options": ["Na₂O", "CO₂", "Al₂O₃", "SO₂"], "answer": 2, "explain": "Aluminium oxide reacts with both acids and bases.", "topic": "chemical-properties", "level": "medium" },
+    { "q": "Which metal reacts with water only in the form of steam?", "options": ["Sodium", "Potassium", "Calcium", "Iron"], "answer": 3, "explain": "Iron, aluminium and zinc react only with steam: 3Fe + 4H₂O → Fe₃O₄ + 4H₂.", "topic": "chemical-properties", "level": "medium" },
+    { "q": "Aqua regia is a mixture of concentrated HCl and concentrated HNO₃ in the ratio:", "options": ["1 : 3", "3 : 1", "1 : 1", "2 : 1"], "answer": 1, "explain": "3 parts HCl to 1 part HNO₃; it can dissolve gold.", "topic": "chemical-properties", "level": "hard" },
+    { "q": "In which case will a displacement reaction take place?", "options": ["Cu + FeSO₄", "Ag + CuSO₄", "Zn + CuSO₄", "Cu + ZnSO₄"], "answer": 2, "explain": "Zinc is more reactive than copper, so it displaces copper. In the others the metal is less reactive.", "topic": "reactivity-series", "level": "medium" },
+    { "q": "Which metal is the most reactive?", "options": ["Aluminium", "Zinc", "Iron", "Potassium"], "answer": 3, "explain": "Potassium is at the top of the reactivity series.", "topic": "reactivity-series", "level": "easy" },
+    { "q": "The electronic configuration of Na⁺ is:", "options": ["2, 8", "2, 8, 1", "2, 8, 2", "2, 7"], "answer": 0, "explain": "Na (2, 8, 1) loses its one outer electron to become Na⁺ (2, 8).", "topic": "ionic-compounds", "level": "medium" },
+    { "q": "Ionic compounds conduct electricity when:", "options": ["In solid form", "Dissolved in kerosene", "Molten or dissolved in water", "Never"], "answer": 2, "explain": "Ions can move only in the molten state or in solution.", "topic": "ionic-compounds", "level": "easy" },
+    { "q": "Heating a carbonate ore strongly in limited air is called:", "options": ["Calcination", "Roasting", "Refining", "Galvanising"], "answer": 0, "explain": "Calcination converts carbonates to oxides, e.g. ZnCO₃ → ZnO + CO₂.", "topic": "extraction", "level": "medium" },
+    { "q": "The thermit reaction between iron oxide and aluminium is used to:", "options": ["Extract sodium", "Join railway tracks", "Make bleaching powder", "Galvanise iron"], "answer": 1, "explain": "Fe₂O₃ + 2Al → 2Fe + Al₂O₃ releases so much heat that molten iron forms and welds the rails.", "topic": "extraction", "level": "hard" },
+    { "q": "Brass is an alloy of:", "options": ["Copper and tin", "Lead and tin", "Iron and carbon", "Copper and zinc"], "answer": 3, "explain": "Brass = copper + zinc; bronze = copper + tin.", "topic": "corrosion", "level": "easy" }
+  ]
+}

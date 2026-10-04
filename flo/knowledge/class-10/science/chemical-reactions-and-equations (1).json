@@ -1,0 +1,338 @@
+{
+  "id": "c10-sci-reactions",
+  "class": 10,
+  "subject": "science",
+  "name": "Chemical Reactions and Equations",
+  "summary": "A chemical reaction turns reactants into new products. We write reactions as balanced chemical equations and group them into types: combination, decomposition, displacement, double displacement, and oxidation–reduction (redox).",
+  "topics": [
+    {
+      "id": "equations",
+      "title": "Chemical equations and balancing",
+      "summary": "A chemical equation shows reactants → products using formulas. It must be balanced so each element has the same number of atoms on both sides (law of conservation of mass).",
+      "simple": "A chemical equation is a short way to write a reaction: what you start with → what you get. It must be **balanced**, meaning the same number of each type of atom on both sides, because atoms can't appear or vanish.",
+      "explain": "Signs that a chemical reaction has happened: change in state, change in colour, gas given off, or change in temperature.\n\nA **chemical equation** uses formulas: reactants on the left, products on the right, and an arrow between them. **State symbols:** (s) solid, (l) liquid, (g) gas, (aq) aqueous (dissolved in water).\n\n**Balancing** (by hit and trial):\n1. Write the unbalanced (skeletal) equation.\n2. Start with the compound that has the most atoms, and balance one element at a time using coefficients (never change the formulas).\n3. Leave hydrogen and oxygen for last if they appear in several compounds.\n4. Check every element.\n\nExample: Fe + H₂O → Fe₃O₄ + H₂ balances as **3Fe + 4H₂O → Fe₃O₄ + 4H₂**.",
+      "example": "Magnesium ribbon burns with a dazzling white flame to form white magnesium oxide powder: 2Mg + O₂ → 2MgO. Count: 2 Mg and 2 O on each side ✓.",
+      "keyPoints": [
+        "Reactants → products",
+        "Balanced = same number of atoms of each element on both sides",
+        "Change coefficients, never subscripts",
+        "State symbols: (s), (l), (g), (aq)",
+        "2Mg + O₂ → 2MgO"
+      ],
+      "keywords": [
+        "chemical equation",
+        "chemical equations",
+        "balancing",
+        "balanced equation",
+        "balance",
+        "skeletal equation",
+        "reactants",
+        "products",
+        "state symbols",
+        "magnesium ribbon",
+        "hit and trial"
+      ]
+    },
+    {
+      "id": "types",
+      "title": "Types of chemical reactions",
+      "summary": "Combination (A + B → AB), decomposition (AB → A + B), displacement (a more reactive element pushes out a less reactive one), double displacement (ions are exchanged, often forming a precipitate).",
+      "simple": "Four common patterns:\n- **Combination:** two things join into one\n- **Decomposition:** one thing breaks into simpler things\n- **Displacement:** a stronger metal kicks out a weaker one\n- **Double displacement:** two compounds swap partners",
+      "explain": "- **Combination:** two or more substances form one product. CaO + H₂O → Ca(OH)₂ (quicklime + water → slaked lime, releases heat). Burning coal: C + O₂ → CO₂.\n- **Decomposition:** one reactant breaks into simpler products. It needs energy:\n  - heat (**thermal**): CaCO₃ → CaO + CO₂\n  - electricity (**electrolysis**): 2H₂O → 2H₂ + O₂\n  - light (**photolysis**): 2AgCl → 2Ag + Cl₂ (used in black-and-white photography)\n- **Displacement:** a more reactive element displaces a less reactive one from its compound. Fe + CuSO₄ → FeSO₄ + Cu (the blue solution turns green, and brown copper coats the iron nail).\n- **Double displacement:** two compounds exchange ions. Na₂SO₄ + BaCl₂ → BaSO₄↓ (white precipitate) + 2NaCl. A reaction forming an insoluble solid is a **precipitation** reaction.\n\n**Exothermic** reactions release heat (respiration, burning). **Endothermic** reactions absorb heat (most decomposition reactions).",
+      "example": "Put an iron nail in blue copper sulphate solution. After about 20 minutes, the nail turns brownish and the solution becomes pale green. Iron is more reactive than copper, so it displaces copper.",
+      "keyPoints": [
+        "Combination: A + B → AB",
+        "Decomposition: AB → A + B (heat, electricity or light)",
+        "Displacement: more reactive metal displaces less reactive (Fe + CuSO₄)",
+        "Double displacement: exchange of ions; precipitate forms (BaSO₄)",
+        "Exothermic releases heat; endothermic absorbs heat"
+      ],
+      "keywords": [
+        "types of reactions",
+        "types of chemical reactions",
+        "combination reaction",
+        "decomposition reaction",
+        "displacement reaction",
+        "double displacement",
+        "precipitation",
+        "precipitate",
+        "exothermic",
+        "endothermic",
+        "thermal decomposition",
+        "electrolysis",
+        "photolysis",
+        "iron nail copper sulphate",
+        "quicklime"
+      ]
+    },
+    {
+      "id": "redox",
+      "title": "Oxidation, reduction and their effects",
+      "summary": "Oxidation is gain of oxygen (or loss of hydrogen); reduction is loss of oxygen (or gain of hydrogen). When both happen together it's a redox reaction. Corrosion and rancidity are everyday effects of oxidation.",
+      "simple": "**Oxidation** = gaining oxygen. **Reduction** = losing oxygen. They usually happen together, so we call it a **redox** reaction. Rusting iron and chips going stale are both caused by oxidation.",
+      "explain": "- **Oxidation:** gain of oxygen or loss of hydrogen.\n- **Reduction:** loss of oxygen or gain of hydrogen.\n- **Redox reaction:** one substance is oxidised while another is reduced.\n\nExample: CuO + H₂ → Cu + H₂O. CuO loses oxygen, so it's **reduced**. H₂ gains oxygen, so it's **oxidised**.\n\nEffects of oxidation in daily life:\n- **Corrosion:** metals are attacked by moisture, air and acids. Iron rusts (reddish-brown), silver turns black, copper turns green. Prevent it by painting, oiling, galvanising (zinc coating) or chrome plating.\n- **Rancidity:** fats and oils in food get oxidised, so they smell and taste bad. Prevent it with antioxidants, airtight containers, refrigeration, or by flushing chip packets with **nitrogen**.",
+      "example": "Chips packets are filled with nitrogen gas instead of air, so the oil in the chips doesn't get oxidised and turn rancid.",
+      "keyPoints": [
+        "Oxidation: + oxygen or − hydrogen",
+        "Reduction: − oxygen or + hydrogen",
+        "Redox: both together (CuO + H₂ → Cu + H₂O)",
+        "Corrosion: rusting of iron; prevent by painting or galvanising",
+        "Rancidity: oxidation of fats; prevent with nitrogen, antioxidants, airtight storage"
+      ],
+      "keywords": [
+        "oxidation",
+        "reduction",
+        "redox",
+        "oxidised",
+        "reduced",
+        "corrosion",
+        "rusting",
+        "rust",
+        "rancidity",
+        "rancid",
+        "galvanisation",
+        "galvanising",
+        "antioxidants",
+        "nitrogen chips"
+      ]
+    }
+  ],
+  "keyConcepts": [
+    {
+      "term": "Balanced chemical equation",
+      "meaning": "An equation with the same number of atoms of each element on both sides."
+    },
+    {
+      "term": "Precipitate",
+      "meaning": "An insoluble solid formed in a reaction in solution."
+    },
+    {
+      "term": "Redox reaction",
+      "meaning": "A reaction in which oxidation and reduction take place together."
+    },
+    {
+      "term": "Corrosion",
+      "meaning": "The slow eating away of a metal by air, moisture or chemicals, e.g. rusting."
+    },
+    {
+      "term": "Rancidity",
+      "meaning": "Oxidation of fats and oils in food, making it smell and taste bad."
+    }
+  ],
+  "formulas": [
+    "2Mg + O₂ → 2MgO",
+    "CaO + H₂O → Ca(OH)₂ + heat",
+    "CaCO₃ → CaO + CO₂ (heat)",
+    "2H₂O → 2H₂ + O₂ (electrolysis)",
+    "2AgCl → 2Ag + Cl₂ (sunlight)",
+    "Fe + CuSO₄ → FeSO₄ + Cu",
+    "Na₂SO₄ + BaCl₂ → BaSO₄↓ + 2NaCl",
+    "CuO + H₂ → Cu + H₂O"
+  ],
+  "commonMistakes": [
+    "Changing subscripts (H₂O → H₂O₂) to balance — only change the coefficients.",
+    "Mixing up which substance is oxidised and which is reduced.",
+    "Forgetting that decomposition reactions need energy (heat, light or electricity)."
+  ],
+  "revision": [
+    "Signs of a reaction: state, colour, gas, temperature change.",
+    "Balance with coefficients; never change formulas.",
+    "Combination A + B → AB; decomposition AB → A + B.",
+    "Decomposition by heat, electricity or light (2AgCl → 2Ag + Cl₂).",
+    "Displacement: Fe + CuSO₄ → FeSO₄ + Cu (blue → green).",
+    "Double displacement forms a precipitate (BaSO₄, white).",
+    "Oxidation = gain O / lose H; reduction = lose O / gain H.",
+    "Corrosion and rancidity are oxidation effects."
+  ],
+  "faqs": [
+    {
+      "q": "Why should a chemical equation be balanced?",
+      "a": "Because of the **law of conservation of mass**: atoms are neither created nor destroyed in a reaction, so each element must have the same number of atoms on both sides.",
+      "keywords": [
+        "why balance",
+        "balanced equation why"
+      ]
+    },
+    {
+      "q": "Why does the colour of copper sulphate solution change when an iron nail is dipped in it?",
+      "a": "Iron is more reactive than copper, so it displaces copper from copper sulphate: Fe + CuSO₄ → FeSO₄ + Cu. Blue copper sulphate becomes pale green iron sulphate, and brown copper coats the nail.",
+      "keywords": [
+        "iron nail copper sulphate",
+        "colour change"
+      ]
+    },
+    {
+      "q": "Why are chips packets filled with nitrogen?",
+      "a": "To prevent **rancidity**. Nitrogen is unreactive, so it keeps oxygen away and stops the oils in the chips from getting oxidised.",
+      "keywords": [
+        "chips nitrogen",
+        "rancidity prevent"
+      ]
+    },
+    {
+      "q": "What is the difference between displacement and double displacement reactions?",
+      "a": "In **displacement**, a more reactive element replaces a less reactive one in a compound (Fe + CuSO₄ → FeSO₄ + Cu). In **double displacement**, two compounds exchange their ions (Na₂SO₄ + BaCl₂ → BaSO₄ + 2NaCl), often forming a precipitate.",
+      "keywords": [
+        "displacement vs double displacement"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Which is a balanced equation?",
+      "options": [
+        "2Mg + O₂ → 2MgO",
+        "Mg + O₂ → MgO",
+        "Mg + O₂ → 2MgO",
+        "2Mg + 2O₂ → MgO"
+      ],
+      "answer": 0,
+      "explain": "2 Mg and 2 O atoms on each side.",
+      "topic": "equations",
+      "level": "easy"
+    },
+    {
+      "q": "CaCO₃ → CaO + CO₂ is an example of:",
+      "options": [
+        "Combination",
+        "Decomposition",
+        "Displacement",
+        "Double displacement"
+      ],
+      "answer": 1,
+      "explain": "One reactant breaks down on heating.",
+      "topic": "types",
+      "level": "easy"
+    },
+    {
+      "q": "Fe + CuSO₄ → FeSO₄ + Cu is a:",
+      "options": [
+        "Combination reaction",
+        "Decomposition reaction",
+        "Displacement reaction",
+        "Double displacement reaction"
+      ],
+      "answer": 2,
+      "explain": "Iron displaces copper.",
+      "topic": "types",
+      "level": "easy"
+    },
+    {
+      "q": "In CuO + H₂ → Cu + H₂O, the substance oxidised is:",
+      "options": [
+        "CuO",
+        "Cu",
+        "H₂O",
+        "H₂"
+      ],
+      "answer": 3,
+      "explain": "H₂ gains oxygen to form H₂O.",
+      "topic": "redox",
+      "level": "medium"
+    },
+    {
+      "q": "The white precipitate formed when BaCl₂ reacts with Na₂SO₄ is:",
+      "options": [
+        "BaSO₄",
+        "NaCl",
+        "Na₂Cl",
+        "BaCl"
+      ],
+      "answer": 0,
+      "explain": "Barium sulphate is insoluble and white.",
+      "topic": "types",
+      "level": "medium"
+    },
+    {
+      "q": "Chips packets are flushed with which gas to prevent rancidity?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Hydrogen",
+        "Carbon dioxide"
+      ],
+      "answer": 1,
+      "explain": "Nitrogen keeps oxygen away from the oils.",
+      "topic": "redox",
+      "level": "easy"
+    },
+    {
+      "q": "The decomposition of silver chloride in sunlight is used in:",
+      "options": [
+        "Galvanising",
+        "Making cement",
+        "Black-and-white photography",
+        "Electroplating"
+      ],
+      "answer": 2,
+      "explain": "2AgCl → 2Ag + Cl₂ in light.",
+      "topic": "types",
+      "level": "medium"
+    },
+    {
+      "q": "Which process protects iron from rusting by coating it with zinc?",
+      "options": [
+        "Electrolysis",
+        "Rancidity",
+        "Reduction",
+        "Galvanisation"
+      ],
+      "answer": 3,
+      "explain": "Galvanisation coats iron with zinc.",
+      "topic": "redox",
+      "level": "medium"
+    },
+    {
+      "q": "When quicklime (CaO) reacts with water, the reaction is:",
+      "options": [
+        "Exothermic combination",
+        "Endothermic decomposition",
+        "Displacement",
+        "Double displacement"
+      ],
+      "answer": 0,
+      "explain": "CaO + H₂O → Ca(OH)₂ releases a lot of heat — two substances combine and heat is given out.",
+      "topic": "types",
+      "level": "easy"
+    },
+    {
+      "q": "Respiration is an example of which kind of reaction?",
+      "options": [
+        "Endothermic",
+        "Exothermic",
+        "Decomposition",
+        "Displacement"
+      ],
+      "answer": 1,
+      "explain": "Glucose combines with oxygen in our cells and releases energy, so respiration is exothermic.",
+      "topic": "types",
+      "level": "easy"
+    },
+    {
+      "q": "Why are chemical equations balanced?",
+      "options": [
+        "To make them shorter",
+        "To show the colour change",
+        "Because mass is neither created nor destroyed in a reaction",
+        "To show the state of the products"
+      ],
+      "answer": 2,
+      "explain": "The law of conservation of mass says the total mass (number of atoms of each element) must be the same on both sides.",
+      "topic": "equations",
+      "level": "easy"
+    },
+    {
+      "q": "The green coating that forms on copper vessels over time is an example of:",
+      "options": [
+        "Rancidity",
+        "Neutralisation",
+        "Sublimation",
+        "Corrosion"
+      ],
+      "answer": 3,
+      "explain": "Copper reacts with moist carbon dioxide in the air to form a green basic copper carbonate — this is corrosion.",
+      "topic": "redox",
+      "level": "medium"
+    }
+  ]
+}

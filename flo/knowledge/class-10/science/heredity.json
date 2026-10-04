@@ -1,0 +1,176 @@
+{
+  "id": "c10-sci-heredity",
+  "class": 10,
+  "subject": "science",
+  "name": "Heredity",
+  "summary": "Heredity is how traits pass from parents to offspring. Reproduction creates variation, and sexual reproduction creates the most. Mendel's pea-plant experiments showed that traits are controlled by pairs of factors (genes), one from each parent, with some forms dominant and others recessive. Genes are sections of DNA that make proteins, and those proteins produce traits. In humans, the sex of a child is decided by the X or Y chromosome the father passes on.",
+  "topics": [
+    {
+      "id": "variation",
+      "title": "Accumulation of variation during reproduction",
+      "summary": "Each generation inherits a basic body design plus small changes. Asexual reproduction gives very little variation, while sexual reproduction gives a lot. Some variations help individuals survive.",
+      "simple": "Children look like their parents, but never exactly the same. These small differences are called **variations**. Sexual reproduction mixes DNA from two parents, so it creates many more variations than asexual reproduction. Some variations can help a living thing survive when conditions change.",
+      "explain": "When organisms reproduce, offspring inherit a **common basic body design** from their parents, along with **small differences** called **variations**.\n\n**Asexual reproduction** (e.g. bacteria dividing):\n- The offspring are almost identical to the parent\n- The only differences come from **small errors in DNA copying**\n\n**Sexual reproduction:**\n- Offspring get DNA from **two parents**, so the mix is new every time\n- This produces **much greater diversity**\n\n**Variations build up over generations.** Offspring of the first generation carry their parent's variations plus new ones of their own. Their offspring then carry all of these and add more. So, over many generations, a population ends up with a wide range of differences.\n\n**Why variation matters:** not all variations are equally useful. Depending on the environment, some variations help an organism survive better. For example, if water temperature rises suddenly, bacteria that happen to tolerate heat survive, while most others die. Variation therefore helps a species survive when its surroundings change.",
+      "deep": "Variation is the raw material on which nature acts. A variation that is useless today may become very useful if the environment changes. This is why populations with more variation are less likely to be wiped out completely by a single change such as a heat wave or a new disease.",
+      "example": "Brothers and sisters from the same parents look similar but differ in height, skin tone, voice and hair. That is variation produced by sexual reproduction. In contrast, a sugarcane field grown from stem cuttings has plants that are nearly identical.",
+      "keyPoints": [
+        "Offspring inherit a basic body design plus small variations",
+        "Asexual reproduction: very little variation (only DNA copying errors)",
+        "Sexual reproduction: much more variation (DNA from two parents)",
+        "Variations build up over generations",
+        "Some variations help survival, e.g. heat-tolerant bacteria"
+      ],
+      "keywords": ["variation", "variations", "accumulation of variation", "diversity", "dna copying", "asexual reproduction variation", "sexual reproduction variation", "survival", "heat resistant bacteria", "chapter 8", "heredity and evolution"]
+    },
+    {
+      "id": "inherited-traits",
+      "title": "Heredity and inherited traits",
+      "summary": "Heredity means the passing of traits from parents to offspring. Traits such as free or attached earlobes are inherited, and a child gets genetic material from both parents.",
+      "simple": "**Heredity** means passing features (traits) from parents to children. A **trait** is a feature like eye colour or the shape of your earlobe. Children get half their genetic material from their mother and half from their father, which is why they show a mix of both parents' traits.",
+      "explain": "**Heredity** is the passing on of characteristics, or **traits**, from one generation to the next. The rules of heredity decide how traits and characteristics are reliably inherited.\n\n**Inherited traits:** a child shows all the basic features of a human being, but does not look exactly like either parent. The child shows a **mix** of features from both.\n\n**Earlobe example:** the lowest part of the ear, the earlobe, can be:\n- **Free:** it hangs below where it joins the head\n- **Attached:** it is joined closely to the side of the head\n\nWhether your earlobe is free or attached is an inherited trait. If you survey your classmates, you'll find both kinds.\n\n**Why both parents matter:** in sexual reproduction, both the father and the mother contribute **practically equal amounts of genetic material** to the child. This means each trait can be influenced by both the paternal and the maternal DNA. So, for every trait, the child gets two versions, one from each parent.",
+      "example": "In a class of 40 students, you might find that some have free earlobes and some have attached earlobes. Checking parents' earlobes as well shows that this trait runs in families.",
+      "keyPoints": [
+        "Heredity = passing of traits from parents to offspring",
+        "A trait is an inherited characteristic, e.g. earlobe type",
+        "Earlobes can be free or attached",
+        "Both parents give almost equal genetic material",
+        "For each trait, a child gets two versions, one from each parent"
+      ],
+      "keywords": ["heredity", "inheritance", "inherited traits", "traits", "characteristics", "earlobe", "free earlobe", "attached earlobe", "genetic material", "parents", "offspring"]
+    },
+    {
+      "id": "mendel",
+      "title": "Mendel's experiments: rules for inheritance",
+      "summary": "Mendel crossed pea plants with contrasting traits. A tall × short cross gave all tall plants in F1, and tall and short plants in a 3 : 1 ratio in F2. This showed that traits are controlled by paired factors, with dominant and recessive forms.",
+      "simple": "Gregor Mendel grew pea plants and crossed tall ones with short ones. All the children were tall. But when those tall children were crossed among themselves, about one in four grandchildren was short again. This showed that the 'short' factor was hidden, not lost. The factor that shows is **dominant**, and the hidden one is **recessive**.",
+      "explain": "**Gregor Johann Mendel** worked out the main rules of inheritance using the garden pea (*Pisum sativum*). He studied **contrasting (visible) traits**, for example:\n- Tall vs short plants\n- Round vs wrinkled seeds\n- Violet vs white flowers\n- Yellow vs green seeds\n\n**Monohybrid cross (one trait):**\n1. **Parents (P):** pure tall (TT) × pure short (tt)\n2. **F1 generation:** all plants tall (Tt). There were no medium-height plants.\n3. F1 plants were allowed to **self-pollinate**.\n4. **F2 generation:** tall and short plants in about **3 : 1**.\n\n**F2 genotypes:** TT : Tt : tt = **1 : 2 : 1**\n**F2 phenotypes:** tall : short = **3 : 1**\n\n**What Mendel concluded:**\n- Each trait is controlled by **two copies of a factor** (now called a **gene**), one from each parent.\n- The two copies may be the same (TT, tt) or different (Tt).\n- When both are present, one trait shows. That is the **dominant** trait (tall, T). The one that stays hidden is **recessive** (short, t).\n- A recessive trait shows only when **both** copies are recessive (tt).\n- The short trait reappeared in F2, so it was carried hidden in the F1 plants.",
+      "deep": "**Genotype** is the gene combination (TT, Tt or tt). **Phenotype** is the visible trait (tall or short). TT and Tt have different genotypes but the same phenotype (tall).\n\nWorking out F2 from Tt × Tt: each parent makes gametes T or t in equal numbers. The combinations are TT, Tt, tT and tt. That gives 3 tall (TT, Tt, tT) and 1 short (tt).",
+      "example": "Worked cross: Tt × Tt\n\nGametes from each parent: T and t\n\nOffspring:\n- T + T → TT (tall)\n- T + t → Tt (tall)\n- t + T → Tt (tall)\n- t + t → tt (short)\n\nPhenotype ratio 3 tall : 1 short. Genotype ratio 1 TT : 2 Tt : 1 tt. If 800 F2 plants grew, about 600 would be tall and 200 short.",
+      "keyPoints": [
+        "Mendel used garden pea plants with contrasting traits",
+        "Pure tall (TT) × pure short (tt) → F1 all tall (Tt)",
+        "F2: tall : short = 3 : 1",
+        "F2 genotypes TT : Tt : tt = 1 : 2 : 1",
+        "Dominant trait shows in F1; recessive shows only as tt",
+        "Each trait is controlled by two copies of a gene, one from each parent"
+      ],
+      "keywords": ["mendel", "gregor mendel", "mendel experiment", "pea plant", "monohybrid cross", "3:1 ratio", "1:2:1", "dominant", "recessive", "f1 generation", "f2 generation", "genotype", "phenotype", "tall and short", "rules for inheritance"]
+    },
+    {
+      "id": "dihybrid",
+      "title": "Two traits at once: independent inheritance",
+      "summary": "When Mendel tracked two traits together (height and seed shape), the F2 generation showed new combinations, such as tall plants with wrinkled seeds. This shows that the two traits are inherited independently.",
+      "simple": "Mendel also crossed plants that differed in two ways at once: tall with round seeds × short with wrinkled seeds. In the F2 generation, he got new mixes like tall-wrinkled and short-round. So each trait is passed on separately and doesn't stay stuck to the other.",
+      "explain": "**Dihybrid cross (two traits):**\n\n1. **Parents:** tall plant with round seeds (TTRR) × short plant with wrinkled seeds (ttrr)\n2. **F1:** all plants are **tall with round seeds** (TtRr). Tall and round are both dominant.\n3. F1 plants self-pollinate.\n4. **F2:** four kinds of plants appear:\n- Tall, round (9)\n- Tall, wrinkled (3) ← **new combination**\n- Short, round (3) ← **new combination**\n- Short, wrinkled (1)\n\nThe ratio is **9 : 3 : 3 : 1**.\n\n**What this shows:** tallness and seed shape are **independently inherited**. The gene for height does not stay linked with the gene for seed shape. When gametes form, each pair of factors separates on its own, so any height factor can combine with any seed-shape factor. That's why new combinations, which were not in either parent, appear in F2.\n\nThis is the basis of **independent inheritance** of traits.",
+      "example": "If 160 F2 plants come from the TtRr × TtRr cross:\n- Tall round = 9/16 × 160 = 90\n- Tall wrinkled = 3/16 × 160 = 30\n- Short round = 3/16 × 160 = 30\n- Short wrinkled = 1/16 × 160 = 10\n\nCheck: 90 + 30 + 30 + 10 = 160 ✓",
+      "keyPoints": [
+        "Dihybrid cross tracks two traits together",
+        "TTRR × ttrr → F1 all tall, round (TtRr)",
+        "F2 ratio 9 : 3 : 3 : 1",
+        "New combinations appear: tall wrinkled, short round",
+        "Traits are inherited independently of each other"
+      ],
+      "keywords": ["dihybrid cross", "9:3:3:1", "independent inheritance", "independent assortment", "two traits", "round and wrinkled seeds", "tall round", "new combinations", "mendel dihybrid"]
+    },
+    {
+      "id": "expression",
+      "title": "How traits are expressed: genes, proteins and chromosomes",
+      "summary": "A gene is a section of DNA that carries the information for making a protein. Proteins (such as enzymes) control traits like plant height. Genes sit on chromosomes, and each germ cell carries only one set of chromosomes.",
+      "simple": "A **gene** is a small piece of DNA with instructions to make one protein. Proteins do the work in our bodies. For example, a protein can control how much growth hormone a plant makes, and that decides how tall it grows. Genes are carried on **chromosomes**. Egg and sperm cells carry only half the usual chromosomes, so when they join, the child has the full set again.",
+      "explain": "**DNA → protein → trait**\n\nCellular **DNA** is the information source for making proteins. A section of DNA that provides the information for **one protein** is called the **gene** for that protein.\n\n**Example: plant height**\n- Plants have growth hormones, and the amount of hormone affects height.\n- Making the hormone depends on an **enzyme** (a protein).\n- If the gene for this enzyme works efficiently, plenty of hormone is made and the plant grows **tall**.\n- If the gene has an alteration that makes the enzyme less efficient, less hormone is made and the plant stays **short**.\n\nSo **genes control characteristics (traits)** by controlling which proteins are made.\n\n**How two copies fit with germ cells:**\n- Each parent contributes one copy of each gene to the child.\n- If every cell had two copies, germ cells (gametes) would also have two, and the number would double each generation. To avoid this, each **germ cell has only one set** of genes.\n- Genes are packed on separate pieces of DNA called **chromosomes**. Each body cell has **two copies of each chromosome**, one from the male parent and one from the female parent.\n- Each germ cell gets **one chromosome from each pair**. When two germ cells fuse, the normal number of chromosomes is restored. This keeps the DNA of the species stable.\n\nBecause chromosomes are sorted into germ cells independently, different traits can be inherited independently, as Mendel saw.",
+      "example": "A tall pea plant (TT) has a gene that makes an efficient enzyme, so it produces plenty of growth hormone. A short pea plant (tt) has an altered gene that makes a less efficient enzyme, so less hormone is made and the plant stays short.",
+      "keyPoints": [
+        "Gene = section of DNA that codes for one protein",
+        "Proteins (enzymes) control traits, e.g. height via growth hormone",
+        "Genes are carried on chromosomes",
+        "Body cells have chromosomes in pairs, one from each parent",
+        "Germ cells carry only one set, so the number stays constant",
+        "Fusion of gametes restores the full chromosome number"
+      ],
+      "keywords": ["gene", "genes", "dna", "protein", "enzyme", "growth hormone", "trait expression", "how traits are expressed", "chromosome", "chromosomes", "germ cells", "gametes", "chromosome number", "allele"]
+    },
+    {
+      "id": "sex-determination",
+      "title": "Sex determination",
+      "summary": "Different species decide sex in different ways: by temperature in some reptiles, and by changing sex in some snails. In humans, sex is decided genetically: females are XX and males are XY, and the father's sperm decides the child's sex.",
+      "simple": "In humans, girls have two X chromosomes (XX) and boys have one X and one Y (XY). The mother always gives an X. The father gives either an X or a Y. If the sperm carries X, the baby is a girl. If it carries Y, the baby is a boy. So the chance of a boy or a girl is 50–50.",
+      "explain": "**Sex determination** means how the sex of a new individual is decided.\n\n**Different methods in different species:**\n- In some **reptiles**, the **temperature** at which fertilised eggs are kept decides whether the young will be male or female.\n- Some animals, like **snails**, can **change sex**, so sex is not fixed genetically.\n- In **humans**, sex is largely **genetically determined**.\n\n**Human sex chromosomes:**\n- Humans have **23 pairs** of chromosomes.\n- **22 pairs** are the same in males and females (autosomes).\n- **1 pair** is the **sex chromosomes**:\n  - Women: a perfect pair, **XX**\n  - Men: a mismatched pair, **XY** (one normal-sized X and a short Y)\n\n**How it works:**\n- The mother's eggs all carry an **X** chromosome.\n- The father's sperm are of two kinds: half carry **X** and half carry **Y**.\n- Egg (X) + sperm (X) → **XX → girl**\n- Egg (X) + sperm (Y) → **XY → boy**\n\nSo the sex of the child depends on which kind of sperm fertilises the egg. Each child has a **50% chance** of being a boy or a girl. The mother's chromosomes are not responsible for the sex of the child.",
+      "example": "A couple already has two daughters. Is the third child more likely to be a son? No. Each pregnancy is independent, and the chance is still 50% boy, 50% girl, because half of the father's sperm carry X and half carry Y.",
+      "keyPoints": [
+        "Some reptiles: temperature decides sex; snails can change sex",
+        "Humans: 23 pairs of chromosomes, 22 pairs autosomes + 1 pair sex chromosomes",
+        "Female XX, male XY",
+        "All eggs carry X; sperm carry X or Y",
+        "Father's sperm decides the child's sex",
+        "Chance of boy or girl = 50% each time"
+      ],
+      "keywords": ["sex determination", "x chromosome", "y chromosome", "xx", "xy", "sex chromosomes", "autosomes", "boy or girl", "who decides sex of child", "father decides", "temperature reptiles", "snails change sex", "23 pairs"]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "Heredity", "meaning": "The passing of traits from parents to offspring." },
+    { "term": "Variation", "meaning": "Differences between individuals of the same species, including between parents and offspring." },
+    { "term": "Trait", "meaning": "An inherited characteristic, such as height, seed shape or earlobe type." },
+    { "term": "Gene", "meaning": "A section of DNA that carries the information for making one protein, and so controls a trait." },
+    { "term": "Dominant trait", "meaning": "The trait that shows up even when only one copy of its gene is present (e.g. tall, T)." },
+    { "term": "Recessive trait", "meaning": "The trait that shows only when both copies of the gene are recessive (e.g. short, tt)." },
+    { "term": "Genotype", "meaning": "The gene combination an organism has, e.g. TT, Tt or tt." },
+    { "term": "Phenotype", "meaning": "The visible trait an organism shows, e.g. tall or short." },
+    { "term": "Monohybrid cross", "meaning": "A cross that tracks one pair of contrasting traits; F2 ratio 3 : 1." },
+    { "term": "Dihybrid cross", "meaning": "A cross that tracks two pairs of contrasting traits; F2 ratio 9 : 3 : 3 : 1." },
+    { "term": "Chromosome", "meaning": "A thread-like structure of DNA in the nucleus that carries genes." },
+    { "term": "Sex chromosomes", "meaning": "The chromosome pair that decides sex: XX in human females, XY in human males." }
+  ],
+  "formulas": [
+    "Monohybrid F2 phenotype ratio = 3 : 1 (dominant : recessive)",
+    "Monohybrid F2 genotype ratio = 1 : 2 : 1 (TT : Tt : tt)",
+    "Dihybrid F2 phenotype ratio = 9 : 3 : 3 : 1",
+    "Egg (X) + sperm (X) → XX girl; egg (X) + sperm (Y) → XY boy"
+  ],
+  "commonMistakes": [
+    "Thinking the mother decides the child's sex. All eggs carry X; the father's sperm (X or Y) decides.",
+    "Writing the F2 genotype ratio as 3 : 1. The genotype ratio is 1 : 2 : 1; 3 : 1 is the phenotype ratio.",
+    "Thinking F1 plants of a tall × short cross are medium height. They are all tall, because tall is dominant.",
+    "Believing the recessive trait is lost in F1. It is only hidden and reappears in F2.",
+    "Saying a Tt plant is 'half tall'. Tt plants look exactly as tall as TT plants.",
+    "Thinking asexual reproduction gives no variation at all. It gives a little, from DNA copying errors.",
+    "Mixing up gene and chromosome. A chromosome is a long DNA strand carrying many genes."
+  ],
+  "revision": [
+    "Variation: small differences between parents and offspring.",
+    "Sexual reproduction creates more variation than asexual reproduction.",
+    "Some variations help survival when the environment changes.",
+    "Heredity = transmission of traits from parents to offspring.",
+    "Mendel used garden pea plants with contrasting traits.",
+    "TT × tt → F1 all Tt (tall).",
+    "F2 monohybrid: 3 tall : 1 short; genotypes 1 TT : 2 Tt : 1 tt.",
+    "Dihybrid F2: 9 : 3 : 3 : 1, with new combinations, so traits are inherited independently.",
+    "Gene = DNA section coding for a protein; proteins control traits.",
+    "Germ cells carry one set of chromosomes; fusion restores the pair.",
+    "Humans: 22 pairs autosomes + XX (female) or XY (male).",
+    "Father's sperm decides sex; 50% chance boy or girl.",
+    "Temperature decides sex in some reptiles; snails can change sex."
+  ],
+  "faqs": [
+    { "q": "What is the difference between dominant and recessive traits?", "a": "A **dominant** trait shows even if only one copy of its gene is present (Tt looks tall). A **recessive** trait shows only when both copies are recessive (tt looks short). In Mendel's peas, tallness is dominant and shortness is recessive.", "keywords": ["dominant vs recessive", "difference dominant recessive", "dominant", "recessive"] },
+    { "q": "Why did the short trait disappear in F1 and come back in F2?", "a": "F1 plants were all Tt. The short factor (t) was present but hidden by the dominant tall factor (T). When F1 plants self-pollinated, some offspring got t from both parents (tt), so they were short. About 1 in 4 F2 plants were tt.", "keywords": ["short trait reappear", "f1 f2", "hidden trait"] },
+    { "q": "Who decides whether a baby is a boy or a girl?", "a": "The **father**. All of the mother's eggs carry an X chromosome. Half of the father's sperm carry X and half carry Y. X sperm + egg gives XX (girl); Y sperm + egg gives XY (boy).", "keywords": ["sex of child", "who decides gender", "boy or girl", "father mother sex determination"] },
+    { "q": "What is the difference between genotype and phenotype?", "a": "**Genotype** is the set of genes an organism carries (TT, Tt or tt). **Phenotype** is what you can see (tall or short). TT and Tt plants have different genotypes but the same tall phenotype.", "keywords": ["genotype vs phenotype", "genotype", "phenotype"] },
+    { "q": "Why does sexual reproduction produce more variation than asexual reproduction?", "a": "In sexual reproduction, the offspring get a new mix of DNA from two different parents. In asexual reproduction, there is only one parent, and the only changes come from small DNA copying errors, so offspring are nearly identical.", "keywords": ["variation sexual asexual", "why more variation"] },
+    { "q": "Is evolution still in this chapter?", "a": "No. In the rationalised NCERT book, the chapter was renamed from 'Heredity and Evolution' to **Heredity**. Evolution, speciation, fossils and human evolution were removed. The chapter now covers variation, Mendel's rules, how traits are expressed, and sex determination.", "keywords": ["evolution deleted", "heredity and evolution syllabus", "rationalised", "speciation fossils"] }
+  ],
+  "quiz": [
+    { "q": "Which type of reproduction produces the most variation?", "options": ["Sexual reproduction", "Binary fission", "Budding", "Vegetative propagation"], "answer": 0, "explain": "Sexual reproduction combines DNA from two parents, giving new combinations.", "topic": "variation", "level": "easy" },
+    { "q": "In asexual reproduction, small variations arise mainly due to:", "options": ["Fusion of gametes", "Mixing of DNA from two parents", "Small errors in DNA copying", "Changes in temperature"], "answer": 2, "explain": "With only one parent, the only source of variation is inaccuracy in DNA copying.", "topic": "variation", "level": "medium" },
+    { "q": "A pure tall pea plant (TT) is crossed with a pure short plant (tt). The F1 plants are:", "options": ["All short", "All medium height", "Half tall, half short", "All tall"], "answer": 3, "explain": "All F1 plants are Tt, and tall is dominant, so all are tall.", "topic": "mendel", "level": "easy" },
+    { "q": "The phenotype ratio in the F2 generation of a monohybrid cross is:", "options": ["1 : 2 : 1", "3 : 1", "9 : 3 : 3 : 1", "1 : 1"], "answer": 1, "explain": "3 dominant (tall) : 1 recessive (short).", "topic": "mendel", "level": "easy" },
+    { "q": "In the F2 of a Tt × Tt cross, what fraction of plants are TT?", "options": ["1/4", "1/2", "3/4", "None"], "answer": 0, "explain": "Genotypes are TT : Tt : tt = 1 : 2 : 1, so TT = 1/4.", "topic": "mendel", "level": "medium" },
+    { "q": "A Tt × Tt cross gives 400 plants. About how many will be short?", "options": ["300", "200", "100", "0"], "answer": 2, "explain": "Short plants are tt = 1/4 of 400 = 100.", "topic": "mendel", "level": "hard" },
+    { "q": "The F2 ratio of a dihybrid cross is:", "options": ["3 : 1", "1 : 2 : 1", "1 : 1 : 1 : 1", "9 : 3 : 3 : 1"], "answer": 3, "explain": "Tall-round 9, tall-wrinkled 3, short-round 3, short-wrinkled 1.", "topic": "dihybrid", "level": "medium" },
+    { "q": "Tall plants with wrinkled seeds appearing in F2 (when parents were tall-round and short-wrinkled) shows that:", "options": ["Traits are inherited independently", "Wrinkled is dominant", "Height and seed shape are always linked", "Mendel's experiment failed"], "answer": 0, "explain": "New combinations show that the two traits are passed on independently.", "topic": "dihybrid", "level": "hard" },
+    { "q": "A gene is best described as:", "options": ["A type of cell", "A section of DNA that codes for a protein", "A whole chromosome pair", "A hormone"], "answer": 1, "explain": "Each gene carries the information to make one protein.", "topic": "expression", "level": "easy" },
+    { "q": "Why do germ cells have only one set of chromosomes?", "options": ["They are smaller cells", "They don't need genes", "So that they can divide faster", "So that the chromosome number stays the same after fertilisation"], "answer": 3, "explain": "When two germ cells fuse, the full paired set is restored, keeping the species' DNA stable.", "topic": "expression", "level": "medium" },
+    { "q": "A human male has which sex chromosomes?", "options": ["XX", "XY", "YY", "XO"], "answer": 1, "explain": "Males have a mismatched pair: one X and one short Y.", "topic": "sex-determination", "level": "easy" },
+    { "q": "In some reptiles, the sex of the young is decided by:", "options": ["The father's sperm", "The mother's chromosomes", "The temperature at which the eggs are kept", "The size of the egg"], "answer": 2, "explain": "Incubation temperature of fertilised eggs decides sex in some reptiles.", "topic": "sex-determination", "level": "hard" }
+  ]
+}

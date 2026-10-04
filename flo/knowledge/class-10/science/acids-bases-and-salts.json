@@ -1,0 +1,147 @@
+{
+  "id": "c10-sci-acids",
+  "class": 10,
+  "subject": "science",
+  "name": "Acids, Bases and Salts",
+  "summary": "Acids taste sour and turn blue litmus red; bases taste bitter, feel soapy and turn red litmus blue. Acids give H⁺ ions in water and bases give OH⁻ ions. They react with metals, carbonates and each other (neutralisation) to form salts. The pH scale (0–14) measures how acidic or basic a solution is. Common salt is the raw material for important chemicals like sodium hydroxide, bleaching powder, baking soda and washing soda.",
+  "topics": [
+    {
+      "id": "indicators",
+      "title": "Acids, bases and indicators",
+      "summary": "Indicators change colour (or smell) in acids and bases, so we can test a substance without tasting it.",
+      "simple": "Acids are sour, like lemon juice and vinegar. Bases are bitter and soapy, like soap solution and baking soda. We should never taste chemicals, so we use **indicators** — substances that change colour in acids and bases.",
+      "explain": "**Acids** are sour and turn **blue litmus red**. Examples: hydrochloric acid (HCl), sulphuric acid (H₂SO₄), nitric acid (HNO₃), and natural acids such as citric acid (lemon), acetic acid (vinegar), lactic acid (curd), tartaric acid (tamarind) and oxalic acid (tomato).\n\n**Bases** are bitter, soapy to touch and turn **red litmus blue**. Examples: sodium hydroxide (NaOH), potassium hydroxide (KOH), calcium hydroxide Ca(OH)₂ and magnesium hydroxide Mg(OH)₂ (milk of magnesia).\n\n**Types of indicators:**\n- **Natural indicators:** litmus (a purple dye from lichen), turmeric (turns red in bases, stays yellow in acids), red cabbage juice, coloured petals of flowers like hydrangea and petunia.\n- **Synthetic indicators:** phenolphthalein (colourless in acid, **pink** in base) and methyl orange (**red** in acid, **yellow** in base).\n- **Olfactory indicators:** their smell changes in acid or base. Onion, vanilla essence and clove oil lose their smell in a basic solution but keep it in an acid.\n\nA turmeric stain on a white cloth turns reddish-brown when washed with soap, because soap is basic.",
+      "deep": "Litmus solution itself is purple when it is neither acidic nor basic. Olfactory indicators are useful for visually impaired students in the laboratory.",
+      "example": "Spill dal (with haldi) on your white shirt and wash it with soap — the yellow stain turns red. Rinse it with plenty of water and it turns yellow again. The turmeric is acting as an indicator for the basic soap.",
+      "keyPoints": ["Acid: sour, blue litmus → red", "Base: bitter, soapy, red litmus → blue", "Phenolphthalein: colourless in acid, pink in base", "Methyl orange: red in acid, yellow in base", "Turmeric turns red in bases", "Onion, vanilla, clove oil are olfactory indicators"],
+      "keywords": ["indicator", "indicators", "litmus", "phenolphthalein", "methyl orange", "turmeric", "olfactory indicator", "natural indicator", "synthetic indicator", "acid", "base", "red cabbage", "chapter 2", "acids bases and salts"]
+    },
+    {
+      "id": "acid-reactions",
+      "title": "Chemical properties of acids and bases",
+      "summary": "Acids and bases react with metals, metal carbonates, metal oxides and with each other; neutralisation gives salt and water.",
+      "simple": "Acids react with many metals to give hydrogen gas. Acids react with carbonates to give carbon dioxide. When an acid and a base react, they cancel each other and form a **salt and water** — this is **neutralisation**.",
+      "explain": "1. **Acid + metal → salt + hydrogen gas**\nZn + H₂SO₄ → ZnSO₄ + H₂↑. The hydrogen burns with a **pop sound** when a burning candle is brought near.\n\n2. **Base + metal:** some metals (like zinc) react with strong bases such as NaOH to give hydrogen: 2NaOH + Zn → Na₂ZnO₂ (sodium zincate) + H₂. Not all metals do this.\n\n3. **Acid + metal carbonate or hydrogencarbonate → salt + CO₂ + water**\nNa₂CO₃ + 2HCl → 2NaCl + H₂O + CO₂\nNaHCO₃ + HCl → NaCl + H₂O + CO₂\nThe CO₂ turns **lime water milky**: Ca(OH)₂ + CO₂ → CaCO₃ + H₂O. With excess CO₂ the milkiness disappears, as soluble Ca(HCO₃)₂ forms.\n\n4. **Acid + base → salt + water (neutralisation)**\nNaOH + HCl → NaCl + H₂O\n\n5. **Acid + metal oxide → salt + water.** Metal oxides are **basic oxides**: CuO + 2HCl → CuCl₂ + H₂O (the solution turns blue-green).\n\n6. **Base + non-metal oxide → salt + water.** Non-metal oxides are **acidic oxides**: Ca(OH)₂ + CO₂ → CaCO₃ + H₂O.\n\nLimestone, chalk and marble are all different forms of calcium carbonate, so all of them fizz with acids.",
+      "example": "Drop a piece of marble chip into dilute hydrochloric acid. It fizzes as CO₂ escapes: CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂. Pass the gas through lime water and it turns milky.",
+      "keyPoints": ["Acid + metal → salt + H₂ (pop test)", "Acid + carbonate → salt + water + CO₂", "CO₂ turns lime water milky", "Acid + base → salt + water (neutralisation)", "Metal oxides are basic; non-metal oxides are acidic", "Zn + 2NaOH → Na₂ZnO₂ + H₂"],
+      "keywords": ["reaction of acids with metals", "acid and metal", "acid carbonate", "lime water", "neutralisation", "neutralization", "metal oxide", "non-metal oxide", "basic oxide", "acidic oxide", "pop sound", "hydrogen gas", "sodium zincate", "chemical properties of acids"]
+    },
+    {
+      "id": "ions-water",
+      "title": "What acids and bases have in common; acids and bases in water",
+      "summary": "Acids produce H⁺ (as H₃O⁺) ions in water; bases produce OH⁻ ions. Bases that dissolve in water are alkalis. Diluting an acid must be done by adding acid to water.",
+      "simple": "All acids give **hydrogen ions (H⁺)** when dissolved in water. All bases give **hydroxide ions (OH⁻)** in water. These ions let the solution conduct electricity. Water is needed — dry HCl gas doesn't act as an acid.",
+      "explain": "Acid solutions **conduct electricity** because they contain ions. Glucose and alcohol solutions also contain hydrogen but do not give H⁺ ions, so they are not acids and do not conduct.\n\n- In water, an acid gives H⁺ ions: HCl + H₂O → H₃O⁺ + Cl⁻. H⁺ cannot exist alone, so it joins a water molecule to form the **hydronium ion (H₃O⁺)**.\n- **Dry HCl gas** does not change the colour of dry blue litmus paper, but it turns moist litmus red. So acidic behaviour needs water.\n- In water, a base gives OH⁻ ions: NaOH → Na⁺ + OH⁻.\n- Bases that are **soluble in water** are called **alkalis** (NaOH, KOH, Ca(OH)₂). All alkalis are bases, but not all bases are alkalis — for example Cu(OH)₂ and Al(OH)₃ do not dissolve in water.\n\nNeutralisation in terms of ions: **H⁺ + OH⁻ → H₂O**.\n\n**Dilution:** mixing an acid or base with water is **highly exothermic**. Always add **acid to water slowly while stirring**, never water to acid — otherwise the heat can make the mixture splash out and the glass container may crack. Dilution lowers the concentration of H₃O⁺ or OH⁻ ions per unit volume.",
+      "example": "When a lab assistant makes dilute sulphuric acid, she pours the concentrated acid slowly into a big beaker of water with constant stirring. Doing the opposite could cause the acid to boil and splash onto her hands and face.",
+      "keyPoints": ["Acid in water → H⁺ (H₃O⁺) ions", "Base in water → OH⁻ ions", "Alkali = water-soluble base", "Acids need water to show acidic properties", "H⁺ + OH⁻ → H₂O", "Add acid to water, never water to acid"],
+      "keywords": ["hydronium ion", "H3O+", "hydrogen ion", "hydroxide ion", "alkali", "alkalis", "dilution", "diluting acid", "exothermic", "acid conducts electricity", "dry HCl", "glucose alcohol not acid", "acid to water"]
+    },
+    {
+      "id": "ph",
+      "title": "Strength of acids and bases: the pH scale",
+      "summary": "pH runs from 0 to 14: below 7 acidic, 7 neutral, above 7 basic. pH matters in our body, mouth, soil, digestion, and in plants and animals.",
+      "simple": "The **pH scale** tells how strong an acid or base is. pH 7 is neutral (pure water). Below 7 is acidic — the lower, the stronger. Above 7 is basic — the higher, the stronger. A **universal indicator** shows different colours for different pH values.",
+      "explain": "The 'p' in pH comes from *potenz*, German for power. The **higher the H⁺ ion concentration, the lower the pH**.\n- pH 0–7 (below 7): acidic\n- pH 7: neutral\n- pH 7–14 (above 7): basic (alkaline)\n\n**Strong acids** (HCl) give many H⁺ ions; **weak acids** (acetic acid) give fewer. Similarly there are strong and weak bases. A **universal indicator** is a mixture of indicators that gives a different colour at each pH.\n\n**Importance of pH in everyday life:**\n- **Our body** works within a narrow pH range of about **7.0–7.8**. When rainwater has pH below 5.6 it is **acid rain**, which harms aquatic life.\n- **Soil:** plants need a particular pH range to grow well.\n- **Digestion:** the stomach makes hydrochloric acid. Too much acid causes **acidity** (indigestion); we take **antacids** — mild bases like milk of magnesia (magnesium hydroxide) — to neutralise it.\n- **Tooth decay** starts when the pH in the mouth falls **below 5.5**. Tooth enamel (calcium hydroxyapatite) gets corroded. Bacteria break down leftover sugar into acids. Brushing with toothpaste (which is basic) neutralises the acid.\n- **Self-defence:** bee stings inject an acid (methanoic acid); rubbing baking soda (a mild base) helps. A nettle sting is also methanoic acid; the leaf of the dock plant, which often grows nearby, is a traditional remedy.",
+      "example": "Pure water has pH 7. Lemon juice is around pH 2–3 (acidic), milk is about pH 6.5, blood is about pH 7.4 (slightly basic), and NaOH solution is around pH 14.",
+      "keyPoints": ["pH < 7 acidic, 7 neutral, > 7 basic", "More H⁺ → lower pH", "Body works at pH 7.0–7.8", "Acid rain: pH below 5.6", "Tooth decay begins below pH 5.5", "Antacids (milk of magnesia) neutralise excess stomach acid"],
+      "keywords": ["pH", "pH scale", "universal indicator", "strong acid", "weak acid", "acid rain", "tooth decay", "antacid", "milk of magnesia", "acidity", "bee sting", "nettle sting", "methanoic acid", "soil pH", "importance of pH"]
+    },
+    {
+      "id": "salts",
+      "title": "Salts, common salt and chemicals made from it",
+      "summary": "Salts form by neutralisation. Common salt (NaCl) is used to make NaOH (chlor-alkali process), bleaching powder, baking soda and washing soda.",
+      "simple": "A **salt** is what you get when an acid and a base react. Salts from a strong acid and a strong base are neutral; others can be acidic or basic. Common salt (sodium chloride) is used to make many useful chemicals.",
+      "explain": "**Families and pH of salts:** salts with the same positive or negative radical belong to a family (NaCl and Na₂SO₄ are sodium salts; NaCl and KCl are chloride salts).\n- Strong acid + strong base → **neutral** salt (pH 7), e.g. NaCl\n- Strong acid + weak base → **acidic** salt (pH < 7), e.g. NH₄Cl\n- Weak acid + strong base → **basic** salt (pH > 7), e.g. Na₂CO₃, CH₃COONa\n\n**Common salt (NaCl)** comes from sea water and from deposits of **rock salt**.\n\n**1. Sodium hydroxide — chlor-alkali process.** Electricity is passed through **brine** (a solution of NaCl in water):\n2NaCl(aq) + 2H₂O(l) → 2NaOH(aq) + Cl₂(g) + H₂(g)\nChlorine forms at the anode, hydrogen at the cathode, and NaOH near the cathode. 'Chlor' for chlorine and 'alkali' for NaOH.\n\n**2. Bleaching powder.** Made by passing chlorine over dry slaked lime: Ca(OH)₂ + Cl₂ → CaOCl₂ + H₂O. (Its real composition is complex; CaOCl₂ is the usual formula.) Uses: bleaching cotton, linen and wood pulp; bleaching washed clothes; disinfecting drinking water; as an oxidising agent.\n\n**3. Baking soda — sodium hydrogencarbonate (NaHCO₃).** NaCl + H₂O + CO₂ + NH₃ → NH₄Cl + NaHCO₃. It is a mild, non-corrosive base. On heating: 2NaHCO₃ → Na₂CO₃ + H₂O + CO₂. **Baking powder** = baking soda + a mild edible acid such as tartaric acid; the CO₂ released makes cakes soft and spongy. Also used in antacids and soda-acid fire extinguishers.\n\n**4. Washing soda — Na₂CO₃·10H₂O.** Made by heating baking soda to get sodium carbonate, then recrystallising it. Uses: in glass, soap and paper industries; making borax; cleaning; removing **permanent hardness** of water.",
+      "example": "Your mother adds a pinch of baking soda (khane ka soda) to pakora batter. On heating, it releases CO₂, which makes the pakoras light and crisp. With baking powder, the added tartaric acid neutralises the sodium carbonate formed, so the food doesn't taste bitter.",
+      "keyPoints": ["Acid + base → salt; salts can be neutral, acidic or basic", "Chlor-alkali: brine → NaOH + Cl₂ + H₂", "Bleaching powder: CaOCl₂, from Cl₂ + dry slaked lime", "Baking soda: NaHCO₃; baking powder = NaHCO₃ + tartaric acid", "Washing soda: Na₂CO₃·10H₂O; removes permanent hardness", "Rock salt and sea water are sources of NaCl"],
+      "keywords": ["salt", "salts", "family of salts", "pH of salts", "common salt", "sodium chloride", "rock salt", "chlor-alkali process", "brine", "sodium hydroxide", "bleaching powder", "CaOCl2", "baking soda", "sodium hydrogencarbonate", "sodium bicarbonate", "baking powder", "washing soda", "sodium carbonate"]
+    },
+    {
+      "id": "water-crystallisation",
+      "title": "Water of crystallisation and Plaster of Paris",
+      "summary": "Some salt crystals contain a fixed number of water molecules (water of crystallisation). Plaster of Paris is made by heating gypsum.",
+      "simple": "Some salt crystals look dry but actually have water locked inside them. This is **water of crystallisation**. Blue copper sulphate crystals turn white when heated because they lose this water. Plaster of Paris, used for setting broken bones, is made by heating gypsum.",
+      "explain": "**Water of crystallisation** is the fixed number of water molecules present in one formula unit of a salt crystal.\n- Copper sulphate: **CuSO₄·5H₂O** (blue). On heating it loses water and becomes white anhydrous CuSO₄. Adding a few drops of water turns it blue again.\n- Washing soda: Na₂CO₃·10H₂O\n- Gypsum: CaSO₄·2H₂O\n\n**Plaster of Paris (POP)** — calcium sulphate hemihydrate, **CaSO₄·½H₂O**.\nIt is made by heating **gypsum at 373 K**:\nCaSO₄·2H₂O → CaSO₄·½H₂O + 1½H₂O\n\n'Half a water molecule' means two formula units of CaSO₄ share one molecule of water.\n\nWhen mixed with water, POP changes back into gypsum and sets into a hard solid mass:\nCaSO₄·½H₂O + 1½H₂O → CaSO₄·2H₂O\n\nUses: plaster for supporting fractured bones, making toys and decorative materials, and making surfaces smooth. POP should be stored in a **moisture-proof container**, because moisture makes it set hard.",
+      "example": "When a doctor sets a broken arm, she wraps it in a bandage soaked in a POP paste. Within minutes the plaster absorbs water, turns back into gypsum and becomes a hard cast that holds the bone in place.",
+      "keyPoints": ["Water of crystallisation: fixed water molecules in a crystal", "CuSO₄·5H₂O is blue; on heating it becomes white", "Gypsum: CaSO₄·2H₂O", "POP: CaSO₄·½H₂O, made by heating gypsum at 373 K", "POP + water → gypsum (sets hard)", "Store POP in moisture-proof containers"],
+      "keywords": ["water of crystallisation", "water of crystallization", "hydrated salt", "anhydrous", "copper sulphate crystals", "CuSO4.5H2O", "plaster of paris", "POP", "gypsum", "calcium sulphate hemihydrate", "373 K", "fracture plaster"]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "Acid", "meaning": "A substance that gives H⁺ (H₃O⁺) ions in water; sour, turns blue litmus red." },
+    { "term": "Base", "meaning": "A substance that gives OH⁻ ions in water; bitter, soapy, turns red litmus blue." },
+    { "term": "Alkali", "meaning": "A base that dissolves in water, e.g. NaOH, KOH." },
+    { "term": "Indicator", "meaning": "A substance that shows by a change in colour or smell whether a solution is acidic or basic." },
+    { "term": "Olfactory indicator", "meaning": "A substance whose smell changes in acid or base, e.g. onion, vanilla, clove oil." },
+    { "term": "Neutralisation", "meaning": "Reaction of an acid with a base to form salt and water (H⁺ + OH⁻ → H₂O)." },
+    { "term": "Hydronium ion", "meaning": "H₃O⁺, formed when H⁺ from an acid joins a water molecule." },
+    { "term": "pH", "meaning": "A scale from 0 to 14 that measures the H⁺ ion concentration of a solution; 7 is neutral." },
+    { "term": "Universal indicator", "meaning": "A mixture of indicators that shows a different colour at each pH value." },
+    { "term": "Salt", "meaning": "An ionic compound formed, along with water, when an acid reacts with a base." },
+    { "term": "Chlor-alkali process", "meaning": "Electrolysis of brine to produce sodium hydroxide, chlorine and hydrogen." },
+    { "term": "Water of crystallisation", "meaning": "The fixed number of water molecules present in one formula unit of a salt crystal." },
+    { "term": "Plaster of Paris", "meaning": "Calcium sulphate hemihydrate, CaSO₄·½H₂O, made by heating gypsum at 373 K." }
+  ],
+  "formulas": [
+    "Zn + H₂SO₄ → ZnSO₄ + H₂ (acid + metal)",
+    "2NaOH + Zn → Na₂ZnO₂ + H₂ (base + metal)",
+    "Na₂CO₃ + 2HCl → 2NaCl + H₂O + CO₂",
+    "NaHCO₃ + HCl → NaCl + H₂O + CO₂",
+    "Ca(OH)₂ + CO₂ → CaCO₃ + H₂O (lime water turns milky)",
+    "NaOH + HCl → NaCl + H₂O (neutralisation)",
+    "CuO + 2HCl → CuCl₂ + H₂O (metal oxide + acid)",
+    "2NaCl + 2H₂O → 2NaOH + Cl₂ + H₂ (chlor-alkali process)",
+    "Ca(OH)₂ + Cl₂ → CaOCl₂ + H₂O (bleaching powder)",
+    "NaCl + H₂O + CO₂ + NH₃ → NH₄Cl + NaHCO₃ (baking soda)",
+    "2NaHCO₃ → Na₂CO₃ + H₂O + CO₂ (on heating)",
+    "CaSO₄·2H₂O → CaSO₄·½H₂O + 1½H₂O (gypsum → POP, at 373 K)",
+    "CaSO₄·½H₂O + 1½H₂O → CaSO₄·2H₂O (POP sets)"
+  ],
+  "commonMistakes": [
+    "Saying all bases are alkalis — only water-soluble bases are alkalis.",
+    "Thinking a lower pH means a weaker acid — lower pH means a stronger acid (more H⁺ ions).",
+    "Adding water to concentrated acid — always add acid to water slowly while stirring.",
+    "Writing the formula of POP as CaSO₄·2H₂O — that is gypsum; POP is CaSO₄·½H₂O.",
+    "Mixing up baking soda (NaHCO₃) and washing soda (Na₂CO₃·10H₂O).",
+    "Assuming every salt is neutral — salts of a weak acid and a strong base are basic, and salts of a strong acid and a weak base are acidic.",
+    "Calling glucose or alcohol acids because they contain hydrogen — they don't give H⁺ ions in water."
+  ],
+  "revision": [
+    "Acids turn blue litmus red; bases turn red litmus blue.",
+    "Phenolphthalein: pink in base; methyl orange: red in acid, yellow in base.",
+    "Acid + metal → salt + H₂ (burns with a pop).",
+    "Acid + carbonate/hydrogencarbonate → salt + water + CO₂ (lime water turns milky).",
+    "Acid + base → salt + water: neutralisation.",
+    "Metal oxides are basic; non-metal oxides are acidic.",
+    "Acids give H₃O⁺ ions in water; bases give OH⁻ ions.",
+    "Alkalis are bases soluble in water.",
+    "pH < 7 acidic, 7 neutral, > 7 basic; body pH range 7.0–7.8.",
+    "Tooth decay starts below pH 5.5; acid rain has pH below 5.6.",
+    "Chlor-alkali process gives NaOH, Cl₂ and H₂ from brine.",
+    "Bleaching powder CaOCl₂; baking soda NaHCO₃; washing soda Na₂CO₃·10H₂O.",
+    "POP (CaSO₄·½H₂O) is made by heating gypsum at 373 K and sets on adding water.",
+    "Copper sulphate crystals CuSO₄·5H₂O turn white on heating."
+  ],
+  "faqs": [
+    { "q": "What is the difference between a base and an alkali?", "a": "A **base** is any substance that neutralises an acid and gives OH⁻ ions. An **alkali** is a base that **dissolves in water**. So NaOH is both a base and an alkali, but copper hydroxide is a base that is not an alkali. All alkalis are bases, but not all bases are alkalis.", "keywords": ["base vs alkali", "difference between base and alkali", "alkali"] },
+    { "q": "Why should we add acid to water and not water to acid?", "a": "Dissolving a concentrated acid in water releases a lot of heat. If water is poured into the acid, the small amount of water heats up suddenly and can boil, splashing acid out and even cracking the glass. Adding acid slowly to a large amount of water, with stirring, spreads the heat safely.", "keywords": ["acid to water", "dilution", "why add acid to water"] },
+    { "q": "Why does dry HCl gas not change the colour of dry litmus paper?", "a": "An acid shows acidic behaviour only when it gives H⁺ ions, and this needs water. Dry HCl gas has no water, so no H⁺ (H₃O⁺) ions form and the litmus doesn't change. Moist litmus paper turns red because the water lets HCl ionise.", "keywords": ["dry HCl", "dry litmus", "acid needs water"] },
+    { "q": "What is the difference between baking soda and baking powder?", "a": "**Baking soda** is only sodium hydrogencarbonate (NaHCO₃). **Baking powder** is baking soda mixed with a mild edible acid such as tartaric acid. On heating or wetting, baking powder releases CO₂ and the acid neutralises the sodium carbonate formed, so the cake doesn't taste bitter.", "keywords": ["baking soda vs baking powder", "baking powder", "tartaric acid"] },
+    { "q": "Why should Plaster of Paris be kept in a moisture-proof container?", "a": "POP reacts with water to form gypsum, which is a hard solid. If moisture gets in, the powder sets into lumps and becomes useless: CaSO₄·½H₂O + 1½H₂O → CaSO₄·2H₂O.", "keywords": ["plaster of paris storage", "POP moisture"] },
+    { "q": "How does toothpaste prevent tooth decay?", "a": "Bacteria in the mouth break down leftover sugar and food into acids, lowering the pH. Below pH 5.5 the tooth enamel starts to corrode. Toothpastes are generally basic, so they neutralise the excess acid.", "keywords": ["toothpaste", "tooth decay pH", "enamel"] }
+  ],
+  "quiz": [
+    { "q": "A solution turns red litmus blue. Its pH is likely to be:", "options": ["10", "1", "4", "7"], "answer": 0, "explain": "Turning red litmus blue means the solution is basic, so its pH is above 7.", "topic": "indicators", "level": "easy" },
+    { "q": "Which of these is an olfactory indicator?", "options": ["Litmus", "Clove oil", "Phenolphthalein", "Methyl orange"], "answer": 1, "explain": "Clove oil's smell disappears in a basic solution, so it detects acids and bases by smell.", "topic": "indicators", "level": "easy" },
+    { "q": "The gas evolved when zinc granules react with dilute sulphuric acid is:", "options": ["Oxygen", "Carbon dioxide", "Hydrogen", "Chlorine"], "answer": 2, "explain": "Zn + H₂SO₄ → ZnSO₄ + H₂. Hydrogen burns with a pop sound.", "topic": "acid-reactions", "level": "easy" },
+    { "q": "A gas that turns lime water milky is released when an acid reacts with:", "options": ["Copper", "Sodium hydroxide", "Zinc", "Sodium carbonate"], "answer": 3, "explain": "Acid + carbonate gives CO₂, which turns lime water milky by forming CaCO₃.", "topic": "acid-reactions", "level": "easy" },
+    { "q": "Which oxide is acidic in nature?", "options": ["CO₂", "CuO", "MgO", "Na₂O"], "answer": 0, "explain": "Non-metal oxides like CO₂ are acidic and react with bases. Metal oxides are basic.", "topic": "acid-reactions", "level": "medium" },
+    { "q": "In water, an acid produces:", "options": ["OH⁻ ions", "Na⁺ ions", "O²⁻ ions", "H₃O⁺ ions"], "answer": 3, "explain": "H⁺ from the acid joins a water molecule to form the hydronium ion H₃O⁺.", "topic": "ions-water", "level": "easy" },
+    { "q": "Which of these is a base but NOT an alkali?", "options": ["NaOH", "KOH", "Cu(OH)₂", "Ca(OH)₂"], "answer": 2, "explain": "Copper hydroxide doesn't dissolve in water, so it isn't an alkali. The others are water-soluble.", "topic": "ions-water", "level": "medium" },
+    { "q": "Tooth decay starts when the pH in the mouth falls below:", "options": ["7.4", "5.5", "8.0", "3.0"], "answer": 1, "explain": "Below pH 5.5 the tooth enamel (calcium hydroxyapatite) starts to corrode.", "topic": "ph", "level": "medium" },
+    { "q": "Solution A has pH 2 and solution B has pH 5. Which is correct?", "options": ["A is a stronger acid than B", "B is a stronger acid than A", "Both are basic", "A has fewer H⁺ ions than B"], "answer": 0, "explain": "Lower pH means a higher H⁺ concentration, so A (pH 2) is the stronger acid.", "topic": "ph", "level": "medium" },
+    { "q": "The products of the chlor-alkali process are:", "options": ["Na₂CO₃, Cl₂ and H₂", "NaOH, Cl₂ and H₂", "NaOH, O₂ and H₂", "NaHCO₃, Cl₂ and O₂"], "answer": 1, "explain": "2NaCl + 2H₂O → 2NaOH + Cl₂ + H₂ on electrolysis of brine.", "topic": "salts", "level": "medium" },
+    { "q": "Which salt is used to remove permanent hardness of water?", "options": ["Bleaching powder", "Baking soda", "Plaster of Paris", "Washing soda"], "answer": 3, "explain": "Washing soda, Na₂CO₃·10H₂O, removes permanent hardness of water.", "topic": "salts", "level": "hard" },
+    { "q": "Plaster of Paris is obtained by heating gypsum at:", "options": ["273 K", "300 K", "373 K", "573 K"], "answer": 2, "explain": "Gypsum (CaSO₄·2H₂O) loses water at 373 K to form CaSO₄·½H₂O.", "topic": "water-crystallisation", "level": "hard" }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "id": "c10-sci-carbon",
+  "class": 10,
+  "subject": "science",
+  "name": "Carbon and its Compounds",
+  "summary": "Carbon forms covalent bonds by sharing electrons. Because of catenation and tetravalency it forms a huge number of compounds — saturated and unsaturated, chains and rings — grouped into homologous series and named by IUPAC rules. Carbon compounds undergo combustion, oxidation, addition and substitution reactions. Ethanol and ethanoic acid are two important carbon compounds, and soaps and detergents clean by forming micelles.",
+  "topics": [
+    {
+      "id": "covalent-bonding",
+      "title": "Bonding in carbon: the covalent bond",
+      "summary": "Carbon has 4 valence electrons and forms bonds by sharing electrons (covalent bonds) — single, double or triple.",
+      "simple": "Carbon has 4 electrons in its outer shell. It can't easily lose or gain 4 electrons, so it **shares** electrons with other atoms. A bond made by sharing a pair of electrons is a **covalent bond**.",
+      "explain": "Carbon (atomic number 6) has the configuration **2, 4**. To reach a noble-gas arrangement it would have to:\n- gain 4 electrons → C⁴⁻: hard, because 6 protons can't easily hold 10 electrons\n- lose 4 electrons → C⁴⁺: needs too much energy, as only 2 electrons would be held by 6 protons\n\nSo carbon **shares** its valence electrons. A bond formed by sharing a pair of electrons between two atoms is a **covalent bond**.\n\n**Examples (electron-dot structures):**\n- **H₂:** single bond, H–H\n- **O₂:** double bond (2 shared pairs), O=O\n- **N₂:** triple bond (3 shared pairs), N≡N\n- **CH₄ (methane):** carbon shares one electron pair with each of 4 hydrogen atoms\n- **H₂O, NH₃** also have covalent bonds\n\n**Properties of covalent compounds:**\n- generally **low melting and boiling points** (weak forces between molecules)\n- generally **poor conductors** of electricity — no ions are formed\n\nThis contrasts with ionic compounds, which have high melting points and conduct when molten or dissolved.",
+      "deep": "Methane is used as a fuel and is a major part of biogas and CNG (compressed natural gas).",
+      "example": "The LPG and CNG used in homes and autos in India are mainly carbon compounds — butane and methane — held together by covalent bonds. That's why they are gases with very low boiling points.",
+      "keyPoints": ["Carbon: 2, 4 → 4 valence electrons", "Carbon shares electrons instead of forming C⁴⁺ or C⁴⁻", "Covalent bond = sharing of an electron pair", "Single (H₂), double (O₂), triple (N₂) bonds", "Covalent compounds: low melting/boiling points, poor conductors", "Methane CH₄: carbon bonded to 4 H atoms"],
+      "keywords": ["covalent bond", "covalent bonding", "sharing electrons", "electron dot structure", "lewis structure", "single bond", "double bond", "triple bond", "methane", "valency of carbon", "tetravalent", "chapter 4", "carbon compounds", "properties of covalent compounds"]
+    },
+    {
+      "id": "versatile-nature",
+      "title": "Versatile nature of carbon; allotropes; hydrocarbons",
+      "summary": "Catenation and tetravalency let carbon form chains, branches and rings. Hydrocarbons can be saturated (alkanes) or unsaturated (alkenes, alkynes). Diamond, graphite and fullerenes are allotropes of carbon.",
+      "simple": "Carbon atoms can join to each other to make long chains, branched chains and rings — this is **catenation**. Each carbon can make 4 bonds (**tetravalency**). Together, these let carbon form millions of compounds. Compounds of only carbon and hydrogen are **hydrocarbons**.",
+      "explain": "**Allotropes of carbon** — different forms of the same element:\n- **Diamond:** each carbon is bonded to 4 others in a rigid 3-D structure; hardest natural substance, does not conduct.\n- **Graphite:** each carbon is bonded to 3 others in flat hexagonal layers; one double bond per carbon satisfies its valency; layers slide over each other, so it is smooth and slippery; a good conductor.\n- **Fullerenes:** C-60, shaped like a football (named buckminsterfullerene).\n\n**Why so many carbon compounds?**\n1. **Catenation** — carbon links with other carbon atoms to form long chains, branched chains and rings. C–C bonds are very strong and stable.\n2. **Tetravalency** — carbon bonds with 4 other atoms (H, O, N, S, Cl, etc.). Its small size lets the nucleus hold the shared electrons strongly, so bonds are strong.\n\n**Hydrocarbons:**\n- **Saturated** (only single bonds) — **alkanes**, CₙH₂ₙ₊₂: methane CH₄, ethane C₂H₆, propane C₃H₈\n- **Unsaturated** (double or triple bonds) — **alkenes** CₙH₂ₙ (ethene C₂H₄, one C=C) and **alkynes** CₙH₂ₙ₋₂ (ethyne C₂H₂, one C≡C)\n\nCarbon compounds can be **straight chains**, **branched chains** or **rings**. Butane C₄H₁₀ has two forms — a straight chain and a branched chain — with the same formula but different structures; these are **structural isomers**. **Cyclohexane** C₆H₁₂ is a saturated ring; **benzene** C₆H₆ is a ring with alternating double bonds.",
+      "example": "The 'lead' in your pencil is actually graphite — its soft layers slide off onto paper. The diamond in a ring and the graphite in a pencil are both pure carbon; only the arrangement of atoms differs.",
+      "keyPoints": ["Allotropes: diamond (hard), graphite (conducts), fullerene C-60", "Catenation: carbon bonds with carbon to form chains and rings", "Tetravalency: carbon forms 4 bonds", "Alkanes CₙH₂ₙ₊₂ (single bonds) are saturated", "Alkenes CₙH₂ₙ and alkynes CₙH₂ₙ₋₂ are unsaturated", "Structural isomers: same formula, different structure (butane)", "Benzene C₆H₆ and cyclohexane C₆H₁₂ are rings"],
+      "keywords": ["catenation", "tetravalency", "allotropes of carbon", "diamond", "graphite", "fullerene", "buckminsterfullerene", "hydrocarbon", "saturated hydrocarbon", "unsaturated hydrocarbon", "alkane", "alkene", "alkyne", "isomers", "structural isomers", "benzene", "cyclohexane", "chains branches rings"]
+    },
+    {
+      "id": "functional-groups",
+      "title": "Functional groups, homologous series and nomenclature",
+      "summary": "A functional group gives a compound its characteristic properties. Compounds with the same functional group differing by –CH₂– form a homologous series. IUPAC names use a root for the carbon count plus a suffix/prefix for the functional group.",
+      "simple": "Some atoms or groups (like –OH or –COOH) decide how a carbon compound behaves — these are **functional groups**. A family of compounds with the same functional group where each member has one extra –CH₂– is a **homologous series**. Names are built from the number of carbons plus an ending for the group.",
+      "explain": "An atom other than C and H in a carbon compound is a **heteroatom** (O, N, Cl, etc.). A heteroatom or group of atoms that gives the compound its specific properties is a **functional group**:\n- **Halo** (–Cl, –Br): chloromethane, CH₃Cl\n- **Alcohol** (–OH): ethanol, C₂H₅OH\n- **Aldehyde** (–CHO): ethanal, CH₃CHO\n- **Ketone** (>C=O): propanone, CH₃COCH₃\n- **Carboxylic acid** (–COOH): ethanoic acid, CH₃COOH\n\n**Homologous series:** a series of compounds with the **same functional group** and similar chemical properties, where successive members differ by **–CH₂–** (14 u in mass). Example: CH₃OH, C₂H₅OH, C₃H₇OH, C₄H₉OH. As molecular mass increases, physical properties like melting point, boiling point and solubility change **gradually**, but chemical properties stay similar.\n\n**Naming (IUPAC) — steps:**\n1. Count the carbon atoms → root: 1 meth, 2 eth, 3 prop, 4 but, 5 pent, 6 hex.\n2. Identify the functional group and add the right suffix or prefix:\n- alkane: -ane; alkene: -ene; alkyne: -yne\n- alcohol: -ol (drop final 'e': propane → propanol)\n- aldehyde: -al; ketone: -one; carboxylic acid: -oic acid\n- halogen: prefix chloro-/bromo- (chloropropane)\n\nWorked example: CH₃CH₂CH₂OH → 3 carbons (prop), –OH group → **propanol**. CH₃CH₂COOH → 3 carbons, –COOH → **propanoic acid**. CH₃CH₂CHO → **propanal**.",
+      "example": "Methanol (CH₃OH), ethanol (C₂H₅OH) and propanol (C₃H₇OH) are neighbours in the alcohol homologous series. Each has one more –CH₂– unit (14 u heavier) than the previous one, and all react with sodium to give hydrogen.",
+      "keyPoints": ["Functional group decides chemical properties", "Alcohol –OH, aldehyde –CHO, ketone >C=O, acid –COOH, halo –Cl/–Br", "Homologous series: same functional group, differ by –CH₂– (14 u)", "Physical properties change gradually; chemical properties similar", "Roots: meth 1, eth 2, prop 3, but 4, pent 5, hex 6", "Suffixes: -ol, -al, -one, -oic acid, -ene, -yne"],
+      "keywords": ["functional group", "functional groups", "heteroatom", "homologous series", "nomenclature", "IUPAC naming", "naming carbon compounds", "alcohol", "aldehyde", "ketone", "carboxylic acid", "haloalkane", "propanol", "propanone", "ethanal", "CH2 difference"]
+    },
+    {
+      "id": "chemical-properties",
+      "title": "Chemical properties of carbon compounds",
+      "summary": "Carbon compounds burn (combustion), can be oxidised to acids, unsaturated ones add hydrogen (hydrogenation), and saturated ones undergo substitution with chlorine in sunlight.",
+      "simple": "Carbon compounds burn in air to give CO₂, water, heat and light. Alcohols can be oxidised to acids. Unsaturated compounds can add hydrogen across their double bond. Saturated compounds can swap their hydrogen for chlorine in sunlight.",
+      "explain": "**1. Combustion:** carbon compounds burn in oxygen to give CO₂, water, heat and light.\nCH₄ + 2O₂ → CO₂ + 2H₂O + heat and light\n- **Saturated** hydrocarbons usually burn with a clean **blue flame**.\n- **Unsaturated** hydrocarbons burn with a **yellow, sooty flame**.\nIn a limited supply of air, even saturated fuels give a sooty flame. If the bottom of your cooking vessel blackens, the air holes of the stove are blocked and fuel is being wasted. Coal and petroleum contain nitrogen and sulphur, so burning them releases oxides of sulphur and nitrogen, which pollute the air. A flame is produced only when gaseous substances burn; charcoal just glows.\n\n**2. Oxidation:** alcohols are converted to carboxylic acids by **oxidising agents** such as **alkaline potassium permanganate** (KMnO₄) or acidified potassium dichromate.\nCH₃CH₂OH → CH₃COOH (with alkaline KMnO₄ + heat)\nThe pink colour of KMnO₄ disappears as it is used up.\n\n**3. Addition reaction:** unsaturated hydrocarbons add hydrogen in the presence of a catalyst such as **nickel** or palladium to give saturated hydrocarbons. This **hydrogenation** is used to make **vanaspati ghee** from vegetable oils.\nRCH=CHR + H₂ → RCH₂CH₂R (Ni catalyst)\nAnimal fats contain saturated fatty acids, which are said to be harmful to health; oils with unsaturated fatty acids should be chosen for cooking.\n\n**4. Substitution reaction:** saturated hydrocarbons are quite unreactive, but in **sunlight**, chlorine replaces hydrogen atoms one by one:\nCH₄ + Cl₂ → CH₃Cl + HCl (in sunlight)",
+      "example": "When the gas stove gives a yellow flame and blackens the kadhai, the air holes are clogged and combustion is incomplete. Cleaning the burner restores the blue flame and saves gas.",
+      "keyPoints": ["Combustion: carbon compound + O₂ → CO₂ + H₂O + heat + light", "Saturated: blue flame; unsaturated: yellow sooty flame", "Oxidation: ethanol → ethanoic acid (alkaline KMnO₄)", "Addition (hydrogenation) with Ni catalyst makes vanaspati", "Substitution: CH₄ + Cl₂ → CH₃Cl + HCl in sunlight", "A catalyst changes reaction rate without being used up"],
+      "keywords": ["combustion", "oxidation", "oxidising agent", "potassium permanganate", "addition reaction", "hydrogenation", "vanaspati ghee", "nickel catalyst", "catalyst", "substitution reaction", "chlorination methane", "sooty flame", "blue flame", "chemical properties of carbon compounds"]
+    },
+    {
+      "id": "ethanol-ethanoic-acid",
+      "title": "Ethanol and ethanoic acid",
+      "summary": "Ethanol (C₂H₅OH) is a liquid used in medicines and as a fuel; ethanoic acid (CH₃COOH, acetic acid) is the acid in vinegar. Together they form a sweet-smelling ester.",
+      "simple": "**Ethanol** is the alcohol used in tinctures, cough syrups and as a fuel. **Ethanoic acid** is the acid in vinegar. When the two react with a little sulphuric acid, they make a sweet-smelling compound called an **ester**.",
+      "explain": "**Ethanol (C₂H₅OH)**\n- Liquid at room temperature, soluble in water.\n- Used in tincture of iodine, cough syrups and tonics; in alcoholic drinks. Even small amounts of pure ethanol (absolute alcohol) are dangerous, and drinking it slows metabolism and depresses the nervous system.\n- Industrial alcohol is made unfit to drink by adding poisonous **methanol** and a blue dye; this is **denatured alcohol**. Methanol can cause blindness and death.\n- **Reaction with sodium:** 2Na + 2CH₃CH₂OH → 2CH₃CH₂O⁻Na⁺ (sodium ethoxide) + H₂\n- **Dehydration:** heated at 443 K with excess **concentrated sulphuric acid**, ethanol loses water to give **ethene**: CH₃CH₂OH → CH₂=CH₂ + H₂O\n- Ethanol from sugarcane can be mixed with petrol as a cleaner fuel.\n\n**Ethanoic acid (CH₃COOH)** — also called acetic acid\n- **Vinegar** is a 5–8% solution of ethanoic acid in water, used as a preservative in pickles.\n- Pure ethanoic acid freezes in cold climates (melting point 290 K), so it's called **glacial acetic acid**.\n- It is a **weak acid** (unlike HCl, a strong mineral acid).\n- **Esterification:** CH₃COOH + CH₃CH₂OH → CH₃COOCH₂CH₃ (ethyl ethanoate, an ester) + H₂O, in the presence of an acid catalyst. Esters smell sweet and are used in perfumes and flavours.\n- **Saponification:** an ester + NaOH → alcohol + sodium salt of the acid. This reaction is used to make soap.\n- **With a base:** NaOH + CH₃COOH → CH₃COONa (sodium ethanoate/sodium acetate) + H₂O\n- **With carbonates and hydrogencarbonates:** 2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂; CH₃COOH + NaHCO₃ → CH₃COONa + H₂O + CO₂",
+      "example": "Achaar makers add vinegar to pickles. Its ethanoic acid keeps the pickle acidic so that microbes can't grow, which helps it last for months.",
+      "keyPoints": ["Ethanol C₂H₅OH: used in medicines, as a fuel; denatured with methanol", "Ethanol + Na → sodium ethoxide + H₂", "Ethanol + hot conc. H₂SO₄ (443 K) → ethene + water", "Vinegar = 5–8% ethanoic acid; pure form = glacial acetic acid", "Acid + alcohol → ester (sweet smell): esterification", "Ester + NaOH → alcohol + salt: saponification", "Ethanoic acid + carbonate → salt + water + CO₂"],
+      "keywords": ["ethanol", "ethyl alcohol", "alcohol", "denatured alcohol", "methanol", "sodium ethoxide", "dehydration of ethanol", "ethanoic acid", "acetic acid", "vinegar", "glacial acetic acid", "ester", "esterification", "saponification", "ethyl ethanoate", "sodium acetate"]
+    },
+    {
+      "id": "soaps-detergents",
+      "title": "Soaps and detergents",
+      "summary": "Soap molecules have a water-loving ionic end and an oil-loving carbon chain; they form micelles that trap oily dirt. Detergents work even in hard water.",
+      "simple": "A soap molecule is like a tadpole: the head loves water and the long tail loves oil. In water, the tails grab oily dirt and the heads face outward, forming a ball called a **micelle**. Rinsing washes the micelles away. Soap doesn't lather well in hard water, but detergents do.",
+      "explain": "**Soaps** are sodium or potassium salts of long-chain carboxylic acids (made by saponification of fats/oils).\n\nA soap molecule has two ends:\n- an **ionic (hydrophilic) end** — the –COO⁻Na⁺ part, which dissolves in water\n- a long **hydrocarbon (hydrophobic) chain**, which dissolves in oil\n\n**How soap cleans — micelles:** in water, soap molecules arrange themselves so the hydrocarbon tails point inward (towards the oily dirt) and the ionic heads point outward (towards the water). This cluster is a **micelle**. Oily dirt is collected in the centre of the micelle. The micelles stay suspended in water as a colloid and don't come together, because their ionic surfaces repel each other. Rinsing with water removes the dirt. A soap solution looks cloudy because micelles scatter light.\n\n**Hard water** contains calcium and magnesium salts. Soap reacts with them to form an insoluble precipitate called **scum**, so a lot of soap is wasted and lather forms poorly.\n\n**Detergents** are generally sodium salts of sulphonic acids or ammonium salts with chloride or bromide ions; they have long hydrocarbon chains too. Their charged ends **don't form insoluble precipitates** with calcium and magnesium ions, so they work well even in **hard water**. They are used in shampoos and products for cleaning clothes.",
+      "example": "Bathing with soap in a hostel that gets borewell (hard) water leaves a sticky white layer in the bucket — that's scum. Washing powders (detergents) don't form this scum, so they clean well even in hard water.",
+      "keyPoints": ["Soap = Na/K salt of a long-chain carboxylic acid", "Ionic head: hydrophilic; hydrocarbon tail: hydrophobic", "Micelle: tails inward around the dirt, heads outward", "Hard water (Ca²⁺, Mg²⁺) forms scum with soap", "Detergents work in hard water", "Saponification makes soap"],
+      "keywords": ["soap", "soaps", "detergent", "detergents", "micelle", "micelles", "hydrophilic", "hydrophobic", "cleansing action of soap", "hard water", "scum", "lather", "saponification", "shampoo"]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "Covalent bond", "meaning": "A bond formed by sharing a pair of electrons between two atoms." },
+    { "term": "Catenation", "meaning": "The ability of carbon to form bonds with other carbon atoms, giving long chains, branches and rings." },
+    { "term": "Tetravalency", "meaning": "Carbon's valency of 4, so it forms four bonds." },
+    { "term": "Allotropes", "meaning": "Different physical forms of the same element, e.g. diamond, graphite and fullerene." },
+    { "term": "Saturated hydrocarbon", "meaning": "A hydrocarbon with only single C–C bonds (alkanes)." },
+    { "term": "Unsaturated hydrocarbon", "meaning": "A hydrocarbon with at least one double or triple C–C bond (alkenes, alkynes)." },
+    { "term": "Structural isomers", "meaning": "Compounds with the same molecular formula but different structures." },
+    { "term": "Functional group", "meaning": "An atom or group of atoms that gives a carbon compound its characteristic properties." },
+    { "term": "Homologous series", "meaning": "A series of compounds with the same functional group in which successive members differ by –CH₂–." },
+    { "term": "Hydrogenation", "meaning": "Addition of hydrogen to an unsaturated compound using a nickel catalyst." },
+    { "term": "Substitution reaction", "meaning": "A reaction in which one atom or group replaces another, e.g. Cl replacing H in methane." },
+    { "term": "Esterification", "meaning": "Reaction of a carboxylic acid with an alcohol to form a sweet-smelling ester." },
+    { "term": "Saponification", "meaning": "Reaction of an ester with NaOH to give an alcohol and a sodium salt; used in soap-making." },
+    { "term": "Micelle", "meaning": "A cluster of soap molecules with tails pointing inward around oily dirt and ionic heads facing water." }
+  ],
+  "formulas": [
+    "Alkanes: CₙH₂ₙ₊₂ (e.g. CH₄, C₂H₆, C₃H₈)",
+    "Alkenes: CₙH₂ₙ (e.g. C₂H₄); alkynes: CₙH₂ₙ₋₂ (e.g. C₂H₂)",
+    "CH₄ + 2O₂ → CO₂ + 2H₂O + heat and light",
+    "CH₃CH₂OH → CH₃COOH (alkaline KMnO₄ + heat)",
+    "RCH=CHR + H₂ → RCH₂CH₂R (Ni catalyst)",
+    "CH₄ + Cl₂ → CH₃Cl + HCl (sunlight)",
+    "2Na + 2CH₃CH₂OH → 2CH₃CH₂ONa + H₂",
+    "CH₃CH₂OH → CH₂=CH₂ + H₂O (hot conc. H₂SO₄, 443 K)",
+    "CH₃COOH + CH₃CH₂OH → CH₃COOCH₂CH₃ + H₂O (acid catalyst)",
+    "CH₃COOC₂H₅ + NaOH → C₂H₅OH + CH₃COONa (saponification)",
+    "NaOH + CH₃COOH → CH₃COONa + H₂O",
+    "CH₃COOH + NaHCO₃ → CH₃COONa + H₂O + CO₂"
+  ],
+  "commonMistakes": [
+    "Saying carbon forms ionic bonds — carbon mostly forms covalent bonds by sharing electrons.",
+    "Writing ethene as C₂H₆ — ethane is C₂H₆ (saturated); ethene is C₂H₄.",
+    "Thinking successive members of a homologous series differ by –CH₃ — they differ by –CH₂– (14 u).",
+    "Mixing up addition (unsaturated compounds add H₂) and substitution (saturated compounds swap H for Cl).",
+    "Calling ethanoic acid a strong acid — it is a weak acid compared with HCl.",
+    "Saying soap works well in hard water — it forms scum; detergents work in hard water.",
+    "Getting micelle orientation wrong — hydrocarbon tails point inward to the oil, ionic heads face the water."
+  ],
+  "revision": [
+    "Carbon (2, 4) forms covalent bonds by sharing electrons.",
+    "Covalent compounds have low melting/boiling points and don't conduct.",
+    "Diamond is hard and non-conducting; graphite is slippery and conducts; fullerene is C-60.",
+    "Catenation and tetravalency explain the huge number of carbon compounds.",
+    "Alkanes CₙH₂ₙ₊₂ saturated; alkenes CₙH₂ₙ and alkynes CₙH₂ₙ₋₂ unsaturated.",
+    "Homologous series: same functional group, differ by –CH₂– (14 u).",
+    "Suffixes: -ol alcohol, -al aldehyde, -one ketone, -oic acid carboxylic acid.",
+    "Saturated fuels burn with a blue flame; unsaturated with a sooty yellow flame.",
+    "Alkaline KMnO₄ oxidises ethanol to ethanoic acid.",
+    "Hydrogenation (Ni catalyst) turns vegetable oil into vanaspati.",
+    "CH₄ + Cl₂ → CH₃Cl + HCl in sunlight (substitution).",
+    "Vinegar is 5–8% ethanoic acid; pure acid is glacial acetic acid.",
+    "Acid + alcohol → ester (esterification); ester + NaOH → soap-like salt (saponification).",
+    "Soap forms micelles; detergents work in hard water."
+  ],
+  "faqs": [
+    { "q": "Why does carbon form covalent bonds and not ionic bonds?", "a": "Carbon has 4 valence electrons. Gaining 4 electrons (C⁴⁻) is hard because 6 protons can't hold 10 electrons, and losing 4 (C⁴⁺) needs a lot of energy. So carbon shares its electrons with other atoms and forms covalent bonds.", "keywords": ["why covalent", "carbon covalent bond", "carbon ionic"] },
+    { "q": "What is the difference between saturated and unsaturated hydrocarbons?", "a": "**Saturated** hydrocarbons (alkanes) have only single C–C bonds, e.g. ethane C₂H₆; they burn with a blue flame and undergo substitution. **Unsaturated** hydrocarbons have double or triple bonds, e.g. ethene C₂H₄ or ethyne C₂H₂; they burn with a sooty flame and undergo addition reactions.", "keywords": ["saturated vs unsaturated", "difference saturated unsaturated", "alkane alkene"] },
+    { "q": "How does soap remove oily dirt?", "a": "A soap molecule has a water-loving ionic end and an oil-loving hydrocarbon tail. In water, the tails dig into the oily dirt and the heads stay in the water, forming micelles with the dirt trapped inside. Rinsing with water carries the micelles, and the dirt, away.", "keywords": ["cleansing action", "how soap works", "micelle formation"] },
+    { "q": "Why don't soaps work well in hard water?", "a": "Hard water has calcium and magnesium salts. Soap reacts with them to form an insoluble, sticky precipitate called scum, so a lot of soap is wasted and little lather forms. Detergents don't form such precipitates, so they work in hard water.", "keywords": ["soap hard water", "scum", "detergent hard water"] },
+    { "q": "What is the difference between esterification and saponification?", "a": "**Esterification** is the reaction of a carboxylic acid with an alcohol (acid catalyst) to form an ester and water. **Saponification** is the reverse type of process: an ester reacts with sodium hydroxide to give back an alcohol and the sodium salt of the acid. Saponification is used to make soap.", "keywords": ["esterification vs saponification", "ester", "soap making"] },
+    { "q": "What is denatured alcohol?", "a": "Ethanol meant for industrial use is made unfit for drinking by adding poisonous methanol and a blue dye so that it can be identified easily. This is called denatured alcohol. Methanol can cause blindness and even death.", "keywords": ["denatured alcohol", "methanol poisoning"] }
+  ],
+  "quiz": [
+    { "q": "The number of valence electrons in a carbon atom is:", "options": ["4", "2", "6", "8"], "answer": 0, "explain": "Carbon is 2, 4 — it has 4 electrons in its outer shell.", "topic": "covalent-bonding", "level": "easy" },
+    { "q": "How many shared pairs of electrons are there in a nitrogen (N₂) molecule?", "options": ["One", "Three", "Two", "Four"], "answer": 1, "explain": "N₂ has a triple bond, N≡N, i.e. three shared electron pairs.", "topic": "covalent-bonding", "level": "medium" },
+    { "q": "Which allotrope of carbon conducts electricity?", "options": ["Diamond", "Fullerene", "Graphite", "None of them"], "answer": 2, "explain": "Graphite conducts electricity; diamond does not.", "topic": "versatile-nature", "level": "easy" },
+    { "q": "Which of the following is an unsaturated hydrocarbon?", "options": ["CH₄", "C₂H₆", "C₃H₈", "C₂H₄"], "answer": 3, "explain": "Ethene C₂H₄ fits CₙH₂ₙ and has a C=C double bond. The others are alkanes.", "topic": "versatile-nature", "level": "easy" },
+    { "q": "The property of carbon to form long chains by bonding with other carbon atoms is called:", "options": ["Isomerism", "Catenation", "Tetravalency", "Hydrogenation"], "answer": 1, "explain": "Catenation is self-linking of carbon atoms.", "topic": "versatile-nature", "level": "easy" },
+    { "q": "The IUPAC name of CH₃CH₂CHO is:", "options": ["Propanol", "Propanone", "Propanal", "Propanoic acid"], "answer": 2, "explain": "3 carbons (prop) with an aldehyde group –CHO (suffix -al).", "topic": "functional-groups", "level": "medium" },
+    { "q": "Successive members of a homologous series differ in molecular mass by:", "options": ["12 u", "16 u", "18 u", "14 u"], "answer": 3, "explain": "They differ by –CH₂–, which is 12 + 2 × 1 = 14 u.", "topic": "functional-groups", "level": "medium" },
+    { "q": "Conversion of vegetable oil into vanaspati ghee is an example of:", "options": ["Addition reaction", "Substitution reaction", "Oxidation", "Saponification"], "answer": 0, "explain": "Hydrogen is added to the unsaturated oil using a nickel catalyst.", "topic": "chemical-properties", "level": "medium" },
+    { "q": "CH₄ + Cl₂ → CH₃Cl + HCl in sunlight is a:", "options": ["Combustion reaction", "Substitution reaction", "Addition reaction", "Esterification"], "answer": 1, "explain": "A chlorine atom replaces a hydrogen atom of methane.", "topic": "chemical-properties", "level": "medium" },
+    { "q": "Ethanol heated with excess concentrated sulphuric acid at 443 K gives:", "options": ["Ethene", "Ethanoic acid", "Ethane", "Ethyl ethanoate"], "answer": 0, "explain": "Conc. H₂SO₄ removes water (dehydration): CH₃CH₂OH → CH₂=CH₂ + H₂O.", "topic": "ethanol-ethanoic-acid", "level": "hard" },
+    { "q": "The sweet-smelling compound formed when ethanoic acid reacts with ethanol is:", "options": ["A soap", "A ketone", "An aldehyde", "An ester"], "answer": 3, "explain": "Acid + alcohol → ester (ethyl ethanoate) + water.", "topic": "ethanol-ethanoic-acid", "level": "medium" },
+    { "q": "In a micelle, the hydrocarbon tails of soap molecules point:", "options": ["Outward, towards water", "Randomly", "Inward, towards the oily dirt", "Towards the container wall"], "answer": 2, "explain": "Hydrophobic tails attach to the oil at the centre; ionic heads face the water.", "topic": "soaps-detergents", "level": "hard" }
+  ]
+}

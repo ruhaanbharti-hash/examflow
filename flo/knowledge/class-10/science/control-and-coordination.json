@@ -1,0 +1,122 @@
+{
+  "id": "c10-sci-control",
+  "class": 10,
+  "subject": "science",
+  "name": "Control and Coordination",
+  "summary": "Animals control and coordinate their activities using the nervous system and hormones. Neurons carry electrical impulses; reflex actions are quick automatic responses controlled by the spinal cord; the brain controls thinking and voluntary actions. Plants have no nervous system: they respond by changes in cell water content (touch-me-not) and by growth movements (tropisms) controlled by plant hormones. In animals, endocrine glands release hormones that regulate growth, metabolism and other functions, often by feedback.",
+  "topics": [
+    {
+      "id": "nervous-system",
+      "title": "Nervous system, neurons and reflex action",
+      "summary": "Receptors detect stimuli, neurons carry electrical impulses across synapses, and effectors respond. Reflex actions are fast, automatic responses controlled by the spinal cord.",
+      "simple": "Our sense organs have **receptors** that pick up changes around us. Nerve cells called **neurons** carry this message as an electrical signal to the brain or spinal cord, which sends back an order to muscles. A **reflex action**, like pulling your hand back from a hot pan, happens without thinking — the spinal cord handles it.",
+      "explain": "**Receptors** are specialised tips of nerve cells in sense organs — e.g. **gustatory** receptors (taste) in the tongue and **olfactory** receptors (smell) in the nose.\n\n**Neuron** — the structural and functional unit of the nervous system:\n- **Dendrites:** receive information; a chemical reaction sets off an **electrical impulse**.\n- **Cell body:** the impulse travels from the dendrite through the cell body.\n- **Axon:** carries the impulse along to its end.\n- At the axon's end, the impulse causes release of **chemicals** that cross a small gap called the **synapse** and start a similar impulse in the next neuron's dendrite, or in a muscle or gland.\n\nSo the pathway is: **dendrite → cell body → axon → nerve ending → synapse → next cell**.\n\n**Reflex action:** a sudden, automatic response to a stimulus without conscious thinking — e.g. withdrawing your hand from a flame, or blinking when something comes near your eye.\n\n**Reflex arc:** the pathway of a reflex:\nreceptor → **sensory neuron** → **spinal cord** (relay neuron) → **motor neuron** → **effector** (muscle)\n\nReflex arcs are formed in the **spinal cord**, so the response is quick; the information also goes on to the brain, which becomes aware of what happened. Reflex arcs evolved in animals because the thinking process of the brain is not fast enough. In many animals, there is very little or none of the complex neuron network needed for thinking, so reflex arcs are their main way of responding.",
+      "example": "When you accidentally touch a hot tawa, your hand jerks back before you even feel the pain. The signal went from your skin to the spinal cord and straight back to your arm muscles; the pain reaches your brain a moment later.",
+      "keyPoints": ["Receptors detect stimuli (gustatory = taste, olfactory = smell)", "Neuron: dendrite → cell body → axon", "Signals jump across a synapse as chemicals", "Reflex action: quick, automatic, no thinking", "Reflex arc: receptor → sensory neuron → spinal cord → motor neuron → effector", "Reflex arcs are formed in the spinal cord"],
+      "keywords": ["nervous system", "neuron", "nerve cell", "dendrite", "axon", "cell body", "synapse", "nerve impulse", "receptors", "effector", "reflex action", "reflex arc", "spinal cord", "sensory neuron", "motor neuron", "chapter 6", "chapter 7", "control and coordination"]
+    },
+    {
+      "id": "brain",
+      "title": "Human brain and how nervous tissue causes action",
+      "summary": "The brain (forebrain, midbrain, hindbrain) and spinal cord form the central nervous system. The brain is protected by the skull and fluid. Muscles move when nerve impulses make their proteins change shape.",
+      "simple": "The **brain** is the main control centre. The **forebrain** handles thinking, the **cerebellum** in the hindbrain keeps your balance, and the **medulla** controls things like heartbeat and breathing. The brain sits in a bony skull, cushioned by fluid.",
+      "explain": "The **central nervous system** = brain + spinal cord. Nerves arising from the brain (cranial nerves) and spinal cord (spinal nerves) form the **peripheral nervous system**. Together they connect the CNS to all parts of the body.\n\n**Voluntary actions** (writing, talking, moving a chair) are controlled by the brain after thinking. **Involuntary actions** (heartbeat, blood pressure, salivation, vomiting) happen without our will.\n\n**Parts of the brain:**\n- **Forebrain** — main thinking part. Has regions that receive sensory impulses (hearing, smell, sight, touch) and separate areas for association, where this information is put together with stored information. It also has regions controlling voluntary muscle movement, and a centre for hunger (feeling full).\n- **Midbrain** and **hindbrain** — control many **involuntary actions**.\n- **Hindbrain** parts:\n  - **Medulla** (in hindbrain): blood pressure, salivation, vomiting.\n  - **Cerebellum**: precision of voluntary actions and maintaining **posture and balance** — walking in a straight line, riding a bicycle, picking up a pencil.\n  - **Pons**: also involved in involuntary actions.\n\n**Protection:** the brain is inside a bony box (the **skull/cranium**), within a fluid-filled balloon that absorbs shocks. The spinal cord is protected by the **vertebral column** (backbone).\n\n**How nervous tissue causes action:** a nerve impulse reaching a muscle makes the muscle cell's special **proteins change their shape and arrangement**, so the muscle fibre becomes shorter (contracts). Animal muscle cells move this way; plant cells have no muscle proteins, so plants move differently.",
+      "example": "Riding a cycle through a crowded Delhi market needs perfect balance and quick, precise movements of your hands and feet. Your cerebellum is doing that work non-stop.",
+      "keyPoints": ["CNS = brain + spinal cord; PNS = cranial + spinal nerves", "Forebrain: thinking, senses, voluntary movement, hunger", "Medulla: blood pressure, salivation, vomiting", "Cerebellum: posture, balance, precise voluntary actions", "Brain protected by skull and fluid; spinal cord by vertebral column", "Muscles contract when proteins change shape"],
+      "keywords": ["human brain", "brain", "forebrain", "midbrain", "hindbrain", "cerebrum", "cerebellum", "medulla", "pons", "central nervous system", "peripheral nervous system", "voluntary action", "involuntary action", "skull", "vertebral column", "muscle contraction", "balance and posture"]
+    },
+    {
+      "id": "plant-movements",
+      "title": "Coordination in plants: movements and tropisms",
+      "summary": "Plants show immediate movements without growth (touch-me-not) by changing cell water content, and slow directional growth movements (tropisms) towards or away from stimuli.",
+      "simple": "Plants have no nerves or muscles, but they still respond. Leaves of the **touch-me-not** fold quickly when touched because cells lose water. Shoots grow towards light and roots grow down towards gravity and water — these slow growth movements are **tropisms**.",
+      "explain": "**1. Immediate response — movement without growth**\nThe leaves of the **sensitive plant** (*Mimosa pudica*, touch-me-not, chhui-mui) fold up and droop when touched. Plant cells use electrical-chemical means to pass information from cell to cell (no special nerve tissue). The cells **change shape by changing the amount of water** in them, causing swelling or shrinking. The movement happens at a point different from where it was touched.\n\n**2. Movement due to growth — tropisms**\nA **tropism** is a directional growth movement in response to a stimulus. It can be towards the stimulus (positive) or away from it (negative).\n- **Phototropism** (light): shoots bend **towards** light (positive); roots bend away from it (negative).\n- **Geotropism** (gravity): roots grow **downward** (positive); shoots grow upward (negative).\n- **Hydrotropism** (water): roots grow towards water.\n- **Chemotropism** (chemicals): the **pollen tube** grows towards the ovule.\n- **Tendrils** of climbing plants (like pea) are sensitive to touch: the part of the tendril away from the support grows faster than the part in contact, so it **coils around the support**.\n\nTropisms are **slow** (they need growth); the touch-me-not response is fast. Plants use **hormones** to coordinate these growth movements.",
+      "example": "Keep a potted money plant near a window for a week. Its stems bend towards the light coming in — phototropism. If you turn the pot around, the stems slowly bend back towards the window.",
+      "keyPoints": ["Touch-me-not: fast movement by change in water content of cells", "Tropism = directional growth movement", "Phototropism: shoot towards light, root away", "Geotropism: root down, shoot up", "Hydrotropism: root towards water; chemotropism: pollen tube to ovule", "Tendrils coil because the far side grows faster"],
+      "keywords": ["coordination in plants", "plant movement", "touch me not", "mimosa", "sensitive plant", "tropism", "phototropism", "geotropism", "gravitropism", "hydrotropism", "chemotropism", "tendrils", "thigmotropism", "pollen tube", "positive negative tropism"]
+    },
+    {
+      "id": "plant-hormones",
+      "title": "Plant hormones",
+      "summary": "Auxin, gibberellins and cytokinins promote growth; abscisic acid inhibits growth and causes wilting of leaves.",
+      "simple": "Plants make chemical messengers called **plant hormones**. **Auxin** makes shoots bend towards light. **Gibberellins** help stems grow longer. **Cytokinins** speed up cell division. **Abscisic acid** slows growth and makes leaves wilt and fall.",
+      "explain": "Plant hormones (phytohormones) coordinate growth, development and responses to the environment. They are made in one part of the plant and diffuse to the area of action.\n\n**Growth promoters:**\n- **Auxin:** made at the **shoot tip**. When light falls from one side, auxin diffuses to the **shady side** of the shoot. Auxin makes cells there grow longer, so the shoot **bends towards light** — this is how phototropism works.\n- **Gibberellins:** help in the **growth of the stem**.\n- **Cytokinins:** promote **cell division**; found in high concentration in areas of rapid cell division, such as **fruits and seeds**.\n\n**Growth inhibitor:**\n- **Abscisic acid (ABA):** inhibits growth; its effects include **wilting of leaves** (and their fall). It is sometimes called a stress hormone.",
+      "example": "A sunflower seedling on a windowsill bends towards the sunlight. Auxin from the tip collects on the shaded side, those cells grow longer, and the stem curves towards the light.",
+      "keyPoints": ["Auxin: made at shoot tip; moves to shady side; causes bending towards light", "Gibberellins: stem growth", "Cytokinins: cell division (fruits, seeds)", "Abscisic acid: inhibits growth, wilting of leaves", "Hormones diffuse from where they are made to where they act"],
+      "keywords": ["plant hormones", "phytohormones", "auxin", "gibberellin", "gibberellins", "cytokinin", "cytokinins", "abscisic acid", "ABA", "growth promoter", "growth inhibitor", "wilting", "stress hormone"]
+    },
+    {
+      "id": "animal-hormones",
+      "title": "Hormones in animals",
+      "summary": "Endocrine glands secrete hormones directly into blood. Key glands: pituitary, thyroid, pancreas, adrenal, testes, ovaries, hypothalamus. Hormone levels are controlled by feedback.",
+      "simple": "Besides nerves, animals use **hormones** — chemical messengers made by **endocrine glands** and carried in the blood. Adrenaline gets your body ready for an emergency. Insulin controls blood sugar. Growth hormone makes you grow. The amount of each hormone is adjusted by **feedback**.",
+      "explain": "Nerve impulses reach only cells connected to nerves, and a nerve cell can't keep sending impulses non-stop. Hormones, carried by blood, can reach **all cells** and have longer-lasting effects. **Endocrine glands** are ductless; they release hormones directly into the blood.\n\n**Adrenaline — fight or flight:** secreted by the **adrenal glands** when you are scared or in an emergency. It makes the **heart beat faster** (more oxygen to muscles), diverts blood away from the digestive system and skin (by contracting small arteries there) towards skeletal muscles, increases the **breathing rate** (diaphragm and rib muscles contract), and prepares the body to deal with the situation.\n\n**Important glands and hormones:**\n- **Hypothalamus:** releasing hormones that regulate the pituitary — e.g. releases growth hormone-releasing factor.\n- **Pituitary:** **growth hormone** — regulates growth and development. Too little in childhood causes **dwarfism**; too much causes **gigantism**.\n- **Thyroid:** **thyroxin** — regulates carbohydrate, protein and fat **metabolism** for balanced growth. **Iodine** is needed to make thyroxin. Iodine deficiency can cause **goitre** (swollen neck). That's why we use **iodised salt**.\n- **Pancreas:** **insulin** — regulates **blood sugar** level. If insulin isn't secreted in proper amounts, blood sugar rises (diabetes); treatment includes insulin injections.\n- **Adrenal:** **adrenaline** — emergency response.\n- **Testes** (males): **testosterone** — changes at puberty.\n- **Ovaries** (females): **oestrogen** — development of female reproductive organs, regulates the menstrual cycle.\n\n**Feedback mechanism:** the timing and amount of hormone release are regulated by feedback. For example, when blood sugar rises, cells of the pancreas detect it and release more insulin; as sugar level falls, insulin secretion is reduced.",
+      "example": "When a stray dog suddenly chases you, your heart pounds and you breathe fast — that's adrenaline preparing you to run. And that's why the salt packet in your kitchen says 'iodised': the iodine helps your thyroid make thyroxin.",
+      "keyPoints": ["Endocrine glands release hormones directly into blood", "Adrenaline (adrenal): fight or flight — faster heartbeat and breathing", "Growth hormone (pituitary): too little → dwarfism", "Thyroxin (thyroid) needs iodine; deficiency → goitre; use iodised salt", "Insulin (pancreas) regulates blood sugar", "Testosterone (testes), oestrogen (ovaries) — puberty changes", "Feedback controls hormone levels"],
+      "keywords": ["hormones in animals", "endocrine system", "endocrine glands", "adrenaline", "adrenal gland", "fight or flight", "pituitary", "growth hormone", "dwarfism", "thyroid", "thyroxin", "iodine", "goitre", "iodised salt", "pancreas", "insulin", "diabetes", "testosterone", "oestrogen", "hypothalamus", "feedback mechanism"]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "Receptor", "meaning": "A specialised nerve-cell tip in a sense organ that detects a stimulus." },
+    { "term": "Neuron", "meaning": "A nerve cell, the structural and functional unit of the nervous system." },
+    { "term": "Synapse", "meaning": "The small gap between two neurons (or a neuron and a muscle) across which chemicals carry the signal." },
+    { "term": "Reflex action", "meaning": "A quick, automatic response to a stimulus without conscious thought." },
+    { "term": "Reflex arc", "meaning": "The pathway of a reflex: receptor → sensory neuron → spinal cord → motor neuron → effector." },
+    { "term": "Central nervous system", "meaning": "The brain and the spinal cord." },
+    { "term": "Peripheral nervous system", "meaning": "Cranial and spinal nerves connecting the CNS to the rest of the body." },
+    { "term": "Cerebellum", "meaning": "Part of the hindbrain that maintains posture, balance and precision of voluntary actions." },
+    { "term": "Medulla", "meaning": "Part of the hindbrain that controls involuntary actions like blood pressure, salivation and vomiting." },
+    { "term": "Tropism", "meaning": "A directional growth movement of a plant in response to a stimulus." },
+    { "term": "Auxin", "meaning": "A plant hormone made at the shoot tip that helps cells grow longer and causes bending towards light." },
+    { "term": "Abscisic acid", "meaning": "A plant hormone that inhibits growth and causes wilting of leaves." },
+    { "term": "Endocrine gland", "meaning": "A ductless gland that releases hormones directly into the blood." },
+    { "term": "Feedback mechanism", "meaning": "Regulation of hormone release based on its effect, e.g. insulin release changes with blood sugar level." }
+  ],
+  "formulas": [],
+  "commonMistakes": [
+    "Saying reflex actions are controlled by the brain — reflex arcs are formed in the spinal cord.",
+    "Getting the impulse direction wrong — it travels dendrite → cell body → axon.",
+    "Mixing up cerebellum (balance, posture) and medulla (blood pressure, salivation, vomiting).",
+    "Calling the touch-me-not response a tropism — it is a movement without growth, caused by change in water content.",
+    "Saying auxin collects on the side facing light — it diffuses to the shady side, which grows faster.",
+    "Thinking abscisic acid promotes growth — it inhibits growth.",
+    "Saying goitre is caused by too much iodine — it is caused by iodine deficiency."
+  ],
+  "revision": [
+    "Neuron: dendrite → cell body → axon → synapse (chemical transmission).",
+    "Reflex arc: receptor → sensory neuron → spinal cord → motor neuron → effector.",
+    "CNS = brain + spinal cord; PNS = cranial + spinal nerves.",
+    "Forebrain: thinking and voluntary actions; hindbrain: involuntary actions.",
+    "Cerebellum: posture and balance; medulla: BP, salivation, vomiting.",
+    "Brain is protected by the skull and fluid; spinal cord by the vertebral column.",
+    "Muscle cells contract when their proteins change shape.",
+    "Touch-me-not folds by losing water from cells — no growth involved.",
+    "Phototropism (shoot to light), geotropism (root down), hydrotropism, chemotropism (pollen tube).",
+    "Auxin, gibberellins, cytokinins promote growth; abscisic acid inhibits it.",
+    "Adrenaline: fight or flight.",
+    "Thyroxin needs iodine; deficiency causes goitre.",
+    "Insulin from pancreas controls blood sugar; low insulin causes diabetes.",
+    "Growth hormone deficiency in childhood causes dwarfism."
+  ],
+  "faqs": [
+    { "q": "What is the difference between a reflex action and walking?", "a": "A **reflex action** (like pulling your hand from a flame) is automatic and fast, controlled by the spinal cord without thinking. **Walking** is a voluntary action — we decide to do it, and it is controlled by the brain (with the cerebellum keeping balance).", "keywords": ["reflex vs voluntary", "reflex action walking", "voluntary involuntary"] },
+    { "q": "How is the movement of a touch-me-not leaf different from the bending of a shoot towards light?", "a": "The **touch-me-not** responds immediately to touch, without growth: its cells change shape by losing water. A **shoot bending towards light** is a slow growth movement (phototropism) caused by auxin making cells on the shady side grow longer. It is directional and permanent.", "keywords": ["touch me not vs phototropism", "plant movements difference"] },
+    { "q": "Why is iodised salt recommended?", "a": "The thyroid gland needs iodine to make thyroxin, which regulates metabolism for balanced growth. Without enough iodine in the diet, a person may get goitre, a swollen neck. Iodised salt provides this iodine.", "keywords": ["iodised salt", "goitre", "iodine thyroxin"] },
+    { "q": "What is the difference between nervous and hormonal control?", "a": "**Nervous control** uses electrical impulses along neurons; it is very fast but reaches only cells connected to nerves, and is short-lived. **Hormonal control** uses chemicals carried in blood; it is slower but reaches all cells and has longer-lasting effects.", "keywords": ["nervous vs hormonal", "nervous system vs endocrine"] },
+    { "q": "How does auxin make a shoot bend towards light?", "a": "Auxin is made at the shoot tip. When light comes from one side, auxin diffuses to the shady side. It makes the cells there grow longer, so the shady side grows faster and the shoot bends towards the light.", "keywords": ["auxin phototropism", "how shoot bends"] }
+  ],
+  "quiz": [
+    { "q": "The correct path of a nerve impulse in a neuron is:", "options": ["Dendrite → cell body → axon", "Axon → cell body → dendrite", "Cell body → dendrite → axon", "Axon → dendrite → cell body"], "answer": 0, "explain": "Information is received by dendrites, passes through the cell body, and travels along the axon.", "topic": "nervous-system", "level": "easy" },
+    { "q": "The gap between two neurons is called a:", "options": ["Dendrite", "Axon", "Receptor", "Synapse"], "answer": 3, "explain": "Chemicals released at the axon's end cross the synapse to the next cell.", "topic": "nervous-system", "level": "easy" },
+    { "q": "Reflex arcs are formed in the:", "options": ["Forebrain", "Spinal cord", "Cerebellum", "Muscles"], "answer": 1, "explain": "The spinal cord connects sensory and motor neurons for a quick response.", "topic": "nervous-system", "level": "medium" },
+    { "q": "Which part of the brain maintains posture and balance?", "options": ["Medulla", "Forebrain", "Cerebellum", "Midbrain"], "answer": 2, "explain": "The cerebellum controls precision of voluntary actions and balance.", "topic": "brain", "level": "easy" },
+    { "q": "Salivation and vomiting are controlled by the:", "options": ["Cerebellum", "Medulla", "Forebrain", "Spinal nerves"], "answer": 1, "explain": "The medulla in the hindbrain controls these involuntary actions.", "topic": "brain", "level": "medium" },
+    { "q": "The leaves of the touch-me-not plant fold when touched because:", "options": ["Cells change shape by changing their water content", "Auxin collects on one side", "The plant grows rapidly", "Muscles in the leaf contract"], "answer": 0, "explain": "It's a movement without growth caused by cells losing water.", "topic": "plant-movements", "level": "medium" },
+    { "q": "Growth of a pollen tube towards the ovule is an example of:", "options": ["Phototropism", "Geotropism", "Hydrotropism", "Chemotropism"], "answer": 3, "explain": "The pollen tube responds to chemicals released by the ovule.", "topic": "plant-movements", "level": "medium" },
+    { "q": "Roots growing downward into the soil show:", "options": ["Negative geotropism", "Positive phototropism", "Positive geotropism", "Chemotropism"], "answer": 2, "explain": "Roots grow in the direction of gravity — positive geotropism.", "topic": "plant-movements", "level": "easy" },
+    { "q": "Which plant hormone inhibits growth and causes wilting of leaves?", "options": ["Auxin", "Gibberellin", "Cytokinin", "Abscisic acid"], "answer": 3, "explain": "Abscisic acid is a growth inhibitor.", "topic": "plant-hormones", "level": "easy" },
+    { "q": "When light falls on a shoot from one side, auxin:", "options": ["Moves to the shady side", "Moves to the lit side", "Is destroyed completely", "Moves to the roots"], "answer": 0, "explain": "Auxin diffuses to the shady side, making those cells grow longer so the shoot bends towards light.", "topic": "plant-hormones", "level": "hard" },
+    { "q": "Iodine is necessary for the synthesis of:", "options": ["Insulin", "Thyroxin", "Adrenaline", "Growth hormone"], "answer": 1, "explain": "The thyroid needs iodine to make thyroxin; deficiency causes goitre.", "topic": "animal-hormones", "level": "easy" },
+    { "q": "Which hormone prepares the body for an emergency ('fight or flight')?", "options": ["Insulin", "Thyroxin", "Adrenaline", "Oestrogen"], "answer": 2, "explain": "Adrenaline from the adrenal glands speeds up heartbeat and breathing.", "topic": "animal-hormones", "level": "hard" }
+  ]
+}

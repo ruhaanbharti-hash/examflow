@@ -1,0 +1,157 @@
+{
+  "id": "c10-sci-magnetic",
+  "class": 10,
+  "subject": "science",
+  "name": "Magnetic Effects of Electric Current",
+  "summary": "An electric current produces a magnetic field around it. Magnetic field lines show the direction and strength of a field. The field around a straight wire is a set of concentric circles (direction by the right-hand thumb rule), and a current-carrying solenoid behaves like a bar magnet and can make an electromagnet. A current-carrying conductor in a magnetic field feels a force, given by Fleming's left-hand rule. The chapter ends with domestic electric circuits: live, neutral and earth wires, fuses, short-circuiting and overloading.",
+  "topics": [
+    {
+      "id": "field-lines",
+      "title": "Magnetic field and field lines",
+      "summary": "A magnetic field is the region around a magnet where its force can be felt. Field lines go from the north pole to the south pole outside the magnet, are closed curves, never cross, and are crowded where the field is strong.",
+      "simple": "Every magnet has an invisible region of influence around it called a **magnetic field**. If you sprinkle iron filings around a bar magnet, they line up in curved patterns. These patterns are **magnetic field lines**. They show which way a compass needle would point and how strong the field is.",
+      "explain": "**Compass needle:** a compass needle is a small bar magnet. Its north-seeking end is the **north pole**; the other is the **south pole**. Like poles repel and unlike poles attract.\n\n**Magnetic field:** the region around a magnet in which its force can be detected. It has both **magnitude** (strength) and **direction**.\n\n**Seeing the field:** place a bar magnet under a sheet of paper, sprinkle iron filings and tap gently. The filings arrange themselves in a pattern of curves, because each filing acts like a tiny magnet. You can also trace field lines by moving a compass from the magnet's N pole to its S pole and joining the points.\n\n**Properties of magnetic field lines:**\n- Outside a magnet, they go from the **north pole to the south pole**. Inside the magnet, they go from south to north.\n- They are **closed curves**.\n- The direction of a field line at any point is the direction in which a compass N pole would point. By convention, field lines **emerge from the N pole and merge at the S pole**.\n- **No two field lines ever cross.** If they did, a compass at the crossing point would have to point in two directions at once, which is impossible.\n- **Crowded lines = stronger field.** The field is strongest near the poles, where the lines are closest together.",
+      "example": "Place a bar magnet on a table and sprinkle iron filings on a sheet of paper above it. Tap the paper and the filings line up in arcs from one end of the magnet to the other, crowding near the ends. That shows the field is strongest at the poles.",
+      "keyPoints": [
+        "Magnetic field: region where a magnet's force acts; has magnitude and direction",
+        "Field lines go N → S outside, S → N inside the magnet",
+        "Field lines are closed curves",
+        "Two field lines never intersect",
+        "Closer lines mean a stronger field",
+        "Compass needle is a small bar magnet"
+      ],
+      "keywords": ["magnetic field", "magnetic field lines", "field lines", "properties of field lines", "iron filings", "compass", "compass needle", "north pole", "south pole", "bar magnet", "why field lines don't intersect", "chapter 12", "magnetic effects"]
+    },
+    {
+      "id": "straight-conductor",
+      "title": "Field due to a current-carrying straight conductor",
+      "summary": "A current in a straight wire produces a magnetic field of concentric circles around it. The direction is given by the right-hand thumb rule. The field is stronger for larger current and weaker farther from the wire.",
+      "simple": "When current flows through a straight wire, it creates circles of magnetic field around the wire. If you hold the wire in your right hand with your thumb pointing in the direction of current, your curled fingers show the direction of the field. More current makes a stronger field, and the field gets weaker as you move away from the wire.",
+      "explain": "**Oersted's discovery:** in 1820, Hans Christian Oersted noticed that a compass needle placed near a wire was **deflected** when current flowed through the wire. This showed that **electricity and magnetism are linked**: an electric current produces a magnetic field.\n\n**Activity:** pass a thick copper wire vertically through a horizontal cardboard sheet. Sprinkle iron filings on the cardboard and pass current. The filings form **concentric circles** around the wire.\n\n**Field pattern:** the magnetic field lines around a straight current-carrying wire are **concentric circles** centred on the wire.\n\n**Direction: right-hand thumb rule**\nImagine holding the wire in your **right hand** with your **thumb** pointing in the **direction of current**. Your **fingers** wrap around the wire in the **direction of the magnetic field lines**. (This is also called **Maxwell's corkscrew rule**.)\n\nIf the current is reversed, the direction of the field reverses, and the compass needle deflects the other way.\n\n**Strength of the field:**\n- **Increases** when the **current increases** (the compass deflects more).\n- **Decreases** as the **distance from the wire increases** (the concentric circles get bigger and the field gets weaker).",
+      "example": "A wire runs north to south above a compass. When current flows from south to north through the wire, the compass needle swings to one side. Reverse the current, and it swings the other way. Increase the current with a rheostat, and the deflection grows.",
+      "keyPoints": [
+        "Oersted (1820): current deflects a compass needle",
+        "Field lines around a straight wire: concentric circles",
+        "Right-hand thumb rule: thumb = current, fingers = field",
+        "Reversing current reverses the field",
+        "Field ∝ current; decreases with distance from wire"
+      ],
+      "keywords": ["straight conductor", "straight wire magnetic field", "oersted", "oersted experiment", "concentric circles", "right hand thumb rule", "maxwell's corkscrew rule", "direction of magnetic field", "current carrying wire", "compass deflection"]
+    },
+    {
+      "id": "loop-solenoid",
+      "title": "Field due to a circular loop and a solenoid; electromagnets",
+      "summary": "In a circular loop, the field at the centre is nearly straight, and it increases with current and number of turns. A solenoid (a long coil) produces a field like a bar magnet, uniform inside. A soft iron core inside a solenoid makes an electromagnet.",
+      "simple": "Bend a wire into a loop and pass current, and the magnetic field lines near the centre become almost straight. Wind the wire into a long coil, called a **solenoid**, and it behaves just like a bar magnet with a north and a south end. Put a soft iron rod inside, and you get a strong **electromagnet** that you can switch on and off.",
+      "explain": "**Circular loop:**\n- Every small part of the loop produces circular field lines around it.\n- Near the wire, the lines are almost circular. As you move towards the **centre of the loop**, the circles become larger, and **at the centre the field lines appear as straight lines**.\n- At the centre, all parts of the wire produce a field in the **same direction**, so the fields add up.\n- The field **increases with current**.\n- For a coil of **n turns**, the field is **n times** that of a single turn, because the field of each turn adds up.\n\n**Solenoid:** a coil of many circular turns of insulated copper wire wrapped closely in the shape of a cylinder.\n- The field pattern is **similar to a bar magnet**: one end acts as a north pole and the other as a south pole.\n- **Inside** the solenoid, the field lines are **parallel straight lines**, so the field is **the same at all points**, i.e. **uniform**.\n- Reversing the current swaps the poles.\n\n**Electromagnet:**\n- A strong magnetic field inside a solenoid can magnetise a piece of magnetic material, such as **soft iron**, placed inside the coil.\n- The magnet so formed is an **electromagnet**.\n- It is a magnet **only while current flows**, so it can be switched on and off. Its strength can be increased by more current or more turns.\n- Electromagnets are used in electric bells, cranes for lifting scrap iron, and many devices.",
+      "example": "Wind about 50 turns of insulated copper wire around an iron nail and connect the ends to a cell. The nail picks up paper pins. Disconnect the cell, and most pins drop off. That's a simple electromagnet.",
+      "keyPoints": [
+        "Circular loop: field lines at centre are nearly straight",
+        "Loop field increases with current and number of turns (n turns → n times)",
+        "Solenoid: field like a bar magnet",
+        "Field inside a solenoid is uniform (parallel lines)",
+        "Soft iron core in a solenoid → electromagnet",
+        "Electromagnet works only while current flows"
+      ],
+      "keywords": ["circular loop", "circular coil", "magnetic field of loop", "solenoid", "magnetic field inside solenoid", "uniform field", "electromagnet", "soft iron core", "number of turns", "bar magnet solenoid", "permanent magnet vs electromagnet"]
+    },
+    {
+      "id": "force-on-conductor",
+      "title": "Force on a current-carrying conductor; Fleming's left-hand rule",
+      "summary": "A current-carrying conductor placed in a magnetic field experiences a force. The force is largest when the current is perpendicular to the field, and its direction is given by Fleming's left-hand rule.",
+      "simple": "A wire carrying current is pushed sideways when you place it between the poles of a magnet. Reverse the current or flip the magnet, and the push reverses. **Fleming's left-hand rule** tells you which way the wire moves: Forefinger = Field, seCond (middle) finger = Current, thuMb = Motion.",
+      "explain": "A current produces a magnetic field, which exerts a force on a nearby magnet. **André-Marie Ampère** suggested that the magnet must also exert an **equal and opposite force** on the current-carrying conductor.\n\n**Activity:** hang a small aluminium rod horizontally between the poles of a horseshoe magnet, with the field acting vertically. When current flows through the rod, it is **displaced** (pushed sideways).\n- Reverse the **current** → the rod moves the opposite way.\n- Reverse the **magnet's poles** → the rod moves the opposite way.\n\nSo the direction of the force depends on **both** the direction of current and the direction of the magnetic field.\n\n**Size of the force:** it is **largest** when the direction of current is **perpendicular (at 90°)** to the magnetic field. It is zero when the current is parallel to the field.\n\n**Fleming's left-hand rule:**\nStretch the thumb, forefinger and middle finger of your **left hand** so they are mutually perpendicular.\n- **Forefinger** → direction of the **magnetic field**\n- **Middle finger** → direction of the **current**\n- **Thumb** → direction of **motion (force)** on the conductor\n\nA beam of moving charged particles is also a current, so it too experiences a force in a magnetic field. For negative particles such as electrons, the current direction is opposite to their motion.\n\n**Uses:** devices such as electric motors, loudspeakers, microphones and electrical measuring instruments use current-carrying conductors in magnetic fields.\n\n**Magnetism in medicine:** nerve impulses in our body are tiny electric currents and produce weak magnetic fields. The **heart** and the **brain** produce significant magnetic fields. **MRI (Magnetic Resonance Imaging)** uses magnetic fields to produce images of internal organs for diagnosis.",
+      "example": "A horizontal wire carries current towards the east in a magnetic field acting vertically downwards. Using Fleming's left-hand rule: point the forefinger down (field), the middle finger east (current); the thumb points **north**. So the wire is pushed towards the north.",
+      "keyPoints": [
+        "A current-carrying conductor in a magnetic field feels a force",
+        "Reversing current or field reverses the force",
+        "Force is maximum when current ⟂ field; zero when parallel",
+        "Fleming's left-hand rule: Forefinger Field, middle finger Current, thumb Motion",
+        "Used in motors, loudspeakers, microphones, meters",
+        "Heart and brain produce magnetic fields; MRI uses magnetism"
+      ],
+      "keywords": ["force on current carrying conductor", "fleming's left hand rule", "flemings left hand rule", "left hand rule", "ampere", "aluminium rod experiment", "horseshoe magnet", "direction of force", "perpendicular", "loudspeaker", "mri", "magnetism in medicine", "charged particles in magnetic field"]
+    },
+    {
+      "id": "domestic-circuits",
+      "title": "Domestic electric circuits",
+      "summary": "Homes get electricity through a live wire (red), a neutral wire (black) and an earth wire (green), with a 220 V potential difference between live and neutral. Appliances are in parallel, and fuses protect against short-circuits and overloading.",
+      "simple": "Electricity comes into your home through three wires: the **live** wire (red insulation), the **neutral** wire (black) and the **earth** wire (green). Appliances are connected in parallel. A **fuse** melts if too much current flows, which protects your home. The earth wire keeps you from getting a dangerous shock if a metal appliance becomes faulty.",
+      "explain": "**Supply:** we get electricity from the mains, through overhead poles or underground cables.\n- **Live wire** (positive): usually **red** insulation\n- **Neutral wire** (negative): usually **black** insulation\n- In India, the potential difference between the two is **220 V** (AC, 50 Hz).\n\n**Inside the house:** the wires pass through an **electricity meter**, a **main fuse** and a **main switch**, and then to the distribution box, from which lines go to different rooms.\n\n**Two circuits:**\n- A **15 A** circuit for high-power appliances such as geysers, air conditioners and room heaters\n- A **5 A** circuit for bulbs, fans and similar devices\n\nAll appliances are connected in **parallel** between the live and neutral wires, each with its own switch, so each gets the same voltage and works independently.\n\n**Earth wire (green insulation):** connected to a **metal plate buried deep in the earth** near the house. It is joined to the **metal body** of appliances such as electric irons, toasters and refrigerators. If live wire touches the metal body by fault, the earth wire gives a **low-resistance path** for the current to flow into the ground. It keeps the body at the earth's potential, so the user does not get a **severe electric shock**.\n\n**Short-circuit:** happens when the live wire and the neutral wire come into **direct contact**, for example when insulation is damaged or there's a fault in an appliance. The resistance becomes very small, so the **current increases abruptly**.\n\n**Overloading:** happens when **too many appliances are connected to a single socket**, or when the live and neutral wires touch. Too much current flows.\n\n**Electric fuse:** the most important safety device. It **melts** when current exceeds its rating, breaking the circuit and preventing damage to appliances and the circuit due to short-circuiting or overloading.",
+      "example": "Plugging a heater, an iron and a kettle into one extension board at the same time can draw more current than the circuit is designed for. That's overloading. The fuse (or circuit breaker) cuts off the supply before the wires overheat and cause a fire.",
+      "keyPoints": [
+        "Live wire red, neutral black, earth green",
+        "Potential difference between live and neutral: 220 V in India",
+        "15 A circuit for heavy appliances; 5 A for lights and fans",
+        "Appliances connected in parallel",
+        "Earth wire: low-resistance path to ground; prevents severe shock",
+        "Short-circuit: live and neutral touch; overloading: too many appliances",
+        "Fuse melts and breaks the circuit when current is too high"
+      ],
+      "keywords": ["domestic electric circuits", "household circuit", "live wire", "neutral wire", "earth wire", "earthing", "red black green wire", "220 v", "fuse", "short circuit", "overloading", "15 a circuit", "5 a circuit", "electricity meter", "main switch", "electric shock"]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "Magnetic field", "meaning": "The region around a magnet (or current) in which its magnetic force can be detected; it has magnitude and direction." },
+    { "term": "Magnetic field lines", "meaning": "Imaginary closed curves showing the direction of a magnetic field; their closeness shows its strength." },
+    { "term": "Right-hand thumb rule", "meaning": "Hold a straight wire in the right hand with the thumb along the current; the fingers curl in the direction of the magnetic field." },
+    { "term": "Solenoid", "meaning": "A long cylindrical coil of many turns of insulated wire; it produces a field like a bar magnet, uniform inside." },
+    { "term": "Electromagnet", "meaning": "A soft iron core inside a current-carrying solenoid; it is magnetic only while current flows." },
+    { "term": "Fleming's left-hand rule", "meaning": "Forefinger = field, middle finger = current, thumb = direction of force (motion) on the conductor." },
+    { "term": "Oersted's experiment", "meaning": "Showed in 1820 that a current-carrying wire deflects a compass needle, linking electricity and magnetism." },
+    { "term": "MRI", "meaning": "Magnetic Resonance Imaging: uses magnetic fields to produce images of internal body organs." },
+    { "term": "Live wire", "meaning": "The wire at high potential in the mains supply; usually red insulation." },
+    { "term": "Neutral wire", "meaning": "The return wire in the mains supply; usually black insulation." },
+    { "term": "Earth wire", "meaning": "A green wire connected to a buried metal plate; provides a safe low-resistance path for leakage current." },
+    { "term": "Short-circuit", "meaning": "Direct contact between live and neutral wires, causing a sudden large current." },
+    { "term": "Overloading", "meaning": "Drawing more current than a circuit is designed for, e.g. too many appliances on one socket." }
+  ],
+  "formulas": [],
+  "commonMistakes": [
+    "Using the left hand for the field around a straight wire. The right-hand thumb rule gives the field direction; Fleming's left-hand rule gives the force.",
+    "Mixing up the fingers in Fleming's rule. Forefinger = Field, middle finger = Current, thumb = Motion.",
+    "Saying magnetic field lines can cross. They never intersect.",
+    "Thinking field lines go from S to N outside a magnet. Outside, they go from N to S.",
+    "Thinking the field inside a solenoid is strongest at one end. It is uniform inside.",
+    "Thinking the force is largest when the wire is parallel to the field. It is largest when perpendicular and zero when parallel.",
+    "Confusing short-circuit and overloading. Short-circuit is live and neutral touching; overloading is drawing too much current, e.g. from too many appliances.",
+    "Thinking the earth wire carries current all the time. It carries current only when there's a leakage fault."
+  ],
+  "revision": [
+    "Field lines: N → S outside, closed curves, never cross, crowded = strong.",
+    "Oersted (1820): current deflects a compass needle.",
+    "Straight wire: concentric circular field lines.",
+    "Right-hand thumb rule: thumb = current, fingers = field.",
+    "Field ∝ current; decreases with distance from the wire.",
+    "Loop: field at centre almost straight; n turns → n times stronger.",
+    "Solenoid acts like a bar magnet; field inside is uniform.",
+    "Soft iron core in solenoid = electromagnet.",
+    "Force on conductor is maximum when current ⟂ field.",
+    "Fleming's left-hand rule: Field–Current–Motion (fore–middle–thumb).",
+    "Heart and brain produce magnetic fields; MRI images organs.",
+    "Live red, neutral black, earth green; 220 V in India.",
+    "15 A for heavy appliances; 5 A for lights and fans; all in parallel.",
+    "Fuse protects against short-circuit and overloading; earth wire prevents severe shock."
+  ],
+  "faqs": [
+    { "q": "Why don't two magnetic field lines ever cross?", "a": "At any point, the field has only one direction. If two lines crossed, a compass needle at that point would have to point in two directions at once, which is impossible.", "keywords": ["field lines intersect", "why field lines don't cross"] },
+    { "q": "What is the difference between the right-hand thumb rule and Fleming's left-hand rule?", "a": "The **right-hand thumb rule** gives the **direction of the magnetic field** around a current-carrying wire. **Fleming's left-hand rule** gives the **direction of the force** on a current-carrying conductor placed in a magnetic field.", "keywords": ["right hand vs left hand rule", "difference thumb rule fleming"] },
+    { "q": "How is an electromagnet different from a permanent magnet?", "a": "An **electromagnet** is magnetic only while current flows, and its strength can be changed by changing the current or the number of turns. A **permanent magnet** stays magnetic all the time and its strength can't be easily changed.", "keywords": ["electromagnet vs permanent magnet", "electromagnet difference"] },
+    { "q": "Why is earthing important for metal appliances?", "a": "If the live wire accidentally touches the metal body, the earth wire carries the current safely into the ground through a low-resistance path. This keeps the body at earth's potential, so a person touching it doesn't get a severe shock.", "keywords": ["earthing", "earth wire importance", "electric shock safety"] },
+    { "q": "Are the electric motor and generator still in this chapter?", "a": "No. In the rationalised NCERT book, the sections on the **electric motor, electromagnetic induction and the electric generator** were removed. The chapter covers magnetic fields, the field due to currents, the force on a conductor (Fleming's left-hand rule) and domestic circuits.", "keywords": ["electric motor deleted", "generator deleted", "electromagnetic induction deleted", "rationalised syllabus"] }
+  ],
+  "quiz": [
+    { "q": "Outside a bar magnet, magnetic field lines go from:", "options": ["South pole to north pole", "North pole to south pole", "The middle to both ends", "Nowhere; they are straight"], "answer": 1, "explain": "By convention, field lines emerge from the N pole and merge at the S pole outside the magnet.", "topic": "field-lines", "level": "easy" },
+    { "q": "Where is the magnetic field of a bar magnet strongest?", "options": ["At the middle", "Far from the magnet", "Near the poles", "Equally everywhere"], "answer": 2, "explain": "Field lines are most crowded near the poles.", "topic": "field-lines", "level": "easy" },
+    { "q": "The magnetic field lines around a straight current-carrying wire are:", "options": ["Parallel straight lines", "Radial lines going outwards", "Ellipses", "Concentric circles"], "answer": 3, "explain": "Iron filings arrange themselves in concentric circles around the wire.", "topic": "straight-conductor", "level": "easy" },
+    { "q": "The direction of the magnetic field around a straight wire is found using:", "options": ["Right-hand thumb rule", "Fleming's left-hand rule", "Ohm's law", "Snell's law"], "answer": 0, "explain": "Thumb along the current; curled fingers show the field direction.", "topic": "straight-conductor", "level": "easy" },
+    { "q": "As you move farther from a current-carrying straight wire, the magnetic field:", "options": ["Increases", "Stays the same", "Reverses direction", "Decreases"], "answer": 3, "explain": "The field becomes weaker with distance from the wire.", "topic": "straight-conductor", "level": "medium" },
+    { "q": "The magnetic field inside a long current-carrying solenoid is:", "options": ["Uniform", "Zero", "Strongest at one end only", "In concentric circles"], "answer": 0, "explain": "Inside a solenoid the field lines are parallel straight lines, so the field is uniform.", "topic": "loop-solenoid", "level": "medium" },
+    { "q": "A coil has 50 turns. Compared with a single turn carrying the same current, the field at its centre is:", "options": ["50 times weaker", "The same", "50 times stronger", "25 times stronger"], "answer": 2, "explain": "The fields of all turns add up, so n turns give n times the field.", "topic": "loop-solenoid", "level": "hard" },
+    { "q": "An electromagnet is made by placing which material inside a solenoid?", "options": ["Copper", "Soft iron", "Aluminium", "Plastic"], "answer": 1, "explain": "Soft iron gets strongly magnetised while current flows and loses it when switched off.", "topic": "loop-solenoid", "level": "easy" },
+    { "q": "In Fleming's left-hand rule, the middle finger points in the direction of:", "options": ["Magnetic field", "Force", "Current", "Motion of the magnet"], "answer": 2, "explain": "Forefinger = field, middle finger = current, thumb = force/motion.", "topic": "force-on-conductor", "level": "medium" },
+    { "q": "The force on a current-carrying conductor in a magnetic field is maximum when the current is:", "options": ["Perpendicular to the field", "Parallel to the field", "At 30° to the field", "Zero"], "answer": 0, "explain": "The force is greatest at 90° and zero when the current is parallel to the field.", "topic": "force-on-conductor", "level": "hard" },
+    { "q": "In household wiring, the earth wire usually has insulation of colour:", "options": ["Red", "Green", "Black", "Blue"], "answer": 1, "explain": "Live is red, neutral is black and earth is green.", "topic": "domestic-circuits", "level": "easy" },
+    { "q": "A short-circuit happens when:", "options": ["Too few appliances are switched on", "The fuse is removed", "The earth wire is connected", "The live and neutral wires come into direct contact"], "answer": 3, "explain": "Direct contact makes the resistance very small, so the current rises abruptly.", "topic": "domestic-circuits", "level": "medium" }
+  ]
+}

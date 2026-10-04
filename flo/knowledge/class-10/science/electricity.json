@@ -1,0 +1,185 @@
+{
+  "id": "c10-sci-electricity",
+  "class": 10,
+  "subject": "science",
+  "name": "Electricity",
+  "summary": "Electric current is the rate of flow of charge (I = Q/t), driven by a potential difference (V = W/Q). Ohm's law says V = IR for a conductor at constant temperature. Resistance depends on length, area and material (R = ρl/A). Resistors can be joined in series (R = R₁ + R₂ + …) or in parallel (1/R = 1/R₁ + 1/R₂ + …). Current produces heat (H = I²Rt), used in heaters, bulbs and fuses, and electric power is P = VI, with energy billed in kilowatt-hours.",
+  "topics": [
+    {
+      "id": "current",
+      "title": "Electric current and circuits",
+      "summary": "Electric current is the rate of flow of electric charge, I = Q/t, measured in amperes with an ammeter connected in series. In metal wires, the moving charges are electrons.",
+      "simple": "Electric current is like the flow of water in a pipe, but what flows is electric charge. The more charge that passes a point each second, the bigger the current. We measure current in **amperes (A)** with an **ammeter**. A complete, unbroken path for current is called a **circuit**.",
+      "explain": "**Electric current** is the amount of charge flowing through a cross-section of a conductor per unit time:\n\n**I = Q/t**\n\n- SI unit of charge: **coulomb (C)**\n- SI unit of current: **ampere (A)**. 1 A = 1 C/s.\n- Smaller units: 1 mA = 10⁻³ A; 1 µA = 10⁻⁶ A.\n\n**Charge of an electron:** 1.6 × 10⁻¹⁹ C (negative). So 1 C is the charge of nearly **6 × 10¹⁸ electrons**.\n\n**Direction of current:** by convention, current flows in the direction **opposite** to the flow of electrons, i.e. from the positive terminal to the negative terminal outside the cell. (This convention was chosen before electrons were discovered.)\n\n**Electric circuit:** a continuous, closed path of an electric current. If the circuit is broken (for example, a switch is off), current stops and the bulb goes out.\n\n**Ammeter:** measures current. It is always connected **in series** in the circuit.\n\n**Common circuit symbols:** cell (a long thin line and a short thick line), battery (combination of cells), plug key or switch (open or closed), wire joint, wires crossing without joining, bulb, resistor, variable resistor (rheostat), ammeter, voltmeter.",
+      "example": "A current of 0.5 A flows through a bulb for 10 minutes. How much charge passes?\n\nt = 10 min = 600 s\nQ = I × t = 0.5 × 600 = **300 C**\n\nNumber of electrons = 300 ÷ (1.6 × 10⁻¹⁹) ≈ 1.9 × 10²¹ electrons.",
+      "keyPoints": [
+        "I = Q/t; unit ampere (A) = coulomb per second",
+        "Charge of electron = 1.6 × 10⁻¹⁹ C",
+        "1 C ≈ 6 × 10¹⁸ electrons",
+        "Conventional current: opposite to electron flow",
+        "Ammeter connected in series",
+        "Circuit must be closed for current to flow"
+      ],
+      "keywords": ["electric current", "current", "i = q/t", "ampere", "coulomb", "charge", "electron charge", "ammeter", "electric circuit", "circuit diagram", "circuit symbols", "conventional current", "chapter 11", "electricity chapter"]
+    },
+    {
+      "id": "potential-difference",
+      "title": "Electric potential and potential difference",
+      "summary": "Charges flow when there is a potential difference between two points. Potential difference is the work done per unit charge, V = W/Q, measured in volts with a voltmeter connected in parallel.",
+      "simple": "Water flows only if there's a height difference. In the same way, charge flows only if there's a **potential difference** (voltage). A cell creates this difference using chemical energy. Potential difference tells how much work is done to move each coulomb of charge. It's measured in **volts (V)** with a **voltmeter**.",
+      "explain": "Charges do not flow on their own in a wire, just as water in a perfectly level pipe doesn't flow. They move only if there is a **difference of electric pressure**, called the **potential difference**.\n\nA **cell or battery** produces this potential difference using the **chemical reaction** inside it. It does work to keep the charges moving around the circuit.\n\n**Definition:** the electric potential difference between two points is the **work done to move a unit charge** from one point to the other:\n\n**V = W/Q**\n\n- SI unit: **volt (V)**\n- **1 volt** is the potential difference when **1 joule** of work is done to move **1 coulomb** of charge: 1 V = 1 J/C.\n\n**Voltmeter:** measures potential difference. It is always connected **in parallel** across the two points.\n\n**Summary of connections:**\n- Ammeter → series (it measures what flows through)\n- Voltmeter → parallel (it compares two points)",
+      "example": "How much work is done in moving 2 C of charge across two points with a potential difference of 12 V?\n\nW = V × Q = 12 × 2 = **24 J**\n\nAnother: if 60 J of work moves 5 C between two points, V = W/Q = 60 ÷ 5 = **12 V**.",
+      "keyPoints": [
+        "Charge flows only when there is a potential difference",
+        "V = W/Q; unit volt (V) = joule per coulomb",
+        "Cell creates potential difference by chemical reaction",
+        "Voltmeter connected in parallel",
+        "1 V = 1 J of work per 1 C of charge"
+      ],
+      "keywords": ["potential difference", "voltage", "electric potential", "v = w/q", "volt", "voltmeter", "work done", "cell", "battery", "1 volt definition"]
+    },
+    {
+      "id": "ohms-law-resistance",
+      "title": "Ohm's law, resistance and resistivity",
+      "summary": "Ohm's law: at constant temperature, current through a conductor is proportional to the potential difference across it, V = IR. Resistance depends on length, cross-sectional area and material: R = ρl/A, where ρ is resistivity.",
+      "simple": "Georg Ohm found that if you double the voltage across a wire, the current doubles too, as long as the temperature stays the same. So V = IR. **Resistance (R)** is how much a material opposes current. A long, thin wire has more resistance than a short, thick one. Copper and aluminium have low resistance, so they're used for wires; nichrome has high resistance, so it's used in heaters.",
+      "explain": "**Ohm's law:** the potential difference V across a metallic wire is **directly proportional** to the current I through it, provided its **temperature remains the same**.\n\nV ∝ I → **V = IR**\n\nThe V–I graph is a **straight line through the origin**; its slope gives R.\n\n**Resistance (R):** the property of a conductor to resist the flow of charges. SI unit **ohm (Ω)**. 1 Ω is the resistance of a conductor when a potential difference of 1 V across it gives a current of 1 A.\n\nI = V/R, so for a fixed voltage, current is **inversely proportional** to resistance. A **rheostat** (variable resistance) is used to change current in a circuit.\n\n**Factors affecting resistance:**\n- Directly proportional to **length**: R ∝ l\n- Inversely proportional to **area of cross-section**: R ∝ 1/A\n- Depends on the **nature of the material**\n- Depends on **temperature**\n\nCombining: **R = ρ l / A**\n\n**ρ (rho)** is the **resistivity** of the material, its characteristic property. SI unit: **Ω m**.\n- Metals and alloys have very low resistivity: about 10⁻⁸ to 10⁻⁶ Ω m. They are good **conductors**.\n- Insulators such as rubber and glass have very high resistivity: about 10¹² to 10¹⁷ Ω m.\n- Resistivity of a material changes with temperature.\n- **Alloys** have higher resistivity than their constituent metals and **don't oxidise (burn) easily** at high temperatures. That's why **nichrome** is used in heaters, toasters and irons.\n- **Copper and aluminium** are used for transmission and household wiring because of their **low resistivity**.\n- **Tungsten** is used almost exclusively for bulb filaments.",
+      "deep": "**Effect of changes on resistance:**\n- Length doubled → R doubled\n- Area doubled → R halved\n- Diameter halved → area becomes ¼ (A = πr²) → R becomes 4 times\n- Wire stretched to double length (volume fixed) → length × 2 and area ÷ 2 → R becomes 4 times",
+      "example": "**Example 1 (Ohm's law):** a bulb draws 0.5 A from a 220 V supply. Its resistance is R = V/I = 220 ÷ 0.5 = **440 Ω**.\n\n**Example 2 (current):** a heater of resistance 44 Ω is connected to 220 V. I = V/R = 220 ÷ 44 = **5 A**.\n\n**Example 3 (resistivity):** a wire of resistance 10 Ω is stretched to twice its length without changing its volume. Its area halves, so R = ρ(2l)/(A/2) = 4 × ρl/A = 4 × 10 = **40 Ω**.",
+      "keyPoints": [
+        "Ohm's law: V = IR at constant temperature",
+        "V–I graph is a straight line through the origin",
+        "R ∝ l and R ∝ 1/A, so R = ρl/A",
+        "Resistivity ρ depends on material and temperature; unit Ω m",
+        "Alloys (nichrome) have high resistivity → heating elements",
+        "Copper, aluminium (low ρ) → wires; tungsten → bulb filaments"
+      ],
+      "keywords": ["ohm's law", "ohms law", "v = ir", "resistance", "ohm", "resistivity", "r = ρl/a", "rho", "factors affecting resistance", "length", "area of cross section", "nichrome", "alloy", "tungsten", "rheostat", "v-i graph", "conductors insulators"]
+    },
+    {
+      "id": "series-parallel",
+      "title": "Resistors in series and parallel",
+      "summary": "In series, the same current flows through each resistor and R = R₁ + R₂ + R₃. In parallel, each resistor has the same potential difference and 1/R = 1/R₁ + 1/R₂ + 1/R₃. Homes use parallel circuits.",
+      "simple": "Resistors in **series** are joined end to end, in one line. The same current goes through all of them, and their resistances simply add up. Resistors in **parallel** are joined side by side. Each gets the full voltage, and the total resistance becomes **less** than the smallest one. Your home's lights and fans are connected in parallel so each one works on its own.",
+      "explain": "**Series combination** (end to end):\n- The **same current** flows through every resistor.\n- The total potential difference equals the **sum** of the potential differences across each: V = V₁ + V₂ + V₃.\n- Equivalent resistance: **Rs = R₁ + R₂ + R₃**. It is **greater** than any single resistor.\n\n**Parallel combination** (side by side, between the same two points):\n- The **potential difference** across each resistor is the **same**.\n- The total current equals the **sum** of the currents through each: I = I₁ + I₂ + I₃.\n- Equivalent resistance: **1/Rp = 1/R₁ + 1/R₂ + 1/R₃**. It is **less** than the smallest single resistor.\n\n**Why homes use parallel, not series:**\n- In series, if one appliance fails or is switched off, the circuit breaks and **all** stop working.\n- In series, the current is the same through all, but appliances need **different currents** (a heater needs much more than a bulb).\n- In series, the total resistance becomes large, so current falls.\n- In **parallel**, each appliance gets the **full voltage**, can be switched on and off independently, and draws the current it needs.",
+      "example": "**Series:** 5 Ω, 10 Ω and 15 Ω in series with a 12 V battery.\nRs = 5 + 10 + 15 = 30 Ω\nI = V/Rs = 12 ÷ 30 = **0.4 A** (same in each)\nV₁ = 0.4 × 5 = 2 V; V₂ = 0.4 × 10 = 4 V; V₃ = 0.4 × 15 = 6 V. Check: 2 + 4 + 6 = 12 V ✓\n\n**Parallel:** now 5 Ω, 10 Ω and 30 Ω in parallel with 12 V.\n1/Rp = 1/5 + 1/10 + 1/30 = 6/30 + 3/30 + 1/30 = 10/30\nRp = **3 Ω**\nI = 12 ÷ 3 = **4 A** total\nI₁ = 12/5 = 2.4 A; I₂ = 12/10 = 1.2 A; I₃ = 12/30 = 0.4 A. Check: 2.4 + 1.2 + 0.4 = 4 A ✓",
+      "keyPoints": [
+        "Series: same current; V = V₁ + V₂ + V₃",
+        "Series: Rs = R₁ + R₂ + R₃ (bigger than each)",
+        "Parallel: same voltage; I = I₁ + I₂ + I₃",
+        "Parallel: 1/Rp = 1/R₁ + 1/R₂ + 1/R₃ (smaller than smallest)",
+        "Two equal resistors R in parallel give R/2",
+        "Household circuits are wired in parallel"
+      ],
+      "keywords": ["series", "parallel", "series combination", "parallel combination", "resistors in series", "resistors in parallel", "equivalent resistance", "1/r", "household wiring parallel", "why parallel", "series and parallel numericals", "combination of resistors"]
+    },
+    {
+      "id": "heating-effect",
+      "title": "Heating effect of electric current",
+      "summary": "When current flows through a resistor, electrical energy is turned into heat. Joule's law: H = I²Rt. It is used in heaters, irons, toasters, bulbs and fuses, but is unwanted in computers and wires.",
+      "simple": "When current passes through a wire, the wire gets hot. The heat produced depends on the current, the resistance and the time: **H = I²Rt**. Doubling the current makes four times the heat. We use this in electric irons, kettles, heaters, bulbs and fuses.",
+      "explain": "When a source drives current through a purely resistive circuit, the energy supplied is **dissipated entirely as heat**. This is the **heating effect of electric current**.\n\nWork done to move charge Q through potential difference V: W = VQ. With Q = It and V = IR, the heat produced is:\n\n**H = VIt = I²Rt**\n\n**Joule's law of heating:** the heat produced in a resistor is:\n- directly proportional to the **square of the current** (H ∝ I²),\n- directly proportional to the **resistance** (H ∝ R),\n- directly proportional to the **time** for which current flows (H ∝ t).\n\n**Useful applications:**\n- **Electric iron, toaster, oven, kettle, room heater:** heating elements made of high-resistivity alloys like nichrome\n- **Electric bulb:** the **tungsten** filament (melting point 3380 °C) gets so hot that it glows and gives light. Bulbs are filled with chemically inactive **nitrogen and argon** to make the filament last longer. Much of the energy still comes out as heat.\n- **Electric fuse:** a wire of a metal or alloy with a suitable **low melting point** (e.g. aluminium, copper, iron, lead). If a current larger than the rating flows, the fuse wire **melts** and breaks the circuit, protecting appliances. It is connected **in series** with the device. Fuses for home use are rated 1 A, 2 A, 3 A, 5 A, 10 A, etc.\n\n**Unwanted effect:** heating wastes energy in wires and can damage parts in computers and other devices, which is why some need cooling fans.",
+      "example": "A current of 2 A flows through a 20 Ω resistor for 30 s. Heat produced:\nH = I²Rt = 2² × 20 × 30 = 4 × 20 × 30 = **2400 J**\n\n**Choosing a fuse:** an electric iron uses 1 kW at 220 V. Current I = P/V = 1000 ÷ 220 ≈ 4.5 A. So a **5 A** fuse is suitable.",
+      "keyPoints": [
+        "H = I²Rt (Joule's law of heating)",
+        "Heat ∝ I², ∝ R, ∝ t",
+        "Heating elements use nichrome (high resistivity, doesn't oxidise easily)",
+        "Bulb filament: tungsten (melting point 3380 °C); bulb filled with nitrogen and argon",
+        "Fuse: low melting point wire in series; melts on excess current",
+        "Unwanted heating wastes energy in wires and devices"
+      ],
+      "keywords": ["heating effect", "heating effect of current", "joule's law", "joules law of heating", "h = i²rt", "electric heater", "electric iron", "bulb filament", "tungsten", "fuse", "fuse wire", "fuse rating", "nichrome", "heat produced"]
+    },
+    {
+      "id": "electric-power",
+      "title": "Electric power and energy",
+      "summary": "Electric power is the rate of using electrical energy: P = VI = I²R = V²/R, measured in watts. Commercial energy is measured in kilowatt-hours (units): 1 kWh = 3.6 × 10⁶ J.",
+      "simple": "Power tells how fast an appliance uses electrical energy. A 1000 W heater uses energy ten times faster than a 100 W bulb. **P = VI**. Your electricity bill counts energy in **units**, where 1 unit = 1 **kilowatt-hour (kWh)**: using 1000 W for 1 hour.",
+      "explain": "**Electric power** is the rate at which electric energy is consumed (or dissipated):\n\n**P = VI**\n\nUsing Ohm's law, this can also be written as:\n- **P = I²R**\n- **P = V²/R**\n\n**SI unit:** **watt (W)**. 1 W is the power used by a device that carries 1 A at 1 V: 1 W = 1 V × 1 A = 1 J/s.\n- 1 kilowatt (kW) = 1000 W\n\n**Electrical energy:** E = P × t\n\nThe joule is too small for household use, so the commercial unit is the **kilowatt-hour (kWh)**, often called one **'unit'** on the electricity bill.\n\n**1 kWh = 1000 W × 3600 s = 3.6 × 10⁶ J**\n\n**Power rating:** an appliance marked '220 V, 1100 W' uses 1100 W when connected to 220 V. From this, you can find:\n- current: I = P/V = 1100 ÷ 220 = 5 A\n- resistance: R = V²/P = 220² ÷ 1100 = 48400 ÷ 1100 = 44 Ω\n\nNote: an electric bill charges for **energy (kWh)**, not for power or for current. 'Electricity' is not consumed in the sense of charge being used up; energy is.",
+      "example": "A 1000 W heater runs 2 hours a day for 30 days. Electricity costs ₹8 per unit.\n\nEnergy = P × t = 1 kW × (2 × 30) h = **60 kWh = 60 units**\nCost = 60 × ₹8 = **₹480**\n\nAnother: a 100 W bulb and a 60 W bulb both on 220 V. The 100 W bulb draws I = 100/220 ≈ 0.45 A; the 60 W bulb draws 60/220 ≈ 0.27 A. The 60 W bulb has the higher resistance: R = 220²/60 ≈ 807 Ω, versus 220²/100 = 484 Ω for the 100 W bulb.",
+      "keyPoints": [
+        "P = VI = I²R = V²/R",
+        "Unit of power: watt (W) = 1 J/s",
+        "Energy E = P × t",
+        "1 kWh = 1 unit = 3.6 × 10⁶ J",
+        "Power rating tells P at the stated voltage",
+        "Bills charge for energy in kWh"
+      ],
+      "keywords": ["electric power", "power", "p = vi", "p = i²r", "p = v²/r", "watt", "kilowatt", "kilowatt hour", "kwh", "unit of electricity", "electricity bill", "3.6 × 10⁶ j", "power rating", "electrical energy", "cost of electricity"]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "Electric current", "meaning": "Rate of flow of electric charge through a conductor, I = Q/t; unit ampere (A)." },
+    { "term": "Coulomb", "meaning": "SI unit of charge; about 6 × 10¹⁸ electrons' worth of charge." },
+    { "term": "Potential difference", "meaning": "Work done to move a unit charge between two points, V = W/Q; unit volt (V)." },
+    { "term": "Ammeter", "meaning": "Instrument that measures current; connected in series." },
+    { "term": "Voltmeter", "meaning": "Instrument that measures potential difference; connected in parallel." },
+    { "term": "Ohm's law", "meaning": "At constant temperature, potential difference across a conductor is proportional to the current through it (V = IR)." },
+    { "term": "Resistance", "meaning": "Opposition of a conductor to the flow of charge; unit ohm (Ω)." },
+    { "term": "Resistivity", "meaning": "Characteristic property of a material giving its resistance per unit length and area (ρ = RA/l); unit Ω m." },
+    { "term": "Rheostat", "meaning": "A variable resistor used to change the current in a circuit." },
+    { "term": "Joule's law of heating", "meaning": "Heat produced in a resistor H = I²Rt." },
+    { "term": "Electric fuse", "meaning": "A safety device with a low-melting-point wire in series that melts and breaks the circuit when the current is too large." },
+    { "term": "Electric power", "meaning": "Rate of consumption of electrical energy, P = VI; unit watt (W)." },
+    { "term": "Kilowatt-hour", "meaning": "Commercial unit of electrical energy: 1 kWh = 3.6 × 10⁶ J ('1 unit')." }
+  ],
+  "formulas": [
+    "I = Q/t (I current in A, Q charge in C, t time in s)",
+    "Charge on an electron e = 1.6 × 10⁻¹⁹ C; Q = ne (n number of electrons)",
+    "V = W/Q (V potential difference in V, W work in J)",
+    "Ohm's law: V = IR",
+    "R = ρl/A (ρ resistivity in Ω m, l length in m, A area in m²)",
+    "Series: Rs = R₁ + R₂ + R₃",
+    "Parallel: 1/Rp = 1/R₁ + 1/R₂ + 1/R₃",
+    "Heat: H = I²Rt = VIt = (V²/R)t",
+    "Power: P = VI = I²R = V²/R",
+    "Energy: E = P × t; 1 kWh = 3.6 × 10⁶ J"
+  ],
+  "commonMistakes": [
+    "Connecting a voltmeter in series or an ammeter in parallel. Ammeter in series, voltmeter in parallel.",
+    "Forgetting to convert time to seconds in Q = It or H = I²Rt.",
+    "Adding resistances directly in parallel. Use 1/Rp = 1/R₁ + 1/R₂ + …, then take the reciprocal at the end.",
+    "Forgetting the final step in parallel problems: 1/Rp = 10/30 means Rp = 3 Ω, not 0.33 Ω.",
+    "Thinking heat ∝ I. Heat is proportional to I², so doubling current gives four times the heat.",
+    "Thinking a 100 W bulb has more resistance than a 60 W bulb. At the same voltage, the higher-power bulb has lower resistance (R = V²/P).",
+    "Thinking the conventional current flows the same way as electrons. It is opposite to electron flow.",
+    "Confusing resistance with resistivity. Resistance depends on shape and size; resistivity depends only on the material (and temperature)."
+  ],
+  "revision": [
+    "I = Q/t; 1 A = 1 C/s; electron charge 1.6 × 10⁻¹⁹ C.",
+    "Conventional current flows opposite to electrons.",
+    "V = W/Q; 1 V = 1 J/C.",
+    "Ammeter in series; voltmeter in parallel.",
+    "Ohm's law V = IR at constant temperature; V–I graph is a straight line.",
+    "R = ρl/A; R doubles if length doubles, halves if area doubles.",
+    "Alloys like nichrome: high resistivity, used in heaters.",
+    "Series: Rs = R₁ + R₂ + …, same current.",
+    "Parallel: 1/Rp = 1/R₁ + 1/R₂ + …, same voltage.",
+    "Homes use parallel circuits.",
+    "H = I²Rt; fuse wire has a low melting point and is in series.",
+    "Tungsten filament; bulbs filled with nitrogen and argon.",
+    "P = VI = I²R = V²/R; unit watt.",
+    "1 kWh = 1 unit = 3.6 × 10⁶ J."
+  ],
+  "faqs": [
+    { "q": "What is the difference between resistance and resistivity?", "a": "**Resistance** (R, in Ω) depends on the wire's length, thickness, material and temperature. **Resistivity** (ρ, in Ω m) depends only on the material and temperature, not on its size or shape. They are linked by R = ρl/A.", "keywords": ["resistance vs resistivity", "difference resistance resistivity"] },
+    { "q": "Why are household appliances connected in parallel?", "a": "In parallel, each appliance gets the full 220 V, can be switched on or off independently, and draws its own required current. In series, one switched-off appliance would break the circuit for all, and the total resistance would be too high.", "keywords": ["why parallel", "household circuit parallel", "series vs parallel home"] },
+    { "q": "Why is nichrome used in heaters instead of copper?", "a": "Nichrome is an alloy with **high resistivity**, so it produces a lot of heat (H = I²Rt), and it **does not oxidise (burn) easily** at high temperatures. Copper has low resistivity, so it is used for connecting wires instead.", "keywords": ["nichrome heater", "why nichrome", "heating element"] },
+    { "q": "Why is a fuse connected in series?", "a": "So that all the current to the appliance passes through it. If the current becomes too large, the fuse wire melts and breaks the whole circuit, cutting off the supply and protecting the appliance.", "keywords": ["fuse series", "fuse working", "why fuse"] },
+    { "q": "What does '1 unit' of electricity mean on the bill?", "a": "One unit is **1 kilowatt-hour (kWh)**: the energy used by a 1000 W appliance running for 1 hour. 1 kWh = 3.6 × 10⁶ J.", "keywords": ["unit of electricity", "kwh meaning", "electricity bill unit"] }
+  ],
+  "quiz": [
+    { "q": "A current of 2 A flows for 5 minutes. The charge that passes is:", "options": ["10 C", "600 C", "150 C", "2.5 C"], "answer": 1, "explain": "Q = It = 2 × (5 × 60) = 600 C.", "topic": "current", "level": "medium" },
+    { "q": "An ammeter is always connected:", "options": ["In series", "In parallel", "Across the battery only", "Either way"], "answer": 0, "explain": "It must carry the same current as the circuit, so it goes in series.", "topic": "current", "level": "easy" },
+    { "q": "The work done to move 3 C of charge across a potential difference of 6 V is:", "options": ["2 J", "0.5 J", "9 J", "18 J"], "answer": 3, "explain": "W = VQ = 6 × 3 = 18 J.", "topic": "potential-difference", "level": "easy" },
+    { "q": "1 volt is equal to:", "options": ["1 joule per coulomb", "1 coulomb per second", "1 joule per second", "1 ampere per ohm"], "answer": 0, "explain": "V = W/Q, so 1 V = 1 J/C.", "topic": "potential-difference", "level": "easy" },
+    { "q": "A heater draws 5 A from a 220 V supply. Its resistance is:", "options": ["1100 Ω", "225 Ω", "44 Ω", "4.4 Ω"], "answer": 2, "explain": "R = V/I = 220 ÷ 5 = 44 Ω.", "topic": "ohms-law-resistance", "level": "easy" },
+    { "q": "If the length of a wire is doubled and its area is kept the same, its resistance:", "options": ["Halves", "Stays the same", "Becomes four times", "Doubles"], "answer": 3, "explain": "R = ρl/A, so R ∝ l.", "topic": "ohms-law-resistance", "level": "medium" },
+    { "q": "Heating elements of electric irons are made of nichrome because it has:", "options": ["Low resistivity", "High resistivity and doesn't oxidise easily", "Low melting point", "High conductivity"], "answer": 1, "explain": "High resistivity gives more heat; resistance to oxidation lets it work at high temperature.", "topic": "ohms-law-resistance", "level": "medium" },
+    { "q": "Resistors of 5 Ω, 10 Ω and 15 Ω are in series across 12 V. The current is:", "options": ["0.4 A", "2.4 A", "4 A", "0.8 A"], "answer": 0, "explain": "Rs = 30 Ω; I = 12 ÷ 30 = 0.4 A.", "topic": "series-parallel", "level": "medium" },
+    { "q": "Resistors of 5 Ω, 10 Ω and 30 Ω are connected in parallel. The equivalent resistance is:", "options": ["45 Ω", "15 Ω", "3 Ω", "0.33 Ω"], "answer": 2, "explain": "1/Rp = 6/30 + 3/30 + 1/30 = 10/30, so Rp = 3 Ω.", "topic": "series-parallel", "level": "hard" },
+    { "q": "If the current through a resistor is doubled, the heat produced in the same time becomes:", "options": ["Half", "Double", "Four times", "Eight times"], "answer": 2, "explain": "H = I²Rt, so H ∝ I². (2)² = 4.", "topic": "heating-effect", "level": "medium" },
+    { "q": "The filament of an electric bulb is made of:", "options": ["Nichrome", "Copper", "Lead", "Tungsten"], "answer": 3, "explain": "Tungsten has a very high melting point (3380 °C), so it glows without melting.", "topic": "heating-effect", "level": "easy" },
+    { "q": "An appliance rated 1000 W is used for 3 hours a day for 10 days. Energy used is:", "options": ["3 kWh", "30 kWh", "300 kWh", "30 J"], "answer": 1, "explain": "E = 1 kW × 30 h = 30 kWh.", "topic": "electric-power", "level": "hard" }
+  ]
+}
