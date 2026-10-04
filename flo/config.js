@@ -17,6 +17,11 @@ export default {
   // Reading PDFs the learner attaches (runs in the browser; files are never uploaded).
   pdfUrl: new URL("./vendor/pdf.min.js", import.meta.url).href,
   pdfWorkerUrl: new URL("./vendor/pdf.worker.min.js", import.meta.url).href,
+  // Reading photos and scanned pages (text recognition on the device).
+  ocrBase: new URL("./vendor/ocr/", import.meta.url).href,
+  // Word/PowerPoint reading is switched off for now. To switch it on later, add vendor/fflate.js and:
+  // zipUrl: new URL("./vendor/fflate.js", import.meta.url).href,
+  zipUrl: null,
 
   // ✨ Smart Study Mode — OPTIONAL on-device AI. Learners switch it on themselves in Flo's settings.
   // The model runs inside their browser (WebGPU); nothing is sent to an AI company.
