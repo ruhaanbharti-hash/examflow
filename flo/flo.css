@@ -311,3 +311,4 @@
 
 /* the header now has four buttons: keep the title clean */
 .flo-head .flo-badge { display: none; }
+.flo-typing-text { align-self: center; font-size: 12.5px; font-weight: 650; color: var(--flo-muted); }
