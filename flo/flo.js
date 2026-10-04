@@ -158,11 +158,11 @@ function createUI() {
         <div class="flo-mode-pill"><span></span><button type="button" aria-label="Clear mode">Clear</button></div>
         <div class="flo-attached"></div>
         <div class="flo-inputwrap">
-          <button type="button" class="flo-attach" title="Add notes, a PDF or your syllabus" aria-label="Add study material">${icon("clip")}</button>
+          <button type="button" class="flo-attach" title="Add notes, a PDF, a photo, or your syllabus" aria-label="Add study material">${icon("clip")}</button>
           <textarea class="flo-input" rows="1" maxlength="8000" placeholder="Ask Flo anything about your studies…" aria-label="Message Flo"></textarea>
           <button type="submit" class="flo-send" aria-label="Send" disabled>${icon("send")}</button>
         </div>
-        <input type="file" class="flo-file" accept=".pdf,.txt,.md,.markdown,.csv,.html,.htm,application/pdf,text/plain" hidden>
+        <input type="file" class="flo-file" accept=".pdf,.txt,.md,.markdown,.csv,.html,.htm,application/pdf,text/plain,image/*" hidden>
         <div class="flo-foot"></div>
       </form>
     </section>`;
@@ -372,20 +372,30 @@ function createUI() {
     const typing = showTyping();
     try {
       if (file.size > 25 * 1024 * 1024) throw Object.assign(new Error("big"), { friendly: "That file is over 25 MB. Try a smaller file, or paste the part you need." });
-      const res = await readFile(file, { pdfUrl: CONFIG.pdfUrl, pdfWorkerUrl: CONFIG.pdfWorkerUrl });
+      const res = await readFile(file, { pdfUrl: CONFIG.pdfUrl, pdfWorkerUrl: CONFIG.pdfWorkerUrl, ocrBase: CONFIG.ocrBase, zipUrl: CONFIG.zipUrl, onProgress: (t) => typing.setText(t) });
       typing.remove();
       if (res.kind === "unsupported") {
-        const why = res.error === "docx" ? "I can't read Word files yet. Save it as a PDF (File → Save as → PDF), or copy and paste the text here." : res.error === "image" ? "I can't read text from photos yet. Please attach a PDF or text file, or type/paste the text." : "I can read PDFs and text files. Please attach one of those, or paste the text here.";
+        const why = {
+          docx: "I can't read Word or PowerPoint files yet. Save it as a **PDF** (File → Save as → PDF) and attach that, or copy and paste the text here.",
+          heic: "iPhone photos in HEIC format can't be read here. On your iPhone go to **Settings → Camera → Formats → Most Compatible**, or take a screenshot of the photo and attach that.",
+          "old-office": "I can't read Word or PowerPoint files yet. Save it as a **PDF** and attach that, or copy and paste the text here.",
+          broken: "I couldn't open that file — it may be damaged or password-protected. Try saving it again, or as a PDF.",
+        }[res.error] || "I can read PDFs, photos and text files. Please attach one of those, or paste the text here.";
         push({ role: "flo", blocks: [{ type: "text", text: why }] });
         return;
       }
-      if (res.scanned || !res.text.trim()) { push({ role: "flo", blocks: [{ type: "text", text: "This PDF looks like scanned pages (images), so I can't read its text. Try a text-based PDF, or paste the text here." }] }); return; }
+      if (!res.text || res.text.replace(/\s/g, "").length < 15) {
+        push({ role: "flo", blocks: [{ type: "text", text: res.ocr ? "I couldn't find readable text in that. For photos: use good light, hold the camera straight over the page, and make sure the words are sharp. Printed text works best; handwriting is harder." : "I couldn't find any text in that file." }] });
+        return;
+      }
       const added = materials.add({ name: file.name, text: res.text, kind: res.kind });
       if (!added.ok) { push({ role: "flo", blocks: [{ type: "text", text: "That file seems to be empty." }] }); return; }
       flo.attach(conv.state, added.doc.id);
       const syl = looksLikeSyllabus(added.doc.text);
       const notes = [];
       if (res.kind === "pdf" && res.readPages < res.pages) notes.push(`I read the first ${res.readPages} of ${res.pages} pages.`);
+      if (res.ocr) notes.push(res.confidence && res.confidence < 70 ? "I read this from an image, and some words may be misread — check anything important against the original." : "I read this from an image using text recognition, so a few words may be off.");
+      if (res.kind === "pptx") notes.push(`Read ${res.slides} slide${res.slides === 1 ? "" : "s"}.`);
       if (added.truncated) notes.push("It's very long, so I kept the first part.");
       if (!added.stored) notes.push("Your browser's storage is full, so I'll only keep it for this session.");
       push({ role: "flo", blocks: [
@@ -806,9 +816,10 @@ function createUI() {
 
   function showTyping() {
     const row = el("div", "flo-row");
-    row.innerHTML = `<div class="flo-avatar sm" aria-hidden="true">${icon("spark")}</div><div class="flo-typing" aria-label="Flo is typing"><i></i><i></i><i></i></div>`;
+    row.innerHTML = `<div class="flo-avatar sm" aria-hidden="true">${icon("spark")}</div><div class="flo-typing" aria-label="Flo is typing"><i></i><i></i><i></i></div><span class="flo-typing-text"></span>`;
     log.appendChild(row);
     log.scrollTop = log.scrollHeight;
+    row.setText = (t) => { const s = row.querySelector(".flo-typing-text"); if (s) s.textContent = t || ""; };
     return row;
   }
 
