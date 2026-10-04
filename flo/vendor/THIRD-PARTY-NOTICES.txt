@@ -8,6 +8,14 @@ Flo includes these open-source libraries, unmodified:
   Licence: Apache License 2.0 — https://github.com/mozilla/pdf.js
   Files: pdf.min.js, pdf.worker.min.js
 
+- Tesseract.js v6.0.1 and tesseract.js-core v6.1.2 — text recognition (OCR) for photos and scanned pages.
+  Licence: Apache License 2.0 — https://github.com/naptha/tesseract.js
+  Files: ocr/tesseract.esm.min.js, ocr/worker.min.js, ocr/tesseract-core-lstm.wasm.js, ocr/tesseract-core-simd-lstm.wasm.js
+
+- Tesseract English language data (tessdata_fast, eng.traineddata).
+  Licence: Apache License 2.0 — https://github.com/tesseract-ocr/tessdata_fast
+  File: ocr/eng.traineddata
+
 AI models (downloaded by the learner's browser only if they turn on Smart mode) come from
 the MLC-AI project on Hugging Face and keep their own licences:
 - Llama 3.2 1B and 3B Instruct ("Light" and "Best") — Llama 3.2 Community License (Meta)
