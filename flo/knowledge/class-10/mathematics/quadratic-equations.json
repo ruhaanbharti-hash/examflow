@@ -1,0 +1,316 @@
+{
+  "id": "c10-math-quadratic",
+  "class": 10,
+  "subject": "mathematics",
+  "name": "Quadratic Equations",
+  "summary": "A quadratic equation has the standard form ax² + bx + c = 0 with a ≠ 0, and a root is a value of x that satisfies it. Quadratic equations can be solved by factorisation (splitting the middle term) or by the quadratic formula x = [−b ± √(b² − 4ac)] / 2a. The discriminant D = b² − 4ac decides the nature of the roots: two distinct real roots if D > 0, two equal real roots if D = 0 and no real roots if D < 0. Many real-life problems on area, speed, numbers and ages lead to quadratic equations.",
+  "topics": [
+    {
+      "id": "quadratic-equation-basics",
+      "title": "Quadratic equations and their standard form",
+      "summary": "An equation that can be written as ax² + bx + c = 0 (a ≠ 0) is quadratic; simplify both sides first to check.",
+      "simple": "A quadratic equation is one where the highest power of x is 2, like x² − 5x + 6 = 0. To check whether an equation is quadratic, open the brackets, bring everything to one side and see if an x² term is left.",
+      "explain": "**Quadratic equation:** an equation of the form **ax² + bx + c = 0**, where a, b, c are real numbers and **a ≠ 0**. This is the **standard form**.\n\nIt comes from setting a quadratic polynomial equal to zero. Examples: x² − 5x + 6 = 0, 2x² + x − 528 = 0, x² − 7 = 0.\n\n**Checking whether an equation is quadratic** — expand, simplify and collect all terms on one side:\n\n1. (x + 1)² = 2(x − 3)\n   x² + 2x + 1 = 2x − 6 → **x² + 7 = 0** → quadratic ✓ (here b = 0)\n\n2. (x − 2)² + 1 = 2x − 3\n   x² − 4x + 4 + 1 = 2x − 3 → **x² − 6x + 8 = 0** → quadratic ✓\n\n3. x(x + 1) + 8 = (x + 2)(x − 2)\n   x² + x + 8 = x² − 4 → **x + 12 = 0** → the x² terms cancel, so it is **not** quadratic (it is linear).\n\nSo never decide just by looking — an x² on both sides may cancel.\n\n**Forming a quadratic equation from a situation:**\nThe area of a rectangular plot is 528 m². Its length is one metre more than twice its breadth. Let breadth = x m; then length = (2x + 1) m.\nArea: x(2x + 1) = 528 → **2x² + x − 528 = 0**.\n\n**Product of two consecutive positive integers is 306:** let them be x and x + 1. Then x(x + 1) = 306 → **x² + x − 306 = 0**.",
+      "example": "Check if x² − 3x + 1 = (x − 2)² is quadratic.\nRight side: x² − 4x + 4.\nSo x² − 3x + 1 = x² − 4x + 4 → x − 3 = 0.\nThe x² terms cancel, so it is NOT a quadratic equation.",
+      "keyPoints": [
+        "Standard form: ax² + bx + c = 0, a ≠ 0",
+        "b or c may be zero, but a cannot",
+        "Expand and simplify before deciding",
+        "x² terms on both sides may cancel",
+        "Word problems: choose x, write the condition as an equation",
+        "Rectangle area problem: x(2x + 1) = 528"
+      ],
+      "keywords": [
+        "quadratic equations",
+        "chapter 4",
+        "class 10 maths chapter 4",
+        "standard form",
+        "ax^2 + bx + c = 0",
+        "check whether quadratic",
+        "is it a quadratic equation",
+        "represent situation as quadratic",
+        "form quadratic equation",
+        "degree 2 equation"
+      ]
+    },
+    {
+      "id": "solving-by-factorisation",
+      "title": "Roots and solving by factorisation",
+      "summary": "A root α satisfies aα² + bα + c = 0; factorise into two linear factors by splitting the middle term and set each factor to zero.",
+      "simple": "A **root** is a value of x that makes the equation true. To find the roots, break the quadratic into two brackets. If two things multiply to give zero, one of them must be zero — so set each bracket to zero.",
+      "explain": "**Root:** a real number α is a root of ax² + bx + c = 0 if **aα² + bα + c = 0**. The roots of the equation are the same as the **zeroes** of the polynomial ax² + bx + c. A quadratic equation has **at most two roots**.\n\n**Method (splitting the middle term):**\n1. Write the equation in standard form.\n2. Find two numbers whose **product is a × c** and **sum is b**.\n3. Split bx using those numbers, group and factorise.\n4. Set each factor equal to 0.\n\n**Example 1:** 2x² − 5x + 3 = 0\n- a × c = 6; need sum −5 → −2 and −3\n- 2x² − 2x − 3x + 3 = 2x(x − 1) − 3(x − 1) = (2x − 3)(x − 1)\n- Roots: **x = 3/2** and **x = 1**\n\n**Example 2:** 6x² − x − 2 = 0\n- a × c = −12; need sum −1 → −4 and 3\n- 6x² − 4x + 3x − 2 = 2x(3x − 2) + 1(3x − 2) = (3x − 2)(2x + 1)\n- Roots: **x = 2/3** and **x = −1/2**\n\n**Example 3 (perfect square):** x² − 6x + 9 = 0 → (x − 3)² = 0 → **x = 3, 3** (two equal roots)\n\n**Back to the plot:** 2x² + x − 528 = 0\n- a × c = −1056; need sum 1 → 33 and −32 (33 × 32 = 1056 ✓)\n- 2x² + 33x − 32x − 528 = x(2x + 33) − 16(2x + 33) = (2x + 33)(x − 16)\n- x = 16 or x = −33/2. Breadth cannot be negative, so **breadth = 16 m**, length = 2(16) + 1 = **33 m**. Check: 16 × 33 = 528 ✓\n\nIn word problems, **reject** roots that don't make sense (negative lengths, ages, speeds).",
+      "example": "Solve x² − 3x − 10 = 0.\nNeed product −10 and sum −3: −5 and 2.\nx² − 5x + 2x − 10 = x(x − 5) + 2(x − 5) = (x − 5)(x + 2).\nRoots: x = 5 and x = −2.\nCheck: 25 − 15 − 10 = 0 ✓; 4 + 6 − 10 = 0 ✓",
+      "keyPoints": [
+        "Root α: aα² + bα + c = 0",
+        "Roots of the equation = zeroes of the polynomial",
+        "Split b into two numbers with product a × c",
+        "If (px + q)(rx + s) = 0, then px + q = 0 or rx + s = 0",
+        "A perfect square gives two equal roots",
+        "Reject roots that don't fit the situation"
+      ],
+      "keywords": [
+        "roots of quadratic equation",
+        "solve by factorisation",
+        "factorization method",
+        "splitting the middle term",
+        "check root",
+        "verify root",
+        "is x = 2 a root",
+        "equal roots",
+        "reject negative root",
+        "zeroes"
+      ]
+    },
+    {
+      "id": "quadratic-formula",
+      "title": "The quadratic formula",
+      "summary": "The roots of ax² + bx + c = 0 are x = [−b ± √(b² − 4ac)] / 2a, provided b² − 4ac ≥ 0.",
+      "simple": "Some quadratics are hard to factorise. The **quadratic formula** works for every quadratic: just read off a, b and c, put them into the formula and simplify. The ± sign gives you the two roots.",
+      "explain": "For ax² + bx + c = 0 (a ≠ 0), if **b² − 4ac ≥ 0**, the roots are:\n\n**x = [−b ± √(b² − 4ac)] / 2a**\n\nThis is sometimes called **Sridharacharya's formula**, after the Indian mathematician Sridharacharya, who gave a method for solving quadratics.\n\n**Steps:**\n1. Write in standard form and identify a, b, c (with signs).\n2. Work out b² − 4ac first.\n3. Substitute and simplify the + and − cases separately.\n\n**Example 1:** 2x² − 7x + 3 = 0 → a = 2, b = −7, c = 3\n- b² − 4ac = 49 − 24 = 25, √25 = 5\n- x = (7 ± 5)/4 → x = 12/4 = **3** or x = 2/4 = **1/2**\n- Check: 2(9) − 21 + 3 = 0 ✓\n\n**Example 2 (irrational roots):** x² − 2x − 1 = 0 → a = 1, b = −2, c = −1\n- b² − 4ac = 4 + 4 = 8, √8 = 2√2\n- x = (2 ± 2√2)/2 = **1 + √2** or **1 − √2**\n\n**Example 3:** x² + 4x − 5 = 0\n- b² − 4ac = 16 + 20 = 36\n- x = (−4 ± 6)/2 → **1** or **−5**\n\nIf b² − 4ac is **negative**, there is no real square root, so the equation has **no real roots**.\n\n(The method of completing the square, used to derive this formula, is not part of the rationalised syllabus — you only need to apply the formula.)",
+      "example": "A train covers 360 km at a uniform speed. Had the speed been 5 km/h more, it would have taken 1 hour less. Find the speed.\nLet speed = x km/h. 360/x − 360/(x + 5) = 1.\nMultiply by x(x + 5): 360(x + 5) − 360x = x(x + 5) → 1800 = x² + 5x → x² + 5x − 1800 = 0.\nb² − 4ac = 25 + 7200 = 7225 = 85².\nx = (−5 ± 85)/2 → 40 or −45. Speed = 40 km/h.\nCheck: 360/40 = 9 h and 360/45 = 8 h, 1 hour less ✓",
+      "keyPoints": [
+        "x = [−b ± √(b² − 4ac)] / 2a",
+        "Identify a, b, c with their signs",
+        "Calculate b² − 4ac first",
+        "+ and − give the two roots",
+        "Works even when factorising is hard",
+        "No real roots if b² − 4ac < 0"
+      ],
+      "keywords": [
+        "quadratic formula",
+        "sridharacharya formula",
+        "shridharacharya",
+        "-b ± √(b^2-4ac) / 2a",
+        "formula method",
+        "solve using formula",
+        "irrational roots",
+        "completing the square",
+        "roots formula",
+        "speed problem"
+      ]
+    },
+    {
+      "id": "nature-of-roots",
+      "title": "Discriminant and nature of roots",
+      "summary": "D = b² − 4ac: D > 0 gives two distinct real roots, D = 0 two equal real roots (−b/2a), and D < 0 no real roots.",
+      "simple": "The part under the square root, b² − 4ac, is called the **discriminant**. Without solving, it tells you what kind of roots to expect: positive → two different roots, zero → two equal roots, negative → no real roots.",
+      "explain": "**Discriminant:** **D = b² − 4ac** for ax² + bx + c = 0.\n\n**Nature of roots:**\n1. **D > 0** → two **distinct real** roots: (−b + √D)/2a and (−b − √D)/2a\n2. **D = 0** → two **equal real** roots, each equal to **−b/2a**\n3. **D < 0** → **no real** roots\n\n**Graph link:** D > 0 means the parabola y = ax² + bx + c cuts the x-axis twice; D = 0 means it just touches it; D < 0 means it doesn't meet it.\n\n**Examples:**\n- 2x² − 3x + 5 = 0: D = 9 − 40 = **−31 < 0** → no real roots\n- x² − 4x + 4 = 0: D = 16 − 16 = **0** → equal roots, x = 4/2 = 2\n- 2x² − 7x + 3 = 0: D = 49 − 24 = **25 > 0** → two distinct real roots\n- 3x² − 4√3x + 4 = 0: D = 48 − 48 = **0** → equal roots, x = 4√3/6 = **2/√3**\n\n**Finding k for equal roots:** kx(x − 2) + 6 = 0 → kx² − 2kx + 6 = 0\n- Equal roots → D = 0: (−2k)² − 4(k)(6) = 0 → 4k² − 24k = 0 → 4k(k − 6) = 0\n- k = 0 or k = 6. But k = 0 would make it not quadratic, so **k = 6**.\n\n**Another:** 2x² + kx + 3 = 0 has equal roots when k² − 24 = 0 → **k = ±2√6**.\n\n**Is it possible?** Can a rectangle have perimeter 80 m and area 400 m²? Let length = x, breadth = 40 − x: x(40 − x) = 400 → x² − 40x + 400 = 0, D = 1600 − 1600 = 0 → x = 20. Yes — it's a 20 m × 20 m square.",
+      "example": "Is it possible to design a rectangular park of perimeter 80 m and area 420 m²?\nLength x, breadth 40 − x: x(40 − x) = 420 → x² − 40x + 420 = 0.\nD = 1600 − 1680 = −80 < 0 → no real roots, so such a park is NOT possible.",
+      "keyPoints": [
+        "Discriminant D = b² − 4ac",
+        "D > 0: two distinct real roots",
+        "D = 0: two equal real roots, x = −b/2a",
+        "D < 0: no real roots",
+        "Equal roots condition: b² = 4ac",
+        "For 'is it possible?' questions, check the sign of D"
+      ],
+      "keywords": [
+        "discriminant",
+        "nature of roots",
+        "b^2 - 4ac",
+        "real and distinct roots",
+        "equal roots",
+        "no real roots",
+        "find k for equal roots",
+        "real roots condition",
+        "D > 0",
+        "is it possible"
+      ]
+    },
+    {
+      "id": "word-problems",
+      "title": "Word problems leading to quadratic equations",
+      "summary": "Problems on numbers, area, speed and ages are solved by forming a quadratic equation, solving it and rejecting roots that don't fit.",
+      "simple": "Read the problem, call the unknown x, write the condition as an equation, simplify it into ax² + bx + c = 0, solve it, and keep only the answers that make sense.",
+      "explain": "**Approach:**\n1. Let the unknown be x and write other quantities in terms of x.\n2. Form the equation from the condition.\n3. Rearrange into standard form.\n4. Solve by factorisation or the formula.\n5. Reject impossible values (negative length, age or speed; non-integers when integers are needed).\n6. Answer the actual question and check.\n\n**Numbers:** The product of two consecutive positive integers is 306.\n- x(x + 1) = 306 → x² + x − 306 = 0\n- Product −306, sum 1 → 18 and −17: (x + 18)(x − 17) = 0\n- x = 17 (positive). Integers: **17 and 18**. Check: 17 × 18 = 306 ✓\n\n**Ages:** Rohan's mother is 26 years older than him. The product of their ages 3 years from now will be 360. Find Rohan's present age.\n- Rohan = x, mother = x + 26. In 3 years: (x + 3)(x + 29) = 360\n- x² + 32x + 87 = 360 → x² + 32x − 273 = 0\n- Product −273, sum 32 → 39 and −7: (x + 39)(x − 7) = 0\n- **x = 7 years**. Check: (10)(36) = 360 ✓\n\n**Speed:** see the train example — 360/x − 360/(x + 5) = 1 gives x = 40 km/h.\n\n**Area:** a rectangle with breadth x and length 2x + 1 and area 528 m² gives x = 16 m, length 33 m.\n\n**Tip:** when the equation has fractions like 360/x, multiply through by the LCM of the denominators to clear them before rearranging.",
+      "example": "A right-angled triangle has a base 7 cm longer than its height, and its area is 30 cm². Find the base.\nHeight = x, base = x + 7. ½ × x(x + 7) = 30 → x² + 7x − 60 = 0 → (x + 12)(x − 5) = 0.\nx = 5 (positive). Height 5 cm, base 12 cm. Check: ½ × 5 × 12 = 30 ✓",
+      "keyPoints": [
+        "Write all quantities in terms of one variable",
+        "Bring the equation to standard form",
+        "Clear fractions by multiplying by the LCM of denominators",
+        "Reject negative lengths, ages and speeds",
+        "Consecutive integers: x and x + 1",
+        "Answer exactly what is asked, and check"
+      ],
+      "keywords": [
+        "word problems quadratic",
+        "consecutive integers product",
+        "age problems quadratic",
+        "speed time distance quadratic",
+        "train problem",
+        "rectangle area quadratic",
+        "application of quadratic equations",
+        "Rohan mother age",
+        "reject negative root"
+      ]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "Quadratic equation", "meaning": "An equation that can be written as ax² + bx + c = 0 with a ≠ 0." },
+    { "term": "Standard form", "meaning": "ax² + bx + c = 0, with all terms on one side in decreasing powers of x." },
+    { "term": "Root", "meaning": "A value α for which aα² + bα + c = 0; the roots are the zeroes of the quadratic polynomial." },
+    { "term": "Factorisation method", "meaning": "Writing the quadratic as a product of two linear factors and setting each to zero." },
+    { "term": "Splitting the middle term", "meaning": "Breaking bx into two terms whose coefficients multiply to a × c and add to b." },
+    { "term": "Quadratic formula", "meaning": "x = [−b ± √(b² − 4ac)] / 2a, valid when b² − 4ac ≥ 0." },
+    { "term": "Discriminant", "meaning": "D = b² − 4ac; it decides the nature of the roots." },
+    { "term": "Distinct real roots", "meaning": "Two different real roots, occurring when D > 0." },
+    { "term": "Equal roots", "meaning": "Two identical real roots, each −b/2a, occurring when D = 0." },
+    { "term": "No real roots", "meaning": "The case D < 0, when the parabola does not meet the x-axis." }
+  ],
+  "formulas": [
+    "Standard form: ax² + bx + c = 0, a ≠ 0",
+    "Quadratic formula: x = [−b ± √(b² − 4ac)] / 2a",
+    "Discriminant: D = b² − 4ac",
+    "D > 0 → two distinct real roots; D = 0 → two equal real roots; D < 0 → no real roots",
+    "Equal roots: x = −b/2a (each)",
+    "Splitting the middle term: find p, q with p + q = b and pq = ac"
+  ],
+  "commonMistakes": [
+    "Deciding an equation is quadratic before simplifying — x² terms on both sides can cancel.",
+    "Forgetting the condition a ≠ 0 when finding k (e.g. accepting k = 0 for equal roots).",
+    "Using the wrong sign of b in the formula: for 2x² − 7x + 3, −b = +7.",
+    "Dividing only √(b² − 4ac) by 2a instead of the whole numerator −b ± √D.",
+    "Writing D = b² + 4ac or forgetting to square b when b is negative.",
+    "Keeping negative roots for lengths, ages or speeds in word problems.",
+    "Cancelling x from both sides of an equation like x² = 3x, which loses the root x = 0."
+  ],
+  "revision": [
+    "Quadratic equation: ax² + bx + c = 0, a ≠ 0.",
+    "A root α satisfies aα² + bα + c = 0; at most two roots.",
+    "Factorisation: split the middle term using product ac and sum b.",
+    "2x² − 5x + 3 = 0 → (2x − 3)(x − 1) = 0 → x = 3/2, 1.",
+    "Quadratic formula: x = [−b ± √(b² − 4ac)] / 2a.",
+    "Discriminant D = b² − 4ac.",
+    "D > 0: two distinct real roots; D = 0: equal roots −b/2a; D < 0: no real roots.",
+    "Equal roots ↔ b² = 4ac.",
+    "kx² − 2kx + 6 = 0 has equal roots when k = 6.",
+    "Consecutive integers with product 306 are 17 and 18.",
+    "Reject roots that don't make sense in word problems.",
+    "Completing the square is not in the rationalised syllabus; factorisation and the formula are."
+  ],
+  "faqs": [
+    {
+      "q": "Is completing the square still in the Class 10 syllabus?",
+      "a": "No. The rationalised NCERT book removed solving quadratic equations by completing the square. You need to solve by **factorisation** and by the **quadratic formula**, and to find the **nature of roots** using the discriminant.",
+      "keywords": ["completing the square", "deleted topics quadratic", "removed syllabus quadratic", "derivation of formula"]
+    },
+    {
+      "q": "When should I use factorisation and when the quadratic formula?",
+      "a": "Try factorisation first if you can quickly find two numbers with product ac and sum b. If you can't (for example the roots are irrational, like 1 ± √2), use the formula — it always works when D ≥ 0.",
+      "keywords": ["factorisation or formula", "which method quadratic", "best method"]
+    },
+    {
+      "q": "What does 'two equal roots' mean? Isn't that just one root?",
+      "a": "When D = 0, both roots from the formula are −b/2a, so we say the equation has two equal (repeated) roots. For example x² − 6x + 9 = (x − 3)² = 0 has roots 3 and 3. On a graph, the parabola just touches the x-axis at one point.",
+      "keywords": ["equal roots meaning", "repeated roots", "D = 0 meaning"]
+    },
+    {
+      "q": "Why do we reject one of the roots in word problems?",
+      "a": "The equation is only a model. Both roots satisfy the equation, but a length, age, speed or number of people can't be negative, so values like −45 km/h or −33/2 m are rejected.",
+      "keywords": ["reject root", "negative root word problem", "why ignore negative value"]
+    },
+    {
+      "q": "Can I divide both sides of x² = 3x by x?",
+      "a": "No — that loses a root. Rearrange instead: x² − 3x = 0 → x(x − 3) = 0 → x = 0 or x = 3. Dividing by x would give only x = 3.",
+      "keywords": ["divide by x", "lost root", "x^2 = 3x"]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Which of these is a quadratic equation?",
+      "options": ["(x + 1)² = 2(x − 3)", "x(x + 1) + 8 = (x + 2)(x − 2)", "x² + 3/x = 2", "2x + 5 = 0"],
+      "answer": 0,
+      "explain": "(x + 1)² = 2(x − 3) simplifies to x² + 7 = 0, which is quadratic. The second simplifies to x + 12 = 0 (linear); x² + 3/x has a 1/x term; 2x + 5 = 0 is linear.",
+      "topic": "quadratic-equation-basics",
+      "level": "medium"
+    },
+    {
+      "q": "Which value is a root of 2x² − x − 6 = 0?",
+      "options": ["−2", "3", "2", "1"],
+      "answer": 2,
+      "explain": "2(2)² − 2 − 6 = 8 − 2 − 6 = 0, so x = 2 is a root. (The other root is −3/2.)",
+      "topic": "solving-by-factorisation",
+      "level": "easy"
+    },
+    {
+      "q": "What are the roots of 2x² − 5x + 3 = 0?",
+      "options": ["−1 and −3/2", "1 and 3", "1 and 3/2", "−1 and 3/2"],
+      "answer": 2,
+      "explain": "2x² − 2x − 3x + 3 = (2x − 3)(x − 1) = 0, so x = 3/2 or x = 1.",
+      "topic": "solving-by-factorisation",
+      "level": "easy"
+    },
+    {
+      "q": "What are the roots of x² − 3x − 10 = 0?",
+      "options": ["5 and −2", "−5 and 2", "10 and −1", "5 and 2"],
+      "answer": 0,
+      "explain": "(x − 5)(x + 2) = 0 → x = 5 or x = −2. Check: 25 − 15 − 10 = 0 ✓",
+      "topic": "solving-by-factorisation",
+      "level": "easy"
+    },
+    {
+      "q": "Using the quadratic formula, what are the roots of x² − 2x − 1 = 0?",
+      "options": ["1 ± √2", "−1 ± √2", "2 ± √2", "1 ± 2√2"],
+      "answer": 0,
+      "explain": "D = (−2)² − 4(1)(−1) = 8, √8 = 2√2. x = (2 ± 2√2)/2 = 1 ± √2.",
+      "topic": "quadratic-formula",
+      "level": "medium"
+    },
+    {
+      "q": "A train covers 360 km at a uniform speed. If its speed were 5 km/h more, it would take 1 hour less. What is its speed?",
+      "options": ["45 km/h", "36 km/h", "60 km/h", "40 km/h"],
+      "answer": 3,
+      "explain": "360/x − 360/(x + 5) = 1 → x² + 5x − 1800 = 0 → (x + 45)(x − 40) = 0 → x = 40 km/h. Check: 9 h vs 8 h ✓",
+      "topic": "quadratic-formula",
+      "level": "hard"
+    },
+    {
+      "q": "What is the discriminant of 2x² − 4x + 3 = 0?",
+      "options": ["40", "−8", "8", "−40"],
+      "answer": 1,
+      "explain": "D = b² − 4ac = 16 − 4(2)(3) = 16 − 24 = −8.",
+      "topic": "nature-of-roots",
+      "level": "easy"
+    },
+    {
+      "q": "What is the nature of the roots of x² − 4x + 4 = 0?",
+      "options": ["Two distinct real roots", "No real roots", "Two equal real roots", "Cannot be decided"],
+      "answer": 2,
+      "explain": "D = 16 − 16 = 0, so the roots are real and equal (both x = 2).",
+      "topic": "nature-of-roots",
+      "level": "easy"
+    },
+    {
+      "q": "For what value of k does kx² − 2kx + 6 = 0 have two equal roots?",
+      "options": ["0", "6", "3", "−6"],
+      "answer": 1,
+      "explain": "D = 4k² − 24k = 4k(k − 6) = 0 → k = 0 or 6. k = 0 makes it non-quadratic, so k = 6.",
+      "topic": "nature-of-roots",
+      "level": "hard"
+    },
+    {
+      "q": "Is a rectangular park with perimeter 80 m and area 420 m² possible?",
+      "options": ["Yes, 20 m × 21 m", "Yes, 14 m × 30 m", "Yes, a 20 m square", "No, D < 0"],
+      "answer": 3,
+      "explain": "x(40 − x) = 420 → x² − 40x + 420 = 0, D = 1600 − 1680 = −80 < 0, so no real dimensions exist.",
+      "topic": "nature-of-roots",
+      "level": "hard"
+    },
+    {
+      "q": "The product of two consecutive positive integers is 306. What are they?",
+      "options": ["16 and 17", "18 and 19", "15 and 16", "17 and 18"],
+      "answer": 3,
+      "explain": "x² + x − 306 = 0 → (x + 18)(x − 17) = 0 → x = 17. Integers 17 and 18 (17 × 18 = 306 ✓).",
+      "topic": "word-problems",
+      "level": "medium"
+    },
+    {
+      "q": "A rectangle's length is 1 m more than twice its breadth and its area is 528 m². What is the breadth?",
+      "options": ["12 m", "16 m", "22 m", "33 m"],
+      "answer": 1,
+      "explain": "x(2x + 1) = 528 → 2x² + x − 528 = 0 → (2x + 33)(x − 16) = 0 → x = 16 m (length 33 m, 16 × 33 = 528 ✓).",
+      "topic": "word-problems",
+      "level": "medium"
+    }
+  ]
+}

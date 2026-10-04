@@ -1,0 +1,134 @@
+{
+  "id": "c10-math-statistics",
+  "class": 10,
+  "subject": "mathematics",
+  "name": "Statistics",
+  "summary": "This chapter finds the three measures of central tendency — mean, median and mode — for grouped data (data arranged in class intervals). The mean is found by the direct method and the assumed mean method, the mode using the modal class formula, and the median using cumulative frequencies and the median class formula. It also discusses which measure suits which situation.",
+  "topics": [
+    {
+      "id": "grouped-data-basics",
+      "title": "Grouped data, class marks and cumulative frequency",
+      "summary": "Grouped data is arranged in class intervals with frequencies; each class is represented by its class mark (mid-point), and cumulative frequency is a running total of frequencies.",
+      "simple": "When there is a lot of data, we put it into groups like 0–10, 10–20 and so on, and count how many values fall in each group (the **frequency**). The middle of a group is its **class mark**. Adding the frequencies one after another gives the **cumulative frequency**.",
+      "explain": "**Class interval:** a group such as 10–20. Here 10 is the **lower limit** and 20 the **upper limit**. In continuous classes like 0–10, 10–20, a value equal to 10 is counted in 10–20 (the upper limit is excluded from a class).\n\n**Class size (h):** upper limit − lower limit. For 10–20, h = 10. In this chapter, classes usually have equal size.\n\n**Frequency (fᵢ):** how many observations lie in a class. Σfᵢ = n, the total number of observations.\n\n**Class mark (xᵢ):** the mid-point of a class, used to represent all values in that class:\n**xᵢ = (lower limit + upper limit) ÷ 2**\nWe **assume** the observations in each class are centred around the class mark. That's why the mean of grouped data is an approximation.\n\n**Cumulative frequency (cf):** the frequency of a class added to the frequencies of all the classes before it ('less than' type). The last cf equals n. It is needed for the median.\n\n**Example table (marks of 50 students):**\n- 0–10: f = 5, x = 5, cf = 5\n- 10–20: f = 8, x = 15, cf = 13\n- 20–30: f = 10, x = 25, cf = 23\n- 30–40: f = 15, x = 35, cf = 38\n- 40–50: f = 12, x = 45, cf = 50\n\nThis same data is used in the next topics.",
+      "example": "For the class 20–30: class mark = (20 + 30) ÷ 2 = 25, class size = 30 − 20 = 10. If frequencies of 0–10, 10–20, 20–30 are 5, 8, 10, the cumulative frequency of 20–30 is 5 + 8 + 10 = 23.",
+      "keyPoints": ["Class mark xᵢ = (lower limit + upper limit)/2", "Class size h = upper limit − lower limit", "Σfᵢ = n, the total number of observations", "Cumulative frequency = running total of frequencies", "The last cumulative frequency equals n", "Grouped mean assumes values are centred at class marks"],
+      "keywords": ["grouped data", "class interval", "class mark", "mid point", "class size", "frequency", "cumulative frequency", "cf", "frequency distribution table", "chapter 13", "ch 13 maths", "statistics class 10", "central tendency"]
+    },
+    {
+      "id": "mean-direct-method",
+      "title": "Mean of grouped data: direct method",
+      "summary": "Multiply each class mark by its frequency, add the products, and divide by the total frequency: x̄ = Σfᵢxᵢ / Σfᵢ.",
+      "simple": "To find the average of grouped data, pretend every value in a class equals its class mark. Multiply each class mark by how many values are in the class, add these up, and divide by the total number of values.",
+      "explain": "**Formula:**\n**x̄ = Σfᵢxᵢ / Σfᵢ**\n\nwhere xᵢ are the class marks and fᵢ the frequencies.\n\n**Steps:**\n1. Find the class mark xᵢ of each class.\n2. Multiply to get fᵢxᵢ for each class.\n3. Add the frequencies (Σfᵢ) and the products (Σfᵢxᵢ).\n4. Divide: x̄ = Σfᵢxᵢ / Σfᵢ.\n\n**When to use:** when the class marks and frequencies are small numbers, so the products are easy to compute.\n\n**Finding a missing frequency:** if the mean is given and one frequency is unknown (say p), write Σfᵢxᵢ and Σfᵢ in terms of p, set their ratio equal to the given mean, and solve the linear equation.\n\n**Note:** the result is an approximate mean, because we replaced every value in a class by its class mark.",
+      "example": "Using the marks data (classes 0–10 to 40–50 with frequencies 5, 8, 10, 15, 12):\n1. Class marks: 5, 15, 25, 35, 45\n2. fᵢxᵢ: 5×5 = 25, 8×15 = 120, 10×25 = 250, 15×35 = 525, 12×45 = 540\n3. Σfᵢ = 50, Σfᵢxᵢ = 25 + 120 + 250 + 525 + 540 = 1460\n4. x̄ = 1460 ÷ 50 = **29.2 marks**\n\nMissing frequency: classes 0–10, 10–20, 20–30 have frequencies 4, p, 6 and mean 16. Then (20 + 15p + 150)/(10 + p) = 16 → 170 + 15p = 160 + 16p → **p = 10**.",
+      "keyPoints": ["x̄ = Σfᵢxᵢ / Σfᵢ", "xᵢ is the class mark of each class", "Make a table with columns fᵢ, xᵢ, fᵢxᵢ", "Mean of grouped data is approximate", "Missing frequency: form an equation using the given mean"],
+      "keywords": ["mean of grouped data", "direct method", "mean formula", "σfx/σf", "average grouped data", "find mean", "missing frequency", "find p if mean is"]
+    },
+    {
+      "id": "mean-assumed-mean-method",
+      "title": "Mean of grouped data: assumed mean method",
+      "summary": "Choose an assumed mean a (usually a central class mark), find deviations dᵢ = xᵢ − a, and use x̄ = a + Σfᵢdᵢ / Σfᵢ.",
+      "simple": "When the numbers are big, multiplying is tiring. So guess a mean 'a' from the middle, find how far each class mark is from it, and correct the guess using the average of these differences.",
+      "explain": "**Formula:**\n**x̄ = a + Σfᵢdᵢ / Σfᵢ**, where **dᵢ = xᵢ − a**\n\n**Choosing a:** pick one of the class marks near the **middle** of the table (often the one with a large frequency). Then the deviations are small numbers, some negative and some positive, and the class with xᵢ = a has dᵢ = 0.\n\n**Steps:**\n1. Find the class marks xᵢ.\n2. Choose a and write dᵢ = xᵢ − a.\n3. Find fᵢdᵢ for each class (keep the signs).\n4. Find Σfᵢ and Σfᵢdᵢ.\n5. x̄ = a + Σfᵢdᵢ / Σfᵢ.\n\n**Why it works:** the mean of the deviations, Σfᵢdᵢ/Σfᵢ, tells how far the true mean is from your guess a.\n\n**Result:** the direct method and the assumed mean method always give the **same** mean; the second just has easier arithmetic.\n\n**Syllabus note:** for the current syllabus, the mean is found by the direct method and the assumed mean method.",
+      "example": "Same marks data, taking a = 25:\n1. dᵢ = xᵢ − 25: −20, −10, 0, 10, 20\n2. fᵢdᵢ: 5×(−20) = −100, 8×(−10) = −80, 10×0 = 0, 15×10 = 150, 12×20 = 240\n3. Σfᵢdᵢ = −100 − 80 + 0 + 150 + 240 = 210\n4. x̄ = 25 + 210/50 = 25 + 4.2 = **29.2 marks**\n\nThis matches the direct method's answer.",
+      "keyPoints": ["x̄ = a + Σfᵢdᵢ / Σfᵢ", "dᵢ = xᵢ − a", "Choose a as a central class mark", "Keep track of negative signs in fᵢdᵢ", "Gives the same answer as the direct method"],
+      "keywords": ["assumed mean method", "assumed mean", "deviation method", "di = xi - a", "short cut method mean", "mean by assumed mean", "a + σfd/σf"]
+    },
+    {
+      "id": "mode-of-grouped-data",
+      "title": "Mode of grouped data",
+      "summary": "The modal class is the class with the highest frequency; the mode is found using Mode = l + [(f₁ − f₀)/(2f₁ − f₀ − f₂)] × h.",
+      "simple": "The **mode** is the most common value. In grouped data, first find the class with the biggest frequency — the **modal class**. Then use a formula to find the mode inside that class.",
+      "explain": "**Step 1: find the modal class** — the class interval with the **maximum frequency**.\n\n**Step 2: apply the formula:**\n**Mode = l + [(f₁ − f₀) / (2f₁ − f₀ − f₂)] × h**\n\nwhere\n- l = lower limit of the modal class\n- h = class size\n- f₁ = frequency of the modal class\n- f₀ = frequency of the class **before** the modal class\n- f₂ = frequency of the class **after** the modal class\n\n**Notes:**\n- If the modal class is the first class, take f₀ = 0; if it is the last class, take f₂ = 0.\n- The mode always lies inside the modal class.\n- Problems avoid data with two classes having the same highest frequency (bimodal data).\n\n**Meaning:** the mode tells which value is most common, e.g. the most popular shoe size or the most frequent number of family members.",
+      "example": "Marks data: frequencies 5, 8, 10, 15, 12.\n1. Highest frequency 15 → modal class **30–40**.\n2. l = 30, h = 10, f₁ = 15, f₀ = 10, f₂ = 12\n3. Mode = 30 + [(15 − 10)/(2×15 − 10 − 12)] × 10\n4. = 30 + (5/8) × 10 = 30 + 6.25 = **36.25 marks**",
+      "keyPoints": ["Modal class = class with the highest frequency", "Mode = l + [(f₁ − f₀)/(2f₁ − f₀ − f₂)] × h", "f₀ is the class before, f₂ the class after", "The mode lies within the modal class", "Bimodal data is avoided in problems"],
+      "keywords": ["mode of grouped data", "modal class", "mode formula", "f1 f0 f2", "most frequent", "find mode", "l + (f1-f0)/(2f1-f0-f2)"]
+    },
+    {
+      "id": "median-of-grouped-data",
+      "title": "Median of grouped data",
+      "summary": "Find n/2, locate the median class using cumulative frequencies, then use Median = l + [(n/2 − cf)/f] × h.",
+      "simple": "The **median** is the middle value when data is arranged in order. For grouped data, find the class where the middle value (the n/2-th value) falls using cumulative frequency — the **median class** — then use a formula.",
+      "explain": "**Steps:**\n1. Make a cumulative frequency column.\n2. Find **n/2**, where n = Σfᵢ.\n3. The **median class** is the class whose cumulative frequency is **greater than and nearest to n/2**.\n4. Apply the formula:\n\n**Median = l + [(n/2 − cf) / f] × h**\n\nwhere\n- l = lower limit of the median class\n- n = total frequency\n- cf = cumulative frequency of the class **before** the median class\n- f = frequency of the median class\n- h = class size\n\n**Common traps:**\n- cf is the cumulative frequency of the class **preceding** the median class, not of the median class itself.\n- Use n/2 for grouped data (whether n is odd or even).\n- If classes are given like 'less than 10, less than 20…' or as 10–19, 20–29, first convert them into continuous class intervals.\n\n**Meaning:** half the observations are below the median and half above it.",
+      "example": "Marks data: cumulative frequencies 5, 13, 23, 38, 50; n = 50.\n1. n/2 = 25\n2. The first cf greater than 25 is 38, so the median class is **30–40**.\n3. l = 30, cf = 23 (of class 20–30), f = 15, h = 10\n4. Median = 30 + [(25 − 23)/15] × 10 = 30 + 20/15 = 30 + 1.33 ≈ **31.33 marks**",
+      "keyPoints": ["Find n/2 first", "Median class: cf greater than and nearest to n/2", "Median = l + [(n/2 − cf)/f] × h", "cf is of the class before the median class", "f is the frequency of the median class", "Half the data lies on each side of the median"],
+      "keywords": ["median of grouped data", "median class", "median formula", "n/2", "cumulative frequency median", "find median", "l + (n/2 - cf)/f × h"]
+    },
+    {
+      "id": "choosing-a-measure",
+      "title": "Choosing between mean, median and mode",
+      "summary": "Mean uses all values but is affected by extreme values; median is better for skewed data with extremes; mode shows the most common value.",
+      "simple": "Each average is useful in different situations. The **mean** uses every value. The **median** is better when a few values are very big or very small. The **mode** tells you the most popular value.",
+      "explain": "**Mean:**\n- Uses every observation, so it is the most common average for comparing groups (e.g. average marks of two sections).\n- Can be pulled up or down by **extreme values** (outliers).\n\n**Median:**\n- The middle value; not affected much by extreme values.\n- Best when data has a few very large or very small values, e.g. **salaries** in a company, **house prices**, or incomes.\n\n**Mode:**\n- The most frequent value.\n- Useful for 'most popular' questions: the most sold shoe size, the most common number of TV watching hours, the busiest time of a shop.\n- Can be used even when data is not numerical (e.g. most common colour), though in this chapter it is for numerical grouped data.\n\n**Remember:** for grouped data, all three are estimates based on the class intervals.",
+      "example": "In a small office, monthly salaries are ₹20,000, ₹22,000, ₹24,000, ₹25,000 and ₹2,00,000 (the owner). The mean is ₹2,91,000 ÷ 5 = ₹58,200, which is higher than what 4 of the 5 people earn. The median, ₹24,000, gives a better picture of a typical salary.",
+      "keyPoints": ["Mean uses all values but is affected by extremes", "Median is better for data with extreme values", "Mode is the most frequent value", "Use the mode for 'most popular' questions", "Grouped data measures are estimates"],
+      "keywords": ["which average to use", "mean vs median", "mean median mode difference", "extreme values", "outliers", "best measure of central tendency", "when to use median"]
+    }
+  ],
+  "keyConcepts": [
+    {"term": "Grouped data", "meaning": "Data arranged into class intervals with the frequency of each class."},
+    {"term": "Class mark", "meaning": "The mid-point of a class interval: (lower limit + upper limit) ÷ 2."},
+    {"term": "Class size", "meaning": "The width of a class interval: upper limit − lower limit."},
+    {"term": "Frequency", "meaning": "The number of observations in a class."},
+    {"term": "Cumulative frequency", "meaning": "The sum of the frequencies of a class and all classes before it."},
+    {"term": "Mean", "meaning": "The sum of all observations divided by their number; for grouped data, Σfᵢxᵢ / Σfᵢ."},
+    {"term": "Assumed mean", "meaning": "A convenient value a (a central class mark) used to simplify calculating the mean."},
+    {"term": "Deviation (dᵢ)", "meaning": "The difference between a class mark and the assumed mean: dᵢ = xᵢ − a."},
+    {"term": "Modal class", "meaning": "The class interval with the highest frequency."},
+    {"term": "Mode", "meaning": "The value that occurs most often."},
+    {"term": "Median class", "meaning": "The class whose cumulative frequency is greater than and nearest to n/2."},
+    {"term": "Median", "meaning": "The middle value of the data when arranged in order."}
+  ],
+  "formulas": [
+    "Class mark xᵢ = (lower limit + upper limit) ÷ 2",
+    "Mean (direct method): x̄ = Σfᵢxᵢ / Σfᵢ",
+    "Mean (assumed mean method): x̄ = a + Σfᵢdᵢ / Σfᵢ, where dᵢ = xᵢ − a",
+    "Mode = l + [(f₁ − f₀) / (2f₁ − f₀ − f₂)] × h (l lower limit of modal class, f₁ its frequency, f₀ frequency of class before, f₂ frequency of class after, h class size)",
+    "Median = l + [(n/2 − cf) / f] × h (l lower limit of median class, n total frequency, cf cumulative frequency of class before, f frequency of median class, h class size)"
+  ],
+  "commonMistakes": [
+    "Using the lower or upper limit instead of the class mark in the mean formula.",
+    "Dropping the negative signs of dᵢ in the assumed mean method.",
+    "In the mode formula, taking f₀ and f₂ from the wrong classes — they are the classes just before and after the modal class.",
+    "Writing 2f₁ − f₀ + f₂ instead of 2f₁ − f₀ − f₂ in the denominator.",
+    "Using the cumulative frequency of the median class itself as cf — it should be of the class before.",
+    "Choosing the class with the highest frequency as the median class — the median class comes from n/2 and cumulative frequency.",
+    "Forgetting to convert inclusive classes (10–19, 20–29) or 'less than' tables into continuous classes before using the formulas."
+  ],
+  "revision": [
+    "Class mark = (lower limit + upper limit) ÷ 2.",
+    "Direct method: x̄ = Σfᵢxᵢ / Σfᵢ.",
+    "Assumed mean method: x̄ = a + Σfᵢdᵢ / Σfᵢ with dᵢ = xᵢ − a.",
+    "Both mean methods give the same answer.",
+    "Modal class = class with the highest frequency.",
+    "Mode = l + [(f₁ − f₀)/(2f₁ − f₀ − f₂)] × h.",
+    "Median class = class whose cf is greater than and nearest to n/2.",
+    "Median = l + [(n/2 − cf)/f] × h.",
+    "In the median formula, cf belongs to the class before the median class.",
+    "The last cumulative frequency equals n.",
+    "Median is preferred when the data has extreme values.",
+    "Mean of grouped data is approximate because values are assumed to be at class marks."
+  ],
+  "faqs": [
+    {"q": "What is the difference between mean, median and mode?", "a": "The **mean** is the average (sum ÷ number). The **median** is the middle value when data is in order. The **mode** is the value that occurs most often. For grouped data each has its own formula: Σfᵢxᵢ/Σfᵢ for the mean, l + [(n/2 − cf)/f] × h for the median and l + [(f₁ − f₀)/(2f₁ − f₀ − f₂)] × h for the mode.", "keywords": ["mean median mode difference", "difference between mean median mode", "central tendency measures"]},
+    {"q": "How do I choose the assumed mean?", "a": "Pick a class mark near the middle of the table, preferably one with a high frequency. This keeps the deviations dᵢ small and makes the arithmetic easy. Any value of a gives the same final mean.", "keywords": ["how to choose assumed mean", "which a to take", "assumed mean choice"]},
+    {"q": "How do I identify the median class?", "a": "Find n/2. Look down the cumulative frequency column and pick the first class whose cumulative frequency is **greater than** n/2. That is the median class — it is not necessarily the class with the highest frequency.", "keywords": ["median class", "how to find median class", "identify median class"]},
+    {"q": "Are the step-deviation method and ogives (cumulative frequency graphs) in the syllabus?", "a": "For the current rationalised syllabus, the mean is found by the direct method and the assumed mean method; the step-deviation method is not required. The section on graphical representation of cumulative frequency distribution (ogives) was also removed from the textbook. Check with your teacher if your school still uses them.", "keywords": ["step deviation", "ogive", "cumulative frequency graph", "deleted topics statistics", "removed from syllabus", "less than ogive"]},
+    {"q": "What if the modal class is the first or last class?", "a": "If the modal class is the first class, there is no class before it, so take f₀ = 0. If it is the last class, take f₂ = 0. Then use the mode formula as usual.", "keywords": ["modal class first", "modal class last", "f0 = 0", "f2 = 0"]}
+  ],
+  "quiz": [
+    {"q": "The class mark of the class 10–20 is:", "options": ["10", "15", "20", "30"], "answer": 1, "explain": "Class mark = (10 + 20) ÷ 2 = 15.", "topic": "grouped-data-basics", "level": "easy"},
+    {"q": "The mean of grouped data by the direct method is:", "options": ["Σfᵢ / Σxᵢ", "Σxᵢ / n", "Σfᵢxᵢ / Σfᵢ", "Σfᵢdᵢ"], "answer": 2, "explain": "x̄ = Σfᵢxᵢ / Σfᵢ, where xᵢ are class marks.", "topic": "mean-direct-method", "level": "easy"},
+    {"q": "If Σfᵢxᵢ = 1460 and Σfᵢ = 50, the mean is:", "options": ["29.2", "30", "73", "14.6"], "answer": 0, "explain": "x̄ = 1460 ÷ 50 = 29.2.", "topic": "mean-direct-method", "level": "easy"},
+    {"q": "In the assumed mean method, the deviation dᵢ equals:", "options": ["xᵢ + a", "a ÷ xᵢ", "fᵢ − a", "xᵢ − a"], "answer": 3, "explain": "dᵢ is the class mark minus the assumed mean: dᵢ = xᵢ − a.", "topic": "mean-assumed-mean-method", "level": "easy"},
+    {"q": "With assumed mean a = 25, Σfᵢdᵢ = 210 and Σfᵢ = 50, the mean is:", "options": ["4.2", "25", "29.2", "20.8"], "answer": 2, "explain": "x̄ = 25 + 210/50 = 25 + 4.2 = 29.2.", "topic": "mean-assumed-mean-method", "level": "medium"},
+    {"q": "The modal class of a grouped frequency distribution is the class with the:", "options": ["Highest frequency", "Highest cumulative frequency", "Middle position", "Largest class mark"], "answer": 0, "explain": "The modal class has the maximum frequency.", "topic": "mode-of-grouped-data", "level": "easy"},
+    {"q": "For a modal class 30–40 with f₁ = 15, f₀ = 10, f₂ = 12, the mode is:", "options": ["31.33", "35", "38.75", "36.25"], "answer": 3, "explain": "Mode = 30 + [(15 − 10)/(30 − 10 − 12)] × 10 = 30 + (5/8) × 10 = 36.25.", "topic": "mode-of-grouped-data", "level": "medium"},
+    {"q": "The median class is found using:", "options": ["Frequencies only", "Cumulative frequencies", "Class marks", "The values of fᵢdᵢ"], "answer": 1, "explain": "The median class is the class whose cumulative frequency is greater than and nearest to n/2.", "topic": "median-of-grouped-data", "level": "easy"},
+    {"q": "For a median class 30–40 with n = 50, cf (of the previous class) = 23 and f = 15, the median is about:", "options": ["31.33", "33.33", "36.25", "29.2"], "answer": 0, "explain": "Median = 30 + [(25 − 23)/15] × 10 = 30 + 1.33 ≈ 31.33.", "topic": "median-of-grouped-data", "level": "medium"},
+    {"q": "Which measure best represents typical salaries in a company where a few people earn very high amounts?", "options": ["Mean", "Mode", "Range", "Median"], "answer": 3, "explain": "The median is not much affected by extreme values, while the mean gets pulled up by them.", "topic": "choosing-a-measure", "level": "medium"},
+    {"q": "The frequencies of classes 0–10, 10–20 and 20–30 are 5, 8 and 10. The cumulative frequency of 20–30 is:", "options": ["10", "23", "13", "18"], "answer": 1, "explain": "cf = 5 + 8 + 10 = 23.", "topic": "grouped-data-basics", "level": "easy"},
+    {"q": "Classes 0–10, 10–20 and 20–30 have frequencies 4, p and 6. If the mean is 16, then p is:", "options": ["6", "8", "10", "12"], "answer": 2, "explain": "(4×5 + 15p + 6×25)/(10 + p) = 16 → 170 + 15p = 160 + 16p → p = 10.", "topic": "mean-direct-method", "level": "hard"}
+  ]
+}

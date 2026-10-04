@@ -1,0 +1,317 @@
+{
+  "id": "c10-math-polynomials",
+  "class": 10,
+  "subject": "mathematics",
+  "name": "Polynomials",
+  "summary": "A polynomial's degree tells us its type: linear (1), quadratic (2) or cubic (3). A zero of p(x) is a value of x that makes p(x) = 0, and on a graph the zeroes are the x-coordinates where y = p(x) meets the x-axis. A quadratic has at most 2 zeroes and a cubic at most 3. For a quadratic ax² + bx + c, the sum of zeroes is −b/a and the product is c/a, which also lets us build a quadratic when its zeroes (or their sum and product) are known.",
+  "topics": [
+    {
+      "id": "polynomials-and-degree",
+      "title": "Polynomials, degree, value and zeroes",
+      "summary": "A polynomial's degree is its highest power; linear, quadratic and cubic polynomials have degrees 1, 2 and 3; p(k) is the value at x = k and k is a zero if p(k) = 0.",
+      "simple": "A polynomial is an expression like 3x² − 5x + 2, where x has only whole-number powers. The biggest power is the **degree**. If putting a number in place of x gives 0, that number is a **zero** of the polynomial.",
+      "explain": "**Polynomial in x:** an expression whose terms are numbers times whole-number powers of x, e.g. 4x³ − 2x + 1. Expressions like 1/x or √x + 3 are **not** polynomials.\n\n**Degree:** the highest power of x.\n- **Linear** polynomial: degree 1, general form **ax + b** (a ≠ 0), e.g. 2x − 3\n- **Quadratic** polynomial: degree 2, general form **ax² + bx + c** (a ≠ 0), e.g. x² − 5x + 6\n- **Cubic** polynomial: degree 3, general form **ax³ + bx² + cx + d** (a ≠ 0)\n\n**Value of a polynomial:** p(k) is obtained by replacing x with k.\nIf p(x) = x² − 3x − 4:\n- p(2) = 4 − 6 − 4 = **−6**\n- p(−1) = 1 + 3 − 4 = **0**\n- p(4) = 16 − 12 − 4 = **0**\n\n**Zero of a polynomial:** a real number k is a zero of p(x) if **p(k) = 0**. So −1 and 4 are the zeroes of x² − 3x − 4.\n\n**Zero of a linear polynomial:** ax + b = 0 gives **x = −b/a**. For 2x − 3, the zero is 3/2.\n\n**How many zeroes?** A polynomial of degree n has **at most n zeroes**:\n- linear → exactly 1\n- quadratic → at most 2\n- cubic → at most 3",
+      "example": "Check whether 3 is a zero of p(x) = x² − 2x − 3.\np(3) = 9 − 6 − 3 = 0, so yes, 3 is a zero.\nAlso p(−1) = 1 + 2 − 3 = 0, so −1 is the other zero.",
+      "keyPoints": [
+        "Degree = highest power of the variable",
+        "Linear: ax + b; quadratic: ax² + bx + c; cubic: ax³ + bx² + cx + d (a ≠ 0)",
+        "p(k) = value when x = k",
+        "k is a zero if p(k) = 0",
+        "Zero of ax + b is −b/a",
+        "A degree-n polynomial has at most n zeroes"
+      ],
+      "keywords": [
+        "polynomials",
+        "chapter 2",
+        "class 10 maths chapter 2",
+        "degree of polynomial",
+        "linear polynomial",
+        "quadratic polynomial",
+        "cubic polynomial",
+        "value of polynomial",
+        "zero of polynomial",
+        "zeroes",
+        "zeros",
+        "roots",
+        "p(x)"
+      ]
+    },
+    {
+      "id": "geometrical-meaning-of-zeroes",
+      "title": "Geometrical meaning of the zeroes",
+      "summary": "The zeroes of p(x) are the x-coordinates of the points where the graph of y = p(x) meets the x-axis; a quadratic's graph is a parabola that meets the x-axis at 0, 1 or 2 points.",
+      "simple": "Draw the graph of y = p(x). Wherever the graph touches or cuts the x-axis, y is 0 — so those x-values are the zeroes. Count those points to count the zeroes.",
+      "explain": "On the x-axis, y = 0. So if the graph of y = p(x) meets the x-axis at (k, 0), then p(k) = 0 and **k is a zero**.\n\n**Number of zeroes = number of points where the graph meets the x-axis.**\n\n**Linear polynomial y = ax + b:** the graph is a straight line that cuts the x-axis at exactly one point (−b/a, 0). So it has **exactly one zero**.\n\n**Quadratic polynomial y = ax² + bx + c:** the graph is a curve called a **parabola**.\n- If **a > 0**, it opens **upwards** (∪ shape).\n- If **a < 0**, it opens **downwards** (∩ shape).\n\nThree possible cases:\n1. Cuts the x-axis at **two** distinct points → **two zeroes** (e.g. y = x² − 3x − 4 meets it at −1 and 4)\n2. **Touches** the x-axis at exactly one point → **one zero** (two equal zeroes) (e.g. y = x² − 4x + 4 touches at 2)\n3. Does **not** meet the x-axis → **no real zero** (e.g. y = x² + 1, which is always at least 1)\n\nSo a quadratic has **at most 2 zeroes**.\n\n**Cubic polynomial:** its graph can meet the x-axis at 1, 2 or 3 points, so a cubic has **at most 3 zeroes**. For example, y = x³ − 4x = x(x − 2)(x + 2) meets the x-axis at −2, 0 and 2.\n\nIn questions with a given graph, simply count how many times the curve meets the x-axis.",
+      "example": "Table for y = x² − 3x − 4:\n- x = −2 → y = 4 + 6 − 4 = 6\n- x = −1 → y = 0\n- x = 0 → y = −4\n- x = 1 → y = −6\n- x = 2 → y = −6\n- x = 4 → y = 0\n- x = 5 → y = 6\nPlotting gives an upward parabola crossing the x-axis at −1 and 4, so the zeroes are −1 and 4.",
+      "keyPoints": [
+        "Zero k ↔ graph meets the x-axis at (k, 0)",
+        "Number of zeroes = number of meeting points with the x-axis",
+        "Linear graph: straight line, exactly one zero",
+        "Quadratic graph: parabola; up if a > 0, down if a < 0",
+        "Quadratic: 2, 1 or 0 zeroes",
+        "Cubic: at most 3 zeroes"
+      ],
+      "keywords": [
+        "geometrical meaning of zeroes",
+        "graph of polynomial",
+        "parabola",
+        "number of zeroes from graph",
+        "x-axis",
+        "graph of quadratic",
+        "opens upward",
+        "opens downward",
+        "graph cuts x axis",
+        "cubic graph"
+      ]
+    },
+    {
+      "id": "finding-zeroes-by-factorisation",
+      "title": "Finding zeroes of a quadratic by factorisation",
+      "summary": "Factorise ax² + bx + c (usually by splitting the middle term), set each factor equal to zero and solve.",
+      "simple": "To find the zeroes of a quadratic, break it into two brackets multiplied together. A product is zero only when one of the brackets is zero, so set each bracket to zero to get the two zeroes.",
+      "explain": "**Splitting the middle term** for ax² + bx + c: find two numbers whose **sum is b** and whose **product is a × c**, then group.\n\n**Example 1:** x² − 2x − 8\n1. Need two numbers with sum −2 and product −8 → −4 and 2.\n2. x² − 4x + 2x − 8 = x(x − 4) + 2(x − 4) = (x − 4)(x + 2)\n3. Zeroes: x − 4 = 0 → **x = 4**; x + 2 = 0 → **x = −2**\n\n**Example 2:** 6x² − 7x − 3\n1. a × c = 6 × (−3) = −18. Need sum −7, product −18 → −9 and 2.\n2. 6x² − 9x + 2x − 3 = 3x(2x − 3) + 1(2x − 3) = (2x − 3)(3x + 1)\n3. Zeroes: **x = 3/2** and **x = −1/3**\n\n**Example 3 (no constant term):** 4u² + 8u = 4u(u + 2)\nZeroes: **u = 0** and **u = −2**\n\n**Example 4 (difference of squares):** t² − 15 = (t − √15)(t + √15)\nZeroes: **√15 and −√15**\n\n**Always check** by substituting: for 6x² − 7x − 3 at x = 3/2: 6 × 9/4 − 21/2 − 3 = 27/2 − 21/2 − 6/2 = 0 ✓",
+      "example": "Find the zeroes of 3x² − x − 4.\na × c = −12; numbers with sum −1 and product −12: −4 and 3.\n3x² − 4x + 3x − 4 = x(3x − 4) + 1(3x − 4) = (3x − 4)(x + 1).\nZeroes: 4/3 and −1.",
+      "keyPoints": [
+        "Split b into two numbers with product a × c",
+        "Group in pairs and take out the common bracket",
+        "Set each factor = 0 to get the zeroes",
+        "If there is no constant term, x = 0 is a zero",
+        "x² − k = (x − √k)(x + √k) gives zeroes ±√k",
+        "Check zeroes by substitution"
+      ],
+      "keywords": [
+        "find zeroes of quadratic",
+        "factorisation",
+        "factorization",
+        "splitting the middle term",
+        "middle term split",
+        "factorise quadratic polynomial",
+        "zeroes of x^2 - 2x - 8",
+        "difference of squares",
+        "zeroes by factorising"
+      ]
+    },
+    {
+      "id": "zeroes-and-coefficients",
+      "title": "Relationship between zeroes and coefficients",
+      "summary": "If α and β are the zeroes of ax² + bx + c, then α + β = −b/a and αβ = c/a.",
+      "simple": "For a quadratic ax² + bx + c, you can find the sum and product of its two zeroes straight from the coefficients without solving: **sum = −b/a** and **product = c/a**.",
+      "explain": "If **α** (alpha) and **β** (beta) are the zeroes of p(x) = ax² + bx + c (a ≠ 0), then:\n\n- **Sum of zeroes:** α + β = **−b/a** = −(coefficient of x) ÷ (coefficient of x²)\n- **Product of zeroes:** αβ = **c/a** = (constant term) ÷ (coefficient of x²)\n\n**Why it works:** if α and β are zeroes, then ax² + bx + c = a(x − α)(x − β) = ax² − a(α + β)x + aαβ. Comparing coefficients: b = −a(α + β) and c = aαβ.\n\n**Verifying with an example:** x² + 7x + 10 = (x + 2)(x + 5), zeroes −2 and −5.\n- Sum = −2 + (−5) = −7, and −b/a = −7/1 = −7 ✓\n- Product = (−2)(−5) = 10, and c/a = 10/1 = 10 ✓\n\n**Another:** 6x² − 7x − 3 has zeroes 3/2 and −1/3.\n- Sum = 3/2 − 1/3 = 9/6 − 2/6 = 7/6; −b/a = −(−7)/6 = 7/6 ✓\n- Product = (3/2)(−1/3) = −1/2; c/a = −3/6 = −1/2 ✓\n\n**Using the relations without solving:** if α, β are zeroes of 2x² − 8x + 5:\n- α + β = 8/2 = 4\n- αβ = 5/2\n\n**Watch the signs:** the sum has a minus sign (−b/a); the product does not (c/a).",
+      "example": "Verify the relationship for 4u² + 8u.\nHere a = 4, b = 8, c = 0. Zeroes: 0 and −2.\nSum = −2 and −b/a = −8/4 = −2 ✓\nProduct = 0 and c/a = 0/4 = 0 ✓",
+      "keyPoints": [
+        "α + β = −b/a",
+        "αβ = c/a",
+        "Comes from ax² + bx + c = a(x − α)(x − β)",
+        "Sum has a minus sign, product does not",
+        "If c = 0, one zero is 0 (product 0)",
+        "If b = 0, the zeroes (if real) are equal and opposite (sum 0)"
+      ],
+      "keywords": [
+        "relationship between zeroes and coefficients",
+        "sum of zeroes",
+        "product of zeroes",
+        "alpha beta",
+        "α + β",
+        "αβ",
+        "-b/a",
+        "c/a",
+        "verify relationship",
+        "coefficients"
+      ]
+    },
+    {
+      "id": "forming-a-quadratic",
+      "title": "Forming a quadratic from its zeroes",
+      "summary": "A quadratic with sum of zeroes S and product P is k[x² − Sx + P] for any non-zero constant k.",
+      "simple": "If you know the sum and product of the zeroes, you can write the quadratic directly: x² − (sum)x + (product). Multiplying it by any non-zero number gives another quadratic with the same zeroes.",
+      "explain": "If a quadratic has zeroes α and β, it can be written as k(x − α)(x − β). Expanding:\n\n**p(x) = k[x² − (α + β)x + αβ]**, where k is any non-zero real number.\n\nIn words: **x² − (sum of zeroes)x + (product of zeroes)**.\n\n**Example 1:** sum = −3, product = 2.\np(x) = x² − (−3)x + 2 = **x² + 3x + 2**\nCheck: x² + 3x + 2 = (x + 1)(x + 2), zeroes −1 and −2, sum −3 ✓, product 2 ✓\n\n**Example 2:** sum = 1/4, product = −1.\np(x) = x² − (1/4)x − 1. Multiply by k = 4 to clear the fraction: **4x² − x − 4**\nCheck: −b/a = 1/4 ✓, c/a = −4/4 = −1 ✓\n\n**Example 3:** zeroes 2 and −3.\nSum = −1, product = −6, so p(x) = x² − (−1)x + (−6) = **x² + x − 6**\nCheck: (x − 2)(x + 3) = x² + x − 6 ✓\n\n**Example 4:** sum = 0, product = −5 → **x² − 5** (zeroes ±√5).\n\n**Finding an unknown coefficient:** if 2 is a zero of x² + kx − 6, then p(2) = 0: 4 + 2k − 6 = 0 → 2k = 2 → **k = 1**. Check: x² + x − 6 = (x − 2)(x + 3) ✓",
+      "example": "Find a quadratic whose zeroes are √2 and −√2.\nSum = 0, product = (√2)(−√2) = −2.\np(x) = x² − 0·x + (−2) = x² − 2.",
+      "keyPoints": [
+        "p(x) = k[x² − (α + β)x + αβ], k ≠ 0",
+        "x² − (sum)x + (product)",
+        "Multiply by k to clear fractions",
+        "There are infinitely many such quadratics (one for each k)",
+        "Check using −b/a and c/a",
+        "If k is a zero, p(k) = 0 helps find unknown coefficients"
+      ],
+      "keywords": [
+        "find quadratic polynomial",
+        "form a quadratic",
+        "quadratic polynomial whose sum and product of zeroes",
+        "x^2 - (sum)x + product",
+        "given zeroes find polynomial",
+        "find k",
+        "unknown coefficient",
+        "construct polynomial"
+      ]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "Polynomial", "meaning": "An algebraic expression in which the variable has only whole-number powers." },
+    { "term": "Degree", "meaning": "The highest power of the variable in a polynomial." },
+    { "term": "Linear polynomial", "meaning": "A polynomial of degree 1: ax + b, a ≠ 0." },
+    { "term": "Quadratic polynomial", "meaning": "A polynomial of degree 2: ax² + bx + c, a ≠ 0." },
+    { "term": "Cubic polynomial", "meaning": "A polynomial of degree 3: ax³ + bx² + cx + d, a ≠ 0." },
+    { "term": "Zero of a polynomial", "meaning": "A value k for which p(k) = 0." },
+    { "term": "Parabola", "meaning": "The U-shaped (or upside-down U) curve that is the graph of a quadratic polynomial." },
+    { "term": "Geometrical meaning of zeroes", "meaning": "Zeroes are the x-coordinates of the points where the graph of y = p(x) meets the x-axis." },
+    { "term": "Sum of zeroes", "meaning": "For ax² + bx + c, α + β = −b/a." },
+    { "term": "Product of zeroes", "meaning": "For ax² + bx + c, αβ = c/a." },
+    { "term": "Splitting the middle term", "meaning": "Writing bx as the sum of two terms whose coefficients multiply to a × c, so the quadratic can be factorised." }
+  ],
+  "formulas": [
+    "Zero of linear polynomial ax + b: x = −b/a",
+    "Quadratic ax² + bx + c with zeroes α, β: α + β = −b/a",
+    "Quadratic ax² + bx + c with zeroes α, β: αβ = c/a",
+    "Quadratic with given zeroes: p(x) = k[x² − (α + β)x + αβ], k ≠ 0",
+    "ax² + bx + c = a(x − α)(x − β)",
+    "A polynomial of degree n has at most n zeroes"
+  ],
+  "commonMistakes": [
+    "Writing the sum of zeroes as b/a instead of −b/a.",
+    "Putting a minus sign in the product of zeroes — it is c/a, not −c/a.",
+    "Counting the points where a graph crosses the y-axis instead of the x-axis when finding the number of zeroes.",
+    "Forgetting that 0 is a zero when there is no constant term (e.g. 4u² + 8u).",
+    "Writing x² + (sum)x + (product) when forming a quadratic — the middle sign must be minus.",
+    "Assuming every quadratic has two real zeroes — its graph may not meet the x-axis at all.",
+    "Giving only √15 as a zero of t² − 15 and missing −√15."
+  ],
+  "revision": [
+    "Degree 1 = linear, 2 = quadratic, 3 = cubic.",
+    "k is a zero of p(x) if p(k) = 0.",
+    "Zeroes = x-coordinates where the graph of y = p(x) meets the x-axis.",
+    "Linear polynomial: exactly one zero, −b/a.",
+    "Quadratic graph is a parabola: opens up if a > 0, down if a < 0.",
+    "A quadratic has at most 2 zeroes; a cubic at most 3.",
+    "Find zeroes of a quadratic by splitting the middle term and setting each factor to 0.",
+    "α + β = −b/a and αβ = c/a.",
+    "x² − 2x − 8 = (x − 4)(x + 2): zeroes 4, −2; sum 2, product −8.",
+    "Quadratic from zeroes: k[x² − (sum)x + product].",
+    "Zeroes 2 and −3 → x² + x − 6."
+  ],
+  "faqs": [
+    {
+      "q": "Is the division algorithm for polynomials still in Class 10?",
+      "a": "No. In the rationalised NCERT textbook, the section on the division algorithm for polynomials has been removed. The chapter now covers degree and zeroes, the geometrical meaning of zeroes, and the relationship between zeroes and coefficients of a quadratic polynomial.",
+      "keywords": ["division algorithm", "polynomial division deleted", "deleted topics polynomials", "long division polynomial"]
+    },
+    {
+      "q": "What is the difference between a zero of a polynomial and the root of an equation?",
+      "a": "They are the same number seen in two ways. A **zero** of p(x) is a value of x that makes p(x) = 0; a **root** of the equation p(x) = 0 is a value that satisfies it. So the zeroes of x² − 5x + 6 are the roots of x² − 5x + 6 = 0, namely 2 and 3.",
+      "keywords": ["zero vs root", "difference zero and root", "roots of polynomial"]
+    },
+    {
+      "q": "How can I tell the number of zeroes from a graph?",
+      "a": "Count how many times the graph of y = p(x) meets (cuts or touches) the **x-axis**. Ignore where it crosses the y-axis. If the graph never meets the x-axis, the polynomial has no real zeroes.",
+      "keywords": ["number of zeroes graph", "count zeroes from graph", "graph meets x axis"]
+    },
+    {
+      "q": "Why is the sum of zeroes −b/a and not b/a?",
+      "a": "Because ax² + bx + c = a(x − α)(x − β) = ax² − a(α + β)x + aαβ. Comparing the x-terms, b = −a(α + β), so α + β = −b/a. For x² − 5x + 6, the zeroes 2 and 3 add to 5 = −(−5)/1.",
+      "keywords": ["why minus b by a", "sum of zeroes sign", "derivation sum product zeroes"]
+    },
+    {
+      "q": "Is there only one quadratic with given zeroes?",
+      "a": "No. Any k[x² − (sum)x + product] with k ≠ 0 has the same zeroes. For zeroes 2 and −3, x² + x − 6, 2x² + 2x − 12 and −x² − x + 6 all work. We usually give the simplest one with whole-number coefficients.",
+      "keywords": ["how many quadratics", "value of k", "infinitely many polynomials"]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "What is the degree of 5x³ − 2x² + 7?",
+      "options": ["2", "3", "5", "7"],
+      "answer": 1,
+      "explain": "The highest power of x is 3, so the degree is 3 (a cubic polynomial).",
+      "topic": "polynomials-and-degree",
+      "level": "easy"
+    },
+    {
+      "q": "What is the value of p(x) = x² − 3x + 2 at x = −1?",
+      "options": ["0", "4", "−2", "6"],
+      "answer": 3,
+      "explain": "p(−1) = (−1)² − 3(−1) + 2 = 1 + 3 + 2 = 6.",
+      "topic": "polynomials-and-degree",
+      "level": "easy"
+    },
+    {
+      "q": "The graph of y = p(x) cuts the x-axis at exactly 3 points. How many zeroes does p(x) have?",
+      "options": ["3", "2", "1", "0"],
+      "answer": 0,
+      "explain": "The number of zeroes equals the number of points where the graph meets the x-axis.",
+      "topic": "geometrical-meaning-of-zeroes",
+      "level": "easy"
+    },
+    {
+      "q": "The graph of y = ax² + bx + c opens downwards. What can you say about a?",
+      "options": ["a > 0", "a = 0", "a < 0", "a = c"],
+      "answer": 2,
+      "explain": "A parabola opens downwards (∩) when a < 0 and upwards (∪) when a > 0.",
+      "topic": "geometrical-meaning-of-zeroes",
+      "level": "medium"
+    },
+    {
+      "q": "What is the maximum number of zeroes a quadratic polynomial can have?",
+      "options": ["1", "3", "Infinitely many", "2"],
+      "answer": 3,
+      "explain": "A polynomial of degree n has at most n zeroes; a quadratic has degree 2.",
+      "topic": "geometrical-meaning-of-zeroes",
+      "level": "easy"
+    },
+    {
+      "q": "What are the zeroes of x² − 5x + 6?",
+      "options": ["2 and 3", "−2 and −3", "1 and 6", "−1 and 6"],
+      "answer": 0,
+      "explain": "x² − 5x + 6 = (x − 2)(x − 3), so the zeroes are 2 and 3.",
+      "topic": "finding-zeroes-by-factorisation",
+      "level": "easy"
+    },
+    {
+      "q": "What are the zeroes of x² − 3?",
+      "options": ["3 and −3", "√3 only", "√3 and −√3", "0 and 3"],
+      "answer": 2,
+      "explain": "x² − 3 = (x − √3)(x + √3), so the zeroes are √3 and −√3.",
+      "topic": "finding-zeroes-by-factorisation",
+      "level": "medium"
+    },
+    {
+      "q": "What is the sum of the zeroes of 2x² − 8x + 5?",
+      "options": ["−4", "4", "5/2", "−8"],
+      "answer": 1,
+      "explain": "Sum = −b/a = −(−8)/2 = 4.",
+      "topic": "zeroes-and-coefficients",
+      "level": "easy"
+    },
+    {
+      "q": "What is the product of the zeroes of 3x² + 5x − 12?",
+      "options": ["4", "−5/3", "−12", "−4"],
+      "answer": 3,
+      "explain": "Product = c/a = −12/3 = −4.",
+      "topic": "zeroes-and-coefficients",
+      "level": "medium"
+    },
+    {
+      "q": "If α and β are the zeroes of x² − 4x + 3, what is α + β + αβ?",
+      "options": ["1", "7", "−1", "12"],
+      "answer": 1,
+      "explain": "α + β = −(−4)/1 = 4 and αβ = 3/1 = 3, so the total is 7. (The zeroes are 1 and 3: 1 + 3 + 3 = 7 ✓)",
+      "topic": "zeroes-and-coefficients",
+      "level": "hard"
+    },
+    {
+      "q": "Which quadratic has sum of zeroes 5 and product of zeroes 6?",
+      "options": ["x² + 5x + 6", "x² − 6x + 5", "x² − 5x + 6", "x² + 5x − 6"],
+      "answer": 2,
+      "explain": "x² − (sum)x + (product) = x² − 5x + 6. Check: (x − 2)(x − 3), zeroes 2, 3 with sum 5 and product 6 ✓",
+      "topic": "forming-a-quadratic",
+      "level": "medium"
+    },
+    {
+      "q": "If 2 is a zero of x² + kx − 6, what is k?",
+      "options": ["1", "−1", "5", "−5"],
+      "answer": 0,
+      "explain": "p(2) = 4 + 2k − 6 = 0 → 2k = 2 → k = 1. Check: x² + x − 6 = (x − 2)(x + 3) ✓",
+      "topic": "forming-a-quadratic",
+      "level": "hard"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "id": "c10-math-trigonometry",
+  "class": 10,
+  "subject": "mathematics",
+  "name": "Introduction to Trigonometry",
+  "summary": "Trigonometry studies the relationship between the sides and angles of a right-angled triangle. This chapter defines the six trigonometric ratios (sin, cos, tan, cosec, sec, cot) of an acute angle, shows how to find all ratios from one, gives the values of the ratios for 0°, 30°, 45°, 60° and 90°, and proves and uses the three basic trigonometric identities.",
+  "topics": [
+    {
+      "id": "trigonometric-ratios",
+      "title": "Trigonometric ratios of an acute angle",
+      "summary": "In a right triangle, the six ratios sin, cos, tan, cosec, sec and cot compare pairs of sides with respect to an acute angle.",
+      "simple": "Take a right-angled triangle and pick one of its sharp (acute) angles, say A. The side across from A is the **opposite** side, the side next to A (not the longest) is the **adjacent** side, and the longest side is the **hypotenuse**. Dividing one side by another gives a **trigonometric ratio**. There are six of them.",
+      "explain": "Consider ΔABC with ∠B = 90°. With respect to the acute angle A:\n- **Side opposite to A** = BC (perpendicular)\n- **Side adjacent to A** = AB (base)\n- **Hypotenuse** = AC (the side opposite the right angle, always the longest)\n\nThe six **trigonometric ratios** of ∠A are:\n- **sin A** = opposite ÷ hypotenuse = BC/AC\n- **cos A** = adjacent ÷ hypotenuse = AB/AC\n- **tan A** = opposite ÷ adjacent = BC/AB\n- **cosec A** = hypotenuse ÷ opposite = AC/BC\n- **sec A** = hypotenuse ÷ adjacent = AC/AB\n- **cot A** = adjacent ÷ opposite = AB/BC\n\n**Reciprocal relations:** cosec A = 1/sin A, sec A = 1/cos A, cot A = 1/tan A.\n\n**Quotient relations:** tan A = sin A / cos A and cot A = cos A / sin A.\n\n**Important:** the value of a trigonometric ratio depends **only on the angle**, not on the size of the triangle. If you enlarge the triangle, all sides grow in the same proportion (similar triangles), so the ratios stay the same.\n\nIf you switch to the other acute angle C, the opposite and adjacent sides swap: for ∠C, the opposite side is AB and the adjacent side is BC.\n\n**sin A is one symbol**, not 'sin × A'. 'sin' alone has no meaning.",
+      "deep": "Since the hypotenuse is the longest side, opposite/hypotenuse and adjacent/hypotenuse are always less than 1 for an acute angle. So 0 < sin A < 1 and 0 < cos A < 1 when 0° < A < 90°. On the other hand, sec A and cosec A are always greater than 1 for such angles. tan A can take any positive value: it is less than 1 for angles below 45° and greater than 1 above 45°.\n\nA handy memory aid used by many students: 'Some People Have Curly Brown Hair Through Proper Brushing' → sin = P/H, cos = B/H, tan = P/B (P = perpendicular, B = base, H = hypotenuse).",
+      "example": "In ΔABC, ∠B = 90°, AB = 24 cm and BC = 7 cm. Find sin A and cos A.\n1. By Pythagoras, AC² = AB² + BC² = 24² + 7² = 576 + 49 = 625, so AC = 25 cm.\n2. sin A = opposite/hypotenuse = BC/AC = **7/25**\n3. cos A = adjacent/hypotenuse = AB/AC = **24/25**\n\nFor angle C: sin C = AB/AC = 24/25 and cos C = BC/AC = 7/25.",
+      "keyPoints": ["sin = opposite/hypotenuse, cos = adjacent/hypotenuse, tan = opposite/adjacent", "cosec, sec, cot are reciprocals of sin, cos, tan", "tan A = sin A/cos A; cot A = cos A/sin A", "Ratios depend only on the angle, not on the triangle's size", "Opposite and adjacent sides depend on which acute angle you choose", "For acute angles, sin A and cos A are less than 1"],
+      "keywords": ["trigonometry", "trigonometric ratios", "sin", "cos", "tan", "cosec", "sec", "cot", "sine", "cosine", "tangent", "opposite side", "adjacent side", "hypotenuse", "reciprocal ratios", "chapter 8", "ch 8 maths", "intro to trigo"]
+    },
+    {
+      "id": "finding-ratios-from-one",
+      "title": "Finding all ratios when one ratio is known",
+      "summary": "If one trigonometric ratio is given, draw a right triangle with those sides, find the third side by Pythagoras, then write all the other ratios.",
+      "simple": "If you know one ratio, say sin A = 3/5, you know two sides of a triangle in that proportion. Use Pythagoras to get the third side. Then you can write every other ratio.",
+      "explain": "**Method:**\n1. Write the given ratio as a fraction of two sides. For sin A = p/q, take opposite = pk and hypotenuse = qk, where k is any positive number (the ratio stays the same whatever k is).\n2. Find the third side using **Pythagoras' theorem**: hypotenuse² = opposite² + adjacent².\n3. Write all six ratios using their definitions.\n\nWe use 'k' because the given ratio tells us only the **proportion** of the sides, not their actual lengths. The k always cancels out in the final ratios, so many students simply take k = 1.\n\n**Shortcut with identities:** you can also use sin²A + cos²A = 1 (see the identities topic). For example, if sin A = 3/5, then cos²A = 1 − 9/25 = 16/25, so cos A = 4/5 (positive, because A is acute).\n\n**Checking your answer:** after finding the ratios, check that sin²A + cos²A = 1 and that tan A = sin A/cos A. If not, there's an arithmetic slip.",
+      "example": "Given 15 cot A = 8, find sin A and sec A.\n1. cot A = 8/15 = adjacent/opposite. Take adjacent = 8k, opposite = 15k.\n2. Hypotenuse = √((8k)² + (15k)²) = √(64k² + 225k²) = √(289k²) = 17k.\n3. sin A = opposite/hypotenuse = 15k/17k = **15/17**\n4. sec A = hypotenuse/adjacent = 17k/8k = **17/8**\n\nCheck: cos A = 8/17, and (15/17)² + (8/17)² = (225 + 64)/289 = 289/289 = 1 ✓",
+      "keyPoints": ["Turn the given ratio into two sides: pk and qk", "Find the third side with Pythagoras", "Then write the remaining ratios from their definitions", "k cancels out; the ratios do not depend on k", "Check with sin²A + cos²A = 1"],
+      "keywords": ["find other ratios", "given sin find cos", "given tan find sin", "given cot", "pythagoras trigonometry", "k method", "all trigonometric ratios", "if sin a = 3/5", "if 15 cot a = 8"]
+    },
+    {
+      "id": "ratios-of-specific-angles",
+      "title": "Trigonometric ratios of 0°, 30°, 45°, 60° and 90°",
+      "summary": "Using an isosceles right triangle (for 45°) and half of an equilateral triangle (for 30° and 60°), we get exact values of the ratios of these special angles.",
+      "simple": "Some angles come up again and again: 0°, 30°, 45°, 60° and 90°. Their sin, cos and tan values are fixed numbers you should learn. For example, sin 30° = ½, tan 45° = 1 and cos 60° = ½.",
+      "explain": "**45°:** In ΔABC with ∠B = 90° and ∠A = 45°, ∠C is also 45°, so AB = BC = a. Then AC = √(a² + a²) = a√2.\nsin 45° = 1/√2, cos 45° = 1/√2, tan 45° = 1.\n\n**30° and 60°:** Take an equilateral triangle ABC of side 2a and drop a perpendicular AD to BC. D is the midpoint, so BD = a, ∠BAD = 30°, ∠ABD = 60°, and AD = √((2a)² − a²) = a√3.\n- sin 30° = BD/AB = ½, cos 30° = AD/AB = √3/2, tan 30° = 1/√3\n- sin 60° = √3/2, cos 60° = ½, tan 60° = √3\n\n**0° and 90°:** As angle A gets smaller and smaller, the opposite side shrinks to 0 and the adjacent side becomes equal to the hypotenuse. So sin 0° = 0, cos 0° = 1. As A approaches 90°, sin 90° = 1 and cos 90° = 0.\n\n**Values to learn (A = 0°, 30°, 45°, 60°, 90°):**\n- sin A: 0, ½, 1/√2, √3/2, 1\n- cos A: 1, √3/2, 1/√2, ½, 0\n- tan A: 0, 1/√3, 1, √3, not defined\n- cosec A: not defined, 2, √2, 2/√3, 1\n- sec A: 1, 2/√3, √2, 2, not defined\n- cot A: not defined, √3, 1, 1/√3, 0\n\n**Memory trick:** sin values are √0/2, √1/2, √2/2, √3/2, √4/2. cos values are the same list backwards. tan = sin ÷ cos.\n\ntan 90° = 1/0 is **not defined**; so are cosec 0°, cot 0° and sec 90°.",
+      "example": "As angle A increases from 0° to 90°: sin A increases from 0 to 1, while cos A decreases from 1 to 0. For instance, sin 30° = 0.5 but sin 60° = √3/2 ≈ 0.866, and cos 30° ≈ 0.866 but cos 60° = 0.5.",
+      "keyPoints": ["sin 30° = ½, sin 45° = 1/√2, sin 60° = √3/2", "cos values are sin values in reverse order", "tan 30° = 1/√3, tan 45° = 1, tan 60° = √3", "sin 0° = 0, cos 0° = 1; sin 90° = 1, cos 90° = 0", "tan 90°, sec 90°, cosec 0° and cot 0° are not defined", "sin A increases and cos A decreases as A goes from 0° to 90°"],
+      "keywords": ["trigonometric table", "trigo table", "standard angles", "specific angles", "sin 30", "cos 60", "tan 45", "sin 45", "tan 60", "value of tan 90", "not defined", "0 degree 90 degree", "equilateral triangle 30 60", "isosceles right triangle"]
+    },
+    {
+      "id": "using-specific-values",
+      "title": "Evaluating expressions and solving triangles",
+      "summary": "Substitute the standard values to simplify expressions, find unknown angles, and find unknown sides of right triangles.",
+      "simple": "Once you know the values for 30°, 45° and 60°, you can plug them into expressions and simplify. You can also go backwards: if tan A = 1, then A = 45°. And if you know one side and one angle of a right triangle, you can find the other sides.",
+      "explain": "**1. Evaluating expressions:** replace each ratio by its value, then simplify the fractions carefully. Remember sin²A means (sin A)², so sin²30° = (½)² = ¼.\n\n**2. Finding angles:** if a ratio equals a standard value, read the angle from the table. For example, if cos A = √3/2 (A acute), then A = 30°. If two equations are given, like A + B = 60° and A − B = 30°, solve them like simultaneous linear equations.\n\n**3. Finding sides of a right triangle:** choose the ratio that connects the side you **know** with the side you **want**.\n- Know opposite, want adjacent → use tan\n- Know opposite, want hypotenuse → use sin\n- Know adjacent, want hypotenuse → use cos\n\nAlways mark which angle you are working with and label opposite/adjacent from that angle.\n\n**Note:** keep the answer in surd form (like 5√3) unless the question asks for a decimal. Use √3 ≈ 1.732 and √2 ≈ 1.414 when needed.",
+      "example": "**(a)** Evaluate (5 cos²60° + 4 sec²30° − tan²45°) ÷ (sin²30° + cos²30°).\n1. cos²60° = ¼, so 5 × ¼ = 5/4\n2. sec 30° = 2/√3, so sec²30° = 4/3 and 4 × 4/3 = 16/3\n3. tan²45° = 1\n4. Numerator = 5/4 + 16/3 − 1 = 15/12 + 64/12 − 12/12 = 67/12\n5. Denominator = ¼ + ¾ = 1\n6. Answer = **67/12**\n\n**(b)** In ΔABC, ∠B = 90°, ∠C = 30° and AB = 5 cm. Find BC and AC.\n1. For ∠C, AB is opposite and BC is adjacent: tan 30° = AB/BC → 1/√3 = 5/BC → BC = **5√3 cm**\n2. sin 30° = AB/AC → ½ = 5/AC → AC = **10 cm**\n\n**(c)** If sin(A − B) = ½ and cos(A + B) = ½, with 0° < A + B ≤ 90° and A > B, then A − B = 30° and A + B = 60°. Adding: 2A = 90°, so A = 45° and B = 15°.",
+      "keyPoints": ["sin²A means (sin A)²", "Substitute exact values and simplify fractions step by step", "Read angles backwards from the table (e.g. tan A = √3 → A = 60°)", "Pick the ratio linking the known side and the wanted side", "Keep answers in surd form unless told otherwise"],
+      "keywords": ["evaluate trigonometric expression", "find the value", "find angle", "find side of triangle", "sin(a-b)", "cos(a+b)", "solve right triangle", "5 cos²60", "sec 30", "trigonometry numericals"]
+    },
+    {
+      "id": "trigonometric-identities",
+      "title": "Trigonometric identities",
+      "summary": "An identity is true for every value of the angle; the three basic ones are sin²A + cos²A = 1, 1 + tan²A = sec²A and cot²A + 1 = cosec²A.",
+      "simple": "An **identity** is an equation that is true for all angles (where both sides are defined). The most important one is sin²A + cos²A = 1. Dividing it by cos²A or sin²A gives two more. We use them to prove other results and to find one ratio from another.",
+      "explain": "**Proof of the main identity:** in ΔABC with ∠B = 90°, Pythagoras gives AB² + BC² = AC². Divide both sides by AC²:\n(AB/AC)² + (BC/AC)² = 1, i.e. **cos²A + sin²A = 1**. This holds for 0° ≤ A ≤ 90°.\n\n**Second identity:** divide AB² + BC² = AC² by AB²: 1 + (BC/AB)² = (AC/AB)², i.e. **1 + tan²A = sec²A** (for 0° ≤ A < 90°).\n\n**Third identity:** divide by BC²: (AB/BC)² + 1 = (AC/BC)², i.e. **cot²A + 1 = cosec²A** (for 0° < A ≤ 90°).\n\n**Useful rearranged forms:**\n- sin²A = 1 − cos²A, cos²A = 1 − sin²A\n- sec²A − tan²A = 1\n- cosec²A − cot²A = 1\n\n**Expressing every ratio in terms of one:** for example, in terms of cot A:\ncosec A = √(1 + cot²A), sin A = 1/√(1 + cot²A), tan A = 1/cot A.\n\n**How to prove an identity:**\n1. Start with the more complicated side (LHS or RHS).\n2. Convert everything to sin and cos if you are stuck.\n3. Use the basic identities, factorise, or take LCM.\n4. Simplify until you reach the other side. Do **not** move terms across the '=' sign as if solving an equation.",
+      "example": "Prove that (sec A + tan A)(1 − sin A) = cos A.\n1. LHS = (1/cos A + sin A/cos A)(1 − sin A)\n2. = (1 + sin A)(1 − sin A)/cos A\n3. = (1 − sin²A)/cos A\n4. = cos²A/cos A (since 1 − sin²A = cos²A)\n5. = cos A = RHS ✓\n\nQuick use: 9 sec²A − 9 tan²A = 9(sec²A − tan²A) = 9 × 1 = **9**.",
+      "keyPoints": ["sin²A + cos²A = 1", "1 + tan²A = sec²A, so sec²A − tan²A = 1", "1 + cot²A = cosec²A, so cosec²A − cot²A = 1", "All three come from Pythagoras' theorem", "Prove identities by simplifying one side into the other", "Converting to sin and cos is a reliable fallback"],
+      "keywords": ["trigonometric identities", "trigo identities", "sin²a + cos²a = 1", "1 + tan²a = sec²a", "1 + cot²a = cosec²a", "prove identity", "proving identities", "sec²a - tan²a", "express in terms of", "identity proof"]
+    }
+  ],
+  "keyConcepts": [
+    {"term": "Trigonometry", "meaning": "The branch of maths that studies relationships between the sides and angles of triangles (from Greek words for 'three', 'sides' and 'measure')."},
+    {"term": "Hypotenuse", "meaning": "The side opposite the right angle; the longest side of a right triangle."},
+    {"term": "Opposite side", "meaning": "The side across from the acute angle being considered."},
+    {"term": "Adjacent side", "meaning": "The side next to the acute angle being considered, other than the hypotenuse."},
+    {"term": "sin A", "meaning": "Opposite side ÷ hypotenuse."},
+    {"term": "cos A", "meaning": "Adjacent side ÷ hypotenuse."},
+    {"term": "tan A", "meaning": "Opposite side ÷ adjacent side; also equal to sin A ÷ cos A."},
+    {"term": "cosec, sec, cot", "meaning": "Reciprocals of sin, cos and tan respectively."},
+    {"term": "Standard angles", "meaning": "0°, 30°, 45°, 60° and 90°, whose trigonometric ratios have exact known values."},
+    {"term": "Not defined", "meaning": "A ratio whose denominator becomes 0, such as tan 90° or cot 0°."},
+    {"term": "Trigonometric identity", "meaning": "An equation involving trigonometric ratios that is true for all values of the angle for which both sides are defined."}
+  ],
+  "formulas": [
+    "sin A = opposite/hypotenuse, cos A = adjacent/hypotenuse, tan A = opposite/adjacent",
+    "cosec A = 1/sin A, sec A = 1/cos A, cot A = 1/tan A",
+    "tan A = sin A/cos A, cot A = cos A/sin A",
+    "sin 30° = ½, sin 45° = 1/√2, sin 60° = √3/2, sin 0° = 0, sin 90° = 1",
+    "cos 30° = √3/2, cos 45° = 1/√2, cos 60° = ½, cos 0° = 1, cos 90° = 0",
+    "tan 30° = 1/√3, tan 45° = 1, tan 60° = √3, tan 0° = 0, tan 90° not defined",
+    "sin²A + cos²A = 1 (0° ≤ A ≤ 90°)",
+    "1 + tan²A = sec²A (0° ≤ A < 90°)",
+    "1 + cot²A = cosec²A (0° < A ≤ 90°)"
+  ],
+  "commonMistakes": [
+    "Treating 'sin A' as sin × A and cancelling A, e.g. writing sin A/A = sin. 'sin A' is a single quantity.",
+    "Labelling opposite and adjacent sides from the wrong angle — always label from the angle in the question.",
+    "Writing sin²A as sin A² or sin(2A); sin²A means (sin A)².",
+    "Mixing up sin 30° and sin 60° (½ vs √3/2); remember sin increases from 0° to 90°.",
+    "Saying tan 90° = 0 or ∞ — it is not defined.",
+    "Moving terms from one side to the other while proving an identity; you must simplify one side to get the other.",
+    "Forgetting to find the third side by Pythagoras before writing the other ratios.",
+    "Thinking sin(A + B) = sin A + sin B; for example sin(30° + 60°) = sin 90° = 1, but sin 30° + sin 60° = (1 + √3)/2."
+  ],
+  "revision": [
+    "In ΔABC with ∠B = 90°: sin A = BC/AC, cos A = AB/AC, tan A = BC/AB.",
+    "cosec, sec and cot are the reciprocals of sin, cos and tan.",
+    "tan A = sin A / cos A.",
+    "Trigonometric ratios depend only on the angle, not the size of the triangle.",
+    "For an acute angle, 0 < sin A < 1 and 0 < cos A < 1; sec A and cosec A are greater than 1.",
+    "sin 30° = cos 60° = ½; sin 60° = cos 30° = √3/2; sin 45° = cos 45° = 1/√2.",
+    "tan 30° = 1/√3, tan 45° = 1, tan 60° = √3.",
+    "sin 0° = 0, cos 0° = 1, sin 90° = 1, cos 90° = 0; tan 90° is not defined.",
+    "To find all ratios from one: make a triangle, use Pythagoras, then use the definitions.",
+    "sin²A + cos²A = 1; sec²A − tan²A = 1; cosec²A − cot²A = 1.",
+    "Prove identities by working on one side; convert to sin and cos when stuck."
+  ],
+  "faqs": [
+    {"q": "Why can't sin A or cos A be greater than 1?", "a": "sin A = opposite/hypotenuse and cos A = adjacent/hypotenuse. The hypotenuse is always the longest side of a right triangle, so these fractions are always less than 1 for an acute angle (they reach 1 only at 90° and 0° respectively). So a value like sin A = 4/3 is impossible.", "keywords": ["sin greater than 1", "can sin be more than 1", "maximum value of sin", "why sin less than 1"]},
+    {"q": "Does the value of sin A change if the triangle is made bigger?", "a": "No. If you enlarge a right triangle without changing its angles, every side is multiplied by the same number, so each ratio stays the same. That's why trigonometric ratios depend only on the angle.", "keywords": ["ratio depends on angle", "size of triangle", "does sin change", "similar triangles trigonometry"]},
+    {"q": "How do I remember the table of values?", "a": "Write 0, 1, 2, 3, 4 under 0°, 30°, 45°, 60°, 90°. Divide each by 4 and take the square root: √(0/4), √(1/4), √(2/4), √(3/4), √(4/4) = 0, ½, 1/√2, √3/2, 1. These are the **sin** values. The **cos** values are the same list in reverse. **tan** = sin ÷ cos. cosec, sec and cot are just the reciprocals.", "keywords": ["remember trigonometric table", "trick for table", "how to learn trigo table", "sin cos table trick"]},
+    {"q": "Is 'trigonometric ratios of complementary angles' (sin(90° − A) = cos A) in the syllabus?", "a": "No. In the rationalised NCERT textbook, the section on trigonometric ratios of complementary angles was removed. The chapter now covers the six ratios, ratios of specific angles (0°, 30°, 45°, 60°, 90°) and the three identities. Check with your teacher in case your school uses extra material.", "keywords": ["complementary angles", "sin(90-a)", "cos(90-a)", "deleted topics trigonometry", "removed from syllabus"]},
+    {"q": "What is the difference between an identity and an equation?", "a": "An **equation** like 2 sin A = 1 is true only for particular values of A (here A = 30° for acute A). An **identity** like sin²A + cos²A = 1 is true for **every** value of A for which both sides are defined.", "keywords": ["identity vs equation", "what is identity", "difference identity equation"]}
+  ],
+  "quiz": [
+    {"q": "In ΔABC, ∠B = 90°. Then sin A equals:", "options": ["AB/AC", "BC/AC", "BC/AB", "AC/BC"], "answer": 1, "explain": "For ∠A, the opposite side is BC and the hypotenuse is AC, so sin A = BC/AC.", "topic": "trigonometric-ratios", "level": "easy"},
+    {"q": "sec A is the reciprocal of:", "options": ["sin A", "tan A", "cos A", "cot A"], "answer": 2, "explain": "sec A = hypotenuse/adjacent = 1/cos A.", "topic": "trigonometric-ratios", "level": "easy"},
+    {"q": "If sin A = 3/5 (A acute), then cos A is:", "options": ["4/5", "3/4", "5/4", "5/3"], "answer": 0, "explain": "Opposite = 3, hypotenuse = 5, so adjacent = √(25 − 9) = 4. cos A = 4/5.", "topic": "finding-ratios-from-one", "level": "medium"},
+    {"q": "The value of tan 60° is:", "options": ["1/√3", "1", "√3/2", "√3"], "answer": 3, "explain": "tan 60° = sin 60°/cos 60° = (√3/2)/(½) = √3.", "topic": "ratios-of-specific-angles", "level": "easy"},
+    {"q": "sin 30° + cos 60° = ?", "options": ["½", "√3", "1", "2"], "answer": 2, "explain": "sin 30° = ½ and cos 60° = ½, so the sum is 1.", "topic": "ratios-of-specific-angles", "level": "easy"},
+    {"q": "sin²A + cos²A is equal to:", "options": ["1", "0", "2", "sec²A"], "answer": 0, "explain": "This is the basic identity, which comes from Pythagoras' theorem.", "topic": "trigonometric-identities", "level": "easy"},
+    {"q": "1 + tan²A is equal to:", "options": ["cosec²A", "cot²A", "1", "sec²A"], "answer": 3, "explain": "Dividing AB² + BC² = AC² by AB² gives 1 + tan²A = sec²A.", "topic": "trigonometric-identities", "level": "easy"},
+    {"q": "Which of these is NOT defined?", "options": ["sin 90°", "tan 90°", "cos 90°", "cot 90°"], "answer": 1, "explain": "tan 90° = sin 90°/cos 90° = 1/0, which is not defined. sin 90° = 1, cos 90° = 0 and cot 90° = 0.", "topic": "ratios-of-specific-angles", "level": "medium"},
+    {"q": "If tan A = 1 and A is acute, then A is:", "options": ["45°", "30°", "60°", "90°"], "answer": 0, "explain": "tan 45° = 1, since the opposite and adjacent sides are equal in an isosceles right triangle.", "topic": "using-specific-values", "level": "easy"},
+    {"q": "(1 − tan²45°) ÷ (1 + tan²45°) = ?", "options": ["1", "−1", "2", "0"], "answer": 3, "explain": "tan 45° = 1, so the expression is (1 − 1)/(1 + 1) = 0/2 = 0.", "topic": "using-specific-values", "level": "medium"},
+    {"q": "9 sec²A − 9 tan²A = ?", "options": ["1", "9", "8", "0"], "answer": 1, "explain": "9(sec²A − tan²A) = 9 × 1 = 9, using 1 + tan²A = sec²A.", "topic": "trigonometric-identities", "level": "medium"},
+    {"q": "In ΔABC, ∠B = 90°, ∠C = 30° and AB = 5 cm. The length of AC is:", "options": ["5√3 cm", "5 cm", "10 cm", "10√3 cm"], "answer": 2, "explain": "For ∠C, AB is opposite and AC is the hypotenuse. sin 30° = AB/AC → ½ = 5/AC → AC = 10 cm.", "topic": "using-specific-values", "level": "hard"}
+  ]
+}

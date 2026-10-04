@@ -1,0 +1,120 @@
+{
+  "id": "c10-math-heights-distances",
+  "class": 10,
+  "subject": "mathematics",
+  "name": "Some Applications of Trigonometry",
+  "summary": "This chapter uses trigonometric ratios to find heights of objects and distances between them without measuring directly. It introduces the line of sight, angle of elevation and angle of depression, and solves height-and-distance problems using one or two right triangles with angles of 30°, 45° and 60°.",
+  "topics": [
+    {
+      "id": "line-of-sight-and-angles",
+      "title": "Line of sight, angle of elevation and angle of depression",
+      "summary": "The angle between the line of sight and the horizontal is the angle of elevation (object above) or the angle of depression (object below).",
+      "simple": "When you look at something, imagine a straight line from your eye to it — the **line of sight**. If you look **up**, the angle between this line and the flat horizontal line is the **angle of elevation**. If you look **down**, it is the **angle of depression**.",
+      "explain": "**Line of sight:** the straight line drawn from the eye of the observer to the point on the object being viewed.\n\n**Horizontal line:** the level line through the observer's eye.\n\n**Angle of elevation:** when the object is **above** the horizontal level of the eye (e.g. looking at the top of a tower), the angle between the line of sight and the horizontal is the angle of elevation. You raise your head to see the object.\n\n**Angle of depression:** when the object is **below** the horizontal level of the eye (e.g. looking down at a boat from a cliff), the angle between the line of sight and the horizontal is the angle of depression. You lower your head.\n\n**Key fact:** the angle of elevation of B as seen from A **equals** the angle of depression of A as seen from B. This is because the two horizontal lines (at A and at B) are parallel and the line of sight is a transversal, so the angles are **alternate angles**.\n\n**Effect of distance:** as you walk **towards** a tower, the angle of elevation of its top **increases**; as you walk away, it **decreases**.\n\n**Measuring angles:** in real life, angles are measured with an instrument called a **clinometer** (or theodolite). Then trigonometry gives the height or distance.",
+      "example": "A girl stands on the roof of a building and sees a car on the road below at an angle of depression of 30°. The driver, looking up at the girl, sees her at an angle of elevation of 30° as well — the two angles are alternate angles between parallel horizontal lines.",
+      "keyPoints": ["Line of sight joins the eye to the object", "Object above eye level → angle of elevation", "Object below eye level → angle of depression", "Both angles are measured from the horizontal, not the vertical", "Angle of elevation from A to B = angle of depression from B to A (alternate angles)", "Moving closer increases the angle of elevation"],
+      "keywords": ["line of sight", "angle of elevation", "angle of depression", "horizontal", "elevation and depression difference", "clinometer", "heights and distances", "chapter 9", "ch 9 maths", "applications of trigonometry", "alternate angles"]
+    },
+    {
+      "id": "problems-with-elevation",
+      "title": "Finding heights and distances using the angle of elevation",
+      "summary": "Draw the right triangle formed by the object, the ground and the line of sight, then use tan, sin or cos to find the unknown side.",
+      "simple": "Most problems make a right triangle: the tall object is one side, the ground is another, and the line of sight is the hypotenuse. If you know one side and the angle, use the right ratio to find the missing side.",
+      "explain": "**Typical set-up:** a vertical object (tower, tree, pole, building) stands on level ground. Its foot, its top and the observer's position make a right triangle with the right angle at the foot.\n\n**Choosing the ratio:**\n- Height and distance from the foot involved → **tan θ = height/distance**\n- Height and length of a slanting line (ladder, kite string, rope) → **sin θ = height/length**\n- Distance along the ground and slanting length → **cos θ = distance/length**\n\n**Observer's height:** if the observer's eye is above the ground (say 1.5 m), subtract it from the object's height first. The right triangle is then formed at **eye level**, not ground level.\n\n**Answers:** keep surds like 15√3, or convert using √3 ≈ 1.732, √2 ≈ 1.414 if asked.",
+      "example": "**(a)** A tower stands vertically. From a point 15 m from its foot, the angle of elevation of the top is 60°. Find the height.\n1. tan 60° = h/15\n2. √3 = h/15 → h = **15√3 m** ≈ 15 × 1.732 = 25.98 m\n\n**(b)** A kite is flying at a height of 60 m. Its string makes an angle of 60° with the ground. Find the length of the string (assume it is tight).\n1. sin 60° = 60/L\n2. √3/2 = 60/L → L = 120/√3 = 40√3 m ≈ **69.28 m**\n\n**(c)** A 1.5 m tall boy stands 28.5 m from a chimney 30 m high. Find the angle of elevation of the top.\n1. Height above eye level = 30 − 1.5 = 28.5 m\n2. tan θ = 28.5/28.5 = 1 → θ = **45°**",
+      "keyPoints": ["Draw a neat figure and mark the right angle", "tan connects height and horizontal distance", "sin or cos is used when a slant length (ladder, string) is involved", "Subtract the observer's height when the eye is above the ground", "Use √3 ≈ 1.732 for decimal answers"],
+      "keywords": ["height of tower", "find height", "find distance", "angle of elevation problem", "kite string length", "ladder problem", "observer height", "tan 60 height", "heights and distances numericals"]
+    },
+    {
+      "id": "problems-with-depression",
+      "title": "Problems using the angle of depression",
+      "summary": "Convert the angle of depression into an equal angle of elevation (or an alternate angle inside the triangle) and solve the right triangle.",
+      "simple": "When someone looks down from a height, the angle of depression sits outside the triangle at the top. But it is equal to the angle at the bottom (the angle of elevation from the object), so you can put that angle inside the triangle and solve as usual.",
+      "explain": "**Typical situations:** looking down from a lighthouse at a ship, from a cliff at a boat, from a balcony at a car, or from an aeroplane at a point on the ground.\n\n**The trick:** the angle of depression is measured from the horizontal line through the observer's eye, which is **outside** the right triangle. Because the horizontal at the top is parallel to the ground, the angle of depression equals the angle between the line of sight and the ground at the object's position (alternate angles). Use that angle inside the triangle.\n\n**Steps:**\n1. Draw the vertical height (cliff, lighthouse) and the ground.\n2. Mark the object on the ground and join it to the top (line of sight).\n3. Mark the angle of depression at the top, then the equal angle at the object.\n4. Use tan θ = height/horizontal distance (or sin/cos as needed).\n\n**Two objects:** if two boats on the same side are seen at two angles of depression, the boat with the **larger** angle is **closer** to the foot.",
+      "example": "From the top of a 75 m high lighthouse, the angle of depression of a ship is 30°. How far is the ship from the foot of the lighthouse?\n1. The angle at the ship (angle of elevation of the top) = 30°.\n2. tan 30° = 75/d\n3. 1/√3 = 75/d → d = **75√3 m** ≈ 75 × 1.732 = 129.9 m",
+      "keyPoints": ["Angle of depression is measured from the horizontal at the observer", "It equals the angle of elevation from the object (alternate angles)", "Shift the angle inside the triangle before using a ratio", "Larger angle of depression means the object is nearer", "Mark the angles carefully — this is where most errors happen"],
+      "keywords": ["angle of depression problem", "lighthouse ship", "cliff boat", "top of tower depression", "depression to elevation", "alternate angles depression", "distance of ship"]
+    },
+    {
+      "id": "two-triangle-problems",
+      "title": "Problems involving two right triangles",
+      "summary": "When two angles are given (two positions, or an object on top of another), form two right triangles with a common side and solve them together.",
+      "simple": "Some questions give you **two** angles — for example, you see a tower from two different spots, or you see both the top and the bottom of a tower from a building. Then you get two right triangles sharing a side. Write one equation from each triangle and solve them.",
+      "explain": "**Common types:**\n- **Two observation points on the same line:** angles of elevation from two points (say 30° and 60°) at a known distance apart. Call the height h and the unknown distance x.\n- **Object on top of another:** a flagstaff on a building, a statue on a pedestal. One triangle uses the angle to the bottom of the top object, the other uses the angle to its top.\n- **Elevation and depression from a building:** from the top of a building, the top of a taller tower is seen at an angle of elevation and its foot at an angle of depression.\n\n**Method:**\n1. Draw the figure and label the **common side** (often the height h or a distance x).\n2. Write one trigonometric equation for each triangle.\n3. Express one unknown in terms of the other from the simpler equation (often with tan 45° = 1 or tan 60° = √3).\n4. Substitute into the second equation and solve.\n\n**Syllabus note:** problems use angles of 30°, 45° and 60° only, and at most two right triangles.",
+      "example": "**(a)** The angle of elevation of the top of a tower from a point on the ground is 30°. On walking 20 m towards the tower, it becomes 60°. Find the height.\n1. Let height = h and the nearer distance = x.\n2. Near point: tan 60° = h/x → h = x√3\n3. Far point: tan 30° = h/(x + 20) → x + 20 = h√3 = x√3 × √3 = 3x\n4. So 2x = 20, x = 10 m and h = **10√3 m** ≈ 17.32 m\n\n**(b)** From the top of a 7 m high building, the angle of elevation of the top of a tower is 60° and the angle of depression of its foot is 45°. Find the tower's height.\n1. Depression 45°: distance between them d = 7/tan 45° = 7 m\n2. Part of the tower above the building's top = d × tan 60° = 7√3 m\n3. Tower height = 7 + 7√3 = 7(1 + √3) m ≈ 7 × 2.732 = **19.12 m**",
+      "keyPoints": ["Two angles usually mean two right triangles with a common side", "Use letters like h and x for the unknowns", "Write one equation per triangle, then substitute", "tan 45° = 1 often gives an easy first equation", "Add or subtract parts of heights carefully"],
+      "keywords": ["two angles of elevation", "walking towards tower", "flagstaff on building", "statue on pedestal", "elevation and depression from building", "two triangles", "30 and 60 degree problem", "height of tower two points", "hots heights and distances"]
+    },
+    {
+      "id": "shadows-and-problem-solving",
+      "title": "Shadows and a step-by-step strategy",
+      "summary": "The sun's altitude is the angle of elevation of the sun; the higher the sun, the shorter the shadow. A clear figure and a fixed method make every problem manageable.",
+      "simple": "The angle the sun's rays make with the ground is the sun's **altitude** (an angle of elevation). When the sun is high, shadows are short; when it is low, shadows are long. You can find heights from shadows using tan.",
+      "explain": "**Shadow problems:** the object is vertical, its shadow lies on the ground, and the sun's ray from the top of the object to the tip of the shadow is the hypotenuse.\n- tan(sun's altitude) = height of object ÷ length of shadow\n- If shadow = height, then tan θ = 1 and θ = 45°\n- As the sun's altitude increases, tan θ increases, so the shadow gets **shorter**\n\n**General strategy for any heights-and-distances problem:**\n1. Read the question twice and draw a rough figure.\n2. Mark the vertical object, the horizontal ground and all right angles.\n3. Mark every given angle **from the horizontal**.\n4. Label known lengths and choose letters for unknowns.\n5. Pick the ratio that links the known and unknown sides (usually tan).\n6. Solve, rationalise the denominator if needed, and give units.\n7. Check that the answer is sensible (a 60° angle should give a height larger than the distance).",
+      "example": "The shadow of a tower is 40 m longer when the sun's altitude is 30° than when it is 60°. Find the height of the tower.\n1. Let height = h.\n2. At 60°: shadow = h/tan 60° = h/√3\n3. At 30°: shadow = h/tan 30° = h√3\n4. Difference: h√3 − h/√3 = 40 → (3h − h)/√3 = 40 → 2h/√3 = 40\n5. h = 20√3 m ≈ **34.64 m**\n\nQuick check: a 6 m pole casting a 2√3 m shadow gives tan θ = 6/(2√3) = √3, so the sun's altitude is 60°.",
+      "keyPoints": ["tan(sun's altitude) = height ÷ shadow length", "Shadow equal to height → sun's altitude is 45°", "Higher sun → shorter shadow", "Always measure angles from the horizontal", "Rationalise denominators and give units in the final answer"],
+      "keywords": ["shadow problem", "sun's altitude", "altitude of sun", "length of shadow", "shadow longer", "shadow equals height", "steps to solve heights and distances", "how to draw figure"]
+    }
+  ],
+  "keyConcepts": [
+    {"term": "Line of sight", "meaning": "The straight line from the observer's eye to the point being viewed."},
+    {"term": "Horizontal level", "meaning": "The level line through the observer's eye, from which angles of elevation and depression are measured."},
+    {"term": "Angle of elevation", "meaning": "The angle between the line of sight and the horizontal when the object is above eye level."},
+    {"term": "Angle of depression", "meaning": "The angle between the line of sight and the horizontal when the object is below eye level."},
+    {"term": "Alternate angles", "meaning": "Equal angles formed by a transversal with two parallel lines; they make the angle of depression from A equal to the angle of elevation from B."},
+    {"term": "Sun's altitude", "meaning": "The angle of elevation of the sun, i.e. the angle the sun's rays make with the ground."},
+    {"term": "Clinometer", "meaning": "An instrument used to measure angles of elevation and depression."},
+    {"term": "Heights and distances", "meaning": "Finding heights of objects or distances between them using trigonometric ratios instead of direct measurement."}
+  ],
+  "formulas": [
+    "tan θ = height ÷ horizontal distance",
+    "sin θ = height ÷ slant length (ladder, string, rope)",
+    "cos θ = horizontal distance ÷ slant length",
+    "tan 30° = 1/√3, tan 45° = 1, tan 60° = √3",
+    "sin 30° = ½, sin 45° = 1/√2, sin 60° = √3/2",
+    "√3 ≈ 1.732, √2 ≈ 1.414 (for decimal answers)"
+  ],
+  "commonMistakes": [
+    "Measuring the angle of elevation or depression from the vertical instead of the horizontal.",
+    "Putting the angle of depression inside the triangle at the top, instead of using the equal alternate angle at the object.",
+    "Forgetting to subtract the observer's height when the eye is above the ground.",
+    "Using sin when the question gives a horizontal distance — tan links height and horizontal distance.",
+    "Mixing up tan 30° and tan 60°; check that a larger angle gives a larger height for the same distance.",
+    "In two-triangle problems, using the total distance in the wrong triangle (e.g. x instead of x + 20).",
+    "Leaving out units or not rationalising answers like 120/√3 (= 40√3)."
+  ],
+  "revision": [
+    "Line of sight: from the eye to the object.",
+    "Angle of elevation: object above the horizontal through the eye.",
+    "Angle of depression: object below the horizontal through the eye.",
+    "Angle of elevation of B from A = angle of depression of A from B.",
+    "Walking towards an object increases its angle of elevation.",
+    "tan θ = height/distance is used in most problems.",
+    "Shadow equal to height means the sun's altitude is 45°.",
+    "Higher sun → shorter shadow.",
+    "Two angles given → two right triangles with a common side.",
+    "Subtract the observer's height from the object's height before using the ratio.",
+    "Problems in the syllabus use 30°, 45° and 60° and at most two right triangles."
+  ],
+  "faqs": [
+    {"q": "What is the difference between angle of elevation and angle of depression?", "a": "Both are measured between the line of sight and the **horizontal** through the observer's eye. If you look **up** at the object, it is the **angle of elevation**; if you look **down**, it is the **angle of depression**.", "keywords": ["elevation vs depression", "difference elevation depression", "angle of elevation meaning"]},
+    {"q": "Why is the angle of depression equal to the angle of elevation?", "a": "The horizontal line at the observer (top) and the ground (bottom) are parallel. The line of sight cuts both, so the angle of depression at the top and the angle of elevation at the bottom are **alternate interior angles**, which are equal.", "keywords": ["why depression equals elevation", "alternate angles", "angle of depression equal"]},
+    {"q": "How do I know whether to use sin, cos or tan?", "a": "Look at which two sides are involved. Height and distance along the ground → **tan**. Height and a slanting length (ladder, string, wire) → **sin**. Ground distance and slanting length → **cos**.", "keywords": ["which ratio to use", "sin or tan", "when to use tan", "choose ratio"]},
+    {"q": "Should I give the answer as 10√3 or 17.32?", "a": "Both are correct. If the question says 'use √3 = 1.732' or asks for an approximate value, give the decimal. Otherwise, the exact surd form (10√3 m) is fine. Always include the unit.", "keywords": ["surd or decimal", "root 3 value", "1.732", "final answer form"]},
+    {"q": "What happens to the shadow when the sun rises higher?", "a": "As the sun's altitude increases, tan θ = height/shadow increases. For a fixed height, the shadow must get **shorter**. At noon the sun is highest, so shadows are shortest.", "keywords": ["shadow length sun", "sun rises shadow", "shadow shorter"]}
+  ],
+  "quiz": [
+    {"q": "When you look up at the top of a tower, the angle between your line of sight and the horizontal is called the:", "options": ["Angle of depression", "Angle of elevation", "Right angle", "Reflex angle"], "answer": 1, "explain": "The object is above eye level, so the angle is the angle of elevation.", "topic": "line-of-sight-and-angles", "level": "easy"},
+    {"q": "The angle of elevation of the top of a tower from a point 30 m from its foot is 45°. The height of the tower is:", "options": ["15 m", "30√3 m", "30 m", "10√3 m"], "answer": 2, "explain": "tan 45° = h/30 → 1 = h/30 → h = 30 m.", "topic": "problems-with-elevation", "level": "easy"},
+    {"q": "A ladder leaning against a wall makes an angle of 60° with the ground. Its foot is 2 m from the wall. The length of the ladder is:", "options": ["4 m", "2√3 m", "2 m", "8 m"], "answer": 0, "explain": "cos 60° = 2/L → ½ = 2/L → L = 4 m.", "topic": "problems-with-elevation", "level": "medium"},
+    {"q": "As an observer walks towards a tower, the angle of elevation of its top:", "options": ["Decreases", "Stays the same", "Becomes 0°", "Increases"], "answer": 3, "explain": "The horizontal distance decreases while the height stays the same, so tan θ = h/d increases and θ increases.", "topic": "line-of-sight-and-angles", "level": "easy"},
+    {"q": "If the length of the shadow of a pole equals its height, the sun's altitude is:", "options": ["30°", "60°", "45°", "90°"], "answer": 2, "explain": "tan θ = height/shadow = 1, so θ = 45°.", "topic": "shadows-and-problem-solving", "level": "easy"},
+    {"q": "The angle of depression of a point B from a point A is 35°. The angle of elevation of A from B is:", "options": ["35°", "55°", "145°", "70°"], "answer": 0, "explain": "They are alternate angles between parallel horizontal lines, so they are equal: 35°.", "topic": "line-of-sight-and-angles", "level": "easy"},
+    {"q": "From the top of a 75 m high lighthouse, the angle of depression of a ship is 30°. The distance of the ship from the foot of the lighthouse is:", "options": ["75 m", "25√3 m", "150 m", "75√3 m"], "answer": 3, "explain": "The angle at the ship is 30°. tan 30° = 75/d → 1/√3 = 75/d → d = 75√3 m.", "topic": "problems-with-depression", "level": "medium"},
+    {"q": "A 6 m tall pole casts a shadow of 2√3 m. The sun's altitude is:", "options": ["30°", "60°", "45°", "90°"], "answer": 1, "explain": "tan θ = 6/(2√3) = 3/√3 = √3, so θ = 60°.", "topic": "shadows-and-problem-solving", "level": "medium"},
+    {"q": "A kite is flying at a height of 60 m and its tight string makes 60° with the ground. The length of the string is:", "options": ["60√3 m", "40√3 m", "120 m", "30 m"], "answer": 1, "explain": "sin 60° = 60/L → √3/2 = 60/L → L = 120/√3 = 40√3 m.", "topic": "problems-with-elevation", "level": "medium"},
+    {"q": "The angle of elevation of a tower's top changes from 30° to 60° when an observer walks 20 m towards it. The height of the tower is:", "options": ["10√3 m", "10 m", "20√3 m", "20 m"], "answer": 0, "explain": "h = x√3 and x + 20 = h√3 = 3x, so x = 10 m and h = 10√3 m.", "topic": "two-triangle-problems", "level": "hard"},
+    {"q": "From the top of a 7 m building, the angle of elevation of a tower's top is 60° and the angle of depression of its foot is 45°. The height of the tower is:", "options": ["7√3 m", "14 m", "7(1 + √3) m", "7(√3 − 1) m"], "answer": 2, "explain": "Distance = 7/tan 45° = 7 m. Height above the building = 7 tan 60° = 7√3 m. Total = 7 + 7√3 = 7(1 + √3) m.", "topic": "two-triangle-problems", "level": "hard"},
+    {"q": "A 1.5 m tall boy stands 28.5 m from a 30 m high chimney. The angle of elevation of the chimney's top from his eyes is:", "options": ["30°", "60°", "90°", "45°"], "answer": 3, "explain": "Height above eye level = 30 − 1.5 = 28.5 m. tan θ = 28.5/28.5 = 1, so θ = 45°.", "topic": "problems-with-elevation", "level": "medium"}
+  ]
+}

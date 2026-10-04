@@ -1,0 +1,125 @@
+{
+  "id": "c10-math-areas-circles",
+  "class": 10,
+  "subject": "mathematics",
+  "name": "Areas Related to Circles",
+  "summary": "This chapter finds the areas of parts of a circular region. After a quick recall of the circumference (2πr) and area (πr²) of a circle, it defines sectors and segments, derives the length of an arc and the area of a sector using the angle at the centre, and finds the area of a segment as the area of the sector minus the area of a triangle. These ideas are applied to clock hands, grazing animals, wipers and similar real-life situations.",
+  "topics": [
+    {
+      "id": "circle-recap",
+      "title": "Circumference and area of a circle (recap)",
+      "summary": "Circumference = 2πr and area = πr², where π is the constant ratio of circumference to diameter (about 22/7 or 3.14).",
+      "simple": "The distance around a circle is its **circumference**, which is 2πr. The space inside is its **area**, which is πr². π is a fixed number, roughly 3.14 or 22/7, for every circle.",
+      "explain": "For any circle, the ratio circumference ÷ diameter is always the same number, called **π (pi)**. π is irrational; its value is about 3.14159. In calculations we usually use **π = 22/7** or **π = 3.14**, as the question says.\n\nWith radius r and diameter d = 2r:\n- **Circumference (perimeter)** = πd = **2πr**\n- **Area** = **πr²**\n\nThese two formulas are the base for everything in this chapter, because a sector or arc is just a **fraction** of the full circle.\n\n**Choosing π:**\n- If r is a multiple of 7 (7, 14, 21, 28…), 22/7 makes the arithmetic neat.\n- If r is like 10 or 12, 3.14 is often easier.\n- If the question says 'take π = 3.14', you must use 3.14.\n\n**Units:** lengths are in cm, m, km; areas are in cm², m², km².",
+      "example": "**(a)** Find the circumference and area of a circle of radius 7 cm (π = 22/7).\n1. Circumference = 2 × 22/7 × 7 = **44 cm**\n2. Area = 22/7 × 7 × 7 = **154 cm²**\n\n**(b)** A circle has area 154 cm². Find its radius.\nπr² = 154 → 22/7 × r² = 154 → r² = 154 × 7/22 = 49 → r = **7 cm**",
+      "keyPoints": ["π = circumference ÷ diameter, the same for all circles", "Circumference = 2πr = πd", "Area = πr²", "Use π = 22/7 when r is a multiple of 7, else 3.14 (or as told)", "Area units are squared (cm², m²)"],
+      "keywords": ["circumference", "perimeter of circle", "area of circle", "pi", "22/7", "3.14", "2πr", "πr²", "find radius from area", "chapter 11", "ch 11 maths", "areas related to circles"]
+    },
+    {
+      "id": "sector-and-arc-length",
+      "title": "Sectors, segments and the length of an arc",
+      "summary": "A sector is bounded by two radii and an arc; a segment by a chord and an arc. Arc length = (θ/360°) × 2πr.",
+      "simple": "Cut a round pizza from the centre: each slice is a **sector**. Cut it with one straight line not through the centre: the smaller piece is a **segment**. The curved edge of a sector is an **arc**, and its length is a fraction of the whole circumference.",
+      "explain": "**Sector:** the region enclosed by **two radii** and the arc between them.\n- If the angle at the centre is θ, the smaller region is the **minor sector** and the rest is the **major sector** with angle **360° − θ**.\n\n**Segment:** the region enclosed by a **chord** and the arc it cuts off.\n- The smaller one is the **minor segment**, the larger one is the **major segment**.\n\nUnless stated otherwise, 'sector' and 'segment' mean the **minor** ones.\n\n**Length of an arc:** a full turn at the centre is 360° and gives the full circumference 2πr. An angle of 1° gives 2πr/360. So an angle θ gives\n**length of arc l = (θ/360°) × 2πr**.\n\n**Perimeter of a sector** = two radii + arc = **2r + l**.\n\n**Quick fractions:** θ = 90° is ¼ of the circle (a **quadrant**), θ = 180° is ½ (a semicircle), θ = 60° is 1/6, θ = 120° is 1/3.",
+      "example": "Find the arc length and the perimeter of a sector of radius 21 cm and angle 60° (π = 22/7).\n1. l = (60/360) × 2 × 22/7 × 21 = (1/6) × 132 = **22 cm**\n2. Perimeter = 2 × 21 + 22 = **64 cm**",
+      "keyPoints": ["Sector: two radii + arc; segment: chord + arc", "Major sector angle = 360° − θ", "Arc length l = (θ/360°) × 2πr", "Perimeter of sector = 2r + l", "90° sector = quadrant = ¼ circle"],
+      "keywords": ["sector", "segment", "minor sector", "major sector", "minor segment", "major segment", "arc", "length of arc", "arc length formula", "perimeter of sector", "quadrant", "angle of sector"]
+    },
+    {
+      "id": "area-of-sector",
+      "title": "Area of a sector",
+      "summary": "Area of a sector with angle θ is (θ/360°) × πr²; the major sector's area is πr² minus the minor sector's area.",
+      "simple": "A sector is a fraction of the whole circle. If the angle is θ out of 360°, the sector's area is that same fraction of πr².",
+      "explain": "**Derivation by proportion:**\n- An angle of 360° at the centre corresponds to the whole area πr².\n- So an angle of 1° corresponds to πr²/360.\n- An angle of θ corresponds to\n**Area of sector = (θ/360°) × πr²**.\n\n**Major sector:** area = πr² − area of minor sector, or directly ((360° − θ)/360°) × πr².\n\n**Link with arc length:** since l = (θ/360°) × 2πr, the area can also be written as **Area = ½ × l × r**. This is useful when the arc length is given instead of the angle.\n\n**Steps to solve:**\n1. Identify r and θ (convert time on a clock or a fraction of a turn into degrees if needed).\n2. Find the fraction θ/360 and simplify it.\n3. Multiply by πr², using the π value given.",
+      "example": "**(a)** Find the area of a sector of radius 4 cm and angle 30° (π = 3.14).\nArea = (30/360) × 3.14 × 4 × 4 = (1/12) × 50.24 ≈ **4.19 cm²**\nMajor sector = 3.14 × 16 − 4.19 = 50.24 − 4.19 = **46.05 cm²**\n\n**(b)** Radius 21 cm, angle 60° (π = 22/7): Area = (1/6) × 22/7 × 441 = (1/6) × 1386 = **231 cm²**.\nCheck with ½ × l × r: l = 22 cm (from the arc example), so ½ × 22 × 21 = 231 cm² ✓",
+      "keyPoints": ["Area of sector = (θ/360°) × πr²", "Major sector = πr² − minor sector", "Area of sector = ½ × arc length × radius", "Simplify θ/360 first: 60° → 1/6, 90° → 1/4, 120° → 1/3", "Use the π value the question gives"],
+      "keywords": ["area of sector", "sector area formula", "θ/360 πr²", "area of major sector", "area of quadrant", "half lr", "sector problems", "area of sector 60 degree"]
+    },
+    {
+      "id": "area-of-segment",
+      "title": "Area of a segment",
+      "summary": "Area of the minor segment = area of the sector − area of the triangle formed by the two radii and the chord; problems use central angles of 60°, 90° and 120°.",
+      "simple": "A segment is what is left of a sector after you remove the triangle made by the two radii and the chord. So: **segment = sector − triangle**.",
+      "explain": "Let chord AB subtend angle θ at the centre O.\n\n**Area of minor segment APB = area of sector OAPB − area of ΔOAB**\n**Area of major segment = πr² − area of minor segment**\n\n**Finding the area of ΔOAB** (OA = OB = r) for the angles used in the syllabus:\n- **θ = 90°:** ΔOAB is right-angled at O, so area = ½ × r × r = **½r²**.\n- **θ = 60°:** OA = OB and the angle between them is 60°, so the triangle is **equilateral** with side r. Area = **(√3/4) r²**.\n- **θ = 120°:** draw OM ⊥ AB. OM bisects ∠AOB, so ∠AOM = 60°. Then OM = r cos 60° = r/2 and AM = r sin 60° = (√3/2) r, so AB = √3 r. Area = ½ × AB × OM = ½ × √3 r × r/2 = **(√3/4) r²**.\n\n(Notice the 60° and 120° triangles happen to have the same area.)\n\n**Steps:**\n1. Area of sector = (θ/360°) × πr².\n2. Area of triangle from the cases above.\n3. Subtract. Use √3 ≈ 1.73 or 1.732 as given.",
+      "example": "**(a)** Radius 10 cm, chord subtends 90° (π = 3.14).\n1. Sector = ¼ × 3.14 × 100 = 78.5 cm²\n2. Triangle = ½ × 10 × 10 = 50 cm²\n3. Minor segment = 78.5 − 50 = **28.5 cm²**\n4. Major segment = 314 − 28.5 = **285.5 cm²**\n\n**(b)** Radius 21 cm, angle 120° (π = 22/7, √3 = 1.73).\n1. Sector = (1/3) × 22/7 × 441 = 1386/3 = 462 cm²\n2. Triangle = (√3/4) × 441 = 441 × 1.73 ÷ 4 = 762.93 ÷ 4 ≈ 190.73 cm²\n3. Segment = 462 − 190.73 = **271.27 cm²**",
+      "keyPoints": ["Minor segment = sector − triangle OAB", "Major segment = circle − minor segment", "90°: triangle area = ½r²", "60°: equilateral triangle, area = (√3/4)r²", "120°: triangle area = (√3/4)r² (using the perpendicular from O)", "Use √3 ≈ 1.73 or 1.732 as given"],
+      "keywords": ["area of segment", "segment area formula", "minor segment area", "major segment area", "sector minus triangle", "segment 60 degree", "segment 90 degree", "segment 120 degree", "equilateral triangle area √3/4"]
+    },
+    {
+      "id": "real-life-applications",
+      "title": "Real-life problems on sectors and segments",
+      "summary": "Clock hands, grazing animals, car wipers, umbrellas and lighthouse beams all sweep out sectors, so their areas use the sector formula.",
+      "simple": "Many things turn about a fixed point and sweep out a slice of a circle: the minute hand of a clock, a goat tied with a rope, a car wiper. Find the radius and the angle, then use the sector formula.",
+      "explain": "**Common situations:**\n- **Clock hands:** the minute hand turns 360° in 60 minutes, i.e. **6° per minute**. The hour hand turns 360° in 12 hours, i.e. 30° per hour. The length of the hand is the radius.\n- **Animal tied with a rope:** the rope length is the radius. Tied at the **corner of a square or rectangular field** → it can graze a quadrant (90°). Tied at the corner of an equilateral triangular field → a 60° sector.\n- **Car wipers:** each blade sweeps a sector with the blade length as radius and the sweep angle as θ.\n- **Lighthouse beam:** the light spreads over a sector; the distance it reaches is the radius.\n- **Umbrella with equal ribs:** n ribs divide the circle into n equal sectors of angle 360°/n each.\n- **Brooch or design with diameters:** a circle divided by equal diameters into equal sectors; the arc lengths add up to the circumference.\n\n**Steps:** identify r, find θ in degrees, then use arc or area formulas. For 'increase in area' questions, find both areas and subtract.",
+      "example": "**(a)** The minute hand of a clock is 14 cm long. Find the area swept in 5 minutes (π = 22/7).\n1. Angle = 5 × 6° = 30°\n2. Area = (30/360) × 22/7 × 14 × 14 = (1/12) × 616 ≈ **51.33 cm²**\n\n**(b)** A horse is tied to a corner peg of a square field of side 15 m with a 5 m rope. Find the area it can graze (π = 3.14).\n1. The corner angle is 90°, so it grazes a quadrant of radius 5 m.\n2. Area = ¼ × 3.14 × 25 = **19.625 m²**\n3. If the rope were 10 m: ¼ × 3.14 × 100 = 78.5 m², an increase of 78.5 − 19.625 = **58.875 m²**.",
+      "keyPoints": ["Minute hand: 6° per minute; hour hand: 30° per hour", "Rope length = radius of grazing region", "Corner of a square field → quadrant (90°)", "Wipers and lighthouse beams sweep sectors", "n equal ribs or sectors → each angle = 360°/n"],
+      "keywords": ["minute hand area swept", "clock problem", "horse grazing", "goat tied rope", "car wipers area", "lighthouse sector", "umbrella ribs", "brooch wire", "real life sector problems"]
+    }
+  ],
+  "keyConcepts": [
+    {"term": "π (pi)", "meaning": "The constant ratio of the circumference of a circle to its diameter; about 22/7 or 3.14."},
+    {"term": "Circumference", "meaning": "The perimeter of a circle, 2πr."},
+    {"term": "Arc", "meaning": "A part of the circumference between two points on the circle."},
+    {"term": "Sector", "meaning": "The region of a circle enclosed by two radii and the arc between them."},
+    {"term": "Minor and major sector", "meaning": "The smaller sector (angle θ) and the larger sector (angle 360° − θ)."},
+    {"term": "Segment", "meaning": "The region of a circle enclosed by a chord and its arc."},
+    {"term": "Minor and major segment", "meaning": "The smaller and the larger of the two regions into which a chord divides a circle."},
+    {"term": "Angle of the sector", "meaning": "The angle the arc subtends at the centre of the circle."},
+    {"term": "Quadrant", "meaning": "A sector with a 90° angle; one quarter of a circle."}
+  ],
+  "formulas": [
+    "Circumference = 2πr",
+    "Area of circle = πr²",
+    "Length of arc l = (θ/360°) × 2πr",
+    "Perimeter of sector = 2r + l",
+    "Area of sector = (θ/360°) × πr² = ½ × l × r",
+    "Area of major sector = πr² − area of minor sector",
+    "Area of minor segment = area of sector − area of ΔOAB",
+    "Area of major segment = πr² − area of minor segment",
+    "Area of ΔOAB: ½r² (θ = 90°), (√3/4)r² (θ = 60° or 120°)"
+  ],
+  "commonMistakes": [
+    "Using 2πr instead of πr² for area (or the other way round for arc length).",
+    "Using the diameter as r — always halve the diameter first.",
+    "Forgetting to subtract the triangle when finding the area of a segment.",
+    "Treating the triangle for a 120° segment as equilateral — only the 60° one is equilateral (though both have area (√3/4)r²).",
+    "Leaving out the two radii when asked for the perimeter of a sector.",
+    "Using 22/7 when the question says π = 3.14 (or vice versa).",
+    "Forgetting that the minute hand moves 6° per minute when converting time into an angle."
+  ],
+  "revision": [
+    "Circumference = 2πr; area = πr².",
+    "A sector is bounded by two radii and an arc; a segment by a chord and an arc.",
+    "Arc length = (θ/360°) × 2πr.",
+    "Area of sector = (θ/360°) × πr².",
+    "Area of sector also = ½ × arc length × radius.",
+    "Major sector = πr² − minor sector.",
+    "Segment = sector − triangle.",
+    "90° triangle area = ½r²; 60° and 120° triangle area = (√3/4)r².",
+    "Major segment = circle − minor segment.",
+    "Perimeter of a sector = 2r + arc length.",
+    "Minute hand turns 6° per minute.",
+    "Segment problems use central angles of 60°, 90° and 120° only."
+  ],
+  "faqs": [
+    {"q": "What is the difference between a sector and a segment?", "a": "A **sector** is bounded by **two radii** and an arc — like a slice of pizza, it has the centre as a corner. A **segment** is bounded by a **chord** and an arc — it does not include the centre (for a minor segment). Area of segment = area of sector − area of triangle.", "keywords": ["sector vs segment", "difference sector segment", "sector and segment"]},
+    {"q": "Should I use π = 22/7 or 3.14?", "a": "Use whatever the question says. If nothing is given, 22/7 is convenient when the radius is a multiple of 7, and 3.14 is convenient otherwise. Both give answers that are accepted as approximate values.", "keywords": ["22/7 or 3.14", "which value of pi", "value of pi to use"]},
+    {"q": "How do I find the area of the triangle in a segment problem?", "a": "The triangle has two sides equal to the radius. For **90°**, it is right-angled: area = ½r². For **60°**, it is equilateral: area = (√3/4)r². For **120°**, drop a perpendicular from the centre to the chord; you get height r/2 and base √3 r, so area = (√3/4)r².", "keywords": ["triangle area segment", "area of triangle oab", "120 degree segment triangle"]},
+    {"q": "Are areas of combinations of plane figures (like designs made of squares and circles) in the syllabus?", "a": "In the rationalised NCERT textbook, the chapter focuses on the area of sectors and segments, with only a brief recall of the circumference and area of a circle. The separate section on areas of combinations of plane figures was removed. Check with your teacher if your school sets such questions.", "keywords": ["combination of plane figures", "deleted topics areas related to circles", "removed sections", "rationalised syllabus"]},
+    {"q": "How do I find the area swept by the minute hand?", "a": "The minute hand turns 360° in 60 minutes, so 6° per minute. Multiply the minutes by 6 to get θ, take the hand's length as r, and use (θ/360°) × πr². For 5 minutes with a 14 cm hand: θ = 30°, area = (1/12) × 616 ≈ 51.33 cm².", "keywords": ["minute hand", "clock area swept", "area swept by minute hand"]}
+  ],
+  "quiz": [
+    {"q": "The area of a sector of angle θ in a circle of radius r is:", "options": ["(θ/360°) × 2πr", "(θ/360°) × πr²", "(θ/180°) × πr²", "½ πr²θ"], "answer": 1, "explain": "A sector is the fraction θ/360 of the whole circle, so its area is (θ/360°) × πr². (θ/360°) × 2πr is the arc length.", "topic": "area-of-sector", "level": "easy"},
+    {"q": "The length of an arc of a circle of radius 21 cm subtending 60° at the centre is (π = 22/7):", "options": ["11 cm", "44 cm", "22 cm", "66 cm"], "answer": 2, "explain": "l = (60/360) × 2 × 22/7 × 21 = (1/6) × 132 = 22 cm.", "topic": "sector-and-arc-length", "level": "easy"},
+    {"q": "The area of a quadrant of a circle of radius 14 cm is (π = 22/7):", "options": ["154 cm²", "616 cm²", "308 cm²", "44 cm²"], "answer": 0, "explain": "Circle area = 22/7 × 196 = 616 cm². A quadrant is ¼ of it: 154 cm².", "topic": "area-of-sector", "level": "easy"},
+    {"q": "A minor segment is the region bounded by:", "options": ["Two radii and an arc", "Two chords", "A tangent and an arc", "A chord and the minor arc"], "answer": 3, "explain": "A segment is bounded by a chord and an arc; the minor segment uses the minor arc. Two radii and an arc make a sector.", "topic": "sector-and-arc-length", "level": "easy"},
+    {"q": "The minute hand of a clock is 14 cm long. The area it sweeps in 5 minutes is about (π = 22/7):", "options": ["616 cm²", "25.67 cm²", "51.33 cm²", "154 cm²"], "answer": 2, "explain": "In 5 minutes the hand turns 30°. Area = (30/360) × 616 = 616/12 ≈ 51.33 cm².", "topic": "real-life-applications", "level": "medium"},
+    {"q": "A chord of a circle of radius 10 cm subtends a right angle at the centre. The area of the minor segment is (π = 3.14):", "options": ["28.5 cm²", "78.5 cm²", "50 cm²", "21.5 cm²"], "answer": 0, "explain": "Sector = ¼ × 3.14 × 100 = 78.5 cm²; triangle = ½ × 10 × 10 = 50 cm²; segment = 28.5 cm².", "topic": "area-of-segment", "level": "medium"},
+    {"q": "The area of a circle is 154 cm². Its radius is (π = 22/7):", "options": ["14 cm", "3.5 cm", "49 cm", "7 cm"], "answer": 3, "explain": "22/7 × r² = 154 → r² = 49 → r = 7 cm.", "topic": "circle-recap", "level": "easy"},
+    {"q": "In a circle of radius 7 cm, the minor sector has angle 90°. The area of the major sector is (π = 22/7):", "options": ["38.5 cm²", "115.5 cm²", "154 cm²", "77 cm²"], "answer": 1, "explain": "The major sector has angle 270°, i.e. ¾ of the circle: ¾ × 154 = 115.5 cm².", "topic": "area-of-sector", "level": "medium"},
+    {"q": "The perimeter of a sector of radius 21 cm and angle 60° is (π = 22/7):", "options": ["64 cm", "22 cm", "43 cm", "86 cm"], "answer": 0, "explain": "Arc = 22 cm. Perimeter = 2 × 21 + 22 = 64 cm.", "topic": "sector-and-arc-length", "level": "medium"},
+    {"q": "For a chord subtending 60° at the centre, the triangle formed with the two radii has area:", "options": ["½r²", "r²", "(√3/2)r²", "(√3/4)r²"], "answer": 3, "explain": "OA = OB = r with a 60° angle between them makes an equilateral triangle of side r, with area (√3/4)r².", "topic": "area-of-segment", "level": "medium"},
+    {"q": "A horse is tied to a corner of a square field with a 5 m rope. The area it can graze is (π = 3.14):", "options": ["78.5 m²", "19.625 m²", "39.25 m²", "25 m²"], "answer": 1, "explain": "It grazes a quadrant of radius 5 m: ¼ × 3.14 × 25 = 19.625 m².", "topic": "real-life-applications", "level": "medium"},
+    {"q": "The area of the minor segment of a circle of radius 12 cm cut off by a chord subtending 60° at the centre is (π = 3.14, √3 = 1.73):", "options": ["75.36 cm²", "62.28 cm²", "13.08 cm²", "137.64 cm²"], "answer": 2, "explain": "Sector = (1/6) × 3.14 × 144 = 75.36 cm². Triangle = (√3/4) × 144 = 36 × 1.73 = 62.28 cm². Segment = 75.36 − 62.28 = 13.08 cm².", "topic": "area-of-segment", "level": "hard"}
+  ]
+}

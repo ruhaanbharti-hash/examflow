@@ -1,0 +1,125 @@
+{
+  "id": "c10-math-surface-volume",
+  "class": 10,
+  "subject": "mathematics",
+  "name": "Surface Areas and Volumes",
+  "summary": "This chapter finds the surface area and volume of solids made by combining two basic solids — cuboid, cube, cylinder, cone, sphere and hemisphere — such as a toy (cone on a hemisphere), a capsule (cylinder with hemispherical ends) or a tent (cylinder with a conical top). Surface area counts only the exposed faces, while volumes of the parts are simply added (or subtracted when a part is hollowed out).",
+  "topics": [
+    {
+      "id": "basic-solids-recap",
+      "title": "Formulas of basic solids (recap)",
+      "summary": "Curved/lateral surface area, total surface area and volume of the cuboid, cube, cylinder, cone, sphere and hemisphere are the building blocks of this chapter.",
+      "simple": "Before combining solids, you need the formulas for each basic shape: how much area covers its outside (**surface area**) and how much space it holds (**volume**). Learn these well — every problem in this chapter uses them.",
+      "explain": "Let l, b, h be length, breadth, height; a the side of a cube; r the radius; h the height; l the slant height of a cone.\n\n**Cuboid:** lateral SA = 2h(l + b); TSA = 2(lb + bh + hl); volume = l × b × h\n**Cube:** lateral SA = 4a²; TSA = 6a²; volume = a³\n**Right circular cylinder:** CSA = 2πrh; TSA = 2πr(r + h); volume = πr²h\n**Right circular cone:** slant height l = √(r² + h²); CSA = πrl; TSA = πr(l + r); volume = ⅓πr²h\n**Sphere:** surface area = 4πr²; volume = (4/3)πr³\n**Hemisphere:** CSA = 2πr²; TSA = 3πr² (curved part + flat circular base); volume = (2/3)πr³\n\n**Words to know:**\n- **Curved surface area (CSA)** — only the curved part.\n- **Total surface area (TSA)** — curved part plus the flat faces.\n- A cone's volume is one-third of a cylinder with the same base and height.\n\n**Units:** areas in cm², m²; volumes in cm³, m³. 1 litre = 1000 cm³ and 1 m³ = 1000 litres.",
+      "example": "A cone has radius 6 cm and height 8 cm (π = 3.14).\n1. Slant height l = √(6² + 8²) = √(36 + 64) = √100 = 10 cm\n2. CSA = πrl = 3.14 × 6 × 10 = **188.4 cm²**\n3. Volume = ⅓ × 3.14 × 36 × 8 = ⅓ × 904.32 = **301.44 cm³**",
+      "keyPoints": ["Cylinder: CSA 2πrh, volume πr²h", "Cone: l = √(r² + h²), CSA πrl, volume ⅓πr²h", "Sphere: SA 4πr², volume (4/3)πr³", "Hemisphere: CSA 2πr², TSA 3πr², volume (2/3)πr³", "Cuboid volume lbh; cube TSA 6a², volume a³", "1 litre = 1000 cm³"],
+      "keywords": ["surface area formulas", "volume formulas", "csa", "tsa", "curved surface area", "total surface area", "cylinder", "cone", "sphere", "hemisphere", "cuboid", "cube", "slant height", "chapter 12", "ch 12 maths", "surface areas and volumes"]
+    },
+    {
+      "id": "surface-area-of-combinations",
+      "title": "Surface area of a combination of solids",
+      "summary": "The surface area of a combined solid is the sum of the areas of the exposed surfaces only; the faces where two solids are joined are not counted.",
+      "simple": "When two solids are stuck together, the surfaces where they join are hidden inside. So you add only the parts you can see and touch from outside — usually the **curved** surface areas, not the total surface areas.",
+      "explain": "**Key idea:** total surface area of a combination ≠ sum of the total surface areas of the parts. The joined faces disappear inside.\n\n**Method:**\n1. Identify the two solids and how they are joined.\n2. List the surfaces visible from outside.\n3. Write the area of each visible part and add.\n\n**Common shapes:**\n- **Toy: cone on a hemisphere** (same radius) → CSA of hemisphere + CSA of cone = 2πr² + πrl\n- **Capsule: cylinder with a hemisphere at each end** → 2πr² + 2πrh + 2πr² = 2πr(2r + h)\n- **Tent: cylinder with a conical top** (no floor) → CSA of cylinder + CSA of cone = 2πrh + πrl\n- **Two cubes joined face to face** → they form a cuboid; find its TSA directly. Two faces get hidden, so the area is less than the sum.\n\n**Careful with heights:** if the total height of a toy is given, subtract the radius of the hemisphere to get the height of the cone. In a capsule, the cylinder's length = total length − 2r (diameter).",
+      "example": "**(a)** A toy is a cone of radius 3.5 cm on a hemisphere of the same radius. The total height is 15.5 cm. Find its total surface area (π = 22/7).\n1. Height of cone = 15.5 − 3.5 = 12 cm\n2. Slant height l = √(3.5² + 12²) = √(12.25 + 144) = √156.25 = 12.5 cm\n3. CSA of hemisphere = 2πr² = 2 × 22/7 × 12.25 = 77 cm²\n4. CSA of cone = πrl = 22/7 × 3.5 × 12.5 = 137.5 cm²\n5. Total = 77 + 137.5 = **214.5 cm²**\n\n**(b)** A capsule is 14 mm long with diameter 5 mm. Find its surface area.\n1. r = 2.5 mm, cylinder length h = 14 − 5 = 9 mm\n2. SA = 2πr(2r + h) = 2 × 22/7 × 2.5 × (5 + 9) = 2 × 22/7 × 2.5 × 14 = **220 mm²**",
+      "keyPoints": ["Count only the exposed surfaces", "Joined faces are hidden and not counted", "Toy: 2πr² + πrl", "Capsule: 2πr(2r + h)", "Tent: 2πrh + πrl", "Work out the height of each part from the total height"],
+      "keywords": ["surface area of combination", "combined solids", "toy cone hemisphere", "capsule surface area", "tent canvas", "two cubes joined", "exposed surface", "csa combination", "surface area toy"]
+    },
+    {
+      "id": "surface-area-cut-and-scooped",
+      "title": "Surface area when a part is placed on top or scooped out",
+      "summary": "When a solid is placed on a face or scooped out of it, subtract the covered or removed flat area and add the new curved surface.",
+      "simple": "If a hemisphere sits on a cube, the circle it covers on the cube is hidden, but the hemisphere's dome is new. If a hemisphere is carved out of a cylinder, the circular face disappears but a bowl-shaped curved surface appears inside. Subtract what's lost and add what's new.",
+      "explain": "**Solid placed on a face** (e.g. hemisphere on a cube):\nSA = TSA of cube − area of circular base covered + CSA of hemisphere\n= 6a² − πr² + 2πr² = **6a² + πr²**\n\n**Part scooped out** (e.g. hemisphere carved from each end of a cylinder):\nThe flat circular ends are removed, and the inside curved surfaces of the hemispheres are exposed.\nSA = CSA of cylinder + 2 × CSA of hemisphere = 2πrh + 2 × 2πr² = **2πr(h + 2r)**\n\n**Cone scooped from a cylinder** (same base and height):\nSA = CSA of cylinder + area of the other circular end + CSA of cone = 2πrh + πr² + πrl\n\n**General rule:**\n1. Start with the surface area of the main solid.\n2. **Subtract** flat areas that get covered or cut away.\n3. **Add** the curved surfaces that become visible.\n\nNote that scooping out a part reduces the **volume**, but the **surface area** can actually increase, because a curved surface (2πr²) is larger than the flat circle (πr²) it replaces.",
+      "example": "**(a)** A cubical block of side 5 cm is surmounted by a hemisphere of diameter 4.2 cm. Find the total surface area (π = 22/7).\n1. r = 2.1 cm, πr² = 22/7 × 4.41 = 13.86 cm²\n2. SA = 6a² + πr² = 150 + 13.86 = **163.86 cm²**\n\n**(b)** A wooden cylinder of height 10 cm and radius 3.5 cm has a hemisphere scooped out of each end. Find its total surface area (π = 22/7).\n1. SA = 2πr(h + 2r) = 2 × 22/7 × 3.5 × (10 + 7)\n2. = 22 × 17 = **374 cm²**",
+      "keyPoints": ["Subtract covered or removed flat areas", "Add newly exposed curved areas", "Hemisphere on a cube: 6a² + πr²", "Hemispheres scooped from both ends of a cylinder: 2πr(h + 2r)", "Scooping out lowers volume but can raise surface area"],
+      "keywords": ["hemisphere on cube", "block surmounted by hemisphere", "scooped out", "hollowed out", "carved hemisphere cylinder", "wooden article", "cone scooped out of cylinder", "surface area removed part"]
+    },
+    {
+      "id": "volume-of-combinations",
+      "title": "Volume of a combination of solids",
+      "summary": "The volume of a solid made by joining two solids is the sum of their volumes.",
+      "simple": "Volume is the space inside. When two solids are joined, the space just adds up — no part is hidden. So volume of the combination = volume of part 1 + volume of part 2.",
+      "explain": "Unlike surface area, **volume is additive**: joining two solids does not hide any space.\n\n**Volume of combination = sum of volumes of the parts**\n\n**Common shapes:**\n- **Toy: cone on a hemisphere** → (2/3)πr³ + ⅓πr²h\n- **Capsule** → πr²h + 2 × (2/3)πr³ = πr²h + (4/3)πr³\n- **Shed or building: cuboid with a half-cylinder roof** → lbh + ½πr²(length)\n- **Gulab jamun, ice-cream cone, rocket models** → split into basic shapes and add\n\n**Capacity problems:** convert volume to litres when asked: 1000 cm³ = 1 litre, 1 m³ = 1000 litres.\n\n**Steps:**\n1. Split the solid into basic shapes.\n2. Find each part's dimensions (heights may need subtracting from a total).\n3. Find each volume and add.\n4. Take out common factors like π or πr² to simplify the arithmetic.",
+      "example": "A shed is a cuboid 15 m long, 7 m wide and 8 m high, with a half-cylinder roof of diameter 7 m along its length. Find the volume of air inside (π = 22/7).\n1. Cuboid = 15 × 7 × 8 = 840 m³\n2. Half-cylinder: r = 3.5 m, length 15 m → ½ × 22/7 × 3.5 × 3.5 × 15 = ½ × 38.5 × 15 = 288.75 m³\n3. Total = 840 + 288.75 = **1128.75 m³**\n\nA cone of radius r and height r sitting on a hemisphere of radius r has volume ⅓πr³ + (2/3)πr³ = **πr³**.",
+      "keyPoints": ["Volume of combination = sum of volumes of the parts", "Nothing is hidden when adding volumes", "Toy: (2/3)πr³ + ⅓πr²h", "Capsule: πr²h + (4/3)πr³", "1000 cm³ = 1 litre; 1 m³ = 1000 litres", "Factor out π or πr² to simplify"],
+      "keywords": ["volume of combination", "volume of toy", "volume of capsule", "shed half cylinder", "combined solids volume", "add volumes", "capacity in litres", "volume cone and hemisphere"]
+    },
+    {
+      "id": "volume-with-removed-parts",
+      "title": "Volume when parts are removed",
+      "summary": "If a part is hollowed out or cut away, the remaining volume is the volume of the original solid minus the volume removed.",
+      "simple": "If you drill holes or carve shapes out of a solid, the material left = original volume − volume of the pieces taken out.",
+      "explain": "**Remaining volume = volume of original solid − volume of the part(s) removed**\n\n**Typical situations:**\n- A pen stand (cuboid) with conical or cylindrical depressions for pens\n- A cylinder with a cone of the same base and height carved out → remaining = πr²h − ⅓πr²h = **(2/3)πr²h**\n- A solid with a hemisphere scooped out\n- Water left in a container after solid objects are removed, or water displaced when a solid is dropped in (the rise in water equals the volume of the solid)\n\n**Steps:**\n1. Find the volume of the main solid.\n2. Find the volume of one removed piece and multiply by the number of pieces.\n3. Subtract.\n\n**Tip:** be careful with units (mm vs cm) and with diameter vs radius.",
+      "example": "A wooden pen stand is a cuboid 15 cm × 10 cm × 3.5 cm with four conical depressions, each of radius 0.5 cm and depth 1.4 cm. Find the volume of wood (π = 22/7).\n1. Cuboid = 15 × 10 × 3.5 = 525 cm³\n2. One cone = ⅓ × 22/7 × 0.5 × 0.5 × 1.4 = ⅓ × 1.1 ≈ 0.367 cm³\n3. Four cones = 4 × 1.1 ÷ 3 ≈ 1.47 cm³\n4. Wood = 525 − 1.47 = **523.53 cm³**",
+      "keyPoints": ["Remaining volume = original − removed", "Multiply by the number of identical pieces removed", "Cylinder minus same-size cone = (2/3)πr²h", "Water displaced = volume of the solid dropped in", "Check radius vs diameter and units"],
+      "keywords": ["volume remaining", "hollowed out volume", "pen stand", "conical depressions", "cylinder minus cone", "volume of wood", "volume removed", "water displaced"]
+    }
+  ],
+  "keyConcepts": [
+    {"term": "Curved surface area (CSA)", "meaning": "The area of only the curved part of a solid (also called lateral surface area)."},
+    {"term": "Total surface area (TSA)", "meaning": "The area of all surfaces of a solid, curved and flat."},
+    {"term": "Volume", "meaning": "The amount of space a solid occupies, measured in cubic units."},
+    {"term": "Slant height (l)", "meaning": "The distance from the vertex of a cone to a point on the edge of its base: l = √(r² + h²)."},
+    {"term": "Hemisphere", "meaning": "Half of a sphere, with a curved surface and a flat circular face."},
+    {"term": "Combination of solids", "meaning": "A solid formed by joining two basic solids, like a cone on a hemisphere."},
+    {"term": "Exposed surface", "meaning": "The part of a combined solid's surface that can be seen and touched from outside."},
+    {"term": "Capsule", "meaning": "A cylinder with a hemisphere attached at each end."},
+    {"term": "Capacity", "meaning": "The volume a container can hold, often in litres (1 litre = 1000 cm³)."}
+  ],
+  "formulas": [
+    "Cuboid: TSA = 2(lb + bh + hl), volume = lbh",
+    "Cube: TSA = 6a², volume = a³",
+    "Cylinder: CSA = 2πrh, TSA = 2πr(r + h), volume = πr²h",
+    "Cone: l = √(r² + h²), CSA = πrl, TSA = πr(l + r), volume = ⅓πr²h",
+    "Sphere: SA = 4πr², volume = (4/3)πr³",
+    "Hemisphere: CSA = 2πr², TSA = 3πr², volume = (2/3)πr³",
+    "Toy (cone on hemisphere): SA = 2πr² + πrl, volume = (2/3)πr³ + ⅓πr²h",
+    "Capsule: SA = 2πr(2r + h), volume = πr²h + (4/3)πr³",
+    "1 litre = 1000 cm³; 1 m³ = 1000 litres"
+  ],
+  "commonMistakes": [
+    "Adding the total surface areas of the parts — the joined faces must be left out.",
+    "Using the total height of a toy as the cone's height instead of subtracting the hemisphere's radius.",
+    "Using the height h instead of the slant height l in πrl.",
+    "Using 3πr² (TSA) for a hemisphere that is joined along its flat face — only 2πr² is exposed.",
+    "Taking the diameter as the radius.",
+    "Subtracting volumes when parts are joined, or adding when parts are removed.",
+    "Forgetting to convert cm³ to litres (÷ 1000) when capacity is asked."
+  ],
+  "revision": [
+    "Surface area of a combination = sum of exposed surfaces only.",
+    "Volume of a combination = sum of the volumes of the parts.",
+    "Remaining volume = original volume − removed volume.",
+    "Slant height of a cone: l = √(r² + h²).",
+    "Hemisphere: CSA 2πr², TSA 3πr², volume (2/3)πr³.",
+    "Cone volume is one-third of the cylinder with the same base and height.",
+    "Toy surface area = 2πr² + πrl.",
+    "Capsule surface area = 2πr(2r + h).",
+    "Hemisphere on a cube: SA = 6a² + πr².",
+    "Two equal cubes joined: a cuboid; two faces become hidden.",
+    "1 m³ = 1000 litres; 1000 cm³ = 1 litre.",
+    "Problems combine at most two different solids."
+  ],
+  "faqs": [
+    {"q": "Why can't I just add the total surface areas of the two solids?", "a": "Where the two solids are joined, the touching faces are hidden inside the combined solid and can't be painted or touched. Adding total surface areas would count those hidden faces. So add only the exposed parts — usually the curved surface areas.", "keywords": ["why not add tsa", "surface area combination rule", "hidden faces"]},
+    {"q": "Why do volumes add up but surface areas don't?", "a": "Joining two solids does not remove any space inside them, so volumes simply add. But surfaces that touch each other become hidden, so surface area is less than the sum of the separate surface areas.", "keywords": ["volume adds", "volume vs surface area combination"]},
+    {"q": "Are conversion of solids (melting and recasting) and frustum of a cone in the syllabus?", "a": "No. In the rationalised NCERT textbook, the sections on converting one solid into another (like melting a sphere into wires) and the frustum of a cone were removed. The chapter now covers surface areas and volumes of combinations of solids.", "keywords": ["frustum", "conversion of solids", "melting recasting", "deleted topics surface areas", "removed from syllabus"]},
+    {"q": "What is the difference between CSA and TSA?", "a": "**CSA** (curved surface area) is only the curved part — for a cylinder, the side wall 2πrh. **TSA** adds the flat faces too — for a closed cylinder, 2πrh + 2πr². For combinations, you usually need CSAs, because flat faces get joined.", "keywords": ["csa vs tsa", "difference curved total surface area"]},
+    {"q": "How do I find the height of the cone in a toy problem?", "a": "If the total height of the toy (cone on hemisphere) is given, subtract the hemisphere's radius: cone height = total height − r. Then find the slant height with l = √(r² + h²).", "keywords": ["height of cone toy", "total height toy", "find slant height"]}
+  ],
+  "quiz": [
+    {"q": "The curved surface area of a cone of radius r and slant height l is:", "options": ["πr²h", "πrl", "2πrh", "πr(l + r)"], "answer": 1, "explain": "CSA of a cone = πrl. πr(l + r) is its total surface area.", "topic": "basic-solids-recap", "level": "easy"},
+    {"q": "The volume of a hemisphere of radius r is:", "options": ["(4/3)πr³", "⅓πr²h", "(2/3)πr³", "2πr²"], "answer": 2, "explain": "A hemisphere is half a sphere: ½ × (4/3)πr³ = (2/3)πr³.", "topic": "basic-solids-recap", "level": "easy"},
+    {"q": "The slant height of a cone of radius 6 cm and height 8 cm is:", "options": ["10 cm", "14 cm", "7 cm", "100 cm"], "answer": 0, "explain": "l = √(6² + 8²) = √100 = 10 cm.", "topic": "basic-solids-recap", "level": "easy"},
+    {"q": "A capsule is a cylinder (radius r, length h) with a hemisphere at each end. Its surface area is:", "options": ["2πrh + 2πr²", "πr² + 2πrh", "2πrh + 3πr²", "2πrh + 4πr²"], "answer": 3, "explain": "CSA of cylinder 2πrh plus two hemispherical CSAs, 2 × 2πr² = 4πr².", "topic": "surface-area-of-combinations", "level": "medium"},
+    {"q": "For a toy made of a cone on a hemisphere, which surface is NOT counted in its total surface area?", "options": ["Curved surface of the cone", "Curved surface of the hemisphere", "The circular face where they are joined", "None — all are counted"], "answer": 2, "explain": "The circular faces where the cone and hemisphere meet are hidden inside, so they are not counted.", "topic": "surface-area-of-combinations", "level": "easy"},
+    {"q": "A toy is a cone of radius 3.5 cm on a hemisphere of the same radius; total height 15.5 cm. Its total surface area is (π = 22/7):", "options": ["214.5 cm²", "137.5 cm²", "77 cm²", "291.5 cm²"], "answer": 0, "explain": "Cone height 12 cm, slant height 12.5 cm. CSA of cone = 137.5 cm², CSA of hemisphere = 77 cm², total = 214.5 cm².", "topic": "surface-area-of-combinations", "level": "hard"},
+    {"q": "A cube of side 5 cm is surmounted by a hemisphere of diameter 4.2 cm. The total surface area is (π = 22/7):", "options": ["150 cm²", "177.72 cm²", "136.14 cm²", "163.86 cm²"], "answer": 3, "explain": "SA = 6a² − πr² + 2πr² = 6a² + πr² = 150 + 13.86 = 163.86 cm².", "topic": "surface-area-cut-and-scooped", "level": "medium"},
+    {"q": "Two cubes, each of volume 64 cm³, are joined end to end. The surface area of the resulting cuboid is:", "options": ["192 cm²", "160 cm²", "128 cm²", "96 cm²"], "answer": 1, "explain": "Side = 4 cm, cuboid 8 × 4 × 4. TSA = 2(32 + 16 + 32) = 160 cm². (192 cm² would wrongly include the two hidden faces.)", "topic": "surface-area-of-combinations", "level": "medium"},
+    {"q": "A shed is a 15 m × 7 m × 8 m cuboid with a half-cylinder roof of diameter 7 m along its length. Its volume is (π = 22/7):", "options": ["1128.75 m³", "840 m³", "288.75 m³", "1417.5 m³"], "answer": 0, "explain": "Cuboid 840 m³ + half-cylinder ½ × 22/7 × 3.5² × 15 = 288.75 m³; total 1128.75 m³.", "topic": "volume-of-combinations", "level": "medium"},
+    {"q": "A cone of radius r and height r stands on a hemisphere of radius r. The volume of the solid is:", "options": ["2πr³", "(4/3)πr³", "⅓πr³", "πr³"], "answer": 3, "explain": "⅓πr²(r) + (2/3)πr³ = ⅓πr³ + (2/3)πr³ = πr³.", "topic": "volume-of-combinations", "level": "hard"},
+    {"q": "A 15 cm × 10 cm × 3.5 cm wooden pen stand has four conical depressions, each of radius 0.5 cm and depth 1.4 cm. The volume of wood is about (π = 22/7):", "options": ["525 cm³", "523.53 cm³", "526.47 cm³", "521.33 cm³"], "answer": 1, "explain": "Cuboid 525 cm³. Each cone = ⅓ × 22/7 × 0.25 × 1.4 ≈ 0.367 cm³; four ≈ 1.47 cm³. Wood ≈ 525 − 1.47 = 523.53 cm³.", "topic": "volume-with-removed-parts", "level": "hard"},
+    {"q": "A hemisphere is scooped out of each end of a solid cylinder of height 10 cm and radius 3.5 cm. The total surface area of the article is (π = 22/7):", "options": ["297 cm²", "220 cm²", "374 cm²", "451 cm²"], "answer": 2, "explain": "SA = 2πrh + 2 × 2πr² = 220 + 154 = 374 cm².", "topic": "surface-area-cut-and-scooped", "level": "hard"}
+  ]
+}

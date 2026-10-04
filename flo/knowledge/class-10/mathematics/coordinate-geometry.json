@@ -1,0 +1,342 @@
+{
+  "id": "c10-math-coordinate",
+  "class": 10,
+  "subject": "mathematics",
+  "name": "Coordinate Geometry",
+  "summary": "Every point in a plane is located by an ordered pair (x, y). The distance formula √[(x₂ − x₁)² + (y₂ − y₁)²] gives the distance between two points, and is used to check collinearity, identify types of triangles and quadrilaterals, and find unknown coordinates. The section formula gives the point that divides a line segment internally in a ratio m₁ : m₂, with the mid-point formula as the special case 1 : 1; it is also used to find trisection points, the ratio in which a point or an axis divides a segment, and missing vertices of parallelograms.",
+  "topics": [
+    {
+      "id": "coordinates-recap",
+      "title": "Points, axes and quadrants (recap)",
+      "summary": "A point (x, y) has abscissa x (distance from the y-axis) and ordinate y (distance from the x-axis); the axes divide the plane into four quadrants.",
+      "simple": "The x-axis runs left–right and the y-axis runs up–down; they meet at the origin (0, 0). A point is written (x, y): go x steps sideways, then y steps up or down. The signs of x and y tell you which quarter (quadrant) the point is in.",
+      "explain": "**Cartesian plane:** two perpendicular number lines — the horizontal **x-axis** and vertical **y-axis** — meeting at the **origin O(0, 0)**.\n\n**Coordinates of a point P(x, y):**\n- **x-coordinate (abscissa):** the perpendicular distance of P from the **y-axis** (positive to the right, negative to the left)\n- **y-coordinate (ordinate):** the perpendicular distance of P from the **x-axis** (positive above, negative below)\n\n**Quadrants (signs of x, y):**\n- Quadrant I: (+, +), e.g. (3, 4)\n- Quadrant II: (−, +), e.g. (−3, 5)\n- Quadrant III: (−, −), e.g. (−2, −6)\n- Quadrant IV: (+, −), e.g. (4, −7)\n\n**Points on the axes:**\n- Any point on the **x-axis** is (x, 0) — its y-coordinate is 0.\n- Any point on the **y-axis** is (0, y) — its x-coordinate is 0.\n- Points on the axes do not belong to any quadrant.\n\n**Distance from the axes:** for P(4, −7):\n- distance from the x-axis = |y| = **7**\n- distance from the y-axis = |x| = **4**\n\n**Order matters:** (2, 5) and (5, 2) are different points — that's why (x, y) is called an **ordered pair**.\n\nThis chapter builds on these basics to calculate distances between points and to find points that divide segments in given ratios.",
+      "example": "A town map uses a grid with the bus stand at the origin. The school is at (3, 2) and the library at (−4, 2). Both have y = 2, so they lie on the same horizontal line, and the distance between them is 3 − (−4) = 7 units.",
+      "keyPoints": [
+        "Origin is (0, 0)",
+        "x = abscissa, y = ordinate",
+        "Quadrant signs: I (+,+), II (−,+), III (−,−), IV (+,−)",
+        "On the x-axis y = 0; on the y-axis x = 0",
+        "Distance from x-axis = |y|; from y-axis = |x|",
+        "(x, y) is an ordered pair: order matters"
+      ],
+      "keywords": [
+        "coordinate geometry",
+        "chapter 7",
+        "class 10 maths chapter 7",
+        "coordinates",
+        "x-axis",
+        "y-axis",
+        "origin",
+        "abscissa",
+        "ordinate",
+        "quadrants",
+        "cartesian plane",
+        "ordered pair",
+        "distance from axis"
+      ]
+    },
+    {
+      "id": "distance-formula",
+      "title": "Distance formula",
+      "summary": "The distance between P(x₁, y₁) and Q(x₂, y₂) is √[(x₂ − x₁)² + (y₂ − y₁)²]; from the origin it is √(x² + y²).",
+      "simple": "To find how far apart two points are, find the difference in x and the difference in y, square both, add them, and take the square root. It comes from the Pythagoras idea for a right triangle.",
+      "explain": "**Distance formula:** the distance between P(x₁, y₁) and Q(x₂, y₂) is\n\n**PQ = √[(x₂ − x₁)² + (y₂ − y₁)²]**\n\n**Why it works:** draw a horizontal line from P and a vertical line from Q. They meet at R, making a right-angled triangle PRQ with PR = |x₂ − x₁| and RQ = |y₂ − y₁|. Using PQ² = PR² + RQ² gives the formula.\n\n**Distance from the origin:** O(0, 0) to P(x, y): **OP = √(x² + y²)**\n\n**Worked examples:**\n1. P(2, 3) and Q(5, 7)\n   PQ = √[(5 − 2)² + (7 − 3)²] = √(9 + 16) = √25 = **5 units**\n2. A(−1, −2) and B(2, 2)\n   AB = √[(2 − (−1))² + (2 − (−2))²] = √(3² + 4²) = √25 = **5 units**\n3. Distance of (−6, 8) from the origin: √(36 + 64) = √100 = **10 units**\n4. (3, −4) and (−3, 4): √[(−6)² + 8²] = √(36 + 64) = **10 units**\n5. (1, 2) and (4, 5): √(9 + 9) = √18 = **3√2 units**\n\n**Tips:**\n- It doesn't matter which point you call (x₁, y₁) — the squares make the result the same.\n- Be careful with negative coordinates: x₂ − x₁ = 2 − (−1) = 3, not 1.\n- Simplify the square root where possible (√18 = 3√2).\n- Points on the same horizontal line: distance = |x₂ − x₁|; same vertical line: |y₂ − y₁|.",
+      "example": "Two friends' houses on a grid (1 unit = 100 m) are at A(1, 2) and B(7, 10).\nAB = √[(7 − 1)² + (10 − 2)²] = √(36 + 64) = √100 = 10 units = 1 km.",
+      "keyPoints": [
+        "PQ = √[(x₂ − x₁)² + (y₂ − y₁)²]",
+        "From the origin: √(x² + y²)",
+        "Derived using a right triangle (Pythagoras)",
+        "Order of the points does not matter",
+        "Watch the signs when subtracting negatives",
+        "Simplify surds in the final answer"
+      ],
+      "keywords": [
+        "distance formula",
+        "distance between two points",
+        "√((x2-x1)^2 + (y2-y1)^2)",
+        "distance from origin",
+        "find distance",
+        "length of line segment",
+        "pythagoras coordinate",
+        "derivation of distance formula"
+      ]
+    },
+    {
+      "id": "distance-applications",
+      "title": "Using the distance formula",
+      "summary": "The distance formula checks collinearity, classifies triangles and quadrilaterals, and finds unknown coordinates or equidistant points.",
+      "simple": "Once you can find lengths, you can answer many questions: Do three points lie on one line? Is a triangle isosceles or equilateral? Is a shape a square? Which point is the same distance from two others?",
+      "explain": "**1. Collinearity:** three points A, B, C lie on one line if the sum of two distances equals the third.\nA(1, 1), B(2, 3), C(3, 5): AB = √(1 + 4) = √5, BC = √(1 + 4) = √5, AC = √(4 + 16) = √20 = 2√5.\nAB + BC = 2√5 = AC → **collinear**.\n\n**2. Type of triangle:** find all three sides.\n(0, 0), (4, 0), (2, 3): sides 4, √(4 + 9) = √13 and √(4 + 9) = √13 → two equal sides → **isosceles**.\n\n**3. Type of quadrilateral:** find all four sides and both diagonals.\nA(1, 2), B(4, 3), C(3, 6), D(0, 5):\n- AB = √(9 + 1) = √10, BC = √(1 + 9) = √10, CD = √(9 + 1) = √10, DA = √(1 + 9) = √10\n- AC = √(4 + 16) = √20, BD = √(16 + 4) = √20\nAll sides equal and diagonals equal → **square**. (Equal sides but unequal diagonals → rhombus; opposite sides equal and diagonals equal → rectangle.)\n\n**4. Equidistant point:** find the point on the x-axis equidistant from A(1, 3) and B(5, 1).\nLet P = (x, 0). PA² = PB²:\n(x − 1)² + 9 = (x − 5)² + 1\nx² − 2x + 10 = x² − 10x + 26 → 8x = 16 → **x = 2**, so P = **(2, 0)**.\nCheck: PA = √(1 + 9) = √10, PB = √(9 + 1) = √10 ✓\n\n**5. Unknown coordinate:** the distance between (x, 4) and (1, 1) is 5.\n(x − 1)² + 9 = 25 → (x − 1)² = 16 → x − 1 = ±4 → **x = 5 or x = −3**\n\n**Tip:** compare **squared** distances to avoid square roots when finding unknowns.",
+      "example": "Find a relation between x and y if P(x, y) is equidistant from A(3, 6) and B(−3, 4).\nPA² = PB²: (x − 3)² + (y − 6)² = (x + 3)² + (y − 4)²\nx² − 6x + 9 + y² − 12y + 36 = x² + 6x + 9 + y² − 8y + 16\n−6x − 12y + 45 = 6x − 8y + 25 → 12x + 4y = 20 → 3x + y = 5.",
+      "keyPoints": [
+        "Collinear: sum of two distances = third distance",
+        "Isosceles: two equal sides; equilateral: three equal sides",
+        "Square: 4 equal sides and equal diagonals",
+        "Rhombus: 4 equal sides, unequal diagonals",
+        "Equidistant: set squared distances equal",
+        "An unknown coordinate can have two values (±)"
+      ],
+      "keywords": [
+        "collinear points",
+        "check collinearity distance",
+        "type of triangle coordinates",
+        "isosceles triangle coordinates",
+        "show that points form a square",
+        "rhombus parallelogram coordinates",
+        "equidistant point",
+        "point on x axis equidistant",
+        "find x if distance is",
+        "relation between x and y"
+      ]
+    },
+    {
+      "id": "section-formula",
+      "title": "Section formula",
+      "summary": "The point dividing the segment joining (x₁, y₁) and (x₂, y₂) internally in the ratio m₁ : m₂ is ((m₁x₂ + m₂x₁)/(m₁ + m₂), (m₁y₂ + m₂y₁)/(m₁ + m₂)).",
+      "simple": "If a point P sits on the line between A and B and splits it in the ratio m₁ : m₂ (AP : PB), the section formula gives P's coordinates. Remember to cross-multiply: m₁ goes with B's coordinates and m₂ with A's.",
+      "explain": "**Section formula (internal division):** if P divides the line segment joining A(x₁, y₁) and B(x₂, y₂) internally in the ratio **m₁ : m₂** (so AP : PB = m₁ : m₂), then\n\n**P = ( (m₁x₂ + m₂x₁)/(m₁ + m₂) , (m₁y₂ + m₂y₁)/(m₁ + m₂) )**\n\n**Memory trick:** m₁ (the part next to A) multiplies **B's** coordinates, and m₂ multiplies **A's** — the ratio numbers 'cross over'.\n\n(It is proved using similar triangles: dropping perpendiculars to the x-axis from A, P and B gives similar right triangles whose sides are in the ratio m₁ : m₂.)\n\n**Worked example 1:** P divides A(4, −3) and B(8, 5) in the ratio 3 : 1.\n- x = (3 × 8 + 1 × 4)/(3 + 1) = (24 + 4)/4 = 28/4 = **7**\n- y = (3 × 5 + 1 × (−3))/4 = (15 − 3)/4 = 12/4 = **3**\n- P = **(7, 3)**\n\n**Worked example 2:** P divides A(−1, 7) and B(4, −3) in the ratio 2 : 3.\n- x = (2 × 4 + 3 × (−1))/5 = (8 − 3)/5 = **1**\n- y = (2 × (−3) + 3 × 7)/5 = (−6 + 21)/5 = **3**\n- P = **(1, 3)**\n\n**Using k : 1 form:** the ratio m₁ : m₂ can be written as k : 1 with k = m₁/m₂. Then\nP = ( (kx₂ + x₁)/(k + 1) , (ky₂ + y₁)/(k + 1) ).\nThis is handy when the ratio is unknown (see finding the ratio).\n\n**Check your answer:** the point should lie between A and B, closer to A if m₁ < m₂, and closer to B if m₁ > m₂.",
+      "example": "Find the point dividing the line joining A(2, 1) and B(12, 6) in the ratio 2 : 3.\nx = (2 × 12 + 3 × 2)/5 = (24 + 6)/5 = 6\ny = (2 × 6 + 3 × 1)/5 = (12 + 3)/5 = 3\nThe point is (6, 3).",
+      "keyPoints": [
+        "x = (m₁x₂ + m₂x₁)/(m₁ + m₂)",
+        "y = (m₁y₂ + m₂y₁)/(m₁ + m₂)",
+        "m₁ multiplies B's coordinates, m₂ multiplies A's",
+        "AP : PB = m₁ : m₂",
+        "k : 1 form: ((kx₂ + x₁)/(k + 1), (ky₂ + y₁)/(k + 1))",
+        "The point should lie between A and B"
+      ],
+      "keywords": [
+        "section formula",
+        "internal division",
+        "divides in the ratio",
+        "m1:m2",
+        "point dividing line segment",
+        "k:1 ratio",
+        "section formula proof",
+        "find coordinates of point dividing"
+      ]
+    },
+    {
+      "id": "midpoint-and-trisection",
+      "title": "Mid-point, trisection points and parallelograms",
+      "summary": "The mid-point of (x₁, y₁) and (x₂, y₂) is ((x₁ + x₂)/2, (y₁ + y₂)/2); trisection points divide a segment in 1 : 2 and 2 : 1; diagonals of a parallelogram share a mid-point.",
+      "simple": "The **mid-point** is just the average of the x's and the average of the y's. **Trisection points** cut a segment into three equal parts. In a parallelogram the diagonals cut each other in half, so they have the same mid-point.",
+      "explain": "**Mid-point formula** (ratio 1 : 1 in the section formula):\n**M = ( (x₁ + x₂)/2 , (y₁ + y₂)/2 )**\nExample: mid-point of (2, 5) and (6, −1) = ((2 + 6)/2, (5 − 1)/2) = **(4, 2)**\n\n**Finding an end point:** if M(3, 4) is the mid-point of A(1, 2) and B, then B = (2 × 3 − 1, 2 × 4 − 2) = **(5, 6)**.\n\n**Points of trisection:** two points P and Q that divide AB into three equal parts.\n- P divides AB in **1 : 2**\n- Q divides AB in **2 : 1**\n\nExample: A(1, −2), B(7, 4)\n- P (1 : 2): x = (1 × 7 + 2 × 1)/3 = 9/3 = 3, y = (1 × 4 + 2 × (−2))/3 = 0/3 = 0 → **P(3, 0)**\n- Q (2 : 1): x = (2 × 7 + 1 × 1)/3 = 15/3 = 5, y = (2 × 4 + 1 × (−2))/3 = 6/3 = 2 → **Q(5, 2)**\n(Q is also the mid-point of P and B: ((3 + 7)/2, (0 + 4)/2) = (5, 2) ✓)\n\n**Parallelogram — finding the fourth vertex:** the diagonals of a parallelogram **bisect each other**, so AC and BD have the **same mid-point**.\nA(1, 2), B(4, 3), C(6, 6); find D for parallelogram ABCD.\n- Mid-point of AC = ((1 + 6)/2, (2 + 6)/2) = (3.5, 4)\n- Mid-point of BD = ((4 + x)/2, (3 + y)/2) = (3.5, 4)\n- 4 + x = 7 → x = 3; 3 + y = 8 → y = 5 → **D(3, 5)**\n\n**Points dividing into four equal parts:** use ratios 1 : 3, 1 : 1 and 3 : 1 (or take mid-points of mid-points).",
+      "example": "The end points of a diameter of a circle are (2, 3) and (−4, 5). Find the centre.\nThe centre is the mid-point: ((2 − 4)/2, (3 + 5)/2) = (−1, 4).",
+      "keyPoints": [
+        "Mid-point = ((x₁ + x₂)/2, (y₁ + y₂)/2)",
+        "Other end point B = (2 × Mx − x₁, 2 × My − y₁)",
+        "Trisection points: ratios 1 : 2 and 2 : 1",
+        "Centre of a circle = mid-point of a diameter",
+        "Parallelogram diagonals bisect each other (same mid-point)",
+        "Four equal parts: ratios 1 : 3, 1 : 1, 3 : 1"
+      ],
+      "keywords": [
+        "mid point formula",
+        "midpoint",
+        "mid-point of line segment",
+        "points of trisection",
+        "trisect",
+        "fourth vertex of parallelogram",
+        "diagonals bisect each other",
+        "centre of circle from diameter",
+        "find other end point",
+        "four equal parts"
+      ]
+    },
+    {
+      "id": "finding-the-ratio",
+      "title": "Finding the ratio of division",
+      "summary": "Take the unknown ratio as k : 1, apply the section formula to one coordinate and solve for k; for an axis, set that coordinate to 0.",
+      "simple": "Sometimes you know the dividing point (or that it lies on an axis) but not the ratio. Call the ratio k : 1, write the section formula, and use the known coordinate to find k.",
+      "explain": "**Method:**\n1. Let the required ratio be **k : 1**.\n2. Write the coordinates of the dividing point using the section formula:\n   ( (kx₂ + x₁)/(k + 1) , (ky₂ + y₁)/(k + 1) )\n3. Equate one coordinate to the known value and solve for k.\n4. Write the ratio as k : 1 (simplify, e.g. ½ : 1 = 1 : 2).\n\n**Example 1 — ratio in which a given point divides:** in what ratio does P(−1, 6) divide the segment joining A(−3, 10) and B(6, −8)?\nx-coordinate: (6k − 3)/(k + 1) = −1 → 6k − 3 = −k − 1 → 7k = 2 → k = 2/7.\nRatio **2 : 7**. Check with y: (−8 × 2/7 + 10)/(2/7 + 1) = (−16/7 + 70/7)/(9/7) = (54/7)/(9/7) = 6 ✓\n\n**Example 2 — ratio in which the x-axis divides:** A(2, −3), B(5, 6).\nOn the x-axis, y = 0: (6k − 3)/(k + 1) = 0 → 6k = 3 → k = ½ → ratio **1 : 2**.\nPoint: x = (5 × ½ + 2)/(½ + 1) = 4.5/1.5 = 3 → **(3, 0)**.\nCheck with 1 : 2: x = (5 + 4)/3 = 3, y = (6 − 6)/3 = 0 ✓\n\n**Example 3 — ratio in which the y-axis divides:** A(5, −6), B(−1, −4).\nOn the y-axis, x = 0: (−k + 5)/(k + 1) = 0 → k = 5 → ratio **5 : 1**.\nPoint: y = (5 × (−4) + (−6))/6 = −26/6 = −13/3 → **(0, −13/3)**.\n\n**Remember:** a point on the **x-axis** has **y = 0**; a point on the **y-axis** has **x = 0**.",
+      "example": "Find the ratio in which the y-axis divides the segment joining (−4, 2) and (8, 5).\nx = (8k − 4)/(k + 1) = 0 → 8k = 4 → k = ½. Ratio 1 : 2.\ny = (5 × ½ + 2)/(3/2) = 4.5/1.5 = 3, so the point is (0, 3).",
+      "keyPoints": [
+        "Take the ratio as k : 1",
+        "Use the coordinate you know to find k",
+        "x-axis → set y = 0; y-axis → set x = 0",
+        "Convert fractions: ½ : 1 = 1 : 2",
+        "Check with the other coordinate",
+        "A positive k means internal division"
+      ],
+      "keywords": [
+        "find the ratio",
+        "ratio in which point divides",
+        "ratio in which x axis divides",
+        "ratio in which y axis divides",
+        "k:1 method",
+        "line segment divided by axis",
+        "find k section formula"
+      ]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "Origin", "meaning": "The point O(0, 0) where the x-axis and y-axis meet." },
+    { "term": "Abscissa", "meaning": "The x-coordinate of a point: its distance from the y-axis." },
+    { "term": "Ordinate", "meaning": "The y-coordinate of a point: its distance from the x-axis." },
+    { "term": "Quadrant", "meaning": "One of the four regions the axes divide the plane into." },
+    { "term": "Distance formula", "meaning": "PQ = √[(x₂ − x₁)² + (y₂ − y₁)²], the length of the segment joining two points." },
+    { "term": "Collinear points", "meaning": "Points lying on the same straight line; for three points, two distances add up to the third." },
+    { "term": "Section formula", "meaning": "Gives the coordinates of the point dividing a segment internally in a ratio m₁ : m₂." },
+    { "term": "Mid-point", "meaning": "The point dividing a segment in the ratio 1 : 1, ((x₁ + x₂)/2, (y₁ + y₂)/2)." },
+    { "term": "Points of trisection", "meaning": "The two points that divide a segment into three equal parts (ratios 1 : 2 and 2 : 1)." },
+    { "term": "Equidistant point", "meaning": "A point at equal distances from two (or more) given points." }
+  ],
+  "formulas": [
+    "Distance: PQ = √[(x₂ − x₁)² + (y₂ − y₁)²]",
+    "Distance from origin: OP = √(x² + y²)",
+    "Section formula (m₁ : m₂, internal): ( (m₁x₂ + m₂x₁)/(m₁ + m₂), (m₁y₂ + m₂y₁)/(m₁ + m₂) )",
+    "Section formula (k : 1): ( (kx₂ + x₁)/(k + 1), (ky₂ + y₁)/(k + 1) )",
+    "Mid-point: ( (x₁ + x₂)/2, (y₁ + y₂)/2 )",
+    "Point on x-axis: (x, 0); point on y-axis: (0, y)"
+  ],
+  "commonMistakes": [
+    "Subtracting negatives wrongly: 2 − (−1) = 3, not 1.",
+    "Forgetting the square root at the end of the distance formula.",
+    "In the section formula, multiplying m₁ with A's coordinates instead of B's.",
+    "Writing the mid-point as ((x₂ − x₁)/2, (y₂ − y₁)/2) — it is the sum, not the difference.",
+    "Concluding a quadrilateral is a square from equal sides alone (a rhombus also has equal sides — check the diagonals).",
+    "Giving only one value when solving (x − 1)² = 16; x can be 5 or −3.",
+    "Mixing up the axes: on the x-axis it is y that equals 0."
+  ],
+  "revision": [
+    "Quadrant signs: I (+,+), II (−,+), III (−,−), IV (+,−).",
+    "Distance from x-axis = |y|; from y-axis = |x|.",
+    "Distance formula: √[(x₂ − x₁)² + (y₂ − y₁)²].",
+    "(2, 3) to (5, 7) = 5 units; (−6, 8) is 10 units from the origin.",
+    "Collinear: AB + BC = AC.",
+    "Square: all sides equal and diagonals equal.",
+    "Section formula: ((m₁x₂ + m₂x₁)/(m₁ + m₂), (m₁y₂ + m₂y₁)/(m₁ + m₂)).",
+    "A(4, −3), B(8, 5), ratio 3 : 1 → (7, 3).",
+    "Mid-point: average of the x's and average of the y's.",
+    "Trisection points use ratios 1 : 2 and 2 : 1.",
+    "Parallelogram: diagonals have the same mid-point.",
+    "Unknown ratio → k : 1; on the x-axis put y = 0.",
+    "Area of a triangle using coordinates is not in the rationalised Class 10 syllabus."
+  ],
+  "faqs": [
+    {
+      "q": "Is the area of a triangle formula still in Class 10 Coordinate Geometry?",
+      "a": "No. In the rationalised NCERT book, the section on the area of a triangle using coordinates was removed. The chapter now covers the distance formula and the section formula (including the mid-point formula).",
+      "keywords": ["area of triangle coordinate", "deleted topics coordinate geometry", "removed area of triangle", "collinearity area"]
+    },
+    {
+      "q": "How do I check whether three points are collinear without the area formula?",
+      "a": "Use the distance formula. Find AB, BC and AC. If the sum of the two smaller distances equals the largest one (e.g. AB + BC = AC), the points are collinear. For A(1, 1), B(2, 3), C(3, 5): √5 + √5 = 2√5 = AC.",
+      "keywords": ["collinear without area", "check collinear distance formula", "three points on a line"]
+    },
+    {
+      "q": "In the section formula, which ratio number goes with which point?",
+      "a": "If P divides AB in m₁ : m₂ (AP : PB), then m₁ multiplies **B's** coordinates and m₂ multiplies **A's**: x = (m₁x₂ + m₂x₁)/(m₁ + m₂). Think of it as cross-multiplying. A quick check: the point should be closer to A when m₁ is smaller.",
+      "keywords": ["section formula confusion", "m1 m2 which point", "cross multiply section formula"]
+    },
+    {
+      "q": "How do I tell a square, rhombus, rectangle and parallelogram apart using coordinates?",
+      "a": "Find all four sides and both diagonals. Parallelogram: opposite sides equal. Rectangle: opposite sides equal and diagonals equal. Rhombus: all four sides equal (diagonals unequal). Square: all four sides equal **and** diagonals equal.",
+      "keywords": ["square rhombus rectangle coordinates", "identify quadrilateral", "prove square"]
+    },
+    {
+      "q": "Why does finding an unknown coordinate sometimes give two answers?",
+      "a": "Because squaring removes the sign. If (x − 1)² = 16, then x − 1 can be 4 or −4, giving x = 5 or −3. Both points are at the required distance — they lie on opposite sides.",
+      "keywords": ["two answers coordinate", "two values of x", "plus minus distance"]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "In which quadrant does the point (−3, 5) lie?",
+      "options": ["I", "II", "III", "IV"],
+      "answer": 1,
+      "explain": "x is negative and y is positive, so the point is in Quadrant II.",
+      "topic": "coordinates-recap",
+      "level": "easy"
+    },
+    {
+      "q": "What is the distance of the point (4, −7) from the x-axis?",
+      "options": ["4", "−7", "√65", "7"],
+      "answer": 3,
+      "explain": "Distance from the x-axis is |y| = |−7| = 7.",
+      "topic": "coordinates-recap",
+      "level": "easy"
+    },
+    {
+      "q": "What is the distance between (2, 3) and (5, 7)?",
+      "options": ["5", "7", "25", "√7"],
+      "answer": 0,
+      "explain": "√[(5 − 2)² + (7 − 3)²] = √(9 + 16) = √25 = 5.",
+      "topic": "distance-formula",
+      "level": "easy"
+    },
+    {
+      "q": "How far is the point (−6, 8) from the origin?",
+      "options": ["14", "2", "10", "√28"],
+      "answer": 2,
+      "explain": "√((−6)² + 8²) = √(36 + 64) = √100 = 10.",
+      "topic": "distance-formula",
+      "level": "easy"
+    },
+    {
+      "q": "Which point on the x-axis is equidistant from A(1, 3) and B(5, 1)?",
+      "options": ["(3, 0)", "(2, 0)", "(4, 0)", "(0, 2)"],
+      "answer": 1,
+      "explain": "(x − 1)² + 9 = (x − 5)² + 1 → −2x + 10 = −10x + 26 → x = 2. Both distances are √10.",
+      "topic": "distance-applications",
+      "level": "medium"
+    },
+    {
+      "q": "The distance between (x, 4) and (1, 1) is 5 units. What are the possible values of x?",
+      "options": ["5 or −3", "4 or −4", "6 or −4", "3 or −5"],
+      "answer": 0,
+      "explain": "(x − 1)² + 9 = 25 → (x − 1)² = 16 → x − 1 = ±4 → x = 5 or −3.",
+      "topic": "distance-applications",
+      "level": "medium"
+    },
+    {
+      "q": "The points A(1, 1), B(2, 3) and C(3, 5) are:",
+      "options": ["Vertices of an equilateral triangle", "Vertices of a right triangle", "Collinear", "Vertices of an isosceles triangle"],
+      "answer": 2,
+      "explain": "AB = √5, BC = √5, AC = √20 = 2√5, and AB + BC = AC, so the points lie on one line.",
+      "topic": "distance-applications",
+      "level": "medium"
+    },
+    {
+      "q": "What are the coordinates of the point dividing the join of A(−1, 7) and B(4, −3) in the ratio 2 : 3?",
+      "options": ["(2, 1)", "(1.5, 2)", "(3, 1)", "(1, 3)"],
+      "answer": 3,
+      "explain": "x = (2 × 4 + 3 × (−1))/5 = 5/5 = 1; y = (2 × (−3) + 3 × 7)/5 = 15/5 = 3.",
+      "topic": "section-formula",
+      "level": "medium"
+    },
+    {
+      "q": "What is the mid-point of the segment joining (2, 5) and (6, −1)?",
+      "options": ["(4, 3)", "(2, 3)", "(4, 2)", "(8, 4)"],
+      "answer": 2,
+      "explain": "((2 + 6)/2, (5 + (−1))/2) = (4, 2).",
+      "topic": "midpoint-and-trisection",
+      "level": "easy"
+    },
+    {
+      "q": "A(1, 2), B(4, 3) and C(6, 6) are three vertices of parallelogram ABCD. What is D?",
+      "options": ["(3, 5)", "(9, 7)", "(−1, −1)", "(5, 3)"],
+      "answer": 0,
+      "explain": "Diagonals bisect each other: mid-point of AC = (3.5, 4) = mid-point of BD, so D = (7 − 4, 8 − 3) = (3, 5).",
+      "topic": "midpoint-and-trisection",
+      "level": "hard"
+    },
+    {
+      "q": "What is the trisection point of A(1, −2) and B(7, 4) that is nearer to A?",
+      "options": ["(5, 2)", "(3, 0)", "(4, 1)", "(2, −1)"],
+      "answer": 1,
+      "explain": "Nearer to A means ratio 1 : 2: x = (7 + 2)/3 = 3, y = (4 − 4)/3 = 0 → (3, 0).",
+      "topic": "midpoint-and-trisection",
+      "level": "medium"
+    },
+    {
+      "q": "In what ratio does the x-axis divide the segment joining A(2, −3) and B(5, 6)?",
+      "options": ["2 : 1", "1 : 1", "3 : 2", "1 : 2"],
+      "answer": 3,
+      "explain": "Let the ratio be k : 1. y = (6k − 3)/(k + 1) = 0 → k = ½, so the ratio is 1 : 2 (the point is (3, 0)).",
+      "topic": "finding-the-ratio",
+      "level": "hard"
+    }
+  ]
+}

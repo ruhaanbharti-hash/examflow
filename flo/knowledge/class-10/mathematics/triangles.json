@@ -1,0 +1,343 @@
+{
+  "id": "c10-math-triangles",
+  "class": 10,
+  "subject": "mathematics",
+  "name": "Triangles",
+  "summary": "Similar figures have the same shape but not necessarily the same size: their corresponding angles are equal and corresponding sides are in the same ratio. The Basic Proportionality Theorem (Thales theorem) says a line drawn parallel to one side of a triangle divides the other two sides in the same ratio, and its converse says a line dividing two sides in the same ratio is parallel to the third side. Two triangles are similar by the AAA (or AA), SSS or SAS similarity criteria, and similarity is used to find unknown lengths such as heights from shadows.",
+  "topics": [
+    {
+      "id": "similar-figures",
+      "title": "Similar figures",
+      "summary": "Figures with the same shape but possibly different sizes are similar; two polygons with the same number of sides are similar if their corresponding angles are equal and corresponding sides are proportional.",
+      "simple": "Two shapes are **similar** if one is an enlarged or shrunk copy of the other — same shape, maybe different size. A photo and its enlargement are similar. **Congruent** shapes are a special case: same shape *and* same size.",
+      "explain": "**Congruent figures:** same shape and same size.\n**Similar figures:** same shape, but not necessarily the same size.\n\nSo all congruent figures are similar, but similar figures need not be congruent.\n\n**Always similar:**\n- any two **circles**\n- any two **squares**\n- any two **equilateral triangles**\n- any two line segments\n\n**Not always similar:** two rectangles, two rhombuses, two isosceles triangles — their shapes can differ.\n\n**Similar polygons:** two polygons with the **same number of sides** are similar if:\n1. their **corresponding angles are equal**, and\n2. their **corresponding sides are in the same ratio** (proportional).\n\n**Both conditions are needed:**\n- A square and a rectangle (not a square) have all angles equal (90°), but their sides are not proportional → **not similar**.\n- A square and a rhombus (not a square) have sides in the same ratio (all sides equal in each), but their angles are not equal → **not similar**.\n\n**Scale factor:** the common ratio of corresponding sides. If a map is drawn so that every length is 1/50000 of the real length, the map and the real region are similar with scale factor 1 : 50000. Miniature models of buildings, photographs and their enlargements are everyday examples of similar figures.",
+      "example": "A photo is 10 cm by 15 cm. It is enlarged so the shorter side becomes 30 cm. For the enlargement to be similar, the longer side must be 15 × (30 ÷ 10) = 15 × 3 = 45 cm. Scale factor = 3.",
+      "keyPoints": [
+        "Similar: same shape, size may differ",
+        "Congruent figures are always similar, not vice versa",
+        "All circles, squares and equilateral triangles are similar",
+        "Similar polygons: equal angles AND proportional sides",
+        "Square vs rectangle: angles equal, sides not proportional",
+        "Square vs rhombus: sides proportional, angles not equal"
+      ],
+      "keywords": [
+        "triangles",
+        "chapter 6",
+        "class 10 maths chapter 6",
+        "similar figures",
+        "similarity",
+        "congruent",
+        "congruent vs similar",
+        "similar polygons",
+        "scale factor",
+        "all circles are similar",
+        "all squares are similar",
+        "proportional sides"
+      ]
+    },
+    {
+      "id": "similar-triangles",
+      "title": "Similarity of triangles",
+      "summary": "ΔABC ~ ΔDEF means ∠A = ∠D, ∠B = ∠E, ∠C = ∠F and AB/DE = BC/EF = CA/FD; the order of letters shows which parts correspond.",
+      "simple": "Two triangles are similar when their angles match and their sides are in the same ratio. We write ΔABC ~ ΔDEF. The order of letters matters: A goes with D, B with E, and C with F.",
+      "explain": "Two triangles are **similar** if:\n1. their corresponding **angles are equal**, and\n2. their corresponding **sides are in the same ratio**.\n\nWe write **ΔABC ~ ΔDEF** ('~' means 'is similar to'). This means:\n- ∠A = ∠D, ∠B = ∠E, ∠C = ∠F\n- **AB/DE = BC/EF = CA/FD**\n\n**The order of letters is important.** It tells you the correspondence A ↔ D, B ↔ E, C ↔ F. If you write the letters in the wrong order, you will pair the wrong sides.\n\n**Using similarity to find sides:** if ΔABC ~ ΔDEF with AB = 4 cm, BC = 5 cm, CA = 6 cm and DE = 6 cm:\n- Ratio = DE/AB = 6/4 = 1.5\n- EF = 1.5 × BC = 1.5 × 5 = **7.5 cm**\n- FD = 1.5 × CA = 1.5 × 6 = **9 cm**\n\n**Using similarity to find angles:** if ΔABC ~ ΔDEF, ∠A = 47° and ∠E = 83°, then ∠B = ∠E = 83°, so ∠C = 180° − 47° − 83° = **50°** = ∠F.\n\nFor triangles there is a useful shortcut: we don't need to check **all** six conditions (three angles and three ratios). The similarity criteria (AAA, SSS, SAS) tell us that checking just some of them is enough.",
+      "example": "ΔPQR ~ ΔXYZ, PQ = 3 cm, QR = 4 cm, XY = 9 cm. Find YZ.\nPQ/XY = QR/YZ → 3/9 = 4/YZ → YZ = 4 × 9 ÷ 3 = 12 cm.",
+      "keyPoints": [
+        "Similar triangles: equal angles and proportional sides",
+        "ΔABC ~ ΔDEF → A↔D, B↔E, C↔F",
+        "AB/DE = BC/EF = CA/FD",
+        "Write vertices in corresponding order",
+        "Angle sum 180° helps find the third angle",
+        "The criteria let you check fewer conditions"
+      ],
+      "keywords": [
+        "similar triangles",
+        "similarity of triangles",
+        "~ symbol",
+        "corresponding sides",
+        "corresponding angles",
+        "ratio of sides",
+        "triangle ABC similar to DEF",
+        "find side using similarity",
+        "order of vertices"
+      ]
+    },
+    {
+      "id": "basic-proportionality-theorem",
+      "title": "Basic Proportionality Theorem (Thales theorem)",
+      "summary": "If a line is drawn parallel to one side of a triangle and meets the other two sides at distinct points, it divides those two sides in the same ratio.",
+      "simple": "Draw a triangle ABC and a line DE parallel to BC, cutting AB at D and AC at E. Then the pieces are in the same ratio: AD/DB = AE/EC. This is the **Basic Proportionality Theorem** (BPT), also called **Thales theorem**.",
+      "explain": "**Theorem (BPT):** If a line is drawn parallel to one side of a triangle to intersect the other two sides in distinct points, the other two sides are divided in the same ratio.\n\nIn ΔABC, if **DE ∥ BC** (D on AB, E on AC), then **AD/DB = AE/EC**.\n\n**Proof outline (using areas):**\n1. Join BE and CD. Draw EN ⊥ AB and DM ⊥ AC.\n2. ar(ADE) = ½ × AD × EN and ar(BDE) = ½ × DB × EN, so ar(ADE)/ar(BDE) = **AD/DB**.\n3. Similarly ar(ADE) = ½ × AE × DM and ar(DEC) = ½ × EC × DM, so ar(ADE)/ar(DEC) = **AE/EC**.\n4. ΔBDE and ΔDEC are on the **same base DE** and **between the same parallels** DE and BC, so ar(BDE) = ar(DEC).\n5. Hence AD/DB = AE/EC. ∎\n\n**Other useful forms** (follow from the theorem):\n- AD/AB = AE/AC\n- DB/AB = EC/AC\n\n**Worked example:** In ΔABC, DE ∥ BC, AD = 3 cm, DB = 4.5 cm, AE = 2 cm. Find EC.\nAD/DB = AE/EC → 3/4.5 = 2/EC → EC = 2 × 4.5 ÷ 3 = **3 cm**\n\n**Worked example (algebra):** DE ∥ BC, AD = x, DB = x − 2, AE = x + 2, EC = x − 1. Find x.\nx/(x − 2) = (x + 2)/(x − 1) → x(x − 1) = (x + 2)(x − 2) → x² − x = x² − 4 → **x = 4**\nCheck: AD/DB = 4/2 = 2 and AE/EC = 6/3 = 2 ✓",
+      "example": "In ΔPQR, ST ∥ QR with S on PQ and T on PR. PS = 4 cm, SQ = 6 cm and PR = 15 cm. Find PT.\nPS/PQ = PT/PR → 4/10 = PT/15 → PT = 15 × 4 ÷ 10 = 6 cm (and TR = 9 cm; check 4/6 = 6/9 ✓).",
+      "keyPoints": [
+        "DE ∥ BC → AD/DB = AE/EC",
+        "Also AD/AB = AE/AC",
+        "Called BPT or Thales theorem",
+        "Proof uses ratios of areas of triangles with equal heights",
+        "Triangles on the same base between the same parallels have equal area",
+        "Use cross-multiplication to find the missing length"
+      ],
+      "keywords": [
+        "basic proportionality theorem",
+        "BPT",
+        "thales theorem",
+        "thales",
+        "line parallel to one side of triangle",
+        "AD/DB = AE/EC",
+        "proof of BPT",
+        "theorem 6.1",
+        "DE parallel to BC",
+        "divides sides in same ratio"
+      ]
+    },
+    {
+      "id": "converse-of-bpt",
+      "title": "Converse of the Basic Proportionality Theorem",
+      "summary": "If a line divides any two sides of a triangle in the same ratio, then it is parallel to the third side.",
+      "simple": "This works the other way round too: if a line cuts two sides of a triangle into pieces with the same ratio, then that line must be parallel to the third side.",
+      "explain": "**Theorem (converse of BPT):** If a line divides any two sides of a triangle in the same ratio, then the line is parallel to the third side.\n\nIn ΔABC, with D on AB and E on AC, if **AD/DB = AE/EC**, then **DE ∥ BC**.\n\n(The idea: if DE were not parallel to BC, draw DE′ ∥ BC. By BPT, AD/DB = AE′/E′C, so AE/EC = AE′/E′C, which forces E and E′ to be the same point.)\n\n**How to use it — checking whether a line is parallel:**\n1. Work out the two ratios AD/DB and AE/EC.\n2. If they are **equal**, DE ∥ BC. If not, DE is **not** parallel to BC.\n\n**Example 1:** AD = 2 cm, DB = 3 cm, AE = 4 cm, EC = 6 cm.\nAD/DB = 2/3 and AE/EC = 4/6 = 2/3 → equal → **DE ∥ BC** ✓\n\n**Example 2:** AD = 5.7 cm, DB = 9.5 cm, AE = 4.8 cm, EC = 8 cm.\nAD/DB = 5.7/9.5 = 0.6 and AE/EC = 4.8/8 = 0.6 → equal → **DE ∥ BC** ✓\n\n**Example 3:** AD = 3 cm, DB = 4 cm, AE = 4 cm, EC = 5 cm.\n3/4 = 0.75 and 4/5 = 0.8 → not equal → DE is **not** parallel to BC.\n\n**Special case — mid-point theorem:** if D and E are the mid-points of AB and AC, then AD/DB = 1 = AE/EC, so DE ∥ BC. (You met this in Class 9.)",
+      "example": "In a ΔPQR, E and F are points on PQ and PR with PE = 4 cm, QE = 4.5 cm, PF = 8 cm and RF = 9 cm. Is EF ∥ QR?\nPE/EQ = 4/4.5 = 8/9 and PF/FR = 8/9. The ratios are equal, so EF ∥ QR.",
+      "keyPoints": [
+        "AD/DB = AE/EC → DE ∥ BC",
+        "Compare the two ratios to test for parallel lines",
+        "Equal ratios → parallel; unequal → not parallel",
+        "Mid-point theorem is a special case (ratio 1 : 1)",
+        "BPT: parallel ⇒ same ratio; converse: same ratio ⇒ parallel",
+        "Simplify fractions or use decimals to compare ratios"
+      ],
+      "keywords": [
+        "converse of BPT",
+        "converse of basic proportionality theorem",
+        "converse of thales theorem",
+        "prove line is parallel",
+        "is DE parallel to BC",
+        "theorem 6.2",
+        "same ratio parallel",
+        "mid point theorem"
+      ]
+    },
+    {
+      "id": "similarity-criteria",
+      "title": "Criteria for similarity: AAA, AA, SSS, SAS",
+      "summary": "Two triangles are similar if their corresponding angles are equal (AAA, or just AA), their three sides are proportional (SSS), or one angle is equal and the sides including it are proportional (SAS).",
+      "simple": "You don't need to check everything. Two triangles are similar if: two angles match (**AA**), or all three sides are in the same ratio (**SSS**), or one angle matches and the two sides around it are in the same ratio (**SAS**).",
+      "explain": "**1. AAA similarity criterion:** if the corresponding **angles** of two triangles are equal, their corresponding sides are in the same ratio, so the triangles are similar.\n\n**AA criterion:** since the angles of a triangle add up to 180°, if **two angles** of one triangle equal two angles of another, the third angles are also equal. So **AA is enough**.\nExample: ∠A = ∠P = 60° and ∠B = ∠Q = 70° → ∠C = ∠R = 50° → **ΔABC ~ ΔPQR**.\n\n**2. SSS similarity criterion:** if the corresponding **sides** of two triangles are in the same ratio, their corresponding angles are equal, so the triangles are similar.\nExample: sides 2, 3, 4 cm and 4, 6, 8 cm: 2/4 = 3/6 = 4/8 = ½ → **similar**.\n\n**3. SAS similarity criterion:** if **one angle** of a triangle equals one angle of the other and the **sides including these angles** are proportional, the triangles are similar.\nExample: AB = 3, AC = 4, ∠A = 50° and PQ = 6, PR = 8, ∠P = 50°. AB/PQ = AC/PR = ½ and ∠A = ∠P → **ΔABC ~ ΔPQR**.\n\n**Careful:** for SAS, the equal angle must be **between** the two proportional sides.\n\n**Similarity vs congruence:** for congruence, sides must be **equal**; for similarity, sides need only be **proportional**. Note that AAA is **not** a congruence rule (same angles, different sizes) but it **is** a similarity rule.\n\n**Typical use — trapezium:** in trapezium ABCD with AB ∥ DC, diagonals meet at O. ∠OAB = ∠OCD and ∠OBA = ∠ODC (alternate angles), so **ΔOAB ~ ΔOCD** (AA). Hence OA/OC = OB/OD.",
+      "example": "In ΔABC and ΔDEF, AB = 6, BC = 8, CA = 10 and DE = 9, EF = 12, FD = 15. Are they similar?\n6/9 = 2/3, 8/12 = 2/3, 10/15 = 2/3. All three ratios are equal, so ΔABC ~ ΔDEF by SSS.",
+      "keyPoints": [
+        "AAA: corresponding angles equal → similar",
+        "AA is enough (third angle follows from 180°)",
+        "SSS: all three sides proportional → similar",
+        "SAS: one equal angle with the sides including it proportional",
+        "AAA proves similarity but not congruence",
+        "Write the similarity in the correct vertex order"
+      ],
+      "keywords": [
+        "similarity criteria",
+        "criteria for similarity of triangles",
+        "AAA similarity",
+        "AA similarity",
+        "SSS similarity",
+        "SAS similarity",
+        "theorem 6.3",
+        "theorem 6.4",
+        "theorem 6.5",
+        "similarity vs congruence",
+        "prove triangles similar"
+      ]
+    },
+    {
+      "id": "applications-of-similarity",
+      "title": "Using similarity: heights, shadows and lengths",
+      "summary": "Similar triangles let us find heights of poles, towers and trees using shadows, and lengths in figures, by setting up equal ratios.",
+      "simple": "At the same time of day, the Sun's rays make the same angle everywhere. So a person and their shadow form a triangle similar to a pole and its shadow. If you know three of the lengths, you can find the fourth.",
+      "explain": "**Shadow problems:** objects standing vertically and their shadows, measured at the same time, form **similar right triangles** (each has a right angle, and the Sun's rays make the same angle with the ground) → AA similarity.\n\nSo: **height of object ÷ its shadow = height of other object ÷ its shadow**.\n\n**Example 1:** a 1.5 m tall girl casts a 2 m shadow. At the same time, a pole casts a 12 m shadow. Find the height of the pole.\n1.5/2 = h/12 → h = 12 × 1.5 ÷ 2 = **9 m**\n\n**Example 2 (lamp post):** a girl 1.2 m tall walks away from the base of a lamp post. The bulb is 4.8 m above the ground. When she is 3 m from the post, how long is her shadow?\nLet the shadow be s m. The girl and the lamp post form similar triangles with the tip of the shadow (AA: common angle at the tip, both right angles):\n1.2/s = 4.8/(3 + s)\n1.2(3 + s) = 4.8s → 3.6 + 1.2s = 4.8s → 3.6 = 3.6s → **s = 1 m**\n\n**Example 3 (inside a figure):** in ΔABC, DE ∥ BC with AD = 2 cm, DB = 3 cm and BC = 10 cm. Find DE.\nΔADE ~ ΔABC (AA: ∠A common, ∠ADE = ∠ABC as corresponding angles).\nDE/BC = AD/AB = 2/5 → DE = 10 × 2/5 = **4 cm**\n\n**Steps for any problem:**\n1. Identify the two triangles and **prove** they are similar (state the criterion).\n2. Write the vertices in corresponding order.\n3. Write the ratio of corresponding sides and solve.",
+      "example": "A vertical stick 6 m long casts a 4 m shadow. At the same time, a tower casts a 28 m shadow. Find the tower's height.\n6/4 = h/28 → h = 28 × 6 ÷ 4 = 42 m.",
+      "keyPoints": [
+        "Shadows at the same time → similar triangles (AA)",
+        "height ÷ shadow is the same for both objects",
+        "Lamp-post problems: shadow tip is a common vertex",
+        "DE ∥ BC → ΔADE ~ ΔABC, so DE/BC = AD/AB",
+        "Always name the similarity criterion used",
+        "Match corresponding sides before cross-multiplying"
+      ],
+      "keywords": [
+        "height and shadow",
+        "shadow problem",
+        "lamp post problem",
+        "height of tower using similarity",
+        "application of similar triangles",
+        "pole shadow",
+        "find DE",
+        "trapezium diagonals",
+        "similar triangles word problems"
+      ]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "Similar figures", "meaning": "Figures with the same shape but not necessarily the same size." },
+    { "term": "Congruent figures", "meaning": "Figures with the same shape and the same size." },
+    { "term": "Similar polygons", "meaning": "Polygons with the same number of sides whose corresponding angles are equal and corresponding sides are proportional." },
+    { "term": "Scale factor", "meaning": "The common ratio of corresponding sides of two similar figures." },
+    { "term": "Similar triangles (~)", "meaning": "Triangles with equal corresponding angles and proportional corresponding sides; ΔABC ~ ΔDEF." },
+    { "term": "Basic Proportionality Theorem (Thales)", "meaning": "A line parallel to one side of a triangle divides the other two sides in the same ratio." },
+    { "term": "Converse of BPT", "meaning": "A line dividing two sides of a triangle in the same ratio is parallel to the third side." },
+    { "term": "AAA / AA criterion", "meaning": "If corresponding angles (or just two pairs of angles) are equal, the triangles are similar." },
+    { "term": "SSS criterion", "meaning": "If the three pairs of corresponding sides are in the same ratio, the triangles are similar." },
+    { "term": "SAS criterion", "meaning": "If one pair of angles is equal and the sides including them are proportional, the triangles are similar." }
+  ],
+  "formulas": [
+    "ΔABC ~ ΔDEF ⇒ ∠A = ∠D, ∠B = ∠E, ∠C = ∠F and AB/DE = BC/EF = CA/FD",
+    "BPT: DE ∥ BC ⇒ AD/DB = AE/EC (also AD/AB = AE/AC)",
+    "Converse of BPT: AD/DB = AE/EC ⇒ DE ∥ BC",
+    "Shadows: height₁ ÷ shadow₁ = height₂ ÷ shadow₂",
+    "DE ∥ BC ⇒ ΔADE ~ ΔABC ⇒ DE/BC = AD/AB"
+  ],
+  "commonMistakes": [
+    "Thinking all rectangles or all rhombuses are similar — only squares (among these) always are.",
+    "Checking only angles or only sides for polygons; both are needed (except for triangles, where the criteria apply).",
+    "Writing ΔABC ~ ΔDEF with vertices in the wrong order and then pairing the wrong sides.",
+    "Using AD/AB = AE/EC (mixing a part with a whole) instead of AD/DB = AE/EC or AD/AB = AE/AC.",
+    "In SAS, using an angle that is not between the two proportional sides.",
+    "Treating AAA as a congruence rule — it only proves similarity.",
+    "In lamp-post problems, forgetting to add the shadow length to the distance from the post."
+  ],
+  "revision": [
+    "Similar = same shape; congruent = same shape and size.",
+    "All circles, squares and equilateral triangles are similar.",
+    "Similar polygons: equal corresponding angles and proportional sides.",
+    "ΔABC ~ ΔDEF: A↔D, B↔E, C↔F.",
+    "BPT (Thales): DE ∥ BC ⇒ AD/DB = AE/EC.",
+    "Converse of BPT: AD/DB = AE/EC ⇒ DE ∥ BC.",
+    "AA is enough for similarity of triangles.",
+    "SSS: three sides proportional ⇒ similar.",
+    "SAS: one angle equal and including sides proportional ⇒ similar.",
+    "Shadow problems use AA similarity: height/shadow is constant.",
+    "DE ∥ BC, AD = 2, DB = 3, BC = 10 ⇒ DE = 4.",
+    "Areas of similar triangles and Pythagoras theorem are not in the rationalised Chapter 6."
+  ],
+  "faqs": [
+    {
+      "q": "Are the Pythagoras theorem and areas of similar triangles still in this chapter?",
+      "a": "No. In the rationalised NCERT book, the sections on areas of similar triangles and on the Pythagoras theorem (and its converse) were removed from Chapter 6. The chapter now covers similar figures, BPT and its converse, and the AAA/AA, SSS and SAS similarity criteria.",
+      "keywords": ["pythagoras theorem deleted", "areas of similar triangles", "deleted topics triangles", "removed syllabus triangles"]
+    },
+    {
+      "q": "What is the difference between congruent and similar triangles?",
+      "a": "Congruent triangles are exactly the same in shape **and** size (sides equal). Similar triangles have the same shape, but their sides only need to be in the same ratio. Every pair of congruent triangles is similar (ratio 1), but similar triangles are not always congruent.",
+      "keywords": ["congruent vs similar", "difference congruent similar", "similarity and congruence"]
+    },
+    {
+      "q": "Why is AA enough to prove two triangles similar?",
+      "a": "The angles of any triangle add up to 180°. If two angles of one triangle equal two angles of another, the third angles must also be equal, so the AAA criterion is satisfied.",
+      "keywords": ["why AA enough", "AA criterion", "two angles similar"]
+    },
+    {
+      "q": "Do I need to learn the proof of BPT?",
+      "a": "Yes — the Basic Proportionality Theorem is proved in the book using areas of triangles (triangles on the same base and between the same parallels have equal areas), and it is a commonly asked proof. The converse and the similarity criteria are explained and used, so know their statements well and how to apply them.",
+      "keywords": ["BPT proof", "proof of thales theorem", "important theorems triangles"]
+    },
+    {
+      "q": "Are all rectangles similar?",
+      "a": "No. All rectangles have equal angles (90°), but their sides need not be proportional — a 2 × 3 rectangle and a 2 × 5 rectangle are not similar. Squares, however, are always similar to each other.",
+      "keywords": ["are all rectangles similar", "rectangles similar", "squares similar"]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Which pair of figures is ALWAYS similar?",
+      "options": ["Two rectangles", "Two rhombuses", "Two isosceles triangles", "Two equilateral triangles"],
+      "answer": 3,
+      "explain": "All equilateral triangles have angles 60°, 60°, 60° and sides in the same ratio, so they are always similar. The others can have different shapes.",
+      "topic": "similar-figures",
+      "level": "easy"
+    },
+    {
+      "q": "A square and a rhombus (which is not a square) are not similar because:",
+      "options": ["Their sides are not proportional", "Their corresponding angles are not equal", "They have different numbers of sides", "Their areas are different"],
+      "answer": 1,
+      "explain": "Both have all sides equal, so sides are proportional, but the rhombus's angles are not all 90°, so corresponding angles are not equal.",
+      "topic": "similar-figures",
+      "level": "medium"
+    },
+    {
+      "q": "If ΔABC ~ ΔPQR, which angle is equal to ∠B?",
+      "options": ["∠P", "∠R", "∠Q", "∠A"],
+      "answer": 2,
+      "explain": "The order of letters gives the correspondence A↔P, B↔Q, C↔R, so ∠B = ∠Q.",
+      "topic": "similar-triangles",
+      "level": "easy"
+    },
+    {
+      "q": "ΔABC ~ ΔDEF with AB = 4 cm, BC = 5 cm and DE = 6 cm. What is EF?",
+      "options": ["7.5 cm", "7 cm", "3.3 cm", "8 cm"],
+      "answer": 0,
+      "explain": "AB/DE = BC/EF → 4/6 = 5/EF → EF = 5 × 6 ÷ 4 = 7.5 cm.",
+      "topic": "similar-triangles",
+      "level": "medium"
+    },
+    {
+      "q": "In ΔABC, DE ∥ BC, AD = 3 cm, DB = 4.5 cm and AE = 2 cm. What is EC?",
+      "options": ["2.5 cm", "3 cm", "6.75 cm", "1.33 cm"],
+      "answer": 1,
+      "explain": "By BPT, AD/DB = AE/EC → 3/4.5 = 2/EC → EC = 2 × 4.5 ÷ 3 = 3 cm.",
+      "topic": "basic-proportionality-theorem",
+      "level": "easy"
+    },
+    {
+      "q": "In ΔABC, DE ∥ BC and AD/DB = 3/5. If AE = 4.5 cm, what is EC?",
+      "options": ["2.7 cm", "6 cm", "9 cm", "7.5 cm"],
+      "answer": 3,
+      "explain": "AE/EC = AD/DB = 3/5 → EC = 4.5 × 5 ÷ 3 = 7.5 cm.",
+      "topic": "basic-proportionality-theorem",
+      "level": "medium"
+    },
+    {
+      "q": "D and E lie on AB and AC with AD = 2 cm, DB = 3 cm, AE = 4 cm and EC = 6 cm. What can you conclude?",
+      "options": ["DE ∥ BC", "DE ⊥ BC", "DE = BC", "Nothing"],
+      "answer": 0,
+      "explain": "AD/DB = 2/3 and AE/EC = 4/6 = 2/3. Equal ratios, so DE ∥ BC by the converse of BPT.",
+      "topic": "converse-of-bpt",
+      "level": "medium"
+    },
+    {
+      "q": "Triangles with sides 2, 3, 4 cm and 4, 6, 8 cm are similar by which criterion?",
+      "options": ["AA", "SAS", "SSS", "RHS"],
+      "answer": 2,
+      "explain": "2/4 = 3/6 = 4/8 = ½, so all three pairs of sides are proportional: SSS similarity.",
+      "topic": "similarity-criteria",
+      "level": "easy"
+    },
+    {
+      "q": "In ΔABC and ΔPQR, ∠A = ∠P = 60° and ∠B = ∠Q = 70°. What is ∠R?",
+      "options": ["60°", "50°", "70°", "130°"],
+      "answer": 1,
+      "explain": "∠C = 180° − 60° − 70° = 50°. The triangles are similar by AA, so ∠R = ∠C = 50°.",
+      "topic": "similarity-criteria",
+      "level": "easy"
+    },
+    {
+      "q": "For the SAS similarity criterion, which condition is required?",
+      "options": ["Any two angles equal", "All three sides proportional", "Two sides proportional and any one angle equal", "One angle equal and the sides including it proportional"],
+      "answer": 3,
+      "explain": "SAS needs the equal angle to be included between the two pairs of proportional sides.",
+      "topic": "similarity-criteria",
+      "level": "medium"
+    },
+    {
+      "q": "A 1.5 m tall girl casts a 2 m shadow. At the same time a pole casts a 12 m shadow. How tall is the pole?",
+      "options": ["9 m", "16 m", "8 m", "18 m"],
+      "answer": 0,
+      "explain": "1.5/2 = h/12 → h = 12 × 1.5 ÷ 2 = 9 m.",
+      "topic": "applications-of-similarity",
+      "level": "medium"
+    },
+    {
+      "q": "A girl 1.2 m tall stands 3 m from a lamp post whose bulb is 4.8 m high. How long is her shadow?",
+      "options": ["0.75 m", "1.5 m", "1 m", "4 m"],
+      "answer": 2,
+      "explain": "1.2/s = 4.8/(3 + s) → 3.6 + 1.2s = 4.8s → 3.6s = 3.6 → s = 1 m.",
+      "topic": "applications-of-similarity",
+      "level": "hard"
+    }
+  ]
+}

@@ -1,0 +1,427 @@
+{
+  "id": "c10-math-ap",
+  "class": 10,
+  "subject": "mathematics",
+  "name": "Arithmetic Progressions",
+  "summary": "An arithmetic progression (AP) is a list of numbers in which each term after the first is obtained by adding a fixed number, the common difference d. With first term a, the nth term is aₙ = a + (n − 1)d, and the sum of the first n terms is Sₙ = n/2 [2a + (n − 1)d] = n/2 (a + l). These formulas answer questions such as which term equals a given number, how many terms an AP has, and totals in real-life situations like savings, instalments and production.",
+  "topics": [
+    {
+      "id": "what-is-an-ap",
+      "title": "Arithmetic progressions and common difference",
+      "summary": "An AP is a list where the difference between consecutive terms is always the same number d; written a, a + d, a + 2d, …",
+      "simple": "An **AP** is a list of numbers that goes up (or down) by the same amount every time, like 2, 6, 10, 14, … The fixed jump is the **common difference**, d. Here d = 4.",
+      "explain": "**Arithmetic progression (AP):** a list of numbers in which each term (except the first) is obtained by **adding a fixed number** to the previous term.\n\nThe fixed number is the **common difference**, **d = aₖ₊₁ − aₖ** (any term minus the term before it). d can be positive, negative or zero.\n\n**General form:** a, a + d, a + 2d, a + 3d, … where **a** is the first term.\n\n**Examples:**\n- 2, 6, 10, 14, … → a = 2, d = 4 (increasing)\n- 20, 17, 14, 11, … → a = 20, d = −3 (decreasing)\n- 5, 5, 5, 5, … → d = 0 (constant)\n- −1.5, −1, −0.5, 0, … → d = 0.5\n\n**Real-life APs:**\n- Taxi fare ₹50 for the first km and ₹15 for each extra km: 50, 65, 80, 95, …\n- Money in a piggy bank if you add ₹10 every day starting with ₹100: 100, 110, 120, …\n\n**Finite and infinite APs:** an AP with a last term is **finite** (e.g. the heights of 10 steps); one that goes on forever is **infinite** (e.g. 1, 3, 5, 7, …).\n\n**How to check if a list is an AP:** find a₂ − a₁, a₃ − a₂, a₄ − a₃, … If **all** the differences are equal, it is an AP.\n- 4, 10, 16, 22: differences 6, 6, 6 → AP ✓\n- 1, 4, 9, 16: differences 3, 5, 7 → **not** an AP\n- √2, √8, √18, √32 = √2, 2√2, 3√2, 4√2: differences √2 each → AP ✓",
+      "example": "Write the first four terms of the AP with a = −1 and d = ½.\na₁ = −1, a₂ = −1 + ½ = −½, a₃ = 0, a₄ = ½.\nSo the AP is −1, −½, 0, ½, …",
+      "keyPoints": [
+        "AP: each term = previous term + d",
+        "d = any term − the term before it",
+        "d can be positive, negative or zero",
+        "General form: a, a + d, a + 2d, …",
+        "Check all consecutive differences to test for an AP",
+        "Finite APs have a last term; infinite ones do not"
+      ],
+      "keywords": [
+        "arithmetic progression",
+        "AP",
+        "A.P.",
+        "chapter 5",
+        "class 10 maths chapter 5",
+        "common difference",
+        "first term",
+        "sequence",
+        "check if AP",
+        "finite AP",
+        "infinite AP",
+        "is it an AP"
+      ]
+    },
+    {
+      "id": "nth-term",
+      "title": "The nth term of an AP",
+      "summary": "aₙ = a + (n − 1)d gives any term directly and tells us which term (if any) equals a given number.",
+      "simple": "To reach the nth term, start at the first term and add d a total of (n − 1) times. So the formula is aₙ = a + (n − 1)d. For 2, 7, 12, …, the 10th term is 2 + 9 × 5 = 47.",
+      "explain": "**nth term (general term):** **aₙ = a + (n − 1)d**\n\nWhy (n − 1)? To go from the 1st term to the nth term you take (n − 1) steps of size d. So a₂ = a + d, a₃ = a + 2d, a₁₀ = a + 9d.\n\n**1. Finding a term:** 10th term of 2, 7, 12, …\na = 2, d = 7 − 2 = 5 → a₁₀ = 2 + 9 × 5 = **47**\n\n**2. Finding a term in a decreasing AP:** 20th term of 50, 46, 42, …\na = 50, d = −4 → a₂₀ = 50 + 19 × (−4) = 50 − 76 = **−26**\n\n**3. Which term is a given number?** Which term of 21, 18, 15, … is −81?\na = 21, d = −3:\n21 + (n − 1)(−3) = −81\n(n − 1)(−3) = −102\nn − 1 = 34 → **n = 35**. So −81 is the 35th term.\n\n**4. Is a number a term?** Is 301 a term of 5, 11, 17, 23, …?\n5 + (n − 1)6 = 301 → (n − 1)6 = 296 → n − 1 = 296/6 = 49⅓\nn is not a whole number, so **301 is not a term**.\n\n**5. First negative term:** which term of 50, 46, 42, … is the first negative one?\n50 + (n − 1)(−4) < 0 → 54 − 4n < 0 → n > 13.5, so the **14th term** (50 − 52 = −2) is the first negative term.\n\nThe value of n must always be a **positive whole number**, because it counts positions.",
+      "example": "In a garden, the first row has 7 rose plants and each row has 3 more than the row before. How many plants are in the 15th row?\na = 7, d = 3 → a₁₅ = 7 + 14 × 3 = 7 + 42 = 49 plants.",
+      "keyPoints": [
+        "aₙ = a + (n − 1)d",
+        "Find d as (a later term − the term just before it)",
+        "Set aₙ = given number and solve for n",
+        "If n is not a positive whole number, the number is not a term",
+        "Negative d makes terms decrease",
+        "Use an inequality to find the first negative term"
+      ],
+      "keywords": [
+        "nth term",
+        "general term",
+        "an = a + (n-1)d",
+        "which term",
+        "is 301 a term",
+        "10th term",
+        "first negative term",
+        "find the term",
+        "formula for nth term"
+      ]
+    },
+    {
+      "id": "finding-ap-and-term-from-end",
+      "title": "Finding the AP, number of terms and terms from the end",
+      "summary": "Two given terms give two equations in a and d; the last term gives the number of terms; the nth term from the end is l − (n − 1)d.",
+      "simple": "If you know two terms of an AP, you can work out a and d and write the whole AP. If you know the last term, you can count how many terms there are. Counting backwards from the last term works like an AP with −d.",
+      "explain": "**1. Finding the AP from two terms:** the 3rd term is 5 and the 7th term is 9.\n- a + 2d = 5\n- a + 6d = 9\nSubtract: 4d = 4 → **d = 1**, then a = 5 − 2 = **3**. AP: **3, 4, 5, 6, …**\n\n**2. How many terms?** Use the last term l = a + (n − 1)d.\nHow many three-digit numbers are divisible by 7? They form the AP 105, 112, 119, …, 994 (a = 105, d = 7, l = 994).\n994 = 105 + (n − 1)7 → (n − 1)7 = 889 → n − 1 = 127 → **n = 128**\n\n**3. nth term from the end:** for a finite AP with last term l and common difference d, reading backwards gives the AP l, l − d, l − 2d, … so\n**nth term from the end = l − (n − 1)d**\n(Equivalently, if the AP has m terms, the nth term from the end is the (m − n + 1)th term from the start.)\n\n**4. Middle term:** if an AP has an odd number of terms m, the middle term is the ((m + 1)/2)th term. For 3, 7, 11, …, 43: 43 = 3 + (m − 1)4 gives m = 11, so the middle term is the 6th: 3 + 5 × 4 = **23**.\n\n**5. Three numbers in AP:** take them as **a − d, a, a + d**. If their sum is 24, then 3a = 24 and a = 8 — the d's cancel, which makes the working easy.",
+      "example": "Find the 11th term from the last of the AP 10, 7, 4, …, −62.\nHere l = −62 and d = −3.\n11th term from the end = l − (11 − 1)d = −62 − 10(−3) = −62 + 30 = −32.\nCheck: the AP has 25 terms (−62 = 10 + (n − 1)(−3) gives n = 25), so this is the 15th term from the start: 10 + 14(−3) = −32 ✓",
+      "keyPoints": [
+        "Two terms given → two equations in a and d",
+        "Number of terms: solve l = a + (n − 1)d for n",
+        "nth term from the end = l − (n − 1)d",
+        "Middle term of m terms (m odd) = ((m + 1)/2)th term",
+        "Three numbers in AP: a − d, a, a + d",
+        "There are 128 three-digit multiples of 7"
+      ],
+      "keywords": [
+        "find the AP",
+        "find a and d",
+        "how many terms",
+        "number of terms",
+        "three digit numbers divisible by 7",
+        "nth term from the end",
+        "term from last",
+        "last term",
+        "middle term",
+        "three numbers in AP"
+      ]
+    },
+    {
+      "id": "sum-of-n-terms",
+      "title": "Sum of the first n terms",
+      "summary": "Sₙ = n/2 [2a + (n − 1)d], or Sₙ = n/2 (a + l) when the last term l is known; the sum of the first n natural numbers is n(n + 1)/2.",
+      "simple": "To add up the first n terms of an AP quickly, pair the first and last terms, the second and second-last, and so on — every pair has the same total. That gives Sₙ = n/2 × (first term + last term).",
+      "explain": "**Gauss's idea:** to add 1 + 2 + 3 + … + 100, write the sum forwards and backwards:\nS = 1 + 2 + … + 100\nS = 100 + 99 + … + 1\nAdding, each of the 100 pairs gives 101: 2S = 100 × 101 → **S = 5050**.\n\nApplying the same idea to a general AP gives:\n\n**Sₙ = n/2 [2a + (n − 1)d]**\n\nand, since the last (nth) term is l = a + (n − 1)d:\n\n**Sₙ = n/2 (a + l)**\n\n**Sum of the first n positive integers:** Sₙ = **n(n + 1)/2**\n\n**Example 1:** sum of the first 22 terms of 8, 3, −2, …\na = 8, d = −5, n = 22\nS₂₂ = 22/2 [2(8) + 21(−5)] = 11 [16 − 105] = 11 × (−89) = **−979**\n\n**Example 2:** sum of 34 + 32 + 30 + … + 10\na = 34, d = −2, l = 10 → 10 = 34 + (n − 1)(−2) → n − 1 = 12 → n = 13\nS₁₃ = 13/2 (34 + 10) = 13 × 22 = **286**\n\n**Example 3 — finding n:** how many terms of 24, 21, 18, … must be taken to make the sum 78?\nn/2 [48 + (n − 1)(−3)] = 78 → n(51 − 3n) = 156 → 3n² − 51n + 156 = 0 → n² − 17n + 52 = 0 → (n − 4)(n − 13) = 0\n**n = 4 or n = 13.** Both work: the 5th to 13th terms (12, 9, …, −12) add up to 0.\nCheck: 24 + 21 + 18 + 15 = 78 ✓",
+      "deep": "**Finding a term from the sum:** since Sₙ = Sₙ₋₁ + aₙ, we get **aₙ = Sₙ − Sₙ₋₁**.\n\nIf Sₙ = 4n − n²:\n- S₁ = 3, so a₁ = 3\n- S₂ = 8 − 4 = 4, so a₂ = S₂ − S₁ = 1\n- d = 1 − 3 = −2\n- aₙ = Sₙ − Sₙ₋₁ = (4n − n²) − [4(n − 1) − (n − 1)²] = 5 − 2n\nCheck: a₁ = 3 ✓, a₂ = 1 ✓",
+      "example": "Find the sum of the first 40 positive integers divisible by 6.\nThe AP is 6, 12, 18, …, with a = 6, d = 6, n = 40.\nS₄₀ = 40/2 [12 + 39 × 6] = 20 [12 + 234] = 20 × 246 = 4920.",
+      "keyPoints": [
+        "Sₙ = n/2 [2a + (n − 1)d]",
+        "Sₙ = n/2 (a + l), l = last term",
+        "1 + 2 + … + n = n(n + 1)/2",
+        "1 + 2 + … + 100 = 5050",
+        "Find n first if only the last term is given",
+        "aₙ = Sₙ − Sₙ₋₁"
+      ],
+      "keywords": [
+        "sum of n terms",
+        "Sn formula",
+        "sum of AP",
+        "n/2(2a + (n-1)d)",
+        "n/2(a + l)",
+        "sum of first n natural numbers",
+        "gauss",
+        "5050",
+        "how many terms make the sum",
+        "an = Sn - Sn-1",
+        "sum of first 40 multiples"
+      ]
+    },
+    {
+      "id": "ap-word-problems",
+      "title": "Word problems on APs",
+      "summary": "Savings, instalments, production, prizes and seating patterns often form APs; decide whether the question wants a single term (aₙ) or a total (Sₙ).",
+      "simple": "In real-life AP problems, first find a and d. If the question asks about one particular day, week or row, use aₙ. If it asks for the total over many days, weeks or rows, use Sₙ.",
+      "explain": "**Key question:** does the problem ask for **one term** (use **aₙ**) or a **total** (use **Sₙ**)?\n\n**Savings:** Ravi saves ₹50 in the first week and increases his saving by ₹20 every week.\n- a = 50, d = 20\n- Saving in week 10: a₁₀ = 50 + 9 × 20 = **₹230**\n- Total saved in 10 weeks: S₁₀ = 10/2 (50 + 230) = 5 × 280 = **₹1400**\n\n**Production:** a factory made 600 TV sets in its 3rd year and 700 in its 7th year, increasing by the same number each year.\n- a + 2d = 600 and a + 6d = 700 → 4d = 100 → **d = 25**, **a = 550**\n- Production in the 10th year: 550 + 9 × 25 = **775**\n- Total in the first 7 years: S₇ = 7/2 [1100 + 6 × 25] = 3.5 × 1250 = **4375**\n\n**Prizes:** ₹700 is to be given as 7 cash prizes, each ₹20 less than the one before.\n- d = −20, n = 7, S₇ = 700\n- 7/2 [2a + 6(−20)] = 700 → 2a − 120 = 200 → **a = 160**\n- Prizes: ₹160, ₹140, ₹120, ₹100, ₹80, ₹60, ₹40. Check: 7/2 (160 + 40) = 700 ✓\n\n**Seats / stacking:** an auditorium has 20 seats in the first row and 2 more in each next row. For 25 rows:\n- Seats in row 25: 20 + 24 × 2 = **68**\n- Total seats: 25/2 (20 + 68) = 25 × 44 = **1100**",
+      "example": "A loan of ₹1225 is repaid in monthly instalments: ₹100 in the first month, increasing by ₹5 each month. How many months will it take?\na = 100, d = 5, Sₙ = 1225.\nn/2 [200 + 5(n − 1)] = 1225 → n(195 + 5n) = 2450 → 5n² + 195n − 2450 = 0 → n² + 39n − 490 = 0 → (n + 49)(n − 10) = 0.\nn = 10 months (reject −49). Check: S₁₀ = 5 [200 + 45] = 5 × 245 = 1225 ✓",
+      "keyPoints": [
+        "One particular term → use aₙ",
+        "Total of several terms → use Sₙ",
+        "Two terms given → solve for a and d",
+        "A decrease each time means d is negative",
+        "Use Sₙ = n/2 (a + l) when the last term is known",
+        "Check the final answer by adding a few terms"
+      ],
+      "keywords": [
+        "ap word problems",
+        "savings problem",
+        "production problem",
+        "tv sets",
+        "prize money",
+        "instalments",
+        "auditorium seats",
+        "rows of seats",
+        "application of AP",
+        "real life AP"
+      ]
+    }
+  ],
+  "keyConcepts": [
+    {
+      "term": "Arithmetic progression (AP)",
+      "meaning": "A list of numbers in which each term after the first is obtained by adding a fixed number d to the previous term."
+    },
+    {
+      "term": "Term",
+      "meaning": "Each number in an AP; aₙ denotes the nth term."
+    },
+    {
+      "term": "First term (a)",
+      "meaning": "The starting number of the AP, a₁."
+    },
+    {
+      "term": "Common difference (d)",
+      "meaning": "The fixed difference between consecutive terms, d = aₖ₊₁ − aₖ."
+    },
+    {
+      "term": "Finite AP",
+      "meaning": "An AP with a last term and a definite number of terms."
+    },
+    {
+      "term": "Infinite AP",
+      "meaning": "An AP that continues without end."
+    },
+    {
+      "term": "General (nth) term",
+      "meaning": "aₙ = a + (n − 1)d, the formula for any term."
+    },
+    {
+      "term": "Last term (l)",
+      "meaning": "The final term of a finite AP; l = a + (n − 1)d."
+    },
+    {
+      "term": "Sum of n terms (Sₙ)",
+      "meaning": "The total of the first n terms, n/2 [2a + (n − 1)d]."
+    }
+  ],
+  "formulas": [
+    "Common difference: d = aₖ₊₁ − aₖ",
+    "nth term: aₙ = a + (n − 1)d",
+    "nth term from the end: l − (n − 1)d (l = last term)",
+    "Sum of first n terms: Sₙ = n/2 [2a + (n − 1)d]",
+    "Sum when last term is known: Sₙ = n/2 (a + l)",
+    "Sum of first n positive integers: n(n + 1)/2",
+    "nth term from sums: aₙ = Sₙ − Sₙ₋₁"
+  ],
+  "commonMistakes": [
+    "Using a + nd instead of a + (n − 1)d for the nth term.",
+    "Finding d as (earlier term − later term), which gives the wrong sign; always do later − earlier.",
+    "Checking only the first two differences before calling a list an AP.",
+    "Accepting a fractional or negative n when asked which term a number is.",
+    "Using aₙ when the question asks for a total, or Sₙ when it asks for one term.",
+    "Forgetting the n/2 factor (or using n instead of n/2) in the sum formula.",
+    "Forgetting brackets with negative d: 21 + (n − 1)(−3), not 21 + n − 1 − 3."
+  ],
+  "revision": [
+    "AP: constant difference d between consecutive terms.",
+    "General form: a, a + d, a + 2d, …",
+    "aₙ = a + (n − 1)d.",
+    "10th term of 2, 7, 12, … is 47.",
+    "A number is a term only if n comes out as a positive whole number.",
+    "There are 128 three-digit numbers divisible by 7.",
+    "nth term from the end = l − (n − 1)d.",
+    "Sₙ = n/2 [2a + (n − 1)d] = n/2 (a + l).",
+    "1 + 2 + … + 100 = 5050; 1 + 2 + … + n = n(n + 1)/2.",
+    "aₙ = Sₙ − Sₙ₋₁.",
+    "One term → aₙ; total → Sₙ.",
+    "Two given terms give two equations in a and d."
+  ],
+  "faqs": [
+    {
+      "q": "What is the difference between aₙ and Sₙ?",
+      "a": "**aₙ** is a single term — the value in the nth position. **Sₙ** is the total of the first n terms. For 2, 7, 12, 17: a₄ = 17, but S₄ = 2 + 7 + 12 + 17 = 38.",
+      "keywords": [
+        "an vs sn",
+        "difference nth term and sum",
+        "term vs sum"
+      ]
+    },
+    {
+      "q": "Can the common difference be negative or zero?",
+      "a": "Yes. A negative d gives a decreasing AP (20, 17, 14, … has d = −3). A zero d gives a constant AP (5, 5, 5, …). Both are valid APs.",
+      "keywords": [
+        "negative common difference",
+        "zero common difference",
+        "decreasing AP"
+      ]
+    },
+    {
+      "q": "Which sum formula should I use?",
+      "a": "Use **Sₙ = n/2 (a + l)** when you know the first and last terms. Use **Sₙ = n/2 [2a + (n − 1)d]** when you know a, d and n but not the last term. Both give the same answer.",
+      "keywords": [
+        "which sum formula",
+        "n/2(a+l) or n/2(2a+(n-1)d)",
+        "sum formula choice"
+      ]
+    },
+    {
+      "q": "Why did I get two values of n when finding how many terms give a sum?",
+      "a": "The equation for n is quadratic, so it can have two roots. If both are positive whole numbers, both may be valid — for 24, 21, 18, …, the sum is 78 after 4 terms and again after 13 terms, because terms 5 to 13 add up to zero. Reject any root that is negative or not a whole number.",
+      "keywords": [
+        "two values of n",
+        "quadratic in n",
+        "both answers valid"
+      ]
+    },
+    {
+      "q": "How do I find the middle term of an AP?",
+      "a": "If the AP has an odd number of terms n, the middle term is the ((n + 1)/2)th term. For example, 3, 7, 11, …, 43 has 11 terms (43 = 3 + (n − 1)4 gives n = 11), so the middle term is the 6th: 3 + 5 × 4 = 23.",
+      "keywords": [
+        "middle term",
+        "middle term of AP",
+        "centre term"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "What is the common difference of the AP 3, 1, −1, −3, …?",
+      "options": [
+        "2",
+        "−2",
+        "−4",
+        "1"
+      ],
+      "answer": 1,
+      "explain": "d = 1 − 3 = −2 (and −1 − 1 = −2 ✓).",
+      "topic": "what-is-an-ap",
+      "level": "easy"
+    },
+    {
+      "q": "Which of these lists is an AP?",
+      "options": [
+        "1, 4, 9, 16",
+        "2, 4, 8, 16",
+        "1, 3, 6, 10",
+        "√2, √8, √18, √32"
+      ],
+      "answer": 3,
+      "explain": "√2, √8, √18, √32 = √2, 2√2, 3√2, 4√2, with common difference √2. The others have changing differences.",
+      "topic": "what-is-an-ap",
+      "level": "medium"
+    },
+    {
+      "q": "What is the 10th term of the AP 2, 7, 12, …?",
+      "options": [
+        "52",
+        "50",
+        "47",
+        "45"
+      ],
+      "answer": 2,
+      "explain": "a₁₀ = 2 + (10 − 1) × 5 = 2 + 45 = 47.",
+      "topic": "nth-term",
+      "level": "easy"
+    },
+    {
+      "q": "Which term of the AP 21, 18, 15, … is −81?",
+      "options": [
+        "35th",
+        "34th",
+        "33rd",
+        "36th"
+      ],
+      "answer": 0,
+      "explain": "21 + (n − 1)(−3) = −81 → (n − 1)(−3) = −102 → n − 1 = 34 → n = 35.",
+      "topic": "nth-term",
+      "level": "medium"
+    },
+    {
+      "q": "How many three-digit numbers are divisible by 7?",
+      "options": [
+        "127",
+        "129",
+        "130",
+        "128"
+      ],
+      "answer": 3,
+      "explain": "AP 105, 112, …, 994: 994 = 105 + (n − 1)7 → n − 1 = 127 → n = 128.",
+      "topic": "finding-ap-and-term-from-end",
+      "level": "hard"
+    },
+    {
+      "q": "The 3rd term of an AP is 5 and the 7th term is 9. What is the first term?",
+      "options": [
+        "3",
+        "1",
+        "2",
+        "4"
+      ],
+      "answer": 0,
+      "explain": "a + 2d = 5 and a + 6d = 9 → 4d = 4 → d = 1, so a = 3.",
+      "topic": "finding-ap-and-term-from-end",
+      "level": "medium"
+    },
+    {
+      "q": "What is the 11th term from the last of the AP 10, 7, 4, …, −62?",
+      "options": [
+        "−29",
+        "−32",
+        "−35",
+        "−20"
+      ],
+      "answer": 1,
+      "explain": "From the end: l − (n − 1)d = −62 − 10 × (−3) = −62 + 30 = −32.",
+      "topic": "finding-ap-and-term-from-end",
+      "level": "hard"
+    },
+    {
+      "q": "What is the sum of the first 100 positive integers?",
+      "options": [
+        "5000",
+        "10100",
+        "5050",
+        "4950"
+      ],
+      "answer": 2,
+      "explain": "n(n + 1)/2 = 100 × 101 / 2 = 5050.",
+      "topic": "sum-of-n-terms",
+      "level": "easy"
+    },
+    {
+      "q": "What is the sum of the first 22 terms of the AP 8, 3, −2, …?",
+      "options": [
+        "−979",
+        "−989",
+        "979",
+        "−1001"
+      ],
+      "answer": 0,
+      "explain": "S₂₂ = 11 [2(8) + 21(−5)] = 11 [16 − 105] = 11 × (−89) = −979.",
+      "topic": "sum-of-n-terms",
+      "level": "medium"
+    },
+    {
+      "q": "If the sum of the first n terms of an AP is Sₙ = 4n − n², what is the second term?",
+      "options": [
+        "3",
+        "4",
+        "−1",
+        "1"
+      ],
+      "answer": 3,
+      "explain": "S₁ = 3 and S₂ = 8 − 4 = 4, so a₂ = S₂ − S₁ = 4 − 3 = 1.",
+      "topic": "sum-of-n-terms",
+      "level": "hard"
+    },
+    {
+      "q": "Ravi saves ₹50 in week 1 and ₹20 more each week than the week before. How much does he save in week 10?",
+      "options": [
+        "₹250",
+        "₹200",
+        "₹230",
+        "₹1400"
+      ],
+      "answer": 2,
+      "explain": "a₁₀ = 50 + 9 × 20 = ₹230. (₹1400 is his total over 10 weeks.)",
+      "topic": "ap-word-problems",
+      "level": "easy"
+    },
+    {
+      "q": "₹700 is given as 7 prizes, each ₹20 less than the previous one. What is the first prize?",
+      "options": [
+        "₹120",
+        "₹160",
+        "₹140",
+        "₹100"
+      ],
+      "answer": 1,
+      "explain": "7/2 [2a + 6(−20)] = 700 → 2a − 120 = 200 → a = 160. Prizes 160, 140, …, 40 total 700 ✓",
+      "topic": "ap-word-problems",
+      "level": "medium"
+    }
+  ]
+}

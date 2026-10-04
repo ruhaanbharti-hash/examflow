@@ -1,0 +1,123 @@
+{
+  "id": "c10-math-probability",
+  "class": 10,
+  "subject": "mathematics",
+  "name": "Probability",
+  "summary": "This chapter introduces theoretical (classical) probability: P(E) = number of favourable outcomes ÷ total number of equally likely outcomes. It covers elementary events, complementary events (P(E) + P(not E) = 1), impossible and sure events, the range 0 ≤ P(E) ≤ 1, and solves problems on coins, dice, playing cards, balls in a bag and similar situations.",
+  "topics": [
+    {
+      "id": "theoretical-probability",
+      "title": "Theoretical (classical) probability",
+      "summary": "When all outcomes of an experiment are equally likely, P(E) = number of outcomes favourable to E ÷ total number of possible outcomes.",
+      "simple": "Probability measures how likely something is. If all results are equally likely, count the results you want and divide by the total number of results. For a coin, there are 2 equally likely results, so the chance of heads is 1/2.",
+      "explain": "**Key words:**\n- **Random experiment:** an action whose result cannot be predicted for sure, like tossing a coin or throwing a die.\n- **Outcome:** a possible result (e.g. getting a 4 on a die).\n- **Equally likely outcomes:** each outcome has the same chance. A fair coin or an unbiased die gives equally likely outcomes.\n- **Event (E):** a collection of outcomes we are interested in (e.g. 'getting an even number' = {2, 4, 6}).\n- **Favourable outcomes:** the outcomes that make the event happen.\n\n**Theoretical (classical) probability:**\n**P(E) = (number of outcomes favourable to E) ÷ (number of all possible outcomes)**\n\nThis formula works **only when the outcomes are equally likely**.\n\n**Experimental vs theoretical:** in Class 9, probability was found from experiments: P(E) = number of trials in which E happened ÷ total trials. The theoretical probability is what we expect in the long run; as the number of trials increases, the experimental probability gets closer to the theoretical one.\n\nProbability can be written as a fraction, decimal or percentage (½ = 0.5 = 50%).",
+      "example": "A fair die is thrown once. Find the probability of getting (a) a number greater than 4, (b) a prime number.\n- Possible outcomes: 1, 2, 3, 4, 5, 6 → 6 equally likely outcomes\n- (a) Favourable: 5, 6 → P = 2/6 = **1/3**\n- (b) Primes: 2, 3, 5 → P = 3/6 = **1/2**",
+      "keyPoints": ["P(E) = favourable outcomes ÷ total outcomes", "Works only for equally likely outcomes", "An event is a collection of outcomes", "Fair coin / unbiased die → equally likely outcomes", "Experimental probability approaches theoretical probability with many trials", "Probability can be a fraction, decimal or percentage"],
+      "keywords": ["probability", "theoretical probability", "classical probability", "favourable outcomes", "equally likely", "outcome", "event", "random experiment", "experimental probability", "chapter 14", "ch 14 maths", "probability class 10"]
+    },
+    {
+      "id": "elementary-and-complementary-events",
+      "title": "Elementary events and complementary events",
+      "summary": "An elementary event has exactly one outcome; the probabilities of all elementary events add up to 1, and P(E) + P(not E) = 1.",
+      "simple": "An event with just one outcome (like 'getting a 3') is an **elementary event**. 'E' and 'not E' together cover every possibility, so their chances always add up to 1. If the chance of rain is 0.3, the chance of no rain is 0.7.",
+      "explain": "**Elementary event:** an event that has only **one** outcome. For a die, 'getting 1', 'getting 2', …, 'getting 6' are the six elementary events, each with probability 1/6.\n\n**Sum of elementary events:** the sum of the probabilities of **all** the elementary events of an experiment is **1**. (For a die: 6 × 1/6 = 1.)\n\n**Complementary event:** for an event E, the event 'not E' (written **Ē** or E′) happens exactly when E does **not** happen. E and not E together cover all outcomes and never happen together.\n\n**P(E) + P(not E) = 1**, so **P(not E) = 1 − P(E)**.\n\n**When to use it:** if counting the favourable outcomes directly is long, count the opposite case and subtract from 1.\n- P(not getting a 6) = 1 − 1/6 = 5/6\n- P(at least one head in two tosses) = 1 − P(no head) = 1 − 1/4 = 3/4\n\n**Watch the wording:** 'not E' means everything except E. For example, the complement of 'getting an even number' on a die is 'getting an odd number', not 'getting 1'.",
+      "example": "**(a)** The probability that a student passes a test is 0.82. What is the probability that the student does not pass?\nP(not pass) = 1 − 0.82 = **0.18**\n\n**(b)** One card is drawn from a well-shuffled deck of 52 cards. Find the probability that it is not a heart.\n1. P(heart) = 13/52 = 1/4\n2. P(not a heart) = 1 − 1/4 = **3/4** (check: 39 non-hearts, 39/52 = 3/4 ✓)",
+      "keyPoints": ["Elementary event = exactly one outcome", "Probabilities of all elementary events add up to 1", "P(E) + P(not E) = 1", "P(not E) = 1 − P(E)", "Use the complement for 'at least one' and 'not' questions"],
+      "keywords": ["elementary event", "complementary event", "complement", "p(not e)", "1 - p(e)", "p(e) + p(not e) = 1", "not e", "e bar", "at least one", "sum of probabilities"]
+    },
+    {
+      "id": "impossible-sure-and-range",
+      "title": "Impossible events, sure events and the range of probability",
+      "summary": "An impossible event has probability 0, a sure (certain) event has probability 1, and every probability lies between 0 and 1.",
+      "simple": "If something can never happen, its probability is **0**. If it is sure to happen, its probability is **1**. Every other event has a probability somewhere in between, so a probability can never be negative or more than 1.",
+      "explain": "**Impossible event:** has **no** favourable outcome, so P = 0/n = **0**.\n- Example: getting 8 on a single throw of an ordinary die.\n\n**Sure (certain) event:** every outcome is favourable, so P = n/n = **1**.\n- Example: getting a number less than 7 on a die.\n\n**Range of probability:** the number of favourable outcomes is between 0 and the total number of outcomes, so\n**0 ≤ P(E) ≤ 1**.\n\n**Consequences:**\n- A probability can **never** be negative.\n- A probability can **never** be greater than 1 (e.g. 1.5, 5/3 or 120% are impossible values).\n- The closer P(E) is to 1, the more likely E is; the closer to 0, the less likely.\n\n**Equally likely or not?** Not every pair of outcomes is equally likely. For example, 'a player wins or loses a match' or 'it rains or doesn't rain tomorrow' are two outcomes but not necessarily equally likely, so you cannot simply say each has probability ½.",
+      "example": "A bag contains only lemon-flavoured candies. Malini takes one without looking.\n- P(she gets an orange candy) = 0/n = **0** (impossible event)\n- P(she gets a lemon candy) = n/n = **1** (sure event)",
+      "keyPoints": ["Impossible event: P = 0", "Sure event: P = 1", "0 ≤ P(E) ≤ 1 for every event", "A probability can't be negative or more than 1", "Two outcomes are not automatically equally likely"],
+      "keywords": ["impossible event", "sure event", "certain event", "probability 0", "probability 1", "range of probability", "0 ≤ p(e) ≤ 1", "can probability be more than 1", "negative probability"]
+    },
+    {
+      "id": "coins-and-dice",
+      "title": "Problems with coins and dice",
+      "summary": "One coin has 2 outcomes, two coins have 4 (HH, HT, TH, TT), one die has 6 and two dice have 36 outcomes; list them systematically and count.",
+      "simple": "For coins and dice, first list **all** possible outcomes carefully. Two coins give 4 outcomes and two dice give 6 × 6 = 36 outcomes. Then count the ones you want.",
+      "explain": "**One coin:** {H, T} → 2 outcomes.\n\n**Two coins (or one coin tossed twice):** {HH, HT, TH, TT} → 4 equally likely outcomes. Note HT and TH are **different** outcomes.\n- P(two heads) = 1/4\n- P(exactly one head) = 2/4 = 1/2\n- P(at least one head) = 3/4\n\n**One die:** {1, 2, 3, 4, 5, 6} → 6 outcomes.\n\n**Two dice (or one die thrown twice):** each pair (a, b) with a, b from 1 to 6 → **6 × 6 = 36** outcomes.\n- **Doublets** (same number on both): (1,1), (2,2), …, (6,6) → 6 outcomes\n- Sum 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) → 6 outcomes (the most likely sum)\n- Sum 2 and sum 12 each have only 1 outcome\n- Number of ways to get each sum 2, 3, 4, …, 12: 1, 2, 3, 4, 5, 6, 5, 4, 3, 2, 1\n\n**Tip:** write the 36 outcomes as a 6 × 6 grid of pairs in your rough work — it avoids missing cases.",
+      "example": "Two dice are thrown together. Find the probability that the sum is 8.\n1. Total outcomes = 36\n2. Favourable: (2,6), (3,5), (4,4), (5,3), (6,2) → 5 outcomes\n3. P(sum 8) = **5/36**\n\nP(sum at least 10) = (3 + 2 + 1)/36 = 6/36 = **1/6** (sums 10, 11, 12).",
+      "keyPoints": ["One coin: 2 outcomes; two coins: 4 (HH, HT, TH, TT)", "HT and TH are different outcomes", "One die: 6 outcomes; two dice: 36 outcomes", "6 doublets when two dice are thrown", "Sum 7 has the most ways (6) with two dice", "List outcomes systematically before counting"],
+      "keywords": ["coin toss probability", "two coins", "tossing coins", "die", "dice", "two dice", "throwing two dice", "36 outcomes", "doublet", "sum of numbers on dice", "at least one head", "unbiased die"]
+    },
+    {
+      "id": "cards-and-other-problems",
+      "title": "Problems with playing cards, bags and numbered items",
+      "summary": "A deck has 52 cards in 4 suits of 13; for bags, boxes and numbered discs, count the total items and the favourable items carefully.",
+      "simple": "A pack of cards has 52 cards: 4 suits with 13 cards each. For bags of balls or boxes of numbered discs, add up all the items for the total, count the ones that fit the event, and divide.",
+      "explain": "**Deck of 52 playing cards:**\n- 4 suits of 13 cards each: **spades ♠** and **clubs ♣** (black), **hearts ♥** and **diamonds ♦** (red)\n- 26 red cards and 26 black cards\n- Each suit: Ace, 2, 3, …, 10, Jack, Queen, King\n- **Face cards:** Jack, Queen, King → 3 per suit, **12** in all (6 red, 6 black)\n- 4 aces, 4 kings, 4 queens, 4 jacks\n\n**Bags and boxes:** total outcomes = total number of items. 'Drawn at random' means every item is equally likely.\n\n**Numbered discs or tickets (1 to n):** total = n. Count favourable numbers carefully:\n- two-digit numbers between 1 and 90: 10 to 90 → 81\n- perfect squares from 1 to 90: 1, 4, 9, 16, 25, 36, 49, 64, 81 → 9\n- multiples of 5 from 1 to 90: 18\n\n**Defective items:** if some items are defective, P(good) = good items ÷ total, or 1 − P(defective).\n\n**Spinning wheels / arrows:** if the arrow can stop at any of n equal sectors, each has probability 1/n.\n\n**Removing cards:** if some cards are removed first, reduce the total and the favourable counts before computing.",
+      "example": "**(a)** One card is drawn from a well-shuffled deck. Find P(a red face card).\nRed face cards = 3 hearts + 3 diamonds = 6. P = 6/52 = **3/26**.\n\n**(b)** A bag has 3 red and 5 black balls. One ball is drawn at random. P(red) = 3/8 and P(not red) = 1 − 3/8 = **5/8**.\n\n**(c)** 144 ball pens include 20 defective ones. P(a randomly chosen pen is good) = 124/144 = **31/36**.\n\n**(d)** A box has discs numbered 1 to 90. P(perfect square) = 9/90 = **1/10**.",
+      "keyPoints": ["52 cards: 4 suits × 13; 26 red and 26 black", "12 face cards (J, Q, K); 4 aces", "Total outcomes = total items in the bag or box", "Count numbers in a range carefully (two-digit, squares, multiples)", "P(good) = 1 − P(defective)", "Adjust totals if cards or items are removed first"],
+      "keywords": ["playing cards probability", "deck of 52 cards", "face cards", "red face card", "ace", "suits", "spades hearts diamonds clubs", "balls in a bag", "marbles", "numbered discs", "defective items", "spinning arrow"]
+    }
+  ],
+  "keyConcepts": [
+    {"term": "Random experiment", "meaning": "An action whose result cannot be predicted with certainty, like tossing a coin."},
+    {"term": "Outcome", "meaning": "A possible result of an experiment."},
+    {"term": "Equally likely outcomes", "meaning": "Outcomes that each have the same chance of happening."},
+    {"term": "Event", "meaning": "A collection of one or more outcomes of an experiment."},
+    {"term": "Theoretical probability", "meaning": "P(E) = number of favourable outcomes ÷ total number of equally likely outcomes."},
+    {"term": "Elementary event", "meaning": "An event with exactly one outcome."},
+    {"term": "Complementary event", "meaning": "The event 'not E', which happens exactly when E does not; P(not E) = 1 − P(E)."},
+    {"term": "Impossible event", "meaning": "An event that cannot happen; its probability is 0."},
+    {"term": "Sure (certain) event", "meaning": "An event that is certain to happen; its probability is 1."},
+    {"term": "Face cards", "meaning": "Jack, Queen and King; there are 12 in a deck of 52 cards."},
+    {"term": "Doublet", "meaning": "The same number appearing on both dice, e.g. (3, 3); there are 6 doublets."}
+  ],
+  "formulas": [
+    "P(E) = number of outcomes favourable to E ÷ total number of possible outcomes",
+    "P(E) + P(not E) = 1, so P(not E) = 1 − P(E)",
+    "0 ≤ P(E) ≤ 1",
+    "P(impossible event) = 0, P(sure event) = 1",
+    "Sum of probabilities of all elementary events = 1",
+    "Outcomes: 1 coin = 2, 2 coins = 4, 1 die = 6, 2 dice = 36, deck of cards = 52"
+  ],
+  "commonMistakes": [
+    "Using P = favourable ÷ total when outcomes are not equally likely.",
+    "Treating HT and TH as the same outcome when two coins are tossed (there are 4 outcomes, not 3).",
+    "Taking 12 (6 + 6) instead of 36 (6 × 6) as the number of outcomes for two dice.",
+    "Giving a probability greater than 1 or negative — check that 0 ≤ P ≤ 1.",
+    "Forgetting that the ace is not a face card; face cards are only J, Q, K.",
+    "Miscounting numbers in a range, e.g. thinking there are 90 two-digit numbers from 1 to 90 (there are 81).",
+    "Not reducing the total when some cards or items have been removed before drawing."
+  ],
+  "revision": [
+    "P(E) = favourable outcomes ÷ total outcomes (for equally likely outcomes).",
+    "0 ≤ P(E) ≤ 1.",
+    "Impossible event: P = 0; sure event: P = 1.",
+    "P(E) + P(not E) = 1.",
+    "Sum of probabilities of all elementary events = 1.",
+    "Two coins: HH, HT, TH, TT (4 outcomes).",
+    "Two dice: 36 outcomes; 6 doublets; sum 7 has 6 ways.",
+    "Deck: 52 cards, 4 suits of 13, 26 red and 26 black.",
+    "12 face cards (J, Q, K); 4 aces.",
+    "Use the complement for 'not' and 'at least one' questions.",
+    "Probability can be a fraction, decimal or percentage."
+  ],
+  "faqs": [
+    {"q": "Why is the probability of getting a head ½, but I didn't get 5 heads in 10 tosses?", "a": "Theoretical probability tells what to expect in the long run, not in a few tosses. With only 10 tosses, getting 3 or 7 heads is quite normal. As the number of tosses grows very large, the fraction of heads gets closer and closer to ½.", "keywords": ["experimental vs theoretical", "why not exactly half", "coin toss long run", "difference experimental theoretical probability"]},
+    {"q": "Can a probability be more than 1 or negative?", "a": "No. Favourable outcomes can't be fewer than 0 or more than the total, so 0 ≤ P(E) ≤ 1 always. If your answer is outside this range, recheck your counting.", "keywords": ["probability more than 1", "negative probability", "range of probability"]},
+    {"q": "When two coins are tossed, why are there 4 outcomes and not 3?", "a": "'One head and one tail' can happen in two ways: head on the first coin and tail on the second (HT), or tail on the first and head on the second (TH). So the equally likely outcomes are HH, HT, TH, TT. P(one head and one tail) = 2/4 = ½, not ⅓.", "keywords": ["two coins outcomes", "why 4 outcomes", "ht and th", "toss two coins"]},
+    {"q": "What are face cards and how many are there?", "a": "Face cards are the **Jack, Queen and King** of each suit. With 4 suits, there are 3 × 4 = **12** face cards (6 red and 6 black). The ace is not a face card.", "keywords": ["face cards", "how many face cards", "is ace a face card", "court cards"]},
+    {"q": "What is the difference between an impossible event and a sure event?", "a": "An **impossible event** can never happen (e.g. getting 7 on one die), so its probability is 0. A **sure event** always happens (e.g. getting a number less than 7 on one die), so its probability is 1.", "keywords": ["impossible vs sure event", "certain event", "probability 0 and 1"]}
+  ],
+  "quiz": [
+    {"q": "For any event E, P(E) + P(not E) equals:", "options": ["0", "1", "½", "2"], "answer": 1, "explain": "E and not E together cover all outcomes, so their probabilities add up to 1.", "topic": "elementary-and-complementary-events", "level": "easy"},
+    {"q": "The probability of an impossible event is:", "options": ["1", "½", "0", "−1"], "answer": 2, "explain": "An impossible event has no favourable outcomes, so P = 0.", "topic": "impossible-sure-and-range", "level": "easy"},
+    {"q": "A die is thrown once. The probability of getting a prime number is:", "options": ["½", "⅓", "⅔", "⅙"], "answer": 0, "explain": "Primes on a die are 2, 3, 5 — 3 out of 6 outcomes, so P = 3/6 = ½.", "topic": "theoretical-probability", "level": "easy"},
+    {"q": "Which of these cannot be the probability of an event?", "options": ["0.7", "2/3", "0", "1.5"], "answer": 3, "explain": "Probability always lies between 0 and 1, so 1.5 is impossible.", "topic": "impossible-sure-and-range", "level": "easy"},
+    {"q": "If P(E) = 0.05, then P(not E) is:", "options": ["0.05", "0.5", "0.95", "0.9"], "answer": 2, "explain": "P(not E) = 1 − 0.05 = 0.95.", "topic": "elementary-and-complementary-events", "level": "easy"},
+    {"q": "A card is drawn from a well-shuffled deck of 52 cards. The probability that it is an ace is:", "options": ["1/13", "1/52", "1/4", "4/13"], "answer": 0, "explain": "There are 4 aces: P = 4/52 = 1/13.", "topic": "cards-and-other-problems", "level": "easy"},
+    {"q": "Two coins are tossed together. The probability of getting at least one head is:", "options": ["¼", "½", "1", "¾"], "answer": 3, "explain": "Outcomes HH, HT, TH, TT; three have at least one head, so P = 3/4.", "topic": "coins-and-dice", "level": "medium"},
+    {"q": "A bag has 3 red and 5 black balls. A ball is drawn at random. The probability that it is not red is:", "options": ["3/8", "5/8", "3/5", "1"], "answer": 1, "explain": "P(red) = 3/8, so P(not red) = 1 − 3/8 = 5/8.", "topic": "cards-and-other-problems", "level": "easy"},
+    {"q": "Two dice are thrown together. The probability that the sum of the numbers is 8 is:", "options": ["5/36", "1/6", "1/9", "2/9"], "answer": 0, "explain": "Favourable: (2,6), (3,5), (4,4), (5,3), (6,2) — 5 of 36 outcomes.", "topic": "coins-and-dice", "level": "medium"},
+    {"q": "A card is drawn from a deck of 52 cards. The probability that it is a red face card is:", "options": ["1/13", "3/13", "1/26", "3/26"], "answer": 3, "explain": "Red face cards: J, Q, K of hearts and of diamonds = 6. P = 6/52 = 3/26.", "topic": "cards-and-other-problems", "level": "medium"},
+    {"q": "A box has discs numbered 1 to 90. The probability that a disc drawn at random shows a perfect square is:", "options": ["1/9", "1/10", "9/10", "1/5"], "answer": 1, "explain": "Perfect squares 1, 4, 9, 16, 25, 36, 49, 64, 81 → 9 of 90. P = 9/90 = 1/10.", "topic": "cards-and-other-problems", "level": "medium"},
+    {"q": "Two dice are thrown together. The probability that the sum is at least 10 is:", "options": ["1/12", "1/9", "1/6", "5/36"], "answer": 2, "explain": "Sum 10: 3 ways, 11: 2 ways, 12: 1 way → 6 of 36, so P = 1/6.", "topic": "coins-and-dice", "level": "hard"}
+  ]
+}

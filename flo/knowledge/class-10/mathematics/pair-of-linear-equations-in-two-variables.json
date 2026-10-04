@@ -1,0 +1,343 @@
+{
+  "id": "c10-math-linear-pair",
+  "class": 10,
+  "subject": "mathematics",
+  "name": "Pair of Linear Equations in Two Variables",
+  "summary": "Two linear equations in the same two variables (x and y) form a pair. Each equation's graph is a straight line, and a solution of the pair is a point lying on both lines. The two lines can intersect (unique solution), coincide (infinitely many solutions) or be parallel (no solution), and comparing the ratios a₁/a₂, b₁/b₂, c₁/c₂ tells us which case we have without drawing. Algebraically, a pair is solved by the substitution method or the elimination method, and these are used to solve word problems on ages, costs, fractions and digits.",
+  "topics": [
+    {
+      "id": "pair-of-equations-basics",
+      "title": "What is a pair of linear equations?",
+      "summary": "A pair a₁x + b₁y + c₁ = 0 and a₂x + b₂y + c₂ = 0; a solution is an (x, y) that satisfies both equations at the same time.",
+      "simple": "A linear equation in two variables looks like 2x + 3y = 12. On its own it has lots of solutions. When we take two such equations together, we look for the values of x and y that make **both** true at once.",
+      "explain": "**Linear equation in two variables:** ax + by + c = 0, where a, b, c are real numbers and a and b are **not both zero**. Example: 2x + 3y − 12 = 0. Its graph is a **straight line**, and every point on the line is a solution.\n\n**Pair of linear equations in two variables (general form):**\n- a₁x + b₁y + c₁ = 0\n- a₂x + b₂y + c₂ = 0\n\n**Solution of the pair:** values of x and y that satisfy **both** equations simultaneously.\n\n**Checking a solution:** is (3, 2) a solution of x + y = 5 and x − y = 1?\n- 3 + 2 = 5 ✓\n- 3 − 2 = 1 ✓\nYes, (3, 2) satisfies both.\nIs (4, 1) a solution? 4 + 1 = 5 ✓ but 4 − 1 = 3 ≠ 1 ✗ — not a solution of the pair.\n\n**Writing a situation as a pair (forming equations):**\nSana buys 2 pencils and 3 erasers for ₹18. Ravi buys 3 pencils and 1 eraser for ₹13. Let one pencil cost ₹x and one eraser ₹y:\n- 2x + 3y = 18\n- 3x + y = 13\n\nStep one of every word problem is to choose the two unknowns clearly ('let … be x') and turn each sentence of information into one equation.\n\nWe can solve a pair **graphically** (draw both lines) or **algebraically** (substitution or elimination).",
+      "example": "Write a pair of equations: the sum of two numbers is 40 and their difference is 8.\nLet the numbers be x and y (x > y): x + y = 40 and x − y = 8.\n(Solving: adding gives 2x = 48, x = 24, y = 16. Check: 24 + 16 = 40, 24 − 16 = 8 ✓)",
+      "keyPoints": [
+        "General form: a₁x + b₁y + c₁ = 0, a₂x + b₂y + c₂ = 0",
+        "Graph of each linear equation is a straight line",
+        "Solution of the pair satisfies both equations",
+        "Check a solution by substituting into both equations",
+        "Word problems: define x and y, then form two equations",
+        "Methods: graphical, substitution, elimination"
+      ],
+      "keywords": [
+        "pair of linear equations",
+        "linear equations in two variables",
+        "chapter 3",
+        "class 10 maths chapter 3",
+        "simultaneous equations",
+        "solution of pair",
+        "check solution",
+        "form equations",
+        "general form",
+        "ax + by + c = 0"
+      ]
+    },
+    {
+      "id": "graphical-method",
+      "title": "Graphical method of solution",
+      "summary": "Draw both lines: intersecting lines give a unique solution (the point of intersection), coincident lines give infinitely many, and parallel lines give none.",
+      "simple": "Draw the two lines on the same graph. If they cross, the crossing point is the answer. If they lie on top of each other, every point works. If they are parallel and never meet, there is no answer.",
+      "explain": "**Steps:**\n1. For each equation, find at least two (better three) points by choosing x and working out y.\n2. Plot the points and draw both lines on the same axes.\n3. Read off the point where they meet.\n\n**Worked example:** x + y = 5 and x − y = 1\n- x + y = 5: (0, 5), (5, 0), (2, 3)\n- x − y = 1: (0, −1), (1, 0), (3, 2)\nThe lines meet at **(3, 2)**, so x = 3, y = 2.\n\n**Three possible cases:**\n1. **Intersecting lines** → exactly one point in common → **unique solution**. The pair is **consistent**.\n2. **Coincident lines** (same line) → every point is common → **infinitely many solutions**. The pair is **dependent** (and consistent).\n3. **Parallel lines** → never meet → **no solution**. The pair is **inconsistent**.\n\n**Examples of each:**\n- x + y = 5 and x − y = 1 → intersect at (3, 2)\n- 2x + 3y = 9 and 4x + 6y = 18 → second is just 2 × the first → coincident\n- x + 2y = 4 and 2x + 4y = 12 → parallel (dividing the second by 2 gives x + 2y = 6, a different constant)\n\n**Special lines:** x = a is a vertical line; y = b is a horizontal line. The lines x = 2 and y = 3 meet at (2, 3).",
+      "example": "Two friends' savings: Asha has ₹10 more than Bilal, and together they have ₹50. With x for Asha and y for Bilal: x − y = 10 and x + y = 50.\nPoints on x + y = 50: (50, 0), (0, 50), (30, 20). Points on x − y = 10: (10, 0), (30, 20), (20, 10).\nBoth lines pass through (30, 20): Asha ₹30, Bilal ₹20.",
+      "keyPoints": [
+        "Plot at least two points for each line",
+        "Intersecting → unique solution (consistent)",
+        "Coincident → infinitely many solutions (dependent, consistent)",
+        "Parallel → no solution (inconsistent)",
+        "The intersection point gives x and y",
+        "x = a is vertical, y = b is horizontal"
+      ],
+      "keywords": [
+        "graphical method",
+        "graph of linear equations",
+        "intersecting lines",
+        "parallel lines",
+        "coincident lines",
+        "consistent",
+        "inconsistent",
+        "dependent",
+        "unique solution",
+        "no solution",
+        "infinitely many solutions",
+        "point of intersection"
+      ]
+    },
+    {
+      "id": "ratio-conditions",
+      "title": "Checking consistency using ratios",
+      "summary": "Compare a₁/a₂, b₁/b₂ and c₁/c₂: unequal first two ratios → unique solution; all three equal → infinitely many; first two equal but not the third → no solution.",
+      "simple": "You don't always need a graph. Compare the ratios of matching coefficients. If the x and y ratios differ, the lines cross. If all three ratios are the same, the lines are the same. If x and y ratios match but the constants don't, the lines are parallel.",
+      "explain": "For a₁x + b₁y + c₁ = 0 and a₂x + b₂y + c₂ = 0:\n\n1. **a₁/a₂ ≠ b₁/b₂** → lines **intersect** → **unique solution** (consistent)\n2. **a₁/a₂ = b₁/b₂ = c₁/c₂** → lines **coincide** → **infinitely many solutions** (dependent, consistent)\n3. **a₁/a₂ = b₁/b₂ ≠ c₁/c₂** → lines are **parallel** → **no solution** (inconsistent)\n\n**Example 1:** x + y − 5 = 0 and x − y − 1 = 0\na₁/a₂ = 1/1 = 1, b₁/b₂ = 1/(−1) = −1. Not equal → unique solution.\n\n**Example 2:** 2x + 3y − 9 = 0 and 4x + 6y − 18 = 0\na₁/a₂ = 2/4 = 1/2, b₁/b₂ = 3/6 = 1/2, c₁/c₂ = −9/−18 = 1/2. All equal → infinitely many solutions.\n\n**Example 3:** x + 2y − 4 = 0 and 2x + 4y − 12 = 0\na₁/a₂ = 1/2, b₁/b₂ = 2/4 = 1/2, c₁/c₂ = −4/−12 = 1/3. First two equal, third different → no solution.\n\n**Finding an unknown:** for what k does kx + 3y − 5 = 0, 2x + y − 7 = 0 have **no solution**?\nNeed k/2 = 3/1 → **k = 6**. Then c₁/c₂ = −5/−7 = 5/7 ≠ 3, so the lines really are parallel ✓\n\nFor a **unique solution** the condition would be k/2 ≠ 3, i.e. k ≠ 6.\n\nBe careful to write both equations in the **same form** (all terms on one side, = 0) before comparing c₁ and c₂.",
+      "example": "Is the pair 3x − 5y = 20 and 6x − 10y = 40 consistent?\na₁/a₂ = 3/6 = 1/2, b₁/b₂ = −5/−10 = 1/2, c₁/c₂ = −20/−40 = 1/2.\nAll equal → coincident lines → infinitely many solutions → consistent (dependent).",
+      "keyPoints": [
+        "a₁/a₂ ≠ b₁/b₂ → unique solution",
+        "a₁/a₂ = b₁/b₂ = c₁/c₂ → infinitely many solutions",
+        "a₁/a₂ = b₁/b₂ ≠ c₁/c₂ → no solution",
+        "Consistent = at least one solution",
+        "Write both equations in the same form first",
+        "Use the conditions to find unknown constants like k"
+      ],
+      "keywords": [
+        "a1/a2 b1/b2 c1/c2",
+        "ratio of coefficients",
+        "condition for unique solution",
+        "condition for no solution",
+        "condition for infinitely many solutions",
+        "consistency of equations",
+        "find value of k",
+        "consistent or inconsistent",
+        "coincident",
+        "parallel"
+      ]
+    },
+    {
+      "id": "substitution-method",
+      "title": "Substitution method",
+      "summary": "Express one variable in terms of the other from one equation, substitute into the second equation, solve, then substitute back.",
+      "simple": "From one equation, write x in terms of y (or y in terms of x). Put that into the other equation so it has just one variable. Solve it, then use the answer to find the other variable.",
+      "explain": "**Steps:**\n1. From one equation, express one variable in terms of the other (pick the easier one, e.g. a variable with coefficient 1).\n2. **Substitute** this expression into the other equation → an equation in one variable.\n3. Solve it.\n4. Substitute the value back into the expression from step 1 to get the other variable.\n5. **Check** in both original equations.\n\n**Worked example:** 2x + y = 7 and x − y = 2\n1. From the second: x = y + 2\n2. Substitute: 2(y + 2) + y = 7\n3. 2y + 4 + y = 7 → 3y = 3 → **y = 1**\n4. x = 1 + 2 = **3**\n5. Check: 2(3) + 1 = 7 ✓; 3 − 1 = 2 ✓\n\n**Word problem:** 2 pencils and 3 erasers cost ₹18; 3 pencils and 1 eraser cost ₹13.\n- 2x + 3y = 18 … (1)\n- 3x + y = 13 … (2)\n1. From (2): y = 13 − 3x\n2. Into (1): 2x + 3(13 − 3x) = 18 → 2x + 39 − 9x = 18 → −7x = −21 → **x = 3**\n3. y = 13 − 9 = **4**\nPencil ₹3, eraser ₹4. Check: 6 + 12 = 18 ✓; 9 + 4 = 13 ✓\n\n**What if the variable disappears?**\n- If you get a **true** statement like 9 = 9, there are **infinitely many** solutions.\n- If you get a **false** statement like 0 = 5, there is **no** solution.",
+      "example": "Solve x + y = 14 and x − y = 4 by substitution.\nFrom the second, x = y + 4. Then (y + 4) + y = 14 → 2y = 10 → y = 5, and x = 9.\nCheck: 9 + 5 = 14 ✓, 9 − 5 = 4 ✓",
+      "keyPoints": [
+        "Make one variable the subject of one equation",
+        "Substitute into the other equation",
+        "Solve the one-variable equation",
+        "Substitute back to find the second variable",
+        "Always check in both original equations",
+        "True statement (e.g. 9 = 9) → infinitely many; false (0 = 5) → none"
+      ],
+      "keywords": [
+        "substitution method",
+        "solve by substitution",
+        "substitute",
+        "algebraic method",
+        "solve linear equations",
+        "express x in terms of y",
+        "pencils and erasers",
+        "simultaneous equations substitution"
+      ]
+    },
+    {
+      "id": "elimination-method",
+      "title": "Elimination method",
+      "summary": "Multiply the equations so one variable has equal (or opposite) coefficients, then add or subtract to eliminate it.",
+      "simple": "Make the number in front of x (or y) the same in both equations. Then add or subtract the equations so that variable cancels out. Solve for the other variable and substitute back.",
+      "explain": "**Steps:**\n1. Multiply one or both equations by suitable non-zero numbers so that the coefficients of one variable become **equal** (or equal and opposite).\n2. **Subtract** the equations if the coefficients are equal; **add** them if they are opposite. That variable is eliminated.\n3. Solve for the remaining variable.\n4. Substitute back to find the other variable.\n5. Check.\n\n**Worked example:** 3x + 4y = 10 and 2x − 2y = 2\n1. Multiply the second by 2: 4x − 4y = 4\n2. Add to the first: (3x + 4y) + (4x − 4y) = 10 + 4 → 7x = 14 → **x = 2**\n3. Substitute in 3x + 4y = 10: 6 + 4y = 10 → 4y = 4 → **y = 1**\n4. Check: 2(2) − 2(1) = 2 ✓\n\n**Another:** 5x + 2y = 16 and 3x + 2y = 12\nThe y-coefficients are already equal, so subtract: 2x = 4 → **x = 2**. Then 10 + 2y = 16 → **y = 3**.\nCheck: 3(2) + 2(3) = 12 ✓\n\n**Choosing a method:**\n- If a variable has coefficient 1 or −1, **substitution** is quick.\n- If coefficients are bigger numbers, **elimination** is usually neater.\n\nAs with substitution, if both variables vanish and you get a true statement, there are infinitely many solutions; a false statement means no solution.\n\n(Note: the cross-multiplication method is not part of the rationalised syllabus.)",
+      "example": "Solve 2x + 3y = 12 and 3x − 3y = 3.\nThe y-coefficients are opposite, so add: 5x = 15 → x = 3.\nThen 2(3) + 3y = 12 → 3y = 6 → y = 2.\nCheck: 3(3) − 3(2) = 9 − 6 = 3 ✓",
+      "keyPoints": [
+        "Make coefficients of one variable equal or opposite",
+        "Equal coefficients → subtract; opposite → add",
+        "Solve for the remaining variable, then substitute back",
+        "Multiply every term of an equation, including the constant",
+        "Elimination suits equations with larger coefficients",
+        "Both variables vanish: true → infinitely many, false → none"
+      ],
+      "keywords": [
+        "elimination method",
+        "solve by elimination",
+        "eliminate",
+        "add or subtract equations",
+        "equal coefficients",
+        "algebraic method",
+        "which method to use",
+        "cross multiplication method"
+      ]
+    },
+    {
+      "id": "word-problems",
+      "title": "Word problems on pairs of linear equations",
+      "summary": "Problems on ages, numbers, digits, fractions and costs are solved by forming two equations and solving by substitution or elimination.",
+      "simple": "Read the problem, choose letters for the two unknowns, turn each clue into an equation, solve the pair, and check the answer makes sense in the story.",
+      "explain": "**General approach:** define x and y → form two equations → solve → check against the words of the problem.\n\n**Ages:** A father is 3 times as old as his son. In 10 years, he will be twice as old as his son. Find their ages.\nLet son = s, father = f.\n- f = 3s\n- f + 10 = 2(s + 10)\nSubstitute: 3s + 10 = 2s + 20 → **s = 10**, **f = 30**.\nCheck: in 10 years, 40 = 2 × 20 ✓\n\n**Digits:** The sum of the digits of a two-digit number is 9. Reversing the digits increases the number by 27. Find the number.\nLet tens digit = x, units digit = y; number = 10x + y.\n- x + y = 9\n- (10y + x) − (10x + y) = 27 → 9y − 9x = 27 → y − x = 3\nAdding: 2y = 12 → y = 6, x = 3. Number = **36**. Check: 63 − 36 = 27 ✓\n\n**Fractions:** If 1 is added to both the numerator and denominator of a fraction, it becomes 2/3. If 1 is subtracted from both, it becomes 1/2. Find the fraction.\nLet the fraction be x/y.\n- (x + 1)/(y + 1) = 2/3 → 3x + 3 = 2y + 2 → 3x − 2y = −1\n- (x − 1)/(y − 1) = 1/2 → 2x − 2 = y − 1 → y = 2x − 1\nSubstitute: 3x − 2(2x − 1) = −1 → −x + 2 = −1 → x = 3, y = 5. Fraction = **3/5**.\nCheck: 4/6 = 2/3 ✓, 2/4 = 1/2 ✓\n\n**Tip:** in digit problems, remember the value of the number is 10 × tens digit + units digit, not just the sum of the digits.",
+      "example": "A taxi charges a fixed amount plus a rate per km. A 10 km ride costs ₹105 and a 15 km ride costs ₹155. Let fixed charge = ₹x and rate = ₹y per km.\nx + 10y = 105 and x + 15y = 155. Subtract: 5y = 50 → y = 10, so x = 5.\nFixed charge ₹5, ₹10 per km. A 25 km ride costs 5 + 250 = ₹255.",
+      "keyPoints": [
+        "Define the two unknowns clearly",
+        "One clue → one equation",
+        "Ages: add the same number of years to both people",
+        "Two-digit number = 10 × tens digit + units digit",
+        "Fractions: cross-multiply to remove denominators",
+        "Check the answer in the original words"
+      ],
+      "keywords": [
+        "word problems linear equations",
+        "age problems",
+        "digit problems",
+        "two digit number reversed",
+        "fraction problems",
+        "taxi fare problem",
+        "cost problems",
+        "application of linear equations",
+        "father and son age",
+        "fixed charge"
+      ]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "Linear equation in two variables", "meaning": "An equation of the form ax + by + c = 0 with a and b not both zero; its graph is a straight line." },
+    { "term": "Pair of linear equations", "meaning": "Two linear equations in the same two variables, considered together." },
+    { "term": "Solution of a pair", "meaning": "Values of x and y that satisfy both equations at the same time." },
+    { "term": "Consistent pair", "meaning": "A pair with at least one solution (intersecting or coincident lines)." },
+    { "term": "Inconsistent pair", "meaning": "A pair with no solution (parallel lines)." },
+    { "term": "Dependent pair", "meaning": "A pair whose lines coincide, giving infinitely many solutions." },
+    { "term": "Intersecting lines", "meaning": "Lines meeting at exactly one point — a unique solution." },
+    { "term": "Coincident lines", "meaning": "Lines that lie exactly on top of each other — infinitely many solutions." },
+    { "term": "Parallel lines", "meaning": "Lines that never meet — no solution." },
+    { "term": "Substitution method", "meaning": "Express one variable in terms of the other from one equation and substitute into the other." },
+    { "term": "Elimination method", "meaning": "Make the coefficients of one variable equal or opposite, then add or subtract to remove it." }
+  ],
+  "formulas": [
+    "General form: a₁x + b₁y + c₁ = 0 and a₂x + b₂y + c₂ = 0",
+    "Unique solution (intersecting lines): a₁/a₂ ≠ b₁/b₂",
+    "Infinitely many solutions (coincident lines): a₁/a₂ = b₁/b₂ = c₁/c₂",
+    "No solution (parallel lines): a₁/a₂ = b₁/b₂ ≠ c₁/c₂",
+    "Two-digit number with tens digit x and units digit y = 10x + y; reversed = 10y + x"
+  ],
+  "commonMistakes": [
+    "Comparing c₁/c₂ when the equations are written in different forms (one as = 0, the other with the constant on the right).",
+    "Multiplying only the x and y terms, but not the constant, when preparing for elimination.",
+    "Adding equations when the coefficients are equal (you must subtract) or subtracting when they are opposite (you must add).",
+    "Stopping after finding one variable and forgetting to find the other.",
+    "Calling coincident lines inconsistent — they have infinitely many solutions, so they are consistent.",
+    "In digit problems, writing the number as x + y instead of 10x + y.",
+    "In age problems, adding years to only one person's age."
+  ],
+  "revision": [
+    "Each linear equation in two variables is a straight line.",
+    "A solution of the pair is a point on both lines.",
+    "Intersecting → unique; coincident → infinitely many; parallel → no solution.",
+    "Consistent = has a solution; inconsistent = no solution; dependent = coincident lines.",
+    "a₁/a₂ ≠ b₁/b₂ → unique solution.",
+    "a₁/a₂ = b₁/b₂ = c₁/c₂ → infinitely many solutions.",
+    "a₁/a₂ = b₁/b₂ ≠ c₁/c₂ → no solution.",
+    "Substitution: make one variable the subject, substitute, solve, substitute back.",
+    "Elimination: equalise one variable's coefficients, then add or subtract.",
+    "x + y = 5 and x − y = 1 → (3, 2).",
+    "Two-digit number = 10 × tens digit + units digit.",
+    "Algebraic methods in the rationalised book: substitution and elimination (cross-multiplication removed)."
+  ],
+  "faqs": [
+    {
+      "q": "Is the cross-multiplication method still in the syllabus?",
+      "a": "No. In the rationalised NCERT book, the cross-multiplication method and the section on equations reducible to a pair of linear equations were removed. You need the graphical method, the substitution method and the elimination method.",
+      "keywords": ["cross multiplication method", "deleted topics linear equations", "reducible to linear equations", "removed"]
+    },
+    {
+      "q": "What is the difference between consistent, inconsistent and dependent?",
+      "a": "A **consistent** pair has at least one solution. An **inconsistent** pair has no solution (parallel lines). A **dependent** pair has infinitely many solutions because both equations give the same line — so dependent pairs are also consistent.",
+      "keywords": ["consistent vs inconsistent", "dependent meaning", "difference consistent dependent"]
+    },
+    {
+      "q": "Which method should I use — substitution or elimination?",
+      "a": "Both give the same answer. Use **substitution** when one variable has coefficient 1 or −1 (e.g. x − y = 2 gives x = y + 2 easily). Use **elimination** when the coefficients are bigger numbers or already equal/opposite in the two equations.",
+      "keywords": ["which method", "substitution or elimination", "best method"]
+    },
+    {
+      "q": "What happens if both variables cancel out while solving?",
+      "a": "If you end up with a true statement such as 0 = 0 or 9 = 9, the equations represent the same line, so there are infinitely many solutions. If you get a false statement such as 0 = 5, the lines are parallel and there is no solution.",
+      "keywords": ["variables cancel", "0 = 0", "no solution algebraically", "infinitely many solutions algebra"]
+    },
+    {
+      "q": "How do I find k so that a pair has no solution?",
+      "a": "Use the parallel-lines condition a₁/a₂ = b₁/b₂ ≠ c₁/c₂. Set a₁/a₂ = b₁/b₂ to find k, then confirm c₁/c₂ is different. For kx + 3y − 5 = 0 and 2x + y − 7 = 0: k/2 = 3 gives k = 6, and 5/7 ≠ 3 ✓",
+      "keywords": ["find k no solution", "value of k", "condition parallel lines k"]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Which point is the solution of x + y = 5 and x − y = 1?",
+      "options": ["(4, 1)", "(2, 3)", "(3, 2)", "(5, 0)"],
+      "answer": 2,
+      "explain": "3 + 2 = 5 and 3 − 2 = 1, so (3, 2) satisfies both. (4, 1) satisfies only the first.",
+      "topic": "pair-of-equations-basics",
+      "level": "easy"
+    },
+    {
+      "q": "If the graphs of two linear equations are parallel lines, the pair has:",
+      "options": ["No solution", "A unique solution", "Two solutions", "Infinitely many solutions"],
+      "answer": 0,
+      "explain": "Parallel lines never meet, so there is no common point and no solution. The pair is inconsistent.",
+      "topic": "graphical-method",
+      "level": "easy"
+    },
+    {
+      "q": "Where do the lines x = 2 and y = 3 meet?",
+      "options": ["(3, 2)", "(2, 0)", "(0, 3)", "(2, 3)"],
+      "answer": 3,
+      "explain": "x = 2 is vertical and y = 3 is horizontal; every point on both has x = 2 and y = 3.",
+      "topic": "graphical-method",
+      "level": "easy"
+    },
+    {
+      "q": "How many solutions does the pair 2x + 3y = 9 and 4x + 6y = 18 have?",
+      "options": ["None", "Infinitely many", "Exactly one", "Exactly two"],
+      "answer": 1,
+      "explain": "a₁/a₂ = 2/4 = 1/2, b₁/b₂ = 3/6 = 1/2, c₁/c₂ = 9/18 = 1/2. All equal, so the lines coincide: infinitely many solutions.",
+      "topic": "ratio-conditions",
+      "level": "medium"
+    },
+    {
+      "q": "The pair x + 2y − 4 = 0 and 2x + 4y − 12 = 0 is:",
+      "options": ["Consistent with a unique solution", "Dependent", "Inconsistent", "Consistent with two solutions"],
+      "answer": 2,
+      "explain": "a₁/a₂ = 1/2 = b₁/b₂ = 2/4, but c₁/c₂ = 4/12 = 1/3. So the lines are parallel and the pair is inconsistent.",
+      "topic": "ratio-conditions",
+      "level": "medium"
+    },
+    {
+      "q": "For what value of k does kx + 3y − 5 = 0, 2x + y − 7 = 0 have no solution?",
+      "options": ["6", "3", "2/3", "−6"],
+      "answer": 0,
+      "explain": "Need k/2 = 3/1, so k = 6. Then c₁/c₂ = 5/7 ≠ 3, so the lines are parallel.",
+      "topic": "ratio-conditions",
+      "level": "hard"
+    },
+    {
+      "q": "Solve 2x + y = 7 and x − y = 2.",
+      "options": ["x = 1, y = 5", "x = 3, y = 1", "x = 2, y = 3", "x = 4, y = −1"],
+      "answer": 1,
+      "explain": "x = y + 2 → 2(y + 2) + y = 7 → 3y = 3 → y = 1, x = 3. Check: 6 + 1 = 7 ✓, 3 − 1 = 2 ✓",
+      "topic": "substitution-method",
+      "level": "easy"
+    },
+    {
+      "q": "2 pencils and 3 erasers cost ₹18; 3 pencils and 1 eraser cost ₹13. What is the cost of one pencil?",
+      "options": ["₹4", "₹2", "₹5", "₹3"],
+      "answer": 3,
+      "explain": "2x + 3y = 18, 3x + y = 13. y = 13 − 3x → 2x + 39 − 9x = 18 → x = 3 (pencil ₹3, eraser ₹4).",
+      "topic": "substitution-method",
+      "level": "medium"
+    },
+    {
+      "q": "Solving 3x + 4y = 10 and 2x − 2y = 2 by elimination, what is x?",
+      "options": ["1", "2", "3", "4"],
+      "answer": 1,
+      "explain": "Multiply the second by 2: 4x − 4y = 4. Add to the first: 7x = 14, x = 2 (then y = 1).",
+      "topic": "elimination-method",
+      "level": "medium"
+    },
+    {
+      "q": "In 5x + 2y = 16 and 3x + 2y = 12, what should you do to eliminate y?",
+      "options": ["Add the equations", "Multiply the first by 2", "Subtract the equations", "Divide the second by 3"],
+      "answer": 2,
+      "explain": "The y-coefficients are equal (2 and 2), so subtract: 2x = 4, x = 2, then y = 3.",
+      "topic": "elimination-method",
+      "level": "easy"
+    },
+    {
+      "q": "A father is 3 times as old as his son. In 10 years he will be twice as old as his son. What is the son's present age?",
+      "options": ["5 years", "15 years", "20 years", "10 years"],
+      "answer": 3,
+      "explain": "f = 3s and f + 10 = 2(s + 10) → 3s + 10 = 2s + 20 → s = 10 (father 30). Check: 40 = 2 × 20 ✓",
+      "topic": "word-problems",
+      "level": "medium"
+    },
+    {
+      "q": "The digits of a two-digit number add up to 9, and reversing the digits increases the number by 27. What is the number?",
+      "options": ["36", "63", "45", "27"],
+      "answer": 0,
+      "explain": "x + y = 9 and (10y + x) − (10x + y) = 27 → y − x = 3. So y = 6, x = 3: the number is 36. Check: 63 − 36 = 27 ✓",
+      "topic": "word-problems",
+      "level": "hard"
+    }
+  ]
+}

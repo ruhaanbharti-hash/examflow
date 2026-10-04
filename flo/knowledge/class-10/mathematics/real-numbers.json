@@ -1,0 +1,324 @@
+{
+  "id": "c10-math-real-numbers",
+  "class": 10,
+  "subject": "mathematics",
+  "name": "Real Numbers",
+  "summary": "Every composite number can be written as a product of primes in exactly one way (apart from order) — this is the Fundamental Theorem of Arithmetic. Using prime factorisation we find the HCF and LCM of numbers, and for two numbers HCF × LCM = product of the numbers. The chapter also proves that numbers like √2, √3 and √5 are irrational using the method of contradiction, and shows that combinations such as 3 + 2√5 are irrational too.",
+  "topics": [
+    {
+      "id": "fundamental-theorem-of-arithmetic",
+      "title": "Fundamental Theorem of Arithmetic",
+      "summary": "Every composite number can be expressed as a product of primes, and this factorisation is unique apart from the order of the factors.",
+      "simple": "Prime numbers are like the building blocks of all whole numbers. Any composite number can be broken down into a product of primes, like 60 = 2 × 2 × 3 × 5. However you break it down, you always end up with the same primes — only the order may change.",
+      "explain": "**Prime number:** a natural number greater than 1 with exactly two factors, 1 and itself (2, 3, 5, 7, 11, …).\n**Composite number:** a natural number greater than 1 that has more than two factors (4, 6, 8, 9, …). Note: 1 is neither prime nor composite.\n\n**Fundamental Theorem of Arithmetic:** Every composite number can be expressed (factorised) as a product of primes, and this factorisation is **unique**, apart from the order in which the prime factors occur.\n\nSo 60 can be written as 2 × 2 × 3 × 5 or 3 × 2 × 5 × 2, but the primes used and how many times each appears never change.\n\n**How to find the prime factorisation:**\n1. Divide by the smallest prime that divides the number (start with 2).\n2. Keep dividing the quotient by primes until you reach 1.\n3. Write the product using powers.\n\n**Worked example:** 4620\n- 4620 ÷ 2 = 2310\n- 2310 ÷ 2 = 1155\n- 1155 ÷ 3 = 385\n- 385 ÷ 5 = 77\n- 77 ÷ 7 = 11\n- 11 ÷ 11 = 1\n\nSo **4620 = 2² × 3 × 5 × 7 × 11**. Check: 4 × 3 = 12, 12 × 5 = 60, 60 × 7 = 420, 420 × 11 = 4620 ✓\n\nWe usually write the primes in ascending order and use index notation. A factor tree gives the same answer — that is exactly what the theorem promises.",
+      "deep": "**Using the theorem to check last digits:** a number ends in 0 only if it is divisible by 10 = 2 × 5, so its prime factorisation must contain **both 2 and 5**.\n\nCan 4ⁿ end with 0 for some natural number n? 4ⁿ = (2²)ⁿ = 2²ⁿ. The only prime in its factorisation is 2. Because the factorisation is unique, 5 can never appear, so **4ⁿ never ends in 0**. The same argument works for 6ⁿ = 2ⁿ × 3ⁿ (no 5).",
+      "example": "Prime factorisation of 3825:\n- 3825 ÷ 3 = 1275\n- 1275 ÷ 3 = 425\n- 425 ÷ 5 = 85\n- 85 ÷ 5 = 17\n- 17 is prime\n\nSo 3825 = 3² × 5² × 17. Check: 9 × 25 = 225, 225 × 17 = 3825 ✓",
+      "keyPoints": [
+        "Every composite number = product of primes",
+        "The prime factorisation is unique (order may differ)",
+        "1 is neither prime nor composite; 2 is the only even prime",
+        "Divide repeatedly by the smallest possible prime",
+        "Write the answer with powers, e.g. 4620 = 2² × 3 × 5 × 7 × 11",
+        "A number ends in 0 only if its factorisation has both 2 and 5"
+      ],
+      "keywords": [
+        "fundamental theorem of arithmetic",
+        "FTA",
+        "prime factorisation",
+        "prime factorization",
+        "factor tree",
+        "prime number",
+        "composite number",
+        "unique factorisation",
+        "real numbers",
+        "chapter 1",
+        "class 10 maths chapter 1",
+        "4^n ends with 0",
+        "6^n ends with zero"
+      ]
+    },
+    {
+      "id": "hcf-lcm-prime-factorisation",
+      "title": "HCF and LCM by prime factorisation",
+      "summary": "HCF = product of the smallest power of each common prime; LCM = product of the greatest power of every prime involved; for two numbers HCF × LCM = product of the numbers.",
+      "simple": "First break each number into primes. For the **HCF**, take only the primes that are common to all numbers, each with its smallest power. For the **LCM**, take every prime that appears, each with its biggest power. Multiply to get the answer.",
+      "explain": "**HCF (Highest Common Factor)** — the largest number that divides all the given numbers.\n**LCM (Lowest Common Multiple)** — the smallest number that is a multiple of all the given numbers.\n\n**Method using prime factorisation:**\n- **HCF** = product of the **smallest power** of each **common** prime factor.\n- **LCM** = product of the **greatest power** of **each** prime factor that appears.\n\n**Worked example:** HCF and LCM of 84 and 120.\n1. 84 = 2² × 3 × 7\n2. 120 = 2³ × 3 × 5\n3. Common primes: 2 and 3. Smallest powers: 2² and 3¹.\n   **HCF = 2² × 3 = 12**\n4. All primes: 2, 3, 5, 7 with greatest powers 2³, 3¹, 5¹, 7¹.\n   **LCM = 2³ × 3 × 5 × 7 = 840**\n\n**Important result (two numbers only):**\n**HCF(a, b) × LCM(a, b) = a × b**\nCheck: 12 × 840 = 10080 and 84 × 120 = 10080 ✓\n\nSo if you know three of these four values, you can find the fourth:\nLCM = (a × b) ÷ HCF.\n\n**Three numbers:** 6, 72 and 120.\n- 6 = 2 × 3, 72 = 2³ × 3², 120 = 2³ × 3 × 5\n- HCF = 2¹ × 3¹ = 6\n- LCM = 2³ × 3² × 5 = 360\n\nFor three numbers, HCF × LCM is **not** generally equal to the product: 6 × 360 = 2160, but 6 × 72 × 120 = 51840.",
+      "example": "HCF of 26 and 91 is 13. Find their LCM.\nLCM = (26 × 91) ÷ 13 = 2366 ÷ 13 = **182**.\nCheck by factorising: 26 = 2 × 13, 91 = 7 × 13, so LCM = 2 × 7 × 13 = 182 ✓",
+      "keyPoints": [
+        "HCF: common primes, smallest powers",
+        "LCM: all primes, greatest powers",
+        "HCF × LCM = a × b for two numbers only",
+        "LCM = (a × b) ÷ HCF",
+        "HCF always divides the LCM",
+        "HCF of co-prime numbers is 1 and their LCM is their product"
+      ],
+      "keywords": [
+        "hcf",
+        "lcm",
+        "highest common factor",
+        "lowest common multiple",
+        "least common multiple",
+        "gcd",
+        "hcf by prime factorisation",
+        "lcm by prime factorisation",
+        "hcf x lcm = product",
+        "hcf and lcm of three numbers",
+        "co-prime",
+        "find lcm if hcf given"
+      ]
+    },
+    {
+      "id": "hcf-lcm-word-problems",
+      "title": "Word problems on HCF and LCM",
+      "summary": "Use HCF when you need the largest equal group or measure; use LCM when you need the next time events coincide or the smallest common quantity.",
+      "simple": "If a question asks for the **biggest** size that fits or divides things equally (largest box, longest rope piece, maximum number of rows), use **HCF**. If it asks **when** things will happen together again, or the **smallest** number that works for all, use **LCM**.",
+      "explain": "**Spotting which one to use:**\n- 'Maximum number of groups', 'greatest length', 'largest tile', 'equal sharing with nothing left' → **HCF**\n- 'Ring together again', 'meet again at the start', 'least number of items', 'smallest number divisible by' → **LCM**\n\n**HCF example — packing sweets:** A sweet shop has 144 ladoos and 180 barfis. They must be packed in identical boxes (same number of ladoos and barfis in each) with none left over. What is the greatest number of boxes?\n1. 144 = 2⁴ × 3²\n2. 180 = 2² × 3² × 5\n3. HCF = 2² × 3² = 36\n4. **36 boxes**, each with 144 ÷ 36 = 4 ladoos and 180 ÷ 36 = 5 barfis.\n\n**LCM example — school bells:** Two bells ring every 12 minutes and every 18 minutes. They ring together at 8:00 a.m. When will they next ring together?\n1. 12 = 2² × 3, 18 = 2 × 3²\n2. LCM = 2² × 3² = 36\n3. They ring together after 36 minutes, at **8:36 a.m.**\n\n**LCM example — walking round a track:** Riya takes 18 minutes and Aman takes 12 minutes to go once around a field, starting together in the same direction. They meet again at the start after LCM(18, 12) = **36 minutes**.\n\nAlways check that the answer makes sense: an HCF answer must divide every given number, and an LCM answer must be a multiple of every given number.",
+      "example": "Find the smallest number which, when divided by 6, 8 and 12, leaves no remainder.\n6 = 2 × 3, 8 = 2³, 12 = 2² × 3.\nLCM = 2³ × 3 = **24**. Check: 24 ÷ 6 = 4, 24 ÷ 8 = 3, 24 ÷ 12 = 2 ✓",
+      "keyPoints": [
+        "Largest equal groups / longest equal pieces → HCF",
+        "Happen together again / smallest common multiple → LCM",
+        "Factorise each number into primes first",
+        "HCF answer must divide every number",
+        "LCM answer must be a multiple of every number",
+        "Add the LCM to the start time to find when events coincide"
+      ],
+      "keywords": [
+        "hcf word problems",
+        "lcm word problems",
+        "bells ring together",
+        "meet again at starting point",
+        "maximum number of columns",
+        "army contingent",
+        "largest box",
+        "when to use hcf or lcm",
+        "application of hcf lcm",
+        "circular path meet"
+      ]
+    },
+    {
+      "id": "proving-irrationality",
+      "title": "Proving √2, √3, √5 are irrational",
+      "summary": "Using the fact that if a prime p divides a², then p divides a, we prove √2 (and √3, √5) irrational by contradiction.",
+      "simple": "An **irrational** number cannot be written as p/q with integers p and q (q ≠ 0). To prove √2 is irrational, we pretend it IS rational, follow the maths step by step, and reach something impossible. That means our pretending was wrong — so √2 must be irrational.",
+      "explain": "**Rational number:** can be written as p/q, where p and q are integers and q ≠ 0.\n**Irrational number:** cannot be written in that form (√2, √3, √5, π).\n\n**Key theorem:** Let p be a prime. If p divides a², then p divides a (a a positive integer).\nThis follows from the Fundamental Theorem of Arithmetic: the primes in a² are exactly the primes in a, each repeated twice.\n\n**Proof that √2 is irrational (method of contradiction):**\n1. Assume √2 is rational. Then √2 = a/b, where a and b are integers, b ≠ 0, and a and b are **co-prime** (no common factor other than 1 — we can always cancel common factors first).\n2. Then b√2 = a. Squaring: 2b² = a².\n3. So 2 divides a², hence (by the theorem) **2 divides a**.\n4. Write a = 2c for some integer c. Then 2b² = 4c², so b² = 2c².\n5. So 2 divides b², hence **2 divides b**.\n6. Now 2 divides both a and b — this **contradicts** that a and b are co-prime.\n7. The contradiction came from assuming √2 is rational. So **√2 is irrational**.\n\nThe same steps work for **√3** (use 3 instead of 2: 3b² = a², a = 3c, b² = 3c²) and for **√5**. They work for √p whenever p is prime.",
+      "example": "Proof that √3 is irrational, in short:\nAssume √3 = a/b (a, b co-prime). Then 3b² = a² → 3 divides a → a = 3c → 3b² = 9c² → b² = 3c² → 3 divides b. So 3 is a common factor of a and b — contradiction. Hence √3 is irrational.",
+      "keyPoints": [
+        "Irrational: cannot be written as p/q (q ≠ 0)",
+        "If prime p divides a², then p divides a",
+        "Start by assuming √2 = a/b with a, b co-prime",
+        "Square and show the prime divides both a and b",
+        "This contradicts co-primeness, so the assumption is false",
+        "The same proof works for √3, √5 and √p for any prime p"
+      ],
+      "keywords": [
+        "irrational numbers",
+        "prove root 2 is irrational",
+        "prove √2 irrational",
+        "prove √3 irrational",
+        "prove √5 irrational",
+        "proof by contradiction",
+        "contradiction method",
+        "co-prime",
+        "p divides a square",
+        "revisiting irrational numbers",
+        "rational numbers"
+      ]
+    },
+    {
+      "id": "irrationality-of-combinations",
+      "title": "Irrationality of sums and products like 3 + 2√5",
+      "summary": "A rational number plus an irrational number is irrational, and a non-zero rational times an irrational is irrational; we prove numbers like 5 − √3 and 3√2 irrational by contradiction.",
+      "simple": "Once we know √5 is irrational, we can show that numbers like 3 + 2√5 are irrational too. We assume 3 + 2√5 is rational, rearrange to get √5 by itself, and see that √5 would then be rational — which we already know is false.",
+      "explain": "**Useful facts:**\n- rational + irrational = **irrational** (e.g. 2 + √3)\n- rational − irrational = **irrational** (e.g. 5 − √3)\n- non-zero rational × irrational = **irrational** (e.g. 3√2)\n- non-zero rational ÷ irrational = **irrational** (e.g. 7/√5)\n\nBut two irrationals can combine to give a rational: √2 + (−√2) = 0 and √2 × √8 = √16 = 4.\n\n**Worked proof: 3 + 2√5 is irrational.**\n1. Assume 3 + 2√5 is rational. Then 3 + 2√5 = a/b, where a and b are co-prime integers, b ≠ 0.\n2. Rearrange: 2√5 = a/b − 3 = (a − 3b)/b\n3. So √5 = (a − 3b)/(2b).\n4. Since a and b are integers, (a − 3b)/(2b) is **rational**, so √5 would be rational.\n5. But √5 is irrational — **contradiction**.\n6. Hence **3 + 2√5 is irrational**.\n\n**Worked proof: 3√2 is irrational.**\nAssume 3√2 = a/b (a, b co-prime, b ≠ 0). Then √2 = a/(3b), which is rational. This contradicts the fact that √2 is irrational. So 3√2 is irrational.\n\n**Pattern:** isolate the known irrational (√2, √3 or √5) on one side; the other side is clearly rational, giving a contradiction.",
+      "example": "Show that 5 − √3 is irrational.\nAssume 5 − √3 = a/b (a, b co-prime, b ≠ 0).\nThen √3 = 5 − a/b = (5b − a)/b, which is rational.\nBut √3 is irrational — contradiction. So 5 − √3 is irrational.",
+      "keyPoints": [
+        "Rational ± irrational = irrational",
+        "Non-zero rational × irrational = irrational",
+        "Irrational + irrational can be rational (√2 + (−√2) = 0)",
+        "Assume the number = a/b and isolate the surd",
+        "The isolated surd would be rational — contradiction",
+        "Uses the already-proved irrationality of √2, √3, √5"
+      ],
+      "keywords": [
+        "prove 3 + 2√5 irrational",
+        "prove 5 - √3 irrational",
+        "3√2 irrational",
+        "1/√2 irrational",
+        "sum of rational and irrational",
+        "product of rational and irrational",
+        "irrational combination",
+        "surds",
+        "is 6 + √2 irrational",
+        "contradiction proof"
+      ]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "Prime number", "meaning": "A natural number greater than 1 whose only factors are 1 and itself." },
+    { "term": "Composite number", "meaning": "A natural number greater than 1 with more than two factors." },
+    { "term": "Fundamental Theorem of Arithmetic", "meaning": "Every composite number is a product of primes in exactly one way, apart from the order of the factors." },
+    { "term": "Prime factorisation", "meaning": "Writing a number as a product of its prime factors, e.g. 84 = 2² × 3 × 7." },
+    { "term": "HCF", "meaning": "Highest Common Factor: the largest number dividing all the given numbers; product of the smallest powers of common primes." },
+    { "term": "LCM", "meaning": "Lowest Common Multiple: the smallest number that is a multiple of all the given numbers; product of the greatest powers of all primes involved." },
+    { "term": "Co-prime numbers", "meaning": "Two numbers whose HCF is 1, e.g. 8 and 15." },
+    { "term": "Rational number", "meaning": "A number that can be written as p/q, with p, q integers and q ≠ 0." },
+    { "term": "Irrational number", "meaning": "A real number that cannot be written as p/q, e.g. √2, √3, π." },
+    { "term": "Real numbers", "meaning": "All rational and irrational numbers together." },
+    { "term": "Proof by contradiction", "meaning": "Assume the opposite of what you want to prove and show this leads to something impossible." }
+  ],
+  "formulas": [
+    "HCF(a, b) × LCM(a, b) = a × b (for two positive integers only)",
+    "LCM(a, b) = (a × b) ÷ HCF(a, b)",
+    "HCF = product of the smallest power of each common prime factor",
+    "LCM = product of the greatest power of each prime factor involved",
+    "If a prime p divides a², then p divides a"
+  ],
+  "commonMistakes": [
+    "Calling 1 a prime number — 1 is neither prime nor composite.",
+    "Using the greatest powers for HCF and the smallest for LCM — it is the other way round.",
+    "Including primes that are not common to all numbers when finding the HCF.",
+    "Applying HCF × LCM = product to three numbers — it holds only for two numbers.",
+    "Forgetting to state that a and b are co-prime at the start of an irrationality proof; the contradiction depends on it.",
+    "Assuming the sum or product of two irrationals is always irrational (√2 × √2 = 2 is rational).",
+    "Using LCM when the question asks for the largest equal group, or HCF when it asks when events coincide again."
+  ],
+  "revision": [
+    "Fundamental Theorem of Arithmetic: prime factorisation is unique apart from order.",
+    "4620 = 2² × 3 × 5 × 7 × 11.",
+    "HCF: smallest powers of common primes; LCM: greatest powers of all primes.",
+    "84 = 2² × 3 × 7 and 120 = 2³ × 3 × 5 → HCF 12, LCM 840.",
+    "For two numbers, HCF × LCM = product of the numbers.",
+    "HCF of co-prime numbers is 1; their LCM is their product.",
+    "A number ends in 0 only if its prime factors include both 2 and 5, so 4ⁿ never ends in 0.",
+    "If a prime p divides a², then p divides a.",
+    "√2, √3, √5 are irrational — proved by contradiction assuming √p = a/b with a, b co-prime.",
+    "Rational ± irrational is irrational; non-zero rational × irrational is irrational.",
+    "To prove 3 + 2√5 irrational, isolate √5 and show it would be rational.",
+    "Largest equal groups → HCF; events happening together again → LCM."
+  ],
+  "faqs": [
+    {
+      "q": "Is Euclid's division lemma still in the Class 10 Real Numbers chapter?",
+      "a": "No. In the rationalised NCERT book, Euclid's division lemma and algorithm have been removed, along with the section on decimal expansions of rational numbers. The chapter now covers the Fundamental Theorem of Arithmetic, HCF and LCM by prime factorisation, and proofs of irrationality.",
+      "keywords": ["euclid division lemma", "euclid's division algorithm", "deleted topics real numbers", "decimal expansion", "terminating decimal"]
+    },
+    {
+      "q": "Why do we assume a and b are co-prime in the proof that √2 is irrational?",
+      "a": "Any fraction can be reduced to lowest terms by cancelling common factors, so if √2 were rational we could write it as a/b with a and b co-prime. The proof then shows that 2 divides both a and b — that clashes with them being co-prime, which gives the contradiction.",
+      "keywords": ["why co-prime", "root 2 proof doubt", "lowest terms", "contradiction"]
+    },
+    {
+      "q": "Does HCF × LCM = product work for three numbers?",
+      "a": "No, only for two numbers. For 6, 72 and 120, HCF = 6 and LCM = 360, so HCF × LCM = 2160, while 6 × 72 × 120 = 51840.",
+      "keywords": ["hcf lcm three numbers", "hcf x lcm product three", "relation hcf lcm"]
+    },
+    {
+      "q": "How do I know whether to use HCF or LCM in a word problem?",
+      "a": "If you are splitting things into the **largest** equal parts or groups (boxes, rows, rope pieces), use **HCF**. If you need the time when things **happen together again**, or the **smallest** number that is a multiple of all, use **LCM**.",
+      "keywords": ["hcf or lcm", "which to use hcf lcm", "word problems hcf lcm"]
+    },
+    {
+      "q": "Is the sum of two irrational numbers always irrational?",
+      "a": "No. √2 and −√2 are both irrational but their sum is 0, which is rational. Similarly √2 × √8 = 4. What is always true is that rational + irrational is irrational, and non-zero rational × irrational is irrational.",
+      "keywords": ["sum of irrational numbers", "product of two irrationals", "irrational plus irrational"]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "What is the prime factorisation of 140?",
+      "options": ["2 × 7 × 10", "2² × 5 × 7", "2² × 35", "2³ × 5 × 7"],
+      "answer": 1,
+      "explain": "140 ÷ 2 = 70, 70 ÷ 2 = 35, 35 = 5 × 7. So 140 = 2² × 5 × 7 (all factors prime).",
+      "topic": "fundamental-theorem-of-arithmetic",
+      "level": "easy"
+    },
+    {
+      "q": "For which of these can the number end with the digit 0 for some natural number n?",
+      "options": ["4ⁿ", "6ⁿ", "15ⁿ", "20ⁿ"],
+      "answer": 3,
+      "explain": "A number ends in 0 only if it has both 2 and 5 as prime factors. 20ⁿ = 2²ⁿ × 5ⁿ has both; 4ⁿ and 6ⁿ have no 5, and 15ⁿ has no 2.",
+      "topic": "fundamental-theorem-of-arithmetic",
+      "level": "medium"
+    },
+    {
+      "q": "What is the HCF of 72 and 120?",
+      "options": ["24", "12", "36", "360"],
+      "answer": 0,
+      "explain": "72 = 2³ × 3², 120 = 2³ × 3 × 5. HCF = 2³ × 3 = 24.",
+      "topic": "hcf-lcm-prime-factorisation",
+      "level": "easy"
+    },
+    {
+      "q": "What is the LCM of 72 and 120?",
+      "options": ["240", "720", "360", "8640"],
+      "answer": 2,
+      "explain": "LCM = 2³ × 3² × 5 = 8 × 9 × 5 = 360. Check: 24 × 360 = 8640 = 72 × 120 ✓",
+      "topic": "hcf-lcm-prime-factorisation",
+      "level": "easy"
+    },
+    {
+      "q": "The HCF of two numbers is 18 and their product is 3240. What is their LCM?",
+      "options": ["58320", "1620", "360", "180"],
+      "answer": 3,
+      "explain": "LCM = product ÷ HCF = 3240 ÷ 18 = 180. (Example: 36 and 90.)",
+      "topic": "hcf-lcm-prime-factorisation",
+      "level": "medium"
+    },
+    {
+      "q": "In the prime factorisation of 144, what is the power of 2?",
+      "options": ["3", "4", "2", "6"],
+      "answer": 1,
+      "explain": "144 = 16 × 9 = 2⁴ × 3², so the power of 2 is 4.",
+      "topic": "fundamental-theorem-of-arithmetic",
+      "level": "easy"
+    },
+    {
+      "q": "Two bells ring every 12 minutes and every 18 minutes. If they ring together at 8:00 a.m., when do they next ring together?",
+      "options": ["8:36 a.m.", "8:06 a.m.", "8:30 a.m.", "9:00 a.m."],
+      "answer": 0,
+      "explain": "LCM(12, 18) = 2² × 3² = 36 minutes, so next at 8:36 a.m.",
+      "topic": "hcf-lcm-word-problems",
+      "level": "medium"
+    },
+    {
+      "q": "144 ladoos and 180 barfis are packed in identical boxes with none left over. What is the greatest number of boxes?",
+      "options": ["12", "18", "36", "720"],
+      "answer": 2,
+      "explain": "HCF(144, 180): 144 = 2⁴ × 3², 180 = 2² × 3² × 5, so HCF = 2² × 3² = 36 boxes (4 ladoos and 5 barfis each).",
+      "topic": "hcf-lcm-word-problems",
+      "level": "medium"
+    },
+    {
+      "q": "Which of these numbers is irrational?",
+      "options": ["√49", "0.375", "−4/9", "√12"],
+      "answer": 3,
+      "explain": "√12 = 2√3, and √3 is irrational, so √12 is irrational. √49 = 7, 0.375 = 3/8 and −4/9 are rational.",
+      "topic": "proving-irrationality",
+      "level": "easy"
+    },
+    {
+      "q": "In the proof that √2 is irrational, after getting 2b² = a², what do we conclude next?",
+      "options": ["b divides a", "2 divides a", "a = b", "a² is odd"],
+      "answer": 1,
+      "explain": "2 divides a², and since 2 is prime, 2 divides a. Then we write a = 2c and show 2 also divides b.",
+      "topic": "proving-irrationality",
+      "level": "medium"
+    },
+    {
+      "q": "Which of these is rational?",
+      "options": ["6 + √2", "3√5", "√3 × √12", "5 − √3"],
+      "answer": 2,
+      "explain": "√3 × √12 = √36 = 6, which is rational. The others are a rational combined with an irrational, so they are irrational.",
+      "topic": "irrationality-of-combinations",
+      "level": "medium"
+    },
+    {
+      "q": "To prove 3 + 2√5 is irrational, we assume 3 + 2√5 = a/b. Which expression for √5 gives the contradiction?",
+      "options": ["(a − 3b)/(2b)", "(a + 3b)/(2b)", "(a − 3)/2", "(3b − a)/b"],
+      "answer": 0,
+      "explain": "2√5 = a/b − 3 = (a − 3b)/b, so √5 = (a − 3b)/(2b), which is rational — contradicting that √5 is irrational.",
+      "topic": "irrationality-of-combinations",
+      "level": "hard"
+    }
+  ]
+}
