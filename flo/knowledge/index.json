@@ -39,6 +39,2368 @@
  },
  "chapters": [
   {
+   "id": "c10-math-areas-circles",
+   "class": 10,
+   "subject": "mathematics",
+   "name": "Areas Related to Circles",
+   "aliases": [
+    "areas related to circles",
+    "area related to circles"
+   ],
+   "file": "class-10/mathematics/areas-related-to-circles.json",
+   "topics": [
+    {
+     "id": "circle-recap",
+     "title": "Circumference and area of a circle (recap)",
+     "keywords": [
+      "circumference",
+      "perimeter of circle",
+      "area of circle",
+      "pi",
+      "22/7",
+      "3.14",
+      "2πr",
+      "πr²",
+      "find radius from area",
+      "chapter 11",
+      "ch 11 maths",
+      "areas related to circles"
+     ]
+    },
+    {
+     "id": "sector-and-arc-length",
+     "title": "Sectors, segments and the length of an arc",
+     "keywords": [
+      "sector",
+      "segment",
+      "minor sector",
+      "major sector",
+      "minor segment",
+      "major segment",
+      "arc",
+      "length of arc",
+      "arc length formula",
+      "perimeter of sector",
+      "quadrant",
+      "angle of sector"
+     ]
+    },
+    {
+     "id": "area-of-sector",
+     "title": "Area of a sector",
+     "keywords": [
+      "area of sector",
+      "sector area formula",
+      "θ/360 πr²",
+      "area of major sector",
+      "area of quadrant",
+      "half lr",
+      "sector problems",
+      "area of sector 60 degree"
+     ]
+    },
+    {
+     "id": "area-of-segment",
+     "title": "Area of a segment",
+     "keywords": [
+      "area of segment",
+      "segment area formula",
+      "minor segment area",
+      "major segment area",
+      "sector minus triangle",
+      "segment 60 degree",
+      "segment 90 degree",
+      "segment 120 degree",
+      "equilateral triangle area √3/4"
+     ]
+    },
+    {
+     "id": "real-life-applications",
+     "title": "Real-life problems on sectors and segments",
+     "keywords": [
+      "minute hand area swept",
+      "clock problem",
+      "horse grazing",
+      "goat tied rope",
+      "car wipers area",
+      "lighthouse sector",
+      "umbrella ribs",
+      "brooch wire",
+      "real life sector problems"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "What is the difference between a sector and a segment?",
+     "keywords": [
+      "sector vs segment",
+      "difference sector segment",
+      "sector and segment"
+     ]
+    },
+    {
+     "q": "Should I use π = 22/7 or 3.14?",
+     "keywords": [
+      "22/7 or 3.14",
+      "which value of pi",
+      "value of pi to use"
+     ]
+    },
+    {
+     "q": "How do I find the area of the triangle in a segment problem?",
+     "keywords": [
+      "triangle area segment",
+      "area of triangle oab",
+      "120 degree segment triangle"
+     ]
+    },
+    {
+     "q": "Are areas of combinations of plane figures (like designs made of squares and circles) in the syllabus?",
+     "keywords": [
+      "combination of plane figures",
+      "deleted topics areas related to circles",
+      "removed sections",
+      "rationalised syllabus"
+     ]
+    },
+    {
+     "q": "How do I find the area swept by the minute hand?",
+     "keywords": [
+      "minute hand",
+      "clock area swept",
+      "area swept by minute hand"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c10-math-ap",
+   "class": 10,
+   "subject": "mathematics",
+   "name": "Arithmetic Progressions",
+   "aliases": [
+    "arithmetic progressions",
+    "arithmetic progression",
+    "ap",
+    "progressions"
+   ],
+   "file": "class-10/mathematics/arithmetic-progressions.json",
+   "topics": [
+    {
+     "id": "what-is-an-ap",
+     "title": "Arithmetic progressions and common difference",
+     "keywords": [
+      "arithmetic progression",
+      "AP",
+      "A.P.",
+      "chapter 5",
+      "class 10 maths chapter 5",
+      "common difference",
+      "first term",
+      "sequence",
+      "check if AP",
+      "finite AP",
+      "infinite AP",
+      "is it an AP"
+     ]
+    },
+    {
+     "id": "nth-term",
+     "title": "The nth term of an AP",
+     "keywords": [
+      "nth term",
+      "general term",
+      "an = a + (n-1)d",
+      "which term",
+      "is 301 a term",
+      "10th term",
+      "first negative term",
+      "find the term",
+      "formula for nth term"
+     ]
+    },
+    {
+     "id": "finding-ap-and-term-from-end",
+     "title": "Finding the AP, number of terms and terms from the end",
+     "keywords": [
+      "find the AP",
+      "find a and d",
+      "how many terms",
+      "number of terms",
+      "three digit numbers divisible by 7",
+      "nth term from the end",
+      "term from last",
+      "last term",
+      "middle term",
+      "three numbers in AP"
+     ]
+    },
+    {
+     "id": "sum-of-n-terms",
+     "title": "Sum of the first n terms",
+     "keywords": [
+      "sum of n terms",
+      "Sn formula",
+      "sum of AP",
+      "n/2(2a + (n-1)d)",
+      "n/2(a + l)",
+      "sum of first n natural numbers",
+      "gauss",
+      "5050",
+      "how many terms make the sum",
+      "an = Sn - Sn-1",
+      "sum of first 40 multiples"
+     ]
+    },
+    {
+     "id": "ap-word-problems",
+     "title": "Word problems on APs",
+     "keywords": [
+      "ap word problems",
+      "savings problem",
+      "production problem",
+      "tv sets",
+      "prize money",
+      "instalments",
+      "auditorium seats",
+      "rows of seats",
+      "application of AP",
+      "real life AP"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "What is the difference between aₙ and Sₙ?",
+     "keywords": [
+      "an vs sn",
+      "difference nth term and sum",
+      "term vs sum"
+     ]
+    },
+    {
+     "q": "Can the common difference be negative or zero?",
+     "keywords": [
+      "negative common difference",
+      "zero common difference",
+      "decreasing AP"
+     ]
+    },
+    {
+     "q": "Which sum formula should I use?",
+     "keywords": [
+      "which sum formula",
+      "n/2(a+l) or n/2(2a+(n-1)d)",
+      "sum formula choice"
+     ]
+    },
+    {
+     "q": "Why did I get two values of n when finding how many terms give a sum?",
+     "keywords": [
+      "two values of n",
+      "quadratic in n",
+      "both answers valid"
+     ]
+    },
+    {
+     "q": "How do I find the middle term of an AP?",
+     "keywords": [
+      "middle term",
+      "middle term of AP",
+      "centre term"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c10-math-circles",
+   "class": 10,
+   "subject": "mathematics",
+   "name": "Circles",
+   "aliases": [
+    "circles",
+    "circle"
+   ],
+   "file": "class-10/mathematics/circles.json",
+   "topics": [
+    {
+     "id": "circle-and-line",
+     "title": "A circle and a line: secants and tangents",
+     "keywords": [
+      "tangent",
+      "secant",
+      "non intersecting line",
+      "point of contact",
+      "line and circle",
+      "tangent definition",
+      "tangere",
+      "chapter 10",
+      "ch 10 maths circles",
+      "circles class 10"
+     ]
+    },
+    {
+     "id": "tangent-perpendicular-to-radius",
+     "title": "Tangent is perpendicular to the radius",
+     "keywords": [
+      "tangent perpendicular to radius",
+      "theorem 10.1",
+      "radius tangent 90 degrees",
+      "proof tangent perpendicular",
+      "shortest distance",
+      "tangents at ends of diameter parallel",
+      "normal to circle"
+     ]
+    },
+    {
+     "id": "number-of-tangents",
+     "title": "Number of tangents from a point and length of a tangent",
+     "keywords": [
+      "number of tangents",
+      "how many tangents",
+      "tangent from external point",
+      "length of tangent",
+      "tangent length formula",
+      "point inside circle",
+      "find radius tangent",
+      "pythagoras tangent"
+     ]
+    },
+    {
+     "id": "tangents-from-external-point",
+     "title": "Tangents from an external point are equal",
+     "keywords": [
+      "tangents from external point equal",
+      "theorem 10.2",
+      "equal tangents",
+      "rhs congruence tangents",
+      "angle between two tangents",
+      "angle bisector centre",
+      "tangents supplementary angle",
+      "pa = pb"
+     ]
+    },
+    {
+     "id": "tangent-problems",
+     "title": "Applying tangent results: polygons around a circle",
+     "keywords": [
+      "quadrilateral circumscribing circle",
+      "ab + cd = ad + bc",
+      "parallelogram rhombus circle",
+      "incircle triangle tangent lengths",
+      "concentric circles chord",
+      "inscribed circle",
+      "tangent problems",
+      "circumscribed quadrilateral"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "What is the difference between a secant and a tangent?",
+     "keywords": [
+      "secant vs tangent",
+      "difference secant tangent",
+      "tangent and secant"
+     ]
+    },
+    {
+     "q": "Why can't we draw a tangent from a point inside the circle?",
+     "keywords": [
+      "tangent from inside point",
+      "point inside circle tangent",
+      "why no tangent inside"
+     ]
+    },
+    {
+     "q": "How do I find the length of a tangent?",
+     "keywords": [
+      "length of tangent",
+      "find tangent length",
+      "tangent formula"
+     ]
+    },
+    {
+     "q": "Which theorems do I need to learn the proofs of?",
+     "keywords": [
+      "important theorems circles",
+      "proofs class 10 circles",
+      "theorem 10.1 10.2"
+     ]
+    },
+    {
+     "q": "Why is a parallelogram that circumscribes a circle a rhombus?",
+     "keywords": [
+      "parallelogram circumscribing circle rhombus",
+      "rhombus proof",
+      "circumscribing parallelogram"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c10-math-coordinate",
+   "class": 10,
+   "subject": "mathematics",
+   "name": "Coordinate Geometry",
+   "aliases": [
+    "coordinate geometry"
+   ],
+   "file": "class-10/mathematics/coordinate-geometry.json",
+   "topics": [
+    {
+     "id": "coordinates-recap",
+     "title": "Points, axes and quadrants (recap)",
+     "keywords": [
+      "coordinate geometry",
+      "chapter 7",
+      "class 10 maths chapter 7",
+      "coordinates",
+      "x-axis",
+      "y-axis",
+      "origin",
+      "abscissa",
+      "ordinate",
+      "quadrants",
+      "cartesian plane",
+      "ordered pair",
+      "distance from axis"
+     ]
+    },
+    {
+     "id": "distance-formula",
+     "title": "Distance formula",
+     "keywords": [
+      "distance formula",
+      "distance between two points",
+      "√((x2-x1)^2 + (y2-y1)^2)",
+      "distance from origin",
+      "find distance",
+      "length of line segment",
+      "pythagoras coordinate",
+      "derivation of distance formula"
+     ]
+    },
+    {
+     "id": "distance-applications",
+     "title": "Using the distance formula",
+     "keywords": [
+      "collinear points",
+      "check collinearity distance",
+      "type of triangle coordinates",
+      "isosceles triangle coordinates",
+      "show that points form a square",
+      "rhombus parallelogram coordinates",
+      "equidistant point",
+      "point on x axis equidistant",
+      "find x if distance is",
+      "relation between x and y"
+     ]
+    },
+    {
+     "id": "section-formula",
+     "title": "Section formula",
+     "keywords": [
+      "section formula",
+      "internal division",
+      "divides in the ratio",
+      "m1:m2",
+      "point dividing line segment",
+      "k:1 ratio",
+      "section formula proof",
+      "find coordinates of point dividing"
+     ]
+    },
+    {
+     "id": "midpoint-and-trisection",
+     "title": "Mid-point, trisection points and parallelograms",
+     "keywords": [
+      "mid point formula",
+      "midpoint",
+      "mid-point of line segment",
+      "points of trisection",
+      "trisect",
+      "fourth vertex of parallelogram",
+      "diagonals bisect each other",
+      "centre of circle from diameter",
+      "find other end point",
+      "four equal parts"
+     ]
+    },
+    {
+     "id": "finding-the-ratio",
+     "title": "Finding the ratio of division",
+     "keywords": [
+      "find the ratio",
+      "ratio in which point divides",
+      "ratio in which x axis divides",
+      "ratio in which y axis divides",
+      "k:1 method",
+      "line segment divided by axis",
+      "find k section formula"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "Is the area of a triangle formula still in Class 10 Coordinate Geometry?",
+     "keywords": [
+      "area of triangle coordinate",
+      "deleted topics coordinate geometry",
+      "removed area of triangle",
+      "collinearity area"
+     ]
+    },
+    {
+     "q": "How do I check whether three points are collinear without the area formula?",
+     "keywords": [
+      "collinear without area",
+      "check collinear distance formula",
+      "three points on a line"
+     ]
+    },
+    {
+     "q": "In the section formula, which ratio number goes with which point?",
+     "keywords": [
+      "section formula confusion",
+      "m1 m2 which point",
+      "cross multiply section formula"
+     ]
+    },
+    {
+     "q": "How do I tell a square, rhombus, rectangle and parallelogram apart using coordinates?",
+     "keywords": [
+      "square rhombus rectangle coordinates",
+      "identify quadrilateral",
+      "prove square"
+     ]
+    },
+    {
+     "q": "Why does finding an unknown coordinate sometimes give two answers?",
+     "keywords": [
+      "two answers coordinate",
+      "two values of x",
+      "plus minus distance"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c10-math-trigonometry",
+   "class": 10,
+   "subject": "mathematics",
+   "name": "Introduction to Trigonometry",
+   "aliases": [
+    "introduction to trigonometry",
+    "trigonometry",
+    "trig"
+   ],
+   "file": "class-10/mathematics/introduction-to-trigonometry.json",
+   "topics": [
+    {
+     "id": "trigonometric-ratios",
+     "title": "Trigonometric ratios of an acute angle",
+     "keywords": [
+      "trigonometry",
+      "trigonometric ratios",
+      "sin",
+      "cos",
+      "tan",
+      "cosec",
+      "sec",
+      "cot",
+      "sine",
+      "cosine",
+      "tangent",
+      "opposite side",
+      "adjacent side",
+      "hypotenuse",
+      "reciprocal ratios",
+      "chapter 8",
+      "ch 8 maths",
+      "intro to trigo"
+     ]
+    },
+    {
+     "id": "finding-ratios-from-one",
+     "title": "Finding all ratios when one ratio is known",
+     "keywords": [
+      "find other ratios",
+      "given sin find cos",
+      "given tan find sin",
+      "given cot",
+      "pythagoras trigonometry",
+      "k method",
+      "all trigonometric ratios",
+      "if sin a = 3/5",
+      "if 15 cot a = 8"
+     ]
+    },
+    {
+     "id": "ratios-of-specific-angles",
+     "title": "Trigonometric ratios of 0°, 30°, 45°, 60° and 90°",
+     "keywords": [
+      "trigonometric table",
+      "trigo table",
+      "standard angles",
+      "specific angles",
+      "sin 30",
+      "cos 60",
+      "tan 45",
+      "sin 45",
+      "tan 60",
+      "value of tan 90",
+      "not defined",
+      "0 degree 90 degree",
+      "equilateral triangle 30 60",
+      "isosceles right triangle"
+     ]
+    },
+    {
+     "id": "using-specific-values",
+     "title": "Evaluating expressions and solving triangles",
+     "keywords": [
+      "evaluate trigonometric expression",
+      "find the value",
+      "find angle",
+      "find side of triangle",
+      "sin(a-b)",
+      "cos(a+b)",
+      "solve right triangle",
+      "5 cos²60",
+      "sec 30",
+      "trigonometry numericals"
+     ]
+    },
+    {
+     "id": "trigonometric-identities",
+     "title": "Trigonometric identities",
+     "keywords": [
+      "trigonometric identities",
+      "trigo identities",
+      "sin²a + cos²a = 1",
+      "1 + tan²a = sec²a",
+      "1 + cot²a = cosec²a",
+      "prove identity",
+      "proving identities",
+      "sec²a - tan²a",
+      "express in terms of",
+      "identity proof"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "Why can't sin A or cos A be greater than 1?",
+     "keywords": [
+      "sin greater than 1",
+      "can sin be more than 1",
+      "maximum value of sin",
+      "why sin less than 1"
+     ]
+    },
+    {
+     "q": "Does the value of sin A change if the triangle is made bigger?",
+     "keywords": [
+      "ratio depends on angle",
+      "size of triangle",
+      "does sin change",
+      "similar triangles trigonometry"
+     ]
+    },
+    {
+     "q": "How do I remember the table of values?",
+     "keywords": [
+      "remember trigonometric table",
+      "trick for table",
+      "how to learn trigo table",
+      "sin cos table trick"
+     ]
+    },
+    {
+     "q": "Is 'trigonometric ratios of complementary angles' (sin(90° − A) = cos A) in the syllabus?",
+     "keywords": [
+      "complementary angles",
+      "sin(90-a)",
+      "cos(90-a)",
+      "deleted topics trigonometry",
+      "removed from syllabus"
+     ]
+    },
+    {
+     "q": "What is the difference between an identity and an equation?",
+     "keywords": [
+      "identity vs equation",
+      "what is identity",
+      "difference identity equation"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c10-math-linear-pair",
+   "class": 10,
+   "subject": "mathematics",
+   "name": "Pair of Linear Equations in Two Variables",
+   "aliases": [
+    "pair of linear equations in two variables",
+    "pair of linear equations",
+    "linear equations",
+    "linear equations in two variables"
+   ],
+   "file": "class-10/mathematics/pair-of-linear-equations-in-two-variables.json",
+   "topics": [
+    {
+     "id": "pair-of-equations-basics",
+     "title": "What is a pair of linear equations?",
+     "keywords": [
+      "pair of linear equations",
+      "linear equations in two variables",
+      "chapter 3",
+      "class 10 maths chapter 3",
+      "simultaneous equations",
+      "solution of pair",
+      "check solution",
+      "form equations",
+      "general form",
+      "ax + by + c = 0"
+     ]
+    },
+    {
+     "id": "graphical-method",
+     "title": "Graphical method of solution",
+     "keywords": [
+      "graphical method",
+      "graph of linear equations",
+      "intersecting lines",
+      "parallel lines",
+      "coincident lines",
+      "consistent",
+      "inconsistent",
+      "dependent",
+      "unique solution",
+      "no solution",
+      "infinitely many solutions",
+      "point of intersection"
+     ]
+    },
+    {
+     "id": "ratio-conditions",
+     "title": "Checking consistency using ratios",
+     "keywords": [
+      "a1/a2 b1/b2 c1/c2",
+      "ratio of coefficients",
+      "condition for unique solution",
+      "condition for no solution",
+      "condition for infinitely many solutions",
+      "consistency of equations",
+      "find value of k",
+      "consistent or inconsistent",
+      "coincident",
+      "parallel"
+     ]
+    },
+    {
+     "id": "substitution-method",
+     "title": "Substitution method",
+     "keywords": [
+      "substitution method",
+      "solve by substitution",
+      "substitute",
+      "algebraic method",
+      "solve linear equations",
+      "express x in terms of y",
+      "pencils and erasers",
+      "simultaneous equations substitution"
+     ]
+    },
+    {
+     "id": "elimination-method",
+     "title": "Elimination method",
+     "keywords": [
+      "elimination method",
+      "solve by elimination",
+      "eliminate",
+      "add or subtract equations",
+      "equal coefficients",
+      "algebraic method",
+      "which method to use",
+      "cross multiplication method"
+     ]
+    },
+    {
+     "id": "word-problems",
+     "title": "Word problems on pairs of linear equations",
+     "keywords": [
+      "word problems linear equations",
+      "age problems",
+      "digit problems",
+      "two digit number reversed",
+      "fraction problems",
+      "taxi fare problem",
+      "cost problems",
+      "application of linear equations",
+      "father and son age",
+      "fixed charge"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "Is the cross-multiplication method still in the syllabus?",
+     "keywords": [
+      "cross multiplication method",
+      "deleted topics linear equations",
+      "reducible to linear equations",
+      "removed"
+     ]
+    },
+    {
+     "q": "What is the difference between consistent, inconsistent and dependent?",
+     "keywords": [
+      "consistent vs inconsistent",
+      "dependent meaning",
+      "difference consistent dependent"
+     ]
+    },
+    {
+     "q": "Which method should I use — substitution or elimination?",
+     "keywords": [
+      "which method",
+      "substitution or elimination",
+      "best method"
+     ]
+    },
+    {
+     "q": "What happens if both variables cancel out while solving?",
+     "keywords": [
+      "variables cancel",
+      "0 = 0",
+      "no solution algebraically",
+      "infinitely many solutions algebra"
+     ]
+    },
+    {
+     "q": "How do I find k so that a pair has no solution?",
+     "keywords": [
+      "find k no solution",
+      "value of k",
+      "condition parallel lines k"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c10-math-polynomials",
+   "class": 10,
+   "subject": "mathematics",
+   "name": "Polynomials",
+   "aliases": [
+    "polynomials",
+    "polynomial",
+    "polynomials class 10"
+   ],
+   "file": "class-10/mathematics/polynomials.json",
+   "topics": [
+    {
+     "id": "polynomials-and-degree",
+     "title": "Polynomials, degree, value and zeroes",
+     "keywords": [
+      "polynomials",
+      "chapter 2",
+      "class 10 maths chapter 2",
+      "degree of polynomial",
+      "linear polynomial",
+      "quadratic polynomial",
+      "cubic polynomial",
+      "value of polynomial",
+      "zero of polynomial",
+      "zeroes",
+      "zeros",
+      "roots",
+      "p(x)"
+     ]
+    },
+    {
+     "id": "geometrical-meaning-of-zeroes",
+     "title": "Geometrical meaning of the zeroes",
+     "keywords": [
+      "geometrical meaning of zeroes",
+      "graph of polynomial",
+      "parabola",
+      "number of zeroes from graph",
+      "x-axis",
+      "graph of quadratic",
+      "opens upward",
+      "opens downward",
+      "graph cuts x axis",
+      "cubic graph"
+     ]
+    },
+    {
+     "id": "finding-zeroes-by-factorisation",
+     "title": "Finding zeroes of a quadratic by factorisation",
+     "keywords": [
+      "find zeroes of quadratic",
+      "factorisation",
+      "factorization",
+      "splitting the middle term",
+      "middle term split",
+      "factorise quadratic polynomial",
+      "zeroes of x^2 - 2x - 8",
+      "difference of squares",
+      "zeroes by factorising"
+     ]
+    },
+    {
+     "id": "zeroes-and-coefficients",
+     "title": "Relationship between zeroes and coefficients",
+     "keywords": [
+      "relationship between zeroes and coefficients",
+      "sum of zeroes",
+      "product of zeroes",
+      "alpha beta",
+      "α + β",
+      "αβ",
+      "-b/a",
+      "c/a",
+      "verify relationship",
+      "coefficients"
+     ]
+    },
+    {
+     "id": "forming-a-quadratic",
+     "title": "Forming a quadratic from its zeroes",
+     "keywords": [
+      "find quadratic polynomial",
+      "form a quadratic",
+      "quadratic polynomial whose sum and product of zeroes",
+      "x^2 - (sum)x + product",
+      "given zeroes find polynomial",
+      "find k",
+      "unknown coefficient",
+      "construct polynomial"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "Is the division algorithm for polynomials still in Class 10?",
+     "keywords": [
+      "division algorithm",
+      "polynomial division deleted",
+      "deleted topics polynomials",
+      "long division polynomial"
+     ]
+    },
+    {
+     "q": "What is the difference between a zero of a polynomial and the root of an equation?",
+     "keywords": [
+      "zero vs root",
+      "difference zero and root",
+      "roots of polynomial"
+     ]
+    },
+    {
+     "q": "How can I tell the number of zeroes from a graph?",
+     "keywords": [
+      "number of zeroes graph",
+      "count zeroes from graph",
+      "graph meets x axis"
+     ]
+    },
+    {
+     "q": "Why is the sum of zeroes −b/a and not b/a?",
+     "keywords": [
+      "why minus b by a",
+      "sum of zeroes sign",
+      "derivation sum product zeroes"
+     ]
+    },
+    {
+     "q": "Is there only one quadratic with given zeroes?",
+     "keywords": [
+      "how many quadratics",
+      "value of k",
+      "infinitely many polynomials"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c10-math-probability",
+   "class": 10,
+   "subject": "mathematics",
+   "name": "Probability",
+   "aliases": [
+    "probability",
+    "probability class 10"
+   ],
+   "file": "class-10/mathematics/probability.json",
+   "topics": [
+    {
+     "id": "theoretical-probability",
+     "title": "Theoretical (classical) probability",
+     "keywords": [
+      "probability",
+      "theoretical probability",
+      "classical probability",
+      "favourable outcomes",
+      "equally likely",
+      "outcome",
+      "event",
+      "random experiment",
+      "experimental probability",
+      "chapter 14",
+      "ch 14 maths",
+      "probability class 10"
+     ]
+    },
+    {
+     "id": "elementary-and-complementary-events",
+     "title": "Elementary events and complementary events",
+     "keywords": [
+      "elementary event",
+      "complementary event",
+      "complement",
+      "p(not e)",
+      "1 - p(e)",
+      "p(e) + p(not e) = 1",
+      "not e",
+      "e bar",
+      "at least one",
+      "sum of probabilities"
+     ]
+    },
+    {
+     "id": "impossible-sure-and-range",
+     "title": "Impossible events, sure events and the range of probability",
+     "keywords": [
+      "impossible event",
+      "sure event",
+      "certain event",
+      "probability 0",
+      "probability 1",
+      "range of probability",
+      "0 ≤ p(e) ≤ 1",
+      "can probability be more than 1",
+      "negative probability"
+     ]
+    },
+    {
+     "id": "coins-and-dice",
+     "title": "Problems with coins and dice",
+     "keywords": [
+      "coin toss probability",
+      "two coins",
+      "tossing coins",
+      "die",
+      "dice",
+      "two dice",
+      "throwing two dice",
+      "36 outcomes",
+      "doublet",
+      "sum of numbers on dice",
+      "at least one head",
+      "unbiased die"
+     ]
+    },
+    {
+     "id": "cards-and-other-problems",
+     "title": "Problems with playing cards, bags and numbered items",
+     "keywords": [
+      "playing cards probability",
+      "deck of 52 cards",
+      "face cards",
+      "red face card",
+      "ace",
+      "suits",
+      "spades hearts diamonds clubs",
+      "balls in a bag",
+      "marbles",
+      "numbered discs",
+      "defective items",
+      "spinning arrow"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "Why is the probability of getting a head ½, but I didn't get 5 heads in 10 tosses?",
+     "keywords": [
+      "experimental vs theoretical",
+      "why not exactly half",
+      "coin toss long run",
+      "difference experimental theoretical probability"
+     ]
+    },
+    {
+     "q": "Can a probability be more than 1 or negative?",
+     "keywords": [
+      "probability more than 1",
+      "negative probability",
+      "range of probability"
+     ]
+    },
+    {
+     "q": "When two coins are tossed, why are there 4 outcomes and not 3?",
+     "keywords": [
+      "two coins outcomes",
+      "why 4 outcomes",
+      "ht and th",
+      "toss two coins"
+     ]
+    },
+    {
+     "q": "What are face cards and how many are there?",
+     "keywords": [
+      "face cards",
+      "how many face cards",
+      "is ace a face card",
+      "court cards"
+     ]
+    },
+    {
+     "q": "What is the difference between an impossible event and a sure event?",
+     "keywords": [
+      "impossible vs sure event",
+      "certain event",
+      "probability 0 and 1"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c10-math-quadratic",
+   "class": 10,
+   "subject": "mathematics",
+   "name": "Quadratic Equations",
+   "aliases": [
+    "quadratic equations",
+    "quadratic equation",
+    "quadratics"
+   ],
+   "file": "class-10/mathematics/quadratic-equations.json",
+   "topics": [
+    {
+     "id": "quadratic-equation-basics",
+     "title": "Quadratic equations and their standard form",
+     "keywords": [
+      "quadratic equations",
+      "chapter 4",
+      "class 10 maths chapter 4",
+      "standard form",
+      "ax^2 + bx + c = 0",
+      "check whether quadratic",
+      "is it a quadratic equation",
+      "represent situation as quadratic",
+      "form quadratic equation",
+      "degree 2 equation"
+     ]
+    },
+    {
+     "id": "solving-by-factorisation",
+     "title": "Roots and solving by factorisation",
+     "keywords": [
+      "roots of quadratic equation",
+      "solve by factorisation",
+      "factorization method",
+      "splitting the middle term",
+      "check root",
+      "verify root",
+      "is x = 2 a root",
+      "equal roots",
+      "reject negative root",
+      "zeroes"
+     ]
+    },
+    {
+     "id": "quadratic-formula",
+     "title": "The quadratic formula",
+     "keywords": [
+      "quadratic formula",
+      "sridharacharya formula",
+      "shridharacharya",
+      "-b ± √(b^2-4ac) / 2a",
+      "formula method",
+      "solve using formula",
+      "irrational roots",
+      "completing the square",
+      "roots formula",
+      "speed problem"
+     ]
+    },
+    {
+     "id": "nature-of-roots",
+     "title": "Discriminant and nature of roots",
+     "keywords": [
+      "discriminant",
+      "nature of roots",
+      "b^2 - 4ac",
+      "real and distinct roots",
+      "equal roots",
+      "no real roots",
+      "find k for equal roots",
+      "real roots condition",
+      "D > 0",
+      "is it possible"
+     ]
+    },
+    {
+     "id": "word-problems",
+     "title": "Word problems leading to quadratic equations",
+     "keywords": [
+      "word problems quadratic",
+      "consecutive integers product",
+      "age problems quadratic",
+      "speed time distance quadratic",
+      "train problem",
+      "rectangle area quadratic",
+      "application of quadratic equations",
+      "Rohan mother age",
+      "reject negative root"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "Is completing the square still in the Class 10 syllabus?",
+     "keywords": [
+      "completing the square",
+      "deleted topics quadratic",
+      "removed syllabus quadratic",
+      "derivation of formula"
+     ]
+    },
+    {
+     "q": "When should I use factorisation and when the quadratic formula?",
+     "keywords": [
+      "factorisation or formula",
+      "which method quadratic",
+      "best method"
+     ]
+    },
+    {
+     "q": "What does 'two equal roots' mean? Isn't that just one root?",
+     "keywords": [
+      "equal roots meaning",
+      "repeated roots",
+      "D = 0 meaning"
+     ]
+    },
+    {
+     "q": "Why do we reject one of the roots in word problems?",
+     "keywords": [
+      "reject root",
+      "negative root word problem",
+      "why ignore negative value"
+     ]
+    },
+    {
+     "q": "Can I divide both sides of x² = 3x by x?",
+     "keywords": [
+      "divide by x",
+      "lost root",
+      "x^2 = 3x"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c10-math-real-numbers",
+   "class": 10,
+   "subject": "mathematics",
+   "name": "Real Numbers",
+   "aliases": [
+    "real numbers",
+    "real number"
+   ],
+   "file": "class-10/mathematics/real-numbers.json",
+   "topics": [
+    {
+     "id": "fundamental-theorem-of-arithmetic",
+     "title": "Fundamental Theorem of Arithmetic",
+     "keywords": [
+      "fundamental theorem of arithmetic",
+      "FTA",
+      "prime factorisation",
+      "prime factorization",
+      "factor tree",
+      "prime number",
+      "composite number",
+      "unique factorisation",
+      "real numbers",
+      "chapter 1",
+      "class 10 maths chapter 1",
+      "4^n ends with 0",
+      "6^n ends with zero"
+     ]
+    },
+    {
+     "id": "hcf-lcm-prime-factorisation",
+     "title": "HCF and LCM by prime factorisation",
+     "keywords": [
+      "hcf",
+      "lcm",
+      "highest common factor",
+      "lowest common multiple",
+      "least common multiple",
+      "gcd",
+      "hcf by prime factorisation",
+      "lcm by prime factorisation",
+      "hcf x lcm = product",
+      "hcf and lcm of three numbers",
+      "co-prime",
+      "find lcm if hcf given"
+     ]
+    },
+    {
+     "id": "hcf-lcm-word-problems",
+     "title": "Word problems on HCF and LCM",
+     "keywords": [
+      "hcf word problems",
+      "lcm word problems",
+      "bells ring together",
+      "meet again at starting point",
+      "maximum number of columns",
+      "army contingent",
+      "largest box",
+      "when to use hcf or lcm",
+      "application of hcf lcm",
+      "circular path meet"
+     ]
+    },
+    {
+     "id": "proving-irrationality",
+     "title": "Proving √2, √3, √5 are irrational",
+     "keywords": [
+      "irrational numbers",
+      "prove root 2 is irrational",
+      "prove √2 irrational",
+      "prove √3 irrational",
+      "prove √5 irrational",
+      "proof by contradiction",
+      "contradiction method",
+      "co-prime",
+      "p divides a square",
+      "revisiting irrational numbers",
+      "rational numbers"
+     ]
+    },
+    {
+     "id": "irrationality-of-combinations",
+     "title": "Irrationality of sums and products like 3 + 2√5",
+     "keywords": [
+      "prove 3 + 2√5 irrational",
+      "prove 5 - √3 irrational",
+      "3√2 irrational",
+      "1/√2 irrational",
+      "sum of rational and irrational",
+      "product of rational and irrational",
+      "irrational combination",
+      "surds",
+      "is 6 + √2 irrational",
+      "contradiction proof"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "Is Euclid's division lemma still in the Class 10 Real Numbers chapter?",
+     "keywords": [
+      "euclid division lemma",
+      "euclid's division algorithm",
+      "deleted topics real numbers",
+      "decimal expansion",
+      "terminating decimal"
+     ]
+    },
+    {
+     "q": "Why do we assume a and b are co-prime in the proof that √2 is irrational?",
+     "keywords": [
+      "why co-prime",
+      "root 2 proof doubt",
+      "lowest terms",
+      "contradiction"
+     ]
+    },
+    {
+     "q": "Does HCF × LCM = product work for three numbers?",
+     "keywords": [
+      "hcf lcm three numbers",
+      "hcf x lcm product three",
+      "relation hcf lcm"
+     ]
+    },
+    {
+     "q": "How do I know whether to use HCF or LCM in a word problem?",
+     "keywords": [
+      "hcf or lcm",
+      "which to use hcf lcm",
+      "word problems hcf lcm"
+     ]
+    },
+    {
+     "q": "Is the sum of two irrational numbers always irrational?",
+     "keywords": [
+      "sum of irrational numbers",
+      "product of two irrationals",
+      "irrational plus irrational"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c10-math-heights-distances",
+   "class": 10,
+   "subject": "mathematics",
+   "name": "Some Applications of Trigonometry",
+   "aliases": [
+    "some applications of trigonometry",
+    "applications of trigonometry",
+    "heights and distances"
+   ],
+   "file": "class-10/mathematics/some-applications-of-trigonometry.json",
+   "topics": [
+    {
+     "id": "line-of-sight-and-angles",
+     "title": "Line of sight, angle of elevation and angle of depression",
+     "keywords": [
+      "line of sight",
+      "angle of elevation",
+      "angle of depression",
+      "horizontal",
+      "elevation and depression difference",
+      "clinometer",
+      "heights and distances",
+      "chapter 9",
+      "ch 9 maths",
+      "applications of trigonometry",
+      "alternate angles"
+     ]
+    },
+    {
+     "id": "problems-with-elevation",
+     "title": "Finding heights and distances using the angle of elevation",
+     "keywords": [
+      "height of tower",
+      "find height",
+      "find distance",
+      "angle of elevation problem",
+      "kite string length",
+      "ladder problem",
+      "observer height",
+      "tan 60 height",
+      "heights and distances numericals"
+     ]
+    },
+    {
+     "id": "problems-with-depression",
+     "title": "Problems using the angle of depression",
+     "keywords": [
+      "angle of depression problem",
+      "lighthouse ship",
+      "cliff boat",
+      "top of tower depression",
+      "depression to elevation",
+      "alternate angles depression",
+      "distance of ship"
+     ]
+    },
+    {
+     "id": "two-triangle-problems",
+     "title": "Problems involving two right triangles",
+     "keywords": [
+      "two angles of elevation",
+      "walking towards tower",
+      "flagstaff on building",
+      "statue on pedestal",
+      "elevation and depression from building",
+      "two triangles",
+      "30 and 60 degree problem",
+      "height of tower two points",
+      "hots heights and distances"
+     ]
+    },
+    {
+     "id": "shadows-and-problem-solving",
+     "title": "Shadows and a step-by-step strategy",
+     "keywords": [
+      "shadow problem",
+      "sun's altitude",
+      "altitude of sun",
+      "length of shadow",
+      "shadow longer",
+      "shadow equals height",
+      "steps to solve heights and distances",
+      "how to draw figure"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "What is the difference between angle of elevation and angle of depression?",
+     "keywords": [
+      "elevation vs depression",
+      "difference elevation depression",
+      "angle of elevation meaning"
+     ]
+    },
+    {
+     "q": "Why is the angle of depression equal to the angle of elevation?",
+     "keywords": [
+      "why depression equals elevation",
+      "alternate angles",
+      "angle of depression equal"
+     ]
+    },
+    {
+     "q": "How do I know whether to use sin, cos or tan?",
+     "keywords": [
+      "which ratio to use",
+      "sin or tan",
+      "when to use tan",
+      "choose ratio"
+     ]
+    },
+    {
+     "q": "Should I give the answer as 10√3 or 17.32?",
+     "keywords": [
+      "surd or decimal",
+      "root 3 value",
+      "1.732",
+      "final answer form"
+     ]
+    },
+    {
+     "q": "What happens to the shadow when the sun rises higher?",
+     "keywords": [
+      "shadow length sun",
+      "sun rises shadow",
+      "shadow shorter"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c10-math-statistics",
+   "class": 10,
+   "subject": "mathematics",
+   "name": "Statistics",
+   "aliases": [
+    "statistics"
+   ],
+   "file": "class-10/mathematics/statistics.json",
+   "topics": [
+    {
+     "id": "grouped-data-basics",
+     "title": "Grouped data, class marks and cumulative frequency",
+     "keywords": [
+      "grouped data",
+      "class interval",
+      "class mark",
+      "mid point",
+      "class size",
+      "frequency",
+      "cumulative frequency",
+      "cf",
+      "frequency distribution table",
+      "chapter 13",
+      "ch 13 maths",
+      "statistics class 10",
+      "central tendency"
+     ]
+    },
+    {
+     "id": "mean-direct-method",
+     "title": "Mean of grouped data: direct method",
+     "keywords": [
+      "mean of grouped data",
+      "direct method",
+      "mean formula",
+      "σfx/σf",
+      "average grouped data",
+      "find mean",
+      "missing frequency",
+      "find p if mean is"
+     ]
+    },
+    {
+     "id": "mean-assumed-mean-method",
+     "title": "Mean of grouped data: assumed mean method",
+     "keywords": [
+      "assumed mean method",
+      "assumed mean",
+      "deviation method",
+      "di = xi - a",
+      "short cut method mean",
+      "mean by assumed mean",
+      "a + σfd/σf"
+     ]
+    },
+    {
+     "id": "mode-of-grouped-data",
+     "title": "Mode of grouped data",
+     "keywords": [
+      "mode of grouped data",
+      "modal class",
+      "mode formula",
+      "f1 f0 f2",
+      "most frequent",
+      "find mode",
+      "l + (f1-f0)/(2f1-f0-f2)"
+     ]
+    },
+    {
+     "id": "median-of-grouped-data",
+     "title": "Median of grouped data",
+     "keywords": [
+      "median of grouped data",
+      "median class",
+      "median formula",
+      "n/2",
+      "cumulative frequency median",
+      "find median",
+      "l + (n/2 - cf)/f × h"
+     ]
+    },
+    {
+     "id": "choosing-a-measure",
+     "title": "Choosing between mean, median and mode",
+     "keywords": [
+      "which average to use",
+      "mean vs median",
+      "mean median mode difference",
+      "extreme values",
+      "outliers",
+      "best measure of central tendency",
+      "when to use median"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "What is the difference between mean, median and mode?",
+     "keywords": [
+      "mean median mode difference",
+      "difference between mean median mode",
+      "central tendency measures"
+     ]
+    },
+    {
+     "q": "How do I choose the assumed mean?",
+     "keywords": [
+      "how to choose assumed mean",
+      "which a to take",
+      "assumed mean choice"
+     ]
+    },
+    {
+     "q": "How do I identify the median class?",
+     "keywords": [
+      "median class",
+      "how to find median class",
+      "identify median class"
+     ]
+    },
+    {
+     "q": "Are the step-deviation method and ogives (cumulative frequency graphs) in the syllabus?",
+     "keywords": [
+      "step deviation",
+      "ogive",
+      "cumulative frequency graph",
+      "deleted topics statistics",
+      "removed from syllabus",
+      "less than ogive"
+     ]
+    },
+    {
+     "q": "What if the modal class is the first or last class?",
+     "keywords": [
+      "modal class first",
+      "modal class last",
+      "f0 = 0",
+      "f2 = 0"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c10-math-surface-volume",
+   "class": 10,
+   "subject": "mathematics",
+   "name": "Surface Areas and Volumes",
+   "aliases": [
+    "surface areas and volumes",
+    "surface area and volume"
+   ],
+   "file": "class-10/mathematics/surface-areas-and-volumes.json",
+   "topics": [
+    {
+     "id": "basic-solids-recap",
+     "title": "Formulas of basic solids (recap)",
+     "keywords": [
+      "surface area formulas",
+      "volume formulas",
+      "csa",
+      "tsa",
+      "curved surface area",
+      "total surface area",
+      "cylinder",
+      "cone",
+      "sphere",
+      "hemisphere",
+      "cuboid",
+      "cube",
+      "slant height",
+      "chapter 12",
+      "ch 12 maths",
+      "surface areas and volumes"
+     ]
+    },
+    {
+     "id": "surface-area-of-combinations",
+     "title": "Surface area of a combination of solids",
+     "keywords": [
+      "surface area of combination",
+      "combined solids",
+      "toy cone hemisphere",
+      "capsule surface area",
+      "tent canvas",
+      "two cubes joined",
+      "exposed surface",
+      "csa combination",
+      "surface area toy"
+     ]
+    },
+    {
+     "id": "surface-area-cut-and-scooped",
+     "title": "Surface area when a part is placed on top or scooped out",
+     "keywords": [
+      "hemisphere on cube",
+      "block surmounted by hemisphere",
+      "scooped out",
+      "hollowed out",
+      "carved hemisphere cylinder",
+      "wooden article",
+      "cone scooped out of cylinder",
+      "surface area removed part"
+     ]
+    },
+    {
+     "id": "volume-of-combinations",
+     "title": "Volume of a combination of solids",
+     "keywords": [
+      "volume of combination",
+      "volume of toy",
+      "volume of capsule",
+      "shed half cylinder",
+      "combined solids volume",
+      "add volumes",
+      "capacity in litres",
+      "volume cone and hemisphere"
+     ]
+    },
+    {
+     "id": "volume-with-removed-parts",
+     "title": "Volume when parts are removed",
+     "keywords": [
+      "volume remaining",
+      "hollowed out volume",
+      "pen stand",
+      "conical depressions",
+      "cylinder minus cone",
+      "volume of wood",
+      "volume removed",
+      "water displaced"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "Why can't I just add the total surface areas of the two solids?",
+     "keywords": [
+      "why not add tsa",
+      "surface area combination rule",
+      "hidden faces"
+     ]
+    },
+    {
+     "q": "Why do volumes add up but surface areas don't?",
+     "keywords": [
+      "volume adds",
+      "volume vs surface area combination"
+     ]
+    },
+    {
+     "q": "Are conversion of solids (melting and recasting) and frustum of a cone in the syllabus?",
+     "keywords": [
+      "frustum",
+      "conversion of solids",
+      "melting recasting",
+      "deleted topics surface areas",
+      "removed from syllabus"
+     ]
+    },
+    {
+     "q": "What is the difference between CSA and TSA?",
+     "keywords": [
+      "csa vs tsa",
+      "difference curved total surface area"
+     ]
+    },
+    {
+     "q": "How do I find the height of the cone in a toy problem?",
+     "keywords": [
+      "height of cone toy",
+      "total height toy",
+      "find slant height"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c10-math-triangles",
+   "class": 10,
+   "subject": "mathematics",
+   "name": "Triangles",
+   "aliases": [
+    "triangles",
+    "triangle"
+   ],
+   "file": "class-10/mathematics/triangles.json",
+   "topics": [
+    {
+     "id": "similar-figures",
+     "title": "Similar figures",
+     "keywords": [
+      "triangles",
+      "chapter 6",
+      "class 10 maths chapter 6",
+      "similar figures",
+      "similarity",
+      "congruent",
+      "congruent vs similar",
+      "similar polygons",
+      "scale factor",
+      "all circles are similar",
+      "all squares are similar",
+      "proportional sides"
+     ]
+    },
+    {
+     "id": "similar-triangles",
+     "title": "Similarity of triangles",
+     "keywords": [
+      "similar triangles",
+      "similarity of triangles",
+      "~ symbol",
+      "corresponding sides",
+      "corresponding angles",
+      "ratio of sides",
+      "triangle ABC similar to DEF",
+      "find side using similarity",
+      "order of vertices"
+     ]
+    },
+    {
+     "id": "basic-proportionality-theorem",
+     "title": "Basic Proportionality Theorem (Thales theorem)",
+     "keywords": [
+      "basic proportionality theorem",
+      "BPT",
+      "thales theorem",
+      "thales",
+      "line parallel to one side of triangle",
+      "AD/DB = AE/EC",
+      "proof of BPT",
+      "theorem 6.1",
+      "DE parallel to BC",
+      "divides sides in same ratio"
+     ]
+    },
+    {
+     "id": "converse-of-bpt",
+     "title": "Converse of the Basic Proportionality Theorem",
+     "keywords": [
+      "converse of BPT",
+      "converse of basic proportionality theorem",
+      "converse of thales theorem",
+      "prove line is parallel",
+      "is DE parallel to BC",
+      "theorem 6.2",
+      "same ratio parallel",
+      "mid point theorem"
+     ]
+    },
+    {
+     "id": "similarity-criteria",
+     "title": "Criteria for similarity: AAA, AA, SSS, SAS",
+     "keywords": [
+      "similarity criteria",
+      "criteria for similarity of triangles",
+      "AAA similarity",
+      "AA similarity",
+      "SSS similarity",
+      "SAS similarity",
+      "theorem 6.3",
+      "theorem 6.4",
+      "theorem 6.5",
+      "similarity vs congruence",
+      "prove triangles similar"
+     ]
+    },
+    {
+     "id": "applications-of-similarity",
+     "title": "Using similarity: heights, shadows and lengths",
+     "keywords": [
+      "height and shadow",
+      "shadow problem",
+      "lamp post problem",
+      "height of tower using similarity",
+      "application of similar triangles",
+      "pole shadow",
+      "find DE",
+      "trapezium diagonals",
+      "similar triangles word problems"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "Are the Pythagoras theorem and areas of similar triangles still in this chapter?",
+     "keywords": [
+      "pythagoras theorem deleted",
+      "areas of similar triangles",
+      "deleted topics triangles",
+      "removed syllabus triangles"
+     ]
+    },
+    {
+     "q": "What is the difference between congruent and similar triangles?",
+     "keywords": [
+      "congruent vs similar",
+      "difference congruent similar",
+      "similarity and congruence"
+     ]
+    },
+    {
+     "q": "Why is AA enough to prove two triangles similar?",
+     "keywords": [
+      "why AA enough",
+      "AA criterion",
+      "two angles similar"
+     ]
+    },
+    {
+     "q": "Do I need to learn the proof of BPT?",
+     "keywords": [
+      "BPT proof",
+      "proof of thales theorem",
+      "important theorems triangles"
+     ]
+    },
+    {
+     "q": "Are all rectangles similar?",
+     "keywords": [
+      "are all rectangles similar",
+      "rectangles similar",
+      "squares similar"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c10-sci-acids",
+   "class": 10,
+   "subject": "science",
+   "name": "Acids, Bases and Salts",
+   "aliases": [
+    "acids bases and salts"
+   ],
+   "file": "class-10/science/acids-bases-and-salts.json",
+   "topics": [
+    {
+     "id": "indicators",
+     "title": "Acids, bases and indicators",
+     "keywords": [
+      "indicator",
+      "indicators",
+      "litmus",
+      "phenolphthalein",
+      "methyl orange",
+      "turmeric",
+      "olfactory indicator",
+      "natural indicator",
+      "synthetic indicator",
+      "acid",
+      "base",
+      "red cabbage",
+      "chapter 2",
+      "acids bases and salts"
+     ]
+    },
+    {
+     "id": "acid-reactions",
+     "title": "Chemical properties of acids and bases",
+     "keywords": [
+      "reaction of acids with metals",
+      "acid and metal",
+      "acid carbonate",
+      "lime water",
+      "neutralisation",
+      "neutralization",
+      "metal oxide",
+      "non-metal oxide",
+      "basic oxide",
+      "acidic oxide",
+      "pop sound",
+      "hydrogen gas",
+      "sodium zincate",
+      "chemical properties of acids"
+     ]
+    },
+    {
+     "id": "ions-water",
+     "title": "What acids and bases have in common; acids and bases in water",
+     "keywords": [
+      "hydronium ion",
+      "H3O+",
+      "hydrogen ion",
+      "hydroxide ion",
+      "alkali",
+      "alkalis",
+      "dilution",
+      "diluting acid",
+      "exothermic",
+      "acid conducts electricity",
+      "dry HCl",
+      "glucose alcohol not acid",
+      "acid to water"
+     ]
+    },
+    {
+     "id": "ph",
+     "title": "Strength of acids and bases: the pH scale",
+     "keywords": [
+      "pH",
+      "pH scale",
+      "universal indicator",
+      "strong acid",
+      "weak acid",
+      "acid rain",
+      "tooth decay",
+      "antacid",
+      "milk of magnesia",
+      "acidity",
+      "bee sting",
+      "nettle sting",
+      "methanoic acid",
+      "soil pH",
+      "importance of pH"
+     ]
+    },
+    {
+     "id": "salts",
+     "title": "Salts, common salt and chemicals made from it",
+     "keywords": [
+      "salt",
+      "salts",
+      "family of salts",
+      "pH of salts",
+      "common salt",
+      "sodium chloride",
+      "rock salt",
+      "chlor-alkali process",
+      "brine",
+      "sodium hydroxide",
+      "bleaching powder",
+      "CaOCl2",
+      "baking soda",
+      "sodium hydrogencarbonate",
+      "sodium bicarbonate",
+      "baking powder",
+      "washing soda",
+      "sodium carbonate"
+     ]
+    },
+    {
+     "id": "water-crystallisation",
+     "title": "Water of crystallisation and Plaster of Paris",
+     "keywords": [
+      "water of crystallisation",
+      "water of crystallization",
+      "hydrated salt",
+      "anhydrous",
+      "copper sulphate crystals",
+      "CuSO4.5H2O",
+      "plaster of paris",
+      "POP",
+      "gypsum",
+      "calcium sulphate hemihydrate",
+      "373 K",
+      "fracture plaster"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "What is the difference between a base and an alkali?",
+     "keywords": [
+      "base vs alkali",
+      "difference between base and alkali",
+      "alkali"
+     ]
+    },
+    {
+     "q": "Why should we add acid to water and not water to acid?",
+     "keywords": [
+      "acid to water",
+      "dilution",
+      "why add acid to water"
+     ]
+    },
+    {
+     "q": "Why does dry HCl gas not change the colour of dry litmus paper?",
+     "keywords": [
+      "dry HCl",
+      "dry litmus",
+      "acid needs water"
+     ]
+    },
+    {
+     "q": "What is the difference between baking soda and baking powder?",
+     "keywords": [
+      "baking soda vs baking powder",
+      "baking powder",
+      "tartaric acid"
+     ]
+    },
+    {
+     "q": "Why should Plaster of Paris be kept in a moisture-proof container?",
+     "keywords": [
+      "plaster of paris storage",
+      "POP moisture"
+     ]
+    },
+    {
+     "q": "How does toothpaste prevent tooth decay?",
+     "keywords": [
+      "toothpaste",
+      "tooth decay pH",
+      "enamel"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c10-sci-carbon",
+   "class": 10,
+   "subject": "science",
+   "name": "Carbon and its Compounds",
+   "aliases": [
+    "carbon and its compounds",
+    "carbon compounds"
+   ],
+   "file": "class-10/science/carbon-and-its-compounds.json",
+   "topics": [
+    {
+     "id": "covalent-bonding",
+     "title": "Bonding in carbon: the covalent bond",
+     "keywords": [
+      "covalent bond",
+      "covalent bonding",
+      "sharing electrons",
+      "electron dot structure",
+      "lewis structure",
+      "single bond",
+      "double bond",
+      "triple bond",
+      "methane",
+      "valency of carbon",
+      "tetravalent",
+      "chapter 4",
+      "carbon compounds",
+      "properties of covalent compounds"
+     ]
+    },
+    {
+     "id": "versatile-nature",
+     "title": "Versatile nature of carbon; allotropes; hydrocarbons",
+     "keywords": [
+      "catenation",
+      "tetravalency",
+      "allotropes of carbon",
+      "diamond",
+      "graphite",
+      "fullerene",
+      "buckminsterfullerene",
+      "hydrocarbon",
+      "saturated hydrocarbon",
+      "unsaturated hydrocarbon",
+      "alkane",
+      "alkene",
+      "alkyne",
+      "isomers",
+      "structural isomers",
+      "benzene",
+      "cyclohexane",
+      "chains branches rings"
+     ]
+    },
+    {
+     "id": "functional-groups",
+     "title": "Functional groups, homologous series and nomenclature",
+     "keywords": [
+      "functional group",
+      "functional groups",
+      "heteroatom",
+      "homologous series",
+      "nomenclature",
+      "IUPAC naming",
+      "naming carbon compounds",
+      "alcohol",
+      "aldehyde",
+      "ketone",
+      "carboxylic acid",
+      "haloalkane",
+      "propanol",
+      "propanone",
+      "ethanal",
+      "CH2 difference"
+     ]
+    },
+    {
+     "id": "chemical-properties",
+     "title": "Chemical properties of carbon compounds",
+     "keywords": [
+      "combustion",
+      "oxidation",
+      "oxidising agent",
+      "potassium permanganate",
+      "addition reaction",
+      "hydrogenation",
+      "vanaspati ghee",
+      "nickel catalyst",
+      "catalyst",
+      "substitution reaction",
+      "chlorination methane",
+      "sooty flame",
+      "blue flame",
+      "chemical properties of carbon compounds"
+     ]
+    },
+    {
+     "id": "ethanol-ethanoic-acid",
+     "title": "Ethanol and ethanoic acid",
+     "keywords": [
+      "ethanol",
+      "ethyl alcohol",
+      "alcohol",
+      "denatured alcohol",
+      "methanol",
+      "sodium ethoxide",
+      "dehydration of ethanol",
+      "ethanoic acid",
+      "acetic acid",
+      "vinegar",
+      "glacial acetic acid",
+      "ester",
+      "esterification",
+      "saponification",
+      "ethyl ethanoate",
+      "sodium acetate"
+     ]
+    },
+    {
+     "id": "soaps-detergents",
+     "title": "Soaps and detergents",
+     "keywords": [
+      "soap",
+      "soaps",
+      "detergent",
+      "detergents",
+      "micelle",
+      "micelles",
+      "hydrophilic",
+      "hydrophobic",
+      "cleansing action of soap",
+      "hard water",
+      "scum",
+      "lather",
+      "saponification",
+      "shampoo"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "Why does carbon form covalent bonds and not ionic bonds?",
+     "keywords": [
+      "why covalent",
+      "carbon covalent bond",
+      "carbon ionic"
+     ]
+    },
+    {
+     "q": "What is the difference between saturated and unsaturated hydrocarbons?",
+     "keywords": [
+      "saturated vs unsaturated",
+      "difference saturated unsaturated",
+      "alkane alkene"
+     ]
+    },
+    {
+     "q": "How does soap remove oily dirt?",
+     "keywords": [
+      "cleansing action",
+      "how soap works",
+      "micelle formation"
+     ]
+    },
+    {
+     "q": "Why don't soaps work well in hard water?",
+     "keywords": [
+      "soap hard water",
+      "scum",
+      "detergent hard water"
+     ]
+    },
+    {
+     "q": "What is the difference between esterification and saponification?",
+     "keywords": [
+      "esterification vs saponification",
+      "ester",
+      "soap making"
+     ]
+    },
+    {
+     "q": "What is denatured alcohol?",
+     "keywords": [
+      "denatured alcohol",
+      "methanol poisoning"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
    "id": "c10-sci-reactions",
    "class": 10,
    "subject": "science",
@@ -139,7 +2501,1784 @@
      ]
     }
    ],
-   "quizCount": 8
+   "quizCount": 12
+  },
+  {
+   "id": "c10-sci-control",
+   "class": 10,
+   "subject": "science",
+   "name": "Control and Coordination",
+   "aliases": [
+    "control and coordination",
+    "coordination"
+   ],
+   "file": "class-10/science/control-and-coordination.json",
+   "topics": [
+    {
+     "id": "nervous-system",
+     "title": "Nervous system, neurons and reflex action",
+     "keywords": [
+      "nervous system",
+      "neuron",
+      "nerve cell",
+      "dendrite",
+      "axon",
+      "cell body",
+      "synapse",
+      "nerve impulse",
+      "receptors",
+      "effector",
+      "reflex action",
+      "reflex arc",
+      "spinal cord",
+      "sensory neuron",
+      "motor neuron",
+      "chapter 6",
+      "chapter 7",
+      "control and coordination"
+     ]
+    },
+    {
+     "id": "brain",
+     "title": "Human brain and how nervous tissue causes action",
+     "keywords": [
+      "human brain",
+      "brain",
+      "forebrain",
+      "midbrain",
+      "hindbrain",
+      "cerebrum",
+      "cerebellum",
+      "medulla",
+      "pons",
+      "central nervous system",
+      "peripheral nervous system",
+      "voluntary action",
+      "involuntary action",
+      "skull",
+      "vertebral column",
+      "muscle contraction",
+      "balance and posture"
+     ]
+    },
+    {
+     "id": "plant-movements",
+     "title": "Coordination in plants: movements and tropisms",
+     "keywords": [
+      "coordination in plants",
+      "plant movement",
+      "touch me not",
+      "mimosa",
+      "sensitive plant",
+      "tropism",
+      "phototropism",
+      "geotropism",
+      "gravitropism",
+      "hydrotropism",
+      "chemotropism",
+      "tendrils",
+      "thigmotropism",
+      "pollen tube",
+      "positive negative tropism"
+     ]
+    },
+    {
+     "id": "plant-hormones",
+     "title": "Plant hormones",
+     "keywords": [
+      "plant hormones",
+      "phytohormones",
+      "auxin",
+      "gibberellin",
+      "gibberellins",
+      "cytokinin",
+      "cytokinins",
+      "abscisic acid",
+      "ABA",
+      "growth promoter",
+      "growth inhibitor",
+      "wilting",
+      "stress hormone"
+     ]
+    },
+    {
+     "id": "animal-hormones",
+     "title": "Hormones in animals",
+     "keywords": [
+      "hormones in animals",
+      "endocrine system",
+      "endocrine glands",
+      "adrenaline",
+      "adrenal gland",
+      "fight or flight",
+      "pituitary",
+      "growth hormone",
+      "dwarfism",
+      "thyroid",
+      "thyroxin",
+      "iodine",
+      "goitre",
+      "iodised salt",
+      "pancreas",
+      "insulin",
+      "diabetes",
+      "testosterone",
+      "oestrogen",
+      "hypothalamus",
+      "feedback mechanism"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "What is the difference between a reflex action and walking?",
+     "keywords": [
+      "reflex vs voluntary",
+      "reflex action walking",
+      "voluntary involuntary"
+     ]
+    },
+    {
+     "q": "How is the movement of a touch-me-not leaf different from the bending of a shoot towards light?",
+     "keywords": [
+      "touch me not vs phototropism",
+      "plant movements difference"
+     ]
+    },
+    {
+     "q": "Why is iodised salt recommended?",
+     "keywords": [
+      "iodised salt",
+      "goitre",
+      "iodine thyroxin"
+     ]
+    },
+    {
+     "q": "What is the difference between nervous and hormonal control?",
+     "keywords": [
+      "nervous vs hormonal",
+      "nervous system vs endocrine"
+     ]
+    },
+    {
+     "q": "How does auxin make a shoot bend towards light?",
+     "keywords": [
+      "auxin phototropism",
+      "how shoot bends"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c10-sci-electricity",
+   "class": 10,
+   "subject": "science",
+   "name": "Electricity",
+   "aliases": [
+    "electricity"
+   ],
+   "file": "class-10/science/electricity.json",
+   "topics": [
+    {
+     "id": "current",
+     "title": "Electric current and circuits",
+     "keywords": [
+      "electric current",
+      "current",
+      "i = q/t",
+      "ampere",
+      "coulomb",
+      "charge",
+      "electron charge",
+      "ammeter",
+      "electric circuit",
+      "circuit diagram",
+      "circuit symbols",
+      "conventional current",
+      "chapter 11",
+      "electricity chapter"
+     ]
+    },
+    {
+     "id": "potential-difference",
+     "title": "Electric potential and potential difference",
+     "keywords": [
+      "potential difference",
+      "voltage",
+      "electric potential",
+      "v = w/q",
+      "volt",
+      "voltmeter",
+      "work done",
+      "cell",
+      "battery",
+      "1 volt definition"
+     ]
+    },
+    {
+     "id": "ohms-law-resistance",
+     "title": "Ohm's law, resistance and resistivity",
+     "keywords": [
+      "ohm's law",
+      "ohms law",
+      "v = ir",
+      "resistance",
+      "ohm",
+      "resistivity",
+      "r = ρl/a",
+      "rho",
+      "factors affecting resistance",
+      "length",
+      "area of cross section",
+      "nichrome",
+      "alloy",
+      "tungsten",
+      "rheostat",
+      "v-i graph",
+      "conductors insulators"
+     ]
+    },
+    {
+     "id": "series-parallel",
+     "title": "Resistors in series and parallel",
+     "keywords": [
+      "series",
+      "parallel",
+      "series combination",
+      "parallel combination",
+      "resistors in series",
+      "resistors in parallel",
+      "equivalent resistance",
+      "1/r",
+      "household wiring parallel",
+      "why parallel",
+      "series and parallel numericals",
+      "combination of resistors"
+     ]
+    },
+    {
+     "id": "heating-effect",
+     "title": "Heating effect of electric current",
+     "keywords": [
+      "heating effect",
+      "heating effect of current",
+      "joule's law",
+      "joules law of heating",
+      "h = i²rt",
+      "electric heater",
+      "electric iron",
+      "bulb filament",
+      "tungsten",
+      "fuse",
+      "fuse wire",
+      "fuse rating",
+      "nichrome",
+      "heat produced"
+     ]
+    },
+    {
+     "id": "electric-power",
+     "title": "Electric power and energy",
+     "keywords": [
+      "electric power",
+      "power",
+      "p = vi",
+      "p = i²r",
+      "p = v²/r",
+      "watt",
+      "kilowatt",
+      "kilowatt hour",
+      "kwh",
+      "unit of electricity",
+      "electricity bill",
+      "3.6 × 10⁶ j",
+      "power rating",
+      "electrical energy",
+      "cost of electricity"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "What is the difference between resistance and resistivity?",
+     "keywords": [
+      "resistance vs resistivity",
+      "difference resistance resistivity"
+     ]
+    },
+    {
+     "q": "Why are household appliances connected in parallel?",
+     "keywords": [
+      "why parallel",
+      "household circuit parallel",
+      "series vs parallel home"
+     ]
+    },
+    {
+     "q": "Why is nichrome used in heaters instead of copper?",
+     "keywords": [
+      "nichrome heater",
+      "why nichrome",
+      "heating element"
+     ]
+    },
+    {
+     "q": "Why is a fuse connected in series?",
+     "keywords": [
+      "fuse series",
+      "fuse working",
+      "why fuse"
+     ]
+    },
+    {
+     "q": "What does '1 unit' of electricity mean on the bill?",
+     "keywords": [
+      "unit of electricity",
+      "kwh meaning",
+      "electricity bill unit"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c10-sci-heredity",
+   "class": 10,
+   "subject": "science",
+   "name": "Heredity",
+   "aliases": [
+    "heredity",
+    "heredity and evolution"
+   ],
+   "file": "class-10/science/heredity.json",
+   "topics": [
+    {
+     "id": "variation",
+     "title": "Accumulation of variation during reproduction",
+     "keywords": [
+      "variation",
+      "variations",
+      "accumulation of variation",
+      "diversity",
+      "dna copying",
+      "asexual reproduction variation",
+      "sexual reproduction variation",
+      "survival",
+      "heat resistant bacteria",
+      "chapter 8",
+      "heredity and evolution"
+     ]
+    },
+    {
+     "id": "inherited-traits",
+     "title": "Heredity and inherited traits",
+     "keywords": [
+      "heredity",
+      "inheritance",
+      "inherited traits",
+      "traits",
+      "characteristics",
+      "earlobe",
+      "free earlobe",
+      "attached earlobe",
+      "genetic material",
+      "parents",
+      "offspring"
+     ]
+    },
+    {
+     "id": "mendel",
+     "title": "Mendel's experiments: rules for inheritance",
+     "keywords": [
+      "mendel",
+      "gregor mendel",
+      "mendel experiment",
+      "pea plant",
+      "monohybrid cross",
+      "3:1 ratio",
+      "1:2:1",
+      "dominant",
+      "recessive",
+      "f1 generation",
+      "f2 generation",
+      "genotype",
+      "phenotype",
+      "tall and short",
+      "rules for inheritance"
+     ]
+    },
+    {
+     "id": "dihybrid",
+     "title": "Two traits at once: independent inheritance",
+     "keywords": [
+      "dihybrid cross",
+      "9:3:3:1",
+      "independent inheritance",
+      "independent assortment",
+      "two traits",
+      "round and wrinkled seeds",
+      "tall round",
+      "new combinations",
+      "mendel dihybrid"
+     ]
+    },
+    {
+     "id": "expression",
+     "title": "How traits are expressed: genes, proteins and chromosomes",
+     "keywords": [
+      "gene",
+      "genes",
+      "dna",
+      "protein",
+      "enzyme",
+      "growth hormone",
+      "trait expression",
+      "how traits are expressed",
+      "chromosome",
+      "chromosomes",
+      "germ cells",
+      "gametes",
+      "chromosome number",
+      "allele"
+     ]
+    },
+    {
+     "id": "sex-determination",
+     "title": "Sex determination",
+     "keywords": [
+      "sex determination",
+      "x chromosome",
+      "y chromosome",
+      "xx",
+      "xy",
+      "sex chromosomes",
+      "autosomes",
+      "boy or girl",
+      "who decides sex of child",
+      "father decides",
+      "temperature reptiles",
+      "snails change sex",
+      "23 pairs"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "What is the difference between dominant and recessive traits?",
+     "keywords": [
+      "dominant vs recessive",
+      "difference dominant recessive",
+      "dominant",
+      "recessive"
+     ]
+    },
+    {
+     "q": "Why did the short trait disappear in F1 and come back in F2?",
+     "keywords": [
+      "short trait reappear",
+      "f1 f2",
+      "hidden trait"
+     ]
+    },
+    {
+     "q": "Who decides whether a baby is a boy or a girl?",
+     "keywords": [
+      "sex of child",
+      "who decides gender",
+      "boy or girl",
+      "father mother sex determination"
+     ]
+    },
+    {
+     "q": "What is the difference between genotype and phenotype?",
+     "keywords": [
+      "genotype vs phenotype",
+      "genotype",
+      "phenotype"
+     ]
+    },
+    {
+     "q": "Why does sexual reproduction produce more variation than asexual reproduction?",
+     "keywords": [
+      "variation sexual asexual",
+      "why more variation"
+     ]
+    },
+    {
+     "q": "Is evolution still in this chapter?",
+     "keywords": [
+      "evolution deleted",
+      "heredity and evolution syllabus",
+      "rationalised",
+      "speciation fossils"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c10-sci-reproduce",
+   "class": 10,
+   "subject": "science",
+   "name": "How do Organisms Reproduce?",
+   "aliases": [
+    "how do organisms reproduce",
+    "reproduction",
+    "organisms reproduce",
+    "reproduction class 10"
+   ],
+   "file": "class-10/science/how-do-organisms-reproduce.json",
+   "topics": [
+    {
+     "id": "dna-variation",
+     "title": "Do organisms create exact copies of themselves?",
+     "keywords": [
+      "DNA",
+      "DNA copying",
+      "variation",
+      "variations",
+      "importance of variation",
+      "niche",
+      "evolution",
+      "chromosomes",
+      "reproduction",
+      "exact copies",
+      "chapter 7",
+      "chapter 8",
+      "how do organisms reproduce"
+     ]
+    },
+    {
+     "id": "asexual-modes",
+     "title": "Modes of asexual reproduction",
+     "keywords": [
+      "asexual reproduction",
+      "modes of reproduction",
+      "fission",
+      "binary fission",
+      "multiple fission",
+      "amoeba",
+      "plasmodium",
+      "leishmania",
+      "fragmentation",
+      "spirogyra",
+      "regeneration",
+      "planaria",
+      "budding",
+      "hydra",
+      "yeast",
+      "spore formation",
+      "rhizopus",
+      "bread mould",
+      "sporangia"
+     ]
+    },
+    {
+     "id": "vegetative-propagation",
+     "title": "Vegetative propagation",
+     "keywords": [
+      "vegetative propagation",
+      "bryophyllum",
+      "potato eyes",
+      "money plant",
+      "layering",
+      "cutting",
+      "grafting",
+      "sugarcane",
+      "banana",
+      "jasmine",
+      "advantages of vegetative propagation",
+      "artificial vegetative propagation"
+     ]
+    },
+    {
+     "id": "flowering-plants",
+     "title": "Sexual reproduction in flowering plants",
+     "keywords": [
+      "sexual reproduction in plants",
+      "flower",
+      "parts of a flower",
+      "stamen",
+      "anther",
+      "pistil",
+      "carpel",
+      "stigma",
+      "style",
+      "ovary",
+      "ovule",
+      "unisexual",
+      "bisexual",
+      "pollination",
+      "self pollination",
+      "cross pollination",
+      "pollen tube",
+      "fertilisation",
+      "fertilization",
+      "zygote",
+      "seed",
+      "fruit",
+      "germination"
+     ]
+    },
+    {
+     "id": "human-reproduction",
+     "title": "Reproduction in human beings",
+     "keywords": [
+      "human reproduction",
+      "reproduction in human beings",
+      "puberty",
+      "adolescence",
+      "male reproductive system",
+      "testes",
+      "scrotum",
+      "sperm",
+      "testosterone",
+      "vas deferens",
+      "prostate gland",
+      "seminal vesicles",
+      "female reproductive system",
+      "ovary",
+      "egg",
+      "oviduct",
+      "fallopian tube",
+      "uterus",
+      "cervix",
+      "vagina",
+      "fertilisation in humans",
+      "placenta",
+      "implantation",
+      "menstruation"
+     ]
+    },
+    {
+     "id": "reproductive-health",
+     "title": "Reproductive health",
+     "keywords": [
+      "reproductive health",
+      "sexually transmitted diseases",
+      "STD",
+      "STI",
+      "gonorrhoea",
+      "syphilis",
+      "HIV",
+      "AIDS",
+      "warts",
+      "contraception",
+      "contraceptive methods",
+      "condom",
+      "oral pills",
+      "copper-T",
+      "vasectomy",
+      "tubectomy",
+      "female foeticide",
+      "sex ratio",
+      "prenatal sex determination",
+      "population control"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "What is the difference between asexual and sexual reproduction?",
+     "keywords": [
+      "asexual vs sexual",
+      "difference asexual sexual reproduction"
+     ]
+    },
+    {
+     "q": "What is the difference between pollination and fertilisation?",
+     "keywords": [
+      "pollination vs fertilisation",
+      "difference pollination fertilization"
+     ]
+    },
+    {
+     "q": "Why is variation important for a species?",
+     "keywords": [
+      "importance of variation",
+      "why variation useful"
+     ]
+    },
+    {
+     "q": "Why are the testes located outside the abdominal cavity?",
+     "keywords": [
+      "testes scrotum",
+      "why testes outside"
+     ]
+    },
+    {
+     "q": "What happens when the egg is not fertilised?",
+     "keywords": [
+      "menstruation",
+      "egg not fertilised",
+      "menstrual cycle"
+     ]
+    },
+    {
+     "q": "Why is vegetative propagation useful?",
+     "keywords": [
+      "advantages vegetative propagation",
+      "why vegetative propagation"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c10-sci-life-processes",
+   "class": 10,
+   "subject": "science",
+   "name": "Life Processes",
+   "aliases": [
+    "life processes",
+    "life process"
+   ],
+   "file": "class-10/science/life-processes.json",
+   "topics": [
+    {
+     "id": "autotrophic-nutrition",
+     "title": "What are life processes? Autotrophic nutrition",
+     "keywords": [
+      "life processes",
+      "nutrition",
+      "autotrophic nutrition",
+      "heterotrophic nutrition",
+      "photosynthesis",
+      "chlorophyll",
+      "chloroplast",
+      "stomata",
+      "guard cells",
+      "starch test",
+      "variegated leaf",
+      "raw materials photosynthesis",
+      "chapter 5",
+      "chapter 6"
+     ]
+    },
+    {
+     "id": "heterotrophic-nutrition",
+     "title": "Heterotrophic nutrition and human digestion",
+     "keywords": [
+      "heterotrophic nutrition",
+      "human digestive system",
+      "digestion",
+      "alimentary canal",
+      "saliva",
+      "salivary amylase",
+      "peristalsis",
+      "stomach",
+      "gastric glands",
+      "pepsin",
+      "bile",
+      "liver",
+      "pancreas",
+      "trypsin",
+      "lipase",
+      "small intestine",
+      "villi",
+      "amoeba nutrition",
+      "parasite",
+      "saprophyte"
+     ]
+    },
+    {
+     "id": "respiration",
+     "title": "Respiration",
+     "keywords": [
+      "respiration",
+      "aerobic respiration",
+      "anaerobic respiration",
+      "fermentation",
+      "pyruvate",
+      "lactic acid",
+      "muscle cramps",
+      "mitochondria",
+      "ATP",
+      "energy currency",
+      "breathing",
+      "human respiratory system",
+      "lungs",
+      "alveoli",
+      "trachea",
+      "diaphragm",
+      "haemoglobin",
+      "gills",
+      "residual volume"
+     ]
+    },
+    {
+     "id": "transport-humans",
+     "title": "Transportation in human beings",
+     "keywords": [
+      "circulatory system",
+      "transportation in humans",
+      "blood",
+      "plasma",
+      "heart",
+      "four chambered heart",
+      "atrium",
+      "ventricle",
+      "double circulation",
+      "arteries",
+      "veins",
+      "capillaries",
+      "valves",
+      "blood pressure",
+      "sphygmomanometer",
+      "platelets",
+      "lymph",
+      "lymphatic system"
+     ]
+    },
+    {
+     "id": "transport-plants",
+     "title": "Transportation in plants",
+     "keywords": [
+      "transportation in plants",
+      "xylem",
+      "phloem",
+      "transpiration",
+      "transpiration pull",
+      "root pressure",
+      "translocation",
+      "sieve tubes",
+      "companion cells",
+      "vessels",
+      "tracheids",
+      "ascent of sap",
+      "water transport plants"
+     ]
+    },
+    {
+     "id": "excretion",
+     "title": "Excretion",
+     "keywords": [
+      "excretion",
+      "excretory system",
+      "kidney",
+      "kidneys",
+      "nephron",
+      "glomerulus",
+      "bowman's capsule",
+      "urine formation",
+      "ureter",
+      "urinary bladder",
+      "urethra",
+      "reabsorption",
+      "urea",
+      "dialysis",
+      "haemodialysis",
+      "artificial kidney",
+      "excretion in plants",
+      "resins and gums"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "What is the difference between aerobic and anaerobic respiration?",
+     "keywords": [
+      "aerobic vs anaerobic",
+      "difference aerobic anaerobic respiration"
+     ]
+    },
+    {
+     "q": "Why is double circulation important in humans?",
+     "keywords": [
+      "double circulation",
+      "why four chambered heart",
+      "separation of blood"
+     ]
+    },
+    {
+     "q": "What is the difference between arteries and veins?",
+     "keywords": [
+      "arteries vs veins",
+      "difference artery vein"
+     ]
+    },
+    {
+     "q": "What is the difference between transport in xylem and phloem?",
+     "keywords": [
+      "xylem vs phloem",
+      "difference xylem phloem"
+     ]
+    },
+    {
+     "q": "Why do we get muscle cramps after heavy exercise?",
+     "keywords": [
+      "muscle cramps",
+      "lactic acid",
+      "exercise cramps"
+     ]
+    },
+    {
+     "q": "How is the amount of urine produced regulated?",
+     "keywords": [
+      "urine regulation",
+      "amount of urine",
+      "reabsorption"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c10-sci-light",
+   "class": 10,
+   "subject": "science",
+   "name": "Light – Reflection and Refraction",
+   "aliases": [
+    "light reflection and refraction",
+    "reflection and refraction"
+   ],
+   "file": "class-10/science/light-reflection-and-refraction.json",
+   "topics": [
+    {
+     "id": "spherical-mirrors",
+     "title": "Reflection and spherical mirrors",
+     "keywords": [
+      "reflection",
+      "laws of reflection",
+      "spherical mirror",
+      "concave mirror",
+      "convex mirror",
+      "pole",
+      "centre of curvature",
+      "radius of curvature",
+      "principal focus",
+      "focal length",
+      "principal axis",
+      "aperture",
+      "r = 2f",
+      "plane mirror",
+      "chapter 9",
+      "light chapter"
+     ]
+    },
+    {
+     "id": "mirror-images",
+     "title": "Image formation by spherical mirrors and their uses",
+     "keywords": [
+      "image formation",
+      "ray diagram",
+      "concave mirror image",
+      "convex mirror image",
+      "real image",
+      "virtual image",
+      "erect",
+      "inverted",
+      "enlarged",
+      "diminished",
+      "uses of concave mirror",
+      "uses of convex mirror",
+      "rear view mirror",
+      "shaving mirror",
+      "headlight"
+     ]
+    },
+    {
+     "id": "mirror-formula",
+     "title": "Sign convention, mirror formula and magnification",
+     "keywords": [
+      "mirror formula",
+      "sign convention",
+      "new cartesian sign convention",
+      "magnification",
+      "mirror numericals",
+      "1/v + 1/u = 1/f",
+      "m = -v/u",
+      "object distance",
+      "image distance",
+      "negative focal length",
+      "mirror equation"
+     ]
+    },
+    {
+     "id": "refraction",
+     "title": "Refraction and refractive index",
+     "keywords": [
+      "refraction",
+      "refraction of light",
+      "laws of refraction",
+      "snell's law",
+      "refractive index",
+      "absolute refractive index",
+      "relative refractive index",
+      "optically denser",
+      "rarer medium",
+      "glass slab",
+      "lateral displacement",
+      "speed of light",
+      "bent pencil",
+      "n = c/v",
+      "optical density"
+     ]
+    },
+    {
+     "id": "lenses",
+     "title": "Spherical lenses and image formation",
+     "keywords": [
+      "lens",
+      "lenses",
+      "convex lens",
+      "concave lens",
+      "converging lens",
+      "diverging lens",
+      "optical centre",
+      "principal focus lens",
+      "2f",
+      "image formation by lens",
+      "ray diagram lens",
+      "magnifying glass",
+      "spherical lenses"
+     ]
+    },
+    {
+     "id": "lens-formula-power",
+     "title": "Lens formula, magnification and power",
+     "keywords": [
+      "lens formula",
+      "1/v - 1/u = 1/f",
+      "lens magnification",
+      "m = v/u",
+      "power of lens",
+      "dioptre",
+      "diopter",
+      "p = 1/f",
+      "lens numericals",
+      "negative power",
+      "positive power",
+      "lenses in contact",
+      "focal length in metres"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "Why is a convex mirror used as a rear-view mirror?",
+     "keywords": [
+      "rear view mirror",
+      "convex mirror use",
+      "why convex mirror vehicles"
+     ]
+    },
+    {
+     "q": "What is the difference between a real and a virtual image?",
+     "keywords": [
+      "real vs virtual image",
+      "difference real virtual"
+     ]
+    },
+    {
+     "q": "How do I remember the signs of focal length?",
+     "keywords": [
+      "sign of focal length",
+      "sign convention trick",
+      "negative focal length"
+     ]
+    },
+    {
+     "q": "What does a refractive index of 1.5 for glass mean?",
+     "keywords": [
+      "refractive index meaning",
+      "refractive index 1.5"
+     ]
+    },
+    {
+     "q": "Why does a pencil look bent in a glass of water?",
+     "keywords": [
+      "pencil bent in water",
+      "refraction example",
+      "pool looks shallow"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c10-sci-magnetic",
+   "class": 10,
+   "subject": "science",
+   "name": "Magnetic Effects of Electric Current",
+   "aliases": [
+    "magnetic effects of electric current",
+    "magnetic effects",
+    "magnetic effect of current"
+   ],
+   "file": "class-10/science/magnetic-effects-of-electric-current.json",
+   "topics": [
+    {
+     "id": "field-lines",
+     "title": "Magnetic field and field lines",
+     "keywords": [
+      "magnetic field",
+      "magnetic field lines",
+      "field lines",
+      "properties of field lines",
+      "iron filings",
+      "compass",
+      "compass needle",
+      "north pole",
+      "south pole",
+      "bar magnet",
+      "why field lines don't intersect",
+      "chapter 12",
+      "magnetic effects"
+     ]
+    },
+    {
+     "id": "straight-conductor",
+     "title": "Field due to a current-carrying straight conductor",
+     "keywords": [
+      "straight conductor",
+      "straight wire magnetic field",
+      "oersted",
+      "oersted experiment",
+      "concentric circles",
+      "right hand thumb rule",
+      "maxwell's corkscrew rule",
+      "direction of magnetic field",
+      "current carrying wire",
+      "compass deflection"
+     ]
+    },
+    {
+     "id": "loop-solenoid",
+     "title": "Field due to a circular loop and a solenoid; electromagnets",
+     "keywords": [
+      "circular loop",
+      "circular coil",
+      "magnetic field of loop",
+      "solenoid",
+      "magnetic field inside solenoid",
+      "uniform field",
+      "electromagnet",
+      "soft iron core",
+      "number of turns",
+      "bar magnet solenoid",
+      "permanent magnet vs electromagnet"
+     ]
+    },
+    {
+     "id": "force-on-conductor",
+     "title": "Force on a current-carrying conductor; Fleming's left-hand rule",
+     "keywords": [
+      "force on current carrying conductor",
+      "fleming's left hand rule",
+      "flemings left hand rule",
+      "left hand rule",
+      "ampere",
+      "aluminium rod experiment",
+      "horseshoe magnet",
+      "direction of force",
+      "perpendicular",
+      "loudspeaker",
+      "mri",
+      "magnetism in medicine",
+      "charged particles in magnetic field"
+     ]
+    },
+    {
+     "id": "domestic-circuits",
+     "title": "Domestic electric circuits",
+     "keywords": [
+      "domestic electric circuits",
+      "household circuit",
+      "live wire",
+      "neutral wire",
+      "earth wire",
+      "earthing",
+      "red black green wire",
+      "220 v",
+      "fuse",
+      "short circuit",
+      "overloading",
+      "15 a circuit",
+      "5 a circuit",
+      "electricity meter",
+      "main switch",
+      "electric shock"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "Why don't two magnetic field lines ever cross?",
+     "keywords": [
+      "field lines intersect",
+      "why field lines don't cross"
+     ]
+    },
+    {
+     "q": "What is the difference between the right-hand thumb rule and Fleming's left-hand rule?",
+     "keywords": [
+      "right hand vs left hand rule",
+      "difference thumb rule fleming"
+     ]
+    },
+    {
+     "q": "How is an electromagnet different from a permanent magnet?",
+     "keywords": [
+      "electromagnet vs permanent magnet",
+      "electromagnet difference"
+     ]
+    },
+    {
+     "q": "Why is earthing important for metal appliances?",
+     "keywords": [
+      "earthing",
+      "earth wire importance",
+      "electric shock safety"
+     ]
+    },
+    {
+     "q": "Are the electric motor and generator still in this chapter?",
+     "keywords": [
+      "electric motor deleted",
+      "generator deleted",
+      "electromagnetic induction deleted",
+      "rationalised syllabus"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c10-sci-metals",
+   "class": 10,
+   "subject": "science",
+   "name": "Metals and Non-metals",
+   "aliases": [
+    "metals and non metals",
+    "metals",
+    "non metals",
+    "metals and nonmetals"
+   ],
+   "file": "class-10/science/metals-and-non-metals.json",
+   "topics": [
+    {
+     "id": "physical-properties",
+     "title": "Physical properties of metals and non-metals",
+     "keywords": [
+      "physical properties of metals",
+      "physical properties of non-metals",
+      "malleable",
+      "malleability",
+      "ductile",
+      "ductility",
+      "lustre",
+      "sonorous",
+      "conductor",
+      "mercury liquid metal",
+      "bromine liquid non-metal",
+      "iodine lustrous",
+      "graphite conducts",
+      "diamond hardest",
+      "gallium",
+      "chapter 3",
+      "metals and non metals"
+     ]
+    },
+    {
+     "id": "chemical-properties",
+     "title": "Chemical properties of metals",
+     "keywords": [
+      "chemical properties of metals",
+      "metal and oxygen",
+      "metal oxide",
+      "amphoteric oxide",
+      "aluminium oxide",
+      "sodium kerosene",
+      "metal and water",
+      "reaction with steam",
+      "calcium floats",
+      "metal and acid",
+      "nitric acid hydrogen",
+      "aqua regia",
+      "anodising"
+     ]
+    },
+    {
+     "id": "reactivity-series",
+     "title": "Reactivity series and displacement",
+     "keywords": [
+      "reactivity series",
+      "activity series",
+      "displacement reaction",
+      "more reactive",
+      "less reactive",
+      "copper silver nitrate",
+      "iron copper sulphate",
+      "metals above hydrogen",
+      "noble metals"
+     ]
+    },
+    {
+     "id": "ionic-compounds",
+     "title": "How metals and non-metals react: ionic compounds",
+     "keywords": [
+      "ionic compound",
+      "ionic bond",
+      "electrovalent",
+      "electron transfer",
+      "cation",
+      "anion",
+      "noble gas configuration",
+      "octet",
+      "sodium chloride formation",
+      "magnesium chloride",
+      "electron dot structure",
+      "properties of ionic compounds",
+      "melting point ionic"
+     ]
+    },
+    {
+     "id": "extraction",
+     "title": "Occurrence and extraction of metals",
+     "keywords": [
+      "extraction of metals",
+      "occurrence of metals",
+      "ore",
+      "mineral",
+      "gangue",
+      "enrichment of ores",
+      "roasting",
+      "calcination",
+      "reduction",
+      "thermit reaction",
+      "electrolytic reduction",
+      "electrolytic refining",
+      "anode mud",
+      "metallurgy",
+      "cinnabar"
+     ]
+    },
+    {
+     "id": "corrosion",
+     "title": "Corrosion and its prevention; alloys",
+     "keywords": [
+      "corrosion",
+      "rusting",
+      "rust",
+      "prevention of corrosion",
+      "galvanisation",
+      "galvanising",
+      "chrome plating",
+      "alloy",
+      "alloys",
+      "steel",
+      "stainless steel",
+      "brass",
+      "bronze",
+      "solder",
+      "amalgam",
+      "22 carat gold",
+      "silver tarnish",
+      "copper green"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "Why is sodium kept under kerosene oil?",
+     "keywords": [
+      "sodium kerosene",
+      "why sodium stored in kerosene"
+     ]
+    },
+    {
+     "q": "What is the difference between roasting and calcination?",
+     "keywords": [
+      "roasting vs calcination",
+      "difference roasting calcination"
+     ]
+    },
+    {
+     "q": "Why don't ionic compounds conduct electricity in the solid state?",
+     "keywords": [
+      "ionic compound conduct",
+      "solid state conduction"
+     ]
+    },
+    {
+     "q": "Why is hydrogen gas not evolved when metals react with nitric acid?",
+     "keywords": [
+      "nitric acid hydrogen",
+      "HNO3 metals"
+     ]
+    },
+    {
+     "q": "Why is pure gold not used to make jewellery?",
+     "keywords": [
+      "24 carat",
+      "22 carat",
+      "gold jewellery alloy"
+     ]
+    },
+    {
+     "q": "Why can't carbon be used to extract sodium or aluminium?",
+     "keywords": [
+      "electrolytic reduction",
+      "why not carbon reduction",
+      "sodium extraction"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c10-sci-environment",
+   "class": 10,
+   "subject": "science",
+   "name": "Our Environment",
+   "aliases": [
+    "our environment"
+   ],
+   "file": "class-10/science/our-environment.json",
+   "topics": [
+    {
+     "id": "ecosystem",
+     "title": "Ecosystem and its components",
+     "keywords": [
+      "ecosystem",
+      "components of ecosystem",
+      "biotic",
+      "abiotic",
+      "biotic and abiotic",
+      "natural ecosystem",
+      "artificial ecosystem",
+      "aquarium",
+      "garden ecosystem",
+      "producers",
+      "consumers",
+      "decomposers",
+      "herbivores",
+      "carnivores",
+      "omnivores",
+      "chapter 13",
+      "our environment"
+     ]
+    },
+    {
+     "id": "food-chains",
+     "title": "Food chains, food webs and trophic levels",
+     "keywords": [
+      "food chain",
+      "food web",
+      "trophic level",
+      "trophic levels",
+      "producers",
+      "primary consumers",
+      "secondary consumers",
+      "tertiary consumers",
+      "herbivores",
+      "carnivores",
+      "autotrophs",
+      "grass deer tiger",
+      "difference food chain food web"
+     ]
+    },
+    {
+     "id": "energy-flow",
+     "title": "Flow of energy and the 10 percent law",
+     "keywords": [
+      "energy flow",
+      "flow of energy",
+      "10 percent law",
+      "ten percent law",
+      "10% law",
+      "unidirectional",
+      "one way flow of energy",
+      "1% sunlight",
+      "energy lost as heat",
+      "number of trophic levels",
+      "why food chain short",
+      "energy pyramid"
+     ]
+    },
+    {
+     "id": "biomagnification",
+     "title": "Biological magnification",
+     "keywords": [
+      "biological magnification",
+      "biomagnification",
+      "bio magnification",
+      "pesticides",
+      "non biodegradable chemicals",
+      "pesticide residues",
+      "accumulation in food chain",
+      "ddt",
+      "chemicals in food chain",
+      "humans top of food chain"
+     ]
+    },
+    {
+     "id": "ozone",
+     "title": "Ozone layer and its depletion",
+     "keywords": [
+      "ozone",
+      "ozone layer",
+      "ozone depletion",
+      "o3",
+      "ultraviolet radiation",
+      "uv rays",
+      "cfc",
+      "cfcs",
+      "chlorofluorocarbons",
+      "refrigerants",
+      "unep",
+      "1987",
+      "skin cancer",
+      "ozone hole",
+      "formation of ozone"
+     ]
+    },
+    {
+     "id": "waste-management",
+     "title": "Managing the garbage we produce",
+     "keywords": [
+      "waste management",
+      "garbage",
+      "garbage disposal",
+      "biodegradable",
+      "non biodegradable",
+      "non-biodegradable",
+      "plastic",
+      "plastic waste",
+      "composting",
+      "recycling",
+      "segregation",
+      "kulhad",
+      "disposable cups",
+      "landfill",
+      "difference biodegradable non biodegradable"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "Why is the flow of energy in an ecosystem called unidirectional?",
+     "keywords": [
+      "unidirectional energy flow",
+      "one way energy",
+      "why energy flow unidirectional"
+     ]
+    },
+    {
+     "q": "Why are food chains usually only 3 or 4 steps long?",
+     "keywords": [
+      "why food chain short",
+      "food chain length",
+      "10 percent law"
+     ]
+    },
+    {
+     "q": "What is the difference between biodegradable and non-biodegradable substances?",
+     "keywords": [
+      "biodegradable vs non biodegradable",
+      "difference biodegradable"
+     ]
+    },
+    {
+     "q": "Why do humans have the highest concentration of pesticides?",
+     "keywords": [
+      "pesticides humans",
+      "biological magnification humans",
+      "why humans most affected"
+     ]
+    },
+    {
+     "q": "Why are decomposers important?",
+     "keywords": [
+      "decomposers importance",
+      "role of decomposers",
+      "why decomposers"
+     ]
+    },
+    {
+     "q": "What happens if the ozone layer gets thinner?",
+     "keywords": [
+      "ozone depletion effects",
+      "thin ozone layer",
+      "uv effects"
+     ]
+    }
+   ],
+   "quizCount": 12
+  },
+  {
+   "id": "c10-sci-eye",
+   "class": 10,
+   "subject": "science",
+   "name": "The Human Eye and the Colourful World",
+   "aliases": [
+    "the human eye and the colourful world",
+    "human eye",
+    "colourful world",
+    "human eye and colourful world"
+   ],
+   "file": "class-10/science/the-human-eye-and-the-colourful-world.json",
+   "topics": [
+    {
+     "id": "eye-structure",
+     "title": "Structure of the human eye",
+     "keywords": [
+      "human eye",
+      "structure of eye",
+      "parts of eye",
+      "cornea",
+      "iris",
+      "pupil",
+      "eye lens",
+      "crystalline lens",
+      "ciliary muscles",
+      "retina",
+      "optic nerve",
+      "real inverted image",
+      "chapter 10",
+      "human eye chapter"
+     ]
+    },
+    {
+     "id": "accommodation",
+     "title": "Power of accommodation, near point and far point",
+     "keywords": [
+      "power of accommodation",
+      "accommodation",
+      "near point",
+      "far point",
+      "least distance of distinct vision",
+      "25 cm",
+      "ciliary muscles relax contract",
+      "focal length of eye lens",
+      "cataract",
+      "range of vision"
+     ]
+    },
+    {
+     "id": "defects",
+     "title": "Defects of vision and their correction",
+     "keywords": [
+      "defects of vision",
+      "myopia",
+      "near sightedness",
+      "short sightedness",
+      "hypermetropia",
+      "far sightedness",
+      "long sightedness",
+      "presbyopia",
+      "bifocal lens",
+      "concave lens correction",
+      "convex lens correction",
+      "spectacles",
+      "eye defects numerical",
+      "far point",
+      "near point"
+     ]
+    },
+    {
+     "id": "prism-dispersion",
+     "title": "Refraction through a prism, dispersion and the rainbow",
+     "keywords": [
+      "prism",
+      "glass prism",
+      "refraction through prism",
+      "angle of prism",
+      "angle of deviation",
+      "dispersion",
+      "dispersion of white light",
+      "spectrum",
+      "vibgyor",
+      "seven colours",
+      "newton prism",
+      "recombination",
+      "rainbow",
+      "rainbow formation",
+      "water droplets"
+     ]
+    },
+    {
+     "id": "atmospheric-refraction",
+     "title": "Atmospheric refraction",
+     "keywords": [
+      "atmospheric refraction",
+      "twinkling of stars",
+      "why stars twinkle",
+      "planets do not twinkle",
+      "apparent position of star",
+      "advance sunrise",
+      "delayed sunset",
+      "early sunrise",
+      "2 minutes",
+      "flickering hot air",
+      "point source",
+      "extended source"
+     ]
+    },
+    {
+     "id": "scattering",
+     "title": "Scattering of light: Tyndall effect and the blue sky",
+     "keywords": [
+      "scattering of light",
+      "scattering",
+      "tyndall effect",
+      "why sky is blue",
+      "blue sky",
+      "colour of sky",
+      "sky dark for astronauts",
+      "dense forest sunlight",
+      "smoke room beam",
+      "wavelength",
+      "clouds white",
+      "colloid"
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "What is the difference between myopia and hypermetropia?",
+     "keywords": [
+      "myopia vs hypermetropia",
+      "difference myopia hypermetropia",
+      "short sighted long sighted"
+     ]
+    },
+    {
+     "q": "Why do stars twinkle but planets don't?",
+     "keywords": [
+      "stars twinkle",
+      "planets twinkle",
+      "twinkling"
+     ]
+    },
+    {
+     "q": "Why does the sky look dark to astronauts?",
+     "keywords": [
+      "sky dark astronaut",
+      "sky dark space",
+      "no atmosphere"
+     ]
+    },
+    {
+     "q": "Why does white light split into colours in a prism?",
+     "keywords": [
+      "why dispersion",
+      "prism colours",
+      "white light splits"
+     ]
+    },
+    {
+     "q": "Why can we see the Sun before it actually rises?",
+     "keywords": [
+      "advance sunrise",
+      "delayed sunset",
+      "sun before sunrise"
+     ]
+    }
+   ],
+   "quizCount": 12
   },
   {
    "id": "c9-math-circles",
