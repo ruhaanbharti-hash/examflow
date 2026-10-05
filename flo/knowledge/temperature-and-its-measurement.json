@@ -1,0 +1,327 @@
+{
+  "id": "c6-sci-temperature",
+  "class": 6,
+  "subject": "science",
+  "name": "Temperature and its Measurement",
+  "summary": "Touch cannot tell us exactly how hot or cold something is, so we measure temperature with a thermometer. This chapter covers what temperature is, the Celsius scale, clinical and digital thermometers for body temperature, laboratory thermometers for other things, how to read a thermometer correctly and safely, and how air temperature is measured for weather reports.",
+  "topics": [
+    {
+      "id": "hot-or-cold",
+      "title": "Hot or cold? Why touch can fool us",
+      "summary": "Our sense of touch can tell hot from cold roughly, but it is not reliable for knowing exactly how hot something is.",
+      "simple": "We can feel that a cup of tea is hot and an ice cube is cold. But our hands can be fooled. If one hand has been in cold water and the other in warm water, the same lukewarm water feels warm to one hand and cool to the other! So we need a tool to tell us exactly how hot or cold something is.",
+      "explain": "In daily life we use words like **hot**, **warm**, **cool** and **cold**. Water from a tap feels warm on a summer afternoon, while water from the fridge feels cold. Some things are clearly hotter than others.\n\nBut **touch is not reliable**. Try this activity:\n1. Take three bowls: one with cold water, one with lukewarm (slightly warm) water, and one with warm water that is comfortable to touch (never hot!).\n2. Dip your left hand in the cold water and your right hand in the warm water for a minute.\n3. Now put both hands in the lukewarm water.\n\nThe left hand feels the lukewarm water as **warm**, while the right hand feels it as **cool**. The water is the same, but your hands disagree!\n\nTouch also has other problems:\n- We cannot touch very hot things (like boiling water or a hot iron) without getting hurt.\n- Touch cannot give a number, so we cannot compare exactly.\n- When a mother touches a child's forehead to check for fever, she can only guess. A doctor needs an exact value.\n\nThat is why we need a **reliable measure** of hotness or coldness. This measure is called **temperature**, and the instrument used to measure it is a **thermometer**.",
+      "example": "In winter, a steel chair and a wooden chair in the same room are at the same temperature, but the steel one feels much colder to touch. Our skin is not a good judge of temperature!",
+      "keyPoints": [
+        "Touch can only roughly tell hot from cold",
+        "The same water can feel warm to one hand and cool to the other",
+        "We cannot safely touch very hot objects",
+        "Touch gives no exact number to compare",
+        "We need a thermometer for a reliable measurement"
+      ],
+      "keywords": [
+        "hot or cold",
+        "hot and cold",
+        "sense of touch",
+        "touch not reliable",
+        "three bowls activity",
+        "lukewarm water",
+        "feel temperature",
+        "hotness",
+        "coldness",
+        "fever by touch"
+      ]
+    },
+    {
+      "id": "temperature-and-scales",
+      "title": "Temperature and the Celsius scale",
+      "summary": "Temperature is a reliable measure of how hot or cold something is; in India we usually measure it in degrees Celsius (°C).",
+      "simple": "**Temperature** tells us how hot or cold something is, as a number. A higher temperature means hotter. We usually write temperature in **degrees Celsius**, like 37 °C. Ice melts at 0 °C and water boils at 100 °C.",
+      "explain": "**Temperature** is a reliable measure of the hotness or coldness of an object. The hotter an object, the higher its temperature. If object A has a higher temperature than object B, then A is hotter than B.\n\nTemperature is measured with a **thermometer**.\n\n**The Celsius scale**\nThe scale we use most in India is the **Celsius scale**. Its unit is the **degree Celsius**, written as **°C**. So 25 degrees Celsius is written as 25 °C.\n\nTwo useful fixed points on this scale:\n- Ice melts (and pure water freezes) at **0 °C**\n- Pure water boils at **100 °C** (at normal air pressure)\n\nThe gap between 0 °C and 100 °C is divided into 100 equal parts, and each part is 1 degree.\n\n**Other scales**\n- The **Fahrenheit scale** (°F) is still used for body temperature in some places. Normal body temperature is about **98.6 °F**, which is the same as about 37 °C.\n- Scientists use the **kelvin** (K), which is the SI unit of temperature. You will learn more about it in higher classes.\n\n**Temperatures below zero**\nSome places get colder than 0 °C. These temperatures are written with a minus sign, for example −5 °C (read as 'minus five degrees Celsius'). Places like Leh and Dras in Ladakh go far below 0 °C in winter.",
+      "deep": "If you are curious: you can change Celsius into Fahrenheit using F = (9/5 × C) + 32. For example, 37 °C → (9/5 × 37) + 32 = 66.6 + 32 = 98.6 °F. You do not need to memorise this in Class 6.",
+      "example": "A weather report says Delhi was 45 °C in May and 5 °C in January. You can tell straight away that May was much hotter, because 45 is much higher than 5.",
+      "keyPoints": [
+        "Temperature = reliable measure of hotness or coldness",
+        "Higher temperature means hotter",
+        "Measured with a thermometer",
+        "Common unit: degree Celsius (°C)",
+        "Ice melts at 0 °C; water boils at 100 °C",
+        "Normal body temperature ≈ 37 °C ≈ 98.6 °F",
+        "SI unit of temperature is the kelvin (K)"
+      ],
+      "keywords": [
+        "temperature",
+        "what is temperature",
+        "celsius",
+        "degree celsius",
+        "°c",
+        "fahrenheit",
+        "kelvin",
+        "si unit of temperature",
+        "unit of temperature",
+        "boiling point of water",
+        "melting point of ice",
+        "minus temperature",
+        "temperature scale"
+      ]
+    },
+    {
+      "id": "clinical-thermometer",
+      "title": "Measuring body temperature: clinical and digital thermometers",
+      "summary": "A clinical thermometer measures human body temperature; its range is about 35 °C to 42 °C, and safer digital thermometers are now replacing mercury ones.",
+      "simple": "To check if someone has fever, we use a **clinical thermometer**. It only reads from about 35 °C to 42 °C, because a person's body temperature stays in this range. Today most families use a **digital thermometer**, which shows the number on a small screen and beeps when ready.",
+      "explain": "A **clinical thermometer** is made specially to measure the temperature of the **human body**.\n\n**Range:** about **35 °C to 42 °C**. Our body temperature normally never goes outside this range, so a wider scale is not needed.\n\n**Normal body temperature** is about **37 °C** (98.6 °F). It can be a little different for different people and at different times of the day, so a reading like 36.8 °C is also normal. A temperature clearly above normal means **fever**.\n\n**Mercury clinical thermometers**\nOlder clinical thermometers have a thin glass tube with shiny **mercury** inside. They have a small bend called a **kink** near the bulb. The kink stops the mercury from falling back on its own, so you can read the temperature after taking it out of the mouth. Before using it again, it must be given a few jerks to bring the mercury below 35 °C.\n\nMercury is **poisonous**. If the thermometer breaks, mercury can harm people and the environment. So mercury thermometers are being replaced.\n\n**Digital thermometers**\n- Show the temperature as numbers on a screen, so they are easy to read\n- Usually beep when the reading is ready\n- Do not contain mercury, so they are safer\n\nDuring the COVID-19 pandemic, you may have seen **non-contact (infrared) thermometers** pointed at people's foreheads at shop and school entrances.\n\n**Using a clinical thermometer safely**\n1. Wash it with soap and water (or an antiseptic) before and after use.\n2. For a mercury thermometer, shake it so the level is below 35 °C.\n3. Place the bulb under the tongue (or in the armpit) and wait about one minute, or until a digital one beeps.\n4. Read the temperature, holding it by the end, not the bulb.\n5. Never use a clinical thermometer to check hot water or anything else; it can break.",
+      "example": "Riya feels unwell. Her father uses a digital thermometer under her tongue and it beeps showing 38.5 °C. That is above normal (about 37 °C), so Riya has a fever and should see a doctor.",
+      "keyPoints": [
+        "Clinical thermometer measures human body temperature",
+        "Range about 35 °C to 42 °C",
+        "Normal body temperature about 37 °C (98.6 °F)",
+        "Mercury thermometers have a kink to stop mercury falling back",
+        "Mercury is poisonous, so digital thermometers are preferred",
+        "Wash before and after use; never use it for hot water"
+      ],
+      "keywords": [
+        "clinical thermometer",
+        "digital thermometer",
+        "body temperature",
+        "normal body temperature",
+        "37 degree",
+        "98.6",
+        "fever",
+        "kink",
+        "mercury",
+        "mercury is poisonous",
+        "infrared thermometer",
+        "range of clinical thermometer",
+        "how to use clinical thermometer"
+      ]
+    },
+    {
+      "id": "laboratory-thermometer",
+      "title": "Laboratory thermometer and reading a thermometer correctly",
+      "summary": "A laboratory thermometer measures temperatures of things other than the body, usually from −10 °C to 110 °C, and must be held and read correctly.",
+      "simple": "To measure the temperature of water, milk or other things, we use a **laboratory thermometer**. It can read from about −10 °C to 110 °C. We must keep it straight, keep the bulb inside the liquid without touching the container, and read it with our eye at the level of the liquid inside.",
+      "explain": "A **laboratory thermometer** is used to measure the temperature of objects other than the human body, such as water, oil or air, in experiments.\n\n**Range:** usually **−10 °C to 110 °C**. It has **no kink**, so the liquid starts to fall as soon as you take it out. That is why you must read it **while the bulb is still in the substance**.\n\nIt contains a liquid that expands when heated: **mercury** (silvery) or **coloured alcohol** (often red).\n\n**Finding the value of one small division**\n1. Pick two marked numbers, e.g. 20 °C and 30 °C. Difference = 10 °C.\n2. Count the small divisions between them, e.g. 10.\n3. One division = 10 °C ÷ 10 = **1 °C**.\n\nIf there were 5 divisions between 20 and 30, each would be 10 ÷ 5 = 2 °C.\n\n**Precautions while using it**\n- Hold it **upright (vertical)**, not tilted.\n- Keep the **bulb fully inside** the substance.\n- The bulb must **not touch the bottom or sides** of the container.\n- Wait until the liquid level stops moving.\n- Read with your **eye level with the top of the liquid** column, not from above or below.\n- Handle it gently; glass breaks easily.\n- Do not use a laboratory thermometer to take body temperature, and do not use a clinical one for hot water.",
+      "example": "Aman measures the temperature of tap water. He holds the thermometer upright, keeps the bulb in the water away from the bottom of the glass, waits for the red line to stop, and reads 28 °C with his eye level with the top of the red line.",
+      "keyPoints": [
+        "Used for things other than the human body",
+        "Range usually −10 °C to 110 °C",
+        "No kink, so read while bulb is in the substance",
+        "Contains mercury or coloured alcohol",
+        "One division = difference between marks ÷ number of divisions",
+        "Hold upright; bulb must not touch the container",
+        "Read with eye level with the liquid top"
+      ],
+      "keywords": [
+        "laboratory thermometer",
+        "lab thermometer",
+        "range of laboratory thermometer",
+        "-10 to 110",
+        "precautions",
+        "how to read a thermometer",
+        "reading a thermometer",
+        "least count",
+        "smallest division",
+        "eye level",
+        "alcohol thermometer",
+        "clinical vs laboratory thermometer"
+      ]
+    },
+    {
+      "id": "air-temperature",
+      "title": "Air temperature and weather reports",
+      "summary": "The temperature of the air changes during the day and across seasons; weather reports give the day's maximum and minimum temperatures.",
+      "simple": "The air around us has a temperature too. It is usually lowest early in the morning and highest in the afternoon. Weather reports on TV and in newspapers tell us the highest (**maximum**) and lowest (**minimum**) temperature of the day.",
+      "explain": "Just like water or our body, the **air** has a temperature. Air temperature changes:\n- **During the day:** it is usually lowest around early morning (just before sunrise) and highest in the early afternoon, after the Sun has heated the ground for hours.\n- **Across seasons:** it is much higher in summer than in winter.\n- **From place to place:** a hill station like Shimla is cooler than Chennai on the same day.\n\n**Weather reports** in newspapers, on TV and on phone apps give the **maximum temperature** (highest that day) and **minimum temperature** (lowest that day) for different cities. These readings are taken by weather offices using special thermometers kept in the shade, so that sunlight falling directly on the thermometer does not give a wrong reading.\n\nYou can measure air temperature yourself with a laboratory thermometer: hang it in the shade, wait a few minutes, and note the reading at different times of the day. You will see a pattern.\n\nKnowing air temperature helps farmers plan crops, helps people prepare for **heatwaves** and **cold waves**, and helps us choose what clothes to wear.",
+      "example": "A newspaper shows 'Jaipur: Max 41 °C, Min 27 °C'. The difference between the hottest and coolest time of that day was 41 − 27 = 14 °C.",
+      "keyPoints": [
+        "Air also has a temperature",
+        "Usually lowest early morning, highest early afternoon",
+        "Higher in summer, lower in winter",
+        "Weather reports give daily maximum and minimum temperatures",
+        "Air temperature is measured in the shade",
+        "Useful for farmers and for heatwave or cold wave warnings"
+      ],
+      "keywords": [
+        "air temperature",
+        "weather report",
+        "maximum temperature",
+        "minimum temperature",
+        "max min temperature",
+        "maximum minimum thermometer",
+        "weather forecast",
+        "heatwave",
+        "cold wave",
+        "temperature during the day"
+      ]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "Temperature", "meaning": "A reliable measure of how hot or cold an object is." },
+    { "term": "Thermometer", "meaning": "An instrument used to measure temperature." },
+    { "term": "Degree Celsius (°C)", "meaning": "The common unit of temperature used in India; ice melts at 0 °C and water boils at 100 °C." },
+    { "term": "Kelvin (K)", "meaning": "The SI unit of temperature, used by scientists." },
+    { "term": "Clinical thermometer", "meaning": "A thermometer for measuring human body temperature, range about 35 °C to 42 °C." },
+    { "term": "Digital thermometer", "meaning": "A thermometer that shows the temperature as numbers on a screen and has no mercury." },
+    { "term": "Laboratory thermometer", "meaning": "A thermometer for measuring temperatures of things other than the body, usually −10 °C to 110 °C." },
+    { "term": "Kink", "meaning": "A small bend near the bulb of a mercury clinical thermometer that stops the mercury from falling back on its own." },
+    { "term": "Normal body temperature", "meaning": "About 37 °C (98.6 °F); it can vary slightly from person to person." },
+    { "term": "Fever", "meaning": "A body temperature clearly higher than normal." },
+    { "term": "Mercury", "meaning": "A shiny liquid metal used in older thermometers; it is poisonous." },
+    { "term": "Maximum and minimum temperature", "meaning": "The highest and lowest air temperatures recorded in a day, given in weather reports." }
+  ],
+  "formulas": [
+    "Value of one small division = (difference between two marked readings) ÷ (number of divisions between them)",
+    "Normal body temperature ≈ 37 °C = 98.6 °F",
+    "Ice melts at 0 °C; water boils at 100 °C",
+    "Extra (not required): F = (9/5 × C) + 32"
+  ],
+  "commonMistakes": [
+    "Trusting touch to judge temperature — our hands can easily be fooled.",
+    "Using a clinical thermometer to measure hot water — it only goes up to about 42 °C and may break.",
+    "Taking a laboratory thermometer out of the liquid before reading it — it has no kink, so the reading drops at once.",
+    "Letting the thermometer bulb touch the bottom or sides of the container.",
+    "Reading the thermometer from above or below instead of with the eye level with the liquid top.",
+    "Holding a thermometer by its bulb — the heat of your hand changes the reading.",
+    "Forgetting to shake a mercury clinical thermometer below 35 °C before using it."
+  ],
+  "revision": [
+    "Touch is not a reliable way to judge temperature.",
+    "Temperature is a reliable measure of hotness or coldness.",
+    "Temperature is measured with a thermometer, commonly in degrees Celsius (°C).",
+    "SI unit of temperature is the kelvin (K).",
+    "Ice melts at 0 °C; water boils at 100 °C.",
+    "Normal human body temperature is about 37 °C (98.6 °F).",
+    "Clinical thermometer range: about 35 °C to 42 °C.",
+    "Laboratory thermometer range: usually −10 °C to 110 °C.",
+    "A mercury clinical thermometer has a kink; a laboratory thermometer does not.",
+    "Mercury is poisonous, so digital thermometers are safer.",
+    "Hold a laboratory thermometer upright, bulb inside but not touching the container, and read at eye level.",
+    "Weather reports give daily maximum and minimum air temperatures."
+  ],
+  "faqs": [
+    {
+      "q": "What is the difference between a clinical thermometer and a laboratory thermometer?",
+      "a": "- **Use:** clinical measures human body temperature; laboratory measures other things like water or air.\n- **Range:** clinical about 35 °C to 42 °C; laboratory usually −10 °C to 110 °C.\n- **Kink:** a mercury clinical thermometer has a kink so the reading stays; a laboratory thermometer has no kink, so you must read it while it is still in the substance.",
+      "keywords": ["clinical vs laboratory thermometer", "difference between clinical and laboratory thermometer", "types of thermometer"]
+    },
+    {
+      "q": "Why can't we use a clinical thermometer to measure the temperature of boiling water?",
+      "a": "A clinical thermometer only reads up to about 42 °C, because the human body never gets hotter than that. Boiling water is at 100 °C, far above its range. The liquid would expand too much and the thermometer could break.",
+      "keywords": ["clinical thermometer hot water", "why not clinical thermometer", "boiling water thermometer"]
+    },
+    {
+      "q": "Why are digital thermometers replacing mercury thermometers?",
+      "a": "Mercury is poisonous. If a mercury thermometer breaks, the mercury can harm people and pollute the environment. Digital thermometers have no mercury, show the reading clearly as numbers and beep when ready, so they are safer and easier to use.",
+      "keywords": ["digital thermometer", "mercury thermometer", "why digital thermometer", "mercury poisonous"]
+    },
+    {
+      "q": "Is 37 °C the exact body temperature of every person?",
+      "a": "No. About 37 °C (98.6 °F) is the *average* normal body temperature. It can be slightly lower or higher for different people, and it changes a little during the day. A reading like 36.7 °C is still normal. A reading clearly above normal means fever.",
+      "keywords": ["normal body temperature", "37 degree celsius", "98.6 fahrenheit", "is 37 normal"]
+    },
+    {
+      "q": "How do I find what one small division on a thermometer stands for?",
+      "a": "Take two numbered marks, find their difference, and divide by the number of small divisions between them. Example: between 30 °C and 40 °C there are 10 divisions, so one division = (40 − 30) ÷ 10 = 1 °C.",
+      "keywords": ["smallest division", "least count thermometer", "value of one division", "reading thermometer scale"]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Which of these is the most reliable way to know how hot a glass of water is?",
+      "options": ["Using a thermometer", "Touching it with your finger", "Looking at it carefully", "Smelling it"],
+      "answer": 0,
+      "explain": "Touch can be fooled and the other senses don't give a number. A thermometer gives a reliable measurement.",
+      "topic": "hot-or-cold",
+      "level": "easy"
+    },
+    {
+      "q": "One hand is kept in cold water and the other in warm water. Then both are put in lukewarm water. What happens?",
+      "options": ["Both hands feel it as hot", "The hand from cold water feels it warm; the hand from warm water feels it cool", "Both hands feel it as cold", "Neither hand feels anything"],
+      "answer": 1,
+      "explain": "The same lukewarm water feels different to each hand. This shows touch is not reliable for judging temperature.",
+      "topic": "hot-or-cold",
+      "level": "medium"
+    },
+    {
+      "q": "What is the normal temperature of the human body?",
+      "options": ["0 °C", "100 °C", "About 37 °C", "About 42 °C"],
+      "answer": 2,
+      "explain": "Normal human body temperature is about 37 °C, which is 98.6 °F.",
+      "topic": "clinical-thermometer",
+      "level": "easy"
+    },
+    {
+      "q": "What is the usual range of a clinical thermometer?",
+      "options": ["−10 °C to 110 °C", "0 °C to 100 °C", "20 °C to 60 °C", "35 °C to 42 °C"],
+      "answer": 3,
+      "explain": "Human body temperature stays within about 35 °C to 42 °C, so a clinical thermometer only needs this range.",
+      "topic": "clinical-thermometer",
+      "level": "easy"
+    },
+    {
+      "q": "Why does a mercury clinical thermometer have a kink near its bulb?",
+      "options": ["To make it look nice", "To stop the mercury from falling back on its own", "To make the mercury rise faster", "To measure higher temperatures"],
+      "answer": 1,
+      "explain": "The kink holds the mercury in place after the thermometer is taken out, so the reading can be noted.",
+      "topic": "clinical-thermometer",
+      "level": "medium"
+    },
+    {
+      "q": "Which thermometer should be used to measure the temperature of hot tea?",
+      "options": ["Laboratory thermometer", "Clinical thermometer", "Any clinical thermometer after shaking it", "None — tea can't be measured"],
+      "answer": 0,
+      "explain": "Hot tea can be well above 42 °C, the upper limit of a clinical thermometer. A laboratory thermometer (up to about 110 °C) is the right choice.",
+      "topic": "laboratory-thermometer",
+      "level": "medium"
+    },
+    {
+      "q": "On a thermometer, there are 5 small divisions between 20 °C and 30 °C. What does one division stand for?",
+      "options": ["1 °C", "5 °C", "0.5 °C", "2 °C"],
+      "answer": 3,
+      "explain": "Difference = 30 − 20 = 10 °C. One division = 10 ÷ 5 = 2 °C.",
+      "topic": "laboratory-thermometer",
+      "level": "hard"
+    },
+    {
+      "q": "Which of these is a WRONG way to use a laboratory thermometer?",
+      "options": ["Holding it upright", "Keeping the bulb fully in the liquid", "Letting the bulb rest on the bottom of the beaker", "Reading with the eye level with the liquid top"],
+      "answer": 2,
+      "explain": "The bulb must not touch the bottom or sides of the container, because the container may be hotter or colder than the liquid.",
+      "topic": "laboratory-thermometer",
+      "level": "medium"
+    },
+    {
+      "q": "At what temperature does pure water boil (at normal air pressure)?",
+      "options": ["0 °C", "37 °C", "100 °C", "110 °C"],
+      "answer": 2,
+      "explain": "On the Celsius scale, ice melts at 0 °C and pure water boils at 100 °C.",
+      "topic": "temperature-and-scales",
+      "level": "easy"
+    },
+    {
+      "q": "What is the SI unit of temperature?",
+      "options": ["Degree Celsius", "Degree Fahrenheit", "Metre", "Kelvin"],
+      "answer": 3,
+      "explain": "The kelvin (K) is the SI unit of temperature. In daily life in India we commonly use degree Celsius.",
+      "topic": "temperature-and-scales",
+      "level": "medium"
+    },
+    {
+      "q": "A weather report says: Max 39 °C, Min 26 °C. By how much did the temperature vary that day?",
+      "options": ["13 °C", "65 °C", "26 °C", "39 °C"],
+      "answer": 0,
+      "explain": "Difference = maximum − minimum = 39 − 26 = 13 °C.",
+      "topic": "air-temperature",
+      "level": "medium"
+    },
+    {
+      "q": "Why are digital thermometers considered safer than mercury thermometers?",
+      "options": ["They are heavier", "They contain no poisonous mercury", "They measure up to 200 °C", "They never need cleaning"],
+      "answer": 1,
+      "explain": "Mercury is poisonous and is dangerous if a thermometer breaks. Digital thermometers don't contain mercury.",
+      "topic": "clinical-thermometer",
+      "level": "easy"
+    }
+  ]
+}

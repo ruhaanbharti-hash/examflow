@@ -1,0 +1,319 @@
+{
+  "id": "c6-math-fractions",
+  "class": 6,
+  "subject": "mathematics",
+  "name": "Fractions",
+  "summary": "This chapter builds fractions from fractional units: equal shares of a whole such as ½, ⅓ and ¼. You learn to read and measure with fractions, mark them on the number line, write mixed fractions, find equivalent fractions and lowest terms, compare fractions, and add and subtract them by first making the denominators equal (Brahmagupta's method). It ends with a glimpse of how Indian mathematicians worked with fractions long ago.",
+  "topics": [
+    {
+      "id": "fractional-units",
+      "title": "Fractional units and equal shares",
+      "summary": "When one whole is divided into n equal parts, each part is the fractional unit 1/n; a fraction like 3/4 means three of the fractional unit ¼.",
+      "simple": "If you share one roti equally between 4 friends, each gets **one-fourth (¼)**. That one equal piece is a **fractional unit**. The more people share, the smaller each piece gets, so ⅕ is bigger than ⅑.",
+      "explain": "When one whole is divided into **equal** parts, each part is called a **fractional unit** (also called a **unit fraction**).\n- 2 equal parts → each is ½ (one-half)\n- 3 equal parts → each is ⅓ (one-third)\n- 4 equal parts → each is ¼ (one-fourth or a quarter)\n\nThe parts **must be equal**. A roti torn into 4 unequal pieces is not cut into quarters.\n\n**More shares, smaller share.** If the same roti is shared by 9 children instead of 5, each child gets less. So ⅑ < ⅕. In general, for fractional units, the bigger the bottom number, the smaller the piece.\n\n**Reading a fraction.** In 3/4:\n- the **denominator** (bottom, 4) tells into how many equal parts the whole is divided\n- the **numerator** (top, 3) tells how many of those parts we take\nSo 3/4 means **three one-fourths**: ¼ + ¼ + ¼.\n\n**Fractions as measurements.** Fractional units help us measure things smaller than one whole unit, like ½ litre of milk or ¾ of a metre of ribbon. A **fraction wall** (strips of the same length cut into halves, thirds, quarters and so on) helps you see and compare these units.\n\nA fraction can also be **more than 1**: 5/4 means five one-fourths, which is one whole and one more quarter.",
+      "example": "3 rotis are shared equally among 4 children. Each roti can be cut into 4 quarters, giving 12 quarters in all. Each child gets 12 ÷ 4 = 3 quarters, that is **¾ of a roti**.",
+      "keyPoints": [
+        "Fractional unit = one of n equal parts of a whole, written 1/n",
+        "Parts must be equal",
+        "More equal shares → smaller each share (⅑ < ⅕)",
+        "Denominator: number of equal parts; numerator: parts taken",
+        "3/4 means three one-fourths",
+        "A fraction can be greater than 1, e.g. 5/4"
+      ],
+      "keywords": [
+        "fraction",
+        "fractions",
+        "fractional unit",
+        "unit fraction",
+        "equal shares",
+        "equal parts",
+        "numerator",
+        "denominator",
+        "half",
+        "quarter",
+        "one third",
+        "fraction wall",
+        "sharing roti"
+      ]
+    },
+    {
+      "id": "number-line-mixed",
+      "title": "Fractions on the number line and mixed fractions",
+      "summary": "To mark a/b on the number line, split each unit length into b equal parts and count a parts from 0; a fraction greater than 1 can be written as a mixed fraction (whole number plus a fraction less than 1).",
+      "simple": "Fractions are numbers, so they have places on the number line between whole numbers. A fraction bigger than 1, like 7/4, can also be written as **1¾**, meaning one whole and three quarters. That is called a **mixed fraction**.",
+      "explain": "**Marking a fraction on the number line.** To mark 3/5:\n1. Divide the length from 0 to 1 into **5 equal parts**.\n2. Each part has length ⅕.\n3. Count **3 parts** from 0. That point is 3/5.\n\nFractions greater than 1 continue past 1: 5/4, 6/4, 7/4 and so on. Notice that 4/4 sits exactly at **1**, and 8/4 sits at **2**.\n\n**Mixed fractions.** A fraction greater than 1 can be written as a whole number plus a fraction less than 1. For example 7/4 = 4/4 + 3/4 = 1 + ¾ = **1¾** ('one and three-fourths').\n\n**Fraction → mixed fraction:** divide the numerator by the denominator.\n- Quotient = the whole number part\n- Remainder = the new numerator (denominator stays the same)\n- 17/5: 17 = 3 × 5 + 2, so 17/5 = **3 2/5**\n\n**Mixed fraction → fraction:** multiply the whole number by the denominator and add the numerator.\n- 2¾ = (2 × 4 + 3)/4 = **11/4**",
+      "example": "Write 23/6 as a mixed fraction.\n1. 23 ÷ 6 = 3 remainder 5 (since 3 × 6 = 18 and 23 − 18 = 5)\n2. So 23/6 = **3 5/6** (three and five-sixths)\n\nCheck: (3 × 6 + 5)/6 = (18 + 5)/6 = 23/6 ✓",
+      "keyPoints": [
+        "To mark a/b: split 0–1 into b equal parts, count a parts",
+        "b/b = 1, 2b/b = 2",
+        "Mixed fraction = whole number + fraction less than 1",
+        "Fraction → mixed: divide; quotient is the whole, remainder the numerator",
+        "Mixed → fraction: (whole × denominator + numerator) / denominator"
+      ],
+      "keywords": [
+        "number line",
+        "fraction on number line",
+        "mixed fraction",
+        "mixed number",
+        "improper fraction",
+        "proper fraction",
+        "convert mixed fraction",
+        "fraction greater than 1",
+        "whole number part",
+        "remainder"
+      ]
+    },
+    {
+      "id": "equivalent-lowest-terms",
+      "title": "Equivalent fractions and lowest terms",
+      "summary": "Fractions that name the same amount (like ½, 2/4, 3/6) are equivalent; multiply or divide numerator and denominator by the same number to get one. A fraction is in lowest terms when the numerator and denominator have no common factor other than 1.",
+      "simple": "Half a chocolate bar is the same amount as 2 quarters or 4 eighths. These different-looking fractions are **equivalent**. A fraction is in its **lowest terms** when you can't make the numbers any smaller by dividing both by the same number.",
+      "explain": "**Equivalent fractions** are fractions that stand for the same amount and sit at the same point on the number line.\n- ½ = 2/4 = 3/6 = 4/8 = 5/10\n\nOn a fraction wall you can see this: one half-strip is exactly as long as two quarter-strips or four eighth-strips.\n\n**Making equivalent fractions.** Multiply (or divide) the numerator **and** the denominator by the **same** number (not 0):\n- 2/3 = (2 × 4)/(3 × 4) = 8/12\n- 15/20 = (15 ÷ 5)/(20 ÷ 5) = 3/4\nWhy does this work? Cutting each piece into 4 smaller equal pieces makes 4 times as many pieces, each 4 times smaller, so the amount stays the same.\n\n**Lowest terms (simplest form).** A fraction is in **lowest terms** when the numerator and the denominator have no common factor except 1.\n- To simplify, divide both by their **highest common factor (HCF)**.\n- 12/18: HCF of 12 and 18 is 6, so 12/18 = 2/3.\n- You can also divide step by step: 12/18 → 6/9 → 2/3.\n\n**Checking if two fractions are equivalent:** cross-multiply. a/b = c/d exactly when a × d = b × c. For 3/4 and 9/12: 3 × 12 = 36 and 4 × 9 = 36, so they are equivalent.",
+      "example": "Write 24/36 in lowest terms.\n1. Factors common to 24 and 36: 1, 2, 3, 4, 6, 12. HCF = 12\n2. 24 ÷ 12 = 2 and 36 ÷ 12 = 3\n3. So 24/36 = **2/3**",
+      "keyPoints": [
+        "Equivalent fractions name the same amount",
+        "Multiply or divide top and bottom by the same non-zero number",
+        "½ = 2/4 = 3/6 = 4/8",
+        "Lowest terms: no common factor except 1",
+        "Simplify by dividing by the HCF",
+        "Cross-multiply to test: a/b = c/d if a × d = b × c"
+      ],
+      "keywords": [
+        "equivalent fractions",
+        "equal fractions",
+        "lowest terms",
+        "simplest form",
+        "simplify fraction",
+        "reduce fraction",
+        "hcf",
+        "common factor",
+        "cross multiply",
+        "fraction wall"
+      ]
+    },
+    {
+      "id": "comparing-fractions",
+      "title": "Comparing fractions",
+      "summary": "With equal denominators compare numerators; with equal numerators the smaller denominator gives the bigger fraction; otherwise change both to equivalent fractions with the same denominator.",
+      "simple": "To see which fraction is bigger, it helps if both are cut into the same size pieces. If they already have the same bottom number, just compare the top numbers. If not, change them into equivalent fractions with the same bottom number first.",
+      "explain": "**Case 1: same denominator.** The pieces are the same size, so more pieces means more.\n- 5/8 > 3/8\n\n**Case 2: same numerator.** You have the same number of pieces, so the fraction with **bigger pieces** (smaller denominator) is greater.\n- 3/5 > 3/7, because fifths are bigger than sevenths\n\n**Case 3: different numerators and denominators.** Change both fractions into equivalent fractions with a **common denominator**, then compare numerators. A handy common denominator is the **LCM** of the two denominators (or simply their product).\n- 3/4 and 5/6: LCM of 4 and 6 is 12.\n- 3/4 = 9/12 and 5/6 = 10/12.\n- 10/12 > 9/12, so **5/6 > 3/4**.\n\n**Using benchmarks.** Sometimes comparing with ½ or 1 is quicker. 3/7 is less than ½ (since half of 7 is 3½), and 5/9 is more than ½ (half of 9 is 4½), so 5/9 > 3/7.\n\nOn the number line, the greater fraction is always further to the **right**.",
+      "example": "Arrange 2/3, 3/4 and 5/8 from smallest to largest.\n1. LCM of 3, 4 and 8 is 24\n2. 2/3 = 16/24, 3/4 = 18/24, 5/8 = 15/24\n3. Order of numerators: 15 < 16 < 18\n4. So **5/8 < 2/3 < 3/4**",
+      "keyPoints": [
+        "Same denominator: bigger numerator is bigger",
+        "Same numerator: smaller denominator is bigger",
+        "Otherwise make a common denominator (LCM)",
+        "Benchmarks like ½ and 1 can save work",
+        "On the number line, bigger fractions lie to the right"
+      ],
+      "keywords": [
+        "comparing fractions",
+        "compare fractions",
+        "which fraction is bigger",
+        "greater fraction",
+        "ascending order",
+        "descending order",
+        "common denominator",
+        "lcm",
+        "like fractions",
+        "unlike fractions"
+      ]
+    },
+    {
+      "id": "add-subtract",
+      "title": "Adding and subtracting fractions, and a pinch of history",
+      "summary": "Fractions with the same denominator are added or subtracted by working with the numerators; for different denominators, first convert to equivalent fractions with a common denominator (Brahmagupta's method, 628 CE).",
+      "simple": "You can only add pieces directly if they are the same size. So ¼ + 2/4 = ¾. If the pieces are different sizes, like ¼ and ⅙, first cut them into same-size pieces (twelfths), then add. Long ago, the Indian mathematician **Brahmagupta** wrote down exactly this method.",
+      "explain": "**Same denominator (like fractions).** Add or subtract the numerators; keep the denominator.\n- 2/7 + 3/7 = 5/7\n- 7/9 − 4/9 = 3/9 = 1/3\nWe do **not** add the denominators: two-sevenths plus three-sevenths is five-sevenths, the pieces are still sevenths.\n\n**Different denominators (unlike fractions).**\n1. Find a common denominator (the LCM of the denominators is the smallest).\n2. Rewrite each fraction as an equivalent fraction with that denominator.\n3. Add or subtract the numerators.\n4. Simplify the answer and, if you like, write it as a mixed fraction.\n\nExamples:\n- 1/4 + 1/6 = 3/12 + 2/12 = **5/12**\n- 5/6 − 1/4 = 10/12 − 3/12 = **7/12**\n\n**Mixed fractions:** change them into fractions first. 2½ + 1⅓ = 5/2 + 4/3 = 15/6 + 8/6 = 23/6 = 3 5/6.\n\n**A pinch of history.** Indian mathematicians worked with fractions for a very long time; the Sanskrit word *bhinna* (meaning 'broken') was used for a fraction. Indians wrote a fraction with the numerator above the denominator; the horizontal bar between them was added later by mathematicians in the Arab world. In **628 CE**, **Brahmagupta**, in his book the *Brāhmasphuṭasiddhānta*, gave the general method of adding and subtracting fractions by first making their denominators equal. This is why it is called **Brahmagupta's method**.",
+      "example": "Add 2/3 + 5/6 using Brahmagupta's method.\n1. LCM of 3 and 6 is 6\n2. 2/3 = 4/6\n3. 4/6 + 5/6 = 9/6\n4. Simplify: 9/6 = 3/2 = **1½**\n\nSubtract 3/4 − 2/3: 9/12 − 8/12 = **1/12**.",
+      "keyPoints": [
+        "Like fractions: add/subtract numerators, keep the denominator",
+        "Never add the denominators",
+        "Unlike fractions: make denominators equal first (use LCM)",
+        "Change mixed fractions into fractions before adding",
+        "Simplify the final answer",
+        "Brahmagupta described this method in 628 CE"
+      ],
+      "keywords": [
+        "adding fractions",
+        "addition of fractions",
+        "subtracting fractions",
+        "subtraction of fractions",
+        "like fractions",
+        "unlike fractions",
+        "brahmagupta",
+        "brahmagupta method",
+        "lcm",
+        "common denominator",
+        "bhinna",
+        "history of fractions",
+        "add mixed fractions"
+      ]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "Fractional unit (unit fraction)", "meaning": "One of the equal parts when a whole is divided into equal parts, written 1/n, e.g. ¼." },
+    { "term": "Numerator", "meaning": "The top number of a fraction; how many equal parts are taken." },
+    { "term": "Denominator", "meaning": "The bottom number of a fraction; into how many equal parts the whole is divided." },
+    { "term": "Mixed fraction", "meaning": "A whole number together with a fraction less than 1, e.g. 1¾." },
+    { "term": "Equivalent fractions", "meaning": "Fractions that represent the same amount, e.g. ½ = 2/4 = 3/6." },
+    { "term": "Lowest terms", "meaning": "A fraction whose numerator and denominator have no common factor other than 1, e.g. 2/3." },
+    { "term": "Like fractions", "meaning": "Fractions with the same denominator, e.g. 2/7 and 5/7." },
+    { "term": "Unlike fractions", "meaning": "Fractions with different denominators, e.g. 1/4 and 1/6." },
+    { "term": "Fraction wall", "meaning": "Equal strips divided into halves, thirds, quarters and so on, used to see and compare fractions." },
+    { "term": "Brahmagupta's method", "meaning": "Adding or subtracting fractions by first changing them to equivalent fractions with equal denominators." }
+  ],
+  "formulas": [
+    "a/b means a parts of size 1/b",
+    "a/c + b/c = (a + b)/c and a/c − b/c = (a − b)/c",
+    "a/b = (a × k)/(b × k) for any non-zero k (equivalent fractions)",
+    "Mixed to fraction: w b/c = (w × c + b)/c",
+    "a/b = c/d exactly when a × d = b × c"
+  ],
+  "commonMistakes": [
+    "Adding denominators: ½ + ⅓ is not 2/5. Correct: 3/6 + 2/6 = 5/6.",
+    "Thinking ⅛ is bigger than ¼ because 8 > 4. More equal parts means smaller parts.",
+    "Calling unequal pieces 'quarters'. Fractional units need equal parts.",
+    "Multiplying only the numerator (or only the denominator) when making equivalent fractions.",
+    "Forgetting to simplify the answer to lowest terms.",
+    "Converting 2¾ as (2 + 3)/4. Correct: (2 × 4 + 3)/4 = 11/4.",
+    "Comparing 3/4 and 5/6 by looking only at numerators. Make the denominators equal first."
+  ],
+  "revision": [
+    "A fractional unit 1/n is one of n equal parts of a whole.",
+    "Denominator = number of equal parts; numerator = parts taken.",
+    "More shares of the same whole means each share is smaller.",
+    "To mark a/b on the number line, divide 0–1 into b equal parts and count a.",
+    "Mixed fraction = whole number + proper fraction; 17/5 = 3 2/5.",
+    "Equivalent fractions: multiply or divide top and bottom by the same number.",
+    "Lowest terms: divide numerator and denominator by their HCF.",
+    "Compare unlike fractions by making a common denominator.",
+    "Add/subtract like fractions by working with numerators only.",
+    "Unlike fractions: convert to a common denominator (LCM) first.",
+    "Brahmagupta gave the method for adding/subtracting fractions in 628 CE."
+  ],
+  "faqs": [
+    {
+      "q": "Why can't we add the denominators when adding fractions?",
+      "a": "The denominator tells the **size** of each piece, not how many pieces there are. 2/7 + 3/7 means 2 sevenths plus 3 sevenths, which is 5 sevenths (5/7). The pieces are still sevenths, so the denominator stays 7. Adding denominators would wrongly change the size of the pieces.",
+      "keywords": ["why not add denominators", "add denominators", "adding fractions"]
+    },
+    {
+      "q": "Why is 1/8 smaller than 1/4 when 8 is bigger than 4?",
+      "a": "Because the same whole is being cut into more pieces. Cutting a roti into 8 equal parts gives smaller pieces than cutting it into 4. So for fractional units, a bigger denominator means a smaller piece.",
+      "keywords": ["1/8 vs 1/4", "bigger denominator smaller", "unit fraction comparison"]
+    },
+    {
+      "q": "What is the difference between a mixed fraction and an improper fraction?",
+      "a": "They are two ways of writing the same number greater than 1. An improper fraction has a numerator bigger than (or equal to) its denominator, like 7/4. A mixed fraction writes it as a whole number plus a proper fraction, like 1¾. Both mark the same point on the number line.",
+      "keywords": ["mixed vs improper", "mixed fraction", "improper fraction"]
+    },
+    {
+      "q": "How do I know if two fractions are equivalent?",
+      "a": "Simplify both to lowest terms and see if they match, or cross-multiply: a/b and c/d are equivalent if a × d = b × c. For 4/6 and 10/15: 4 × 15 = 60 and 6 × 10 = 60, so they are equivalent (both equal 2/3).",
+      "keywords": ["check equivalent fractions", "equivalent fractions test"]
+    },
+    {
+      "q": "What is Brahmagupta's method?",
+      "a": "It is the method of adding or subtracting fractions with different denominators by first turning them into equivalent fractions with the same denominator, then adding or subtracting the numerators. Brahmagupta described it in 628 CE.",
+      "keywords": ["brahmagupta method", "brahmagupta fractions"]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "One roti is shared equally by 5 children, and another identical roti by 9 children. Which share is larger?",
+      "options": ["1/9", "1/5", "They are equal", "Cannot tell"],
+      "answer": 1,
+      "explain": "Fewer people sharing means bigger pieces, so 1/5 > 1/9.",
+      "topic": "fractional-units",
+      "level": "easy"
+    },
+    {
+      "q": "In the fraction 3/8, what does the denominator 8 tell us?",
+      "options": ["How many parts are taken", "The size of the whole", "The sum of the parts", "Into how many equal parts the whole is divided"],
+      "answer": 3,
+      "explain": "The denominator gives the number of equal parts the whole is divided into; the numerator 3 is how many are taken.",
+      "topic": "fractional-units",
+      "level": "easy"
+    },
+    {
+      "q": "Write 17/5 as a mixed fraction.",
+      "options": ["3 2/5", "2 7/5", "3 5/2", "4 1/5"],
+      "answer": 0,
+      "explain": "17 = 3 × 5 + 2, so 17/5 = 3 2/5 (three and two-fifths).",
+      "topic": "number-line-mixed",
+      "level": "easy"
+    },
+    {
+      "q": "Which fraction is equivalent to 3/4?",
+      "options": ["6/12", "4/5", "9/12", "3/8"],
+      "answer": 2,
+      "explain": "3/4 = (3 × 3)/(4 × 3) = 9/12. Note 6/12 = 1/2.",
+      "topic": "equivalent-lowest-terms",
+      "level": "easy"
+    },
+    {
+      "q": "What is 18/24 in lowest terms?",
+      "options": ["9/12", "6/8", "3/4", "2/3"],
+      "answer": 2,
+      "explain": "HCF of 18 and 24 is 6. 18 ÷ 6 = 3 and 24 ÷ 6 = 4, giving 3/4.",
+      "topic": "equivalent-lowest-terms",
+      "level": "medium"
+    },
+    {
+      "q": "What is 1/4 + 1/6?",
+      "options": ["5/12", "2/10", "1/5", "2/12"],
+      "answer": 0,
+      "explain": "LCM of 4 and 6 is 12: 3/12 + 2/12 = 5/12.",
+      "topic": "add-subtract",
+      "level": "medium"
+    },
+    {
+      "q": "Which of these is the greatest?",
+      "options": ["2/3", "5/8", "7/12", "3/4"],
+      "answer": 3,
+      "explain": "With denominator 24: 2/3 = 16/24, 5/8 = 15/24, 7/12 = 14/24, 3/4 = 18/24. So 3/4 is greatest.",
+      "topic": "comparing-fractions",
+      "level": "hard"
+    },
+    {
+      "q": "What is 5/6 − 1/4?",
+      "options": ["4/2", "7/12", "1/3", "4/10"],
+      "answer": 1,
+      "explain": "LCM of 6 and 4 is 12: 10/12 − 3/12 = 7/12.",
+      "topic": "add-subtract",
+      "level": "medium"
+    },
+    {
+      "q": "Write 2¾ as a fraction.",
+      "options": ["11/4", "9/4", "5/4", "14/4"],
+      "answer": 0,
+      "explain": "(2 × 4 + 3)/4 = (8 + 3)/4 = 11/4.",
+      "topic": "number-line-mixed",
+      "level": "easy"
+    },
+    {
+      "q": "The length from 0 to 1 on a number line is split into 5 equal parts. Which number is at the 3rd mark after 0?",
+      "options": ["5/3", "3/5", "1/3", "3/8"],
+      "answer": 1,
+      "explain": "Each part is 1/5; three parts from 0 is 3/5.",
+      "topic": "number-line-mixed",
+      "level": "easy"
+    },
+    {
+      "q": "What is 2½ + 1⅓?",
+      "options": ["3 2/5", "3 1/6", "4 5/6", "3 5/6"],
+      "answer": 3,
+      "explain": "5/2 + 4/3 = 15/6 + 8/6 = 23/6. Since 23 = 3 × 6 + 5, this is 3 5/6.",
+      "topic": "add-subtract",
+      "level": "hard"
+    },
+    {
+      "q": "Which mathematician described the method of adding fractions by making denominators equal, in 628 CE?",
+      "options": ["Aryabhata", "Bhaskara II", "Brahmagupta", "Ramanujan"],
+      "answer": 2,
+      "explain": "Brahmagupta gave this method in his Brāhmasphuṭasiddhānta in 628 CE.",
+      "topic": "add-subtract",
+      "level": "medium"
+    }
+  ]
+}

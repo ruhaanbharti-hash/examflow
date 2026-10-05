@@ -1,0 +1,350 @@
+{
+  "id": "c6-math-number-play",
+  "class": 6,
+  "subject": "mathematics",
+  "name": "Number Play",
+  "summary": "Numbers can carry information and hide surprising patterns. We decode numbers called out by children in a line, find 'supercells' in grids, place numbers on the number line, count digits and explore digit sums, make palindromes by reversing and adding, meet Kaprekar's magic number 6174, spot patterns in clocks and calendars, practise mental maths and estimation, find winning strategies in number games, and try the Collatz conjecture — a puzzle no one has been able to prove.",
+  "topics": [
+    {
+      "id": "numbers-tell-things-supercells",
+      "title": "Numbers can tell us things, and supercells",
+      "summary": "Children in a line each say how many taller neighbours they have (0, 1 or 2); a supercell is a cell whose number is bigger than all the numbers in its neighbouring cells.",
+      "simple": "Numbers can be clues. If children in a line each say how many of their neighbours are taller, the numbers tell us something about how they are arranged. In a table of numbers, a **supercell** is a cell whose number is bigger than every number touching it.",
+      "explain": "**Children in a line:** some children stand in a line. Each child calls out the **number of children next to them who are taller** than them.\n- A child in the middle has 2 neighbours, so can say **0, 1 or 2**.\n- A child at either end has only 1 neighbour, so can say only **0 or 1**.\n- A child who says **0** is taller than both neighbours. The **tallest** child always says 0.\n- A child who says **2** is shorter than both neighbours.\n- Two children standing next to each other can never **both** say 0 — one of them must be taller than the other.\n- If they stand in order of height from shortest to tallest, everyone says 1 except the tallest, who says 0.\n\n**Supercells:** in a row or grid of numbers, a cell is a **supercell** if its number is **greater than the numbers in all its neighbouring cells** (the cells sharing a side with it — left, right, above and below).\n- The **largest** number in a table is **always** a supercell.\n- The **smallest** number can **never** be a supercell (unless it has no neighbours).\n- Two cells side by side can **never both** be supercells, because one of them is bigger than the other.\n\nThese puzzles train us to reason: instead of guessing, we ask what the numbers *force* to be true.",
+      "example": "Find the supercells in this grid (rows written left to right):\n- Row 1: 12, 34, 25\n- Row 2: 40, 18, 30\n- Row 3: 15, 22, 50\n\nCheck each cell against its neighbours (left, right, above, below):\n1. 34 → neighbours 12, 25, 18; 34 is bigger than all → **supercell**\n2. 40 → neighbours 12, 18, 15 → **supercell**\n3. 50 → neighbours 30, 22 → **supercell**\n4. 25 is smaller than 34, 30 is smaller than 50, 18 is smaller than 40, so they are not.\nSupercells: **34, 40 and 50**.",
+      "keyPoints": [
+        "Children say how many neighbours are taller: 0, 1 or 2",
+        "End children can only say 0 or 1",
+        "The tallest child always says 0",
+        "A supercell's number is greater than all its neighbours",
+        "The largest number in a table is always a supercell",
+        "Two neighbouring cells cannot both be supercells"
+      ],
+      "keywords": [
+        "number play",
+        "numbers can tell us things",
+        "children in a line",
+        "taller neighbours",
+        "supercell",
+        "supercells",
+        "neighbouring cells",
+        "adjacent cells",
+        "logical reasoning",
+        "number puzzle"
+      ]
+    },
+    {
+      "id": "number-line-and-digits",
+      "title": "Number line patterns, counting digits and digit sums",
+      "summary": "Place numbers on the number line in order; there are 9 one-digit, 90 two-digit and 900 three-digit numbers; the digit sum is the total of a number's digits.",
+      "simple": "On a number line, bigger numbers are further to the right. We can count how many numbers have 1, 2, 3, … digits, and we can add up the digits of a number to get its **digit sum** — for 472, the digit sum is 4 + 7 + 2 = 13.",
+      "explain": "**Patterns on the number line:** numbers are placed in order, with **larger numbers further right**. To place a number like 4250 on a line marked 0, 1000, 2000, …, find the two marks it lies between (4000 and 5000) and put it a little to the right of 4000. Placing numbers this way builds a feel for how big numbers are.\n\n**How many numbers have each number of digits?**\n- 1-digit numbers: 1 to 9 → **9**\n- 2-digit numbers: 10 to 99 → **90**\n- 3-digit numbers: 100 to 999 → **900**\n- 4-digit numbers: 1000 to 9999 → **9000**\n- 5-digit numbers: 10,000 to 99,999 → **90,000**\nEach time we multiply by 10.\n\n**Digit sum:** add the digits of a number.\n- Digit sum of 472 = 4 + 7 + 2 = **13**\n- Digit sum of 3005 = 3 + 0 + 0 + 5 = **8**\n- Many different numbers share a digit sum: 14, 23, 32, 41, 50, 104, 113, … all have digit sum 5.\n\n**Puzzles with digits:**\n- **Smallest number with digit sum 14:** use as few digits as possible, with the biggest digit last → **59**.\n- **Largest 3-digit number with digit sum 14:** put the biggest digits first → **950**.\n- **How many times is the digit 7 written from 1 to 100?** In the ones place: 7, 17, 27, …, 97 → 10 times. In the tens place: 70 to 79 → 10 times. Total = **20**.",
+      "example": "Find all two-digit numbers whose digit sum is 4.\n1. Tens digit can be 1, 2, 3 or 4 (not 0, or it would be a one-digit number).\n2. Tens 1 → ones 3: **13**; tens 2 → **22**; tens 3 → **31**; tens 4 → ones 0: **40**.\n3. So there are **4** such numbers: 13, 22, 31, 40.",
+      "keyPoints": [
+        "On a number line, larger numbers lie further to the right",
+        "There are 9 one-digit, 90 two-digit and 900 three-digit numbers",
+        "Digit sum = add all the digits (472 → 13)",
+        "Many numbers can have the same digit sum",
+        "Smallest number with a given digit sum: fewest digits, biggest digit last",
+        "From 1 to 100 the digit 7 is written 20 times"
+      ],
+      "keywords": [
+        "number line",
+        "patterns on number line",
+        "place numbers on number line",
+        "playing with digits",
+        "digit sum",
+        "sum of digits",
+        "how many 2 digit numbers",
+        "how many 3 digit numbers",
+        "counting digits",
+        "smallest number with digit sum"
+      ]
+    },
+    {
+      "id": "palindromes-clock-calendar",
+      "title": "Palindromes, and clock and calendar numbers",
+      "summary": "A palindrome reads the same forwards and backwards (121, 4554); reversing a number and adding often leads to a palindrome; palindromes also appear in clock times and dates.",
+      "simple": "A **palindromic number** reads the same from left to right and from right to left, like 121 or 3443. If you take a number, reverse its digits and add the two, and keep doing this, you often land on a palindrome. Clocks and calendars also show palindromes, like the time 12:21.",
+      "explain": "**Palindromic numbers:** numbers that read the same forwards and backwards.\n- Examples: 7, 44, 121, 909, 4554, 12321\n- Not palindromes: 123, 1210\n\n**Making palindromes with given digits:** how many 3-digit palindromes can be made using only the digits 1, 2 and 3? The first and last digits must match (3 choices) and the middle digit can be anything (3 choices), giving 3 × 3 = **9**: 111, 121, 131, 212, 222, 232, 313, 323, 333.\n\n**Reverse-and-add:**\n1. Take a number, e.g. 39.\n2. Reverse its digits: 93.\n3. Add: 39 + 93 = 132. Not a palindrome, so repeat.\n4. 132 + 231 = **363** — a palindrome!\nSome numbers become palindromes in one step (47 + 74 = 121), others take many steps.\n\n**Clock numbers:** on a 12-hour digital clock, some times read the same both ways if you ignore the colon:\n- 1:01, 2:22, 4:44, 5:15, 10:01, 11:11, 12:21\nThese are **palindromic times**.\n\n**Calendar numbers:** dates written as DD/MM/YYYY can also be palindromes. For example 12/02/2021 → 12022021, which reads the same backwards. Calendars hide other patterns too: in any month, dates that fall on the same weekday differ by **7**.",
+      "example": "Use reverse-and-add on 68.\n1. 68 + 86 = 154 (not a palindrome)\n2. 154 + 451 = 605 (not a palindrome)\n3. 605 + 506 = **1111** — a palindrome!\nSo 68 reaches a palindrome in 3 steps.",
+      "keyPoints": [
+        "A palindrome reads the same forwards and backwards",
+        "Reverse-and-add often produces a palindrome (39 → 132 → 363)",
+        "3-digit palindromes with digits 1, 2, 3: 9 of them",
+        "Palindromic times: 1:01, 10:01, 11:11, 12:21",
+        "Palindromic dates: 12/02/2021 → 12022021",
+        "Same weekday dates in a month differ by 7"
+      ],
+      "keywords": [
+        "palindrome",
+        "palindromic numbers",
+        "pretty palindromic patterns",
+        "reverse and add",
+        "reverse the digits",
+        "palindromic time",
+        "clock numbers",
+        "calendar numbers",
+        "palindrome date",
+        "121",
+        "number that reads same backwards"
+      ]
+    },
+    {
+      "id": "kaprekar-6174",
+      "title": "The magic number of Kaprekar: 6174",
+      "summary": "Take a 4-digit number (digits not all the same), subtract its smallest arrangement from its largest, and repeat — you always reach 6174, Kaprekar's constant.",
+      "simple": "An Indian maths teacher, **D. R. Kaprekar**, found a magic trick. Take any 4-digit number whose digits are not all the same. Arrange the digits to make the biggest and smallest numbers, subtract, and repeat. You will always reach **6174** — and then you get stuck there!",
+      "explain": "**Kaprekar's routine:**\n1. Pick a 4-digit number whose digits are **not all the same** (so not 1111, 2222, …).\n2. Arrange the digits in **descending order** to make the **largest** number.\n3. Arrange them in **ascending order** to make the **smallest** number (zeros go in front, e.g. 0378).\n4. Subtract: largest − smallest.\n5. Repeat steps 2–4 with the answer.\n\nYou always reach **6174**, in **at most 7 steps**. After that, the routine repeats itself:\n- 7641 − 1467 = **6174** again.\n\nThat is why **6174** is called **Kaprekar's constant**. It was discovered by **D. R. Kaprekar** (Dattatreya Ramchandra Kaprekar), a school mathematics teacher from Devlali in Maharashtra, who loved finding number patterns and found many other special numbers too.\n\n**Tips:**\n- If you get a 3-digit answer like 999, treat it as **0999** (keep 4 digits).\n- Check your subtraction carefully; one small slip stops you from reaching 6174.",
+      "deep": "A similar routine works for 3-digit numbers (digits not all the same): you always reach **495**. For example, 352: 532 − 235 = 297; 972 − 279 = 693; 963 − 369 = 594; 954 − 459 = **495**, and 954 − 459 = 495 again.",
+      "example": "Start with **3524**.\n1. 5432 − 2345 = **3087**\n2. 8730 − 0378 = **8352**\n3. 8532 − 2358 = **6174** ✓\nReached in 3 steps. One more step: 7641 − 1467 = 6174, so it stays there.",
+      "keyPoints": [
+        "Kaprekar's routine: largest arrangement − smallest arrangement, repeat",
+        "Digits must not all be the same",
+        "Every such 4-digit number reaches 6174 in at most 7 steps",
+        "7641 − 1467 = 6174, so the routine stays at 6174",
+        "Keep 4 digits: write 999 as 0999",
+        "D. R. Kaprekar was an Indian school maths teacher from Devlali, Maharashtra"
+      ],
+      "keywords": [
+        "kaprekar",
+        "kaprekar constant",
+        "kaprekar routine",
+        "6174",
+        "magic number",
+        "magic number of kaprekar",
+        "495",
+        "largest minus smallest",
+        "d r kaprekar",
+        "descending ascending digits"
+      ]
+    },
+    {
+      "id": "mental-math-estimation",
+      "title": "Mental maths and estimation",
+      "summary": "Mental maths breaks a calculation into easy parts; estimation gives a quick, sensible approximate answer and helps check exact answers.",
+      "simple": "You don't always need paper to calculate. Break numbers into friendly parts: 98 + 47 is the same as 100 + 47 − 2 = 145. **Estimation** means making a sensible guess that is close to the real answer, like guessing how many students are in your school.",
+      "explain": "**Mental maths:** calculating in your head by splitting numbers into convenient parts. It is about **thinking smartly**, not just speed.\n- **Round and adjust:** 98 + 47 = (100 + 47) − 2 = **145**\n- **Split by place value:** 36 + 45 = 30 + 40 + 6 + 5 = 70 + 11 = **81**\n- **Make tens or hundreds:** 25 + 37 + 75 = (25 + 75) + 37 = 100 + 37 = **137**\n- **Subtract by counting up:** 1000 − 645: from 645 to 700 is 55, from 700 to 1000 is 300 → **355**\n\n**Estimation:** finding an **approximate** answer that is good enough.\n- It helps when an exact answer is **not needed** (How many people fit in our hall?).\n- It helps **check** an exact answer: 49 × 21 should be close to 50 × 20 = 1000, so an answer of 10,290 must be wrong (the real answer is 1029).\n- It helps us **decide** (Is ₹500 enough to buy 6 notebooks at ₹68 each? 6 × 70 = 420, so yes.)\n\n**How to estimate well:**\n1. Round numbers to easy values (68 → 70).\n2. Use facts you know (a year has about 52 weeks).\n3. Break a big question into smaller ones.\n4. Ask whether your answer is **sensible**.\n\nDifferent people may get slightly different estimates — that is fine, as long as the reasoning makes sense.",
+      "example": "About how many steps does it take to walk 1 km?\n1. One step of a Class 6 student is about 50 cm = 0.5 m.\n2. 1 km = 1000 m.\n3. Number of steps ≈ 1000 ÷ 0.5 = **2000 steps**.\nThis is an estimate; the exact number depends on your step length.",
+      "keyPoints": [
+        "Mental maths: split numbers into easy parts",
+        "Round and adjust: 98 + 47 = 100 + 47 − 2 = 145",
+        "Group numbers to make tens and hundreds",
+        "Estimation gives a sensible approximate answer",
+        "Use estimation to check exact answers",
+        "Round numbers to friendly values before estimating"
+      ],
+      "keywords": [
+        "mental maths",
+        "mental math",
+        "estimation",
+        "estimate",
+        "approximate answer",
+        "rounding",
+        "quick calculation",
+        "simple estimation",
+        "check answer",
+        "calculate in head"
+      ]
+    },
+    {
+      "id": "games-and-collatz",
+      "title": "Winning strategies in number games, and the Collatz conjecture",
+      "summary": "In the game of 21 (add 1, 2 or 3; whoever says 21 wins), saying 1, 5, 9, 13, 17, 21 guarantees a win; the Collatz conjecture says the halve-or-3n+1 rule always reaches 1, but no one has proved it.",
+      "simple": "Some number games can always be won if you think backwards from the end. In the game of 21, if you say 17 your friend can't stop you from reaching 21. The **Collatz conjecture** is a simple rule — halve even numbers, and for odd numbers multiply by 3 and add 1 — that seems to always end at 1, but nobody in the world has proved it yet!",
+      "explain": "**The game of 21:**\n- Two players take turns. The first player says 1, 2 or 3.\n- On each turn, a player adds **1, 2 or 3** to the last number said.\n- Whoever says **21** wins.\n\n**Winning strategy — work backwards:**\n1. If you say **17**, your friend can only say 18, 19 or 20, and then you can reach 21.\n2. So 17 is a 'winning number'. In the same way, saying **13** lets you reach 17, and so on.\n3. The winning numbers are **1, 5, 9, 13, 17, 21** — they are **4 apart**.\n4. Go first and say **1**. Whatever your friend adds (1, 2 or 3), you add enough to make 4 in that round (3, 2 or 1).\n\nThe same backward thinking works for other targets: adding 1, 2 or 3 to reach 22, the winning numbers are 2, 6, 10, 14, 18, 22.\n\n**The Collatz conjecture (an unsolved mystery):**\n- Start with any counting number.\n- If it is **even**, **halve** it.\n- If it is **odd**, **multiply by 3 and add 1**.\n- Repeat.\nThe conjecture says you will **always reach 1** in the end. It was proposed by the German mathematician **Lothar Collatz** in 1937. Computers have checked enormous numbers of starting values and every one reached 1, but **no one has proved** it is true for every number. It shows that some questions are easy to state but very hard to prove.\n\nFor powers of 2 it obviously works: 16 → 8 → 4 → 2 → 1, because they keep halving.",
+      "example": "Collatz sequence starting from 12:\n- 12 is even → 6\n- 6 is even → 3\n- 3 is odd → 3 × 3 + 1 = 10\n- 10 → 5\n- 5 is odd → 5 × 3 + 1 = 16\n- 16 → 8 → 4 → 2 → **1**\nSequence: 12, 6, 3, 10, 5, 16, 8, 4, 2, 1 (it reaches 1 after 9 steps).",
+      "keyPoints": [
+        "Game of 21: add 1, 2 or 3; whoever says 21 wins",
+        "Winning numbers 1, 5, 9, 13, 17, 21 are 4 apart",
+        "Find winning strategies by working backwards from the target",
+        "Collatz rule: even → halve; odd → × 3 + 1",
+        "The Collatz conjecture says you always reach 1",
+        "It is still unproved — an open problem in mathematics"
+      ],
+      "keywords": [
+        "games and winning strategies",
+        "game of 21",
+        "21 game",
+        "winning strategy",
+        "work backwards",
+        "collatz conjecture",
+        "collatz",
+        "3n+1",
+        "unsolved problem",
+        "unproved",
+        "lothar collatz",
+        "number game"
+      ]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "Supercell", "meaning": "A cell in a table whose number is greater than the numbers in all its neighbouring cells." },
+    { "term": "Number line", "meaning": "A straight line on which numbers are placed in order, larger numbers to the right." },
+    { "term": "Digit sum", "meaning": "The total you get by adding all the digits of a number (472 → 13)." },
+    { "term": "Palindromic number", "meaning": "A number that reads the same forwards and backwards, like 121 or 4554." },
+    { "term": "Reverse-and-add", "meaning": "Reverse a number's digits and add it to the original; repeating often gives a palindrome." },
+    { "term": "Kaprekar's routine", "meaning": "Subtract the smallest arrangement of a number's digits from the largest, and repeat." },
+    { "term": "Kaprekar's constant", "meaning": "6174 — the number every 4-digit number (digits not all same) reaches by Kaprekar's routine." },
+    { "term": "Mental maths", "meaning": "Calculating in your head by breaking numbers into convenient parts." },
+    { "term": "Estimation", "meaning": "Finding a sensible approximate answer when an exact one is not needed or to check one." },
+    { "term": "Winning strategy", "meaning": "A way of playing that guarantees a win whatever the other player does." },
+    { "term": "Collatz conjecture", "meaning": "The unproved claim that the rule 'halve if even, × 3 + 1 if odd' always reaches 1." },
+    { "term": "Conjecture", "meaning": "A statement believed to be true but not yet proved." }
+  ],
+  "formulas": [
+    "Digit sum: add all the digits (e.g. 3524 → 3 + 5 + 2 + 4 = 14)",
+    "Kaprekar's routine: (largest arrangement of digits) − (smallest arrangement); 4-digit numbers end at 6174",
+    "Collatz rule: if n is even → n ÷ 2; if n is odd → 3n + 1",
+    "Number of d-digit numbers: 9, 90, 900, 9000, … (9 followed by d − 1 zeros)"
+  ],
+  "commonMistakes": [
+    "Thinking a child at the end of a line can say 2 — they have only one neighbour, so only 0 or 1.",
+    "Counting diagonal cells as neighbours of a supercell — neighbours are the cells sharing a side.",
+    "In Kaprekar's routine, dropping the zero and using a 3-digit number — write 999 as 0999 and keep 4 digits.",
+    "Trying Kaprekar's routine on numbers like 3333 — the digits must not all be the same.",
+    "In the Collatz rule, adding 1 to even numbers or halving odd numbers — even → halve, odd → × 3 + 1.",
+    "Calling the Collatz conjecture proved — it has been checked for huge numbers but never proved.",
+    "Saying there are 99 two-digit numbers — there are 90 (from 10 to 99)."
+  ],
+  "revision": [
+    "Children say how many neighbours are taller: 0, 1 or 2; the tallest says 0.",
+    "A supercell is bigger than all its neighbouring cells; the largest number is always one.",
+    "There are 9 one-digit, 90 two-digit and 900 three-digit numbers.",
+    "Digit sum of 472 is 4 + 7 + 2 = 13.",
+    "From 1 to 100 the digit 7 is written 20 times.",
+    "A palindrome reads the same both ways: 121, 4554.",
+    "Reverse-and-add: 39 + 93 = 132, 132 + 231 = 363.",
+    "Kaprekar's constant is 6174; 7641 − 1467 = 6174.",
+    "D. R. Kaprekar was an Indian school maths teacher.",
+    "Mental maths: 98 + 47 = 100 + 47 − 2 = 145.",
+    "Estimation gives quick sensible answers and checks exact ones.",
+    "Game of 21 (add 1–3): say 1, 5, 9, 13, 17, 21 to win.",
+    "Collatz: even → halve, odd → × 3 + 1; always reaches 1 (unproved)."
+  ],
+  "faqs": [
+    {
+      "q": "What exactly is a supercell?",
+      "a": "In a table of numbers, a cell is a **supercell** if its number is larger than the numbers in every cell that shares a side with it (left, right, above, below). For example, in the row 25, 61, 40, the cell with 61 is a supercell because 61 > 25 and 61 > 40.",
+      "keywords": ["supercell meaning", "what is supercell", "supercell definition"]
+    },
+    {
+      "q": "Why does Kaprekar's routine always end at 6174?",
+      "a": "Mathematicians have checked every 4-digit number (with digits not all the same), and all of them reach 6174 within 7 steps. Once you reach 6174, the routine gives 7641 − 1467 = 6174 again, so you are stuck there. There are only a limited number of possible answers at each step, and they all funnel into 6174.",
+      "keywords": ["why 6174", "kaprekar always 6174", "kaprekar constant why"]
+    },
+    {
+      "q": "Has anyone proved the Collatz conjecture?",
+      "a": "No. It is still an **unsolved problem**. Computers have tested a gigantic number of starting values and all of them reached 1, but testing examples is not a proof — there could, in principle, be a number that never reaches 1. A proof must show it works for **every** counting number.",
+      "keywords": ["collatz proved", "collatz unsolved", "is collatz true"]
+    },
+    {
+      "q": "How do I always win the game of 21?",
+      "a": "Work backwards. If you say 17, the other player can only reach 18, 19 or 20, and you then say 21. Similarly 13, 9, 5 and 1 are winning numbers (all 4 apart). Go first, say 1, and after every move of your friend's, add enough to make the round total 4 (if they add 1 you add 3, if they add 2 you add 2, if they add 3 you add 1).",
+      "keywords": ["game of 21 strategy", "how to win 21 game", "winning strategy"]
+    },
+    {
+      "q": "What is the difference between estimation and the exact answer?",
+      "a": "An **exact answer** is the precise value, like 49 × 21 = 1029. An **estimate** is a quick, sensible approximation, like 50 × 20 = 1000. Estimates are useful when we only need a rough idea, and for checking that an exact answer is reasonable.",
+      "keywords": ["estimation vs exact", "what is estimation", "estimate meaning"]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Children stand in a line and each says how many of their neighbours are taller. What can a child standing at one END of the line say?",
+      "options": ["Only 0 or 1", "Only 2", "0, 1 or 2", "Only 1"],
+      "answer": 0,
+      "explain": "A child at the end has only one neighbour, so the number of taller neighbours can only be 0 or 1.",
+      "topic": "numbers-tell-things-supercells",
+      "level": "easy"
+    },
+    {
+      "q": "In the row 18, 45, 30, 52, 27, which numbers are in supercells?",
+      "options": ["18 and 30", "45 and 52", "52 only", "30 and 27"],
+      "answer": 1,
+      "explain": "45 > 18 and 45 > 30; 52 > 30 and 52 > 27. The others each have a bigger neighbour.",
+      "topic": "numbers-tell-things-supercells",
+      "level": "medium"
+    },
+    {
+      "q": "How many 3-digit numbers are there?",
+      "options": ["999", "1000", "900", "899"],
+      "answer": 2,
+      "explain": "3-digit numbers run from 100 to 999: 999 − 100 + 1 = 900.",
+      "topic": "number-line-and-digits",
+      "level": "medium"
+    },
+    {
+      "q": "What is the smallest number whose digit sum is 14?",
+      "options": ["77", "95", "149", "59"],
+      "answer": 3,
+      "explain": "A two-digit number is the smallest possible (one digit can be at most 9). To keep it small, the tens digit should be as small as possible: 5 + 9 = 14, so 59.",
+      "topic": "number-line-and-digits",
+      "level": "medium"
+    },
+    {
+      "q": "Which of these is a palindromic number?",
+      "options": ["4554", "4545", "4455", "5454"],
+      "answer": 0,
+      "explain": "4554 reversed is 4554, so it reads the same both ways. 4545 reversed is 5454 and 4455 reversed is 5544.",
+      "topic": "palindromes-clock-calendar",
+      "level": "easy"
+    },
+    {
+      "q": "Using reverse-and-add on 39, which palindrome do you reach?",
+      "options": ["132", "363", "121", "393"],
+      "answer": 1,
+      "explain": "39 + 93 = 132 (not a palindrome); 132 + 231 = 363, which is a palindrome.",
+      "topic": "palindromes-clock-calendar",
+      "level": "medium"
+    },
+    {
+      "q": "Which time on a 12-hour digital clock is a palindrome (ignoring the colon)?",
+      "options": ["12:12", "10:10", "12:21", "11:12"],
+      "answer": 2,
+      "explain": "12:21 → 1221, which reads the same backwards. 12:12 → 1212 reversed is 2121.",
+      "topic": "palindromes-clock-calendar",
+      "level": "easy"
+    },
+    {
+      "q": "What is Kaprekar's constant for 4-digit numbers?",
+      "options": ["1089", "495", "9999", "6174"],
+      "answer": 3,
+      "explain": "Kaprekar's routine on any 4-digit number (digits not all the same) ends at 6174. (495 is the 3-digit version.)",
+      "topic": "kaprekar-6174",
+      "level": "easy"
+    },
+    {
+      "q": "Start Kaprekar's routine with 2111. What is the result of the first step?",
+      "options": ["0999", "1089", "1999", "1000"],
+      "answer": 0,
+      "explain": "Largest arrangement 2111, smallest 1112: 2111 − 1112 = 999, written as 0999 to keep 4 digits. (Next: 9990 − 0999 = 8991, and so on to 6174.)",
+      "topic": "kaprekar-6174",
+      "level": "hard"
+    },
+    {
+      "q": "Which is the best mental-maths way to find 25 + 48 + 75?",
+      "options": ["Add 25 + 48 first, then 75", "Add 25 + 75 = 100 first, then add 48", "Multiply 25 by 3", "Round all to 50"],
+      "answer": 1,
+      "explain": "25 + 75 makes a friendly 100, and 100 + 48 = 148.",
+      "topic": "mental-math-estimation",
+      "level": "easy"
+    },
+    {
+      "q": "In the game where players add 1, 2 or 3 and whoever says 21 wins, which number should you aim to say just before the end?",
+      "options": ["18", "20", "17", "19"],
+      "answer": 2,
+      "explain": "If you say 17, your opponent can only say 18, 19 or 20, and you then reach 21. The winning numbers are 1, 5, 9, 13, 17, 21.",
+      "topic": "games-and-collatz",
+      "level": "medium"
+    },
+    {
+      "q": "Using the Collatz rule (even → halve, odd → × 3 + 1), what comes after 7?",
+      "options": ["3.5", "8", "21", "22"],
+      "answer": 3,
+      "explain": "7 is odd, so multiply by 3 and add 1: 7 × 3 + 1 = 22.",
+      "topic": "games-and-collatz",
+      "level": "medium"
+    }
+  ]
+}

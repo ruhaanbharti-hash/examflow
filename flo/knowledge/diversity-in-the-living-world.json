@@ -1,0 +1,445 @@
+{
+  "id": "c6-sci-diversity",
+  "class": 6,
+  "subject": "science",
+  "name": "Diversity in the Living World",
+  "summary": "Living things around us show huge variety (diversity). We can group plants by stem and size (herbs, shrubs, trees, climbers, creepers), by leaf venation and by root type, and group animals by features like where they live, how they move and what they eat. Plants and animals have special features (adaptations) that suit their habitat, and protecting habitats protects biodiversity.",
+  "topics": [
+    {
+      "id": "diversity-and-grouping",
+      "title": "Diversity and why we group living things",
+      "summary": "Biodiversity is the variety of plants, animals and other living things; grouping them by similarities and differences makes them easier to study.",
+      "simple": "Look around and you'll see many different plants and animals. This variety is called **diversity** or **biodiversity**. To make sense of so many living things, we put those with similar features into groups.",
+      "explain": "On a nature walk you can see grasses, tall trees, flowering bushes, insects, birds, squirrels and much more. Living things differ in **size, shape, colour, where they live, what they eat and how they move**. This wide variety of living things in an area is called **biodiversity**.\n\nTo study such variety, we **observe** carefully and note features, then **group** living things that share features. For example:\n- Plants can be grouped by the kind of stem, height, leaf veins or roots\n- Animals can be grouped by where they live, how they move or what they eat\n\nGrouping depends on the feature we choose. A crow and a bat both fly, but a crow has feathers and lays eggs, while a bat has fur and feeds its young on milk. So the same animals can fall into different groups depending on the feature.\n\nWhen observing, we should be gentle: don't pluck plants unnecessarily, disturb nests or harm small animals. Making a **herbarium** (a collection of dried, pressed leaves on sheets) is a good way to study plants.",
+      "example": "On a walk in a park in Delhi, you might note a neem tree, a rose bush, grass, a money plant climbing a wall, pigeons, butterflies and ants. Writing down features like height, stem and leaf shape helps you group them.",
+      "keyPoints": [
+        "Biodiversity = variety of living things in an area",
+        "Living things differ in size, shape, habitat, food, movement",
+        "We group living things by shared features",
+        "Groups depend on which feature we choose",
+        "Observe without harming plants and animals",
+        "Herbarium = collection of pressed, dried plant parts"
+      ],
+      "keywords": [
+        "diversity",
+        "biodiversity",
+        "variety of living things",
+        "grouping",
+        "classification",
+        "classify",
+        "similarities and differences",
+        "herbarium",
+        "nature walk",
+        "living world"
+      ]
+    },
+    {
+      "id": "grouping-plants",
+      "title": "Grouping plants: herbs, shrubs, trees, climbers and creepers",
+      "summary": "Plants can be grouped by height and stem: herbs (short, soft green stem), shrubs (medium, hard stem branching near the ground), trees (tall, thick woody trunk), and climbers and creepers (weak stems).",
+      "simple": "**Herbs** are small plants with soft green stems, like mint and coriander. **Shrubs** are bushy, medium-sized plants with hard stems that branch near the ground, like rose and lemon. **Trees** are tall with a thick, hard trunk, like mango and neem. Plants with weak stems either **climb** up a support or **creep** along the ground.",
+      "explain": "Based on **height and type of stem**, plants are grouped as:\n\n- **Herbs:** short plants with **soft, green, tender stems**. Examples: mint (pudina), coriander, wheat, grass.\n- **Shrubs:** medium-height plants with **hard, woody stems** that **branch out near the base**. Examples: rose, hibiscus (gudhal), lemon, henna (mehendi).\n- **Trees:** tall plants with a **thick, hard, woody main stem (trunk)**; branches start higher up. Examples: mango, neem, banyan, peepal.\n\nSome plants have **weak stems** that cannot stand upright:\n- **Climbers** use a support (wall, stick, tree) to climb up, often with tendrils. Examples: money plant, pea, grapevine, bottle gourd (lauki) on a trellis.\n- **Creepers** spread along the ground. Examples: pumpkin, watermelon, sweet potato.\n\nThis grouping helps gardeners and farmers too: they know a climber needs a support and a tree needs space to grow.",
+      "example": "In a typical Indian home garden: mint in a pot is a herb, a hibiscus bush is a shrub, the mango tree in the corner is a tree, a money plant climbing up the balcony grill is a climber, and pumpkin spreading on the ground is a creeper.",
+      "keyPoints": [
+        "Herbs: short, soft green stem (mint, coriander, grass)",
+        "Shrubs: medium, hard stem branching near the base (rose, hibiscus, lemon)",
+        "Trees: tall, thick woody trunk, branches higher up (mango, neem)",
+        "Climbers: weak stem, climb with support (money plant, pea)",
+        "Creepers: weak stem, spread on ground (pumpkin, watermelon)"
+      ],
+      "keywords": [
+        "herbs",
+        "shrubs",
+        "trees",
+        "climbers",
+        "creepers",
+        "herbs shrubs trees",
+        "types of plants",
+        "stem",
+        "trunk",
+        "tendrils",
+        "grouping plants"
+      ]
+    },
+    {
+      "id": "leaves-and-roots",
+      "title": "Leaf venation and root types",
+      "summary": "Leaves have either parallel venation or reticulate (net-like) venation; roots are either a taproot or fibrous roots. Plants with reticulate venation usually have taproots, and plants with parallel venation usually have fibrous roots.",
+      "simple": "Hold a leaf up to the light and you'll see lines called **veins**. In some leaves, like grass, the veins run side by side (**parallel venation**). In others, like a mango leaf, they form a net (**reticulate venation**). Roots also come in two kinds: one thick main root with smaller branches (**taproot**) or a bunch of thin roots of similar size (**fibrous roots**).",
+      "explain": "**Leaf venation** is the pattern of veins in a leaf.\n- **Parallel venation:** veins run parallel to each other along the leaf. Examples: grass, wheat, maize, banana, bamboo.\n- **Reticulate venation:** veins form a **net-like** pattern on both sides of a central vein (midrib). Examples: mango, peepal, hibiscus, tulsi.\n\n**Roots** hold the plant in the soil and absorb water and minerals.\n- **Taproot:** one thick **main root** with smaller side roots (lateral roots) coming out of it. Examples: mustard, mango, carrot, radish.\n- **Fibrous roots:** many **thin roots of about the same size** growing from the base of the stem; no main root. Examples: wheat, rice, maize, grass, onion.\n\n**An interesting link:** if you observe many plants, you will find:\n- Reticulate venation → usually **taproot**\n- Parallel venation → usually **fibrous roots**\n\nSo by looking at a leaf, you can usually predict the type of root without digging the plant up!",
+      "example": "Uproot a wheat seedling and a mustard (sarson) seedling. The wheat plant (parallel-veined leaves) has a tuft of thin fibrous roots. The mustard plant (net-veined leaves) has one main taproot with side roots.",
+      "keyPoints": [
+        "Venation = pattern of veins in a leaf",
+        "Parallel venation: grass, wheat, maize, banana",
+        "Reticulate (net-like) venation: mango, peepal, hibiscus",
+        "Taproot: one main root with side roots (mustard, carrot)",
+        "Fibrous roots: many thin similar roots (wheat, rice, grass)",
+        "Reticulate venation ↔ taproot; parallel venation ↔ fibrous roots"
+      ],
+      "keywords": [
+        "venation",
+        "leaf venation",
+        "parallel venation",
+        "reticulate venation",
+        "veins",
+        "midrib",
+        "taproot",
+        "tap root",
+        "fibrous root",
+        "lateral roots",
+        "types of roots",
+        "leaf and root relation"
+      ]
+    },
+    {
+      "id": "grouping-animals",
+      "title": "Grouping animals",
+      "summary": "Animals can be grouped by where they live (land, water, both, air/trees), how they move (walk, fly, swim, crawl, hop) and what they eat.",
+      "simple": "Animals can be put into groups in many ways: by **where they live** (land or water), **how they move** (walking, flying, swimming, crawling, hopping) or **what they eat** (plants, other animals, or both).",
+      "explain": "Just like plants, animals can be grouped by observable features. Common ways are:\n\n**1. Where they live**\n- On land: cow, dog, lion, ant\n- In water: fish, octopus\n- Both land and water: frog, crocodile\n- Mostly on trees or in the air: monkey, squirrel, many birds\n\n**2. How they move**\n- Walk or run: dog, horse\n- Fly: crow, sparrow, bat, butterfly\n- Swim: fish, duck\n- Crawl or slither: snake, earthworm\n- Hop or jump: frog, kangaroo\n\n**3. What they eat**\n- Plants only: cow, goat, deer\n- Other animals: lion, tiger\n- Both plants and animals: crow, bear, humans\n\nOne animal can belong to more than one group. A duck walks, swims and flies. So grouping always depends on the feature you choose. Scientists use many such features together to classify animals properly.",
+      "example": "Group these: sparrow, goldfish, frog, cow. By movement: sparrow flies, goldfish swims, frog hops and swims, cow walks. By habitat: sparrow and cow on land, goldfish in water, frog on both land and water.",
+      "keyPoints": [
+        "Group animals by habitat, movement or food",
+        "Habitat groups: land, water, both",
+        "Movement: walk, fly, swim, crawl, hop",
+        "Food: plants only, animals only, or both",
+        "One animal can fit several groups (duck walks, swims, flies)"
+      ],
+      "keywords": [
+        "grouping animals",
+        "animal groups",
+        "how animals move",
+        "movement",
+        "land animals",
+        "water animals",
+        "plant eaters",
+        "animal eaters",
+        "herbivore",
+        "carnivore",
+        "omnivore"
+      ]
+    },
+    {
+      "id": "habitat-adaptation",
+      "title": "Habitats and adaptations",
+      "summary": "A habitat is the natural home of a living thing; adaptations are special features that help plants and animals survive in their habitat, such as a camel's features for deserts or a deodar's cone shape for snowy mountains.",
+      "simple": "A **habitat** is the place where a plant or animal naturally lives and gets food, water and shelter. Living things have special body features, called **adaptations**, that help them survive there. A camel can live in the hot, dry desert; a fish can breathe in water using gills.",
+      "explain": "A **habitat** is the natural surroundings where a living thing lives and finds food, water, shelter and a place to raise young.\n- **Terrestrial habitats** (on land): deserts, forests, grasslands, mountains\n- **Aquatic habitats** (in water): ponds, rivers, lakes, seas\n\n**Adaptations** are special features or behaviours that help a living thing survive in its habitat.\n\n**Desert (e.g. Thar Desert, Rajasthan):**\n- **Camel:** long legs keep its body away from hot sand; broad, padded feet stop it sinking in sand; it can go a long time without drinking water and loses little water\n- **Cactus:** leaves reduced to **spines** to lose less water; thick, fleshy green stem stores water and makes food; long roots reach deep water\n\n**Mountains (e.g. Himalayas):**\n- **Deodar and pine trees:** **cone-shaped** with sloping branches so snow slides off; needle-like leaves\n- **Yak and mountain goats:** thick hair or fur for warmth; strong hooves for rocky slopes\n\n**Water:**\n- **Fish:** streamlined body, fins and tail for swimming, **gills** to breathe oxygen dissolved in water\n- **Lotus and water lily:** broad floating leaves with a waxy coat\n\nAn animal adapted to one habitat usually cannot survive in a very different one: a fish dies out of water, and a camel would struggle in snowy mountains.",
+      "example": "Compare a camel in Jaisalmer with a yak in Ladakh. The camel has padded feet and stores fat in its hump for long desert trips; the yak has long, thick hair to survive freezing cold. Each is adapted to its own habitat.",
+      "keyPoints": [
+        "Habitat = natural home providing food, water, shelter",
+        "Terrestrial (land) and aquatic (water) habitats",
+        "Adaptation = feature that helps survival in a habitat",
+        "Camel: long legs, padded feet, can go long without water",
+        "Cactus: spines instead of leaves, fleshy stem stores water",
+        "Deodar/pine: cone shape so snow slides off",
+        "Fish: streamlined body, fins, gills"
+      ],
+      "keywords": [
+        "habitat",
+        "adaptation",
+        "adaptations",
+        "desert",
+        "camel",
+        "cactus",
+        "spines",
+        "mountain",
+        "deodar",
+        "pine",
+        "yak",
+        "fish gills",
+        "aquatic",
+        "terrestrial"
+      ]
+    },
+    {
+      "id": "conservation",
+      "title": "Why habitats and biodiversity must be protected",
+      "summary": "Destroying habitats by cutting forests, pollution and other human activities threatens plants and animals; protecting habitats, such as through sacred groves, protects biodiversity.",
+      "simple": "When forests are cut or rivers polluted, plants and animals lose their homes and food, and some may disappear forever. Protecting habitats keeps the variety of life safe. In many parts of India, people protect patches of forest called **sacred groves**.",
+      "explain": "Every living thing depends on its habitat and on other living things. Bees need flowers; many birds need trees; we need plants for food and oxygen.\n\nHuman activities that harm habitats:\n- Cutting down forests (deforestation)\n- Pollution of air, water and soil\n- Building on wetlands and grasslands\n- Hunting and overuse of plants and animals\n\nWhen a habitat is damaged, plants and animals lose their **homes, food and shelter**, and **biodiversity decreases**. Some species can disappear completely.\n\nWays we can help:\n- Protect forests, wetlands and other habitats\n- Plant native trees; avoid wasting paper and water\n- Don't disturb nests or pluck plants needlessly\n- Support protected areas like national parks and wildlife sanctuaries\n\n**Sacred groves** are patches of forest that local communities protect because they consider them sacred. In them, cutting trees or hunting is not allowed, so they have preserved many plants and animals for generations. They are found in states like Meghalaya, Kerala, Rajasthan and Maharashtra.",
+      "example": "The sacred groves of Meghalaya (such as Mawphlang) have been protected by local communities for centuries and are home to rare plants and animals that have disappeared from many nearby areas.",
+      "keyPoints": [
+        "Living things depend on their habitat and on each other",
+        "Deforestation and pollution destroy habitats",
+        "Habitat loss reduces biodiversity",
+        "Sacred groves: forests protected by local communities",
+        "We can help by protecting habitats and planting native trees"
+      ],
+      "keywords": [
+        "conservation",
+        "protect biodiversity",
+        "habitat loss",
+        "deforestation",
+        "pollution",
+        "sacred groves",
+        "save forests",
+        "endangered",
+        "national park",
+        "wildlife sanctuary"
+      ]
+    }
+  ],
+  "keyConcepts": [
+    {
+      "term": "Biodiversity",
+      "meaning": "The variety of plants, animals and other living things found in an area."
+    },
+    {
+      "term": "Herb",
+      "meaning": "A small plant with a soft, green stem (e.g. mint, coriander)."
+    },
+    {
+      "term": "Shrub",
+      "meaning": "A medium-sized plant with a hard stem that branches near the ground (e.g. rose, hibiscus)."
+    },
+    {
+      "term": "Tree",
+      "meaning": "A tall plant with a thick, hard, woody trunk and branches higher up (e.g. mango, neem)."
+    },
+    {
+      "term": "Climber / Creeper",
+      "meaning": "Plants with weak stems; climbers grow up a support, creepers spread on the ground."
+    },
+    {
+      "term": "Venation",
+      "meaning": "The pattern of veins on a leaf — parallel or reticulate (net-like)."
+    },
+    {
+      "term": "Taproot",
+      "meaning": "A root system with one thick main root and smaller side roots."
+    },
+    {
+      "term": "Fibrous roots",
+      "meaning": "Many thin roots of similar size growing from the base of the stem."
+    },
+    {
+      "term": "Habitat",
+      "meaning": "The natural home of a living thing, where it gets food, water and shelter."
+    },
+    {
+      "term": "Adaptation",
+      "meaning": "A special feature or behaviour that helps a living thing survive in its habitat."
+    },
+    {
+      "term": "Sacred grove",
+      "meaning": "A patch of forest protected by a local community because it is considered sacred."
+    }
+  ],
+  "formulas": [],
+  "commonMistakes": [
+    "Confusing shrubs and trees — shrubs branch near the ground; trees have a clear trunk with branches higher up.",
+    "Mixing up the venation–root link: reticulate goes with taproot, parallel goes with fibrous roots.",
+    "Thinking cactus spines are thorns on top of leaves — the spines ARE the leaves, reduced to save water.",
+    "Thinking a camel stores water in its hump — the hump stores fat.",
+    "Assuming an animal belongs to only one group — grouping depends on the feature chosen.",
+    "Thinking adaptations can be developed by one animal overnight — they are features a species has over a long time."
+  ],
+  "revision": [
+    "Biodiversity = variety of living things in an area.",
+    "Herbs: soft green stem; shrubs: hard stem, branching near base; trees: thick trunk.",
+    "Climbers need support (money plant); creepers spread on the ground (pumpkin).",
+    "Parallel venation: grass, wheat, banana. Reticulate venation: mango, peepal.",
+    "Taproot: main root + side roots (mustard, carrot). Fibrous: many thin roots (wheat, rice).",
+    "Reticulate venation → taproot; parallel venation → fibrous roots.",
+    "Animals can be grouped by habitat, movement or food.",
+    "Habitat = natural home; terrestrial (land) or aquatic (water).",
+    "Adaptation = feature that helps survival in a habitat.",
+    "Camel: long legs, padded feet, survives long without water. Cactus: spines, fleshy stem.",
+    "Deodar/pine: cone shape lets snow slide off.",
+    "Fish: streamlined body, fins, gills.",
+    "Habitat loss reduces biodiversity; sacred groves protect forests."
+  ],
+  "faqs": [
+    {
+      "q": "What is the difference between a herb, a shrub and a tree?",
+      "a": "- **Herb:** short, soft green stem (mint, coriander)\n- **Shrub:** medium height, hard woody stem that branches near the ground (rose, hibiscus)\n- **Tree:** tall, thick hard trunk with branches high up (mango, neem)",
+      "keywords": [
+        "herb shrub tree difference",
+        "difference herbs shrubs trees"
+      ]
+    },
+    {
+      "q": "What is the difference between a taproot and fibrous roots?",
+      "a": "A **taproot** has one thick main root with smaller side roots (mustard, carrot). **Fibrous roots** are a bunch of thin roots of similar size with no main root (wheat, rice, grass). Plants with net-veined leaves usually have taproots; plants with parallel-veined leaves usually have fibrous roots.",
+      "keywords": [
+        "taproot vs fibrous",
+        "difference taproot fibrous root"
+      ]
+    },
+    {
+      "q": "How can I tell the root type just by looking at the leaf?",
+      "a": "Look at the veins. **Net-like (reticulate)** veins usually mean the plant has a **taproot**. **Parallel** veins usually mean it has **fibrous roots**.",
+      "keywords": [
+        "leaf and root relation",
+        "venation root link"
+      ]
+    },
+    {
+      "q": "What is the difference between a habitat and an adaptation?",
+      "a": "A **habitat** is the place where a living thing naturally lives (desert, pond, mountain). An **adaptation** is a feature that helps it survive in that place (a camel's padded feet, a fish's gills).",
+      "keywords": [
+        "habitat vs adaptation",
+        "habitat adaptation difference"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "The variety of living things in an area is called:",
+      "options": [
+        "Biodiversity",
+        "Habitat",
+        "Adaptation",
+        "Venation"
+      ],
+      "answer": 0,
+      "explain": "Biodiversity means the variety of plants, animals and other living things.",
+      "topic": "diversity-and-grouping",
+      "level": "easy"
+    },
+    {
+      "q": "A rose plant, with a hard stem that branches near the ground, is a:",
+      "options": [
+        "Herb",
+        "Shrub",
+        "Tree",
+        "Creeper"
+      ],
+      "answer": 1,
+      "explain": "Shrubs have hard stems that branch close to the base.",
+      "topic": "grouping-plants",
+      "level": "easy"
+    },
+    {
+      "q": "Which plant is a climber?",
+      "options": [
+        "Mango",
+        "Pumpkin",
+        "Money plant",
+        "Coriander"
+      ],
+      "answer": 2,
+      "explain": "Money plant has a weak stem and climbs up a support. Pumpkin is a creeper.",
+      "topic": "grouping-plants",
+      "level": "easy"
+    },
+    {
+      "q": "Which leaf has parallel venation?",
+      "options": [
+        "Mango",
+        "Peepal",
+        "Hibiscus",
+        "Grass"
+      ],
+      "answer": 3,
+      "explain": "Grass leaves have veins running parallel; the others are net-veined.",
+      "topic": "leaves-and-roots",
+      "level": "easy"
+    },
+    {
+      "q": "A plant has leaves with net-like veins. Its roots are most likely:",
+      "options": [
+        "A taproot",
+        "Fibrous roots",
+        "No roots",
+        "Floating roots"
+      ],
+      "answer": 0,
+      "explain": "Reticulate venation usually goes with a taproot.",
+      "topic": "leaves-and-roots",
+      "level": "medium"
+    },
+    {
+      "q": "Which plant has fibrous roots?",
+      "options": [
+        "Carrot",
+        "Wheat",
+        "Mustard",
+        "Radish"
+      ],
+      "answer": 1,
+      "explain": "Wheat has many thin roots of similar size; the others have taproots.",
+      "topic": "leaves-and-roots",
+      "level": "medium"
+    },
+    {
+      "q": "Which animal can live both on land and in water?",
+      "options": [
+        "Goldfish",
+        "Cow",
+        "Frog",
+        "Sparrow"
+      ],
+      "answer": 2,
+      "explain": "Frogs live both on land and in water.",
+      "topic": "grouping-animals",
+      "level": "easy"
+    },
+    {
+      "q": "A duck can walk, swim and fly. This shows that:",
+      "options": [
+        "Ducks are not animals",
+        "Grouping animals is impossible",
+        "Ducks live only in water",
+        "One animal can belong to more than one group"
+      ],
+      "answer": 3,
+      "explain": "Which group an animal is placed in depends on the feature chosen.",
+      "topic": "grouping-animals",
+      "level": "medium"
+    },
+    {
+      "q": "In a cactus, the leaves are changed into spines mainly to:",
+      "options": [
+        "Reduce loss of water",
+        "Catch insects",
+        "Make the plant grow taller",
+        "Absorb water from the air"
+      ],
+      "answer": 0,
+      "explain": "Spines have very little surface, so the cactus loses less water in the desert.",
+      "topic": "habitat-adaptation",
+      "level": "medium"
+    },
+    {
+      "q": "Why are deodar and pine trees cone-shaped with sloping branches?",
+      "options": [
+        "To store water",
+        "So that snow slides off easily",
+        "To attract birds",
+        "To grow faster in deserts"
+      ],
+      "answer": 1,
+      "explain": "The cone shape and sloping branches stop heavy snow from piling up and breaking branches.",
+      "topic": "habitat-adaptation",
+      "level": "medium"
+    },
+    {
+      "q": "Which feature helps a camel walk on sand?",
+      "options": [
+        "Gills",
+        "Thick fur",
+        "Broad, padded feet",
+        "Webbed feet"
+      ],
+      "answer": 2,
+      "explain": "Broad padded feet spread the camel's weight so it doesn't sink into the sand.",
+      "topic": "habitat-adaptation",
+      "level": "hard"
+    },
+    {
+      "q": "Sacred groves help protect biodiversity because:",
+      "options": [
+        "They are used for farming",
+        "They are cleared to build houses",
+        "Animals are hunted there",
+        "Local communities do not allow trees to be cut there"
+      ],
+      "answer": 3,
+      "explain": "Communities protect sacred groves, so the plants and animals there stay safe.",
+      "topic": "conservation",
+      "level": "hard"
+    }
+  ]
+}

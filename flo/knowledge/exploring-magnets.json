@@ -1,0 +1,406 @@
+{
+  "id": "c6-sci-magnets",
+  "class": 6,
+  "subject": "science",
+  "name": "Exploring Magnets",
+  "summary": "Magnets attract materials like iron, nickel and cobalt (magnetic materials) but not wood, plastic or rubber (non-magnetic materials). Every magnet has a north and a south pole where attraction is strongest. A freely suspended magnet always comes to rest pointing north–south, which is how a compass works. Like poles repel and unlike poles attract. Magnets have many uses and must be handled and stored carefully.",
+  "topics": [
+    {
+      "id": "magnetic-materials",
+      "title": "Magnets and magnetic materials",
+      "summary": "A magnet attracts magnetic materials such as iron, nickel and cobalt; materials it does not attract, like wood, plastic and glass, are non-magnetic.",
+      "simple": "A **magnet** pulls certain things towards itself. Things made of **iron**, **nickel** or **cobalt** are pulled — these are **magnetic materials**. Things like wood, plastic, paper, rubber and glass are not pulled — they are **non-magnetic materials**.",
+      "explain": "According to a popular story, long ago a shepherd named **Magnes** in ancient Greece found that the iron tip of his stick and the nails of his shoes stuck to a certain rock. That rock was **magnetite**, a **natural magnet**. Today we mostly use **artificial magnets** made in factories, in shapes such as:\n- Bar magnet\n- Horseshoe (U-shaped) magnet\n- Ring magnet\n- Cylindrical and button (disc) magnets\n\n**Magnetic materials** are attracted by a magnet: **iron, nickel, cobalt** and things containing them, such as **steel** (which is mostly iron). Iron nails, pins, steel spoons and paper clips are attracted.\n\n**Non-magnetic materials** are not attracted: wood, plastic, rubber, paper, cloth, glass, leather, and also many metals such as **aluminium, copper, gold and silver**. So not every metal is magnetic!\n\nA magnet can also attract magnetic objects **through** non-magnetic materials like paper, cardboard, wood, glass or water. That's how a magnet can move a pin on top of a sheet of paper from below.",
+      "example": "If you spill pins on the floor, you can sweep a magnet over the area to collect them. It will pick up the steel pins but leave behind bits of paper, plastic and aluminium foil.",
+      "keyPoints": [
+        "Magnetite is a natural magnet",
+        "Artificial magnets: bar, horseshoe, ring, cylindrical, button",
+        "Magnetic materials: iron, nickel, cobalt (and steel)",
+        "Non-magnetic: wood, plastic, rubber, glass, paper",
+        "Not all metals are magnetic: aluminium, copper, gold aren't",
+        "Magnets can attract through paper, glass, water"
+      ],
+      "keywords": [
+        "magnet",
+        "magnets",
+        "magnetic materials",
+        "non-magnetic materials",
+        "magnetite",
+        "magnes",
+        "natural magnet",
+        "artificial magnet",
+        "bar magnet",
+        "horseshoe magnet",
+        "ring magnet",
+        "iron nickel cobalt"
+      ]
+    },
+    {
+      "id": "poles",
+      "title": "Poles of a magnet",
+      "summary": "The attracting power of a magnet is strongest at its two ends, called poles: the north pole and the south pole. Every magnet has both, even when broken.",
+      "simple": "Roll a bar magnet in iron filings and you'll see most filings stick at the **two ends**. These ends are called the **poles**, where the magnet is strongest. One is the **north pole** and the other is the **south pole**. Every magnet always has both.",
+      "explain": "If you spread **iron filings** on paper and roll a bar magnet in them, the filings gather mostly near the **two ends**, and very few stick to the middle. The places where the attraction is strongest are called the **poles** of the magnet.\n\n- Every magnet has **two poles**: a **north pole (N)** and a **south pole (S)**\n- Poles always come in **pairs**. If you break a bar magnet into two pieces, each piece becomes a complete magnet with its own north and south pole. You can never get a magnet with just one pole.\n- The poles of a horseshoe magnet are at its two open ends; a ring or disc magnet has its poles on its two flat faces.\n\nThe pole that points towards the geographic north when the magnet hangs freely is called the **north-seeking pole** or simply the **north pole**. The other is the south pole.",
+      "example": "Dip a horseshoe magnet into a box of steel pins: pins cling in a bunch at the two tips of the U, but hardly any stick to the curved middle.",
+      "keyPoints": [
+        "Poles = ends of a magnet where attraction is strongest",
+        "Every magnet has a north pole and a south pole",
+        "Iron filings collect mostly at the poles",
+        "Poles always exist in pairs",
+        "A broken magnet gives two complete magnets"
+      ],
+      "keywords": [
+        "poles",
+        "poles of magnet",
+        "north pole",
+        "south pole",
+        "iron filings",
+        "broken magnet",
+        "strongest part of magnet",
+        "north seeking pole"
+      ]
+    },
+    {
+      "id": "direction-and-compass",
+      "title": "Finding directions: magnets and the compass",
+      "summary": "A freely suspended bar magnet always comes to rest along the north–south direction. A compass uses a small magnetised needle to show direction, and you can make one by magnetising a needle.",
+      "simple": "If you hang a bar magnet from a thread so it can turn freely, it always stops pointing **north and south**. A **compass** uses a tiny magnet (needle) to show directions. You can even make your own compass with a needle, a magnet, a cork and a bowl of water.",
+      "explain": "Tie a thread around the middle of a bar magnet and hang it so it can turn freely (away from iron objects). Whichever way you start it, it always comes to rest pointing in the **north–south direction**. The end pointing north is the north pole.\n\nThis happens because the **Earth itself behaves like a huge magnet**. Travellers and sailors have used this property for hundreds of years to find directions.\n\n**The compass** is a small box with a magnetised needle that can turn freely on a pivot. The needle's north end is usually painted red. To use it, place it flat and turn the box until the needle lines up with the N–S marks on the dial.\n\n**Making your own compass:**\n1. Take an iron needle and a bar magnet\n2. Place one pole of the magnet at one end of the needle and **stroke along the needle to the other end**\n3. Lift the magnet away, bring it back to the **same starting end** and repeat about 30–40 times, always in the **same direction** with the **same pole**\n4. The needle becomes a magnet (check: it now picks up a pin)\n5. Push it through a small piece of cork or place it on a leaf, and float it in a bowl of water. It turns to point north–south.",
+      "example": "Fishermen, trekkers and soldiers use compasses where there are no landmarks, such as at sea or in thick forests. Many mobile phones also have a digital compass inside.",
+      "keyPoints": [
+        "A freely suspended magnet rests in the north–south direction",
+        "Earth behaves like a giant magnet",
+        "A compass has a freely turning magnetised needle",
+        "Magnetise a needle by stroking it 30–40 times in one direction with one pole",
+        "A magnetised needle on cork floating in water acts as a compass",
+        "Keep iron objects away when using a compass"
+      ],
+      "keywords": [
+        "compass",
+        "magnetic compass",
+        "make a compass",
+        "freely suspended magnet",
+        "north south direction",
+        "finding directions",
+        "magnetise needle",
+        "stroking method",
+        "earth as magnet",
+        "navigation"
+      ]
+    },
+    {
+      "id": "attraction-repulsion",
+      "title": "Attraction and repulsion",
+      "summary": "Unlike poles (N and S) attract each other; like poles (N–N or S–S) repel. Repulsion is the sure test of whether an object is a magnet.",
+      "simple": "Bring two magnets close. If a **north pole** faces a **south pole**, they pull together (**attract**). If two north poles or two south poles face each other, they push apart (**repel**). Opposites attract, likes repel.",
+      "explain": "When two magnets are brought near each other:\n- **Unlike poles attract:** N and S pull towards each other\n- **Like poles repel:** N and N, or S and S, push each other away\n\nYou can feel the push of repulsion if you try to force two like poles together. Placing two ring magnets with like poles facing on a pencil makes the top one **float** in the air!\n\n**How do you know if something is a magnet?**\n- **Attraction is not enough:** a magnet attracts a plain iron bar, and an iron bar is attracted to a magnet, from either end. So attraction can't tell you which one is the magnet.\n- **Repulsion is the sure test:** only a magnet can repel another magnet. If one end of an object pushes away a pole of a known magnet, the object must be a magnet.\n\n**Finding an unknown pole:** bring the known north pole of a magnet near the end of another magnet. If they repel, that end is also a north pole; if they attract, it is a south pole.",
+      "example": "Two toy cars with bar magnets fixed on them: if the facing ends are N and S, one car pulls the other; if the facing ends are both N, one car pushes the other away without touching it.",
+      "keyPoints": [
+        "Unlike poles attract (N–S)",
+        "Like poles repel (N–N, S–S)",
+        "Repulsion is the sure test of a magnet",
+        "Iron is attracted by both poles, so attraction alone doesn't prove magnetism",
+        "Use a known pole to identify an unknown pole"
+      ],
+      "keywords": [
+        "attraction",
+        "repulsion",
+        "like poles repel",
+        "unlike poles attract",
+        "opposite poles attract",
+        "sure test for magnet",
+        "test of magnet",
+        "identify poles",
+        "floating magnets"
+      ]
+    },
+    {
+      "id": "uses-and-care",
+      "title": "Uses of magnets and how to take care of them",
+      "summary": "Magnets are used in compasses, fridge doors, toys, pencil boxes, speakers and cranes; they lose magnetism if heated, hammered or dropped, so they are stored with keepers or in pairs with unlike poles together.",
+      "simple": "Magnets are used in many things: refrigerator doors, pencil boxes, toys, speakers, compasses and big cranes that lift scrap iron. Magnets can become weak if you **heat**, **hammer** or **drop** them, so keep them carefully and away from phones and computers.",
+      "explain": "**Uses of magnets**\n- Compass for finding direction\n- Refrigerator doors and magnetic pencil boxes (keep them shut)\n- Fridge magnets, magnetic toys and games\n- Speakers, earphones and some electric motors\n- Large **electromagnet cranes** to lift and separate iron scrap\n- Separating iron pieces from waste or from grain\n- Mechanics use magnetised screwdrivers so screws don't fall\n\n**Magnets lose their magnetism if they are:**\n- Heated\n- Hammered\n- Dropped from a height again and again\n\n**Storing magnets properly**\n- Keep **bar magnets in pairs** with **unlike poles on the same side** (N next to S), separated by a piece of wood, with two pieces of **soft iron (keepers)** placed across their ends\n- Keep a **horseshoe magnet** with a keeper (iron piece) across its poles\n- Keep magnets **away from** mobile phones, computers, TVs, music systems, credit/debit cards and CDs, because magnets can damage them",
+      "example": "In a scrapyard, a big crane with a powerful magnet picks up a pile of iron and steel junk, leaving plastic and wood behind, and drops it elsewhere when the magnet is switched off.",
+      "keyPoints": [
+        "Uses: compass, fridge doors, pencil boxes, speakers, toys, cranes",
+        "Heating, hammering or dropping weakens a magnet",
+        "Store bar magnets in pairs, unlike poles together, with keepers",
+        "Horseshoe magnet: keep a keeper across its poles",
+        "Keep magnets away from phones, computers, cards"
+      ],
+      "keywords": [
+        "uses of magnets",
+        "care of magnets",
+        "storing magnets",
+        "keepers",
+        "magnetic keeper",
+        "lose magnetism",
+        "electromagnet crane",
+        "fridge magnet",
+        "magnets in daily life"
+      ]
+    }
+  ],
+  "keyConcepts": [
+    {
+      "term": "Magnet",
+      "meaning": "An object that attracts iron, nickel and cobalt and has a north and a south pole."
+    },
+    {
+      "term": "Magnetite",
+      "meaning": "A natural rock that behaves like a magnet."
+    },
+    {
+      "term": "Magnetic materials",
+      "meaning": "Materials attracted by a magnet, such as iron, nickel, cobalt and steel."
+    },
+    {
+      "term": "Non-magnetic materials",
+      "meaning": "Materials not attracted by a magnet, such as wood, plastic, glass, rubber, aluminium and copper."
+    },
+    {
+      "term": "Poles",
+      "meaning": "The two ends of a magnet where its attraction is strongest: north (N) and south (S)."
+    },
+    {
+      "term": "North-seeking pole",
+      "meaning": "The pole of a freely suspended magnet that points towards the north."
+    },
+    {
+      "term": "Compass",
+      "meaning": "A device with a freely turning magnetised needle used to find directions."
+    },
+    {
+      "term": "Attraction",
+      "meaning": "Pulling together — happens between unlike poles, and between a magnet and a magnetic material."
+    },
+    {
+      "term": "Repulsion",
+      "meaning": "Pushing apart — happens only between like poles of two magnets."
+    },
+    {
+      "term": "Keeper",
+      "meaning": "A piece of soft iron placed across the poles of stored magnets to help them keep their magnetism."
+    }
+  ],
+  "formulas": [],
+  "commonMistakes": [
+    "Thinking all metals are magnetic — aluminium, copper, gold and silver are not.",
+    "Using attraction to prove something is a magnet — repulsion is the only sure test.",
+    "Thinking a broken magnet has only one pole in each piece — each piece gets both N and S.",
+    "Stroking the needle back and forth when making a magnet — always stroke in one direction with the same pole.",
+    "Storing bar magnets with like poles together — store with unlike poles side by side and keepers at the ends.",
+    "Thinking the middle of a bar magnet is the strongest part — the poles are."
+  ],
+  "revision": [
+    "Magnetite is a natural magnet; most magnets we use are artificial.",
+    "Magnetic materials: iron, nickel, cobalt, steel.",
+    "Non-magnetic: wood, plastic, glass, rubber, paper, aluminium, copper.",
+    "Magnets attract through paper, glass, wood and water.",
+    "Attraction is strongest at the poles (ends).",
+    "Every magnet has N and S poles; breaking it gives two complete magnets.",
+    "A freely suspended magnet rests pointing north–south.",
+    "A compass uses a freely turning magnetised needle.",
+    "Make a magnet: stroke an iron needle 30–40 times in one direction with one pole.",
+    "Unlike poles attract; like poles repel.",
+    "Repulsion is the sure test of a magnet.",
+    "Heating, hammering and dropping weaken magnets.",
+    "Store magnets with keepers; keep them away from phones, computers and cards."
+  ],
+  "faqs": [
+    {
+      "q": "Why is repulsion, and not attraction, the sure test of a magnet?",
+      "a": "A magnet attracts an ordinary iron object too, so if two objects attract, one of them might just be iron. But **repulsion only happens between two magnets** (like poles). So if an object repels a pole of a magnet, it must be a magnet.",
+      "keywords": [
+        "sure test magnet",
+        "why repulsion",
+        "attraction vs repulsion"
+      ]
+    },
+    {
+      "q": "Are all metals magnetic?",
+      "a": "No. Only iron, nickel, cobalt and materials containing them (like steel) are magnetic. Metals such as aluminium, copper, brass, gold and silver are not attracted by a magnet.",
+      "keywords": [
+        "all metals magnetic",
+        "aluminium magnetic",
+        "copper magnetic"
+      ]
+    },
+    {
+      "q": "What happens if you break a bar magnet into two?",
+      "a": "Each piece becomes a complete, smaller magnet with its own north and south pole. You can't get a magnet with only one pole.",
+      "keywords": [
+        "broken magnet",
+        "cut magnet",
+        "single pole"
+      ]
+    },
+    {
+      "q": "How can I find which end of a magnet is north if it isn't marked?",
+      "a": "Hang it freely from a thread. The end that points north is its north pole. Or bring it near the marked north pole of another magnet: if they **repel**, it's a north pole; if they **attract**, it's a south pole.",
+      "keywords": [
+        "find north pole",
+        "identify poles",
+        "unmarked magnet"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Which of these is a magnetic material?",
+      "options": [
+        "Iron",
+        "Copper",
+        "Plastic",
+        "Aluminium"
+      ],
+      "answer": 0,
+      "explain": "Iron is attracted by a magnet; copper and aluminium are non-magnetic metals.",
+      "topic": "magnetic-materials",
+      "level": "easy"
+    },
+    {
+      "q": "Magnetite is:",
+      "options": [
+        "An artificial magnet",
+        "A natural magnet",
+        "A non-magnetic metal",
+        "A type of compass"
+      ],
+      "answer": 1,
+      "explain": "Magnetite is a rock that naturally behaves like a magnet.",
+      "topic": "magnetic-materials",
+      "level": "easy"
+    },
+    {
+      "q": "When a bar magnet is rolled in iron filings, most filings stick:",
+      "options": [
+        "In the middle",
+        "Evenly all over",
+        "Near the two ends",
+        "Nowhere"
+      ],
+      "answer": 2,
+      "explain": "Attraction is strongest at the poles, which are near the ends.",
+      "topic": "poles",
+      "level": "easy"
+    },
+    {
+      "q": "A bar magnet is broken into two pieces. Each piece will have:",
+      "options": [
+        "Only a north pole",
+        "Only a south pole",
+        "No poles",
+        "Both a north and a south pole"
+      ],
+      "answer": 3,
+      "explain": "Poles always come in pairs; each piece becomes a complete magnet.",
+      "topic": "poles",
+      "level": "medium"
+    },
+    {
+      "q": "A freely suspended bar magnet always comes to rest pointing:",
+      "options": [
+        "North–south",
+        "East–west",
+        "Up–down",
+        "In any random direction"
+      ],
+      "answer": 0,
+      "explain": "This property is used in a compass.",
+      "topic": "direction-and-compass",
+      "level": "easy"
+    },
+    {
+      "q": "To magnetise an iron needle with a bar magnet, you should stroke it:",
+      "options": [
+        "Back and forth quickly",
+        "From one end to the other in the same direction, using the same pole",
+        "Only in the middle",
+        "Using both poles alternately"
+      ],
+      "answer": 1,
+      "explain": "Stroking repeatedly in one direction with one pole turns the needle into a magnet.",
+      "topic": "direction-and-compass",
+      "level": "medium"
+    },
+    {
+      "q": "What happens when the north pole of one magnet is brought near the north pole of another?",
+      "options": [
+        "They attract",
+        "Nothing happens",
+        "They repel",
+        "They lose magnetism"
+      ],
+      "answer": 2,
+      "explain": "Like poles repel each other.",
+      "topic": "attraction-repulsion",
+      "level": "easy"
+    },
+    {
+      "q": "Which is the sure test to find out whether an iron bar is a magnet?",
+      "options": [
+        "It attracts a magnet",
+        "It is shiny",
+        "It is heavy",
+        "It repels one pole of a known magnet"
+      ],
+      "answer": 3,
+      "explain": "Only a magnet can repel another magnet; plain iron is attracted by both poles.",
+      "topic": "attraction-repulsion",
+      "level": "medium"
+    },
+    {
+      "q": "End X of a magnet attracts the north pole of a compass needle. End X is a:",
+      "options": [
+        "South pole",
+        "North pole",
+        "Non-magnetic end",
+        "Middle point"
+      ],
+      "answer": 0,
+      "explain": "Unlike poles attract, so X must be a south pole.",
+      "topic": "attraction-repulsion",
+      "level": "hard"
+    },
+    {
+      "q": "Which of these can make a magnet lose its magnetism?",
+      "options": [
+        "Keeping it with a keeper",
+        "Hammering or heating it",
+        "Storing it in a wooden box",
+        "Wrapping it in paper"
+      ],
+      "answer": 1,
+      "explain": "Heating, hammering and repeated dropping weaken magnets.",
+      "topic": "uses-and-care",
+      "level": "medium"
+    },
+    {
+      "q": "The correct way to store two bar magnets is:",
+      "options": [
+        "Like poles together, touching",
+        "Thrown loosely in a drawer with keys",
+        "Unlike poles on the same side, separated by wood, with soft iron keepers at the ends",
+        "Next to a mobile phone"
+      ],
+      "answer": 2,
+      "explain": "Pairs with unlike poles together and keepers help magnets keep their strength.",
+      "topic": "uses-and-care",
+      "level": "hard"
+    },
+    {
+      "q": "A magnet held under a sheet of paper can still move a pin on top of it. This shows that:",
+      "options": [
+        "Paper is a magnetic material",
+        "The pin is non-magnetic",
+        "Magnets only work through air",
+        "A magnet can attract through non-magnetic materials"
+      ],
+      "answer": 3,
+      "explain": "Magnetic attraction acts through paper, glass, wood and water.",
+      "topic": "magnetic-materials",
+      "level": "hard"
+    }
+  ]
+}

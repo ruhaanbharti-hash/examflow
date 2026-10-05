@@ -1,0 +1,326 @@
+{
+  "id": "c6-math-other-side-of-zero",
+  "class": 6,
+  "subject": "mathematics",
+  "name": "The Other Side of Zero",
+  "summary": "This chapter introduces negative numbers and integers. Using a building with floors both above and below the ground floor (Bela's Building of Fun), you see numbers on both sides of zero, learn to compare them on a number line, and add and subtract them. A token model with positive and negative tokens and 'zero pairs' gives another way to add and subtract. You then meet integers in daily life (bank credits and debits, heights above and below sea level, temperatures below zero) and learn how Indian and Chinese mathematicians worked with negative numbers long before Europe accepted them.",
+  "topics": [
+    {
+      "id": "lift-model",
+      "title": "Bela's Building of Fun and the idea of integers",
+      "summary": "In a building with floors above and below the ground floor, floors above are positive numbers, floors below are negative numbers, and the ground floor is 0; together these whole numbers and their negatives are the integers.",
+      "simple": "Imagine a building where the ground floor is **0**, the floors above are **+1, +2, +3…**, and the basement floors below are **−1, −2, −3…**. The numbers below zero are **negative numbers**. All these whole numbers, positive, negative and zero, are called **integers**.",
+      "explain": "Bela visits a **Building of Fun** that has floors above the ground and floors below it.\n- The **ground floor** is numbered **0**.\n- Floors above are **+1, +2, +3, …** (positive numbers).\n- Floors below are **−1, −2, −3, …** (negative numbers), read as 'negative one', 'negative two' and so on.\n\nThe lift has buttons like **+3** (go up 3 floors) and **−2** (go down 2 floors). A '+' button means move up; a '−' button means move down.\n\nSo a number like −2 can mean two things:\n- a **position** (floor −2, two floors below ground), or\n- a **movement** (go down 2 floors).\n\n**Integers** are the numbers\n- …, −3, −2, −1, 0, +1, +2, +3, …\n\nThey include the positive whole numbers, zero and the negative whole numbers. Fractions like ½ are not integers.\n\n**Zero is special:** it is **neither positive nor negative**. It is the reference point, like the ground floor, that separates the positives from the negatives.\n\nPositive numbers are often written without the '+' sign: 5 means +5.",
+      "example": "Bela is on floor +2 and presses −5. She goes down 5 floors: +2 → +1 → 0 → −1 → −2 → −3. She reaches floor **−3**, three floors below the ground. In symbols: (+2) + (−5) = −3.",
+      "keyPoints": [
+        "Ground floor = 0; floors above positive; floors below negative",
+        "'+n' button = go up n floors; '−n' button = go down n floors",
+        "Integers: …, −3, −2, −1, 0, 1, 2, 3, …",
+        "Zero is neither positive nor negative",
+        "A negative number can show a position or a movement",
+        "Fractions are not integers"
+      ],
+      "keywords": [
+        "negative numbers",
+        "integers",
+        "positive numbers",
+        "bela's building of fun",
+        "building of fun",
+        "lift",
+        "elevator",
+        "basement",
+        "ground floor",
+        "zero",
+        "below zero",
+        "other side of zero"
+      ]
+    },
+    {
+      "id": "number-line-compare",
+      "title": "Integers on the number line, comparing and inverses",
+      "summary": "On a number line, negatives lie to the left of 0 and positives to the right; a number further right is greater, so −2 > −5. Each integer has an inverse (opposite) at the same distance on the other side of 0, and their sum is 0.",
+      "simple": "Turn the building on its side and you get a **number line**: zero in the middle, positives to the right, negatives to the left. The further right a number is, the bigger it is. So −2 is bigger than −5, just like the 2nd basement is higher up than the 5th basement.",
+      "explain": "**The number line.** Mark 0 in the middle. Equal steps to the right give +1, +2, +3…; equal steps to the left give −1, −2, −3….\n\n**Comparing integers:**\n- A number further to the **right** is **greater**.\n- Every positive number is greater than 0, and 0 is greater than every negative number.\n- Among negative numbers, the one **closer to 0** is greater: **−2 > −5**, even though 5 > 2.\n- Think of floors: floor −2 is above floor −5.\n\nOrder from smallest to largest: −5 < −3 < −1 < 0 < 2 < 4.\n\n**Inverse (opposite) of an integer.** +3 and −3 are the same distance (3 steps) from 0 but on opposite sides. Each is the **inverse** (or **additive inverse**, or opposite) of the other.\n- Inverse of +7 is −7; inverse of −4 is +4; inverse of 0 is 0.\n- An integer plus its inverse is **zero**: (+3) + (−3) = 0. In the lift, going up 3 floors and then down 3 floors brings you back where you started.\n\n**Using an unmarked number line.** You can add and subtract by imagining jumps along a line, even without marking every number: a jump to the right for '+', to the left for '−'.",
+      "example": "Arrange 3, −4, 0, −1, −7 from smallest to largest.\n1. Negatives first, the one furthest from 0 is smallest: −7, −4, −1\n2. Then 0, then the positive 3\n3. Answer: **−7 < −4 < −1 < 0 < 3**",
+      "keyPoints": [
+        "Negatives to the left of 0, positives to the right",
+        "Further right = greater",
+        "Among negatives, closer to 0 = greater (−2 > −5)",
+        "0 is greater than every negative number",
+        "Inverse of a: −a, same distance from 0 on the other side",
+        "a + (−a) = 0"
+      ],
+      "keywords": [
+        "number line",
+        "integers on number line",
+        "comparing integers",
+        "greater integer",
+        "ordering integers",
+        "ascending order integers",
+        "inverse",
+        "additive inverse",
+        "opposite number",
+        "negative greater than",
+        "which is bigger -2 or -5"
+      ]
+    },
+    {
+      "id": "add-subtract-integers",
+      "title": "Adding and subtracting integers",
+      "summary": "Starting floor + movement = target floor; movement = target floor − starting floor. Subtracting an integer is the same as adding its inverse: a − b = a + (−b).",
+      "simple": "To **add**, start at the first number and move: up (right) for a positive number, down (left) for a negative number. To **subtract**, ask 'how do I get from the second number to the first?', or simply add the opposite: 3 − 5 is the same as 3 + (−5).",
+      "explain": "**Adding with the lift.** Starting floor + movement = target floor.\n- (+3) + (+2) = +5 (up 2 from floor 3)\n- (+3) + (−5) = −2 (down 5 from floor 3)\n- (−4) + (−3) = −7 (down 3 more from floor −4)\n- (−6) + (+6) = 0 (back to the ground)\n\n**Rules you can notice:**\n- Two positives: add, answer positive.\n- Two negatives: add the sizes, answer negative.\n- One positive, one negative: find the difference of the sizes; the answer takes the sign of the one with the bigger size. (+5) + (−8) = −3.\n- Order does not matter in addition: (−2) + (+7) = (+7) + (−2) = +5.\n\n**Subtracting with the lift.** Target floor − starting floor = movement needed.\n- From floor −3 to floor +4: (+4) − (−3) = +7 (go up 7 floors).\n- From floor +3 to floor −2: (−2) − (+3) = −5 (go down 5 floors).\n\n**Subtraction as adding the inverse:** **a − b = a + (−b)**.\n- (+3) − (−4) = (+3) + (+4) = +7\n- (−6) − (−2) = (−6) + (+2) = −4\n- (−2) − (+5) = (−2) + (−5) = −7\n\nNotice that subtracting a negative number makes the answer **bigger**.",
+      "example": "Bela goes from floor +5 down to floor −2. How many floors did she move, and in which direction?\n1. Movement = target − start = (−2) − (+5)\n2. = (−2) + (−5) = **−7**\n3. So she went **down 7 floors**. Check: 5 floors down to 0, then 2 more to −2: 5 + 2 = 7 ✓",
+      "keyPoints": [
+        "Start + movement = target",
+        "Target − start = movement",
+        "Same signs: add sizes, keep the sign",
+        "Different signs: subtract sizes, take the sign of the bigger size",
+        "a − b = a + (−b)",
+        "Subtracting a negative increases the number"
+      ],
+      "keywords": [
+        "adding integers",
+        "addition of integers",
+        "subtracting integers",
+        "subtraction of integers",
+        "minus minus",
+        "subtract negative",
+        "add negative numbers",
+        "integer rules",
+        "number line addition",
+        "lift model",
+        "difference of integers"
+      ]
+    },
+    {
+      "id": "token-model",
+      "title": "The token model and zero pairs",
+      "summary": "Positive tokens stand for +1 and negative tokens for −1; one positive and one negative token make a zero pair worth 0. Integers are added by combining tokens and subtracted by removing tokens, adding zero pairs when needed.",
+      "simple": "Use two kinds of tokens: a **positive token** is +1 and a **negative token** is −1. One of each together makes a **zero pair**: they cancel out to 0. To add, put tokens together and cancel the pairs. To subtract, take tokens away; if there aren't enough to take, first add zero pairs.",
+      "explain": "In the **token model**:\n- a **positive token** stands for **+1**\n- a **negative token** stands for **−1**\n- one positive and one negative token together form a **zero pair**, worth **0**\n\nAdding or removing zero pairs never changes the value of a collection.\n\n**Value of a collection:** cancel all zero pairs; what is left is the value. 5 positive and 3 negative tokens → 3 zero pairs cancel → 2 positive left → **+2**.\n\n**Adding:** put both collections together and cancel zero pairs.\n- (+4) + (−6): 4 positives and 6 negatives → 4 zero pairs cancel → 2 negatives left → **−2**\n\n**Subtracting:** **take away** the tokens of the number being subtracted.\n- (+5) − (+2): from 5 positives remove 2 → **+3**\n- (−5) − (−2): from 5 negatives remove 2 → **−3**\n\n**When there aren't enough tokens to remove**, add zero pairs first (this doesn't change the value):\n- (+3) − (−2): we have 3 positives but no negatives to remove. Add 2 zero pairs → 5 positives and 2 negatives (still worth +3). Now remove the 2 negatives → 5 positives → **+5**.\n- (−2) − (+3): add 3 zero pairs → 5 negatives and 3 positives. Remove 3 positives → **−5**.\n\nThis shows clearly why subtracting a negative is the same as adding a positive.",
+      "example": "Find (−1) − (−4) with tokens.\n1. Start with 1 negative token.\n2. We must remove 4 negatives but have only 1, so add 3 zero pairs: now 4 negatives and 3 positives (value still −1).\n3. Remove 4 negatives: 3 positives remain.\n4. Answer: **+3**. Check: (−1) + (+4) = +3 ✓",
+      "keyPoints": [
+        "Positive token = +1; negative token = −1",
+        "Zero pair (one of each) = 0",
+        "Adding or removing zero pairs keeps the value the same",
+        "Add: combine tokens, cancel zero pairs",
+        "Subtract: remove tokens; add zero pairs first if needed",
+        "Shows why a − (−b) = a + b"
+      ],
+      "keywords": [
+        "token model",
+        "tokens",
+        "positive token",
+        "negative token",
+        "zero pair",
+        "zero pairs",
+        "cancel",
+        "counters",
+        "integer chips",
+        "subtracting with tokens",
+        "adding with tokens"
+      ]
+    },
+    {
+      "id": "integers-in-life",
+      "title": "Integers in daily life and a pinch of history",
+      "summary": "Integers describe bank credits and debits, heights above and below sea level, and temperatures above and below 0 °C. Brahmagupta gave rules for positive and negative numbers in 628 CE, long before Europe accepted them.",
+      "simple": "Negative numbers aren't just for maths class. Money you owe, places below sea level and freezing temperatures are all described with negatives. And Indian mathematicians, especially **Brahmagupta**, were working with negative numbers about 1,400 years ago!",
+      "explain": "**Money: credits and debits.** Money put into a bank account is a **credit** (+); money taken out or spent is a **debit** (−). The **balance** is the total. If you spend more than you have, the balance becomes negative, meaning you owe money.\n\n**Heights: sea level as zero.** Heights are measured from **sea level** (0 m).\n- Above sea level: positive. Mount Everest is about +8,849 m.\n- Below sea level: negative. Parts of Kuttanad in Kerala lie about 2 m below sea level (about −2 m), and the shore of the Dead Sea is roughly −430 m.\n- A **geographical cross-section** drawing shows land and sea floor heights on both sides of zero.\n\n**Temperature.** 0 °C is the freezing point of water. Places like Leh and Dras in Ladakh often go below 0 °C in winter, giving negative temperatures such as −10 °C. A rise in temperature is a '+' change; a fall is a '−' change.\n\n**Explorations.** Puzzles such as integer grids (where rows and columns must add up to given totals) and magic squares with negative numbers give practice and reveal patterns.\n\n**A pinch of history.**\n- In India, **Brahmagupta**, in his *Brāhmasphuṭasiddhānta* (**628 CE**), gave clear rules for working with zero, positive and negative numbers. He called positive numbers *dhana* (fortune) and negative numbers *ṛṇa* (debt).\n- In **China**, mathematicians used counting rods of two colours, red and black, for positive and negative quantities.\n- In **Europe**, many mathematicians refused to accept negative numbers as real numbers until around the 17th–18th centuries.",
+      "example": "Riya's account has ₹500. She deposits ₹300 (credit) and then pays a bill of ₹1,000 (debit).\n1. Balance = 500 + 300 − 1000\n2. = 800 − 1000 = **−₹200**\nShe owes the bank ₹200.\n\nTemperature: at night it is −8 °C in Dras; by noon it rises by 10 °C. Noon temperature = (−8) + 10 = **+2 °C**.",
+      "keyPoints": [
+        "Credit = +, debit = −; balance can go negative",
+        "Sea level = 0 m; below sea level is negative",
+        "0 °C = freezing point; colder is negative",
+        "Brahmagupta (628 CE): rules for positive and negative numbers",
+        "Positive = dhana (fortune), negative = ṛṇa (debt)",
+        "China used red and black rods; Europe accepted negatives much later"
+      ],
+      "keywords": [
+        "integers in daily life",
+        "bank balance",
+        "credit",
+        "debit",
+        "sea level",
+        "below sea level",
+        "geographical cross section",
+        "negative temperature",
+        "below freezing",
+        "brahmagupta",
+        "dhana",
+        "rina",
+        "history of negative numbers",
+        "integer grid",
+        "magic square"
+      ]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "Negative number", "meaning": "A number less than zero, written with a minus sign, e.g. −3." },
+    { "term": "Integers", "meaning": "The numbers …, −3, −2, −1, 0, 1, 2, 3, …: positive whole numbers, zero and negative whole numbers." },
+    { "term": "Zero", "meaning": "The integer that is neither positive nor negative; the reference point between them." },
+    { "term": "Number line", "meaning": "A line with 0 in the middle, positives to the right and negatives to the left; further right means greater." },
+    { "term": "Inverse (opposite)", "meaning": "The integer at the same distance from 0 on the other side; a + (−a) = 0." },
+    { "term": "Token model", "meaning": "A way to show integers using positive tokens (+1) and negative tokens (−1)." },
+    { "term": "Zero pair", "meaning": "One positive and one negative token together, with total value 0." },
+    { "term": "Credit and debit", "meaning": "Money added to an account (credit, +) and money taken out (debit, −)." },
+    { "term": "Sea level", "meaning": "The zero level from which heights (positive) and depths (negative) are measured." },
+    { "term": "Dhana and ṛṇa", "meaning": "Brahmagupta's words for positive numbers (fortune) and negative numbers (debt)." }
+  ],
+  "formulas": [
+    "Starting position + movement = target position",
+    "Movement = target position − starting position",
+    "a + (−a) = 0 (an integer plus its inverse is zero)",
+    "a − b = a + (−b) (subtracting is adding the inverse)",
+    "a − (−b) = a + b",
+    "Zero pair: (+1) + (−1) = 0"
+  ],
+  "commonMistakes": [
+    "Thinking −5 is greater than −2 because 5 > 2. On the number line −2 is further right, so −2 > −5.",
+    "Calling 0 a positive (or negative) number. Zero is neither.",
+    "Writing (+3) − (−4) = −1. Subtracting a negative is adding: (+3) + (+4) = +7.",
+    "Adding two negatives and giving a positive answer: (−4) + (−3) is −7, not +7.",
+    "In the token model, forgetting to add zero pairs when there aren't enough tokens to remove.",
+    "Mixing up the order in 'target − start': going from −3 to +4 is (+4) − (−3) = +7, not (−3) − (+4).",
+    "Thinking negative numbers are a modern idea. Brahmagupta gave rules for them in 628 CE."
+  ],
+  "revision": [
+    "Integers: …, −3, −2, −1, 0, 1, 2, 3, …",
+    "Zero is neither positive nor negative.",
+    "Ground floor = 0; floors below are negative.",
+    "On the number line, further right is greater; −2 > −5.",
+    "The inverse of a is −a, and a + (−a) = 0.",
+    "Start + movement = target; target − start = movement.",
+    "Same signs: add and keep the sign; different signs: subtract and take the sign of the larger size.",
+    "a − b = a + (−b); subtracting a negative increases the value.",
+    "A zero pair (one positive + one negative token) is worth 0.",
+    "Credit +, debit −; sea level 0; temperatures below 0 °C are negative.",
+    "Brahmagupta (628 CE) called positives dhana and negatives ṛṇa."
+  ],
+  "faqs": [
+    {
+      "q": "Why is −2 greater than −5?",
+      "a": "On the number line, −2 is to the right of −5, and numbers further right are greater. Think of a building: floor −2 (second basement) is higher up than floor −5 (fifth basement). Owing ₹2 is better than owing ₹5.",
+      "keywords": ["-2 greater than -5", "comparing negative numbers"]
+    },
+    {
+      "q": "Why does subtracting a negative number give a bigger answer?",
+      "a": "Subtracting means 'taking away'. Taking away a debt makes you richer. In the token model, to take away negative tokens you first add zero pairs and then remove the negatives, which leaves extra positive tokens. So a − (−b) = a + b, for example 3 − (−2) = 5.",
+      "keywords": ["minus minus plus", "subtract negative", "why minus negative is plus"]
+    },
+    {
+      "q": "What is a zero pair?",
+      "a": "One positive token (+1) together with one negative token (−1). Their total is 0, so you can add or remove zero pairs from a collection without changing its value. This trick is used when subtracting.",
+      "keywords": ["zero pair", "token model"]
+    },
+    {
+      "q": "Is zero an integer? Is it positive or negative?",
+      "a": "Zero is an integer, but it is neither positive nor negative. It is the dividing point: positives are to its right on the number line and negatives to its left.",
+      "keywords": ["is zero an integer", "zero positive or negative"]
+    },
+    {
+      "q": "Who first used negative numbers?",
+      "a": "Chinese mathematicians represented positive and negative quantities with red and black counting rods. In India, Brahmagupta (628 CE) gave clear rules for adding and subtracting positive numbers (dhana), negative numbers (ṛṇa) and zero. Europe took many more centuries to accept negative numbers fully.",
+      "keywords": ["history of negative numbers", "who invented negative numbers", "brahmagupta"]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Which is greater, −2 or −5?",
+      "options": ["−2", "−5", "They are equal", "They cannot be compared"],
+      "answer": 0,
+      "explain": "−2 lies to the right of −5 on the number line, so −2 > −5.",
+      "topic": "number-line-compare",
+      "level": "easy"
+    },
+    {
+      "q": "Bela is on floor +2 and presses the lift button −5. Which floor does she reach?",
+      "options": ["+7", "−7", "−3", "+3"],
+      "answer": 2,
+      "explain": "(+2) + (−5) = −3: down 2 floors to the ground, then 3 more below it.",
+      "topic": "lift-model",
+      "level": "easy"
+    },
+    {
+      "q": "What is the inverse (opposite) of +6?",
+      "options": ["+6", "−6", "0", "1/6"],
+      "answer": 1,
+      "explain": "The inverse is the same distance from 0 on the other side: −6, since (+6) + (−6) = 0.",
+      "topic": "number-line-compare",
+      "level": "easy"
+    },
+    {
+      "q": "What is (−4) + (−3)?",
+      "options": ["+7", "+1", "−1", "−7"],
+      "answer": 3,
+      "explain": "Going down 4 and then down 3 more means down 7: −7.",
+      "topic": "add-subtract-integers",
+      "level": "easy"
+    },
+    {
+      "q": "In the token model, a zero pair is made of:",
+      "options": ["Two positive tokens", "Two negative tokens", "One positive and one negative token", "No tokens at all"],
+      "answer": 2,
+      "explain": "(+1) + (−1) = 0, so one positive and one negative token make a zero pair.",
+      "topic": "token-model",
+      "level": "easy"
+    },
+    {
+      "q": "What is (+3) − (−4)?",
+      "options": ["−1", "+7", "−7", "+1"],
+      "answer": 1,
+      "explain": "Subtracting −4 is adding +4: (+3) + (+4) = +7.",
+      "topic": "add-subtract-integers",
+      "level": "medium"
+    },
+    {
+      "q": "Which lift movement takes Bela from floor −3 to floor +4?",
+      "options": ["+1", "−7", "−1", "+7"],
+      "answer": 3,
+      "explain": "Movement = target − start = (+4) − (−3) = +7, i.e. up 7 floors.",
+      "topic": "add-subtract-integers",
+      "level": "medium"
+    },
+    {
+      "q": "An account has ₹500. ₹300 is credited and then ₹1,000 is debited. What is the balance?",
+      "options": ["−₹200", "+₹200", "+₹1,800", "−₹1,800"],
+      "answer": 0,
+      "explain": "500 + 300 − 1000 = 800 − 1000 = −200. The account owes ₹200.",
+      "topic": "integers-in-life",
+      "level": "medium"
+    },
+    {
+      "q": "Which list is in order from smallest to largest?",
+      "options": ["0, −1, −4, 3", "−1, −4, 0, 3", "3, 0, −1, −4", "−4, −1, 0, 3"],
+      "answer": 3,
+      "explain": "On the number line from left to right: −4, −1, 0, 3.",
+      "topic": "number-line-compare",
+      "level": "medium"
+    },
+    {
+      "q": "The night temperature in Dras is −8 °C. By noon it rises by 10 °C. What is the noon temperature?",
+      "options": ["+2 °C", "−18 °C", "−2 °C", "+18 °C"],
+      "answer": 0,
+      "explain": "(−8) + 10 = +2 °C.",
+      "topic": "integers-in-life",
+      "level": "medium"
+    },
+    {
+      "q": "What word did Brahmagupta use for negative numbers?",
+      "options": ["Dhana", "Ṛṇa (debt)", "Shunya", "Bhinna"],
+      "answer": 1,
+      "explain": "Brahmagupta called negative numbers ṛṇa (debt) and positive numbers dhana (fortune).",
+      "topic": "integers-in-life",
+      "level": "hard"
+    },
+    {
+      "q": "How do you find (+3) − (−2) with tokens?",
+      "options": ["Remove 2 positive tokens, giving +1", "Add 2 negative tokens only, giving +1", "Add 2 zero pairs, then remove 2 negative tokens, giving +5", "It cannot be done with tokens"],
+      "answer": 2,
+      "explain": "3 positives have no negatives to remove, so add 2 zero pairs (value still +3), remove the 2 negatives, and 5 positives remain: +5.",
+      "topic": "token-model",
+      "level": "hard"
+    }
+  ]
+}

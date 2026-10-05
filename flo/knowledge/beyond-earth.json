@@ -1,0 +1,373 @@
+{
+  "id": "c6-sci-beyond-earth",
+  "class": 6,
+  "subject": "science",
+  "name": "Beyond Earth",
+  "summary": "The night sky is full of wonders. This chapter introduces stars and constellations such as Saptarishi and Orion, how to find the Pole Star, how to watch the night sky and why light pollution hides the stars. It then explores our Solar System — the Sun, eight planets, moons, dwarf planets, asteroids and comets — our galaxy the Milky Way, the vast universe, and India's journeys into space.",
+  "topics": [
+    {
+      "id": "stars-and-constellations",
+      "title": "Stars and constellations",
+      "summary": "Stars are huge balls of hot, glowing gases that make their own light; groups of stars that seem to form patterns are called constellations.",
+      "simple": "Stars are giant balls of very hot gas that shine with their own light. They look tiny only because they are very, very far away. The Sun is also a star — the closest one to us. Long ago, people joined bright stars into pictures in the sky, like a hunter or a bear. These star patterns are called **constellations**.",
+      "explain": "**Stars**\n- A **star** is a huge ball of extremely hot, glowing gases that **produces its own light and heat**.\n- The **Sun** is a star — the one nearest to Earth. Light from the Sun takes about **8 minutes** to reach us.\n- Other stars are much farther away, so they look like tiny points of light.\n- We can't see stars in the daytime because the Sun's light is so bright, but they are still there.\n- Stars appear to **twinkle**.\n- The brightest star in the night sky (other than the Sun) is **Sirius**.\n\n**Constellations**\nA **constellation** is a group of stars that appears to form a pattern or shape in the sky. People in different cultures imagined different pictures and named them. Today, astronomers officially recognise **88 constellations**, which divide the whole sky into regions.\n\nFamous constellations:\n- **Saptarishi (Big Dipper):** seven bright stars shaped like a big ladle or question mark. It is part of a larger constellation called **Ursa Major** (Great Bear). It is easily seen in the northern sky, especially in summer evenings.\n- **Orion (the Hunter):** easy to spot in winter evenings, with three bright stars in a row forming the hunter's **belt**. In Indian tradition this region is linked with **Mriga**.\n- **Canis Major (Great Dog):** contains **Sirius**. Following the line of Orion's belt downwards leads to it.\n\nThe stars in a constellation only *look* close together. In reality they may be at very different distances from us.",
+      "example": "On a clear winter evening in India, look towards the east after sunset. You can spot three bright stars in a straight line — Orion's belt. Follow the line down to the left to find dazzling Sirius.",
+      "keyPoints": [
+        "A star is a huge ball of hot, glowing gases that makes its own light",
+        "The Sun is the nearest star; its light takes about 8 minutes to reach us",
+        "Constellation = group of stars that seems to form a pattern",
+        "88 constellations are officially recognised",
+        "Saptarishi (Big Dipper) is part of Ursa Major",
+        "Orion has three stars in a row (its belt)",
+        "Sirius is the brightest star in the night sky"
+      ],
+      "keywords": [
+        "stars",
+        "what is a star",
+        "constellation",
+        "constellations",
+        "saptarishi",
+        "big dipper",
+        "ursa major",
+        "great bear",
+        "orion",
+        "orion's belt",
+        "sirius",
+        "brightest star",
+        "88 constellations",
+        "why stars twinkle"
+      ]
+    },
+    {
+      "id": "night-sky-watching",
+      "title": "Night sky watching, the Pole Star and light pollution",
+      "summary": "The Pole Star stays nearly fixed above the north and helps find direction; stars seem to move across the sky because Earth rotates; bright artificial lights (light pollution) hide the stars.",
+      "simple": "If you watch the sky for a few hours, stars seem to move from east to west — because the Earth is spinning. But one star, the **Pole Star (Dhruv Tara)**, seems to stay in the same place in the north. City lights make the sky too bright to see many stars; this is called **light pollution**.",
+      "explain": "**Why do stars seem to move?**\nThe Earth **rotates** (spins) on its axis from **west to east**, once in about 24 hours. So the stars, like the Sun, *appear* to rise in the east and set in the west during the night.\n\n**The Pole Star (Dhruv Tara)**\n- It lies almost directly above the Earth's **North Pole**, in line with Earth's axis.\n- So, while other stars appear to move around it, the **Pole Star seems to stay fixed** in the northern sky.\n- It always shows the **north direction**. Travellers and sailors used it to find their way before compasses and GPS.\n- It is seen from the Northern Hemisphere (including India), not from the Southern Hemisphere.\n\n**Finding the Pole Star with Saptarishi**\n1. Find the Saptarishi (Big Dipper).\n2. Look at the two stars at the outer edge of its 'bowl' — the **pointer stars**.\n3. Imagine a line through them and extend it about **five times** the distance between them.\n4. You reach a moderately bright star — the **Pole Star**.\n\n**Tips for night sky watching**\n- Choose a clear, moonless night and a dark place away from street lights.\n- Wait 10–15 minutes so your eyes adjust to the dark.\n- Use a star map or a sky-watching app; go with an adult.\n\n**Light pollution**\nToo much or badly directed artificial light — from street lights, buildings, hoardings and vehicles — brightens the night sky and **hides fainter stars**. It is called **light pollution**. It also disturbs animals: birds and insects get confused, and some baby sea turtles head towards city lights instead of the sea. Using shielded lamps that point downwards and switching off unnecessary lights reduces it. India's first Dark Sky Reserve was set up in **Hanle, Ladakh**.",
+      "example": "From a city terrace you may see only a few stars, but in a village or on a hill far from lights, the sky is filled with thousands of stars and even the faint band of the Milky Way.",
+      "keyPoints": [
+        "Stars appear to move east to west because Earth rotates west to east",
+        "The Pole Star (Dhruv Tara) appears fixed and shows north",
+        "Find it using the two pointer stars of Saptarishi",
+        "Watch the sky on a clear, dark night with eyes adjusted",
+        "Light pollution: excess artificial light hides stars",
+        "Light pollution also disturbs birds, insects and turtles"
+      ],
+      "keywords": [
+        "pole star",
+        "dhruv tara",
+        "north star",
+        "polaris",
+        "pointer stars",
+        "how to find pole star",
+        "why pole star does not move",
+        "stars move east to west",
+        "night sky",
+        "star gazing",
+        "light pollution",
+        "dark sky reserve",
+        "hanle"
+      ]
+    },
+    {
+      "id": "solar-system",
+      "title": "Our Solar System: the Sun and the planets",
+      "summary": "The Solar System is the Sun and everything that moves around it; eight planets orbit the Sun in fixed paths, and planets do not make their own light.",
+      "simple": "The Sun sits at the centre, and eight planets go round it: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune. Planets don't make their own light — they shine because sunlight bounces off them. Together with moons, asteroids and comets, they make our **Solar System**.",
+      "explain": "The **Solar System** is made up of the **Sun** and all the objects that move around it: **planets, their moons, dwarf planets, asteroids and comets**.\n\n**The Sun**\n- It is a star at the centre of the Solar System.\n- It is by far the largest and heaviest object in it, and gives light and heat to all the planets.\n\n**Planets**\nA **planet** moves around the Sun in a fixed path called an **orbit**. Planets **do not have their own light**; they shine by **reflecting sunlight**. Unlike stars, they usually don't twinkle.\n\nThe eight planets in order from the Sun:\n1. **Mercury** — smallest planet and closest to the Sun\n2. **Venus** — brightest object in the night sky after the Moon; hottest planet; often called the morning or evening 'star' though it is a planet\n3. **Earth** — our home; the only planet known to have life\n4. **Mars** — the 'red planet'\n5. **Jupiter** — the largest planet\n6. **Saturn** — famous for its beautiful rings\n7. **Uranus**\n8. **Neptune** — farthest planet from the Sun\n\nThe first four (Mercury, Venus, Earth, Mars) are small and **rocky**. The outer four (Jupiter, Saturn, Uranus, Neptune) are **giant planets** made mostly of gases and ice.\n\nA trick to remember the order: '**M**y **V**ery **E**fficient **M**other **J**ust **S**erved **U**s **N**oodles.'\n\n**Earth's movements**\n- **Rotation:** Earth spins on its axis once in about **24 hours**, causing **day and night**.\n- **Revolution:** Earth goes around the Sun once in about **365 days** — one **year**.",
+      "example": "Just after sunset or before sunrise, you may see a very bright 'star' low in the west or east that doesn't twinkle. That is usually Venus — a planet shining with reflected sunlight.",
+      "keyPoints": [
+        "Solar System = Sun + everything that orbits it",
+        "Eight planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune",
+        "Planets reflect sunlight; they have no light of their own",
+        "Mercury: closest and smallest; Jupiter: largest; Neptune: farthest",
+        "Inner four are rocky; outer four are giant planets",
+        "Earth rotates in about 24 hours (day and night) and revolves in about 365 days (a year)"
+      ],
+      "keywords": [
+        "solar system",
+        "planets",
+        "eight planets",
+        "order of planets",
+        "mercury",
+        "venus",
+        "earth",
+        "mars",
+        "jupiter",
+        "saturn",
+        "uranus",
+        "neptune",
+        "largest planet",
+        "smallest planet",
+        "rotation",
+        "revolution",
+        "orbit",
+        "star vs planet"
+      ]
+    },
+    {
+      "id": "moon-and-small-bodies",
+      "title": "The Moon, dwarf planets, asteroids and comets",
+      "summary": "The Moon is Earth's natural satellite and shines by reflected sunlight; the Solar System also has dwarf planets like Pluto, asteroids between Mars and Jupiter, and icy comets with glowing tails.",
+      "simple": "The **Moon** goes around the Earth and shines by reflecting sunlight. Its shape seems to change during the month. **Pluto** is now called a dwarf planet. **Asteroids** are rocky pieces mostly found between Mars and Jupiter, and **comets** are icy balls that grow a bright tail when they come near the Sun.",
+      "explain": "**The Moon**\n- A **satellite** is an object that moves around a planet. The Moon is Earth's **natural satellite**.\n- It goes around the Earth in about **27 days**.\n- It has **no light of its own** — it reflects sunlight.\n- Its shape seems to change from night to night (full moon, half moon, crescent, new moon). These are called the **phases of the Moon**. Only the lit part we can see changes; the Moon itself doesn't change shape.\n- The Moon has **no air** and no liquid water on its surface. It is covered with dust, rocks and bowl-shaped pits called **craters**, made when rocks from space hit it.\n- Other planets have moons too; Mercury and Venus have none.\n\n**Dwarf planets**\n**Pluto** was once called the ninth planet. In 2006, astronomers reclassified it as a **dwarf planet**, because it is very small and shares its orbit region with many other icy objects.\n\n**Asteroids**\n- Small, rocky objects that orbit the Sun.\n- Most are found in a region between **Mars and Jupiter** called the **asteroid belt**.\n\n**Comets**\n- Made of **ice, dust and rock**; they travel around the Sun in long, stretched orbits.\n- When a comet comes close to the Sun, some ice turns to gas and it develops a long, glowing **tail** that always points **away from the Sun**.\n- **Halley's Comet** is seen from Earth about once every 76 years; it was last seen in 1986 and will return around 2061.\n\n**Meteors** ('shooting stars') are not stars at all — they are small bits of rock from space that burn up as streaks of light in Earth's air.",
+      "example": "Watch the Moon every evening for two weeks: from a thin crescent it grows to a half moon and then to a full, round moon (Purnima). Festivals like Diwali (on Amavasya, the new moon) and Guru Purnima follow these phases.",
+      "keyPoints": [
+        "The Moon is Earth's natural satellite",
+        "It reflects sunlight and goes around Earth in about 27 days",
+        "Phases: the lit part we see changes during the month",
+        "The Moon has no air and has many craters",
+        "Pluto is a dwarf planet (since 2006)",
+        "Asteroid belt lies between Mars and Jupiter",
+        "Comets are icy; their glowing tail points away from the Sun"
+      ],
+      "keywords": [
+        "moon",
+        "natural satellite",
+        "satellite",
+        "phases of moon",
+        "craters",
+        "full moon",
+        "new moon",
+        "pluto",
+        "dwarf planet",
+        "asteroids",
+        "asteroid belt",
+        "comets",
+        "comet tail",
+        "halley's comet",
+        "meteor",
+        "shooting star"
+      ]
+    },
+    {
+      "id": "milky-way-and-universe",
+      "title": "The Milky Way galaxy and the universe",
+      "summary": "Our Solar System is a tiny part of the Milky Way, a galaxy of billions of stars; the universe contains billions of such galaxies.",
+      "simple": "On a very dark night, you may see a faint, milky band across the sky. That is our galaxy, the **Milky Way** (Akash Ganga). It has billions of stars, and our Sun is just one of them. The **universe** is everything there is — billions of galaxies, with huge empty spaces in between.",
+      "explain": "**Galaxy**\nA **galaxy** is a huge collection of stars, gas and dust held together, with enormous distances between the stars.\n\n**The Milky Way**\n- Our Solar System belongs to a galaxy called the **Milky Way**. In India it is called **Akash Ganga** ('river in the sky').\n- From a very dark place, it looks like a faint, whitish band stretching across the sky. That glow comes from countless stars too far away to see one by one.\n- It contains **billions of stars**. Our Sun is just an ordinary star, far from the centre of the galaxy.\n\n**The universe**\n- The **universe** is everything that exists — all the galaxies, stars, planets, gas, dust and the space between them.\n- There are **billions of galaxies** in the universe.\n- Distances are so huge that astronomers measure them in **light-years**: the distance light travels in one year.\n\n**Are we alone?**\nScientists have discovered thousands of **exoplanets** — planets going around stars other than the Sun. They are searching for signs of life on them, but so far **no life has been found** anywhere other than Earth. That makes our planet very precious.",
+      "example": "If the Milky Way were the size of India, our whole Solar System would be smaller than a grain of sand — and the universe has billions of galaxies like ours!",
+      "keyPoints": [
+        "A galaxy is a huge collection of stars, gas and dust",
+        "Our galaxy is the Milky Way (Akash Ganga)",
+        "The Milky Way has billions of stars; the Sun is one of them",
+        "The universe has billions of galaxies",
+        "Light-year: distance light travels in one year",
+        "Exoplanets orbit other stars; no life has been found beyond Earth yet"
+      ],
+      "keywords": [
+        "milky way",
+        "akash ganga",
+        "galaxy",
+        "galaxies",
+        "universe",
+        "light year",
+        "exoplanet",
+        "life on other planets",
+        "how big is the universe",
+        "our galaxy"
+      ]
+    },
+    {
+      "id": "space-exploration",
+      "title": "Exploring space: satellites and India's missions",
+      "summary": "Artificial satellites help with weather, communication and navigation, and India's space agency ISRO has sent missions to the Moon, Mars and to study the Sun.",
+      "simple": "People have built **artificial satellites** that go around the Earth to help with weather forecasts, TV, phones and maps. India's space agency, **ISRO**, has sent spacecraft to the Moon (Chandrayaan), to Mars (Mangalyaan) and to study the Sun (Aditya-L1).",
+      "explain": "**Artificial satellites**\nThe Moon is a natural satellite. Humans also build **artificial satellites** and launch them with rockets to go around the Earth. They help with:\n- **Weather forecasting** and warnings for cyclones\n- **Communication** — TV, phone and internet signals\n- **Navigation** — maps and location on phones\n- Studying farms, forests, floods and the oceans\n\n**India in space — ISRO (Indian Space Research Organisation)**\n- **Aryabhata (1975):** India's first satellite, named after the ancient Indian astronomer and mathematician Aryabhata.\n- **Chandrayaan-1 (2008):** India's first mission to the Moon; it helped find signs of water on the Moon.\n- **Mangalyaan / Mars Orbiter Mission (launched 2013):** reached Mars orbit in 2014. India succeeded on its very first attempt.\n- **Chandrayaan-3 (2023):** its lander **Vikram** landed near the Moon's **south pole** on **23 August 2023**, and the rover **Pragyan** explored the surface. India became the first country to land near the lunar south pole. 23 August is now celebrated as **National Space Day** in India.\n- **Aditya-L1 (2023):** India's first mission to study the **Sun**.\n\nSpace exploration helps us learn about our Solar System and improves life on Earth through better weather prediction and communication.",
+      "example": "When the weather office warns a coastal state days in advance that a cyclone is coming, it is using pictures and data from weather satellites in orbit around the Earth.",
+      "keyPoints": [
+        "Artificial satellites are human-made objects orbiting Earth",
+        "Used for weather, communication, navigation and studying Earth",
+        "Aryabhata (1975) was India's first satellite",
+        "Mangalyaan reached Mars orbit in 2014 on the first attempt",
+        "Chandrayaan-3 landed near the Moon's south pole on 23 August 2023",
+        "Aditya-L1 studies the Sun"
+      ],
+      "keywords": [
+        "artificial satellite",
+        "uses of satellites",
+        "isro",
+        "chandrayaan",
+        "chandrayaan 3",
+        "vikram lander",
+        "pragyan rover",
+        "mangalyaan",
+        "mars orbiter mission",
+        "aditya l1",
+        "aryabhata",
+        "national space day",
+        "indian space missions"
+      ]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "Star", "meaning": "A huge ball of extremely hot, glowing gases that makes its own light and heat." },
+    { "term": "Constellation", "meaning": "A group of stars that appears to form a pattern or shape in the sky." },
+    { "term": "Saptarishi", "meaning": "Seven bright stars forming the Big Dipper, part of the constellation Ursa Major." },
+    { "term": "Pole Star (Dhruv Tara)", "meaning": "A star almost directly above Earth's North Pole that appears fixed and shows the north direction." },
+    { "term": "Light pollution", "meaning": "Excess or badly directed artificial light that brightens the night sky and hides stars." },
+    { "term": "Solar System", "meaning": "The Sun together with the planets, moons, dwarf planets, asteroids and comets that move around it." },
+    { "term": "Planet", "meaning": "A large body that orbits the Sun and shines by reflecting sunlight." },
+    { "term": "Orbit", "meaning": "The fixed path in which an object moves around another object." },
+    { "term": "Satellite", "meaning": "An object that orbits a planet; the Moon is natural, human-made ones are artificial." },
+    { "term": "Asteroid", "meaning": "A small rocky body orbiting the Sun, mostly found between Mars and Jupiter." },
+    { "term": "Comet", "meaning": "An icy body orbiting the Sun that develops a glowing tail when near the Sun." },
+    { "term": "Galaxy", "meaning": "A huge collection of billions of stars, gas and dust; ours is the Milky Way." },
+    { "term": "Universe", "meaning": "Everything that exists, including all galaxies and the space between them." },
+    { "term": "Light-year", "meaning": "The distance light travels in one year, used to measure distances to stars." }
+  ],
+  "formulas": [
+    "Order of planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune ('My Very Efficient Mother Just Served Us Noodles')",
+    "Earth's rotation ≈ 24 hours (day and night); revolution ≈ 365 days (one year)"
+  ],
+  "commonMistakes": [
+    "Calling the Moon or a planet a star — they don't make their own light; they reflect sunlight.",
+    "Thinking the Sun is not a star — it is a star, the nearest one to Earth.",
+    "Believing the stars actually move across the sky each night — they appear to move because Earth rotates.",
+    "Thinking stars in a constellation are close together — they only look close; they can be at very different distances.",
+    "Still counting Pluto as the ninth planet — it has been a dwarf planet since 2006.",
+    "Calling a meteor a 'shooting star' that is a real star — it is a bit of space rock burning up in Earth's air.",
+    "Thinking the Moon really changes shape — only the lit part we can see changes."
+  ],
+  "revision": [
+    "A star is a huge ball of hot gases that makes its own light; the Sun is the nearest star.",
+    "A constellation is a group of stars forming a pattern; 88 are officially recognised.",
+    "Saptarishi (Big Dipper) is part of Ursa Major; Orion has a belt of three stars.",
+    "Sirius is the brightest star in the night sky.",
+    "The Pole Star appears fixed and shows north; find it using Saptarishi's pointer stars.",
+    "Stars appear to move east to west because Earth rotates west to east.",
+    "Light pollution hides stars and disturbs animals.",
+    "Eight planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune.",
+    "Planets reflect sunlight; Jupiter is the largest, Mercury the smallest.",
+    "The Moon is Earth's natural satellite; it has craters and no air.",
+    "Asteroids are mostly between Mars and Jupiter; comet tails point away from the Sun.",
+    "Pluto is a dwarf planet.",
+    "Our galaxy is the Milky Way (Akash Ganga); the universe has billions of galaxies.",
+    "Chandrayaan-3 landed near the Moon's south pole on 23 August 2023 (National Space Day)."
+  ],
+  "faqs": [
+    {
+      "q": "What is the difference between a star and a planet?",
+      "a": "A **star** is a huge ball of hot gases that **makes its own light and heat**, like the Sun. A **planet** **has no light of its own** — it shines by reflecting sunlight — and it moves around a star in an orbit. Stars twinkle; planets usually don't.",
+      "keywords": ["star vs planet", "difference between star and planet"]
+    },
+    {
+      "q": "Why does the Pole Star not seem to move?",
+      "a": "The Pole Star lies almost directly above Earth's North Pole, in line with the axis on which Earth spins. As Earth rotates, all other stars seem to go around it, but the Pole Star stays nearly in the same place, always in the north.",
+      "keywords": ["pole star fixed", "why pole star does not move", "dhruv tara"]
+    },
+    {
+      "q": "Why can we see more stars in a village than in a city?",
+      "a": "Cities have lots of street lights, buildings and vehicles whose light brightens the sky. This **light pollution** drowns out the light of faint stars. In a village or on a hill far from lights, the sky is darker, so many more stars are visible.",
+      "keywords": ["light pollution", "why fewer stars in city", "stars not visible city"]
+    },
+    {
+      "q": "Why is Pluto no longer called a planet?",
+      "a": "In 2006, astronomers decided Pluto is too small and shares its region of space with many other icy objects, so it was reclassified as a **dwarf planet**. Our Solar System now has eight planets.",
+      "keywords": ["pluto", "pluto dwarf planet", "why pluto not a planet", "how many planets"]
+    },
+    {
+      "q": "Why can't we see stars during the day?",
+      "a": "The stars are still in the sky during the day, but the Sun's light is so bright that it outshines their faint light, so we can't see them. Once the Sun sets and the sky gets dark, the stars become visible.",
+      "keywords": ["stars in daytime", "why stars not visible in day"]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Which of these makes its own light?",
+      "options": ["The Moon", "The Sun", "Venus", "Mars"],
+      "answer": 1,
+      "explain": "The Sun is a star, so it produces its own light. The Moon and planets only reflect sunlight.",
+      "topic": "stars-and-constellations",
+      "level": "easy"
+    },
+    {
+      "q": "A group of stars that appears to form a pattern in the sky is called a:",
+      "options": ["Galaxy", "Comet", "Constellation", "Satellite"],
+      "answer": 2,
+      "explain": "Constellations are star patterns, like Saptarishi and Orion.",
+      "topic": "stars-and-constellations",
+      "level": "easy"
+    },
+    {
+      "q": "Saptarishi (the Big Dipper) is part of which constellation?",
+      "options": ["Orion", "Canis Major", "Scorpius", "Ursa Major"],
+      "answer": 3,
+      "explain": "The seven stars of Saptarishi are part of the larger constellation Ursa Major (the Great Bear).",
+      "topic": "stars-and-constellations",
+      "level": "medium"
+    },
+    {
+      "q": "Which star always shows the north direction?",
+      "options": ["Pole Star", "Sirius", "The Sun", "Venus"],
+      "answer": 0,
+      "explain": "The Pole Star (Dhruv Tara) lies almost directly above Earth's North Pole and appears fixed in the northern sky.",
+      "topic": "night-sky-watching",
+      "level": "easy"
+    },
+    {
+      "q": "Why do stars appear to move from east to west during the night?",
+      "options": ["Stars actually travel around the Earth", "The Moon pushes them", "Earth rotates on its axis from west to east", "Wind blows them across the sky"],
+      "answer": 2,
+      "explain": "The stars' movement is only apparent. Earth spins west to east, so stars seem to move east to west.",
+      "topic": "night-sky-watching",
+      "level": "medium"
+    },
+    {
+      "q": "Excess artificial light that makes it hard to see stars is called:",
+      "options": ["Air pollution", "Light pollution", "Noise pollution", "Eclipse"],
+      "answer": 1,
+      "explain": "Light pollution brightens the night sky and hides fainter stars.",
+      "topic": "night-sky-watching",
+      "level": "easy"
+    },
+    {
+      "q": "Which is the largest planet in our Solar System?",
+      "options": ["Jupiter", "Saturn", "Earth", "Neptune"],
+      "answer": 0,
+      "explain": "Jupiter is the largest planet. Saturn is second largest.",
+      "topic": "solar-system",
+      "level": "easy"
+    },
+    {
+      "q": "Which planet is closest to the Sun?",
+      "options": ["Venus", "Earth", "Mars", "Mercury"],
+      "answer": 3,
+      "explain": "The order from the Sun begins Mercury, Venus, Earth, Mars.",
+      "topic": "solar-system",
+      "level": "easy"
+    },
+    {
+      "q": "Earth takes about 24 hours to spin once on its axis. What does this cause?",
+      "options": ["A year", "Seasons", "Phases of the Moon", "Day and night"],
+      "answer": 3,
+      "explain": "Rotation of the Earth causes day and night. Revolution around the Sun (about 365 days) makes a year.",
+      "topic": "solar-system",
+      "level": "medium"
+    },
+    {
+      "q": "Where are most asteroids found?",
+      "options": ["Between Mars and Jupiter", "Between Earth and the Moon", "Inside the Sun", "Beyond the Milky Way"],
+      "answer": 0,
+      "explain": "Most asteroids orbit the Sun in the asteroid belt between Mars and Jupiter.",
+      "topic": "moon-and-small-bodies",
+      "level": "medium"
+    },
+    {
+      "q": "In which direction does a comet's glowing tail point?",
+      "options": ["Always towards the Sun", "Always away from the Sun", "Always towards Earth", "Always downwards"],
+      "answer": 1,
+      "explain": "When a comet nears the Sun, its tail forms and always points away from the Sun.",
+      "topic": "moon-and-small-bodies",
+      "level": "hard"
+    },
+    {
+      "q": "In 2023, India's Chandrayaan-3 became the first mission to land near which part of the Moon?",
+      "options": ["The north pole", "The equator", "The south pole", "The far side"],
+      "answer": 2,
+      "explain": "Chandrayaan-3's Vikram lander touched down near the Moon's south pole on 23 August 2023.",
+      "topic": "space-exploration",
+      "level": "medium"
+    }
+  ]
+}

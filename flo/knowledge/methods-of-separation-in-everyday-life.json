@@ -1,0 +1,345 @@
+{
+  "id": "c6-sci-separation",
+  "class": 6,
+  "subject": "science",
+  "name": "Methods of Separation in Everyday Life",
+  "summary": "Many things around us are mixtures of two or more components, and we often need to separate them — to remove unwanted parts or to get a useful part. This chapter explores everyday methods such as handpicking, threshing, winnowing, sieving, sedimentation and decantation, filtration, evaporation, churning and magnetic separation, and how to choose a method based on differences in size, weight, state, solubility or magnetism.",
+  "topics": [
+    {
+      "id": "why-separate",
+      "title": "Mixtures and why we separate them",
+      "summary": "A mixture contains two or more components; we separate them to remove unwanted or harmful parts, or to get a useful part.",
+      "simple": "A **mixture** is made of two or more things mixed together, like rice with small stones, or tea leaves in tea. Each thing in it is called a **component**. We separate mixtures to throw away the parts we don't want, or to keep the parts we need.",
+      "explain": "Many things we use are **mixtures** — they have two or more **components** mixed together, and each component keeps its own properties. Examples: dal with tiny pebbles, muddy water, seawater (water + salts), curd (has butter in it), and sand with iron filings.\n\n**Why do we separate mixtures?**\n- **To remove unwanted or harmful components:** stones from rice, husk from grain, mud from water.\n- **To get a useful component:** salt from seawater, butter from curd, grain from harvested stalks.\n- **To separate two useful components** so each can be used on its own.\n\n**How do we choose a method?**\nWe look for a **difference** between the components:\n- **Size** → handpicking, sieving\n- **Weight (heavy or light)** → winnowing, sedimentation, churning\n- **Solid in a liquid that doesn't dissolve** → decantation, filtration\n- **A solid dissolved in a liquid** → evaporation\n- **Magnetic or not** → magnetic separation\n\nSometimes one method is enough. Often we need **two or more methods one after another**.\n\nIn the chapter, two friends, **Malli and Valli**, travel around and notice people separating things in kitchens, farms and shops — these are the methods you will meet below.",
+      "example": "Before cooking, your grandmother spreads rice on a plate and picks out small stones and husk. The rice is a mixture, and she is separating out the unwanted components.",
+      "keyPoints": [
+        "Mixture = two or more components mixed together",
+        "Each component keeps its own properties",
+        "Separate to remove unwanted parts or to get useful parts",
+        "Choose a method using a difference: size, weight, solubility, state or magnetism",
+        "Often more than one method is needed"
+      ],
+      "keywords": [
+        "mixture",
+        "components",
+        "separation",
+        "methods of separation",
+        "why separate",
+        "need for separation",
+        "separating mixtures",
+        "malli and valli",
+        "impurities",
+        "pure substance"
+      ]
+    },
+    {
+      "id": "handpicking-threshing",
+      "title": "Handpicking and threshing",
+      "summary": "Handpicking removes visibly different pieces by hand; threshing separates grain from the stalks of harvested crops by beating.",
+      "simple": "**Handpicking** means picking out unwanted things by hand, like stones from dal. **Threshing** is how farmers get grains off the dried stalks — by beating the stalks, or using animals or machines.",
+      "explain": "**Handpicking**\nPicking out components of a mixture **by hand**.\n- Works when the components look clearly different in **size, colour or shape**.\n- Works best for **small amounts**, when only a few unwanted pieces are present.\n- Examples: removing stones, husk or insects from rice, dal or wheat; picking out rotten potatoes or onions from a basket; separating red, green and yellow chillies.\n\n**Threshing**\nAfter harvesting, the grains (like wheat or paddy) are stuck to the dried stalks. **Threshing** is the process of separating the grains from the stalks.\n- Farmers **beat bundles of stalks** on a hard surface such as a wooden log or stone, so the grains fall off.\n- In some villages, **bullocks** are made to walk over the spread-out stalks.\n- On larger farms, **threshing machines** (threshers) or combine harvesters do this quickly.\n\nThreshing loosens the grain, but the grain is still mixed with **husk** (the light outer covering) and bits of straw. These are removed next by winnowing.",
+      "example": "In Punjab, after the wheat harvest, farmers use tractor-driven threshers. In smaller villages in Odisha, paddy bundles are beaten on a wooden plank to make the grains fall off.",
+      "keyPoints": [
+        "Handpicking: removing pieces by hand",
+        "Useful when parts differ in size, colour or shape",
+        "Best for small quantities",
+        "Threshing: separating grains from stalks",
+        "Done by beating, using bullocks, or threshing machines",
+        "After threshing, grain is still mixed with husk"
+      ],
+      "keywords": [
+        "handpicking",
+        "hand picking",
+        "threshing",
+        "thresher",
+        "grains from stalks",
+        "stones from rice",
+        "stones from dal",
+        "harvesting",
+        "bullocks threshing",
+        "combine harvester"
+      ]
+    },
+    {
+      "id": "winnowing-sieving",
+      "title": "Winnowing and sieving",
+      "summary": "Winnowing uses wind to blow away light husk from heavier grain; sieving separates fine particles from bigger ones using a sieve with small holes.",
+      "simple": "In **winnowing**, the mixture of grain and husk is dropped from a height. The wind blows the light husk away, and the heavy grains fall in a heap. In **sieving**, we shake a mixture in a sieve: small particles pass through the holes, big ones stay on top.",
+      "explain": "**Winnowing**\nSeparates **lighter** components from **heavier** ones using **wind or blowing air**.\n1. A farmer fills a **supa** (a flat winnowing basket made of bamboo) with the mixture of grain and husk.\n2. Standing on a raised place, the farmer lets the mixture fall slowly while the wind blows.\n3. The **light husk** is carried away by the wind and forms a separate heap a little away.\n4. The **heavy grains** fall straight down near the farmer.\n\nAt home, people also toss grain gently in a supa so that the husk flies off. A fan can be used if there is no breeze.\n\n**Sieving**\nSeparates components of **different sizes** using a **sieve** (a utensil with a mesh of small holes).\n- **Fine particles pass through** the holes; **bigger particles stay** on the sieve.\n- Examples:\n  - Sieving **atta (flour)** to remove bran and tiny stones.\n  - At construction sites, workers throw **sand** against a large slanting sieve to remove pebbles and stones.\n  - A flour mill uses sieves to remove husk and stones from wheat.\n\nThe size of the holes is chosen to suit the mixture.",
+      "example": "When making rotis, many families sieve the atta first. The fine flour falls through, while the coarse bran stays on top of the sieve.",
+      "keyPoints": [
+        "Winnowing: separates light and heavy components using wind",
+        "Light husk blows away; heavy grain falls close",
+        "A supa (winnowing basket) is used",
+        "Sieving: separates components of different sizes",
+        "Small particles pass through; bigger ones stay on the sieve",
+        "Examples: atta and bran, sand and pebbles"
+      ],
+      "keywords": [
+        "winnowing",
+        "sieving",
+        "sieve",
+        "chalni",
+        "supa",
+        "winnowing basket",
+        "husk",
+        "chaff",
+        "flour and bran",
+        "sand and pebbles",
+        "light and heavy"
+      ]
+    },
+    {
+      "id": "sedimentation-filtration",
+      "title": "Sedimentation, decantation and filtration",
+      "summary": "Heavy insoluble solids settle at the bottom (sedimentation), the clear liquid is poured off (decantation), and remaining fine particles are removed by passing the liquid through a filter (filtration).",
+      "simple": "If you leave muddy water still, the mud slowly **settles** at the bottom — that's **sedimentation**. Gently pouring off the cleaner water on top is **decantation**. Pouring a liquid through a strainer or cloth to catch solid bits is **filtration**, like straining tea.",
+      "explain": "These methods separate a **solid that does not dissolve** (insoluble) from a **liquid**.\n\n**Sedimentation**\nWhen muddy water is left undisturbed, the **heavier** soil and sand particles slowly **settle at the bottom**. The settled layer is called **sediment**.\n\n**Decantation**\nAfter sedimentation, the clearer liquid on top is **poured out gently** into another container without disturbing the sediment.\n- Example: When washing rice or dal, the water with dust is poured off while the grains stay at the bottom.\n- Decantation can also separate two liquids that don't mix, such as **oil and water** — the oil floats on top and can be poured off.\n\n**Filtration**\nThe mixture is passed through a **filter** — something with very small holes that lets the liquid through but stops the solid particles.\n- **Making tea:** the tea is poured through a strainer, which holds back the tea leaves.\n- **Paneer:** curdled milk is poured through a muslin cloth; the whey drains away, and the paneer stays in the cloth.\n- In the lab, **filter paper** in a funnel is used to make muddy water clear.\n- Water purifiers at home also use filters.\n\nDecanted water may still look a little cloudy. Filtering it removes the fine particles still floating in it. (But filtered water is not always safe to drink — germs can pass through; boiling helps.)",
+      "example": "To clean pond water for an experiment: let it stand in a bucket (sedimentation), pour the upper water into another vessel (decantation), then pass it through a clean folded cloth or filter paper (filtration).",
+      "keyPoints": [
+        "Used for insoluble solids in a liquid",
+        "Sedimentation: heavy particles settle at the bottom",
+        "Decantation: pouring off the clear liquid without disturbing the sediment",
+        "Decantation also separates oil from water",
+        "Filtration: passing through a filter to hold back solids",
+        "Examples: tea strainer, muslin cloth for paneer, filter paper"
+      ],
+      "keywords": [
+        "sedimentation",
+        "decantation",
+        "filtration",
+        "filter",
+        "filter paper",
+        "sediment",
+        "muddy water",
+        "tea strainer",
+        "paneer muslin cloth",
+        "oil and water",
+        "insoluble",
+        "washing rice"
+      ]
+    },
+    {
+      "id": "evaporation-churning",
+      "title": "Evaporation and churning",
+      "summary": "Evaporation removes water to leave a dissolved solid such as salt behind; churning separates lighter butter from buttermilk by stirring curd vigorously.",
+      "simple": "If salt is dissolved in water, filtering won't separate it. Instead we let the water **evaporate**, and the salt is left behind. **Churning** means stirring curd fast with a madhani; the light butter collects on top and the buttermilk is left below.",
+      "explain": "**Evaporation**\nWhen a solid like **salt** or **sugar** is **dissolved** in water, it passes through any filter. To get it back, we remove the water by **evaporation**.\n- Heat the salt solution (or leave it in the sun). The water turns into vapour and goes into the air.\n- The **salt is left behind** as solid crystals.\n\n**Salt from seawater:** Along the coasts of Gujarat, Tamil Nadu and other states, seawater is let into wide, **shallow pits** (salt pans). The Sun's heat and the wind slowly evaporate the water, and **salt is left behind**. It is then collected and purified.\n\n**Churning**\nUsed to separate **butter** from **curd** (or cream from milk).\n- Curd is stirred very fast with a **madhani** (wooden churner) or an electric mixer.\n- The **lighter fat** comes together as **butter** and **floats on top**.\n- The **heavier liquid** left below is **buttermilk** (chhaas or lassi).\n\nThe butter can then be taken out by hand and heated to make ghee.\n\nIn dairies, machines spin milk very fast to separate the cream, which works on the same idea.",
+      "example": "In many homes in Gujarat and Rajasthan, curd is churned every morning in a clay pot with a madhani. White butter collects on top and is lifted out, while the buttermilk is drunk with meals.",
+      "keyPoints": [
+        "Evaporation separates a dissolved solid from a liquid",
+        "The liquid goes into the air; the solid is left behind",
+        "Salt is obtained from seawater by evaporation in shallow pits",
+        "Filtration cannot remove a dissolved solid like salt",
+        "Churning separates butter (lighter) from buttermilk",
+        "A madhani is used to churn curd"
+      ],
+      "keywords": [
+        "evaporation",
+        "salt from sea water",
+        "salt pans",
+        "dissolved",
+        "solution",
+        "churning",
+        "madhani",
+        "butter from curd",
+        "buttermilk",
+        "cream from milk",
+        "chhaas"
+      ]
+    },
+    {
+      "id": "magnetic-and-combined",
+      "title": "Magnetic separation and using more than one method",
+      "summary": "A magnet pulls out iron pieces from a mixture; many mixtures need two or more methods used one after another.",
+      "simple": "If a mixture has iron nails, pins or iron filings, we can pull them out with a **magnet**. Some mixtures need several steps — for example, sand and salt mixed together need dissolving, filtering and then evaporation.",
+      "explain": "**Magnetic separation**\nA magnet attracts materials like **iron, nickel and cobalt**, but not sand, sawdust, wood or plastic.\n- Moving a magnet over a mixture of **sawdust and iron nails** (or sand and iron filings) pulls out the iron pieces.\n- At scrap yards, large **electromagnets** lift iron and steel scrap away from other waste.\n- Recycling plants use magnets to sort out iron items from other garbage.\n\n**Using more than one method**\nMany mixtures can't be separated in one step.\n\n*Example 1 — sand + salt:*\n1. Add water and stir. Salt **dissolves**; sand does not.\n2. **Filter** the mixture. Sand stays on the filter paper.\n3. **Evaporate** the water from the filtrate. Salt is left behind.\n\n*Example 2 — muddy water:*\n1. **Sedimentation** — let mud settle.\n2. **Decantation** — pour off the upper water.\n3. **Filtration** — remove remaining fine particles.\n\n*Example 3 — wheat from field to flour:*\nThreshing → winnowing → handpicking (stones) → grinding → sieving (bran).\n\n**Choosing the right method** — ask: Do the parts differ in size? weight? Does one dissolve? Is one magnetic? Is one a liquid?",
+      "example": "A child's box of mixed iron pins, sand and salt can be separated: use a magnet to remove the pins, add water to dissolve the salt, filter out the sand, then evaporate the water to get the salt back.",
+      "keyPoints": [
+        "Magnets attract iron, nickel and cobalt",
+        "Magnetic separation removes iron pieces from sand, sawdust or waste",
+        "Scrap yards use large electromagnets",
+        "Some mixtures need several methods one after another",
+        "Sand + salt: dissolve → filter → evaporate",
+        "Pick methods based on differences in properties"
+      ],
+      "keywords": [
+        "magnetic separation",
+        "magnet",
+        "iron filings",
+        "iron nails sawdust",
+        "electromagnet",
+        "scrap",
+        "more than one method",
+        "sand and salt",
+        "separate sand and salt",
+        "combination of methods",
+        "choosing a method"
+      ]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "Mixture", "meaning": "A substance made of two or more components mixed together, each keeping its own properties." },
+    { "term": "Component", "meaning": "Each separate substance present in a mixture." },
+    { "term": "Handpicking", "meaning": "Removing components of a mixture by hand, when they look clearly different." },
+    { "term": "Threshing", "meaning": "Separating grains from the stalks of harvested crops by beating, using animals or machines." },
+    { "term": "Winnowing", "meaning": "Separating lighter components (husk) from heavier ones (grain) using wind or blowing air." },
+    { "term": "Sieving", "meaning": "Separating components of different sizes by passing the mixture through a sieve." },
+    { "term": "Sedimentation", "meaning": "Settling of heavier insoluble particles at the bottom of a liquid." },
+    { "term": "Decantation", "meaning": "Gently pouring off the liquid above a sediment, or the upper liquid from two that don't mix." },
+    { "term": "Filtration", "meaning": "Passing a mixture through a filter so the liquid passes but insoluble solids are held back." },
+    { "term": "Evaporation", "meaning": "Removing a liquid by turning it into vapour so that a dissolved solid is left behind." },
+    { "term": "Churning", "meaning": "Stirring curd or cream vigorously so lighter butter separates from buttermilk." },
+    { "term": "Magnetic separation", "meaning": "Using a magnet to remove magnetic materials such as iron from a mixture." }
+  ],
+  "formulas": [],
+  "commonMistakes": [
+    "Thinking filtration can separate salt from water — dissolved salt passes through the filter; use evaporation.",
+    "Mixing up threshing and winnowing — threshing separates grain from stalks; winnowing separates husk from grain.",
+    "Saying the husk falls close to the farmer in winnowing — the light husk blows away; the heavy grain falls close.",
+    "Stirring muddy water before decanting — it disturbs the sediment and spoils the separation.",
+    "Using handpicking for large quantities with tiny particles — it only works for small amounts of visibly different pieces.",
+    "Thinking a magnet attracts all metals — it attracts iron, nickel and cobalt, not aluminium, copper or brass.",
+    "Assuming filtered water is always safe to drink — germs can pass through simple filters."
+  ],
+  "revision": [
+    "A mixture has two or more components; separation removes unwanted parts or gets useful ones.",
+    "Choose a method based on differences in size, weight, solubility, state or magnetism.",
+    "Handpicking: by hand, for small amounts of visibly different pieces.",
+    "Threshing: separating grains from stalks.",
+    "Winnowing: wind blows away light husk; heavy grain falls close.",
+    "Sieving: separates fine particles from bigger ones (atta and bran).",
+    "Sedimentation: heavy insoluble particles settle down.",
+    "Decantation: pour off the clear liquid without disturbing the sediment.",
+    "Filtration: a filter holds back insoluble solids (tea strainer, muslin for paneer).",
+    "Evaporation: gets a dissolved solid back (salt from seawater).",
+    "Churning: separates butter from buttermilk.",
+    "Magnetic separation: a magnet pulls out iron.",
+    "Sand + salt: dissolve, filter, evaporate."
+  ],
+  "faqs": [
+    {
+      "q": "What is the difference between threshing and winnowing?",
+      "a": "**Threshing** separates the **grains from the stalks** of the harvested crop, by beating the stalks or using animals or machines. **Winnowing** comes next: it separates the **light husk from the heavy grain** using wind.",
+      "keywords": ["threshing vs winnowing", "difference between threshing and winnowing"]
+    },
+    {
+      "q": "What is the difference between sedimentation and decantation?",
+      "a": "**Sedimentation** is the settling of heavy solid particles at the bottom of a liquid when it is left still. **Decantation** is the next step: gently pouring off the clear liquid on top, leaving the sediment behind. They are usually done together.",
+      "keywords": ["sedimentation vs decantation", "difference between sedimentation and decantation"]
+    },
+    {
+      "q": "How can we separate salt from salt water? Why not filter it?",
+      "a": "Salt is **dissolved** in the water, so its particles are tiny enough to pass through any filter. Instead, heat the salt water or leave it in the sun. The water **evaporates** and the salt is left behind as crystals.",
+      "keywords": ["separate salt from water", "salt from salt water", "why filtration cannot separate salt", "evaporation"]
+    },
+    {
+      "q": "How do you separate a mixture of sand and salt?",
+      "a": "1. Add water and stir — the salt dissolves, the sand doesn't.\n2. **Filter** — sand stays on the filter paper.\n3. **Evaporate** the water from the liquid that passed through — salt is left behind.",
+      "keywords": ["sand and salt", "separate sand and salt", "mixture of sand and salt"]
+    },
+    {
+      "q": "Why do we need to separate mixtures at all?",
+      "a": "To **remove unwanted or harmful parts** (like stones from rice or mud from water), to **get a useful part** (like salt from seawater or butter from curd), or to **separate two useful parts** so each can be used.",
+      "keywords": ["why separate mixtures", "need for separation", "purpose of separation"]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Which method is best for removing a few small stones from a plate of rice?",
+      "options": ["Winnowing", "Handpicking", "Evaporation", "Churning"],
+      "answer": 1,
+      "explain": "The stones look different and are few, so they can easily be picked out by hand.",
+      "topic": "handpicking-threshing",
+      "level": "easy"
+    },
+    {
+      "q": "The process of separating grains from the stalks of harvested crops is called:",
+      "options": ["Sieving", "Winnowing", "Decantation", "Threshing"],
+      "answer": 3,
+      "explain": "Threshing separates grain from stalks, by beating them, using bullocks or machines.",
+      "topic": "handpicking-threshing",
+      "level": "easy"
+    },
+    {
+      "q": "During winnowing, why does the husk get carried away while the grain falls close by?",
+      "options": ["Husk is lighter than grain", "Husk is heavier than grain", "Husk dissolves in air", "Grain is attracted to the ground by magnetism"],
+      "answer": 0,
+      "explain": "Winnowing works on a difference in weight: the wind carries the light husk away, while the heavier grain falls straight down.",
+      "topic": "winnowing-sieving",
+      "level": "medium"
+    },
+    {
+      "q": "Which method is used to separate bran from atta (flour)?",
+      "options": ["Filtration", "Churning", "Sieving", "Magnetic separation"],
+      "answer": 2,
+      "explain": "Fine flour passes through the holes of a sieve; the bigger bran pieces stay on top.",
+      "topic": "winnowing-sieving",
+      "level": "easy"
+    },
+    {
+      "q": "Muddy water is left still for some time and the mud settles at the bottom. This is called:",
+      "options": ["Decantation", "Filtration", "Sedimentation", "Evaporation"],
+      "answer": 2,
+      "explain": "The settling of heavier insoluble particles at the bottom is sedimentation.",
+      "topic": "sedimentation-filtration",
+      "level": "easy"
+    },
+    {
+      "q": "A tea strainer separates tea leaves from tea. Which method is this?",
+      "options": ["Filtration", "Sedimentation", "Winnowing", "Evaporation"],
+      "answer": 0,
+      "explain": "The strainer acts as a filter: the liquid passes through and the solid leaves are held back.",
+      "topic": "sedimentation-filtration",
+      "level": "easy"
+    },
+    {
+      "q": "Oil and water are in the same glass. Which method can separate them?",
+      "options": ["Sieving", "Magnetic separation", "Threshing", "Decantation"],
+      "answer": 3,
+      "explain": "Oil does not mix with water and floats on top, so it can be poured off carefully — decantation.",
+      "topic": "sedimentation-filtration",
+      "level": "medium"
+    },
+    {
+      "q": "How is common salt obtained from seawater?",
+      "options": ["By filtration", "By evaporation in shallow pits", "By churning", "By winnowing"],
+      "answer": 1,
+      "explain": "Seawater is kept in shallow pits; the Sun and wind evaporate the water, leaving salt behind.",
+      "topic": "evaporation-churning",
+      "level": "easy"
+    },
+    {
+      "q": "Why can't salt dissolved in water be separated by filtration?",
+      "options": ["Dissolved salt particles are tiny enough to pass through the filter", "Salt is heavier than water", "Salt is magnetic", "Salt floats on water"],
+      "answer": 0,
+      "explain": "When salt dissolves, its particles spread out in the water and pass through filters. Evaporation is needed instead.",
+      "topic": "evaporation-churning",
+      "level": "medium"
+    },
+    {
+      "q": "When curd is churned with a madhani, what happens?",
+      "options": ["Butter sinks to the bottom", "Butter collects and floats on top, leaving buttermilk", "Curd turns into milk", "Water evaporates"],
+      "answer": 1,
+      "explain": "Churning makes the lighter fat clump together as butter, which floats on top of the buttermilk.",
+      "topic": "evaporation-churning",
+      "level": "medium"
+    },
+    {
+      "q": "Which is the best way to remove iron nails mixed with sawdust?",
+      "options": ["Winnowing", "Evaporation", "Sedimentation", "Using a magnet"],
+      "answer": 3,
+      "explain": "A magnet attracts iron but not sawdust, so it pulls the nails out.",
+      "topic": "magnetic-and-combined",
+      "level": "easy"
+    },
+    {
+      "q": "What is the correct order of steps to separate a mixture of sand and salt?",
+      "options": ["Evaporate → add water → filter", "Filter → evaporate → add water", "Add water → filter → evaporate", "Use a magnet → winnow → sieve"],
+      "answer": 2,
+      "explain": "Dissolve the salt in water, filter out the sand, then evaporate the water to get the salt back.",
+      "topic": "magnetic-and-combined",
+      "level": "hard"
+    }
+  ]
+}

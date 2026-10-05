@@ -1,0 +1,358 @@
+{
+  "id": "c6-sci-natures-treasures",
+  "class": 6,
+  "subject": "science",
+  "name": "Nature's Treasures",
+  "summary": "Air, water, sunlight, forests, soil, rocks, minerals and fossil fuels are nature's treasures — natural resources that we use every day. This chapter explores what each resource gives us, the difference between renewable and non-renewable resources, the problems caused by overuse and pollution, and how we can protect these treasures by refusing, reducing, reusing, repairing and recycling.",
+  "topics": [
+    {
+      "id": "natural-resources",
+      "title": "Natural resources: renewable and non-renewable",
+      "summary": "Natural resources are useful things we get from nature; renewable ones are replaced naturally in a short time, while non-renewable ones form very slowly or exist in limited amounts.",
+      "simple": "Things we get from nature that are useful to us — like air, water, sunlight, trees, soil and coal — are called **natural resources**. Some, like sunlight and wind, keep getting renewed. Others, like coal and petroleum, took millions of years to form and will run out if we keep using them up.",
+      "explain": "A **natural resource** is anything found in nature that living beings use to meet their needs. Humans did not make them. Examples: air, water, sunlight, soil, forests, animals, rocks, minerals, coal and petroleum.\n\nWe can group natural resources into two types:\n\n**1. Renewable resources**\nThese are **replaced naturally within a relatively short time**, if we use them carefully.\n- Examples: sunlight, air, wind, water (renewed by the water cycle), forests and plants.\n\n**2. Non-renewable resources**\nThese **form extremely slowly** (over millions of years) or exist in **limited amounts**. Once used up, they cannot be replaced in our lifetime.\n- Examples: coal, petroleum, natural gas and minerals (like iron ore, copper ore, mica).\n\n**Important:** *Renewable does not mean unlimited!* Forests, soil and fresh water can be overused or polluted **faster than nature can renew them**. If we cut trees faster than new ones grow, or pollute a river faster than it can clean itself, even a renewable resource can be lost.\n\nTo think about any resource, ask four questions: *What is it? How do we use it? What problem does misuse cause? What action can reduce the harm?*",
+      "example": "Sunlight reaches Earth every day, so it is renewable. But the petrol in a scooter comes from petroleum that formed over millions of years under the ground; once it is burnt, it is gone — it is non-renewable.",
+      "keyPoints": [
+        "Natural resources: useful things from nature, not made by humans",
+        "Renewable: replaced naturally in a short time (sunlight, air, wind, water, forests)",
+        "Non-renewable: form very slowly or are limited (coal, petroleum, natural gas, minerals)",
+        "Renewable does not mean unlimited",
+        "Overuse and pollution can destroy even renewable resources"
+      ],
+      "keywords": [
+        "natural resources",
+        "what are natural resources",
+        "renewable resources",
+        "non-renewable resources",
+        "renewable vs non renewable",
+        "exhaustible",
+        "inexhaustible",
+        "examples of renewable resources",
+        "examples of non renewable resources",
+        "nature's treasures"
+      ]
+    },
+    {
+      "id": "air-and-water",
+      "title": "Air and water",
+      "summary": "Air is a mixture of gases (mainly nitrogen and oxygen) that supports life and helps in many activities; water is essential for life, but very little of Earth's water is fresh and usable.",
+      "simple": "**Air** is all around us. It is a mixture of gases, mostly nitrogen and oxygen. We need oxygen to breathe, and moving air (wind) helps fly kites and turn windmills. **Water** is needed for drinking, cooking, farming and much more. Most water on Earth is salty sea water; only a tiny part is fresh water we can use.",
+      "explain": "**Air**\nAir is a **mixture of gases**:\n- **Nitrogen:** about 78%\n- **Oxygen:** about 21%\n- **About 1%:** argon, carbon dioxide, water vapour and other gases (plus dust and smoke)\n\n**Uses of air:**\n- Living things need **oxygen** for respiration.\n- Plants use **carbon dioxide** to make food.\n- Burning (fire) needs oxygen.\n- **Moving air (wind)** dries clothes, helps winnowing, moves sailboats, flies kites, spreads seeds and turns **windmills** to make electricity.\n\n**Problem:** Smoke from vehicles, factories and burning waste pollutes air. Polluted air causes breathing problems. Many Indian cities face poor air quality in winter.\n\n**Water**\nWater is needed for drinking, cooking, bathing, cleaning, farming, factories and making electricity. Every living thing needs it.\n\nOn Earth:\n- Most water (about 97%) is **salty** sea and ocean water — not fit for drinking or farming.\n- Only about **3%** is **fresh water**, and most of that is **frozen** in glaciers and ice caps or deep underground.\n- So only a very small part is easily available in rivers, lakes and groundwater.\n\nWater is renewed by the **water cycle**, but fresh water can still run short because of overuse, wastage and pollution.\n\n**Saving water:** turn off taps, fix leaks, reuse water (e.g. water used to wash vegetables for plants), use drip irrigation, and do **rainwater harvesting** — collecting rainwater from roofs to use or to recharge groundwater.",
+      "example": "Chennai and Bengaluru have faced serious water shortages in some years. Tamil Nadu made rainwater harvesting compulsory for buildings, helping refill groundwater.",
+      "keyPoints": [
+        "Air: about 78% nitrogen, 21% oxygen, 1% other gases",
+        "Oxygen for breathing and burning; CO₂ for plants",
+        "Wind helps windmills, sailboats, drying and winnowing",
+        "About 97% of Earth's water is salty",
+        "Only about 3% is fresh water, mostly frozen",
+        "Save water: fix leaks, reuse, rainwater harvesting"
+      ],
+      "keywords": [
+        "air",
+        "composition of air",
+        "nitrogen",
+        "oxygen",
+        "carbon dioxide",
+        "uses of air",
+        "wind",
+        "windmill",
+        "air pollution",
+        "water",
+        "fresh water",
+        "salt water",
+        "water conservation",
+        "rainwater harvesting",
+        "save water"
+      ]
+    },
+    {
+      "id": "energy-from-sun",
+      "title": "Energy from the Sun",
+      "summary": "The Sun is the main source of energy for life on Earth; its light and heat help plants make food, drive the water cycle, and can be used directly through solar cookers and solar panels.",
+      "simple": "The Sun gives us light and heat. Plants use sunlight to make food, and all animals depend on plants. Sunlight also dries clothes and grains. Today we use **solar panels** to make electricity from sunlight and **solar cookers** to cook food.",
+      "explain": "The **Sun** is the most important source of energy for life on Earth. Sunlight is **renewable** — it is available every day and will last for billions of years.\n\n**How sunlight helps us:**\n- **Food for all:** Green plants use sunlight to make their food. Animals eat plants (or other animals that ate plants), so almost all our food energy comes from the Sun.\n- **Warmth:** It keeps the Earth warm enough for life.\n- **Water cycle:** Its heat evaporates water, which forms clouds and rain.\n- **Wind:** Uneven heating of the Earth by the Sun causes winds.\n- **Everyday uses:** drying clothes, papad, pickles, chillies and grains in the sun; making salt from seawater.\n\n**Using solar energy directly:**\n- **Solar cookers** trap sunlight to cook food without fuel.\n- **Solar water heaters** on rooftops heat water.\n- **Solar panels** change sunlight into **electricity**. They power homes, street lights, water pumps for farmers and even satellites.\n\nIndia gets plenty of sunshine for most of the year, so it is building large **solar parks**, such as the Bhadla Solar Park in Rajasthan. Solar energy does not produce smoke, so it is a clean source of energy.",
+      "example": "Many villages in India now have solar-powered street lights and solar water pumps for farms. They work without diesel or grid electricity, saving money and keeping the air clean.",
+      "keyPoints": [
+        "The Sun is the main source of energy on Earth",
+        "Sunlight is renewable and clean",
+        "Plants use sunlight to make food; all food chains depend on it",
+        "Sun drives the water cycle and winds",
+        "Solar cookers, solar water heaters and solar panels use sunlight directly",
+        "Solar panels convert sunlight into electricity"
+      ],
+      "keywords": [
+        "sun",
+        "solar energy",
+        "energy from the sun",
+        "sunlight",
+        "solar panel",
+        "solar cooker",
+        "solar water heater",
+        "solar park",
+        "clean energy",
+        "renewable energy",
+        "uses of sunlight"
+      ]
+    },
+    {
+      "id": "forests-soil-minerals",
+      "title": "Forests, soil, rocks and minerals",
+      "summary": "Forests give us many products and protect the environment; soil forms slowly from rocks and supports plants; rocks and minerals give building materials and metals.",
+      "simple": "**Forests** give us wood, fruits, medicines and honey, make oxygen and are home to many animals. **Soil** forms very slowly from broken-down rocks and lets plants grow. **Rocks and minerals** give us stone for buildings and metals like iron and copper.",
+      "explain": "**Forests**\nForests give us:\n- **Products:** wood, bamboo, fruits, nuts, gum, honey, lac, medicinal plants, fodder and paper (made from wood pulp).\n- **Services:** they give out oxygen, take in carbon dioxide, help bring rain, keep the air cool, stop soil from being washed away by rain, and are **homes (habitats)** for countless plants and animals — this variety of life is called **biodiversity**.\n- Many **forest-dwelling communities** depend on forests for their livelihood.\n\n**Problem:** Cutting forests (**deforestation**) for timber, farms, roads and buildings destroys habitats and causes soil erosion.\n**Action:** Plant and protect trees. **Van Mahotsav** is a tree-planting festival celebrated in India in the first week of July. In the **Chipko movement**, villagers in the Himalayas hugged trees to stop them from being cut. Many communities protect **sacred groves**.\n\n**Soil**\n- Soil forms when **rocks break down** into tiny pieces over a very long time (by sun, wind, water and living things), mixed with decayed remains of plants and animals (humus).\n- It can take **hundreds of years** to form just a few centimetres of soil.\n- Soil supports plants, gives them water and minerals, and is home to earthworms, insects and microbes.\n- **Problem:** soil erosion and pollution by plastic and too many chemicals. **Action:** plant trees, use compost.\n\n**Rocks and minerals**\n- **Rocks** like granite, marble and sandstone are used for buildings, floors and statues. (The Taj Mahal is made of white marble from Makrana, Rajasthan.)\n- **Minerals** are found in rocks. Some, called **ores**, give us **metals** like iron, copper and aluminium.\n- Minerals are **non-renewable**, so metals should be reused and recycled.",
+      "example": "A single neem tree gives shade, cleans the air, provides twigs once used as a toothbrush (datun), leaves used to keep insects away from stored grain, and is home to birds and insects.",
+      "keyPoints": [
+        "Forests give wood, fruits, honey, medicines and paper",
+        "Forests make oxygen, bring rain, protect soil and are habitats",
+        "Deforestation harms habitats and soil",
+        "Van Mahotsav and the Chipko movement protect trees",
+        "Soil forms very slowly from broken-down rocks and humus",
+        "Rocks give building stone; ores give metals like iron and copper",
+        "Minerals are non-renewable"
+      ],
+      "keywords": [
+        "forests",
+        "forest products",
+        "uses of forests",
+        "deforestation",
+        "van mahotsav",
+        "chipko movement",
+        "sacred groves",
+        "biodiversity",
+        "soil",
+        "soil formation",
+        "soil erosion",
+        "rocks",
+        "minerals",
+        "ores",
+        "metals",
+        "marble"
+      ]
+    },
+    {
+      "id": "fossil-fuels",
+      "title": "Fossil fuels: coal, petroleum and natural gas",
+      "summary": "Fossil fuels formed over millions of years from buried remains of ancient plants and animals; they are non-renewable and burning them pollutes the air.",
+      "simple": "**Coal**, **petroleum** and **natural gas** are called **fossil fuels**. They formed deep underground from dead plants and animals that lived millions of years ago. They give us a lot of energy, but they will run out one day, and burning them makes smoke and pollutes the air.",
+      "explain": "**What are fossil fuels?**\n**Fossil fuels** are fuels formed from the **remains of plants and animals** that lived **millions of years ago**. These remains were buried under layers of soil and rock. Over a very long time, heat and pressure deep inside the Earth slowly changed them into fuels.\n\n**The three main fossil fuels:**\n1. **Coal** — a black, hard solid formed mainly from ancient plants. Used in thermal power plants to make electricity and in factories. India has big coal mines in Jharkhand, Odisha and Chhattisgarh.\n2. **Petroleum (crude oil)** — a thick, dark liquid found deep under land and sea. From it we get **petrol, diesel, kerosene**, lubricating oils, and materials used to make plastics.\n3. **Natural gas** — found along with petroleum. Used as **CNG** for vehicles and piped gas for cooking.\n\nThe cooking gas **LPG** in cylinders is also obtained from petroleum and natural gas.\n\n**Problems with fossil fuels:**\n- They are **non-renewable**: they took millions of years to form, so once used up they can't be replaced.\n- **Burning** them releases smoke and harmful gases, causing **air pollution** and breathing problems.\n- They release **carbon dioxide**, which traps heat and is making the Earth warmer.\n\n**What can we do?** Use them carefully: walk, cycle, use public transport or car-pool, switch off lights and fans when not needed, and shift to **clean energy** like solar and wind.",
+      "example": "When a family switches from a petrol car to the metro for daily travel, they save petrol (a non-renewable resource) and add less smoke to the city air.",
+      "keyPoints": [
+        "Fossil fuels: coal, petroleum and natural gas",
+        "Formed over millions of years from buried remains of ancient plants and animals",
+        "Petrol, diesel, kerosene come from petroleum",
+        "CNG and piped cooking gas are natural gas",
+        "Non-renewable — they will run out",
+        "Burning them causes air pollution and adds carbon dioxide"
+      ],
+      "keywords": [
+        "fossil fuels",
+        "coal",
+        "petroleum",
+        "natural gas",
+        "crude oil",
+        "petrol",
+        "diesel",
+        "cng",
+        "lpg",
+        "how fossil fuels are formed",
+        "non renewable energy",
+        "pollution from fossil fuels"
+      ]
+    },
+    {
+      "id": "conservation",
+      "title": "Protecting nature's treasures",
+      "summary": "We can conserve natural resources by using them wisely and following refuse, reduce, reuse, repair and recycle.",
+      "simple": "Nature's treasures can run out or get spoilt if we waste them. We can protect them by saying no to things we don't need, using less, using things again, mending broken things and recycling. Even small daily habits make a big difference.",
+      "explain": "**Conservation** means using natural resources **wisely and carefully**, so that they last longer and are available for future generations, and so that plants and animals are not harmed.\n\n**The five Rs**\n1. **Refuse** — say no to things we don't really need, like single-use plastic bags and straws.\n2. **Reduce** — use less: switch off fans and lights when leaving a room, take shorter showers, print only when necessary.\n3. **Reuse** — use things again: refill water bottles, use old jars for storage, write on both sides of paper.\n4. **Repair** — fix broken things instead of throwing them away: mend clothes, repair a cycle or a toy.\n5. **Recycle** — send paper, glass, metal and some plastics to be made into new things. Separate wet and dry waste at home.\n\n**Other actions**\n- Plant and care for trees; take part in Van Mahotsav.\n- Save water and harvest rainwater.\n- Use public transport, cycle or walk for short trips.\n- Use solar energy where possible.\n- Don't litter or pollute rivers, lakes and soil.\n\nRemember the four questions for any resource: **what is it, how do we use it, what problem does misuse cause, and what action reduces the harm?**",
+      "example": "A school starts a 'no plastic' drive: students carry steel bottles and cloth bags (refuse, reuse), switch off classroom fans during break (reduce), mend torn library books (repair), and collect old newspapers for a recycler (recycle).",
+      "keyPoints": [
+        "Conservation = using resources wisely so they last",
+        "Refuse things you don't need",
+        "Reduce use of water, electricity and fuel",
+        "Reuse and repair before throwing away",
+        "Recycle paper, glass, metal and plastic",
+        "Plant trees, save water and use clean energy"
+      ],
+      "keywords": [
+        "conservation",
+        "conservation of natural resources",
+        "5 rs",
+        "five rs",
+        "refuse reduce reuse repair recycle",
+        "3 rs",
+        "reduce reuse recycle",
+        "save resources",
+        "how to protect natural resources",
+        "recycling",
+        "single use plastic"
+      ]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "Natural resource", "meaning": "Anything found in nature that is useful to living beings, such as air, water, soil or coal." },
+    { "term": "Renewable resource", "meaning": "A resource that nature replaces within a relatively short time, like sunlight, wind, water and forests." },
+    { "term": "Non-renewable resource", "meaning": "A resource that forms extremely slowly or is limited, like coal, petroleum, natural gas and minerals." },
+    { "term": "Fossil fuels", "meaning": "Coal, petroleum and natural gas, formed over millions of years from buried remains of ancient plants and animals." },
+    { "term": "Petroleum", "meaning": "A dark liquid fossil fuel from which petrol, diesel and kerosene are obtained." },
+    { "term": "Solar panel", "meaning": "A device that converts sunlight into electricity." },
+    { "term": "Deforestation", "meaning": "Large-scale cutting down of forests." },
+    { "term": "Biodiversity", "meaning": "The variety of plants, animals and other living things in an area." },
+    { "term": "Mineral", "meaning": "A natural substance found in rocks; ores are minerals from which metals are obtained." },
+    { "term": "Rainwater harvesting", "meaning": "Collecting and storing rainwater for use or to refill groundwater." },
+    { "term": "Conservation", "meaning": "Using natural resources wisely and protecting them so they last for the future." },
+    { "term": "Van Mahotsav", "meaning": "A tree-planting festival celebrated in India in the first week of July." }
+  ],
+  "formulas": [
+    "Air ≈ 78% nitrogen + 21% oxygen + 1% other gases (argon, carbon dioxide, water vapour, etc.)",
+    "Earth's water ≈ 97% salty + 3% fresh (most fresh water is frozen)"
+  ],
+  "commonMistakes": [
+    "Thinking renewable means unlimited — forests, soil and fresh water can be used up or polluted faster than they recover.",
+    "Calling water an unlimited resource because Earth has a lot of it — only a tiny part is usable fresh water.",
+    "Thinking fossil fuels are formed quickly — they took millions of years to form.",
+    "Saying air is mostly oxygen — it is mostly nitrogen (about 78%); oxygen is about 21%.",
+    "Classifying minerals and metal ores as renewable — they are non-renewable.",
+    "Thinking recycling is the only R — refusing and reducing come first and save more."
+  ],
+  "revision": [
+    "Natural resources are useful things from nature, not made by humans.",
+    "Renewable: sunlight, air, wind, water, forests (renewed in a short time).",
+    "Non-renewable: coal, petroleum, natural gas, minerals (form extremely slowly or are limited).",
+    "Renewable does not mean unlimited.",
+    "Air is about 78% nitrogen and 21% oxygen.",
+    "About 97% of Earth's water is salty; only about 3% is fresh, and most of that is frozen.",
+    "The Sun is the main source of energy on Earth; solar panels turn sunlight into electricity.",
+    "Forests give products and services and are habitats for wildlife.",
+    "Soil forms very slowly from broken-down rocks and humus.",
+    "Ores are minerals from which metals are obtained.",
+    "Fossil fuels formed over millions of years from buried remains of ancient living things.",
+    "Burning fossil fuels causes air pollution.",
+    "Conserve with the five Rs: refuse, reduce, reuse, repair, recycle."
+  ],
+  "faqs": [
+    {
+      "q": "What is the difference between renewable and non-renewable resources?",
+      "a": "**Renewable** resources are replaced by nature within a relatively short time — sunlight, air, wind, water and forests. **Non-renewable** resources form extremely slowly (millions of years) or are limited — coal, petroleum, natural gas and minerals. Once used, non-renewable resources can't be replaced in our lifetime.",
+      "keywords": ["renewable vs non renewable", "difference between renewable and non-renewable resources"]
+    },
+    {
+      "q": "If water is renewable, why do we need to save it?",
+      "a": "Water is renewed by the water cycle, but only about 3% of Earth's water is fresh, and most of that is frozen. Overuse, wastage and pollution can make usable fresh water run short faster than it is renewed. Renewable does not mean unlimited.",
+      "keywords": ["why save water", "water renewable", "water shortage", "water conservation"]
+    },
+    {
+      "q": "Why are coal and petroleum called fossil fuels?",
+      "a": "They formed from the **remains of plants and animals** (like fossils) that were buried millions of years ago. Heat and pressure deep under the Earth slowly changed these remains into coal, petroleum and natural gas.",
+      "keywords": ["why fossil fuels", "fossil fuel meaning", "how coal is formed", "how petroleum is formed"]
+    },
+    {
+      "q": "What are the five Rs?",
+      "a": "**Refuse** (say no to things you don't need), **Reduce** (use less), **Reuse** (use again), **Repair** (fix instead of throwing away) and **Recycle** (turn waste into new things). Together they help conserve natural resources.",
+      "keywords": ["5 rs", "five rs", "refuse reduce reuse repair recycle", "3 rs"]
+    },
+    {
+      "q": "Why are forests so important?",
+      "a": "Forests give us wood, fruits, honey, medicines and paper. They also give out oxygen, take in carbon dioxide, help bring rain, prevent soil erosion and provide homes for many plants and animals. Many communities depend on them for their living.",
+      "keywords": ["importance of forests", "uses of forests", "why save forests"]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Which of these is a renewable resource?",
+      "options": ["Sunlight", "Coal", "Petroleum", "Natural gas"],
+      "answer": 0,
+      "explain": "Sunlight is available every day and is renewed naturally. Coal, petroleum and natural gas are non-renewable fossil fuels.",
+      "topic": "natural-resources",
+      "level": "easy"
+    },
+    {
+      "q": "Which statement about renewable resources is correct?",
+      "options": ["They can never run out, however we use them", "They are all made by humans", "They can be lost if used or polluted faster than nature renews them", "They take millions of years to form"],
+      "answer": 2,
+      "explain": "Renewable does not mean unlimited. Forests, soil and fresh water can be overused or polluted faster than they recover.",
+      "topic": "natural-resources",
+      "level": "medium"
+    },
+    {
+      "q": "Which gas makes up the largest part of air?",
+      "options": ["Oxygen", "Nitrogen", "Carbon dioxide", "Argon"],
+      "answer": 1,
+      "explain": "Air is about 78% nitrogen and about 21% oxygen.",
+      "topic": "air-and-water",
+      "level": "easy"
+    },
+    {
+      "q": "About how much of Earth's water is fresh water?",
+      "options": ["97%", "50%", "75%", "About 3%"],
+      "answer": 3,
+      "explain": "About 97% is salty ocean water; only about 3% is fresh, and most of that is frozen in ice and glaciers.",
+      "topic": "air-and-water",
+      "level": "medium"
+    },
+    {
+      "q": "Collecting rainwater from rooftops to use later or refill groundwater is called:",
+      "options": ["Deforestation", "Irrigation", "Evaporation", "Rainwater harvesting"],
+      "answer": 3,
+      "explain": "Rainwater harvesting collects and stores rainwater so it is not wasted.",
+      "topic": "air-and-water",
+      "level": "easy"
+    },
+    {
+      "q": "What does a solar panel do?",
+      "options": ["Stores rainwater", "Changes sunlight into electricity", "Makes oxygen", "Burns coal"],
+      "answer": 1,
+      "explain": "Solar panels convert sunlight directly into electricity without smoke.",
+      "topic": "energy-from-sun",
+      "level": "easy"
+    },
+    {
+      "q": "Why is the Sun called the main source of energy for life on Earth?",
+      "options": ["Because it is the largest planet", "Because it makes coal", "Because plants use sunlight to make food, and all animals depend on plants", "Because it only shines in summer"],
+      "answer": 2,
+      "explain": "Green plants make food using sunlight; animals eat plants or plant-eaters, so almost all food energy comes from the Sun.",
+      "topic": "energy-from-sun",
+      "level": "medium"
+    },
+    {
+      "q": "Which of these is NOT a benefit we get from forests?",
+      "options": ["Petroleum", "Wood and bamboo", "Honey and medicinal plants", "Homes for wild animals"],
+      "answer": 0,
+      "explain": "Petroleum is a fossil fuel found deep underground, not a forest product.",
+      "topic": "forests-soil-minerals",
+      "level": "medium"
+    },
+    {
+      "q": "How is soil formed?",
+      "options": ["Quickly, in a few days, from sand", "Very slowly, from rocks breaking down and mixing with humus", "From melting ice", "It is made in factories"],
+      "answer": 1,
+      "explain": "Rocks break down into tiny pieces over a very long time and mix with decayed remains of living things (humus).",
+      "topic": "forests-soil-minerals",
+      "level": "medium"
+    },
+    {
+      "q": "Fossil fuels were formed from:",
+      "options": ["Sunlight trapped in rocks", "Salt from the sea", "Melted metals", "Remains of plants and animals buried millions of years ago"],
+      "answer": 3,
+      "explain": "Heat and pressure over millions of years changed buried remains of ancient living things into coal, petroleum and natural gas.",
+      "topic": "fossil-fuels",
+      "level": "easy"
+    },
+    {
+      "q": "Which of these is obtained from petroleum?",
+      "options": ["Diesel", "Marble", "Iron", "Oxygen"],
+      "answer": 0,
+      "explain": "Petrol, diesel and kerosene are all obtained from petroleum (crude oil).",
+      "topic": "fossil-fuels",
+      "level": "easy"
+    },
+    {
+      "q": "Carrying a steel water bottle instead of buying plastic bottles mainly follows which R's?",
+      "options": ["Recycle only", "Repair only", "Refuse and reuse", "None of the Rs"],
+      "answer": 2,
+      "explain": "You refuse single-use plastic bottles and reuse the same steel bottle again and again.",
+      "topic": "conservation",
+      "level": "hard"
+    }
+  ]
+}

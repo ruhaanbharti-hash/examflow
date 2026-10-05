@@ -1,0 +1,351 @@
+{
+  "id": "c6-sci-states-of-water",
+  "class": 6,
+  "subject": "science",
+  "name": "A Journey through States of Water",
+  "summary": "Water exists as solid ice, liquid water and invisible water vapour, and it keeps changing from one state to another by heating or cooling. This chapter explains melting, freezing, evaporation and condensation, the factors that make water evaporate faster or slower, why evaporation cools things (like a matka or sweat), and how clouds form and give us rain in the water cycle.",
+  "topics": [
+    {
+      "id": "states-of-water",
+      "title": "The three states of water",
+      "summary": "Water can be a solid (ice), a liquid (water) or a gas (water vapour), and each state behaves differently.",
+      "simple": "Water comes in three forms. **Ice** is solid and keeps its shape. **Water** is liquid and flows, taking the shape of its container. **Water vapour** is a gas — it is all around us in the air, but we cannot see it.",
+      "explain": "Water is found in three **states**:\n\n1. **Solid — ice:** has a fixed shape and fixed size (volume). An ice cube stays a cube on a plate. Snow, frost, hailstones, glaciers and icebergs are also solid water.\n2. **Liquid — water:** has a fixed volume but **no fixed shape**. It flows and takes the shape of whatever container it is in. Rivers, lakes, rain and the water in your bottle are liquid.\n3. **Gas — water vapour:** has **no fixed shape and no fixed volume**. It spreads out to fill all the space available. Water vapour is **invisible** and is present in the air around us all the time.\n\nThe substance is the same in all three states — only its form changes. Ice, water and water vapour are all water.\n\n**A common confusion:** the white 'steam' you see above a boiling kettle is *not* water vapour itself. Water vapour is invisible. The white cloud is made of tiny droplets of liquid water formed when the hot vapour meets cooler air.",
+      "example": "In Ladakh in winter, the Indus can be partly frozen (ice), flowing water runs beneath it (liquid), and on a sunny day some water rises into the air as invisible vapour (gas) — all three states in one place!",
+      "keyPoints": [
+        "Three states: solid (ice), liquid (water), gas (water vapour)",
+        "Solid: fixed shape and fixed volume",
+        "Liquid: fixed volume, takes the shape of the container",
+        "Gas: no fixed shape or volume; spreads out",
+        "Water vapour is invisible and always present in air",
+        "Visible 'steam' is really tiny liquid droplets"
+      ],
+      "keywords": [
+        "states of water",
+        "three states of water",
+        "solid liquid gas",
+        "ice",
+        "water vapour",
+        "water vapor",
+        "states of matter",
+        "steam",
+        "snow",
+        "glacier",
+        "fixed shape",
+        "properties of solid liquid gas"
+      ]
+    },
+    {
+      "id": "melting-and-freezing",
+      "title": "Changing states: melting, freezing and boiling",
+      "summary": "Heating turns ice into water (melting) and water into vapour; cooling turns water into ice (freezing). These changes can be reversed.",
+      "simple": "When you heat ice, it **melts** and becomes water. If you keep heating water, it **boils** and turns into water vapour. When you cool water enough, it **freezes** into ice. Heating and cooling change the state of water, and the change can go back again.",
+      "explain": "Water changes from one state to another when it is **heated** or **cooled**.\n\n**Melting (solid → liquid)**\nWhen ice is heated, it turns into liquid water. Pure ice melts at **0 °C**. An ice cube left on a plate in the classroom melts because the room is warmer.\n\n**Freezing (liquid → solid)**\nWhen water is cooled enough, it becomes ice. Pure water freezes at **0 °C**. Water in the freezer tray turns into ice cubes.\n\n**Boiling (liquid → gas, quickly)**\nWhen water is heated strongly, at about **100 °C** it boils: bubbles of vapour form inside the water and it changes rapidly into water vapour.\n\n**Evaporation (liquid → gas, slowly)** and **condensation (gas → liquid)** are explained in the next topics.\n\nThese changes are **reversible**:\n- Ice → water (heat) and water → ice (cool)\n- Water → vapour (heat) and vapour → water (cool)\n\nSo we can draw a simple chain:\n**Ice ⇄ Water ⇄ Water vapour**\nGoing right needs heating; going left needs cooling.",
+      "example": "Make a kulfi or ice lolly: liquid milk mixture is frozen in the freezer (freezing). Leave it out in the sun and it melts back into a liquid (melting).",
+      "keyPoints": [
+        "Melting: ice → water on heating (0 °C for pure ice)",
+        "Freezing: water → ice on cooling (0 °C for pure water)",
+        "Boiling: water → vapour quickly, at about 100 °C",
+        "Heating moves water from solid → liquid → gas",
+        "Cooling moves water from gas → liquid → solid",
+        "These changes are reversible"
+      ],
+      "keywords": [
+        "melting",
+        "freezing",
+        "boiling",
+        "change of state",
+        "changing states of water",
+        "melting point",
+        "freezing point",
+        "boiling point",
+        "reversible change",
+        "ice to water",
+        "water to ice",
+        "heating and cooling"
+      ]
+    },
+    {
+      "id": "evaporation",
+      "title": "Water's disappearing act: evaporation and what affects it",
+      "summary": "Evaporation is the slow change of liquid water into water vapour from its surface at any temperature; it is faster with more heat, larger surface area, more wind and less humidity.",
+      "simple": "Puddles dry up and wet clothes become dry. Where does the water go? It changes into invisible water vapour and mixes with the air. This is called **evaporation**. It happens faster when it is hot, when the water is spread out, when there is wind and when the air is dry.",
+      "explain": "After rain, puddles on the playground slowly disappear. Wet clothes dry on a line. Some water may soak into the ground, but a lot of it goes into the air. **Evaporation** is the change of liquid water into water vapour **from its surface**.\n\nImportant facts:\n- It happens at **any temperature**, well below 100 °C — even on a cool day.\n- It happens only at the **surface** of the water (unlike boiling, which happens throughout the water).\n- It is **slow**.\n\n**Factors that change how fast water evaporates**\n1. **Temperature:** higher temperature → faster evaporation. Clothes dry faster on a sunny day.\n2. **Surface area (exposed area):** larger exposed area → faster. Water spread on a plate dries faster than the same water in a narrow glass. That's why we spread out clothes instead of leaving them bunched up.\n3. **Air movement (wind):** more wind → faster. Clothes dry quickly on a windy day or under a fan.\n4. **Humidity (amount of water vapour already in air):** more humid air → slower. Clothes take a long time to dry during the monsoon, or in humid coastal cities like Mumbai.\n\nOther liquids such as perfume, nail polish remover and petrol also evaporate — often faster than water.",
+      "example": "Salt is made along the coasts of Gujarat and Tamil Nadu by letting seawater stand in wide, shallow pans under the hot Sun. Large surface area, high temperature and sea breeze all help the water evaporate quickly, leaving salt behind.",
+      "keyPoints": [
+        "Evaporation: liquid water → water vapour from its surface",
+        "Happens at any temperature, below boiling point",
+        "Faster at higher temperature",
+        "Faster with larger exposed surface area",
+        "Faster with more wind or air movement",
+        "Slower when the air is humid"
+      ],
+      "keywords": [
+        "evaporation",
+        "what is evaporation",
+        "factors affecting evaporation",
+        "rate of evaporation",
+        "surface area",
+        "humidity",
+        "wind",
+        "drying clothes",
+        "puddle disappears",
+        "evaporation vs boiling",
+        "salt from sea water"
+      ]
+    },
+    {
+      "id": "condensation",
+      "title": "Another mystery: condensation",
+      "summary": "Condensation is the change of water vapour into liquid water when it cools, which is why droplets appear outside a glass of ice-cold water.",
+      "simple": "Put ice in a glass of water and soon tiny drops of water appear on the **outside** of the glass. The water did not leak! Invisible water vapour in the air touched the cold glass, cooled down and turned back into liquid drops. This is called **condensation**.",
+      "explain": "Take a dry steel glass, fill it with water and add some ice. After a few minutes, small droplets appear on the **outside** surface.\n\nWhere did they come from?\n- Not from inside — the glass doesn't leak. You can check: add a little colour to the water inside; the outside drops stay colourless.\n- They come from the **water vapour in the air**. When the vapour touches the cold surface, it cools and turns into liquid water.\n\n**Condensation** is the change of water vapour (gas) into liquid water on **cooling**. It is the opposite of evaporation.\n\nThis experiment also proves that **air contains water vapour**, even though we cannot see it.\n\n**Condensation around us**\n- **Dew:** tiny water drops on grass and leaves on winter mornings. Water vapour condenses on surfaces that cooled during the night.\n- **Fog:** water vapour condenses on tiny dust particles near the ground, forming a cloud at ground level. North India often gets thick fog in December–January.\n- Mirrors fog up in the bathroom after a hot bath.\n- Drops on the inside of a lid placed over boiling water.\n- Clouds form high in the sky by condensation (see the last topic).",
+      "example": "On a cold winter morning in Delhi, you may see water drops on the grass and on parked cars. No rain fell — the drops formed by condensation of water vapour from the air. This is dew.",
+      "keyPoints": [
+        "Condensation: water vapour → liquid water on cooling",
+        "Opposite of evaporation",
+        "Drops outside an ice-cold glass come from water vapour in air",
+        "Shows that air contains invisible water vapour",
+        "Examples: dew, fog, misty mirror, drops on a lid, clouds"
+      ],
+      "keywords": [
+        "condensation",
+        "what is condensation",
+        "water droplets on glass",
+        "glass with ice",
+        "cold glass sweating",
+        "dew",
+        "fog",
+        "mist",
+        "water vapour in air",
+        "condensation vs evaporation"
+      ]
+    },
+    {
+      "id": "cooling-effect",
+      "title": "Cooling effect of evaporation",
+      "summary": "When water evaporates, it takes heat from its surroundings, so the surface left behind becomes cooler — this is why sweat, a matka and wet cloth cool things.",
+      "simple": "To evaporate, water needs heat. It takes this heat from whatever it is touching, so that thing becomes cooler. That is why sweating cools our body and water in a clay pot (**matka**) stays cool in summer.",
+      "explain": "Water needs heat to change into vapour. When it evaporates, it **takes heat from the surface it is on and from the surroundings**. That surface loses heat and becomes **cooler**. This is called the **cooling effect of evaporation**.\n\n**Examples**\n- **Matka or surahi:** clay has tiny pores. A little water seeps out through them to the outer surface and evaporates, taking heat from the pot and the water inside. So water in a clay pot stays cooler than water in a metal or plastic bottle.\n- **Sweating:** on a hot day or after exercise, we sweat. As sweat evaporates from our skin, it takes heat from our body and cools us down. We feel even cooler under a fan because wind makes sweat evaporate faster.\n- **Wet cloth:** a wet handkerchief on the forehead, or wet khus mats on windows and in desert coolers, cool the air as water evaporates.\n- **Sprinkling water** on a hot courtyard or roof in the evening cools it.\n- **Natural grass vs plastic grass:** real grass gives off water from its leaves, which evaporates and keeps it cool. Plastic grass has no water to evaporate, so it gets hot in the sun.\n\nOn a **humid** day, sweat evaporates slowly, so we feel sticky and less cool.",
+      "example": "In many Indian homes, drinking water is kept in a matka in summer. Even without a fridge, the water feels pleasantly cool because water seeping out through the clay keeps evaporating.",
+      "keyPoints": [
+        "Evaporation takes heat from the surface and surroundings",
+        "So evaporation causes cooling",
+        "Matka/surahi water stays cool because water evaporates through its pores",
+        "Sweat evaporating cools our body",
+        "A fan helps us feel cool by speeding up evaporation",
+        "Humid air slows evaporation, so cooling is less"
+      ],
+      "keywords": [
+        "cooling effect",
+        "cooling by evaporation",
+        "evaporation causes cooling",
+        "matka",
+        "surahi",
+        "clay pot",
+        "earthen pot",
+        "sweating",
+        "sweat",
+        "desert cooler",
+        "why fan cools",
+        "plastic grass"
+      ]
+    },
+    {
+      "id": "clouds-and-rain",
+      "title": "How clouds give us rain: the water cycle",
+      "summary": "Water evaporates, the vapour rises and cools to form clouds by condensation, and the droplets fall back as rain, hail or snow — this endless circulation is the water cycle.",
+      "simple": "The Sun heats water in seas, rivers and lakes, and it evaporates. The water vapour rises, cools high up and condenses into tiny droplets that make **clouds**. When the droplets join and become heavy, they fall as **rain**. The water goes back to the seas and land, and the cycle starts again.",
+      "explain": "**Step 1 — Evaporation:** The Sun's heat makes water evaporate from oceans, seas, rivers, lakes, ponds and wet soil. Plants also give out water vapour from their leaves.\n\n**Step 2 — Rising and cooling:** Warm air carrying water vapour rises. The higher it goes, the cooler the air gets.\n\n**Step 3 — Condensation and clouds:** The cooled water vapour condenses into **very tiny droplets** of water (and, where it is very cold, tiny bits of ice) around small dust particles. Millions of these droplets together form a **cloud**.\n\n**Step 4 — Precipitation:** Inside the cloud, droplets bump into each other and join to form bigger, heavier drops. When they are too heavy to float, they fall to the Earth as **rain**. In very cold places they fall as **snow**, and sometimes as **hail** (balls of ice).\n\n**Step 5 — Collection:** Rainwater flows into rivers, lakes and seas, and some soaks into the ground. Then it evaporates again.\n\nThis non-stop movement of water between the Earth and the sky is called the **water cycle**. The **Sun** gives the energy that drives it. Because of the water cycle, the total amount of water on Earth stays the same — it just keeps changing state and place.",
+      "example": "During summer, the Sun heats the Indian Ocean and huge amounts of water evaporate. Monsoon winds carry the moist air over India, where it rises and cools, forming dark clouds that bring the monsoon rains from June to September.",
+      "keyPoints": [
+        "Sun's heat drives evaporation from water bodies, soil and plants",
+        "Water vapour rises and cools",
+        "It condenses into tiny droplets that form clouds",
+        "Droplets join, become heavy and fall as rain, snow or hail",
+        "Water returns to rivers, seas and the ground",
+        "This endless circulation is the water cycle"
+      ],
+      "keywords": [
+        "water cycle",
+        "clouds",
+        "how clouds form",
+        "rain",
+        "how rain forms",
+        "precipitation",
+        "snow",
+        "hail",
+        "monsoon",
+        "evaporation condensation precipitation",
+        "role of sun in water cycle"
+      ]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "Solid (ice)", "meaning": "The state of water with a fixed shape and fixed volume." },
+    { "term": "Liquid (water)", "meaning": "The state of water with a fixed volume that takes the shape of its container." },
+    { "term": "Water vapour", "meaning": "The invisible gaseous state of water, always present in the air." },
+    { "term": "Melting", "meaning": "The change of ice (solid) into water (liquid) on heating." },
+    { "term": "Freezing", "meaning": "The change of water (liquid) into ice (solid) on cooling." },
+    { "term": "Boiling", "meaning": "The rapid change of water into vapour throughout the liquid, at about 100 °C." },
+    { "term": "Evaporation", "meaning": "The slow change of liquid water into water vapour from its surface, at any temperature." },
+    { "term": "Condensation", "meaning": "The change of water vapour into liquid water on cooling." },
+    { "term": "Humidity", "meaning": "The amount of water vapour present in the air." },
+    { "term": "Cooling effect", "meaning": "The cooling of a surface when water evaporates from it, because evaporation takes heat away." },
+    { "term": "Dew", "meaning": "Water drops formed on cool surfaces like grass by condensation of water vapour." },
+    { "term": "Precipitation", "meaning": "Water falling from clouds to the Earth as rain, snow or hail." },
+    { "term": "Water cycle", "meaning": "The continuous movement of water between the Earth's surface and the air through evaporation, condensation and precipitation." }
+  ],
+  "formulas": [
+    "Ice ⇄ Water ⇄ Water vapour (→ heating, ← cooling)",
+    "Melting point of pure ice = freezing point of pure water = 0 °C",
+    "Boiling point of pure water ≈ 100 °C"
+  ],
+  "commonMistakes": [
+    "Thinking the white 'steam' over a kettle is water vapour — water vapour is invisible; the white mist is tiny liquid droplets.",
+    "Thinking evaporation only happens at 100 °C — it happens at any temperature.",
+    "Mixing up evaporation and boiling — evaporation is slow and only at the surface; boiling is fast and throughout the liquid.",
+    "Believing drops outside a cold glass leak from inside — they come from water vapour in the air condensing.",
+    "Thinking clouds are made of water vapour — clouds are tiny drops of liquid water (or ice).",
+    "Saying wind slows drying — wind actually speeds up evaporation.",
+    "Forgetting humidity — clothes dry slowly in humid weather even if it is warm."
+  ],
+  "revision": [
+    "Water has three states: ice (solid), water (liquid), water vapour (gas).",
+    "Water vapour is invisible and is always present in the air.",
+    "Melting: ice → water; freezing: water → ice (both at 0 °C for pure water).",
+    "Heating moves water towards gas; cooling moves it towards solid.",
+    "Evaporation: liquid → vapour from the surface, at any temperature.",
+    "Evaporation is faster with higher temperature, larger surface area, more wind and lower humidity.",
+    "Condensation: vapour → liquid on cooling (drops on a cold glass, dew, fog).",
+    "Evaporation causes cooling (matka, sweat, desert cooler).",
+    "Clouds form when rising water vapour cools and condenses into tiny droplets.",
+    "Heavy droplets fall as rain, snow or hail (precipitation).",
+    "The Sun drives the water cycle."
+  ],
+  "faqs": [
+    {
+      "q": "What is the difference between evaporation and boiling?",
+      "a": "- **Evaporation** happens at any temperature, slowly, and only at the surface of the water. Example: a puddle drying.\n- **Boiling** happens at a fixed temperature (about 100 °C for water), quickly, and bubbles form throughout the liquid. Example: water boiling in a pan.",
+      "keywords": ["evaporation vs boiling", "difference between evaporation and boiling"]
+    },
+    {
+      "q": "Why do water drops appear on the outside of a glass of ice water?",
+      "a": "Air contains invisible water vapour. When it touches the cold outer surface of the glass, it cools and condenses into liquid drops. The water is not leaking — you can test this by colouring the water inside; the outside drops stay colourless.",
+      "keywords": ["glass sweating", "drops outside cold glass", "condensation on glass"]
+    },
+    {
+      "q": "Why does water stay cool in a matka?",
+      "a": "A clay matka has tiny pores. Some water seeps out to the outer surface and evaporates. Evaporation takes heat from the pot and the water inside, so the water stays cooler than in a metal or plastic container.",
+      "keywords": ["matka cool water", "surahi", "clay pot cooling", "earthen pot"]
+    },
+    {
+      "q": "Why do wet clothes take longer to dry in the rainy season?",
+      "a": "In the rainy season the air is already full of water vapour — it is very **humid**. Humid air cannot take in water vapour easily, so evaporation is slow. There is also less sunshine, so the temperature is lower.",
+      "keywords": ["clothes dry slowly monsoon", "humidity evaporation", "drying clothes rainy season"]
+    },
+    {
+      "q": "Are clouds made of water vapour?",
+      "a": "No. Water vapour is invisible. Clouds are made of millions of very tiny drops of liquid water (and tiny ice bits in very cold clouds) formed when water vapour cools and condenses high in the sky. We can see clouds because these droplets scatter light.",
+      "keywords": ["what are clouds made of", "clouds water vapour", "cloud formation"]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Which state of water has no fixed shape and no fixed volume?",
+      "options": ["Ice", "Liquid water", "Water vapour", "Snow"],
+      "answer": 2,
+      "explain": "A gas like water vapour spreads out to fill all available space, so it has neither a fixed shape nor a fixed volume.",
+      "topic": "states-of-water",
+      "level": "easy"
+    },
+    {
+      "q": "What is the change of ice into water called?",
+      "options": ["Melting", "Freezing", "Condensation", "Evaporation"],
+      "answer": 0,
+      "explain": "Melting is the change from solid (ice) to liquid (water) when heated.",
+      "topic": "melting-and-freezing",
+      "level": "easy"
+    },
+    {
+      "q": "At what temperature does pure water freeze?",
+      "options": ["100 °C", "37 °C", "−10 °C", "0 °C"],
+      "answer": 3,
+      "explain": "Pure water freezes at 0 °C, the same temperature at which pure ice melts.",
+      "topic": "melting-and-freezing",
+      "level": "easy"
+    },
+    {
+      "q": "A puddle on the road dries up on a sunny day. This is mainly due to:",
+      "options": ["Condensation", "Evaporation", "Freezing", "Melting"],
+      "answer": 1,
+      "explain": "The water slowly changes into water vapour from its surface and mixes with the air — that is evaporation.",
+      "topic": "evaporation",
+      "level": "easy"
+    },
+    {
+      "q": "In which case will a wet towel dry the FASTEST?",
+      "options": ["Folded, in a closed room, on a rainy day", "Spread out, in the sun, on a windy day", "Folded, in the sun, on a still day", "Spread out, in the shade, on a humid day"],
+      "answer": 1,
+      "explain": "Larger surface area (spread out), higher temperature (sun) and wind all speed up evaporation.",
+      "topic": "evaporation",
+      "level": "medium"
+    },
+    {
+      "q": "Which of these SLOWS DOWN evaporation?",
+      "options": ["Higher temperature", "More wind", "High humidity", "Larger surface area"],
+      "answer": 2,
+      "explain": "When the air already holds a lot of water vapour (high humidity), water evaporates more slowly.",
+      "topic": "evaporation",
+      "level": "medium"
+    },
+    {
+      "q": "Drops of water appear outside a steel glass filled with ice. Where do they come from?",
+      "options": ["Water vapour in the air that condensed", "Water leaking through the glass", "Ice melting through the steel", "The steel itself"],
+      "answer": 0,
+      "explain": "Water vapour in the air cools on the cold surface and condenses into drops. Steel does not let water through.",
+      "topic": "condensation",
+      "level": "medium"
+    },
+    {
+      "q": "Dew on grass on a winter morning is an example of:",
+      "options": ["Evaporation", "Melting", "Boiling", "Condensation"],
+      "answer": 3,
+      "explain": "Water vapour in the air condenses on grass that has cooled during the night, forming dew.",
+      "topic": "condensation",
+      "level": "easy"
+    },
+    {
+      "q": "Why does water kept in a matka stay cool in summer?",
+      "options": ["Clay is a cold material", "The matka is kept in the shade", "Mud keeps the sun out completely", "Water seeping through the pores evaporates and takes away heat"],
+      "answer": 3,
+      "explain": "Water oozing out through tiny pores evaporates from the surface of the pot, taking heat with it. This cooling effect keeps the water cool.",
+      "topic": "cooling-effect",
+      "level": "medium"
+    },
+    {
+      "q": "Why do we feel cooler sitting under a fan when we are sweating?",
+      "options": ["The fan makes cold air", "The fan speeds up evaporation of sweat, which takes heat from our body", "The fan stops us from sweating", "The fan increases humidity"],
+      "answer": 1,
+      "explain": "Moving air makes sweat evaporate faster. Evaporation takes heat from our skin, so we feel cooler. A fan does not make the air itself colder.",
+      "topic": "cooling-effect",
+      "level": "hard"
+    },
+    {
+      "q": "Clouds are formed when water vapour high in the sky:",
+      "options": ["Gets heated and rises further", "Freezes into large ice blocks", "Cools and condenses into tiny droplets", "Turns into air"],
+      "answer": 2,
+      "explain": "As moist air rises it cools; the water vapour condenses into tiny droplets, which together form clouds.",
+      "topic": "clouds-and-rain",
+      "level": "medium"
+    },
+    {
+      "q": "What provides the energy that drives the water cycle?",
+      "options": ["The Sun", "The Moon", "The wind alone", "The Earth's core"],
+      "answer": 0,
+      "explain": "The Sun's heat causes evaporation, which keeps the water cycle going.",
+      "topic": "clouds-and-rain",
+      "level": "easy"
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "id": "c6-math-lines-angles",
+  "class": 6,
+  "subject": "mathematics",
+  "name": "Lines and Angles",
+  "summary": "Geometry begins with simple ideas: a point (an exact location), a line segment (the shortest path between two points), a line (goes on forever both ways) and a ray (starts at a point and goes on forever one way). Two rays from the same starting point make an angle, which measures the amount of turn between the arms. We compare angles by placing one over the other, meet special angles (right angle, straight angle, full turn), measure angles in degrees with a protractor, and sort angles into acute, right, obtuse, straight and reflex.",
+  "topics": [
+    {
+      "id": "points-lines-rays",
+      "title": "Point, line segment, line and ray",
+      "summary": "A point marks an exact location; a line segment joins two points and has a fixed length; a line goes on endlessly in both directions; a ray starts at a point and goes on endlessly in one direction.",
+      "simple": "A **point** is just an exact spot, like the tip of a sharp pencil touching paper. Join two points with a straight path and you get a **line segment**. Stretch it forever in both directions and it becomes a **line**. Start at a point and go on forever in just one direction and you get a **ray**, like a beam of torch light.",
+      "explain": "**Point:** shows an exact location. It has no length, width or thickness. We name points with capital letters: point A, point P.\n- Examples in life: a star seen in the night sky, the tip of a compass, a full stop.\n\n**Line segment:** the **shortest path** between two points. It has two **end points** and a definite length that can be measured with a ruler. The segment joining A and B is written **AB** (with a bar on top) or called 'line segment AB'. AB and BA name the same segment.\n- Examples: the edge of a book, a straight stick, a side of a blackboard.\n\n**Line:** imagine a line segment extended **endlessly in both directions**. It has no end points and cannot be measured. A line through points A and B is written with arrows on both ends and called 'line AB'. Through any two points, exactly **one** line can be drawn.\n\n**Ray:** a part of a line that **starts at one point and goes on endlessly in one direction**. The starting point is always written first: ray **AB** starts at A and passes through B. Ray AB and ray BA are **different** rays.\n- Examples: a beam of light from a torch, sunlight from the Sun, light from a lighthouse.\n\n**Quick comparison:**\n- Line segment: 2 end points, can be measured\n- Ray: 1 starting point, cannot be measured\n- Line: no end points, cannot be measured",
+      "example": "Mark three points P, Q and R on a page that are not in one straight line. How many line segments can you draw joining them in pairs?\n1. Pairs: PQ, QR, PR\n2. So **3 line segments** — they make a triangle.\nWith 4 points (no three in a line) you get PQ, PR, PS, QR, QS, RS = **6 segments**.",
+      "keyPoints": [
+        "A point shows an exact location and has no size",
+        "A line segment is the shortest path between two points and has a fixed length",
+        "A line goes on endlessly in both directions",
+        "A ray has one starting point and goes on endlessly in one direction",
+        "Ray AB starts at A; ray AB and ray BA are different",
+        "Exactly one line passes through two given points"
+      ],
+      "keywords": [
+        "point",
+        "line segment",
+        "line",
+        "ray",
+        "end points",
+        "difference between line and line segment",
+        "difference between ray and line",
+        "shortest path between two points",
+        "naming a ray",
+        "basic geometry",
+        "geometrical ideas"
+      ]
+    },
+    {
+      "id": "what-is-an-angle",
+      "title": "Angles: arms, vertex and naming",
+      "summary": "An angle is formed by two rays with a common starting point (the vertex); the rays are its arms; we name it with three letters with the vertex in the middle, like ∠ABC.",
+      "simple": "When two rays start from the same point, they make an **angle**. The rays are the **arms** and the common starting point is the **vertex**. An angle tells us how much one arm has to turn to reach the other. You can see angles in an open door, the hands of a clock and an open book.",
+      "explain": "**Angle:** two rays that start from the **same point** form an angle.\n- The two rays are the **arms** of the angle.\n- The common starting point is the **vertex**.\n\n**Angle as a turn:** an angle shows the **amount of rotation** (turning) needed to move one arm onto the other. The more you turn, the bigger the angle. The *length* of the arms does **not** change the size of the angle — arms are rays, so they go on forever anyway.\n\n**Naming an angle:** use the symbol **∠** and three letters — a point on one arm, the **vertex in the middle**, then a point on the other arm.\n- If the arms are rays BA and BC, the angle is **∠ABC** or **∠CBA**.\n- When there is only one angle at a vertex, we may simply write **∠B**.\n- ∠BAC would be a *different* angle (vertex A).\n\n**Interior of an angle:** the region between the two arms is the **inside (interior)** of the angle; the rest of the plane is the outside (exterior).\n\n**Angles around us:**\n- The hands of a clock form an angle at the centre.\n- An opening door makes an angle with the door frame.\n- A pair of scissors, a slide in the park, a swing moving away from its resting position.\n- Letters of the alphabet like V, L, Y, M and N contain angles.",
+      "example": "In the letter **V**, call the bottom tip O and the tops of the two strokes P and Q. The angle is **∠POQ** (or ∠QOP), the vertex is **O**, and the arms are rays **OP** and **OQ**. Writing ∠OPQ would be wrong because the vertex must be the middle letter.",
+      "keyPoints": [
+        "An angle is made by two rays with a common starting point",
+        "The rays are arms; the common point is the vertex",
+        "An angle measures the amount of turn between the arms",
+        "Name an angle with the vertex in the middle: ∠ABC",
+        "The length of the arms does not change the size of the angle",
+        "The region between the arms is the interior of the angle"
+      ],
+      "keywords": [
+        "angle",
+        "what is an angle",
+        "arms of an angle",
+        "vertex",
+        "naming angles",
+        "angle symbol",
+        "interior of angle",
+        "exterior of angle",
+        "angle as rotation",
+        "angle as turn",
+        "angles in daily life",
+        "angles in letters"
+      ]
+    },
+    {
+      "id": "comparing-angles",
+      "title": "Comparing angles and special angles",
+      "summary": "Compare angles by placing one over the other (superimposition); a full turn, half turn (straight angle) and quarter turn (right angle) are special angles we can make by folding paper.",
+      "simple": "To see which angle is bigger, place one on top of the other with vertices and one pair of arms together — the one whose other arm sticks out further is bigger. A **right angle** is a quarter turn, like the corner of a book. A **straight angle** is a half turn, where the arms make a straight line.",
+      "explain": "**Comparing angles by superimposing:**\n1. Trace one angle on thin paper.\n2. Place the tracing on the other angle so that the **vertices match** and **one arm lies on one arm**.\n3. See where the second arm falls. If it lies **inside** the other angle, the traced angle is **smaller**; if outside, it is **bigger**; if on top, the angles are **equal**.\n\nYou can also compare by thinking of **turn**: the angle that needs more turning from one arm to the other is the bigger angle.\n\n**Special angles (as turns):**\n- **Full turn:** an arm turns all the way round and comes back to where it started — like the minute hand going from 12 back to 12 in one hour.\n- **Straight angle:** a **half turn**. The two arms point in opposite directions and form a straight line — like the clock hands at 6:00.\n- **Right angle:** a **quarter turn**, half of a straight angle — like the corner of a page, the clock hands at 3:00 or 9:00, or turning from facing north to facing east.\n\n**Making a right angle by folding paper:** fold any piece of paper once to get a straight crease. Fold it again so the crease lies exactly on top of itself. The new corner is a **right angle** (you have cut a straight angle into two equal halves).\n\n**Perpendicular lines:** two lines that cross each other at a **right angle** are called **perpendicular**, like the edges of a door and the floor, or the lines of a plus sign (+).",
+      "example": "A child standing on the playground faces north. She turns clockwise to face east. Then she turns clockwise again to face south.\n- North → east: a **quarter turn** = 1 right angle\n- North → south: a **half turn** = 2 right angles = a straight angle\n- North → north (all the way round): a **full turn** = 4 right angles",
+      "keyPoints": [
+        "Compare angles by superimposing: match vertex and one arm",
+        "The angle needing more turn is the bigger angle",
+        "Full turn = 4 right angles; straight angle = 2 right angles",
+        "A right angle is a quarter turn (corner of a book)",
+        "Folding paper twice gives a right angle",
+        "Lines meeting at a right angle are perpendicular"
+      ],
+      "keywords": [
+        "comparing angles",
+        "superimposition",
+        "which angle is bigger",
+        "right angle",
+        "straight angle",
+        "full turn",
+        "complete angle",
+        "quarter turn",
+        "half turn",
+        "paper folding right angle",
+        "perpendicular lines",
+        "clock hands angle"
+      ]
+    },
+    {
+      "id": "measuring-angles",
+      "title": "Measuring angles in degrees with a protractor",
+      "summary": "A full turn is divided into 360 equal parts called degrees (°); a right angle is 90°, a straight angle 180°; a protractor measures and draws angles.",
+      "simple": "We measure angles in **degrees**, written °. A full turn is **360°**, a straight angle is **180°** and a right angle is **90°**. A **protractor** is a half-circle tool marked from 0° to 180° that helps us measure and draw angles.",
+      "explain": "**Degrees:** divide a full turn into **360 equal parts**. Each part is **1 degree (1°)**.\n- Full turn = **360°**\n- Straight angle (half turn) = 360 ÷ 2 = **180°**\n- Right angle (quarter turn) = 360 ÷ 4 = **90°**\n\nWhy 360? This choice is very old. One reason often given is that 360 is close to the number of days in a year, and 360 can be divided exactly by many numbers (2, 3, 4, 5, 6, 8, 9, 10, 12, …), which makes fractions of a turn easy.\n\n**Clock angles:** the 12 hour marks split the full 360° into 12 equal parts, so each gap is 360 ÷ 12 = **30°**. At 1:00 the hands make 30°, at 2:00 they make 60°, at 3:00 they make 90°.\n\n**The protractor:** a semicircle marked from 0° to 180°, with a **centre point** on its straight edge (baseline). Most protractors have **two scales**, an outer one and an inner one, running in opposite directions.\n\n**To measure an angle:**\n1. Place the protractor's **centre point on the vertex**.\n2. Line up the **baseline with one arm** of the angle.\n3. Choose the scale that reads **0° on that arm**.\n4. Follow that scale to where the **other arm** crosses it and read the number.\n\n**To draw an angle of, say, 50°:**\n1. Draw a ray AB.\n2. Put the protractor's centre at A with the baseline along AB.\n3. Using the scale that starts at 0° on AB, make a dot at **50°** and call it C.\n4. Remove the protractor and join A to C. ∠CAB = 50°.\n\nIf the arms are too short to reach the scale, extend them first — this does not change the angle.",
+      "example": "A protractor's outer scale reads 0° on arm OA, and arm OB crosses the scales at the marks 125 (outer) and 55 (inner).\n- We started from 0° on the **outer** scale, so ∠AOB = **125°**.\n- Reading 55° from the inner scale would be wrong here — always use the scale that begins at 0° on your first arm.\nCheck: the angle looks wider than the corner of a book, so it must be more than 90° ✓",
+      "keyPoints": [
+        "1° is one 360th of a full turn",
+        "Full turn = 360°, straight angle = 180°, right angle = 90°",
+        "Each hour gap on a clock is 30°",
+        "Protractor: centre on vertex, baseline on one arm",
+        "Read the scale that starts at 0° on the first arm",
+        "Extending the arms does not change the angle"
+      ],
+      "keywords": [
+        "measuring angles",
+        "degrees",
+        "degree symbol",
+        "protractor",
+        "how to use protractor",
+        "inner scale outer scale",
+        "drawing angles",
+        "construct angle",
+        "360 degrees",
+        "why 360",
+        "clock angles",
+        "angle between clock hands"
+      ]
+    },
+    {
+      "id": "types-of-angles",
+      "title": "Types of angles: acute, right, obtuse, straight, reflex",
+      "summary": "Acute < 90°, right = 90°, obtuse between 90° and 180°, straight = 180°, reflex between 180° and 360°, full turn = 360°.",
+      "simple": "Angles get names by size. A small, 'sharp' angle less than 90° is **acute**. Exactly 90° is a **right angle**. Bigger than 90° but less than 180° is **obtuse**. Exactly 180° is **straight**. More than 180° (but less than 360°) is a **reflex** angle.",
+      "explain": "**Classifying angles by size:**\n- **Acute angle:** more than 0° and **less than 90°** (e.g. 30°, 45°, 89°)\n- **Right angle:** **exactly 90°**\n- **Obtuse angle:** **more than 90° but less than 180°** (e.g. 100°, 135°, 170°)\n- **Straight angle:** **exactly 180°**\n- **Reflex angle:** **more than 180° but less than 360°** (e.g. 200°, 270°, 300°)\n- **Full (complete) angle:** **exactly 360°**\n\n**Two angles at every vertex:** whenever two arms meet, they make two angles — one on each side. Together they make a full turn, so they add up to **360°**. If one is 120°, the other (reflex) one is 360° − 120° = **240°**.\n\n**Measuring a reflex angle:** a protractor only goes up to 180°, so measure the smaller angle and subtract it from 360°.\n\n**Quick check without a protractor:** compare with the corner of a page (a right angle).\n- Fits inside the corner → acute\n- Exactly matches → right\n- Wider than the corner but not a straight line → obtuse\n\n**Angles around us:**\n- Clock at 2:00 → 60° (acute); at 3:00 → 90° (right); at 4:00 → 120° (obtuse); at 6:00 → 180° (straight)\n- A slightly open laptop → acute; a laptop opened wide past upright → obtuse",
+      "example": "Classify the angle between the hands of a clock at 5:00.\n1. From 12 to 5 the hour hand has moved 5 hour gaps.\n2. Each gap is 30°, so the angle = 5 × 30° = **150°**.\n3. 150° is between 90° and 180°, so it is **obtuse**.\n4. The other angle between the hands, going the long way round, is 360° − 150° = **210°**, a **reflex** angle.",
+      "keyPoints": [
+        "Acute: less than 90°",
+        "Right: exactly 90°",
+        "Obtuse: between 90° and 180°",
+        "Straight: exactly 180°",
+        "Reflex: between 180° and 360°",
+        "The two angles at a vertex add up to 360°",
+        "Reflex angle = 360° − the smaller angle"
+      ],
+      "keywords": [
+        "types of angles",
+        "acute angle",
+        "obtuse angle",
+        "right angle",
+        "straight angle",
+        "reflex angle",
+        "complete angle",
+        "classify angles",
+        "angle less than 90",
+        "angle more than 180",
+        "measure reflex angle",
+        "kinds of angles"
+      ]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "Point", "meaning": "An exact location; it has no length or thickness." },
+    { "term": "Line segment", "meaning": "The shortest path between two points; it has two end points and a fixed length." },
+    { "term": "Line", "meaning": "A straight path that goes on endlessly in both directions." },
+    { "term": "Ray", "meaning": "Part of a line that starts at one point and goes on endlessly in one direction." },
+    { "term": "Angle", "meaning": "The figure formed by two rays with a common starting point; it measures the amount of turn." },
+    { "term": "Vertex", "meaning": "The common starting point of the two arms of an angle." },
+    { "term": "Arms", "meaning": "The two rays that form an angle." },
+    { "term": "Degree (°)", "meaning": "The unit for measuring angles; a full turn is 360°." },
+    { "term": "Protractor", "meaning": "A semicircular tool marked from 0° to 180° for measuring and drawing angles." },
+    { "term": "Right angle", "meaning": "A quarter turn, exactly 90°." },
+    { "term": "Straight angle", "meaning": "A half turn, exactly 180°; the arms form a straight line." },
+    { "term": "Acute / obtuse angle", "meaning": "Acute is less than 90°; obtuse is between 90° and 180°." },
+    { "term": "Reflex angle", "meaning": "An angle between 180° and 360°." },
+    { "term": "Perpendicular lines", "meaning": "Lines that meet at a right angle." }
+  ],
+  "formulas": [
+    "Full turn = 360°",
+    "Straight angle = 180° = 2 right angles",
+    "Right angle = 90°",
+    "Reflex angle = 360° − smaller angle at the same vertex",
+    "Angle between clock hands at an exact hour = (number of hour gaps) × 30°"
+  ],
+  "commonMistakes": [
+    "Putting the vertex at the start or end of the angle's name — in ∠ABC the vertex is B, the middle letter.",
+    "Thinking longer arms make a bigger angle — the size depends only on the amount of turn.",
+    "Reading the wrong scale on the protractor — always use the scale that shows 0° on the first arm.",
+    "Placing the edge of the protractor, instead of its centre point, on the vertex.",
+    "Calling a 90° angle acute or obtuse — exactly 90° is a right angle, and exactly 180° is a straight angle.",
+    "Writing ray AB as ray BA — the starting point is always written first.",
+    "Trying to measure the length of a line or a ray — only a line segment has a measurable length."
+  ],
+  "revision": [
+    "A point shows an exact location.",
+    "A line segment is the shortest path between two points and has two end points.",
+    "A line extends endlessly both ways; a ray starts at a point and extends endlessly one way.",
+    "An angle is formed by two rays with a common starting point called the vertex.",
+    "Name an angle with the vertex in the middle: ∠PQR has vertex Q.",
+    "Compare angles by superimposing them with vertices and one arm matched.",
+    "Full turn = 360°, straight angle = 180°, right angle = 90°.",
+    "Acute < 90° < obtuse < 180° < reflex < 360°.",
+    "Folding paper twice gives a right angle.",
+    "On a clock, each hour gap is 30°; at 3:00 the hands make 90°.",
+    "Protractor: centre on vertex, baseline on one arm, read from 0°.",
+    "Reflex angle = 360° − the smaller angle."
+  ],
+  "faqs": [
+    {
+      "q": "What is the difference between a line, a line segment and a ray?",
+      "a": "A **line segment** has two end points and a fixed length (like the edge of a ruler). A **ray** has one starting point and goes on forever in one direction (like a torch beam). A **line** has no end points and goes on forever in both directions. Only a line segment can be measured.",
+      "keywords": ["line vs line segment vs ray", "difference between line and ray", "line segment ray"]
+    },
+    {
+      "q": "Does making the arms longer make an angle bigger?",
+      "a": "No. An angle measures how much one arm is turned away from the other. Extending the arms changes nothing about that turn, so the angle stays the same. A 40° angle drawn with tiny arms and one drawn across the whole blackboard are equal.",
+      "keywords": ["longer arms bigger angle", "arm length angle", "size of angle"]
+    },
+    {
+      "q": "Which scale of the protractor should I read, inner or outer?",
+      "a": "Look at the arm lying on the baseline. Whichever scale shows **0°** on that arm is the one to use. Then follow that same scale round to the other arm. A quick check helps too: if the angle looks smaller than a right angle, your reading must be less than 90°.",
+      "keywords": ["protractor inner outer scale", "which scale protractor", "how to read protractor"]
+    },
+    {
+      "q": "How do I measure a reflex angle with a protractor that only goes to 180°?",
+      "a": "Measure the smaller angle on the other side of the arms, then subtract it from 360°. For example, if the smaller angle is 75°, the reflex angle is 360° − 75° = 285°.",
+      "keywords": ["measure reflex angle", "reflex angle protractor", "angle more than 180"]
+    },
+    {
+      "q": "What is the difference between an acute and an obtuse angle?",
+      "a": "An **acute** angle is less than 90° (smaller than the corner of a book). An **obtuse** angle is more than 90° but less than 180° (wider than the corner of a book, but not a straight line). For example, 60° is acute and 120° is obtuse.",
+      "keywords": ["acute vs obtuse", "acute and obtuse angle", "difference acute obtuse"]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Which of these has exactly one end point?",
+      "options": ["A ray", "A line", "A line segment", "A point"],
+      "answer": 0,
+      "explain": "A ray starts at one point and goes on endlessly in one direction. A line segment has two end points and a line has none.",
+      "topic": "points-lines-rays",
+      "level": "easy"
+    },
+    {
+      "q": "What is the shortest path between two points called?",
+      "options": ["A ray", "A line segment", "A reflex angle", "A vertex"],
+      "answer": 1,
+      "explain": "A line segment is the shortest path joining two points, and it has a fixed length.",
+      "topic": "points-lines-rays",
+      "level": "easy"
+    },
+    {
+      "q": "In ∠XYZ, which point is the vertex?",
+      "options": ["X", "Z", "Y", "There is no vertex"],
+      "answer": 2,
+      "explain": "The vertex is always the middle letter in an angle's name, so the vertex of ∠XYZ is Y.",
+      "topic": "what-is-an-angle",
+      "level": "easy"
+    },
+    {
+      "q": "Two angles are drawn with the same amount of turn, but one has arms 3 cm long and the other has arms 9 cm long. Which is true?",
+      "options": ["The one with longer arms is bigger", "The one with shorter arms is bigger", "They cannot be compared", "They are equal"],
+      "answer": 3,
+      "explain": "The size of an angle depends only on the amount of turn between the arms, not on the arm length.",
+      "topic": "what-is-an-angle",
+      "level": "medium"
+    },
+    {
+      "q": "How many right angles make a full turn?",
+      "options": ["4", "2", "3", "1"],
+      "answer": 0,
+      "explain": "A full turn is 360° and a right angle is 90°, so 360 ÷ 90 = 4 right angles.",
+      "topic": "comparing-angles",
+      "level": "easy"
+    },
+    {
+      "q": "You fold a sheet of paper once, then fold it again so the first crease lies on itself. What angle is formed at the corner?",
+      "options": ["A straight angle", "A right angle", "An obtuse angle", "A reflex angle"],
+      "answer": 1,
+      "explain": "The first crease is a straight line (180°). The second fold cuts it into two equal halves, so each is 90°, a right angle.",
+      "topic": "comparing-angles",
+      "level": "medium"
+    },
+    {
+      "q": "What angle do the hands of a clock make at 4:00?",
+      "options": ["90°", "100°", "120°", "150°"],
+      "answer": 2,
+      "explain": "Each hour gap is 360° ÷ 12 = 30°. From 12 to 4 there are 4 gaps: 4 × 30° = 120°.",
+      "topic": "measuring-angles",
+      "level": "medium"
+    },
+    {
+      "q": "When measuring an angle with a protractor, where must the centre point of the protractor be placed?",
+      "options": ["At the end of one arm", "Anywhere inside the angle", "On the longer arm", "Exactly on the vertex"],
+      "answer": 3,
+      "explain": "The centre point goes on the vertex and the baseline lies along one arm; then read the scale that starts at 0° on that arm.",
+      "topic": "measuring-angles",
+      "level": "easy"
+    },
+    {
+      "q": "An angle of 135° is:",
+      "options": ["Obtuse", "Acute", "Reflex", "Straight"],
+      "answer": 0,
+      "explain": "135° is more than 90° but less than 180°, so it is obtuse.",
+      "topic": "types-of-angles",
+      "level": "easy"
+    },
+    {
+      "q": "Two arms meet at a point and the smaller angle between them is 110°. What is the reflex angle between them?",
+      "options": ["70°", "250°", "290°", "180°"],
+      "answer": 1,
+      "explain": "The two angles at a vertex add up to 360°, so the reflex angle is 360° − 110° = 250°.",
+      "topic": "types-of-angles",
+      "level": "medium"
+    },
+    {
+      "q": "Which angle is a reflex angle?",
+      "options": ["90°", "175°", "270°", "360°"],
+      "answer": 2,
+      "explain": "A reflex angle is more than 180° and less than 360°. Only 270° fits; 360° is a full turn.",
+      "topic": "types-of-angles",
+      "level": "medium"
+    },
+    {
+      "q": "A girl faces north and turns clockwise to face west. Through what angle has she turned?",
+      "options": ["90°", "180°", "360°", "270°"],
+      "answer": 3,
+      "explain": "Clockwise from north: east (90°), south (180°), west (270°). So she turned three right angles, 3 × 90° = 270°.",
+      "topic": "comparing-angles",
+      "level": "hard"
+    }
+  ]
+}

@@ -1,0 +1,350 @@
+{
+  "id": "c6-sci-living-creatures",
+  "class": 6,
+  "subject": "science",
+  "name": "Living Creatures: Exploring their Characteristics",
+  "summary": "How do we tell living things from non-living things? This chapter looks at the characteristics that all living creatures share — needing food, breathing (respiration), growing, responding to their surroundings, moving, getting rid of wastes, reproducing and having a life span. It then explores what seeds need to germinate, how plants grow and move, and the life cycles of a plant, a mosquito and a frog.",
+  "topics": [
+    {
+      "id": "living-vs-nonliving",
+      "title": "What sets the living apart from the non-living?",
+      "summary": "Living things need food, respire, grow, respond to stimuli, move, get rid of wastes, reproduce and die; no single feature alone proves something is alive.",
+      "simple": "A dog, a mango tree and you are alive. A stone, a car and a chair are not. Living things eat (or make) food, breathe, grow, react to things around them, have babies or new plants, and one day die. A car can move, but it can't grow or have baby cars — so it's not alive.",
+      "explain": "All **living things** (organisms) share some common **characteristics**:\n\n1. **Need food (nutrition):** Animals eat food; green plants make their own food using sunlight. Food gives energy and helps growth.\n2. **Respiration:** Living things take in air (oxygen) and use it to get energy from food. Animals breathe in different ways; plants exchange air through their leaves.\n3. **Growth:** Living things grow in size **from inside**. A chick grows into a hen; a seed into a tree.\n4. **Response to stimuli:** A **stimulus** is a change in the surroundings that causes a reaction. We pull our hand away from a hot pan. The leaves of **touch-me-not (chhui-mui)** fold when touched. Plants bend towards light.\n5. **Movement:** Animals move from place to place. Plants mostly stay in one place but show movement of their parts (leaves, flowers, tendrils).\n6. **Excretion:** Living things remove waste materials from their bodies.\n7. **Reproduction:** Living things produce more of their own kind — animals have young ones, plants make seeds.\n8. **Life span and death:** Every living thing is born, grows, and finally dies.\n\n**Be careful!** One feature alone is not enough:\n- A **car** moves and a **cloud** grows bigger, but they are not alive — they don't eat, respire or reproduce.\n- A dry **seed** looks lifeless, but it is alive — it can grow into a plant when conditions are right.\n\nSo we check for **many** characteristics together.",
+      "example": "A wooden table was made from a living tree, but the table itself is non-living now: it doesn't take in food, breathe, grow or reproduce.",
+      "keyPoints": [
+        "Living things need food and respire",
+        "They grow from within",
+        "They respond to stimuli (e.g. touch-me-not folds its leaves)",
+        "They move (plants move their parts) and excrete wastes",
+        "They reproduce and have a life span",
+        "Check many features — a moving car is still non-living; a dry seed is living"
+      ],
+      "keywords": [
+        "living and non-living",
+        "living vs non living",
+        "characteristics of living things",
+        "features of living organisms",
+        "respiration",
+        "growth",
+        "stimulus",
+        "response to stimuli",
+        "excretion",
+        "reproduction",
+        "touch me not",
+        "chhui mui",
+        "is a seed living"
+      ]
+    },
+    {
+      "id": "germination",
+      "title": "Essential conditions for germination of a seed",
+      "summary": "A seed needs water and air (and suitable warmth) to germinate; most seeds do not need sunlight to germinate, but the seedling needs sunlight to keep growing.",
+      "simple": "When a seed starts to sprout, we call it **germination**. Seeds need **water** and **air** to sprout. Surprisingly, most seeds can sprout even in the dark! But once the little plant comes out, it needs sunlight to keep growing well.",
+      "explain": "**Germination** is the process by which a seed starts to grow into a new plant (a **seedling**). Inside each seed is a tiny baby plant (embryo) and stored food.\n\n**An experiment (four pots with bean seeds):**\n- **Pot A:** in sunlight, no water → seeds do **not** germinate (no water).\n- **Pot B:** in sunlight, filled with too much water → seeds do **not** germinate properly (water fills the air spaces, so no air).\n- **Pot C:** in a dark place, moist soil → seeds **germinate**!\n- **Pot D:** in sunlight, moist soil → seeds **germinate**.\n\n**What we learn:**\n1. **Water** is needed. It softens the seed coat and helps the embryo start growing. That's why seeds are soaked before sowing or sprouting.\n2. **Air** is needed. The seed uses air (oxygen) from the spaces between soil particles. Waterlogged soil has no air.\n3. A **suitable temperature** (warmth) helps; seeds don't sprout well when it is very cold.\n4. **Sunlight is not needed for germination** in most seeds (Pot C germinated in the dark). But after germination, the seedling **does need sunlight** to make food and keep growing.\n\n**Storing seeds and grains:** Because seeds need water to germinate, farmers and families keep grains **dry**, often in airtight containers in a cool place, so they don't sprout or spoil.",
+      "example": "To make sprouts (ankurit moong), moong seeds are soaked in water overnight and then tied in a damp cloth and kept in a dark corner. In a day or two, white sprouts appear — germination without sunlight!",
+      "keyPoints": [
+        "Germination: a seed starts to grow into a seedling",
+        "Water is essential — it softens the seed coat",
+        "Air is essential — waterlogged seeds don't germinate",
+        "Suitable warmth helps germination",
+        "Most seeds germinate even in the dark",
+        "Seedlings need sunlight after germination to grow",
+        "Grains are stored dry so they don't germinate"
+      ],
+      "keywords": [
+        "germination",
+        "seed germination",
+        "conditions for germination",
+        "essential conditions for germination",
+        "seed needs water air",
+        "sprouting",
+        "sprouts",
+        "seedling",
+        "four pots experiment",
+        "does seed need sunlight",
+        "embryo",
+        "seed coat"
+      ]
+    },
+    {
+      "id": "plant-growth-movement",
+      "title": "Growth and movement in plants",
+      "summary": "Plants grow throughout their lives and, though fixed in one place, move their parts in response to light, touch and gravity.",
+      "simple": "Plants can't walk, but they do move! Their stems bend towards light, their roots grow downwards, climbers wrap their tendrils around a stick, and some flowers open in the morning and close at night.",
+      "explain": "**Growth in plants**\nAfter germination, the seedling grows a **root** downwards and a **shoot** upwards. The plant keeps growing taller and making new leaves, branches and roots. You can measure a seedling's height every day to see how fast it grows.\n\n**Movement in plants**\nPlants are fixed in the soil by their roots, so they don't move from place to place. But **parts of plants move** in response to stimuli:\n- **Towards light:** A plant on a windowsill bends its stem and leaves towards the window. Shoots grow towards light.\n- **Roots and gravity:** Roots grow downwards into the soil, even if a seed is planted upside down.\n- **Touch:** The leaves of **touch-me-not (chhui-mui, *Mimosa*)** fold up quickly when touched.\n- **Climbers:** Plants like pea, gourd and bitter gourd have thin, curly **tendrils** that wrap around a support to climb.\n- **Flowers:** Some flowers open in the morning and close in the evening. Young sunflower heads follow the Sun across the sky.\n\nThese movements are usually **slow** (except touch-me-not), so we need patient observation over hours or days to notice them.",
+      "example": "Keep a potted plant near a window for a week. The stem bends towards the window. Turn the pot around, and after a few days the plant bends towards the light again.",
+      "keyPoints": [
+        "Root grows downwards; shoot grows upwards",
+        "Plants keep growing throughout their lives",
+        "Plants don't move from place to place but their parts move",
+        "Shoots bend towards light",
+        "Touch-me-not leaves fold when touched",
+        "Tendrils of climbers wrap around supports"
+      ],
+      "keywords": [
+        "plant growth",
+        "movement in plants",
+        "do plants move",
+        "plants bend towards light",
+        "touch me not",
+        "mimosa",
+        "tendrils",
+        "climbers",
+        "roots grow downwards",
+        "shoot",
+        "sunflower follows sun"
+      ]
+    },
+    {
+      "id": "plant-life-cycle",
+      "title": "Life cycle of a plant",
+      "summary": "A flowering plant goes from seed to seedling to mature plant, which flowers and makes fruits with seeds that start the cycle again.",
+      "simple": "A seed sprouts into a seedling. The seedling grows into a big plant. The plant makes flowers, the flowers become fruits, and the fruits have seeds inside. Those seeds can grow into new plants. This circle of life is the plant's **life cycle**.",
+      "explain": "A **life cycle** is the series of stages a living thing goes through from its beginning until it produces young ones like itself — and then the cycle repeats.\n\n**Life cycle of a flowering plant:**\n1. **Seed** — contains a tiny embryo and stored food.\n2. **Germination** — with water, air and warmth, the seed sprouts.\n3. **Seedling** — a young plant with its first leaves and roots.\n4. **Mature (adult) plant** — grows bigger, with many leaves, stems and roots.\n5. **Flowering** — the adult plant produces **flowers**.\n6. **Fruit and seeds** — flowers develop into **fruits** with **seeds** inside.\n7. Seeds are scattered (by wind, water, animals or people) and grow into new plants.\n\nSo: **Seed → Seedling → Adult plant → Flower → Fruit (with seeds) → Seed …**\n\nDifferent plants take different amounts of time. A pea or mustard plant completes its life cycle in a few months, while a mango or neem tree grows for years before flowering, and then flowers again and again for many years.",
+      "example": "Plant a tomato seed in a pot. It becomes a seedling in about a week, grows into a plant with yellow flowers, and the flowers turn into tomatoes. Cut a ripe tomato and you'll find many seeds ready to start new plants.",
+      "keyPoints": [
+        "Life cycle = stages from beginning to producing young, then repeating",
+        "Seed → seedling → adult plant → flower → fruit with seeds",
+        "Seeds grow into new plants",
+        "Seeds are spread by wind, water, animals and people",
+        "Some plants finish the cycle in months, trees take years"
+      ],
+      "keywords": [
+        "life cycle of a plant",
+        "plant life cycle",
+        "life cycle",
+        "seed to seedling",
+        "seedling",
+        "flower",
+        "fruit",
+        "stages of plant growth",
+        "flowering plant",
+        "seed dispersal"
+      ]
+    },
+    {
+      "id": "frog-life-cycle",
+      "title": "Life cycles of animals and the frog",
+      "summary": "Some animals are born looking like small adults, but a frog changes form completely: egg → tadpole → froglet → adult frog, a change called metamorphosis.",
+      "simple": "A kitten looks like a small cat. But a baby frog doesn't look like a frog at all! It starts as an egg in water, hatches into a **tadpole** with a tail that swims like a fish, slowly grows legs and loses its tail, and becomes a frog. This big change is called **metamorphosis**.",
+      "explain": "Animals also have life cycles, but they are not all alike.\n\n**Young that look like adults:** Puppies, calves, kittens, chicks and human babies look like smaller versions of their parents and simply grow bigger.\n\n**Young that look very different:** Frogs, mosquitoes, butterflies and many insects go through stages that look completely different from the adult. This change in body form is called **metamorphosis**.\n\n**Life cycle of a frog:**\n1. **Eggs:** In the rainy season, a female frog lays many eggs in ponds or puddles. The eggs are covered with a jelly that holds them together and protects them (frogspawn).\n2. **Tadpole:** A tadpole hatches. It lives in water, has a long **tail** for swimming and breathes using **gills**, like a fish. It has no legs at first.\n3. **Tadpole with legs:** Back legs grow first, then front legs. The tail starts getting shorter.\n4. **Froglet:** A young frog with four legs and a small stump of a tail. It begins to breathe air and can come out onto land.\n5. **Adult frog:** The tail disappears completely. The adult lives both in water and on land, and lays eggs to start the cycle again.\n\nThis is why frogs are seen and heard croaking so much during the monsoon — it is their breeding season.",
+      "example": "In the monsoon, you might find a pond in your village or park full of black, wriggling tadpoles. Visit every few days and you'll see tiny legs appear and tails shrink as they turn into little frogs.",
+      "keyPoints": [
+        "Some young look like small adults (kitten, calf, chick)",
+        "Others change form completely — metamorphosis",
+        "Frog: egg → tadpole → tadpole with legs → froglet → adult",
+        "Tadpoles live in water, have tails and breathe with gills",
+        "Back legs grow first; the tail slowly disappears",
+        "Frogs breed in water during the rainy season"
+      ],
+      "keywords": [
+        "life cycle of frog",
+        "frog life cycle",
+        "tadpole",
+        "froglet",
+        "frogspawn",
+        "metamorphosis",
+        "life cycle of animals",
+        "animal life cycle",
+        "gills",
+        "frog eggs",
+        "amphibian"
+      ]
+    },
+    {
+      "id": "mosquito-life-cycle",
+      "title": "Life cycle of a mosquito",
+      "summary": "A mosquito passes through four stages — egg, larva, pupa and adult — the first three in water, so removing stagnant water stops mosquitoes from breeding.",
+      "simple": "Mosquitoes lay eggs on still water. The eggs hatch into wriggly **larvae**, which become **pupae**, and then adult mosquitoes fly out. All the early stages need water, so if we don't let water collect in coolers, pots and tyres, mosquitoes can't breed.",
+      "explain": "A mosquito has **four stages** in its life cycle:\n\n1. **Egg:** A female mosquito lays eggs on the surface of **stagnant (still) water** — in ponds, drains, coolers, flower pots, old tyres, buckets and even bottle caps.\n2. **Larva:** The eggs hatch into tiny, wriggling **larvae** that live in water. They eat tiny bits of food in the water and come to the surface to breathe.\n3. **Pupa:** The larva changes into a **pupa**, which also lives in water. It doesn't eat. Inside it, the body changes into an adult.\n4. **Adult:** The adult mosquito comes out of the pupa, rests on the water surface for a while, then flies away. Adult females lay eggs, and the cycle starts again.\n\nThe whole cycle can be completed in about one to two weeks in warm weather. This is also a **metamorphosis**, because the larva and pupa look nothing like the adult.\n\n**Why this matters:** Some mosquitoes spread diseases like **malaria** and **dengue**. Since eggs, larvae and pupae all need **water**, we can stop mosquitoes from breeding by:\n- Not letting water collect in pots, tyres, containers and coolers\n- Emptying and drying coolers and water containers at least once a week\n- Covering water tanks and stored water\n- Using mosquito nets and keeping surroundings clean",
+      "example": "Municipal health workers in many Indian cities go house to house in the monsoon, checking coolers and flower-pot trays for mosquito larvae and asking families to empty them. This breaks the mosquito's life cycle.",
+      "keyPoints": [
+        "Four stages: egg → larva → pupa → adult",
+        "Eggs are laid on stagnant water",
+        "Egg, larva and pupa stages all need water",
+        "Larva and pupa look very different from the adult (metamorphosis)",
+        "Some mosquitoes spread malaria and dengue",
+        "Removing stagnant water stops mosquito breeding"
+      ],
+      "keywords": [
+        "life cycle of mosquito",
+        "mosquito life cycle",
+        "larva",
+        "larvae",
+        "pupa",
+        "stagnant water",
+        "mosquito breeding",
+        "malaria",
+        "dengue",
+        "prevent mosquitoes",
+        "egg larva pupa adult",
+        "cooler water mosquito"
+      ]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "Organism", "meaning": "Any living thing — a plant, an animal or a tiny microbe." },
+    { "term": "Stimulus", "meaning": "A change in the surroundings that makes a living thing react (e.g. touch, heat, light)." },
+    { "term": "Respiration", "meaning": "The process in which living things use air (oxygen) to get energy from food." },
+    { "term": "Excretion", "meaning": "Removal of waste materials from the body of a living thing." },
+    { "term": "Reproduction", "meaning": "Producing young ones or new plants of the same kind." },
+    { "term": "Germination", "meaning": "The process by which a seed begins to grow into a seedling." },
+    { "term": "Seedling", "meaning": "A young plant that has just come out of a germinating seed." },
+    { "term": "Life cycle", "meaning": "The series of stages a living thing goes through from its beginning until it reproduces." },
+    { "term": "Metamorphosis", "meaning": "A big change in body form during the life cycle of some animals, like frogs and mosquitoes." },
+    { "term": "Tadpole", "meaning": "The young stage of a frog that lives in water, has a tail and breathes with gills." },
+    { "term": "Larva", "meaning": "The worm-like young stage that hatches from the egg of insects like the mosquito." },
+    { "term": "Pupa", "meaning": "The non-feeding stage between larva and adult in insects like the mosquito." },
+    { "term": "Tendril", "meaning": "A thin, coiling part of a climbing plant that wraps around a support." }
+  ],
+  "formulas": [],
+  "commonMistakes": [
+    "Thinking anything that moves is alive — cars and clouds move but are non-living.",
+    "Thinking a dry seed is non-living — it is alive and can grow when conditions are right.",
+    "Saying seeds need sunlight to germinate — most seeds germinate in the dark; the seedling needs sunlight afterwards.",
+    "Thinking more water is always better for seeds — waterlogged soil has no air, so seeds don't germinate.",
+    "Saying plants don't move — their parts move towards light, on touch, or by tendrils.",
+    "Mixing up the order of mosquito stages — it is egg → larva → pupa → adult.",
+    "Thinking a tadpole is a fish — it is the young stage of a frog."
+  ],
+  "revision": [
+    "Living things need food, respire, grow, respond to stimuli, move, excrete, reproduce and die.",
+    "Check many characteristics together — no single one proves life.",
+    "A dry seed is living; a moving car is non-living.",
+    "Germination needs water and air (and suitable warmth).",
+    "Most seeds germinate without sunlight; seedlings need sunlight to grow.",
+    "Shoots grow towards light; roots grow downwards.",
+    "Touch-me-not leaves fold when touched; tendrils help climbers climb.",
+    "Plant life cycle: seed → seedling → adult plant → flower → fruit with seeds.",
+    "Metamorphosis: a big change in body form during an animal's life cycle.",
+    "Frog: egg → tadpole → froglet → adult frog.",
+    "Mosquito: egg → larva → pupa → adult; the first three stages live in water.",
+    "Removing stagnant water stops mosquitoes from breeding."
+  ],
+  "faqs": [
+    {
+      "q": "A car moves and needs fuel. Why isn't it a living thing?",
+      "a": "A car shows only some features that look like life. It does **not grow** from inside, does **not reproduce**, does **not respond** to stimuli on its own and does **not have a life cycle**. Living things show all these features together.",
+      "keywords": ["is car living", "car moves but not living", "living vs non living"]
+    },
+    {
+      "q": "Do seeds need sunlight to germinate?",
+      "a": "Most seeds **don't**. In the experiment, seeds in a dark place with moist soil germinated. Seeds need **water** and **air** (and some warmth). But once the seedling comes out, it **needs sunlight** to make food and keep growing.",
+      "keywords": ["seed sunlight germination", "germination in dark", "conditions for germination"]
+    },
+    {
+      "q": "What is metamorphosis?",
+      "a": "Metamorphosis is a **big change in body form** as some animals grow. A frog starts as a tadpole that swims with a tail and breathes with gills, then grows legs and loses its tail. A mosquito changes from larva to pupa to adult. Animals like cats and cows don't go through this — their young look like small adults.",
+      "keywords": ["metamorphosis", "what is metamorphosis", "frog metamorphosis"]
+    },
+    {
+      "q": "What is the difference between a larva and a pupa?",
+      "a": "In a mosquito, the **larva** hatches from the egg, wriggles in water, feeds and grows. The **pupa** comes next; it doesn't eat, and inside it the body changes into an adult. Both live in water.",
+      "keywords": ["larva vs pupa", "difference between larva and pupa", "mosquito stages"]
+    },
+    {
+      "q": "Why are we told not to let water collect in coolers and pots?",
+      "a": "Mosquitoes lay eggs on still water, and their larvae and pupae live in it. Emptying and drying coolers, pots, tyres and containers at least once a week stops their life cycle, which helps prevent diseases like malaria and dengue.",
+      "keywords": ["stagnant water mosquito", "cooler mosquito", "prevent dengue", "mosquito breeding"]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Which of these is a living thing?",
+      "options": ["A moving car", "A cloud that grows bigger", "A burning candle", "A dry seed"],
+      "answer": 3,
+      "explain": "A dry seed is alive — it can germinate and grow into a plant. The others may move or change, but they don't eat, respire or reproduce.",
+      "topic": "living-vs-nonliving",
+      "level": "medium"
+    },
+    {
+      "q": "The leaves of a touch-me-not plant fold when touched. This shows that living things:",
+      "options": ["Excrete waste", "Respond to stimuli", "Need water", "Reproduce"],
+      "answer": 1,
+      "explain": "Touch is a stimulus, and folding the leaves is the plant's response.",
+      "topic": "living-vs-nonliving",
+      "level": "easy"
+    },
+    {
+      "q": "Bean seeds kept in a pot filled with too much water did not germinate. Why?",
+      "options": ["They got too much sunlight", "They were too warm", "Water filled the air spaces, so there was no air", "Seeds don't need water"],
+      "answer": 2,
+      "explain": "Seeds need air to germinate. In waterlogged soil, water fills the spaces where air would be.",
+      "topic": "germination",
+      "level": "medium"
+    },
+    {
+      "q": "Seeds in moist soil kept in a dark cupboard germinated. What does this show?",
+      "options": ["Most seeds do not need sunlight to germinate", "Seeds need darkness to grow into big plants", "Seeds don't need water", "Seeds don't need air"],
+      "answer": 0,
+      "explain": "Germination happened without light, so sunlight is not needed for germination. The seedling will need light later to keep growing.",
+      "topic": "germination",
+      "level": "medium"
+    },
+    {
+      "q": "Which two things are essential for a seed to germinate?",
+      "options": ["Water and air", "Sunlight and soil", "Fertiliser and sunlight", "Sand and darkness"],
+      "answer": 0,
+      "explain": "Water softens the seed coat and air is needed by the growing embryo. Sunlight and fertiliser are not needed for germination.",
+      "topic": "germination",
+      "level": "easy"
+    },
+    {
+      "q": "A plant kept near a window bends towards it. This is because plant shoots:",
+      "options": ["Grow towards gravity", "Grow away from water", "Are attracted to glass", "Grow towards light"],
+      "answer": 3,
+      "explain": "Shoots bend towards light. Light from the window is the stimulus.",
+      "topic": "plant-growth-movement",
+      "level": "easy"
+    },
+    {
+      "q": "How do climbing plants like the pea hold on to a support?",
+      "options": ["With their flowers", "With tendrils", "With their seeds", "With their fruits"],
+      "answer": 1,
+      "explain": "Tendrils are thin, coiling structures that wrap around a support so the plant can climb.",
+      "topic": "plant-growth-movement",
+      "level": "easy"
+    },
+    {
+      "q": "Which is the correct order in the life cycle of a flowering plant?",
+      "options": ["Flower → seed → seedling → fruit", "Seedling → seed → fruit → flower", "Seed → seedling → adult plant → flower → fruit", "Fruit → flower → seedling → seed"],
+      "answer": 2,
+      "explain": "A seed germinates into a seedling, which grows into an adult plant that flowers; flowers form fruits with seeds.",
+      "topic": "plant-life-cycle",
+      "level": "medium"
+    },
+    {
+      "q": "Which stage in a frog's life cycle has a tail and breathes using gills?",
+      "options": ["Egg", "Adult frog", "Tadpole", "Froglet without a tail"],
+      "answer": 2,
+      "explain": "The tadpole lives in water, swims with its tail and breathes with gills, like a fish.",
+      "topic": "frog-life-cycle",
+      "level": "easy"
+    },
+    {
+      "q": "The big change in body form in the life cycle of a frog is called:",
+      "options": ["Metamorphosis", "Germination", "Excretion", "Respiration"],
+      "answer": 0,
+      "explain": "Metamorphosis is the change from egg to tadpole to adult, where the young look very different from the adult.",
+      "topic": "frog-life-cycle",
+      "level": "medium"
+    },
+    {
+      "q": "What is the correct order of stages in the life cycle of a mosquito?",
+      "options": ["Egg → pupa → larva → adult", "Larva → egg → pupa → adult", "Egg → tadpole → adult", "Egg → larva → pupa → adult"],
+      "answer": 3,
+      "explain": "A mosquito goes from egg to larva to pupa to adult.",
+      "topic": "mosquito-life-cycle",
+      "level": "easy"
+    },
+    {
+      "q": "Emptying coolers and flower-pot trays every week helps control mosquitoes because:",
+      "options": ["Adult mosquitoes drink only cooler water", "Mosquito eggs, larvae and pupae need still water to develop", "Mosquitoes are afraid of dry pots", "It kills adult mosquitoes in the air"],
+      "answer": 1,
+      "explain": "The first three stages of a mosquito live in stagnant water. Removing that water breaks the life cycle.",
+      "topic": "mosquito-life-cycle",
+      "level": "hard"
+    }
+  ]
+}

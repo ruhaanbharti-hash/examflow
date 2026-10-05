@@ -1,0 +1,328 @@
+{
+  "id": "c6-math-patterns",
+  "class": 6,
+  "subject": "mathematics",
+  "name": "Patterns in Mathematics",
+  "summary": "Mathematics is largely the search for patterns and for explanations of why they happen. We meet famous number sequences (all 1s, counting numbers, odd and even numbers, triangular numbers, squares, cubes, Virahānka numbers, powers of 2 and powers of 3), draw them as pictures of dots, and discover surprising links between them, like 'adding odd numbers gives squares'. Finally we see patterns in shapes (regular polygons, complete graphs, stacked squares and triangles, the Koch snowflake) and find the number sequences hiding inside them.",
+  "topics": [
+    {
+      "id": "what-is-mathematics",
+      "title": "What is mathematics? The search for patterns",
+      "summary": "Mathematics is the search for patterns and their explanations; patterns appear in nature, at home and in the sky, and spotting them helps science, technology and art.",
+      "simple": "Mathematics is not just doing sums. A big part of it is **looking for patterns** — things that repeat or grow in a regular way — and then asking **why** the pattern works. Patterns are all around us: in flowers, in rangoli designs, in the days of the week and in the phases of the Moon.",
+      "explain": "Mathematicians spend a lot of their time hunting for **patterns** and then trying to **explain** them. A pattern is a regular, predictable arrangement of numbers, shapes or events.\n\n**Patterns are everywhere:**\n- **Nature:** petals on flowers, the spiral of a sunflower, honeycomb hexagons made by bees\n- **Daily life:** days of the week repeat every 7 days, the Moon's phases repeat roughly every month, seasons repeat every year\n- **Art and culture:** kolam and rangoli designs, block-print borders, tiles on a floor\n- **Numbers:** 2, 4, 6, 8, … or 1, 4, 9, 16, …\n\n**Why look for patterns?**\n1. They let us **predict** what comes next (e.g. when the next full moon will be).\n2. Explaining a pattern often leads to new ideas and inventions.\n3. Patterns found by mathematicians are used in science, computers, buildings, music and art.\n\nIn this chapter we study two kinds of patterns: **patterns in numbers** (number sequences) and **patterns in shapes**. A **sequence** is a list of numbers (or shapes) written in a definite order, where each one follows from a rule.\n\nAn important habit: once you notice a pattern, ask '**Will it always work? Why?**' Drawing a picture is often the best way to answer.",
+      "example": "The days of the week form a repeating pattern of 7. If today is Monday, then 7 days later is Monday again, 14 days later is Monday, and 21 days later is Monday. So 22 days from Monday will be a **Tuesday** (21 days brings us back to Monday, plus 1 more day).",
+      "keyPoints": [
+        "Mathematics is largely the search for patterns and their explanations",
+        "Patterns appear in nature, art, the calendar and the sky",
+        "Patterns help us predict what comes next",
+        "A sequence is an ordered list that follows a rule",
+        "Always ask: does the pattern always work, and why?"
+      ],
+      "keywords": [
+        "what is mathematics",
+        "patterns",
+        "pattern",
+        "patterns in nature",
+        "patterns in daily life",
+        "sequence",
+        "rule",
+        "predict",
+        "rangoli patterns",
+        "repeating pattern",
+        "growing pattern"
+      ]
+    },
+    {
+      "id": "number-sequences",
+      "title": "Famous number sequences",
+      "summary": "All 1s, counting numbers, odd numbers, even numbers, triangular numbers, squares, cubes, Virahānka numbers, powers of 2 and powers of 3 — each has its own rule.",
+      "simple": "Some lists of numbers are so useful that they have names. Counting numbers go 1, 2, 3, 4, … Odd numbers go 1, 3, 5, 7, … Square numbers go 1, 4, 9, 16, … Each list has a **rule** that tells you the next number.",
+      "explain": "Here are the most important number sequences in this chapter, with their rules:\n\n1. **All 1s:** 1, 1, 1, 1, 1, … (nothing changes)\n2. **Counting numbers:** 1, 2, 3, 4, 5, … (add 1 each time)\n3. **Odd numbers:** 1, 3, 5, 7, 9, … (start at 1, add 2)\n4. **Even numbers:** 2, 4, 6, 8, 10, … (start at 2, add 2)\n5. **Triangular numbers:** 1, 3, 6, 10, 15, 21, … (add 2, then 3, then 4, then 5, …)\n6. **Squares:** 1, 4, 9, 16, 25, 36, … (1×1, 2×2, 3×3, 4×4, …)\n7. **Cubes:** 1, 8, 27, 64, 125, … (1×1×1, 2×2×2, 3×3×3, …)\n8. **Virahānka numbers:** 1, 2, 3, 5, 8, 13, 21, 34, … (each number is the **sum of the two before it**: 1 + 2 = 3, 2 + 3 = 5, 3 + 5 = 8)\n9. **Powers of 2:** 1, 2, 4, 8, 16, 32, 64, … (multiply by 2 each time)\n10. **Powers of 3:** 1, 3, 9, 27, 81, 243, … (multiply by 3 each time)\n\n**How to find the rule of a new sequence:**\n- Look at the **differences** between neighbours (do they stay the same, or grow?)\n- Check whether each term is a **multiple** of the one before\n- Check whether each term is made from the **previous two**\n\nThe Virahānka numbers are named after the Indian scholar **Virahānka**, who found them over a thousand years ago while counting the rhythms that can be made from short and long beats in poetry and music.",
+      "deep": "Triangular numbers grow by adding the next counting number: 1, 1 + 2 = 3, 3 + 3 = 6, 6 + 4 = 10, 10 + 5 = 15, 15 + 6 = 21. So the 7th triangular number is 21 + 7 = **28**. Squares grow by adding the next odd number: 1, 1 + 3 = 4, 4 + 5 = 9, 9 + 7 = 16, 16 + 9 = 25.",
+      "example": "Find the next two terms of each sequence.\n- 1, 3, 6, 10, 15, … → differences are 2, 3, 4, 5, so next differences are 6 and 7: **21, 28**\n- 1, 2, 3, 5, 8, 13, … → 8 + 13 = **21**, 13 + 21 = **34**\n- 1, 3, 9, 27, … → 27 × 3 = **81**, 81 × 3 = **243**\n- 1, 8, 27, 64, … → 5 × 5 × 5 = **125**, 6 × 6 × 6 = **216**",
+      "keyPoints": [
+        "Odd numbers: 1, 3, 5, 7, …; even numbers: 2, 4, 6, 8, …",
+        "Triangular numbers: 1, 3, 6, 10, 15, 21, …",
+        "Squares: 1, 4, 9, 16, 25, …; cubes: 1, 8, 27, 64, 125, …",
+        "Virahānka numbers: each is the sum of the previous two (1, 2, 3, 5, 8, 13, …)",
+        "Powers of 2: 1, 2, 4, 8, 16, …; powers of 3: 1, 3, 9, 27, 81, …",
+        "To find a rule, look at differences or ratios between neighbours"
+      ],
+      "keywords": [
+        "number sequences",
+        "counting numbers",
+        "odd numbers",
+        "even numbers",
+        "triangular numbers",
+        "square numbers",
+        "squares",
+        "cube numbers",
+        "cubes",
+        "virahanka numbers",
+        "fibonacci",
+        "powers of 2",
+        "powers of 3",
+        "next term",
+        "find the rule"
+      ]
+    },
+    {
+      "id": "visualising-sequences",
+      "title": "Visualising number sequences with pictures",
+      "summary": "Drawing sequences with dots shows why they get their names: triangular numbers make triangles, squares make squares, cubes make cubes, and odd numbers make L-shapes.",
+      "simple": "We can draw numbers using dots. Arrange 1, 3, 6, 10 dots and they make bigger and bigger **triangles** — that's why they are called triangular numbers. Arrange 1, 4, 9, 16 dots and they make **squares**.",
+      "explain": "Pictures make number sequences easy to understand and remember.\n\n**Counting numbers:** a row of 1 dot, 2 dots, 3 dots, … each row one dot longer.\n\n**Odd numbers:** draw each odd number as an **L-shape** (a corner): 1 dot; then 3 dots (one in the corner, one on each arm); then 5; then 7. Each L has one more dot on each arm than the last.\n\n**Even numbers:** two equal rows of dots — 2 = two rows of 1, 4 = two rows of 2, 6 = two rows of 3. An even number can always be split into **two equal rows**; an odd number always has one dot left over.\n\n**Triangular numbers:** put 1 dot on top, 2 below it, 3 below that, and so on. With 1, 3, 6, 10, 15 dots you get triangles with 1, 2, 3, 4, 5 rows.\n\n**Squares:** arrange 1, 4, 9, 16, 25 dots in square grids of side 1, 2, 3, 4, 5.\n\n**Cubes:** stack small cubes into bigger cubes: 1 cube, then a 2 × 2 × 2 block (8 cubes), then a 3 × 3 × 3 block (27 cubes).\n\n**Why pictures help:** a picture often shows *why* a pattern is true. For example, a square of dots can be split into L-shapes of 1, 3, 5, 7, … dots, which shows straight away that adding odd numbers gives squares (see the next topic).",
+      "example": "Why is 10 a triangular number? Arrange 10 dots in rows of 1, 2, 3 and 4:\n- Row 1: 1 dot\n- Row 2: 2 dots\n- Row 3: 3 dots\n- Row 4: 4 dots\nTotal = 1 + 2 + 3 + 4 = 10, and the rows form a triangle. Can 10 dots make a square? No — 3 × 3 = 9 and 4 × 4 = 16, so 10 is **not** a square number.",
+      "keyPoints": [
+        "Triangular numbers form triangles of dots (rows 1, 2, 3, …)",
+        "Square numbers form square grids of dots",
+        "Cubes form cubes from small blocks",
+        "Odd numbers form L-shapes; even numbers form two equal rows",
+        "Pictures can show WHY a pattern is true"
+      ],
+      "keywords": [
+        "visualising sequences",
+        "dot pictures",
+        "dot patterns",
+        "why triangular numbers",
+        "why square numbers",
+        "picture of odd numbers",
+        "L shape",
+        "pictorial representation",
+        "cube of blocks",
+        "is it a square number"
+      ]
+    },
+    {
+      "id": "relations-among-sequences",
+      "title": "Relations among number sequences",
+      "summary": "Sequences are linked: adding odd numbers gives squares, adding counting numbers gives triangular numbers, two neighbouring triangular numbers add to a square, and adding hexagonal numbers gives cubes.",
+      "simple": "The famous sequences are connected in surprising ways. If you add the first few odd numbers, 1 + 3 + 5 + 7, you get 16, a square number! If you add counting numbers 1 + 2 + 3 + 4, you get 10, a triangular number.",
+      "explain": "**1. Adding odd numbers gives squares**\n- 1 = 1\n- 1 + 3 = 4\n- 1 + 3 + 5 = 9\n- 1 + 3 + 5 + 7 = 16\nThe sum of the first n odd numbers is **n × n**. Picture: a square of dots splits into L-shapes of 1, 3, 5, 7, … dots. So 1 + 3 + 5 + … + 19 (the first 10 odd numbers) = 10 × 10 = **100**.\n\n**2. Adding counting numbers gives triangular numbers**\n1, 1 + 2 = 3, 1 + 2 + 3 = 6, 1 + 2 + 3 + 4 = 10 — each row of a triangle of dots is one more than the row above.\n\n**3. Up-and-down sums give squares**\n- 1 + 2 + 1 = 4\n- 1 + 2 + 3 + 2 + 1 = 9\n- 1 + 2 + 3 + 4 + 3 + 2 + 1 = 16\nGoing up to n and back down gives **n × n**. (Picture: count the dots of a square along its diagonals.)\n\n**4. Two neighbouring triangular numbers make a square**\n1 + 3 = 4, 3 + 6 = 9, 6 + 10 = 16, 10 + 15 = 25. (Picture: a square of dots cut along a diagonal gives two triangles.)\n\n**5. Powers of 2:** add them up and add 1 to get the next power of 2: 1 + 1 = 2, 1 + 2 + 1 = 4, 1 + 2 + 4 + 1 = 8, 1 + 2 + 4 + 8 + 1 = 16.\n\n**6. Powers of 3:** add them up, multiply by 2 and add 1 to get the next power of 3: (1 + 3) × 2 + 1 = 9, (1 + 3 + 9) × 2 + 1 = 27.\n\n**7. Hexagonal numbers and cubes:** the hexagonal numbers 1, 7, 19, 37, 61, … (dots arranged in growing hexagons) add up to cubes: 1, 1 + 7 = 8, 8 + 19 = 27, 27 + 37 = 64, 64 + 61 = 125. Also, 6 × (a triangular number) + 1 gives a hexagonal number: 6 × 1 + 1 = 7, 6 × 3 + 1 = 19, 6 × 6 + 1 = 37.",
+      "example": "Find 1 + 3 + 5 + 7 + 9 + 11 + 13 + 15 quickly.\n1. These are the first 8 odd numbers.\n2. The sum of the first n odd numbers is n × n.\n3. So the sum = 8 × 8 = **64**.\nCheck by adding: 1 + 3 = 4, + 5 = 9, + 7 = 16, + 9 = 25, + 11 = 36, + 13 = 49, + 15 = 64 ✓",
+      "keyPoints": [
+        "1 + 3 + 5 + … (first n odd numbers) = n × n",
+        "1 + 2 + 3 + … + n = the nth triangular number",
+        "1 + 2 + … + n + … + 2 + 1 = n × n",
+        "Two neighbouring triangular numbers add to a square (6 + 10 = 16)",
+        "1 + 2 + 4 + … + (a power of 2) + 1 = the next power of 2",
+        "Hexagonal numbers 1, 7, 19, 37, … add up to cubes 1, 8, 27, 64, …"
+      ],
+      "keywords": [
+        "relations among sequences",
+        "sum of odd numbers",
+        "adding odd numbers",
+        "sum of counting numbers",
+        "triangular numbers add to square",
+        "hexagonal numbers",
+        "sum of powers of 2",
+        "powers of 3",
+        "1+2+3+2+1",
+        "cubes sum",
+        "n squared"
+      ]
+    },
+    {
+      "id": "patterns-in-shapes",
+      "title": "Patterns in shapes and their number sequences",
+      "summary": "Shape sequences — regular polygons, complete graphs, stacked squares, stacked triangles and the Koch snowflake — hide number sequences: counting numbers from 3, triangular numbers, squares, and 3 × powers of 4.",
+      "simple": "Shapes can also make sequences. A triangle, square, pentagon, hexagon, … have 3, 4, 5, 6, … sides. If you join every pair of dots with lines, or stack small squares into bigger squares, you get number patterns you already know.",
+      "explain": "**1. Regular polygons** — closed shapes with equal sides and equal angles: triangle, square, pentagon, hexagon, heptagon, octagon, nonagon, decagon, …\n- Number of sides (and corners): **3, 4, 5, 6, 7, 8, 9, 10, …** — the counting numbers starting from 3.\n\n**2. Complete graphs** — put dots in a circle and join **every pair** of dots with a line.\n- 2 dots → 1 line, 3 dots → 3 lines, 4 dots → 6 lines, 5 dots → 10 lines, 6 dots → 15 lines\n- Number of lines: **1, 3, 6, 10, 15, …** — the **triangular numbers**. (With 5 dots, the first dot joins 4 others, the next joins 3 new ones, then 2, then 1: 4 + 3 + 2 + 1 = 10.)\n\n**3. Stacked squares** — small squares arranged into bigger squares of side 1, 2, 3, 4, …\n- Number of little squares: **1, 4, 9, 16, 25, …** — the **squares**.\n\n**4. Stacked triangles** — a big triangle divided into little triangles, with 1, 2, 3, 4, … rows.\n- The rows have 1, 3, 5, 7, … little triangles (odd numbers), so the totals are **1, 4, 9, 16, …** — again the **squares**.\n\n**5. Koch snowflake** — start with a triangle. In each step, replace **every** side by 4 smaller sides (a little 'bump' in the middle).\n- Number of sides: **3, 12, 48, 192, 768, …** — each step multiplies by 4, so these are **3 × powers of 4** (3 × 1, 3 × 4, 3 × 16, 3 × 64, …).\n- The Koch snowflake is an example of a **fractal**: zoom in on any part and it looks like the whole.",
+      "example": "How many lines are there in the complete graph with 7 dots?\n1. The first dot joins 6 others, the next joins 5 new ones, then 4, 3, 2, 1.\n2. 6 + 5 + 4 + 3 + 2 + 1 = **21** lines.\n3. 21 is the triangular number after 15 ✓\n\nHow many sides does the Koch snowflake have after 5 steps? 768 × 4 = **3072**.",
+      "keyPoints": [
+        "Regular polygons: sides 3, 4, 5, 6, … (counting numbers from 3)",
+        "Complete graphs: lines 1, 3, 6, 10, 15, … (triangular numbers)",
+        "Stacked squares: 1, 4, 9, 16, … little squares (squares)",
+        "Stacked triangles: 1, 4, 9, 16, … little triangles (squares)",
+        "Koch snowflake: sides 3, 12, 48, 192, … (× 4 each step)",
+        "Regular polygon: all sides equal and all angles equal"
+      ],
+      "keywords": [
+        "patterns in shapes",
+        "shape sequences",
+        "regular polygons",
+        "polygon sides",
+        "complete graph",
+        "joining dots lines",
+        "stacked squares",
+        "stacked triangles",
+        "koch snowflake",
+        "fractal",
+        "powers of 4",
+        "triangle square pentagon hexagon"
+      ]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "Pattern", "meaning": "A regular, predictable arrangement of numbers, shapes or events." },
+    { "term": "Sequence", "meaning": "An ordered list of numbers or shapes that follows a rule." },
+    { "term": "Triangular numbers", "meaning": "1, 3, 6, 10, 15, … — numbers of dots that form triangles; 1 + 2 + … + n." },
+    { "term": "Square numbers", "meaning": "1, 4, 9, 16, 25, … — a number multiplied by itself; dots form a square." },
+    { "term": "Cube numbers", "meaning": "1, 8, 27, 64, 125, … — a number multiplied by itself three times." },
+    { "term": "Virahānka numbers", "meaning": "1, 2, 3, 5, 8, 13, … — each number is the sum of the two before it." },
+    { "term": "Powers of 2", "meaning": "1, 2, 4, 8, 16, … — multiply by 2 each time." },
+    { "term": "Powers of 3", "meaning": "1, 3, 9, 27, 81, … — multiply by 3 each time." },
+    { "term": "Hexagonal numbers", "meaning": "1, 7, 19, 37, 61, … — dots arranged in growing hexagons; they add up to cubes." },
+    { "term": "Regular polygon", "meaning": "A closed flat shape with all sides equal and all angles equal." },
+    { "term": "Complete graph", "meaning": "Dots where every pair is joined by a line." },
+    { "term": "Koch snowflake", "meaning": "A shape made by repeatedly replacing each side with 4 smaller sides; sides go 3, 12, 48, 192, …" }
+  ],
+  "formulas": [
+    "Sum of the first n odd numbers: 1 + 3 + 5 + … = n × n",
+    "Sum of the first n counting numbers: 1 + 2 + … + n = nth triangular number",
+    "1 + 2 + … + n + … + 2 + 1 = n × n",
+    "Two neighbouring triangular numbers add to a square (e.g. 10 + 15 = 25)",
+    "1 + 2 + 4 + … + (power of 2) + 1 = next power of 2",
+    "6 × (triangular number) + 1 = hexagonal number (6 × 3 + 1 = 19)",
+    "Koch snowflake sides at each step: 3 × 4 × 4 × … (3, 12, 48, 192, …)"
+  ],
+  "commonMistakes": [
+    "Thinking square numbers go up by the same amount each time — the gaps are 3, 5, 7, 9, … (odd numbers).",
+    "Mixing up triangular numbers (1, 3, 6, 10, …) with square numbers (1, 4, 9, 16, …).",
+    "Calculating a cube as 3 × the number — 4 cubed is 4 × 4 × 4 = 64, not 12.",
+    "Calculating a square as 2 × the number — 5 squared is 5 × 5 = 25, not 10.",
+    "Thinking powers of 2 go 2, 4, 6, 8 — they multiply by 2: 1, 2, 4, 8, 16, …",
+    "Counting the Koch snowflake sides by adding 4 each time — each side becomes 4 sides, so we multiply by 4.",
+    "Accepting a pattern after checking only one or two cases — always test more cases and look for a reason."
+  ],
+  "revision": [
+    "Mathematics is the search for patterns and their explanations.",
+    "Odd: 1, 3, 5, 7, …; even: 2, 4, 6, 8, …",
+    "Triangular: 1, 3, 6, 10, 15, 21, 28, …",
+    "Squares: 1, 4, 9, 16, 25, 36, …; cubes: 1, 8, 27, 64, 125, …",
+    "Virahānka numbers: 1, 2, 3, 5, 8, 13, 21, 34, … (add the previous two).",
+    "Powers of 2: 1, 2, 4, 8, 16, 32, …; powers of 3: 1, 3, 9, 27, 81, …",
+    "Adding the first n odd numbers gives n × n.",
+    "Adding 1 + 2 + … + n gives a triangular number.",
+    "Two neighbouring triangular numbers add up to a square.",
+    "Hexagonal numbers 1, 7, 19, 37 add up to cubes 1, 8, 27, 64.",
+    "Regular polygons have 3, 4, 5, … sides; complete graphs have 1, 3, 6, 10, … lines.",
+    "Koch snowflake sides: 3, 12, 48, 192, … (multiply by 4)."
+  ],
+  "faqs": [
+    {
+      "q": "What is the difference between triangular numbers and square numbers?",
+      "a": "**Triangular numbers** (1, 3, 6, 10, 15, …) are what you get by adding counting numbers: 1 + 2 + 3 + 4 = 10. Their dots form triangles. **Square numbers** (1, 4, 9, 16, 25, …) are a number times itself: 4 × 4 = 16. Their dots form squares. Fun link: two neighbouring triangular numbers add to a square, e.g. 6 + 10 = 16.",
+      "keywords": ["triangular vs square", "difference triangular square numbers", "triangular numbers"]
+    },
+    {
+      "q": "Why does adding odd numbers always give a square number?",
+      "a": "Draw a square of dots. You can peel it into L-shaped layers: the corner dot (1), then an L of 3 dots, then an L of 5, then 7, and so on. Each new L wraps around the previous square to make the next bigger square. So 1 + 3 + 5 + 7 = 4 × 4 = 16, and the first n odd numbers always add to n × n.",
+      "keywords": ["sum of odd numbers", "why odd numbers make square", "1+3+5+7"]
+    },
+    {
+      "q": "What are Virahānka numbers?",
+      "a": "They are the sequence 1, 2, 3, 5, 8, 13, 21, 34, … where each number is the **sum of the two before it** (5 + 8 = 13). They were described by the Indian scholar Virahānka over a thousand years ago while studying rhythms made of short and long beats. Many people know them today as Fibonacci numbers.",
+      "keywords": ["virahanka numbers", "fibonacci numbers", "1 2 3 5 8 13"]
+    },
+    {
+      "q": "Why do the lines in a complete graph give triangular numbers?",
+      "a": "With 5 dots, the first dot is joined to the other 4, the second to 3 new dots, the third to 2 new dots and the fourth to 1 new dot. Total = 4 + 3 + 2 + 1 = 10, which is a sum of counting numbers — exactly a triangular number.",
+      "keywords": ["complete graph lines", "complete graph triangular", "number of lines joining dots"]
+    },
+    {
+      "q": "What is a Koch snowflake?",
+      "a": "Start with a triangle. In every step, replace each straight side with 4 shorter sides that have a small pointed bump in the middle. The number of sides goes 3, 12, 48, 192, … (multiply by 4 each step). The shape keeps getting more detailed and looks like a snowflake; it is an example of a fractal.",
+      "keywords": ["koch snowflake", "snowflake sides", "fractal"]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "What is the next number in the sequence 1, 3, 6, 10, 15, …?",
+      "options": ["21", "20", "18", "25"],
+      "answer": 0,
+      "explain": "These are triangular numbers. The gaps are 2, 3, 4, 5, so the next gap is 6: 15 + 6 = 21.",
+      "topic": "number-sequences",
+      "level": "easy"
+    },
+    {
+      "q": "Which of these is a cube number?",
+      "options": ["16", "27", "36", "49"],
+      "answer": 1,
+      "explain": "27 = 3 × 3 × 3. The others are squares: 16 = 4 × 4, 36 = 6 × 6, 49 = 7 × 7.",
+      "topic": "number-sequences",
+      "level": "easy"
+    },
+    {
+      "q": "In the Virahānka sequence 1, 2, 3, 5, 8, 13, …, what comes after 13?",
+      "options": ["18", "26", "21", "16"],
+      "answer": 2,
+      "explain": "Each number is the sum of the two before it: 8 + 13 = 21.",
+      "topic": "number-sequences",
+      "level": "easy"
+    },
+    {
+      "q": "What is 1 + 3 + 5 + 7 + 9 + 11 + 13?",
+      "options": ["36", "42", "64", "49"],
+      "answer": 3,
+      "explain": "These are the first 7 odd numbers, so the sum is 7 × 7 = 49.",
+      "topic": "relations-among-sequences",
+      "level": "medium"
+    },
+    {
+      "q": "What is 1 + 2 + 3 + 4 + 5 + 4 + 3 + 2 + 1?",
+      "options": ["25", "15", "30", "20"],
+      "answer": 0,
+      "explain": "Going up to n and back down gives n × n. Here n = 5, so the sum is 5 × 5 = 25.",
+      "topic": "relations-among-sequences",
+      "level": "medium"
+    },
+    {
+      "q": "Which two triangular numbers add up to 36?",
+      "options": ["10 and 21", "15 and 21", "6 and 28", "21 and 28"],
+      "answer": 1,
+      "explain": "Neighbouring triangular numbers add to a square: 15 + 21 = 36 = 6 × 6.",
+      "topic": "relations-among-sequences",
+      "level": "medium"
+    },
+    {
+      "q": "What do you get when you add 1 + 2 + 4 + 8 + 16 and then add 1?",
+      "options": ["31", "33", "32", "64"],
+      "answer": 2,
+      "explain": "1 + 2 + 4 + 8 + 16 = 31, and 31 + 1 = 32, which is the next power of 2.",
+      "topic": "relations-among-sequences",
+      "level": "medium"
+    },
+    {
+      "q": "Why are the numbers 1, 4, 9, 16, … called square numbers?",
+      "options": ["They are all even", "They are made by adding 4 each time", "They can be divided by 4", "Their dots can be arranged in a square grid"],
+      "answer": 3,
+      "explain": "1, 4, 9, 16 dots can be arranged as 1 × 1, 2 × 2, 3 × 3 and 4 × 4 squares.",
+      "topic": "visualising-sequences",
+      "level": "easy"
+    },
+    {
+      "q": "How many lines are there in a complete graph with 6 dots?",
+      "options": ["15", "12", "10", "21"],
+      "answer": 0,
+      "explain": "5 + 4 + 3 + 2 + 1 = 15. The numbers of lines in complete graphs are the triangular numbers 1, 3, 6, 10, 15, …",
+      "topic": "patterns-in-shapes",
+      "level": "medium"
+    },
+    {
+      "q": "The Koch snowflake has 3 sides at the start and 12 after one step. How many sides after the next step?",
+      "options": ["24", "48", "36", "16"],
+      "answer": 1,
+      "explain": "Every side is replaced by 4 sides, so we multiply by 4: 12 × 4 = 48.",
+      "topic": "patterns-in-shapes",
+      "level": "medium"
+    },
+    {
+      "q": "The sum 1 + 7 + 19 + 37 of hexagonal numbers equals:",
+      "options": ["27", "125", "64", "60"],
+      "answer": 2,
+      "explain": "1 + 7 = 8, 8 + 19 = 27, 27 + 37 = 64. Adding hexagonal numbers gives cubes, and 64 = 4 × 4 × 4.",
+      "topic": "relations-among-sequences",
+      "level": "hard"
+    },
+    {
+      "q": "Which statement best describes mathematics, according to this chapter?",
+      "options": ["Only fast calculation", "Only memorising formulas", "Only measuring things", "Largely the search for patterns and their explanations"],
+      "answer": 3,
+      "explain": "The chapter describes mathematics as largely the search for patterns and for explanations of why those patterns occur.",
+      "topic": "what-is-mathematics",
+      "level": "easy"
+    }
+  ]
+}

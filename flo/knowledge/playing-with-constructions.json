@@ -1,0 +1,308 @@
+{
+  "id": "c6-math-constructions",
+  "class": 6,
+  "subject": "mathematics",
+  "name": "Playing with Constructions",
+  "summary": "This chapter is about drawing accurate figures with a ruler and a compass. You use circles and arcs to make designs, recall what makes a shape a rectangle or a square, construct rectangles and squares with given sides, explore points on the sides of a rectangle, discover facts about the diagonals of rectangles and squares, and use compass arcs to find points that are the same distance from two given points (for example, the tip of a house's roof).",
+  "topics": [
+    {
+      "id": "compass-circles-artwork",
+      "title": "Tools, circles and compass artwork",
+      "summary": "A compass draws circles and arcs (parts of circles) and also copies a fixed length; with circles and arcs you can draw designs like waves, eyes and flowers.",
+      "simple": "A **compass** has a sharp point and a pencil. Keep the point still and swing the pencil around: you get a **circle**. Swing only part of the way: you get an **arc**. You can make lovely patterns, like waves, using just arcs.",
+      "explain": "**Tools used in constructions:**\n- **Ruler (scale):** to draw straight lines and measure lengths\n- **Compass:** to draw circles and arcs, and to copy or mark off a fixed length\n- **Protractor or set square:** to draw angles such as 90°\n- A sharp pencil and an eraser\n\n**Parts of a circle:**\n- **Centre:** the fixed point where the compass needle sits\n- **Radius:** the distance from the centre to any point on the circle (the gap between the needle and the pencil)\n- **Diameter:** a line through the centre from one side to the other; diameter = 2 × radius\n- **Arc:** a part of the circle\n\nEvery point on a circle is the **same distance** (the radius) from the centre. This simple fact is what makes the compass so useful.\n\n**Compass artwork.** Arcs and circles can be combined into designs:\n- **Waves:** a row of semicircles, alternately above and below a straight line\n- **Eyes:** two arcs meeting at their ends, with a small circle inside\n- **Flowers and patterns:** circles of the same radius drawn with centres on another circle\n\n**Using a compass to mark a length.** Open the compass to 5 cm on a ruler, place the needle on a point, and draw an arc. Every point on that arc is exactly 5 cm from the needle point. This is how constructions mark lengths accurately.",
+      "example": "To draw a wave: draw a straight line and mark points 2 cm apart. With the compass open to 1 cm, draw a semicircle above the line between the first two points (needle at the midpoint), then a semicircle below the line between the next two points, and so on. The result is a smooth wave.",
+      "keyPoints": [
+        "Compass draws circles and arcs and copies lengths",
+        "Every point on a circle is one radius away from the centre",
+        "Diameter = 2 × radius",
+        "An arc is part of a circle",
+        "Designs like waves and eyes are made from arcs"
+      ],
+      "keywords": [
+        "compass",
+        "ruler",
+        "construction tools",
+        "circle",
+        "arc",
+        "radius",
+        "diameter",
+        "centre",
+        "compass designs",
+        "wave pattern",
+        "artwork",
+        "geometry box"
+      ]
+    },
+    {
+      "id": "rectangles-squares",
+      "title": "Squares and rectangles: properties and construction",
+      "summary": "A rectangle has opposite sides equal and all four angles 90°; a square has all four sides equal and all angles 90°. You construct them using a ruler, a 90° angle and a compass.",
+      "simple": "A **rectangle** has four right angles, and its opposite sides are equal. A **square** is a special rectangle where all four sides are equal. To draw one accurately, you need correct lengths and correct right angles.",
+      "explain": "**Rectangle:**\n- Opposite sides are equal\n- All four angles are 90° (right angles)\n\n**Square:**\n- All four sides are equal\n- All four angles are 90°\nSo every square is a rectangle, but not every rectangle is a square.\n\n**Naming:** a rectangle ABCD has its corners named **in order** going around, so the sides are AB, BC, CD and DA.\n\n**Constructing a rectangle 5 cm × 3 cm:**\n1. Draw AB = 5 cm with a ruler.\n2. At A, draw a 90° angle using a protractor (or set square).\n3. On that line, use the compass (opened to 3 cm) to mark D so that AD = 3 cm.\n4. At B, draw a 90° angle and mark C so that BC = 3 cm.\n5. Join D and C. Check that DC = 5 cm.\n\n**Constructing a square of side 4 cm:** follow the same steps with all sides 4 cm.\n\n**Checking your work:** measure all sides and angles. A neat check is to measure the two diagonals: in a correct rectangle they come out equal.",
+      "example": "Ravi draws a 'rectangle' PQRS with PQ = 6 cm, QR = 4 cm, RS = 6 cm and SP = 4 cm, but the angle at P measures 80°. Opposite sides are equal, but the angles are not all 90°, so it is **not** a rectangle (it is a slanted shape called a parallelogram).",
+      "keyPoints": [
+        "Rectangle: opposite sides equal, all angles 90°",
+        "Square: all sides equal, all angles 90°",
+        "Every square is a rectangle",
+        "Name corners in order: ABCD",
+        "Construct with ruler + 90° angle + compass to mark lengths",
+        "Check: measure sides, angles and diagonals"
+      ],
+      "keywords": [
+        "rectangle",
+        "square",
+        "properties of rectangle",
+        "properties of square",
+        "construct rectangle",
+        "construct square",
+        "right angle",
+        "90 degrees",
+        "opposite sides",
+        "quadrilateral",
+        "set square",
+        "protractor"
+      ]
+    },
+    {
+      "id": "exploring-rectangles",
+      "title": "Exploring points on a rectangle",
+      "summary": "Using compass arcs, you can find a point on a side of a rectangle that is a given distance from a corner, and see how that distance changes as the point moves along the side.",
+      "simple": "Suppose you want a point on one side of a rectangle that is exactly 5 cm from a corner. Put the compass needle on that corner, open it to 5 cm, and draw an arc. Where the arc crosses the side is your point!",
+      "explain": "Take a rectangle ABCD with AB = 8 cm (the bottom side) and AD = 4 cm (the left side), so DC is the top side.\n\n**Finding a point at a given distance.** To find a point P on DC with AP = 5 cm:\n1. Open the compass to 5 cm.\n2. Put the needle on A and draw an arc.\n3. The arc crosses DC at one point. That point is P.\nIf you measure DP, you will find it is 3 cm.\n\n**How does AP change as P moves along DC?**\n- When P is at D, AP = AD = 4 cm (the shortest).\n- As P moves towards C, AP gets longer and longer.\n- When P reaches C, AP is the **diagonal** AC, the longest.\n\nSo an arc of radius 5 cm from A meets DC, but an arc of radius 3 cm does not (3 cm is shorter than AD), and an arc of radius 10 cm does not either (it is longer than the diagonal, about 8.9 cm).\n\n**Breaking a rectangle.** Joining a point on one side to corners splits the rectangle into triangles. Exploring such splits with ruler and compass, and checking lengths and angles, is a big part of this chapter: the idea is to **reason** about where a point must be, then construct it.",
+      "example": "In rectangle ABCD, AB = 8 cm and AD = 4 cm. Can you find P on DC so that AP = 6 cm? Yes: 6 cm is more than 4 cm (AD) and less than the diagonal AC (about 8.9 cm), so the 6 cm arc from A crosses DC. Can you find P with AP = 12 cm? No, 12 cm is longer than the diagonal.",
+      "keyPoints": [
+        "A compass arc of radius r from a corner finds points exactly r away",
+        "Distance from A to a point on the opposite side is smallest straight across",
+        "It is largest at the far corner (the diagonal)",
+        "If r is too small or too large, the arc misses the side",
+        "Reason first, then construct"
+      ],
+      "keywords": [
+        "exploration in rectangles",
+        "point on side",
+        "breaking rectangles",
+        "arc",
+        "given distance",
+        "compass construction",
+        "shortest distance",
+        "longest distance",
+        "rectangle puzzle"
+      ]
+    },
+    {
+      "id": "diagonals",
+      "title": "Diagonals of rectangles and squares",
+      "summary": "In a rectangle the two diagonals are equal and cut each other in half; in a square they are also equal, cut each other in half, and cross at a right angle. These facts help construct rectangles and squares from a diagonal.",
+      "simple": "A **diagonal** joins opposite corners. In any rectangle, the two diagonals are the same length, and they cut each other exactly in half. In a square, they also cross at a perfect right angle.",
+      "explain": "A **diagonal** of a four-sided figure joins two opposite corners. Rectangle ABCD has two diagonals, **AC** and **BD**. Let them cross at point O.\n\n**Rectangle:**\n- The diagonals are **equal**: AC = BD\n- They **bisect** each other (cut each other in half): AO = OC and BO = OD\n- So all four parts are equal: OA = OB = OC = OD\n\n**Square (a special rectangle):**\n- Diagonals are equal and bisect each other\n- They also cross at **90°**\n\nIn a rectangle that is not a square, the diagonals do **not** cross at 90°.\n\n**Constructing with diagonals.**\n\n*Rectangle with side 4 cm and diagonal 5 cm:*\n1. Draw AB = 4 cm.\n2. Draw a 90° angle at B.\n3. With needle at A and radius 5 cm, draw an arc cutting the 90° line at C.\n4. Complete the rectangle (draw a 90° line at A, mark D with AD = BC).\nBC measures 3 cm.\n\n*Square with diagonal 6 cm:*\n1. Draw AC = 6 cm and mark its midpoint O (3 cm from A).\n2. Draw a line through O at 90° to AC.\n3. Mark B and D on it, each 3 cm from O.\n4. Join A, B, C, D. This works because a square's diagonals are equal, bisect each other and meet at 90°.",
+      "example": "In rectangle PQRS the diagonals PR and QS meet at O, and PR = 10 cm. Then QS = 10 cm (equal diagonals) and PO = OR = QO = OS = 10 ÷ 2 = **5 cm**.",
+      "keyPoints": [
+        "A diagonal joins opposite corners",
+        "Rectangle: diagonals equal and bisect each other",
+        "OA = OB = OC = OD where O is the crossing point",
+        "Square: diagonals also meet at 90°",
+        "Rectangle (not square): diagonals not at 90°",
+        "You can construct rectangles and squares from a diagonal"
+      ],
+      "keywords": [
+        "diagonal",
+        "diagonals",
+        "diagonals of rectangle",
+        "diagonals of square",
+        "bisect",
+        "equal diagonals",
+        "perpendicular diagonals",
+        "construct with diagonal",
+        "midpoint",
+        "intersection of diagonals"
+      ]
+    },
+    {
+      "id": "equidistant-points",
+      "title": "Points equidistant from two given points",
+      "summary": "Arcs of the same radius drawn from two points meet at points that are equally far from both; this is used, for example, to draw the tip of a house's roof.",
+      "simple": "**Equidistant** means 'equally far'. To find a point that is 4 cm from point A and also 4 cm from point B, draw a 4 cm arc from A and a 4 cm arc from B. Where they cross, you've found your point.",
+      "explain": "A point P is **equidistant** from A and B if **PA = PB**.\n\n**Finding such points with a compass:**\n1. Open the compass to some length, say 5 cm.\n2. With the needle at A, draw an arc.\n3. Without changing the opening, put the needle at B and draw another arc.\n4. The arcs cross at points that are 5 cm from A **and** 5 cm from B.\n\nThe arcs cross only if the radius is **more than half of AB**. If AB = 6 cm, arcs of radius 2 cm from A and B never meet, because 2 + 2 = 4 is less than 6. With radius exactly 3 cm, they just touch at the midpoint of AB.\n\nRepeat with different radii and you get many equidistant points. They all lie on **one straight line** that passes through the **midpoint of AB** and is at **90° to AB**. (This line is called the perpendicular bisector of AB; you will meet it again in later classes.)\n\n**Constructing a house.** Draw a square wall ABCD with side 6 cm (DC on top). For the roof, the top point E must be the same distance, say 4 cm, from D and from C. Draw 4 cm arcs from D and C above the wall; they meet at E. Join DE and CE to get the roof.",
+      "example": "AB = 6 cm. Find a point P with PA = PB = 5 cm.\n1. Arc of radius 5 cm with centre A\n2. Arc of radius 5 cm with centre B\n3. They cross at P (and at a second point on the other side of AB)\nSince 5 cm is more than half of 6 cm (3 cm), the arcs do meet. Measuring shows P is 4 cm from the midpoint of AB.",
+      "keyPoints": [
+        "Equidistant from A and B means PA = PB",
+        "Draw equal arcs from A and B; they cross at equidistant points",
+        "Arcs meet only if radius is more than half of AB",
+        "All equidistant points lie on a line through the midpoint at 90° to AB",
+        "Used to construct the tip of a roof on a house drawing"
+      ],
+      "keywords": [
+        "equidistant",
+        "equidistant points",
+        "same distance",
+        "arcs intersect",
+        "perpendicular bisector",
+        "midpoint",
+        "constructing a house",
+        "house construction",
+        "roof",
+        "compass arcs"
+      ]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "Compass", "meaning": "An instrument with a needle and a pencil used to draw circles and arcs and to mark off fixed lengths." },
+    { "term": "Circle", "meaning": "All the points that are the same distance (the radius) from a fixed point (the centre)." },
+    { "term": "Radius", "meaning": "The distance from the centre of a circle to any point on it." },
+    { "term": "Diameter", "meaning": "A line segment through the centre joining two points on the circle; diameter = 2 × radius." },
+    { "term": "Arc", "meaning": "A part of a circle." },
+    { "term": "Rectangle", "meaning": "A four-sided figure with opposite sides equal and all angles 90°." },
+    { "term": "Square", "meaning": "A four-sided figure with all sides equal and all angles 90°; a special rectangle." },
+    { "term": "Diagonal", "meaning": "A line segment joining two opposite corners of a four-sided figure." },
+    { "term": "Bisect", "meaning": "To cut into two equal parts." },
+    { "term": "Equidistant", "meaning": "Equally far; P is equidistant from A and B when PA = PB." }
+  ],
+  "formulas": [
+    "Diameter = 2 × radius",
+    "Rectangle ABCD with diagonals meeting at O: AC = BD and OA = OB = OC = OD",
+    "Square: diagonals equal, bisect each other and meet at 90°",
+    "Equal arcs from A and B meet only if radius > ½ × AB"
+  ],
+  "commonMistakes": [
+    "Letting the compass opening slip while drawing, which changes the radius.",
+    "Thinking the diagonals of every rectangle cross at 90°. That is true only for a square.",
+    "Calling a shape with equal opposite sides a rectangle without checking that all angles are 90°.",
+    "Naming a rectangle's corners out of order (e.g. ABDC), which mixes up sides and diagonals.",
+    "Changing the compass opening between drawing the arc from A and the arc from B when finding equidistant points.",
+    "Measuring the radius from the wrong end of the ruler instead of from the 0 mark."
+  ],
+  "revision": [
+    "A compass draws circles and arcs and copies lengths.",
+    "Every point on a circle is one radius from the centre; diameter = 2 × radius.",
+    "Rectangle: opposite sides equal, all angles 90°.",
+    "Square: all sides equal, all angles 90°; every square is a rectangle.",
+    "A diagonal joins opposite corners.",
+    "Rectangle diagonals are equal and bisect each other.",
+    "Square diagonals are equal, bisect each other and meet at 90°.",
+    "To construct a rectangle from a side and a diagonal: side, 90° angle, then an arc of diagonal length.",
+    "Equal arcs from A and B cross at points equidistant from A and B.",
+    "Equidistant points lie on the line through the midpoint of AB at 90° to it.",
+    "The roof tip of a house drawing is found with equal arcs from the two top corners."
+  ],
+  "faqs": [
+    {
+      "q": "Is a square a rectangle?",
+      "a": "Yes. A rectangle needs opposite sides equal and all angles 90°. A square has all angles 90° and all sides equal, so its opposite sides are certainly equal. A square is a special rectangle. But a rectangle is a square only if all its sides are equal.",
+      "keywords": ["square rectangle", "is square a rectangle"]
+    },
+    {
+      "q": "What is the difference between the diagonals of a rectangle and a square?",
+      "a": "In both, the diagonals are equal in length and cut each other in half. The difference: in a square they also cross at a right angle (90°); in a rectangle that is not a square, they do not.",
+      "keywords": ["diagonals rectangle vs square", "difference diagonals"]
+    },
+    {
+      "q": "Why does drawing equal arcs from two points give an equidistant point?",
+      "a": "Every point on an arc of radius 5 cm centred at A is exactly 5 cm from A. Every point on an arc of radius 5 cm centred at B is 5 cm from B. The crossing point is on both arcs, so it is 5 cm from A and 5 cm from B.",
+      "keywords": ["equidistant arcs", "why arcs work"]
+    },
+    {
+      "q": "Why don't my arcs meet when I try to find an equidistant point?",
+      "a": "The radius is too small. The arcs from A and B meet only if the radius is more than half the distance AB. For AB = 6 cm, use a radius bigger than 3 cm.",
+      "keywords": ["arcs not meeting", "arcs do not intersect"]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "A circle has radius 4 cm. What is its diameter?",
+      "options": ["4 cm", "2 cm", "8 cm", "16 cm"],
+      "answer": 2,
+      "explain": "Diameter = 2 × radius = 2 × 4 = 8 cm.",
+      "topic": "compass-circles-artwork",
+      "level": "easy"
+    },
+    {
+      "q": "Which statement is true for every rectangle?",
+      "options": ["Opposite sides are equal and all angles are 90°", "All four sides are equal", "The diagonals always meet at 90°", "Only two of its angles are 90°"],
+      "answer": 0,
+      "explain": "A rectangle has opposite sides equal and four right angles. Equal sides and perpendicular diagonals are extra properties of a square.",
+      "topic": "rectangles-squares",
+      "level": "easy"
+    },
+    {
+      "q": "Which tool is used to draw arcs and to mark off a fixed length?",
+      "options": ["Protractor", "Compass", "Set square", "Eraser"],
+      "answer": 1,
+      "explain": "A compass draws circles and arcs and keeps a fixed opening, so it can copy a length.",
+      "topic": "compass-circles-artwork",
+      "level": "easy"
+    },
+    {
+      "q": "A square can best be described as:",
+      "options": ["A shape that is not a rectangle", "A rectangle with only two equal sides", "A shape with three right angles", "A rectangle with all four sides equal"],
+      "answer": 3,
+      "explain": "A square has all angles 90° (like a rectangle) and all four sides equal.",
+      "topic": "rectangles-squares",
+      "level": "easy"
+    },
+    {
+      "q": "In rectangle ABCD, diagonal AC = 10 cm. What is the length of diagonal BD?",
+      "options": ["5 cm", "20 cm", "It cannot be found", "10 cm"],
+      "answer": 3,
+      "explain": "The diagonals of a rectangle are equal, so BD = AC = 10 cm.",
+      "topic": "diagonals",
+      "level": "easy"
+    },
+    {
+      "q": "The diagonals of a rectangle meet at O. If AC = 12 cm, what is AO?",
+      "options": ["12 cm", "6 cm", "3 cm", "24 cm"],
+      "answer": 1,
+      "explain": "The diagonals bisect each other, so AO = 12 ÷ 2 = 6 cm.",
+      "topic": "diagonals",
+      "level": "medium"
+    },
+    {
+      "q": "In which shape do the diagonals always cross at a right angle?",
+      "options": ["Square", "Every rectangle", "Any four-sided shape", "A 6 cm × 4 cm rectangle"],
+      "answer": 0,
+      "explain": "Only in a square (among rectangles) do the diagonals meet at 90°.",
+      "topic": "diagonals",
+      "level": "medium"
+    },
+    {
+      "q": "A point P is equidistant from points A and B when:",
+      "options": ["PA is twice PB", "P lies between A and B", "PA = PB", "P lies on a circle with centre A"],
+      "answer": 2,
+      "explain": "Equidistant means equally far, so PA = PB.",
+      "topic": "equidistant-points",
+      "level": "easy"
+    },
+    {
+      "q": "AB = 6 cm. How do you find a point that is 5 cm from both A and B?",
+      "options": ["Draw a line parallel to AB", "Draw arcs of radius 5 cm centred at A and at B and mark where they cross", "Measure 5 cm along AB from A", "Draw a circle of radius 6 cm centred at A"],
+      "answer": 1,
+      "explain": "Points on the first arc are 5 cm from A, points on the second are 5 cm from B; the crossing point is on both.",
+      "topic": "equidistant-points",
+      "level": "medium"
+    },
+    {
+      "q": "A house drawing has a square wall of side 6 cm. Can the roof's two slanting sides each be 2 cm long, meeting at a tip above the wall?",
+      "options": ["Yes, the tip is 2 cm above the wall", "Yes, there are two possible tips", "Yes, the tip lies on the wall", "No, arcs of 2 cm from the two top corners do not meet, since 2 + 2 is less than 6"],
+      "answer": 3,
+      "explain": "For the arcs to cross, the radius must be more than half of 6 cm, i.e. more than 3 cm.",
+      "topic": "equidistant-points",
+      "level": "hard"
+    },
+    {
+      "q": "You construct a rectangle with side AB = 4 cm and diagonal AC = 5 cm. What will side BC measure?",
+      "options": ["9 cm", "1 cm", "3 cm", "4.5 cm"],
+      "answer": 2,
+      "explain": "Drawing the 90° line at B and a 5 cm arc from A gives C with BC = 3 cm (a 3-4-5 right triangle).",
+      "topic": "diagonals",
+      "level": "hard"
+    },
+    {
+      "q": "In rectangle ABCD, AB = 8 cm and AD = 4 cm. Point P moves along side DC from D to C. Where is AP the longest?",
+      "options": ["At C", "At D", "At the midpoint of DC", "AP stays the same everywhere"],
+      "answer": 0,
+      "explain": "AP grows as P moves away from D; at C it becomes the diagonal AC, the longest distance.",
+      "topic": "exploring-rectangles",
+      "level": "medium"
+    }
+  ]
+}

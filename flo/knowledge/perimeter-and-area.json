@@ -1,0 +1,345 @@
+{
+  "id": "c6-math-perimeter-area",
+  "class": 6,
+  "subject": "mathematics",
+  "name": "Perimeter and Area",
+  "summary": "This chapter is about two ways of measuring a flat shape: its perimeter (the distance all the way around its boundary) and its area (the amount of surface it covers). You find perimeters of rectangles, squares, triangles and regular polygons, measure area by counting unit squares, learn the area rules for rectangles, squares and triangles, estimate the area of curvy shapes, and discover that two shapes can share a perimeter but have different areas (and the other way round).",
+  "topics": [
+    {
+      "id": "perimeter-basics",
+      "title": "Perimeter of rectangles, squares and triangles",
+      "summary": "Perimeter is the total length of the boundary of a closed shape; for a rectangle it is 2 × (length + breadth), for a square 4 × side, for a triangle the sum of its three sides.",
+      "simple": "**Perimeter** is how far you travel if you walk once all the way around the edge of a shape. To find it, just add up the lengths of all the sides. It is a length, so it is measured in cm, m or km.",
+      "explain": "The **perimeter** of a closed figure is the total length of its boundary. Since it is a length, its units are cm, m, km and so on.\n\n**Rectangle:** opposite sides are equal, so\n- Perimeter = length + breadth + length + breadth = **2 × (length + breadth)**\n\n**Square:** all four sides are equal, so\n- Perimeter = **4 × side**\n\n**Triangle:** add the three sides\n- Perimeter = **first side + second side + third side**\n- For an **equilateral triangle** (all sides equal): Perimeter = 3 × side\n\nWhere do we use perimeter in daily life?\n- Fencing a field or garden\n- Putting lace or a border around a tablecloth or a saree\n- Running laps around a park or a track\n\n**Working backwards.** If you know the perimeter, you can find a missing side. For a rectangle, half the perimeter is length + breadth. So breadth = (perimeter ÷ 2) − length.\n\n**Laps on a track.** If a runner goes round a track several times, total distance = number of rounds × perimeter of the track.",
+      "example": "A rectangular park is 50 m long and 30 m wide. It needs a fence, and fencing costs ₹20 per metre.\n1. Perimeter = 2 × (50 + 30) = 2 × 80 = **160 m**\n2. Cost = 160 × ₹20 = **₹3,200**\n\nMissing side: a rectangle has perimeter 30 cm and length 10 cm. Half the perimeter = 15 cm, so breadth = 15 − 10 = **5 cm**.",
+      "keyPoints": [
+        "Perimeter = total length of the boundary",
+        "Rectangle: 2 × (length + breadth)",
+        "Square: 4 × side",
+        "Triangle: add the three sides; equilateral: 3 × side",
+        "Perimeter is a length: cm, m, km",
+        "Distance for many laps = rounds × perimeter"
+      ],
+      "keywords": [
+        "perimeter",
+        "boundary",
+        "perimeter of rectangle",
+        "perimeter of square",
+        "perimeter of triangle",
+        "fencing",
+        "border",
+        "lace",
+        "missing side",
+        "running track",
+        "laps",
+        "equilateral triangle"
+      ]
+    },
+    {
+      "id": "regular-polygons",
+      "title": "Perimeter of regular polygons and split-and-rejoin",
+      "summary": "A regular polygon has all sides equal and all angles equal, so its perimeter = number of sides × length of one side. Cutting a shape and rejoining the pieces can change its perimeter.",
+      "simple": "A **regular polygon** is a shape whose sides are all the same length and whose angles are all the same size, like a square or an equilateral triangle. To find its perimeter, multiply the number of sides by the length of one side.",
+      "explain": "A **regular polygon** has all sides equal and all angles equal. Examples:\n- Equilateral triangle (3 sides)\n- Square (4 sides)\n- Regular pentagon (5 sides)\n- Regular hexagon (6 sides), like each cell of a honeycomb\n\nSince every side is the same length:\n- **Perimeter of a regular polygon = number of sides × length of one side**\n\nSo a square's 4 × side and an equilateral triangle's 3 × side are special cases of this one rule.\n\n**Split and rejoin.** If you cut a shape into pieces and join them together in a different way, the new shape uses the same pieces, but its boundary can be longer or shorter. Edges that were outside can end up inside (touching each other), and edges that were hidden can end up outside. So rearranging pieces can **change the perimeter**.\n\nThis is also why a shape with a 'wiggly' or zig-zag edge can have a much bigger perimeter than a simple shape that looks about the same size.",
+      "example": "A regular hexagon has sides of 4 cm. Perimeter = 6 × 4 = **24 cm**.\n\nSplit and rejoin: a rectangle 8 cm × 2 cm has perimeter 2 × (8 + 2) = 20 cm. Cut it into two 4 cm × 2 cm pieces and place one on top of the other to make a 4 cm × 4 cm square. New perimeter = 4 × 4 = **16 cm**. The perimeter went down, even though no paper was thrown away.",
+      "keyPoints": [
+        "Regular polygon: all sides equal, all angles equal",
+        "Perimeter = number of sides × one side",
+        "Square and equilateral triangle are regular polygons",
+        "Regular hexagon with side a has perimeter 6a",
+        "Cutting and rejoining pieces can change the perimeter"
+      ],
+      "keywords": [
+        "regular polygon",
+        "polygon",
+        "pentagon",
+        "hexagon",
+        "octagon",
+        "perimeter of regular polygon",
+        "equal sides",
+        "split and rejoin",
+        "rearrange",
+        "honeycomb"
+      ]
+    },
+    {
+      "id": "area-unit-squares",
+      "title": "Area: counting unit squares, rectangles and squares",
+      "summary": "Area is the amount of surface a shape covers, measured in square units; for a rectangle it is length × breadth and for a square side × side.",
+      "simple": "**Area** tells you how much flat space a shape covers. We measure it by counting how many small unit squares fit inside it. A square that is 1 cm on each side has an area of 1 square centimetre (1 sq cm).",
+      "explain": "The **area** of a closed figure is the amount of region (surface) enclosed by it.\n\n**Measuring area with unit squares.** Put the shape on squared (grid) paper and count the squares inside it.\n- A square of side 1 cm has area **1 sq cm** (also written 1 cm²)\n- A square of side 1 m has area **1 sq m** (1 m²)\n\n**Rectangle.** A rectangle 5 cm long and 3 cm wide holds 3 rows of 5 unit squares, which is 5 × 3 = 15 squares. So\n- Area of rectangle = **length × breadth**\n\n**Square.** All sides are equal, so\n- Area of square = **side × side**\n\n**Comparing areas without numbers.** You can also compare areas by placing one shape over another, or by cutting and fitting pieces. The **tangram** is a square cut into 7 pieces: 2 large triangles, 1 medium triangle, 2 small triangles, 1 square and 1 parallelogram. If the whole square has area 1:\n- each large triangle is ¼\n- the medium triangle, the small square and the parallelogram are each ⅛\n- each small triangle is 1/16\n\nTwo small triangles fit exactly onto the medium triangle (or the square), so they have the same area. Moving pieces around never changes their total area.",
+      "example": "A room floor is 4 m by 3 m. Area = 4 × 3 = **12 sq m**.\n\nHow many square tiles of side 20 cm are needed? Use centimetres: the floor is 400 cm × 300 cm.\n1. Tiles along the length = 400 ÷ 20 = 20\n2. Tiles along the breadth = 300 ÷ 20 = 15\n3. Total tiles = 20 × 15 = **300 tiles**",
+      "keyPoints": [
+        "Area = amount of surface enclosed",
+        "Measured in square units: sq cm, sq m",
+        "Rectangle: length × breadth",
+        "Square: side × side",
+        "Grid paper lets you count unit squares",
+        "Tangram: 7 pieces; rearranging keeps total area the same"
+      ],
+      "keywords": [
+        "area",
+        "area of rectangle",
+        "area of square",
+        "unit square",
+        "square units",
+        "sq cm",
+        "sq m",
+        "square centimetre",
+        "grid paper",
+        "tangram",
+        "tiles",
+        "carpet",
+        "comparing areas"
+      ]
+    },
+    {
+      "id": "estimating-area",
+      "title": "Estimating the area of irregular shapes",
+      "summary": "For curvy or irregular shapes on grid paper, count full squares as 1, squares more than half covered as 1, half-covered squares as ½, and ignore squares less than half covered.",
+      "simple": "Leaves, ponds and maps don't have straight sides, so there is no easy rule for their area. Instead we trace them on squared paper and count the squares, using a simple rule for the squares that are only partly covered. The answer is an **estimate**, a good close guess.",
+      "explain": "Many shapes, like a leaf, a footprint, or a lake on a map, have curved edges. To estimate their area:\n1. Trace the shape on squared paper (each square = 1 sq unit).\n2. Count the squares using this rule:\n- **Fully covered square** → count 1\n- **More than half covered** → count 1\n- **Exactly half covered** → count ½\n- **Less than half covered** → count 0 (ignore)\n3. Add everything up.\n\nWhy does this work? The 'more than half' squares we round up roughly balance the 'less than half' squares we leave out, so the total comes out close to the true area.\n\n**Getting a better estimate.** Use smaller squares (finer grid paper). The smaller the squares, the closer the estimate gets to the true area.\n\nYou can also **estimate by eye** first (for example, 'this leaf is about as big as a 4 cm × 3 cm rectangle, so roughly 12 sq cm') and then check by counting.",
+      "example": "A leaf traced on 1 cm grid paper covers:\n- 10 full squares → 10\n- 6 squares more than half → 6\n- 4 squares exactly half → 4 × ½ = 2\n- 5 squares less than half → 0\n\nEstimated area = 10 + 6 + 2 = **18 sq cm**.",
+      "keyPoints": [
+        "Use grid paper for curvy shapes",
+        "Full or more than half → 1",
+        "Exactly half → ½",
+        "Less than half → 0",
+        "Answer is an estimate, not exact",
+        "Smaller grid squares give a better estimate"
+      ],
+      "keywords": [
+        "estimate area",
+        "estimating area",
+        "irregular shape",
+        "area of leaf",
+        "grid paper",
+        "squared paper",
+        "counting squares",
+        "more than half",
+        "half square",
+        "approximate area"
+      ]
+    },
+    {
+      "id": "area-of-triangle",
+      "title": "Area of a triangle as half a rectangle",
+      "summary": "A diagonal cuts a rectangle into two equal triangles, so a triangle's area is half the area of the rectangle around it: ½ × base × height.",
+      "simple": "Cut a rectangle along its diagonal and you get two identical triangles. Each one has half the area of the rectangle. So the area of a triangle is **half of base × height**.",
+      "explain": "**Right-angled triangle.** Draw a diagonal in a rectangle. It splits the rectangle into two right-angled triangles that fit exactly on top of each other. So each triangle has half the rectangle's area:\n- Area = ½ × length × breadth\n\n**Any triangle.** Draw a rectangle around the triangle so that one side of the triangle (the **base**) lies along one side of the rectangle, and the opposite corner touches the far side. The rectangle's other side equals the triangle's **height** (the straight-up distance from the base to the top corner).\n\nDraw the height inside the triangle. It splits both the triangle and the rectangle into two parts. In each part, the triangle piece is exactly half of the small rectangle. Adding the two parts:\n- Area of triangle = ½ × area of rectangle = **½ × base × height**\n\nImportant: the height must be measured **at a right angle (90°)** to the base, not along a slanting side.\n\nThis 'half a rectangle' idea also lets you find the area of shapes made of rectangles and triangles: split the shape into pieces, find each area, and add.",
+      "example": "A triangle has base 8 cm and height 5 cm.\n1. Rectangle around it = 8 × 5 = 40 sq cm\n2. Triangle = ½ × 40 = **20 sq cm**\n\nA right-angled triangle has the two sides at the right angle equal to 6 cm and 4 cm. Area = ½ × 6 × 4 = **12 sq cm**.",
+      "keyPoints": [
+        "A diagonal halves a rectangle into two equal triangles",
+        "Area of triangle = ½ × base × height",
+        "Height is measured at 90° to the base",
+        "Right triangle: ½ × the two sides at the right angle",
+        "Complex shapes: split into rectangles and triangles, then add"
+      ],
+      "keywords": [
+        "area of triangle",
+        "triangle area",
+        "half of rectangle",
+        "base and height",
+        "half base height",
+        "right angled triangle",
+        "diagonal",
+        "height of triangle",
+        "composite shapes"
+      ]
+    },
+    {
+      "id": "perimeter-vs-area",
+      "title": "Perimeter versus area",
+      "summary": "Perimeter and area are different measurements: shapes with the same perimeter can have different areas, and shapes with the same area can have different perimeters.",
+      "simple": "Perimeter is the length of the edge; area is the space inside. They don't always go up or down together. Two gardens can need the same length of fence but have very different amounts of space inside.",
+      "explain": "Perimeter measures the **boundary** (a length, in cm or m). Area measures the **surface** (in sq cm or sq m). They are not the same thing, and one does not decide the other.\n\n**Same perimeter, different areas.** Every rectangle with perimeter 20 cm has length + breadth = 10 cm:\n- 1 × 9 → area 9 sq cm\n- 2 × 8 → area 16 sq cm\n- 3 × 7 → area 21 sq cm\n- 4 × 6 → area 24 sq cm\n- 5 × 5 → area 25 sq cm\nThe closer the rectangle is to a square, the bigger the area. Long, thin shapes enclose very little area.\n\n**Same area, different perimeters.** Rectangles with area 24 sq cm:\n- 1 × 24 → perimeter 50 cm\n- 2 × 12 → perimeter 28 cm\n- 3 × 8 → perimeter 22 cm\n- 4 × 6 → perimeter 20 cm\n\n**Making it more or less.** You can change a shape so its area goes up while its perimeter goes down, or the other way round. For example, cutting a small square out of the corner of a rectangle reduces the area but leaves the perimeter unchanged.\n\n**Area mazes** are puzzles where you use area = length × breadth to work out missing lengths step by step.",
+      "example": "A farmer has 40 m of fencing for a rectangular vegetable patch. Length + breadth = 20 m.\n- 15 m × 5 m gives 75 sq m\n- 12 m × 8 m gives 96 sq m\n- 10 m × 10 m gives **100 sq m**, the most\nSo for a fixed perimeter, a square encloses the greatest area among rectangles.",
+      "keyPoints": [
+        "Perimeter = boundary length; area = surface covered",
+        "Same perimeter can give different areas",
+        "Same area can give different perimeters",
+        "For a fixed perimeter, the square gives the largest rectangle area",
+        "Cutting a corner square: area falls, perimeter stays the same"
+      ],
+      "keywords": [
+        "perimeter vs area",
+        "difference between perimeter and area",
+        "same perimeter different area",
+        "same area different perimeter",
+        "maximum area",
+        "making it more or less",
+        "area maze",
+        "fixed perimeter",
+        "puzzles"
+      ]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "Perimeter", "meaning": "The total length of the boundary of a closed figure; measured in units of length (cm, m)." },
+    { "term": "Area", "meaning": "The amount of surface or region enclosed by a closed figure; measured in square units." },
+    { "term": "Unit square", "meaning": "A square of side 1 unit (e.g. 1 cm), whose area is 1 square unit (1 sq cm)." },
+    { "term": "Regular polygon", "meaning": "A polygon with all sides equal and all angles equal, e.g. equilateral triangle, square, regular hexagon." },
+    { "term": "Equilateral triangle", "meaning": "A triangle with all three sides equal; perimeter = 3 × side." },
+    { "term": "Base and height", "meaning": "The base is a chosen side of a triangle; the height is the perpendicular (90°) distance from the base to the opposite corner." },
+    { "term": "Tangram", "meaning": "A square cut into 7 pieces (2 large, 1 medium, 2 small triangles, a square and a parallelogram) that can be rearranged into many shapes." },
+    { "term": "Estimate", "meaning": "A sensible approximate value, e.g. the area of a leaf found by counting grid squares." },
+    { "term": "Square centimetre (sq cm)", "meaning": "The area of a square with each side 1 cm; also written cm²." }
+  ],
+  "formulas": [
+    "Perimeter of rectangle = 2 × (length + breadth)",
+    "Perimeter of square = 4 × side",
+    "Perimeter of triangle = sum of its three sides (equilateral: 3 × side)",
+    "Perimeter of regular polygon = number of sides × length of one side",
+    "Area of rectangle = length × breadth",
+    "Area of square = side × side",
+    "Area of triangle = ½ × base × height",
+    "Breadth of rectangle = (perimeter ÷ 2) − length"
+  ],
+  "commonMistakes": [
+    "Writing area in cm instead of sq cm (or perimeter in sq cm). Perimeter is a length; area is in square units.",
+    "Using 2 × length + breadth for a rectangle's perimeter. It is 2 × (length + breadth): both sides are doubled.",
+    "Thinking a bigger perimeter always means a bigger area. A long thin rectangle can have a large perimeter but a small area.",
+    "Using a slanting side as the height of a triangle. The height must be at 90° to the base.",
+    "Forgetting the ½ in the area of a triangle.",
+    "Mixing units, e.g. multiplying a length in metres by a breadth in centimetres. Convert first.",
+    "When estimating area, counting every partly covered square as a full square."
+  ],
+  "revision": [
+    "Perimeter = distance around the boundary; area = surface inside.",
+    "Rectangle: P = 2 × (l + b), A = l × b.",
+    "Square: P = 4 × side, A = side × side.",
+    "Triangle: P = sum of sides, A = ½ × base × height.",
+    "Regular polygon perimeter = number of sides × side.",
+    "Area is measured in square units such as sq cm and sq m.",
+    "A diagonal splits a rectangle into two equal triangles.",
+    "Irregular shape: full or more-than-half squares count 1, half squares ½, less-than-half 0.",
+    "Same perimeter can give different areas; for a fixed perimeter, a square encloses the most area.",
+    "Cutting and rejoining pieces keeps the area the same but can change the perimeter.",
+    "Tangram: two small triangles together equal the medium triangle in area."
+  ],
+  "faqs": [
+    {
+      "q": "What is the difference between perimeter and area?",
+      "a": "**Perimeter** is the length of the boundary, the distance around a shape, measured in cm or m. **Area** is the amount of surface the shape covers, measured in square units like sq cm or sq m. Fencing a field uses its perimeter; laying grass or tiles on it uses its area.",
+      "keywords": ["perimeter vs area", "difference perimeter area"]
+    },
+    {
+      "q": "Why is area measured in square units?",
+      "a": "Because we measure area by counting how many unit squares fit inside a shape. A square 1 cm on each side is the unit, so the answer is a number of square centimetres (sq cm). A length times a length gives square units.",
+      "keywords": ["square units", "why sq cm", "unit of area"]
+    },
+    {
+      "q": "Why is the area of a triangle half of base × height?",
+      "a": "Draw a rectangle around the triangle with the same base and the same height. The triangle fills exactly half of that rectangle (for a right triangle, the diagonal cuts the rectangle into two equal halves). So area = ½ × base × height.",
+      "keywords": ["area of triangle", "why half", "half base height"]
+    },
+    {
+      "q": "Can two shapes have the same perimeter but different areas?",
+      "a": "Yes. Rectangles 1 cm × 9 cm and 5 cm × 5 cm both have perimeter 20 cm, but their areas are 9 sq cm and 25 sq cm. Perimeter does not decide area.",
+      "keywords": ["same perimeter different area", "same perimeter"]
+    },
+    {
+      "q": "How do I find the area of a leaf or an irregular shape?",
+      "a": "Trace it on squared paper. Count full squares and squares more than half covered as 1 each, exactly half-covered squares as ½, and ignore squares less than half covered. Add them up to get an estimate of the area.",
+      "keywords": ["irregular shape area", "area of leaf", "estimate area"]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "What is the perimeter of a rectangle 9 cm long and 4 cm wide?",
+      "options": ["26 cm", "36 cm", "13 cm", "22 cm"],
+      "answer": 0,
+      "explain": "Perimeter = 2 × (9 + 4) = 2 × 13 = 26 cm.",
+      "topic": "perimeter-basics",
+      "level": "easy"
+    },
+    {
+      "q": "A square garden has a side of 12 m. What is its area?",
+      "options": ["48 sq m", "144 sq m", "24 sq m", "144 m"],
+      "answer": 1,
+      "explain": "Area of square = side × side = 12 × 12 = 144 sq m. Area is in square units, so '144 m' is wrong.",
+      "topic": "area-unit-squares",
+      "level": "easy"
+    },
+    {
+      "q": "What is the perimeter of a regular pentagon with each side 7 cm?",
+      "options": ["28 cm", "42 cm", "35 cm", "12 cm"],
+      "answer": 2,
+      "explain": "A pentagon has 5 sides. Perimeter = 5 × 7 = 35 cm.",
+      "topic": "regular-polygons",
+      "level": "easy"
+    },
+    {
+      "q": "A triangle has base 10 cm and height 6 cm. What is its area?",
+      "options": ["60 sq cm", "16 sq cm", "32 sq cm", "30 sq cm"],
+      "answer": 3,
+      "explain": "Area = ½ × base × height = ½ × 10 × 6 = 30 sq cm.",
+      "topic": "area-of-triangle",
+      "level": "easy"
+    },
+    {
+      "q": "A rectangle has perimeter 36 cm and length 11 cm. What is its breadth?",
+      "options": ["25 cm", "7 cm", "14 cm", "5 cm"],
+      "answer": 1,
+      "explain": "Half the perimeter = 36 ÷ 2 = 18 cm = length + breadth. Breadth = 18 − 11 = 7 cm.",
+      "topic": "perimeter-basics",
+      "level": "medium"
+    },
+    {
+      "q": "When estimating area on grid paper, how do you count a square that is exactly half covered?",
+      "options": ["As ½", "As 1", "As 0", "As 2"],
+      "answer": 0,
+      "explain": "Exactly half-covered squares are counted as ½. More than half counts as 1, less than half as 0.",
+      "topic": "estimating-area",
+      "level": "easy"
+    },
+    {
+      "q": "Which rectangle has the greatest area, if all have perimeter 24 cm?",
+      "options": ["10 cm × 2 cm", "8 cm × 4 cm", "9 cm × 3 cm", "6 cm × 6 cm"],
+      "answer": 3,
+      "explain": "Areas: 20, 32, 27 and 36 sq cm. The square 6 × 6 gives the most, 36 sq cm.",
+      "topic": "perimeter-vs-area",
+      "level": "medium"
+    },
+    {
+      "q": "In a tangram, the two small triangles together have the same area as:",
+      "options": ["One large triangle", "The whole tangram", "The medium triangle", "Half the tangram"],
+      "answer": 2,
+      "explain": "Each small triangle is 1/16 of the whole square, so two make 2/16 = ⅛, the same as the medium triangle.",
+      "topic": "area-unit-squares",
+      "level": "medium"
+    },
+    {
+      "q": "A rectangle 8 cm × 2 cm is cut into two 4 cm × 2 cm pieces and rejoined into a 4 cm × 4 cm square. What happens?",
+      "options": ["Area and perimeter both stay the same", "Area increases, perimeter stays the same", "Area stays 16 sq cm, perimeter falls from 20 cm to 16 cm", "Area falls, perimeter rises"],
+      "answer": 2,
+      "explain": "No paper is lost, so area stays 8 × 2 = 16 sq cm. Perimeter changes from 2 × (8 + 2) = 20 cm to 4 × 4 = 16 cm.",
+      "topic": "regular-polygons",
+      "level": "hard"
+    },
+    {
+      "q": "A leaf on 1 cm grid paper covers 12 full squares, 5 more-than-half squares, 6 exactly-half squares and 4 less-than-half squares. Estimated area?",
+      "options": ["27 sq cm", "23 sq cm", "21 sq cm", "20 sq cm"],
+      "answer": 3,
+      "explain": "12 + 5 + (6 × ½) + 0 = 12 + 5 + 3 = 20 sq cm.",
+      "topic": "estimating-area",
+      "level": "medium"
+    },
+    {
+      "q": "How many square tiles of side 25 cm are needed to cover a floor 5 m by 2 m?",
+      "options": ["160", "40", "100", "80"],
+      "answer": 0,
+      "explain": "5 m = 500 cm and 2 m = 200 cm. Tiles: (500 ÷ 25) × (200 ÷ 25) = 20 × 8 = 160.",
+      "topic": "area-unit-squares",
+      "level": "hard"
+    },
+    {
+      "q": "A small square is cut out from one corner of a rectangle. What happens to the rectangle's perimeter and area?",
+      "options": ["Both decrease", "Area decreases, perimeter stays the same", "Both stay the same", "Area stays the same, perimeter decreases"],
+      "answer": 1,
+      "explain": "Two outer edges are removed, but two equal inner edges of the cut appear in their place, so the perimeter is unchanged. Some surface is removed, so the area decreases.",
+      "topic": "perimeter-vs-area",
+      "level": "hard"
+    }
+  ]
+}

@@ -1,0 +1,401 @@
+{
+  "id": "c6-sci-wonderful-world",
+  "class": 6,
+  "subject": "science",
+  "name": "The Wonderful World of Science",
+  "summary": "This opening chapter shows that science is a way of thinking, observing and doing things to understand the world. It starts with curiosity (asking how and why), follows the scientific method (observe, ask, guess, test, conclude), and shows that science is everywhere and anyone can think like a scientist.",
+  "topics": [
+    {
+      "id": "what-is-science",
+      "title": "What is science?",
+      "summary": "Science is a way of thinking, observing and doing things to understand the world around us, not just a list of facts to memorise.",
+      "simple": "Science is a way of finding out how the world works. You look carefully, ask questions, try things out and learn from what happens. It is not just facts in a book; it is something you **do**.",
+      "explain": "Many people think science means remembering facts and formulas. This chapter shows that **science is a way of thinking, observing and doing things** to understand the world we live in.\n\nScience helps us answer questions like:\n- Why does it rain, and where does the water come from?\n- What are things around us made of?\n- How do plants and animals live and grow?\n- How do we know if something is hot or cold?\n- What can we see in the night sky?\n\nThese questions connect to what you will study this year: living things, food, magnets, measurement, materials, temperature, water, separating mixtures, natural resources and the sky beyond Earth.\n\nScience is also **never finished**. Every answer leads to new questions, and scientists keep improving what we know when they find new evidence. That is what makes science an exciting journey of discovery rather than a closed book.",
+      "example": "When you notice that wet clothes dry faster on a sunny, windy day and wonder why, you have already started doing science.",
+      "keyPoints": [
+        "Science = a way of thinking, observing and doing",
+        "It helps us understand the world around us",
+        "It is not just memorising facts",
+        "Every answer leads to new questions",
+        "Science keeps improving with new evidence"
+      ],
+      "keywords": [
+        "what is science",
+        "science meaning",
+        "definition of science",
+        "way of thinking",
+        "observing",
+        "discovery",
+        "wonderful world of science",
+        "chapter 1",
+        "curiosity class 6"
+      ]
+    },
+    {
+      "id": "curiosity",
+      "title": "Curiosity: the engine of science",
+      "summary": "Curiosity, the habit of asking 'how?' and 'why?' about ordinary things, is what drives science forward.",
+      "simple": "Being **curious** means wanting to know more. When you ask \"Why is the sky blue?\" or \"How does a seed become a plant?\", you are being curious. Every scientific discovery started with someone asking a question like this.",
+      "explain": "**Curiosity** is the wish to know and understand. It is often called the *engine* of science because it keeps science moving.\n\nCurious people:\n- Notice small things others ignore\n- Ask **how** and **why** questions\n- Are not afraid to say \"I don't know, let's find out\"\n- Enjoy exploring, trying and wondering\n\nYou were born curious. Small children ask hundreds of questions a day. Science simply takes that natural curiosity and adds careful ways of finding answers.\n\nCuriosity grows best when we **share** it. Talking with friends, teachers and family, comparing observations and working in teams helps everyone learn more. Many great discoveries came from people working together and building on each other's ideas.\n\nThe textbook itself is built around questions and activities, so you learn by wondering and doing, not only by reading.",
+      "example": "A child watching ants carry food in a line might ask: How do they all know the way? Do they talk to each other? Questions like these have led scientists to discover how ants leave scent trails.",
+      "keyPoints": [
+        "Curiosity = the wish to know and understand",
+        "It is the engine that drives science",
+        "Ask how and why about ordinary things",
+        "Everyone is born curious",
+        "Sharing questions and working in teams helps learning"
+      ],
+      "keywords": [
+        "curiosity",
+        "curious",
+        "asking questions",
+        "how and why",
+        "wonder",
+        "engine of science",
+        "teamwork",
+        "exploring"
+      ]
+    },
+    {
+      "id": "scientific-method",
+      "title": "The scientific method",
+      "summary": "The scientific method is a step-by-step way of finding answers: observe, ask a question, make a guess (hypothesis), test it, and draw a conclusion.",
+      "simple": "Scientists find answers in steps. First they **observe** something. Then they **ask** a question about it. Next they make a sensible **guess** (called a hypothesis). They **test** the guess with an experiment, and then they **conclude** whether the guess was right. If it was wrong, they make a new guess and test again.",
+      "explain": "The **scientific method** is a careful way of finding answers to questions. Its main steps are:\n\n1. **Observe:** notice something using your senses (look, listen, touch, smell)\n2. **Ask a question:** \"Why did this happen?\" or \"What will happen if...?\"\n3. **Guess (hypothesis):** suggest a possible answer that can be tested\n4. **Test:** do an experiment or make more observations to check the guess\n5. **Analyse and conclude:** look at the results and decide whether the guess was correct\n\nIf the results do **not** support your guess, that is not a failure. You simply make a **new guess** and test again. Science often goes round this loop several times.\n\nA good test changes only **one thing at a time**, so you know what caused the result. Writing down what you observe also helps, because memory can be unreliable.\n\nThe word **hypothesis** sounds difficult, but it just means a sensible, testable guess.",
+      "example": "You notice the potted plant on your balcony is drooping (observe). You ask why (question). You guess it needs water (hypothesis). You water it and check the next morning (test). It stands up again, so your guess was right (conclude). If it hadn't recovered, you might next guess it was getting too much sun.",
+      "keyPoints": [
+        "Steps: observe, ask, guess, test, conclude",
+        "Hypothesis = a sensible guess that can be tested",
+        "Change only one thing at a time in a test",
+        "If the guess is wrong, make a new guess and test again",
+        "Record observations carefully"
+      ],
+      "keywords": [
+        "scientific method",
+        "steps of scientific method",
+        "hypothesis",
+        "observe",
+        "observation",
+        "question",
+        "guess",
+        "experiment",
+        "test",
+        "conclusion",
+        "analyse"
+      ]
+    },
+    {
+      "id": "science-everywhere",
+      "title": "Science is everywhere, and anyone can be a scientist",
+      "summary": "Science is found in every part of life, from the kitchen to the playground, and anyone who follows the scientific method is thinking like a scientist.",
+      "simple": "Science is not only in laboratories. It is in your kitchen, your garden, your playground and the sky. A cook adjusting a recipe or an electrician finding a fault is using the same steps as a scientist. So you can be a scientist too.",
+      "explain": "Science is **everywhere**: in a grain of sand and in a mountain, in the kitchen and on the playground.\n\nSome everyday examples:\n- **Kitchen:** dal cooks faster in a pressure cooker; curd sets from milk\n- **Playground:** a ball bounces, a swing moves back and forth\n- **Home:** a fan cools us, a fridge keeps food fresh\n- **Nature:** clouds bring rain, seeds grow into plants\n\n**Who is a scientist?** Anyone who observes carefully, asks questions, makes guesses and tests them. A farmer trying a new way of watering crops, a cook working out why the rotis are hard, or a mechanic finding why a bicycle tyre keeps going flat is using scientific thinking.\n\nScience is also **collaborative**. Scientists share their results so others can check them and build on them. In class, discussing your observations with friends is part of doing science.\n\nScientific thinking helps us solve everyday problems and make sensible decisions instead of believing things without checking.",
+      "example": "Your pen stops writing. Is the ink finished, or is the tip blocked? You look at the refill (observe), guess the tip is dry, scribble on rough paper (test), and it starts working. That is the scientific method in action.",
+      "keyPoints": [
+        "Science is in the kitchen, playground, home and nature",
+        "Anyone who follows the scientific method thinks like a scientist",
+        "Cooks, farmers and mechanics use scientific thinking",
+        "Science is collaborative: share and check results",
+        "Scientific thinking helps solve everyday problems"
+      ],
+      "keywords": [
+        "science everywhere",
+        "science in daily life",
+        "who is a scientist",
+        "scientist",
+        "everyday science",
+        "kitchen science",
+        "pen not writing",
+        "flat tyre",
+        "collaboration"
+      ]
+    },
+    {
+      "id": "young-scientist-habits",
+      "title": "Habits and skills of a young scientist",
+      "summary": "Good scientists observe carefully, write things down, test fairly, stay open-minded, work as a team and stay safe.",
+      "simple": "Being a scientist is not about wearing a lab coat. It is about good habits: looking carefully, writing down what you see, testing fairly, and being happy to change your mind when the results say so. Working with friends and staying safe are part of it too.",
+      "explain": "Anyone can do science, but some **habits** make you a better young scientist.\n\n- **Observe carefully:** use your senses and notice small details, such as the colour, size, smell or sound of something.\n- **Record what you see:** write observations, drawings and measurements in a notebook. Memory can play tricks, but written notes do not.\n- **Ask good questions:** turn \"that is strange\" into a question you can test, like \"Does this seed grow faster in sunlight or in shade?\"\n- **Test fairly:** change only **one** thing at a time and keep everything else the same. This is called a **fair test**.\n- **Repeat and check:** do a test more than once to make sure the result was not a fluke.\n- **Keep an open mind:** if the results do not match your guess, accept them honestly. A wrong guess still teaches you something.\n- **Work together:** share ideas, compare results with classmates and listen to others. Scientists check each other's work.\n- **Stay safe:** follow your teacher's instructions, never taste unknown substances, and handle hot or sharp things carefully.\n\nThese habits are useful outside science class too. They help you make sensible decisions and avoid believing things without checking.",
+      "example": "Riya wants to know if seeds need water to sprout. She takes two cups with the same soil and the same number of moong seeds and keeps them in the same place. She waters only one cup and writes what she sees every day in her notebook. After a few days, only the watered seeds sprout. Because she changed just one thing (water), she can be sure water made the difference.",
+      "keyPoints": [
+        "Observe carefully using your senses",
+        "Write observations down in a notebook",
+        "Fair test: change only one thing at a time",
+        "Repeat tests to check results",
+        "Accept results honestly, even if your guess was wrong",
+        "Share and compare results with others",
+        "Always follow safety rules"
+      ],
+      "keywords": [
+        "young scientist",
+        "scientific habits",
+        "skills of a scientist",
+        "fair test",
+        "recording observations",
+        "notebook",
+        "teamwork",
+        "open mind",
+        "safety",
+        "repeat experiment",
+        "chapter 1",
+        "curiosity"
+      ]
+    }
+  ],
+  "keyConcepts": [
+    {
+      "term": "Science",
+      "meaning": "A way of thinking, observing and doing things to understand the world around us."
+    },
+    {
+      "term": "Curiosity",
+      "meaning": "The wish to know and understand; the habit of asking how and why."
+    },
+    {
+      "term": "Observation",
+      "meaning": "Noticing something carefully using our senses."
+    },
+    {
+      "term": "Question",
+      "meaning": "Something we want to find out about what we observed."
+    },
+    {
+      "term": "Hypothesis",
+      "meaning": "A sensible guess that answers a question and can be tested."
+    },
+    {
+      "term": "Experiment",
+      "meaning": "A test we do to check whether a guess is correct."
+    },
+    {
+      "term": "Conclusion",
+      "meaning": "What we decide after studying the results of a test."
+    },
+    {
+      "term": "Scientific method",
+      "meaning": "The step-by-step way of finding answers: observe, ask, guess, test, conclude."
+    },
+    {
+      "term": "Scientist",
+      "meaning": "Anyone who finds answers by observing, questioning and testing ideas."
+    },
+    {
+      "term": "Fair test",
+      "meaning": "A test in which only one thing is changed and everything else is kept the same, so we know what caused the result."
+    }
+  ],
+  "formulas": [],
+  "commonMistakes": [
+    "Thinking science is only about memorising facts — it is a way of thinking and doing.",
+    "Thinking only people in labs are scientists — anyone who follows the scientific method thinks scientifically.",
+    "Treating a wrong hypothesis as a failure — it helps you make a better guess.",
+    "Changing many things at once in a test, so you can't tell what caused the result.",
+    "Jumping to a conclusion without testing the guess first."
+  ],
+  "revision": [
+    "Science is a way of thinking, observing and doing things to understand the world.",
+    "Curiosity (asking how and why) is the engine of science.",
+    "Scientific method: observe → ask → guess (hypothesis) → test → conclude.",
+    "A hypothesis is a sensible, testable guess.",
+    "If the test doesn't support the guess, make a new guess and test again.",
+    "Change only one thing at a time when testing.",
+    "Science is everywhere: kitchen, playground, home, nature.",
+    "Anyone who follows the scientific method is thinking like a scientist.",
+    "Science is collaborative and keeps improving with new evidence.",
+    "Good habits: observe carefully, record, test fairly, repeat, stay open-minded, work together, stay safe."
+  ],
+  "faqs": [
+    {
+      "q": "What is a hypothesis?",
+      "a": "A **hypothesis** is a sensible guess that tries to answer a question and can be tested. For example, \"The plant is drooping because it needs water\" is a hypothesis you can test by watering it.",
+      "keywords": [
+        "hypothesis meaning",
+        "what is hypothesis",
+        "guess"
+      ]
+    },
+    {
+      "q": "What are the steps of the scientific method?",
+      "a": "1. Observe\n2. Ask a question\n3. Make a guess (hypothesis)\n4. Test it\n5. Analyse the results and conclude\n\nIf the guess turns out wrong, make a new one and test again.",
+      "keywords": [
+        "steps scientific method",
+        "scientific method steps"
+      ]
+    },
+    {
+      "q": "Do you need a laboratory to do science?",
+      "a": "No. You can do science anywhere by observing carefully, asking questions and testing your ideas, at home, in the garden or on the playground. Labs just give scientists special equipment for some tests.",
+      "keywords": [
+        "science without lab",
+        "laboratory",
+        "science at home"
+      ]
+    },
+    {
+      "q": "Why is curiosity important in science?",
+      "a": "Every discovery begins with a question. Curiosity makes us notice things and ask how and why, which starts the whole scientific method. Without curiosity, nobody would look for answers.",
+      "keywords": [
+        "why curiosity",
+        "importance of curiosity"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Science is best described as:",
+      "options": [
+        "A way of thinking, observing and doing things to understand the world",
+        "A list of facts to memorise",
+        "Something only done in laboratories",
+        "A subject with no new questions left"
+      ],
+      "answer": 0,
+      "explain": "The chapter describes science as a way of thinking, observing and doing — not just facts.",
+      "topic": "what-is-science",
+      "level": "easy"
+    },
+    {
+      "q": "What is called the 'engine' of science?",
+      "options": [
+        "Memory",
+        "Curiosity",
+        "Luck",
+        "Machines"
+      ],
+      "answer": 1,
+      "explain": "Curiosity — asking how and why — drives science forward.",
+      "topic": "curiosity",
+      "level": "easy"
+    },
+    {
+      "q": "What is the FIRST step of the scientific method?",
+      "options": [
+        "Test",
+        "Conclude",
+        "Observe",
+        "Guess"
+      ],
+      "answer": 2,
+      "explain": "We first observe something; questions and guesses come after.",
+      "topic": "scientific-method",
+      "level": "easy"
+    },
+    {
+      "q": "A hypothesis is:",
+      "options": [
+        "A final answer that can never change",
+        "A machine used in experiments",
+        "A list of observations",
+        "A sensible guess that can be tested"
+      ],
+      "answer": 3,
+      "explain": "A hypothesis is a testable guess that tries to answer a question.",
+      "topic": "scientific-method",
+      "level": "easy"
+    },
+    {
+      "q": "Your test shows that your guess was wrong. What should you do next?",
+      "options": [
+        "Make a new guess and test again",
+        "Stop and give up",
+        "Change the results to match the guess",
+        "Say the experiment was useless"
+      ],
+      "answer": 0,
+      "explain": "A wrong guess helps you make a better one; science loops back and tests again.",
+      "topic": "scientific-method",
+      "level": "medium"
+    },
+    {
+      "q": "Which person is using scientific thinking?",
+      "options": [
+        "Someone who believes a rumour without checking",
+        "A mechanic who checks possible causes to find why a tyre keeps going flat",
+        "Someone who never asks questions",
+        "Someone who guesses but never tests"
+      ],
+      "answer": 1,
+      "explain": "Observing, guessing a cause and testing it is the scientific method.",
+      "topic": "science-everywhere",
+      "level": "medium"
+    },
+    {
+      "q": "Why should you change only one thing at a time in a test?",
+      "options": [
+        "To make the test finish faster",
+        "Because teachers say so",
+        "So you know which change caused the result",
+        "So you need less equipment"
+      ],
+      "answer": 2,
+      "explain": "If you change many things, you can't tell which one made the difference.",
+      "topic": "young-scientist-habits",
+      "level": "hard"
+    },
+    {
+      "q": "Which of these is a QUESTION a curious person might ask?",
+      "options": [
+        "Plants are green.",
+        "It is raining.",
+        "The ball is round.",
+        "Why do plants grow towards light?"
+      ],
+      "answer": 3,
+      "explain": "A how or why question is how curiosity starts an investigation; the others are statements.",
+      "topic": "curiosity",
+      "level": "easy"
+    },
+    {
+      "q": "Where can science be found?",
+      "options": [
+        "Everywhere — kitchen, playground, home and nature",
+        "Only in science textbooks",
+        "Only in laboratories",
+        "Only in space"
+      ],
+      "answer": 0,
+      "explain": "Science is everywhere, from a grain of sand to a mountain.",
+      "topic": "science-everywhere",
+      "level": "easy"
+    },
+    {
+      "q": "A plant droops. You water it and it stands up the next day. 'It needed water' is your:",
+      "options": [
+        "Observation",
+        "Conclusion",
+        "Question",
+        "Experiment"
+      ],
+      "answer": 1,
+      "explain": "After testing (watering) and seeing the result, deciding it needed water is the conclusion.",
+      "topic": "scientific-method",
+      "level": "medium"
+    },
+    {
+      "q": "Which statement about science is TRUE?",
+      "options": [
+        "Science has answered every question",
+        "Scientific knowledge never changes",
+        "Every answer in science can lead to new questions",
+        "Only adults can do science"
+      ],
+      "answer": 2,
+      "explain": "Science is never finished; answers open up new questions and ideas improve with evidence.",
+      "topic": "what-is-science",
+      "level": "medium"
+    },
+    {
+      "q": "Why do scientists share their results with others?",
+      "options": [
+        "To keep their discoveries secret",
+        "Because results don't matter",
+        "To stop others from doing experiments",
+        "So others can check them and build on them"
+      ],
+      "answer": 3,
+      "explain": "Science is collaborative; sharing lets others verify results and add new ideas.",
+      "topic": "young-scientist-habits",
+      "level": "hard"
+    }
+  ]
+}

@@ -1,0 +1,436 @@
+{
+  "id": "c6-sci-measurement-motion",
+  "class": 6,
+  "subject": "science",
+  "name": "Measurement of Length and Motion",
+  "summary": "Measuring means comparing an unknown quantity with a known fixed quantity called a unit. Body-based units like the handspan and cubit vary from person to person, so the world agreed on standard units; the SI unit of length is the metre. We learn to measure correctly with a scale, to measure curved lines with a thread, and to describe position using a reference point. An object is in motion if its position changes with time; motion can be linear, circular or oscillatory, and repeating motions are called periodic.",
+  "topics": [
+    {
+      "id": "body-units",
+      "title": "Measuring with body parts",
+      "summary": "Long ago people measured length with body parts like the finger width (angul), fist (mutthi), handspan (vitasti), cubit (hasta), foot and pace; these units are not reliable because they differ from person to person.",
+      "simple": "Before rulers, people measured with their bodies — the width of a finger (**angul**), a fist (**mutthi**), a **handspan**, the length from elbow to fingertip (**cubit** or *hasta*), a **foot** or a **step**. The problem is that everyone's hands and feet are different sizes, so two people measuring the same thing get different answers.",
+      "explain": "**Measurement** means comparing an unknown quantity with a known, fixed quantity. The known quantity is called a **unit**. Every measurement has **two parts**: a **number** and a **unit** (for example, 12 handspans or 1.5 metres).\n\nIn ancient times, and even today in some homes and markets, people use **body-based units**:\n- **Angul (angula):** width of a finger\n- **Mutthi:** width of a fist\n- **Vitasti / handspan:** distance from the tip of the thumb to the tip of the little finger with the hand stretched\n- **Hasta / cubit:** from the elbow to the tip of the middle finger\n- **Foot:** length of a foot\n- **Pace or step (kadam):** length of a walking step\n\nAncient Indian texts also describe length units such as **angula**, **dhanus** and **yojana** (for long distances).\n\n**The problem:** body parts differ in size. If you and your teacher both measure a table in handspans, you'll get different numbers because your hand is smaller. Such units are **not standard**, so they can lead to confusion and unfairness, for example when buying cloth.",
+      "example": "A tailor asks for cloth '4 hasta long'. A tall shopkeeper with long arms measures more cloth than a short shopkeeper would — so the customer gets different amounts from different shops. That's why standard units are needed.",
+      "keyPoints": [
+        "Measurement = comparing with a known fixed quantity (unit)",
+        "A measurement = number + unit",
+        "Body units: angul, mutthi, handspan, cubit, foot, pace",
+        "Ancient India used angula, dhanus, yojana",
+        "Body units vary from person to person, so they are unreliable"
+      ],
+      "keywords": [
+        "measurement",
+        "unit",
+        "body parts measurement",
+        "handspan",
+        "cubit",
+        "hasta",
+        "angul",
+        "angula",
+        "mutthi",
+        "vitasti",
+        "pace",
+        "foot",
+        "non standard units",
+        "yojana"
+      ]
+    },
+    {
+      "id": "standard-units",
+      "title": "Standard units and the metre",
+      "summary": "To get the same result everywhere, the world agreed on standard units; the SI unit of length is the metre (m), with centimetre, millimetre and kilometre also used.",
+      "simple": "To avoid confusion, people around the world agreed to use the same **standard units**. The standard unit of length is the **metre (m)**. Small lengths are measured in centimetres (cm) or millimetres (mm), and long distances in kilometres (km).",
+      "explain": "Different regions once used different units, which made trade and science difficult. In the late 1700s, France introduced the **metric system**, and later scientists around the world agreed on the **International System of Units (SI units)**.\n\nThe **SI unit of length is the metre (symbol: m)**.\n\nOther units based on the metre:\n- 1 kilometre (km) = 1000 metres (m)\n- 1 metre (m) = 100 centimetres (cm)\n- 1 centimetre (cm) = 10 millimetres (mm)\n- So 1 m = 1000 mm\n\nWhich unit to use?\n- **mm:** thickness of a coin, length of an ant\n- **cm:** length of a pencil, width of a book\n- **m:** height of a door, length of a classroom\n- **km:** distance between two cities\n\n**Conversions (worked examples):**\n- 3.5 km = 3.5 × 1000 m = **3500 m**\n- 245 cm = 245 ÷ 100 m = **2.45 m**\n- 7 cm = 7 × 10 mm = **70 mm**\n- 1.4 m = 1.4 × 100 cm = **140 cm**\n\nWhen writing units, use the correct symbols (m, cm, mm, km) without a full stop and without adding 's' for plural (write 5 m, not 5 ms).",
+      "example": "The distance from Delhi to Agra by road is about 230 km. A school ruler is 15 cm or 30 cm long. A door is about 2 m tall. Choosing the right unit makes numbers easy to understand.",
+      "keyPoints": [
+        "Standard units give the same result everywhere",
+        "SI unit of length = metre (m)",
+        "1 km = 1000 m; 1 m = 100 cm; 1 cm = 10 mm",
+        "Use mm/cm for small, m for medium, km for large distances",
+        "Metric system began in France in the late 1700s"
+      ],
+      "keywords": [
+        "standard units",
+        "si unit",
+        "si unit of length",
+        "metre",
+        "meter",
+        "centimetre",
+        "millimetre",
+        "kilometre",
+        "unit conversion",
+        "metric system",
+        "km to m",
+        "cm to m"
+      ]
+    },
+    {
+      "id": "measuring-correctly",
+      "title": "Measuring length correctly, including curved lines",
+      "summary": "Place the scale along the object, start from the zero mark (or another clear mark and subtract), keep your eye directly above the reading, and use a thread or measuring tape for curved lines.",
+      "simple": "To measure correctly: lay the scale **along** the object touching it, start at **zero**, and look at the reading from **directly above**. If the scale's zero is broken, start at 1 cm and subtract 1 from your reading. To measure a curved line, lay a **thread** along it, mark the end, then straighten the thread and measure it on a scale.",
+      "explain": "**Choose the right tool:** a 15 cm or 30 cm scale for small objects, a metre scale for a table, a **measuring tape** for your height, chest or a curved object, and a long tape for a running track.\n\n**Correct method with a scale:**\n1. Place the scale **along the length** of the object, in **contact** with it (not tilted or raised)\n2. Line up one end of the object with the **zero mark**\n3. Read the mark at the other end\n4. Keep your eye **directly above** the point you're reading. Looking from the side gives a wrong reading.\n5. Measure two or three times and take the usual value if the readings differ slightly\n\n**Broken scale or worn-out zero:** start from any clear full mark, like 1 cm, and **subtract**.\n- Example: one end at 1.0 cm, other end at 13.5 cm → length = 13.5 − 1.0 = **12.5 cm**\n\n**Measuring a curved line:**\n1. Place a thread carefully along the curve, bit by bit\n2. Mark the thread where the curve ends\n3. Straighten the thread and measure it on a scale\n\nA measuring tape (like a tailor's tape) can also follow curves directly, such as the distance around your head or a tree trunk.",
+      "example": "To find the length of the boundary of a leaf or the outline of India on a map, lay a thread along the edge, mark where it ends, then stretch it along a ruler. If the thread measures 18.6 cm, that is the length of the curve.",
+      "keyPoints": [
+        "Place the scale along the object, in contact with it",
+        "Start at zero, or at a clear mark and subtract",
+        "Eye directly above the reading point",
+        "Use thread or measuring tape for curved lines",
+        "Choose the right tool for the length being measured",
+        "Repeat the measurement to check"
+      ],
+      "keywords": [
+        "correct way to measure",
+        "using a scale",
+        "ruler",
+        "broken scale",
+        "zero error",
+        "eye position",
+        "parallax",
+        "curved line",
+        "measure curved line",
+        "thread method",
+        "measuring tape",
+        "metre scale"
+      ]
+    },
+    {
+      "id": "position-and-motion",
+      "title": "Position, reference point and motion",
+      "summary": "The position of an object is described with respect to a fixed reference point; an object is in motion if its position changes with time, and at rest if it doesn't.",
+      "simple": "To say where something is, we compare it with a fixed object called a **reference point** — like \"the school is 2 km from the bus stand\". If an object's position changes with time compared to the reference point, it is in **motion**. If it stays in the same place, it is at **rest**.",
+      "explain": "To describe **position**, we need a **reference point** — a fixed object or place we compare with. For example, the milestones on Indian highways say things like \"Agra 45 km\"; the reference point is Agra. You might say your house is \"200 m to the left of the temple\".\n\nThe same position can be described differently using different reference points, so always mention which one you're using.\n\n**Motion and rest:**\n- An object is in **motion** if its **position changes with time** with respect to a reference point\n- An object is at **rest** if its position does **not** change with time\n\n**Motion depends on the reference point.** When you sit in a moving bus:\n- Compared to the bus seats and other passengers, you are at **rest**\n- Compared to trees and buildings outside, you are in **motion**\n\nThat's why trees seem to move backwards when you look out of a moving train — your reference point has changed.",
+      "example": "A highway milestone shows 'Jaipur 120 km'. A few minutes later, another shows 'Jaipur 110 km'. Your position compared to Jaipur has changed, so your car is in motion.",
+      "keyPoints": [
+        "Position is described using a reference point",
+        "Reference point = fixed object we compare with",
+        "Motion = position changes with time",
+        "Rest = position does not change with time",
+        "Whether something is moving depends on the reference point"
+      ],
+      "keywords": [
+        "position",
+        "reference point",
+        "motion",
+        "rest",
+        "motion and rest",
+        "milestone",
+        "change in position",
+        "moving train trees",
+        "relative motion"
+      ]
+    },
+    {
+      "id": "types-of-motion",
+      "title": "Types of motion: linear, circular, oscillatory and periodic",
+      "summary": "Linear motion is along a straight line, circular motion is along a circle, and oscillatory motion is back and forth about a fixed point; motion that repeats after a fixed time is periodic.",
+      "simple": "A car on a straight road moves in a **straight line** (**linear motion**). A merry-go-round goes round in a **circle** (**circular motion**). A swing moves **back and forth** (**oscillatory motion**). Motion that repeats itself again and again after the same time is called **periodic motion**.",
+      "explain": "**1. Linear (rectilinear) motion:** motion along a **straight line**.\n- A car on a straight road, children in a march-past, a ball dropped from a height, a sprinter in a 100 m race\n\n**2. Circular motion:** motion along a **circular path**, staying at the same distance from a centre.\n- A merry-go-round, the tip of a fan blade, an eraser tied to a thread and whirled around, the hands of a clock\n\n**3. Oscillatory motion:** **to-and-fro** (back-and-forth) motion about a fixed central point.\n- A swing, a pendulum of a clock, an eraser hanging from a thread and pushed, a see-saw\n\n**Periodic motion:** motion that **repeats itself after a fixed interval of time**. Circular motion like a clock's hands and oscillatory motion like a pendulum are periodic. The Earth going around the Sun and the Moon around the Earth are also periodic.\n\nSome objects show **more than one** type of motion at the same time:\n- A rolling bicycle wheel: the wheel **turns in a circle** while the bicycle moves **in a straight line**\n- A spinning top that moves across the floor",
+      "example": "On a fair (mela) ground: the giant wheel shows circular motion, the swinging boat (pirate ship ride) shows oscillatory motion, and a toy train on a straight track shows linear motion.",
+      "keyPoints": [
+        "Linear: along a straight line (car on straight road)",
+        "Circular: along a circle (merry-go-round, fan blade)",
+        "Oscillatory: back and forth (swing, pendulum)",
+        "Periodic: repeats after a fixed time (clock hands, pendulum)",
+        "An object can have more than one type of motion (bicycle wheel)"
+      ],
+      "keywords": [
+        "types of motion",
+        "linear motion",
+        "rectilinear motion",
+        "straight line motion",
+        "circular motion",
+        "oscillatory motion",
+        "periodic motion",
+        "to and fro",
+        "pendulum",
+        "swing",
+        "merry go round"
+      ]
+    }
+  ],
+  "keyConcepts": [
+    {
+      "term": "Measurement",
+      "meaning": "Comparing an unknown quantity with a known fixed quantity (unit)."
+    },
+    {
+      "term": "Unit",
+      "meaning": "The known fixed quantity used for measuring, e.g. metre."
+    },
+    {
+      "term": "Standard unit",
+      "meaning": "A unit that is the same for everyone everywhere, agreed internationally."
+    },
+    {
+      "term": "SI unit of length",
+      "meaning": "The metre (m)."
+    },
+    {
+      "term": "Handspan / cubit",
+      "meaning": "Body-based units: thumb tip to little finger tip; elbow to middle finger tip."
+    },
+    {
+      "term": "Reference point",
+      "meaning": "A fixed object or place used to describe the position of something."
+    },
+    {
+      "term": "Motion",
+      "meaning": "Change in position of an object with time compared to a reference point."
+    },
+    {
+      "term": "Rest",
+      "meaning": "When an object's position does not change with time."
+    },
+    {
+      "term": "Linear motion",
+      "meaning": "Motion along a straight line."
+    },
+    {
+      "term": "Circular motion",
+      "meaning": "Motion along a circular path."
+    },
+    {
+      "term": "Oscillatory motion",
+      "meaning": "Back-and-forth motion about a fixed point."
+    },
+    {
+      "term": "Periodic motion",
+      "meaning": "Motion that repeats itself after a fixed interval of time."
+    }
+  ],
+  "formulas": [
+    "1 km = 1000 m",
+    "1 m = 100 cm",
+    "1 cm = 10 mm",
+    "1 m = 1000 mm",
+    "Broken scale: length = reading at end − reading at start (e.g. 13.5 cm − 1.0 cm = 12.5 cm)"
+  ],
+  "commonMistakes": [
+    "Writing a measurement without a unit — '15' means nothing; write 15 cm.",
+    "Starting from the edge of a scale instead of the zero mark.",
+    "Reading the scale from the side instead of directly above.",
+    "Forgetting to subtract the starting reading when using a broken scale.",
+    "Mixing up conversions: 1 m = 100 cm, but 1 km = 1000 m.",
+    "Saying an object is moving or at rest without stating the reference point.",
+    "Thinking only oscillatory motion is periodic — circular motion like clock hands is also periodic."
+  ],
+  "revision": [
+    "Measurement = comparison with a fixed unit; result = number + unit.",
+    "Body units (handspan, cubit, angul, pace) vary, so they're not reliable.",
+    "SI unit of length: metre (m).",
+    "1 km = 1000 m; 1 m = 100 cm; 1 cm = 10 mm.",
+    "Place scale along the object, start at zero, eye directly above the reading.",
+    "Broken scale: start at a clear mark and subtract.",
+    "Measure curved lines with a thread or measuring tape.",
+    "Position is described using a reference point.",
+    "Motion = change in position with time; rest = no change.",
+    "Linear: straight line; circular: along a circle; oscillatory: back and forth.",
+    "Periodic motion repeats after fixed time intervals.",
+    "A rolling wheel shows both circular and linear motion."
+  ],
+  "faqs": [
+    {
+      "q": "Why can't we use handspans and cubits for measurement today?",
+      "a": "Because they are different for different people. A child's handspan is smaller than an adult's, so the same table would measure a different number of handspans. Standard units like the metre give the same result for everyone.",
+      "keywords": [
+        "why standard units",
+        "handspan problem",
+        "body units unreliable"
+      ]
+    },
+    {
+      "q": "How do I measure with a broken scale?",
+      "a": "Place one end of the object at a clear full mark, like 1 cm. Read the mark at the other end and subtract the starting mark. Example: 13.5 cm − 1.0 cm = **12.5 cm**.",
+      "keywords": [
+        "broken scale",
+        "zero mark broken"
+      ]
+    },
+    {
+      "q": "What is the difference between oscillatory and periodic motion?",
+      "a": "**Oscillatory** motion is a back-and-forth movement, like a swing. **Periodic** motion is any motion that repeats after a fixed time. A pendulum's swing is both oscillatory and periodic. The hands of a clock are periodic but circular, not oscillatory.",
+      "keywords": [
+        "oscillatory vs periodic",
+        "difference oscillatory periodic"
+      ]
+    },
+    {
+      "q": "How can I be at rest and in motion at the same time?",
+      "a": "It depends on the reference point. Sitting in a moving bus, you are **at rest** compared to your seat but **in motion** compared to trees and buildings outside.",
+      "keywords": [
+        "rest and motion",
+        "relative motion",
+        "reference point"
+      ]
+    },
+    {
+      "q": "How do I measure the length of a curved line?",
+      "a": "Lay a thread carefully along the curve, mark where it ends, straighten the thread and measure it with a scale. You can also use a flexible measuring tape.",
+      "keywords": [
+        "curved line",
+        "measure curve",
+        "thread method"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "What is the SI unit of length?",
+      "options": [
+        "Metre",
+        "Centimetre",
+        "Kilometre",
+        "Foot"
+      ],
+      "answer": 0,
+      "explain": "The metre (m) is the SI unit of length.",
+      "topic": "standard-units",
+      "level": "easy"
+    },
+    {
+      "q": "Why is a handspan not a reliable unit of length?",
+      "options": [
+        "It is too long",
+        "It differs from person to person",
+        "It can only measure cloth",
+        "It is a standard unit"
+      ],
+      "answer": 1,
+      "explain": "Hand sizes vary, so measurements in handspans differ between people.",
+      "topic": "body-units",
+      "level": "easy"
+    },
+    {
+      "q": "The cubit (hasta) is the length from:",
+      "options": [
+        "Thumb tip to little finger tip",
+        "Heel to toe",
+        "Elbow to the tip of the middle finger",
+        "Shoulder to wrist"
+      ],
+      "answer": 2,
+      "explain": "A cubit is measured from the elbow to the tip of the middle finger.",
+      "topic": "body-units",
+      "level": "medium"
+    },
+    {
+      "q": "How many metres are there in 4.5 km?",
+      "options": [
+        "45 m",
+        "450 m",
+        "45,000 m",
+        "4500 m"
+      ],
+      "answer": 3,
+      "explain": "4.5 × 1000 = 4500 m.",
+      "topic": "standard-units",
+      "level": "medium"
+    },
+    {
+      "q": "Using a scale with a broken zero, one end of a pencil is at 2.0 cm and the other at 14.5 cm. The pencil's length is:",
+      "options": [
+        "12.5 cm",
+        "14.5 cm",
+        "16.5 cm",
+        "2.0 cm"
+      ],
+      "answer": 0,
+      "explain": "14.5 − 2.0 = 12.5 cm.",
+      "topic": "measuring-correctly",
+      "level": "medium"
+    },
+    {
+      "q": "Which is the best way to measure the length of a curved line on paper?",
+      "options": [
+        "Use a straight scale directly",
+        "Lay a thread along it, then measure the thread on a scale",
+        "Count handspans",
+        "Guess by looking"
+      ],
+      "answer": 1,
+      "explain": "A thread follows the curve and can then be straightened and measured.",
+      "topic": "measuring-correctly",
+      "level": "easy"
+    },
+    {
+      "q": "When reading a scale, your eye should be:",
+      "options": [
+        "To the left of the mark",
+        "To the right of the mark",
+        "Directly above the mark",
+        "Far away from the scale"
+      ],
+      "answer": 2,
+      "explain": "Looking from the side gives a wrong reading; look straight down at the mark.",
+      "topic": "measuring-correctly",
+      "level": "easy"
+    },
+    {
+      "q": "You are sitting in a moving train. Compared to your co-passenger sitting next to you, you are:",
+      "options": [
+        "In linear motion",
+        "In circular motion",
+        "In oscillatory motion",
+        "At rest"
+      ],
+      "answer": 3,
+      "explain": "Your position does not change compared to the co-passenger, so you are at rest relative to them.",
+      "topic": "position-and-motion",
+      "level": "hard"
+    },
+    {
+      "q": "An object is said to be in motion when:",
+      "options": [
+        "Its position changes with time compared to a reference point",
+        "It is very heavy",
+        "It stays at the same place",
+        "It is made of metal"
+      ],
+      "answer": 0,
+      "explain": "Motion means change of position with time with respect to a reference point.",
+      "topic": "position-and-motion",
+      "level": "easy"
+    },
+    {
+      "q": "The motion of a child on a swing is:",
+      "options": [
+        "Linear",
+        "Oscillatory",
+        "Circular",
+        "Not motion at all"
+      ],
+      "answer": 1,
+      "explain": "A swing moves back and forth about a fixed point — oscillatory motion.",
+      "topic": "types-of-motion",
+      "level": "easy"
+    },
+    {
+      "q": "Which is an example of circular motion?",
+      "options": [
+        "A car on a straight road",
+        "A ball dropped from a roof",
+        "The tip of a rotating fan blade",
+        "A march-past"
+      ],
+      "answer": 2,
+      "explain": "The tip of a fan blade moves along a circular path.",
+      "topic": "types-of-motion",
+      "level": "medium"
+    },
+    {
+      "q": "A bicycle moves along a straight road. Its wheels show:",
+      "options": [
+        "Only linear motion",
+        "Only oscillatory motion",
+        "No motion",
+        "Both circular and linear motion"
+      ],
+      "answer": 3,
+      "explain": "The wheels turn in a circle while also moving forward along the road.",
+      "topic": "types-of-motion",
+      "level": "hard"
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "id": "c6-math-symmetry",
+  "class": 6,
+  "subject": "mathematics",
+  "name": "Symmetry",
+  "summary": "This chapter explores symmetry, the kind of balance we see in butterflies, rangolis, monuments and logos. A figure has line (reflection) symmetry if it can be folded along a line so that the two halves match exactly; some figures have several lines of symmetry. A figure has rotational symmetry if it looks exactly the same after being turned about its centre by less than a full turn; the angles at which this happens are its angles of symmetry. You also make symmetric designs by folding, cutting and completing figures, and look at the special case of the circle.",
+  "topics": [
+    {
+      "id": "line-symmetry",
+      "title": "Line of symmetry (reflection symmetry)",
+      "summary": "A line of symmetry divides a figure into two parts that match exactly when folded along the line; each half is the mirror image of the other.",
+      "simple": "Fold a picture of a butterfly down the middle and the two wings sit exactly on top of each other. That fold line is a **line of symmetry**. If you put a mirror on that line, the half you see plus its reflection looks like the whole butterfly.",
+      "explain": "A figure has **line symmetry** if there is a line that divides it into two parts which **overlap exactly** when the figure is folded along that line. That line is called a **line of symmetry** (or **axis of symmetry**).\n\nThe two halves are **mirror images** of each other: if you place a mirror along the line, the reflection of one half completes the figure. So line symmetry is also called **reflection symmetry**.\n\n**Testing for line symmetry:**\n- Fold the figure (or a tracing of it) along the line. Do the halves match exactly?\n- Or use a mirror along the line.\n- Each point on one side must have a matching point on the other side, at the **same distance** from the line.\n\n**Where we see it:**\n- Nature: butterflies, many leaves and flowers, our faces (roughly)\n- Buildings: the front of the Taj Mahal, many temple gateways\n- Art: rangoli and kolam designs, border patterns on fabric\n\n**Capital letters (in a plain font):**\n- Vertical line: A, M, T, U, V, W, Y\n- Horizontal line: B, C, D, E, K\n- Both: H, I, O, X\n- None: F, G, J, L, N, P, Q, R, S, Z\n\nA line can look like it splits a shape into two equal pieces but still not be a line of symmetry: the two pieces must be **mirror images**, not just the same size.",
+      "example": "An **isosceles triangle** (two equal sides) has one line of symmetry: the line from the top corner (between the equal sides) to the middle of the base. A **scalene triangle** (all sides different) has no line of symmetry.",
+      "keyPoints": [
+        "Line of symmetry: fold line where both halves overlap exactly",
+        "The halves are mirror images (reflection symmetry)",
+        "Matching points are at equal distances from the line",
+        "Letters A, M, T have a vertical line; B, C, D, E a horizontal line",
+        "H, I, O, X have both; F, G, J, L have none",
+        "Isosceles triangle: 1 line; scalene: 0"
+      ],
+      "keywords": [
+        "symmetry",
+        "line symmetry",
+        "line of symmetry",
+        "axis of symmetry",
+        "reflection symmetry",
+        "mirror symmetry",
+        "mirror image",
+        "fold test",
+        "symmetrical",
+        "letters symmetry",
+        "butterfly",
+        "rangoli"
+      ]
+    },
+    {
+      "id": "many-lines",
+      "title": "Figures with more than one line of symmetry",
+      "summary": "Some figures have several lines of symmetry: a rectangle has 2, an equilateral triangle 3, a square 4, a regular hexagon 6, and in general a regular polygon with n sides has n lines of symmetry.",
+      "simple": "Some shapes can be folded in more than one way so that the halves match. A square can be folded in 4 different ways! A rectangle only in 2: its diagonals are **not** fold lines that work.",
+      "explain": "Many figures have more than one line of symmetry.\n\n**Common shapes:**\n- **Rectangle (not a square): 2** lines, the lines joining midpoints of opposite sides. Its **diagonals are NOT lines of symmetry**: if you fold along a diagonal, the corners do not land on each other.\n- **Square: 4** lines: 2 joining midpoints of opposite sides, and both diagonals.\n- **Equilateral triangle: 3** lines, each from a corner to the middle of the opposite side.\n- **Isosceles triangle: 1** line.\n- **Scalene triangle: 0** lines.\n- **Regular pentagon: 5**, **regular hexagon: 6**.\n- **Circle: infinitely many**: every line through the centre.\n\n**Pattern for regular polygons:** a regular polygon with **n** sides has exactly **n** lines of symmetry.\n\n**Designs:** a rangoli or kolam with 4 identical 'petals' arranged around the centre often has 4 lines of symmetry; designs built from 6 identical parts, like a snowflake, often have 6.\n\nTo find all the lines of symmetry, try every possible fold: through corners, through midpoints of sides, and between them.",
+      "example": "Count the lines of symmetry of a regular octagon (8 equal sides, 8 equal angles, like many STOP signs). It is a regular polygon with 8 sides, so it has **8** lines of symmetry: 4 through pairs of opposite corners and 4 through midpoints of opposite sides.",
+      "keyPoints": [
+        "Rectangle: 2 lines (diagonals are not lines of symmetry)",
+        "Square: 4 lines",
+        "Equilateral triangle: 3 lines",
+        "Regular polygon with n sides: n lines",
+        "Circle: infinitely many lines (any line through the centre)"
+      ],
+      "keywords": [
+        "lines of symmetry",
+        "how many lines of symmetry",
+        "square lines of symmetry",
+        "rectangle lines of symmetry",
+        "equilateral triangle symmetry",
+        "regular polygon symmetry",
+        "hexagon",
+        "octagon",
+        "multiple lines of symmetry",
+        "diagonal symmetry"
+      ]
+    },
+    {
+      "id": "making-symmetric-shapes",
+      "title": "Making symmetric shapes",
+      "summary": "Folding, cutting, punching holes, ink blots and completing figures on grid paper are ways to create figures with lines of symmetry.",
+      "simple": "Fold a paper, cut a shape along the fold, and open it: you get a symmetric shape, with the fold as its line of symmetry. Drop some ink on a page, fold it and press, and you get a symmetric 'ink blot' picture.",
+      "explain": "Because a line of symmetry works like a mirror, you can **create** symmetric shapes by copying one half onto the other side.\n\n**Paper folding and cutting:**\n- Fold a sheet once and cut a shape along the folded edge. When opened, the shape has **1 line of symmetry** (the fold).\n- Fold twice (in half, then in half again) and cut. The opened shape has **2 lines of symmetry**.\n- Folding more times gives designs with more lines of symmetry, like paper snowflakes.\n\n**Punching holes:** fold a paper and punch a hole through all the layers, away from the folds. Each layer gets a hole, so one fold (2 layers) gives 2 holes, and folding twice (4 layers) gives 4 holes, placed symmetrically about the fold lines.\n\n**Ink blots:** put a few drops of paint on one half of a page, fold, press and open. The two halves are mirror images.\n\n**Completing a figure on grid paper:** given half a figure and the line of symmetry,\n1. For each corner point, count how many squares it is from the line.\n2. Mark the matching point the **same number of squares** on the other side.\n3. Join the points.\n\nThis is exactly how mirror images work: each point and its image are at equal distances from the mirror line.",
+      "example": "On grid paper, the line of symmetry is vertical. A corner of the half-figure is 3 squares to the left of the line and 2 squares up. Its matching corner is **3 squares to the right** of the line and still 2 squares up.",
+      "keyPoints": [
+        "One fold + cut → 1 line of symmetry",
+        "Two folds + cut → 2 lines of symmetry",
+        "Holes punched through folded layers appear symmetrically",
+        "Ink blots give mirror-image halves",
+        "To complete a figure, copy each point the same distance across the line"
+      ],
+      "keywords": [
+        "paper folding",
+        "paper cutting",
+        "punching holes",
+        "ink blot",
+        "complete the figure",
+        "symmetric design",
+        "grid paper symmetry",
+        "mirror line",
+        "make symmetrical shape",
+        "snowflake"
+      ]
+    },
+    {
+      "id": "rotational-symmetry",
+      "title": "Rotational symmetry and angles of symmetry",
+      "summary": "A figure has rotational symmetry if it looks exactly the same after a turn about its centre by an angle less than 360°; those angles are its angles of symmetry, and all of them are multiples of the smallest one.",
+      "simple": "Turn a square a quarter turn (90°) about its centre and it looks exactly the same as before. That means a square has **rotational symmetry**. The turning angles at which it looks the same, 90°, 180°, 270° and 360°, are its **angles of symmetry**.",
+      "explain": "**Rotation** means turning a figure about a fixed point, its **centre of rotation**.\n\nA figure has **rotational symmetry** if it looks **exactly the same** after a rotation by some angle **less than 360°** (a full turn). Every figure looks the same after a full 360° turn, so that alone does not count.\n\nThe angles (up to 360°) at which the figure looks the same are its **angles of symmetry**.\n\n**Examples:**\n- **Square:** 90°, 180°, 270°, 360° (smallest 90°)\n- **Equilateral triangle:** 120°, 240°, 360° (smallest 120°)\n- **Rectangle (not square):** 180°, 360° (smallest 180°)\n- **Regular hexagon:** 60°, 120°, 180°, 240°, 300°, 360° (smallest 60°)\n- A **windmill or pinwheel** with 4 identical blades: smallest angle 90°\n\n**Key facts:**\n- All angles of symmetry are **multiples of the smallest** one.\n- The smallest angle of symmetry always **divides 360° exactly**. If it is 72°, the angles are 72°, 144°, 216°, 288°, 360°, which is 360 ÷ 72 = 5 angles.\n- The number of angles of symmetry in one full turn is sometimes called the **order** of rotational symmetry (square: 4).\n- For a regular polygon with n sides, the smallest angle is 360° ÷ n.\n\n**Rotational symmetry without line symmetry.** The letters **S, N and Z** look the same after a 180° turn but have no line of symmetry. A pinwheel rangoli with curved, slanting arms is another example.",
+      "example": "A flower design has 8 identical petals evenly arranged. Smallest angle of symmetry = 360° ÷ 8 = **45°**. Its angles of symmetry are 45°, 90°, 135°, 180°, 225°, 270°, 315° and 360°, which is 8 angles.",
+      "keyPoints": [
+        "Rotational symmetry: looks the same after a turn of less than 360°",
+        "Angles of symmetry: turns at which the figure looks the same",
+        "Square 90°; equilateral triangle 120°; rectangle 180°; regular hexagon 60°",
+        "All angles of symmetry are multiples of the smallest",
+        "Smallest angle divides 360°; regular n-gon: 360° ÷ n",
+        "S, N, Z: rotational symmetry (180°) but no line symmetry"
+      ],
+      "keywords": [
+        "rotational symmetry",
+        "rotation",
+        "angle of symmetry",
+        "angles of symmetry",
+        "smallest angle of symmetry",
+        "order of rotational symmetry",
+        "centre of rotation",
+        "quarter turn",
+        "half turn",
+        "pinwheel",
+        "windmill",
+        "turn symmetry"
+      ]
+    },
+    {
+      "id": "circle-and-combined",
+      "title": "Symmetries of a circle and figures with both kinds",
+      "summary": "A circle has infinitely many lines of symmetry and looks the same after a rotation by any angle; many figures, like a square or the letter H, have both line and rotational symmetry.",
+      "simple": "A circle is the most symmetric shape of all: every line through its centre is a line of symmetry, and you can turn it by any amount and it still looks the same. Many shapes have both kinds of symmetry, but some have only one kind, and some have none.",
+      "explain": "**The circle:**\n- **Lines of symmetry:** every line through the centre, so **infinitely many**.\n- **Rotational symmetry:** turning a circle about its centre by **any** angle leaves it looking the same. So every angle is an angle of symmetry, and there is no 'smallest' one.\n\n**Figures with both line and rotational symmetry:**\n- Square (4 lines; smallest angle 90°)\n- Equilateral triangle (3 lines; 120°)\n- Rectangle (2 lines; 180°)\n- Regular hexagon (6 lines; 60°)\n- Letters H, I, O, X\n\n**Only line symmetry:** isosceles triangle, letters A, B, T, the heart shape.\n\n**Only rotational symmetry:** letters S, N, Z, a pinwheel.\n\n**Neither:** a scalene triangle, letters F, G, J, L, P, R.\n\n**Noticing a pattern:** for regular polygons, the number of lines of symmetry equals the number of angles of symmetry in a full turn (square: 4 lines and 4 angles; equilateral triangle: 3 and 3).\n\nSymmetry is everywhere in Indian art and architecture: carved temple ceilings, stepwell patterns, kolams drawn at doorsteps and printed textile borders all use line and rotational symmetry to look balanced.",
+      "example": "The capital letter H: fold it along the vertical middle line or the horizontal middle line and the halves match, so it has **2 lines of symmetry**. Turn it 180° about its centre and it looks the same, so its smallest angle of symmetry is **180°**.",
+      "keyPoints": [
+        "Circle: infinitely many lines of symmetry",
+        "Circle: every angle is an angle of symmetry",
+        "Square, rectangle, equilateral triangle, H: both kinds",
+        "Isosceles triangle, A, T: only line symmetry",
+        "S, N, Z, pinwheel: only rotational symmetry",
+        "Regular polygon: number of lines = number of angles of symmetry"
+      ],
+      "keywords": [
+        "symmetry of circle",
+        "circle lines of symmetry",
+        "infinite lines of symmetry",
+        "both line and rotational symmetry",
+        "line vs rotational symmetry",
+        "no symmetry",
+        "symmetry in art",
+        "kolam",
+        "letters with rotational symmetry",
+        "asymmetric"
+      ]
+    }
+  ],
+  "keyConcepts": [
+    { "term": "Line of symmetry", "meaning": "A line that divides a figure into two parts that overlap exactly when folded along it; also called the axis of symmetry." },
+    { "term": "Reflection symmetry", "meaning": "Another name for line symmetry: one half is the mirror image of the other." },
+    { "term": "Mirror image", "meaning": "The reflection of a figure; each point and its image are equally far from the mirror line." },
+    { "term": "Rotation", "meaning": "Turning a figure about a fixed point called the centre of rotation." },
+    { "term": "Rotational symmetry", "meaning": "A figure has it if it looks exactly the same after being turned by an angle less than 360° about its centre." },
+    { "term": "Angle of symmetry", "meaning": "An angle of rotation (up to 360°) after which the figure looks exactly the same." },
+    { "term": "Smallest angle of symmetry", "meaning": "The least such angle; all other angles of symmetry are its multiples, and it divides 360° exactly." },
+    { "term": "Order of rotational symmetry", "meaning": "The number of angles of symmetry in one full turn, e.g. 4 for a square." },
+    { "term": "Regular polygon", "meaning": "A polygon with all sides and all angles equal; with n sides it has n lines of symmetry and smallest angle 360° ÷ n." }
+  ],
+  "formulas": [
+    "Regular polygon with n sides: n lines of symmetry",
+    "Smallest angle of symmetry of a regular n-sided polygon = 360° ÷ n",
+    "Number of angles of symmetry in a full turn = 360° ÷ smallest angle of symmetry",
+    "Mirror rule: a point and its image are at equal distances from the line of symmetry"
+  ],
+  "commonMistakes": [
+    "Thinking the diagonals of a rectangle are lines of symmetry. They are not; only a square's diagonals are.",
+    "Counting 360° alone as rotational symmetry. Every figure looks the same after a full turn; you need an angle less than 360°.",
+    "Thinking a line that cuts a shape into two equal-sized pieces must be a line of symmetry. The pieces must be mirror images.",
+    "Assuming a figure with rotational symmetry must have line symmetry (S and Z do not).",
+    "Saying a circle has 'many' or 360 lines of symmetry. It has infinitely many.",
+    "When completing a mirror image on grid paper, shifting points instead of reflecting them (same distance on the opposite side)."
+  ],
+  "revision": [
+    "A line of symmetry folds a figure into two exactly matching halves.",
+    "Line symmetry is also called reflection or mirror symmetry.",
+    "Rectangle 2 lines, square 4, equilateral triangle 3, regular hexagon 6.",
+    "A regular n-sided polygon has n lines of symmetry.",
+    "A rectangle's diagonals are not lines of symmetry.",
+    "Rotational symmetry: same look after a turn of less than 360°.",
+    "Smallest angle of symmetry: square 90°, equilateral triangle 120°, rectangle 180°, regular hexagon 60°.",
+    "All angles of symmetry are multiples of the smallest, which divides 360°.",
+    "S, N, Z have rotational (180°) but no line symmetry.",
+    "A circle has infinitely many lines of symmetry and every angle is an angle of symmetry.",
+    "Folding paper and cutting or punching produces symmetric designs."
+  ],
+  "faqs": [
+    {
+      "q": "What is the difference between line symmetry and rotational symmetry?",
+      "a": "**Line symmetry** means you can fold the figure along a line so both halves match (mirror images). **Rotational symmetry** means you can turn the figure about its centre by less than a full turn and it looks exactly the same. A square has both; the letter A has only line symmetry; the letter S has only rotational symmetry.",
+      "keywords": ["line vs rotational symmetry", "difference line rotational"]
+    },
+    {
+      "q": "Why isn't the diagonal of a rectangle a line of symmetry?",
+      "a": "If you fold a long rectangle along its diagonal, the two triangles have the same area but the corners do not land on top of each other; the flaps stick out. For a line of symmetry the halves must overlap exactly, which happens with the diagonal only when the rectangle is a square.",
+      "keywords": ["rectangle diagonal symmetry", "diagonal line of symmetry"]
+    },
+    {
+      "q": "How do I find the smallest angle of symmetry?",
+      "a": "Turn the figure (or a tracing of it) about its centre and find the smallest turn after which it looks exactly the same. For a design with n identical parts evenly spaced around the centre, it is 360° ÷ n. For example, 5 identical petals give 360° ÷ 5 = 72°.",
+      "keywords": ["smallest angle of symmetry", "find angle of symmetry"]
+    },
+    {
+      "q": "How many lines of symmetry does a circle have?",
+      "a": "Infinitely many. Every straight line through the centre of a circle divides it into two matching halves.",
+      "keywords": ["circle lines of symmetry", "circle symmetry"]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "How many lines of symmetry does a square have?",
+      "options": ["1", "2", "3", "4"],
+      "answer": 3,
+      "explain": "Two lines through midpoints of opposite sides and two diagonals: 4 in all.",
+      "topic": "many-lines",
+      "level": "easy"
+    },
+    {
+      "q": "Which capital letter has a vertical line of symmetry but no horizontal one?",
+      "options": ["B", "A", "N", "S"],
+      "answer": 1,
+      "explain": "A has only a vertical line of symmetry. B has a horizontal one; N and S have none.",
+      "topic": "line-symmetry",
+      "level": "easy"
+    },
+    {
+      "q": "Is the diagonal of a rectangle that is not a square a line of symmetry?",
+      "options": ["No, the two halves do not overlap exactly when folded", "Yes, always", "Yes, but only the longer diagonal", "Yes, both diagonals are"],
+      "answer": 0,
+      "explain": "Folding along the diagonal leaves the corners sticking out. A rectangle has only 2 lines of symmetry, through midpoints of opposite sides.",
+      "topic": "many-lines",
+      "level": "medium"
+    },
+    {
+      "q": "What is the smallest angle of symmetry of an equilateral triangle?",
+      "options": ["60°", "90°", "120°", "180°"],
+      "answer": 2,
+      "explain": "It has 3 identical corners, so 360° ÷ 3 = 120°.",
+      "topic": "rotational-symmetry",
+      "level": "medium"
+    },
+    {
+      "q": "Which letter has rotational symmetry but no line of symmetry?",
+      "options": ["S", "A", "T", "E"],
+      "answer": 0,
+      "explain": "S looks the same after a 180° turn but cannot be folded into matching halves. A, T and E have line symmetry but no rotational symmetry.",
+      "topic": "rotational-symmetry",
+      "level": "medium"
+    },
+    {
+      "q": "How many lines of symmetry does a regular hexagon have?",
+      "options": ["2", "3", "4", "6"],
+      "answer": 3,
+      "explain": "A regular polygon with n sides has n lines of symmetry, so 6.",
+      "topic": "many-lines",
+      "level": "easy"
+    },
+    {
+      "q": "What are the angles of symmetry of a square (up to 360°)?",
+      "options": ["45°, 90° and 360°", "180° and 360° only", "90°, 180°, 270° and 360°", "60°, 120° and 360°"],
+      "answer": 2,
+      "explain": "The smallest is 90°, and all others are multiples of it up to 360°.",
+      "topic": "rotational-symmetry",
+      "level": "easy"
+    },
+    {
+      "q": "How many lines of symmetry does a circle have?",
+      "options": ["None", "Infinitely many", "1", "4"],
+      "answer": 1,
+      "explain": "Every line through the centre is a line of symmetry.",
+      "topic": "circle-and-combined",
+      "level": "easy"
+    },
+    {
+      "q": "A design's smallest angle of symmetry is 72°. How many angles of symmetry does it have in one full turn?",
+      "options": ["4", "5", "6", "72"],
+      "answer": 1,
+      "explain": "360° ÷ 72° = 5: the angles are 72°, 144°, 216°, 288° and 360°.",
+      "topic": "rotational-symmetry",
+      "level": "hard"
+    },
+    {
+      "q": "What is the smallest angle of symmetry of a rectangle that is not a square?",
+      "options": ["90°", "45°", "180°", "360°"],
+      "answer": 2,
+      "explain": "After a 90° turn the long and short sides swap, so it looks different; after 180° it looks the same.",
+      "topic": "rotational-symmetry",
+      "level": "medium"
+    },
+    {
+      "q": "A sheet of paper is folded in half twice (making 4 layers) and one hole is punched through all layers, away from the folds. How many holes are there when it is unfolded?",
+      "options": ["1", "2", "3", "4"],
+      "answer": 3,
+      "explain": "The punch goes through all 4 layers, so 4 holes appear, arranged symmetrically about both fold lines.",
+      "topic": "making-symmetric-shapes",
+      "level": "hard"
+    },
+    {
+      "q": "Which of these has both line symmetry and rotational symmetry?",
+      "options": ["Letter H", "Letter S", "Letter F", "Letter Z"],
+      "answer": 0,
+      "explain": "H has 2 lines of symmetry and looks the same after a 180° turn. S and Z have only rotational symmetry; F has neither.",
+      "topic": "circle-and-combined",
+      "level": "hard"
+    }
+  ]
+}
