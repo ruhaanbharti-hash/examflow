@@ -339,6 +339,24 @@
     .stat .sub { grid-column: 1; }
   }
   @media (prefers-reduced-motion: reduce) { *, .drawer, .rail { transition: none !important; animation: none !important; } }
+  /* exports, streaks, needs-attention (added Nov 2026) */
+  .tb-end { margin-left: auto; display: inline-flex; align-items: center; gap: 6px; }
+  .tb-end svg { width: 15px; height: 15px; }
+  .streak-chip { display: inline-flex; align-items: center; gap: 3px; font-weight: 700; font-size: 13px; color: var(--ink); background: var(--amber-soft); border-radius: 999px; padding: 2px 8px; white-space: nowrap; }
+  .attn-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+  .attn-row { display: flex; gap: 10px; align-items: center; width: 100%; text-align: left; background: none; border: 0; border-radius: 10px; padding: 8px 6px; cursor: pointer; color: inherit; font: inherit; }
+  .attn-row:hover, .attn-row:focus-visible { background: var(--surface-2); }
+  .attn-row .avatar { width: 32px; height: 32px; font-size: 13px; background: var(--amber); }
+  .attn-row b { display: block; font-size: 14px; }
+  .attn-row em { display: block; font-style: normal; font-size: 12.5px; color: var(--muted); line-height: 1.35; }
+  @media (max-width: 720px) { .tb-end { margin-left: 0; } }
+  /* light refresh (Nov 2026) */
+  .nav button { white-space: nowrap; }
+  .table-wrap.flat { overflow-x: auto; }
+  .kpi, .card { transition: box-shadow .15s ease, transform .15s ease; }
+  .kpi:hover { box-shadow: 0 8px 24px rgba(40,30,110,.08); transform: translateY(-1px); }
+  @media (max-width: 720px) { .hello-date { text-align: left; } }
+  @media (prefers-reduced-motion: reduce) { .kpi, .card { transition: none; } .kpi:hover { transform: none; } }
 </style>
 </head>
 <body>
@@ -433,6 +451,7 @@
     settings: '<circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>',
     login: '<path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4M10 17l5-5-5-5M15 12H3"/>',
     upload: '<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M17 8l-5-5-5 5M12 3v12"/>',
+    download: '<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/>',
     target: '<circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/>',
   };
   const icon = (name) => '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + (ICONS[name] || "") + "</svg>";
@@ -737,6 +756,55 @@
       (o.sub ? '<div class="kpi-sub">' + esc(o.sub) + "</div>" : "") + "</div></div>";
   }
 
+  /* ---- shared data helpers: exports, study streaks, students needing attention ---- */
+  async function fetchAllPages(path, key) {
+    const out = [];
+    for (let page = 1; page <= 200; page++) {
+      const r = await api(path + (path.includes("?") ? "&" : "?") + "limit=100&page=" + page);
+      const rows = r[key] || [];
+      out.push(...rows);
+      if (!rows.length || out.length >= (r.total || 0)) break;
+    }
+    return out;
+  }
+  const dayStr = (d) => { const z = new Date(d); return z.getFullYear() + "-" + String(z.getMonth() + 1).padStart(2, "0") + "-" + String(z.getDate()).padStart(2, "0"); };
+  // Same rule as the student app: consecutive days, ending today or yesterday, with a completed study session.
+  function streaksFrom(dates) {
+    const d = new Date(); if (!dates.has(dayStr(d))) d.setDate(d.getDate() - 1);
+    let current = 0; while (dates.has(dayStr(d))) { current++; d.setDate(d.getDate() - 1); }
+    let best = 0, run = 0, prev = null;
+    [...dates].sort().forEach((x) => { const t = new Date(x + "T00:00:00"); run = prev && Math.round((t - prev) / 86400000) === 1 ? run + 1 : 1; best = Math.max(best, run); prev = t; });
+    return { current, best };
+  }
+  let streakCache = null, streakAt = 0;
+  async function getStreaks() {
+    if (streakCache && Date.now() - streakAt < 60000) return streakCache;
+    const done = await fetchAllPages("/api/admin/tasks?status=completed", "tasks");
+    const byUser = new Map();
+    done.forEach((t) => { if (!t.dueDate || !/^\d{4}-\d{2}-\d{2}$/.test(t.dueDate)) return; if (!byUser.has(t.userId)) byUser.set(t.userId, new Set()); byUser.get(t.userId).add(t.dueDate); });
+    const m = new Map(); byUser.forEach((set, id) => m.set(id, streaksFrom(set)));
+    streakCache = m; streakAt = Date.now(); return m;
+  }
+  const streakCell = (x) => x && x.current ? '<span class="streak-chip" title="Best: ' + plural(x.best, "day", "days") + '">🔥 ' + fmt(x.current) + "</span>" : '<span class="dim">—</span>';
+  function csvCell(v) {
+    let t = v == null ? "" : String(v);
+    if (/^[=+\-@\t\r]/.test(t)) t = "'" + t; // student-written text can't run as a spreadsheet formula
+    return /[",\n\r]/.test(t) ? '"' + t.replace(/"/g, '""') + '"' : t;
+  }
+  function downloadCsv(name, header, rows) {
+    const text = "﻿" + [header, ...rows].map((r) => r.map(csvCell).join(",")).join("\r\n");
+    const url = URL.createObjectURL(new Blob([text], { type: "text/csv;charset=utf-8" }));
+    const a = document.createElement("a"); a.href = url; a.download = name; document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 2000);
+  }
+  const xlDate = (ts) => (ts ? new Date(ts).toLocaleString("en-IN", { timeZone: TZ, day: "2-digit", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit" }) : "");
+  async function runExport(btn, work) {
+    const label = btn.textContent; btn.disabled = true; btn.textContent = "Preparing…";
+    try { const n = await work(); toast(n ? "Downloaded " + plural(n, "row", "rows") + " for Excel" : "Nothing to download with these filters"); }
+    catch (e) { if (e.status !== 401 && e.status !== 403) toast("Couldn't prepare the download. Please try again."); }
+    finally { btn.disabled = false; btn.textContent = label; }
+  }
+
   async function pageOverview() {
     const nowTxt = new Date().toLocaleDateString("en-IN", { weekday: "short", day: "numeric", month: "short", year: "numeric", timeZone: TZ });
     $("main").innerHTML =
@@ -758,6 +826,7 @@
           "</div>" +
         "</div>" +
         '<aside class="cc-side">' +
+          '<div class="card"><div class="card-head"><h3>' + icon("alert") + 'Needs attention</h3><span class="dim" id="ov-attn-n" style="font-size:13px"></span></div><div id="ov-attn">' + skRows(3) + '</div><p class="panel-note" style="margin:8px 0 0">Exam in the next 3 weeks, but no ExamFlow activity for 7+ days.</p></div>' +
           '<div class="card"><div class="card-head"><h3><span class="live-dot"></span>Live activity</h3><button class="link-btn" id="feed-refresh">↻ Refresh</button></div><div id="ov-feed">' + skRows(6) + '</div><p class="panel-note" id="feed-note" style="margin:8px 0 0"></p></div>' +
           '<div class="card"><div class="card-head"><h3>' + icon("server") + 'System health</h3><span class="dim" id="ov-health-sum" style="font-size:13px"></span></div><div id="ov-health">' + skRows(4) + "</div></div>" +
         "</aside>" +
@@ -772,9 +841,36 @@
     $("ov-all-students").onclick = () => go("students");
     $("ov-all-fb").onclick = () => go(ovFbTab === "bug" ? "bugs" : ovFbTab === "feature" ? "features" : "feedback");
     $("feed-refresh").onclick = () => loadFeed(true);
-    loadKpis(); loadRegChart(); loadActChart(); loadOvStudents(); loadOvInbox(); loadFeed(); loadOvHealth();
+    loadKpis(); loadRegChart(); loadActChart(); loadOvStudents(); loadOvInbox(); loadFeed(); loadOvHealth(); loadAttention();
     every(30000, () => { loadFeed(); const t = $("ov-time"); if (t) t.textContent = timeOnly(new Date()); });
     every(60000, () => { loadKpis(true); loadOvHealth(true); });
+  }
+
+  async function loadAttention() {
+    const box = $("ov-attn"); if (!box) return;
+    try {
+      const [users, exams] = await Promise.all([fetchAllPages("/api/admin/users?sort=newest", "users"), fetchAllPages("/api/admin/exams?status=upcoming", "exams")]);
+      const today = new Date(dayStr(new Date()) + "T00:00:00");
+      const soon = new Map();
+      exams.forEach((e) => {
+        if (!e.examDate) return;
+        const days = Math.round((new Date(e.examDate + "T00:00:00") - today) / 86400000);
+        if (days < 0 || days > 21) return;
+        const cur = soon.get(e.userId); if (!cur || days < cur.days) soon.set(e.userId, { days, subject: e.subject || "An exam" });
+      });
+      const list = users.filter((u) => u.accountStatus !== "disabled" && soon.has(u.id) && (!u.lastActiveAt || Date.now() - new Date(u.lastActiveAt) >= 7 * 86400000))
+        .map((u) => ({ u, ex: soon.get(u.id) })).sort((a, b) => a.ex.days - b.ex.days);
+      const n = $("ov-attn-n"); if (n) n.textContent = list.length ? plural(list.length, "student", "students") : "";
+      if (!list.length) { box.innerHTML = '<div class="dim" style="padding:6px 0">Everyone with an exam coming up has used ExamFlow this week.</div>'; return; }
+      box.innerHTML = '<ul class="attn-list">' + list.slice(0, 6).map(({ u, ex }) =>
+        '<li><button class="attn-row" data-id="' + u.id + '">' + avatar(u.name) + '<span><b>' + esc(u.name) + "</b><em>" + esc(ex.subject) + " exam " + (ex.days === 0 ? "today" : ex.days === 1 ? "tomorrow" : "in " + ex.days + " days") +
+        " · " + (u.lastActiveAt ? "quiet for " + plural(Math.floor((Date.now() - new Date(u.lastActiveAt)) / 86400000), "day", "days") : "never active") + "</em></span></button></li>").join("") + "</ul>" +
+        (list.length > 6 ? '<p class="panel-note" style="margin:6px 0 0">and ' + plural(list.length - 6, "more student", "more students") + "</p>" : "");
+      box.querySelectorAll(".attn-row").forEach((b) => b.addEventListener("click", () => openStudent(Number(b.dataset.id))));
+    } catch (e) {
+      if (e.status === 401 || e.status === 403) return;
+      box.innerHTML = errorBox("Unable to load this list.", loadAttention);
+    }
   }
 
   let ovTasks = null;
@@ -796,7 +892,7 @@
         kpi({ label: "Total study tasks", value: t.total, icon: "list", tone: "blue", sub: "in students' study plans" }) +
         kpi({ label: "Completed tasks", value: t.completed, icon: "check", tone: "green", sub: pct(t.completed, t.total) + "% completion" }) +
         kpi({ label: "Pending tasks", value: pending, icon: "clock", tone: "amber", sub: fmt(t.overdue) + " overdue" }) +
-        kpi({ label: "Total feedback", value: f.feedback + f.features, icon: "message", tone: "indigo", trend: trendBadge(fbT), sub: "+" + fmt(fbMonth) + " this month" }) +
+        kpi({ label: "Feedback & requests", value: f.feedback + f.features, icon: "message", tone: "indigo", trend: trendBadge(fbT), sub: fmt(f.feedback) + " feedback · " + plural(f.features, "request", "requests") }) +
         kpi({ label: "Open bug reports", value: f.openBugs, icon: "bug", tone: "red", sub: "from " + plural(f.bugs, "report", "reports") });
       drawDonut();
     } catch (e) {
@@ -827,7 +923,7 @@
     const el = $("ch-reg"); if (!el) return;
     try {
       const c = await api("/api/admin/charts?range=" + ovRange);
-      drawChart(el, c.points, c.unit, [{ key: "signups", label: "New students", color: "var(--indigo)", type: "line", area: true }]);
+      drawChart(el, c.points, c.unit, [{ key: "signups", label: "New students", color: "var(--indigo)" }]);
     } catch (e) {
       if (e.status === 401 || e.status === 403) return;
       el.innerHTML = errorBox("Unable to load this chart.", loadRegChart);
@@ -988,12 +1084,22 @@
         '<select class="select" id="s-sort" aria-label="Sort"><option value="newest">Newest first</option><option value="oldest">Oldest first</option><option value="last_active">Recently active</option></select>' +
         '<label class="dim" style="font-size:13px">Joined from <input class="input date" type="date" id="s-from" value="' + esc(st.from) + '"></label>' +
         '<label class="dim" style="font-size:13px">to <input class="input date" type="date" id="s-to" value="' + esc(st.to) + '"></label>' +
+        '<button class="btn btn-quiet tb-end" id="s-export" title="Downloads every student matching these filters as a file Excel opens">' + icon("download") + 'Download for Excel</button>' +
       '</div><div id="s-body">' + skRows(6) + "</div>";
     $("s-status").value = st.status; $("s-sort").value = st.sort;
     let t;
     $("s-q").addEventListener("input", (e) => { clearTimeout(t); t = setTimeout(() => { st.q = e.target.value.trim(); st.page = 1; loadStudents(); }, 300); });
     [["s-status", "status"], ["s-sort", "sort"], ["s-from", "from"], ["s-to", "to"]].forEach(([id, k]) =>
       $(id).addEventListener("change", (e) => { st[k] = e.target.value; st.page = 1; loadStudents(); }));
+    $("s-export").addEventListener("click", (e) => runExport(e.currentTarget, async () => {
+      const qs = new URLSearchParams({ sort: st.sort, status: st.status });
+      if (st.q) qs.set("q", st.q); if (st.from) qs.set("joinedFrom", st.from); if (st.to) qs.set("joinedTo", st.to);
+      const [all, sm] = await Promise.all([fetchAllPages("/api/admin/users?" + qs, "users"), getStreaks().catch(() => new Map())]);
+      downloadCsv("examflow-students-" + dayStr(new Date()) + ".csv",
+        ["Name", "Email", "Role", "Account", "Registered", "Last active", "Exams", "Upcoming exams", "Study tasks", "Tasks completed", "Current streak (days)", "Best streak (days)"],
+        all.map((u) => { const k = sm.get(u.id) || { current: 0, best: 0 }; return [u.name, u.email, u.isAdmin ? "Admin" : "Student", u.accountStatus === "disabled" ? "Disabled" : "Active", xlDate(u.createdAt), xlDate(u.lastActiveAt), u.exams, u.upcomingExams, u.tasks, u.tasksCompleted, k.current, k.best]; }));
+      return all.length;
+    }));
     loadStudents();
   }
   async function loadStudents() {
@@ -1002,14 +1108,15 @@
     const qs = new URLSearchParams({ page: st.page, limit: 25, sort: st.sort, status: st.status });
     if (st.q) qs.set("q", st.q); if (st.from) qs.set("joinedFrom", st.from); if (st.to) qs.set("joinedTo", st.to);
     try {
-      const r = await api("/api/admin/users?" + qs);
+      const [r, sm] = await Promise.all([api("/api/admin/users?" + qs), getStreaks().catch(() => null)]);
       if (!r.users.length) { box.innerHTML = '<div class="table-wrap">' + empty(st.q || st.from || st.to || st.status !== "all" ? "No students match these filters" : "No students yet", st.q ? "Try part of a name or email address." : "New accounts appear here as soon as students sign up.") + "</div>"; return; }
-      box.innerHTML = '<div class="table-wrap"><table><thead><tr><th>Student</th><th>Registered</th><th>Last active</th><th class="r">Exams</th><th class="r">Tasks</th><th class="r">Completed</th><th>Account</th><th></th></tr></thead><tbody>' +
+      box.innerHTML = '<div class="table-wrap"><table><thead><tr><th>Student</th><th>Registered</th><th>Last active</th><th class="r">Exams</th><th class="r">Tasks</th><th class="r">Completed</th><th class="r" title="Days in a row with a completed study session">Streak</th><th>Account</th><th></th></tr></thead><tbody>' +
         r.users.map((u) => '<tr class="click" data-id="' + u.id + '">' +
           '<td class="person"><b>' + esc(u.name) + (u.isAdmin ? " " + pill("Admin", "indigo") : "") + "</b><span>" + esc(u.email) + "</span></td>" +
           "<td>" + dateOnly(u.createdAt) + "</td><td>" + ago(u.lastActiveAt) + "</td>" +
           '<td class="r">' + fmt(u.exams) + '</td><td class="r">' + fmt(u.tasks) + '</td><td class="r">' + fmt(u.tasksCompleted) +
             (u.tasks ? '<div class="bar"><span style="width:' + pct(u.tasksCompleted, u.tasks) + '%"></span></div>' : "") + "</td>" +
+          '<td class="r">' + (sm ? streakCell(sm.get(u.id)) : '<span class="dim">—</span>') + "</td>" +
           "<td>" + (u.accountStatus === "disabled" ? pill("Disabled", "red") : pill("Active", "green")) + '</td><td><button class="link-btn" data-view="' + u.id + '">View</button></td></tr>').join("") +
         "</tbody></table></div>" + pager(r, (p) => { st.page = p; loadStudents(); });
       box.querySelectorAll("tr.click").forEach((tr) => tr.addEventListener("click", () => openStudent(Number(tr.dataset.id))));
@@ -1050,12 +1157,14 @@
   async function openStudent(id) {
     openDrawer(drawerHead("Loading student…") + '<div class="drawer-body">' + skStats(4) + skRows(4) + "</div>");
     try {
-      const r = await api("/api/admin/users/" + id);
+      const [r, sm] = await Promise.all([api("/api/admin/users/" + id), getStreaks().catch(() => null)]);
       const s = r.student, t = r.tasks, x = r.examSummary;
+      const sk = sm ? sm.get(s.id) || { current: 0, best: 0 } : null;
       openDrawer(drawerHead(s.name, esc(s.email)) + '<div class="drawer-body">' +
         '<div class="panel"><dl class="kv">' +
           "<div><dt>Account created</dt><dd>" + dateOnly(s.createdAt) + "</dd></div>" +
           "<div><dt>Last activity</dt><dd>" + ago(s.lastActiveAt) + "</dd></div>" +
+          (sk ? "<div><dt>Study streak</dt><dd>" + (sk.current ? "🔥 " + plural(sk.current, "day", "days") + " now" : "No current streak") + (sk.best ? ' <span class="dim">· best ' + plural(sk.best, "day", "days") + "</span>" : "") + "</dd></div>" : "") +
           "<div><dt>Account status</dt><dd>" + (s.accountStatus === "disabled" ? pill("Disabled", "red") : pill("Active", "green")) + (s.isAdmin ? " " + pill("Admin", "indigo") : "") + "</dd></div>" +
         "</dl></div>" +
         '<div class="stats">' +
@@ -1375,8 +1484,19 @@
         '<select class="select" id="ib-priority" aria-label="Priority"></select>' +
         '<input class="input" type="search" id="ib-q" placeholder="Search text or student" value="' + esc(s.q) + '" aria-label="Search" />' +
         '<select class="select" id="ib-sort" aria-label="Sort">' + sorts.map(([v, l]) => '<option value="' + v + '">' + l + "</option>").join("") + "</select>" +
+        '<button class="btn btn-quiet tb-end" id="ib-export" title="Downloads every item matching these filters as a file Excel opens">' + icon("download") + 'Download for Excel</button>' +
       '</div><div id="ib-body">' + skRows(6) + "</div>";
     $("ib-sort").value = s.sort;
+    $("ib-export").addEventListener("click", (e) => runExport(e.currentTarget, async () => {
+      const qs = new URLSearchParams({ type, sort: s.sort });
+      ["category", "status", "priority", "q"].forEach((k) => s[k] && qs.set(k, s[k]));
+      const all = await fetchAllPages("/api/admin/inbox?" + qs, "items");
+      downloadCsv("examflow-" + (type === "bug" ? "bug-reports" : type === "feature" ? "feature-requests" : "feedback") + "-" + dayStr(new Date()) + ".csv",
+        ["Type", "Title", "Message", "Category", "Status", "Priority", "Requests", "Student", "Student email", "Sent from", "Received", "Last updated"],
+        all.map((it) => [type === "bug" ? "Bug report" : it.category === "feature_request" ? "Feature request" : "Feedback", it.title || "", it.message, CATEGORY_LABEL[it.category] || it.category || "", STATUS_LABEL[it.status] || it.status, PRIORITY_LABEL[it.priority] || it.priority || "", it.requestCount || 1,
+          it.user ? it.user.name : "Guest or deleted account", it.user ? it.user.email : "", it.page || "", xlDate(it.createdAt), xlDate(it.updatedAt)]));
+      return all.length;
+    }));
     bindSeg("ib-cat", (v) => { s.category = v; s.page = 1; loadInbox2(type); });
     let t;
     $("ib-q").addEventListener("input", (e) => { clearTimeout(t); t = setTimeout(() => { s.q = e.target.value.trim(); s.page = 1; loadInbox2(type); }, 300); });
@@ -1605,7 +1725,7 @@
         '<label class="field" for="af-title">Title</label><input class="input" id="af-title" maxlength="120" value="' + esc(a.title) + '">' +
         '<label class="field" for="af-msg">Message</label><textarea class="input" id="af-msg" rows="4" maxlength="2000">' + esc(a.message) + "</textarea>" +
         '<div class="form-grid">' +
-          '<label class="field">Type<select class="select" id="af-type">' + Object.keys(ANN_TYPE_LABEL).map((k) => '<option value="' + k + '"' + (k === a.type ? " selected" : "") + ">" + ANN_TYPE_LABEL[k] + "</option>").join("") + "</select></label>" +
+          '<label class="field">Type<select class="select" id="af-type">' + Object.keys(ANN_TYPE_LABEL).map((k) => '<option value="' + k + '"' + (k === a.type ? " selected" : "") + ">" + ANN_TYPE_LABEL[k] + ({ general: " (students see “Update”)", feature_update: " (students see “New”)" }[k] || "") + "</option>").join("") + "</select></label>" +
           '<label class="field">Status<select class="select" id="af-status">' + ["draft", "published", "archived"].map((k) => '<option value="' + k + '"' + (k === a.status ? " selected" : "") + ">" + k[0].toUpperCase() + k.slice(1) + "</option>").join("") + "</select></label>" +
           '<label class="field">Publish date (optional)<input class="input" type="datetime-local" id="af-date" value="' + esc(toLocalInput(a.publishAt)) + '"></label>' +
         '</div><p class="dim" style="font-size:13px;margin:8px 0 0">Leave the date empty to show it as soon as it\'s published. A future date schedules it.</p>' +
