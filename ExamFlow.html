@@ -10,7 +10,80 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <script type="module" crossorigin>(function(){const t=document.createElement("link").relList;if(t&&t.supports&&t.supports("modulepreload"))return;for(const l of document.querySelectorAll('link[rel="modulepreload"]'))r(l);new MutationObserver(l=>{for(const a of l)if(a.type==="childList")for(const i of a.addedNodes)i.tagName==="LINK"&&i.rel==="modulepreload"&&r(i)}).observe(document,{childList:!0,subtree:!0});function n(l){const a={};return l.integrity&&(a.integrity=l.integrity),l.referrerPolicy&&(a.referrerPolicy=l.referrerPolicy),l.crossOrigin==="use-credentials"?a.credentials="include":l.crossOrigin==="anonymous"?a.credentials="omit":a.credentials="same-origin",a}function r(l){if(l.ep)return;l.ep=!0;const a=n(l);fetch(l.href,a)}})();function cp(e){return e&&e.__esModule&&Object.prototype.hasOwnProperty.call(e,"default")?e.default:e}var Eu={exports:{}},$l={},Du={exports:{}},K={};/**
+  <script>
+/* ExamFlow V1 reliability helpers. Kept separate from the app code so they are easy to review or remove.
+   1. Shows "Server is starting up. This may take a moment…" when a request to the ExamFlow server
+      takes longer than 4 seconds (the free server sleeps when idle), and hides it when the reply arrives.
+   2. Gives every server request a time limit, so a stuck request ends with the app's normal
+      "Can't reach the server" message instead of hanging forever.
+   3. Ignores accidental repeat clicks on Add / Save / Create-style buttons, so one tap makes one item. */
+(function () {
+  var SLOW_MS = 4000;          // show the notice after this long
+  var LIMIT_MS = 75000;        // normal requests: a sleeping server can take about a minute to wake
+  var LONG_LIMIT_MS = 150000;  // AI syllabus import and AI practice questions take longer
+  var nativeFetch = window.fetch;
+  if (!nativeFetch || !window.AbortController) return;
+
+  var waiting = 0, notice = null;
+  function showNotice() {
+    if (!notice) {
+      notice = document.createElement("div");
+      notice.id = "ef-wake";
+      notice.setAttribute("role", "status");
+      notice.setAttribute("aria-live", "polite");
+      notice.innerHTML = '<span class="ef-wake-dot" aria-hidden="true"></span><span>Server is starting up. This may take a moment…</span>';
+    }
+    if (!notice.isConnected && document.body) document.body.appendChild(notice);
+  }
+  function hideNotice() { if (notice && notice.isConnected) notice.remove(); }
+
+  window.fetch = function (input, init) {
+    var url = typeof input === "string" ? input : (input && input.url) || "";
+    if (url.indexOf("/api/") === -1) return nativeFetch.apply(this, arguments);
+    var background = /\/api\/(track|announcements)\b/.test(url);   // the student is not waiting on these
+    var long = /\/api\/(import|ai)\//.test(url);
+    init = init || {};
+    var ctrl = new AbortController();
+    if (init.signal) {
+      if (init.signal.aborted) ctrl.abort();
+      else init.signal.addEventListener("abort", function () { ctrl.abort(); });
+    }
+    var limit = setTimeout(function () { ctrl.abort(); }, long ? LONG_LIMIT_MS : LIMIT_MS);
+    var counted = false;
+    var slow = background ? null : setTimeout(function () { counted = true; waiting++; showNotice(); }, SLOW_MS);
+    var opts = {};
+    for (var k in init) opts[k] = init[k];
+    opts.signal = ctrl.signal;
+    function finish() {
+      clearTimeout(limit);
+      if (slow) clearTimeout(slow);
+      if (counted) { waiting = Math.max(0, waiting - 1); if (!waiting) hideNotice(); }
+    }
+    return nativeFetch.call(this, input, opts).then(
+      function (res) { finish(); return res; },
+      function (err) { finish(); throw err; }
+    );
+  };
+
+  var lastClick = new WeakMap();
+  var CREATE_LABEL = /^\s*\+?\s*(add|save|create|import|generate|sign up|log in|submit|send)\b/i;
+  window.addEventListener("click", function (e) {
+    var btn = e.target && e.target.closest && e.target.closest("button");
+    if (!btn || !CREATE_LABEL.test(btn.innerText || btn.textContent || "")) return;
+    var now = Date.now(), prev = lastClick.get(btn) || 0;
+    lastClick.set(btn, now);
+    if (now - prev < 800) { e.preventDefault(); e.stopPropagation(); e.stopImmediatePropagation(); }
+  }, true);
+})();
+</script>
+<style>
+#ef-wake{position:fixed;top:14px;left:50%;transform:translateX(-50%);z-index:2147483000;display:flex;align-items:center;gap:10px;width:max-content;max-width:calc(100% - 32px);box-sizing:border-box;padding:10px 16px;border-radius:18px;background:var(--surface,#ffffff);color:var(--ink,#17142B);border:1px solid var(--border,#ECEAF5);box-shadow:0 8px 24px rgba(40,30,110,.16);font:500 14px/1.35 Manrope,system-ui,-apple-system,"Segoe UI",sans-serif;animation:ef-wake-in .2s ease-out}
+#ef-wake .ef-wake-dot{flex:none;width:10px;height:10px;border-radius:50%;background:var(--indigo,#5B4FE8);animation:ef-wake-pulse 1.2s ease-in-out infinite}
+@keyframes ef-wake-in{from{opacity:0;transform:translate(-50%,-6px)}to{opacity:1;transform:translate(-50%,0)}}
+@keyframes ef-wake-pulse{0%,100%{opacity:.35}50%{opacity:1}}
+@media (prefers-reduced-motion:reduce){#ef-wake,#ef-wake .ef-wake-dot{animation:none}}
+</style>
+<script type="module" crossorigin>(function(){const t=document.createElement("link").relList;if(t&&t.supports&&t.supports("modulepreload"))return;for(const l of document.querySelectorAll('link[rel="modulepreload"]'))r(l);new MutationObserver(l=>{for(const a of l)if(a.type==="childList")for(const i of a.addedNodes)i.tagName==="LINK"&&i.rel==="modulepreload"&&r(i)}).observe(document,{childList:!0,subtree:!0});function n(l){const a={};return l.integrity&&(a.integrity=l.integrity),l.referrerPolicy&&(a.referrerPolicy=l.referrerPolicy),l.crossOrigin==="use-credentials"?a.credentials="include":l.crossOrigin==="anonymous"?a.credentials="omit":a.credentials="same-origin",a}function r(l){if(l.ep)return;l.ep=!0;const a=n(l);fetch(l.href,a)}})();function cp(e){return e&&e.__esModule&&Object.prototype.hasOwnProperty.call(e,"default")?e.default:e}var Eu={exports:{}},$l={},Du={exports:{}},K={};/**
  * @license React
  * react.production.min.js
  *
